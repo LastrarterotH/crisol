@@ -1,5 +1,5 @@
 // La mesa: fichas que se arrastran y se mezclan de a dos.
-import { D, IA, SERVIDOR, RECETA, ANALIZADAS, clave, esc, rico, norm, registrarCartaIA, recetasDe } from "./datos.js";
+import { D, RECETA, clave, esc, norm, recetasDe } from "./datos.js";
 import { E, tiene, guardar, descubiertas } from "./estado.js";
 import { $, aviso, avisoRico, chipHtml } from "./ui.js";
 import { sonar, activarSonido } from "./sonido.js";
@@ -92,11 +92,11 @@ function vincular(t) {
       caja.classList.remove("soltar-aqui");
       if (!movida) { if (ev.type === "pointerup") abrirFicha(t.id); return; }
       if (sobreCaja(ev.clientX, ev.clientY)) { quitar(t); guardarPizarra(); return; }
-      if (obj) combinar(t, obj); else { acotar(t); guardarPizarra(); }
+      if (obj) combinar(t, obj); else { acotar(t); acomodar(t); guardarPizarra(); }
     };
     el.addEventListener("pointermove", mover); el.addEventListener("pointerup", soltar); el.addEventListener("pointercancel", soltar);
   });
-  el.addEventListener("dblclick", () => { const c = agregar(t.id, t.x + 26, t.y + 26, { nace: true }); if (c) guardarPizarra(); });
+  el.addEventListener("dblclick", () => { const c = agregar(t.id, t.x + 26, t.y + 26, { nace: true }); if (c) { acomodar(c); guardarPizarra(); } });
   el.addEventListener("keydown", e => {
     if (e.key === "Enter" || e.key === " ") { e.preventDefault(); abrirFicha(t.id); }
     if (e.key === "Delete" || e.key === "Backspace") { quitar(t); guardarPizarra(); }
@@ -127,55 +127,32 @@ function sugerencia(a, b) {
   }
   return "Prueba con otra pareja.";
 }
-function noCombina(a, b, motivo, ofrecerIA) {
+function noCombina(a, b) {
   const cx = b.x + b.el.offsetWidth / 2, cy = b.y + b.el.offsetHeight / 2;
   a.el.classList.add("niega"); b.el.classList.add("niega");
   setTimeout(() => { a.el.classList.remove("niega"); b.el.classList.remove("niega"); }, 460);
-  a.x = b.x + b.el.offsetWidth + 14; a.y = b.y + 6; acotar(a);
+  a.x = b.x + b.el.offsetWidth + 14; a.y = b.y + 6; acotar(a); acomodar(a);
   nube(cx, cy); sonar.fallo();
-  const f = document.createDocumentFragment();
-  const t = document.createElement("b"); t.innerHTML = rico(D.fichas[a.id].e + " " + D.fichas[a.id].n + " + " + D.fichas[b.id].e + " " + D.fichas[b.id].n); f.appendChild(t);
-  const p = document.createElement("span"); p.innerHTML = rico(motivo + " " + sugerencia(a.id, b.id)); f.appendChild(p);
-  if (ofrecerIA && SERVIDOR.conectado && SERVIDOR.ia) {
-    const btn = document.createElement("button");
-    btn.type = "button"; btn.className = "boton-papel";
-    btn.textContent = "🔮 Que Claude lo piense igual";
-    btn.addEventListener("click", async () => {
-      btn.closest(".aviso").remove();
-      if (!fichas.includes(a) || !fichas.includes(b)) { aviso("Vuelve a poner las dos fichas en la pizarra."); return; }
-      const x = b.x + b.el.offsetWidth / 2, y = b.y + b.el.offsetHeight / 2;
-      const ida = a.id, idb = b.id;
-      await fundir(a, b, x, y);
-      consultarIA(ida, idb, clave(ida, idb), x, y);
-    });
-    f.appendChild(btn);
-  }
-  aviso(f, { ms: ofrecerIA ? 8000 : 5000 });
+  avisoRico(D.fichas[a.id].e + " " + D.fichas[a.id].n + " + " + D.fichas[b.id].e + " " + D.fichas[b.id].n, "Esta pareja no forma una idea del juego. " + sugerencia(a.id, b.id));
   guardarPizarra();
 }
 export async function combinar(a, b) {
-  const k = clave(a.id, b.id);
+  const rec = RECETA.get(clave(a.id, b.id));
+  if (!rec) { noCombina(a, b); return; }
   const ida = a.id, idb = b.id;
   const cx = b.x + b.el.offsetWidth / 2, cy = b.y + b.el.offsetHeight / 2;
-  const rec = RECETA.get(k);
-  if (rec) { await fundir(a, b, cx, cy); concretar(ida, idb, rec[2], cx, cy, { rec, nota: rec[3] }); return; }
-  const c = IA.combos[k];
-  if (c && c.res && D.fichas[c.res]) { await fundir(a, b, cx, cy); concretar(ida, idb, c.res, cx, cy, { nota: c.nota }); return; }
-  if (c && c.none) { noCombina(a, b, c.motivo); return; }
-  if (ANALIZADAS.has(ida) && ANALIZADAS.has(idb)) { noCombina(a, b, "Esta pareja no forma un concepto establecido.", true); return; }
-  if (!SERVIDOR.conectado || !SERVIDOR.ia) { noCombina(a, b, "No hay una receta conocida para esta pareja."); return; }
   await fundir(a, b, cx, cy);
-  consultarIA(ida, idb, k, cx, cy);
+  concretar(ida, idb, rec, cx, cy);
 }
-function concretar(ida, idb, res, cx, cy, { rec, nota, prediccion } = {}) {
-  const f = D.fichas[res];
-  agregar(res, cx, cy, { centrar: true, nace: true });
+function concretar(ida, idb, rec, cx, cy) {
+  const res = rec[2], f = D.fichas[res];
+  const t = agregar(res, cx, cy, { centrar: true, nace: true });
+  if (t) acomodar(t);
   if (!reducido()) { const onda = document.createElement("span"); onda.className = "onda-mezcla f-" + f.f; onda.style.left = cx + "px"; onda.style.top = cy + "px"; pizarra.appendChild(onda); setTimeout(() => onda.remove(), 900); }
-  rafaga(cx, cy, COLOR[f.f] || "#fff", f.f === "sint" ? 90 : 48, f.f === "sint" ? 1.4 : 1);
+  rafaga(cx, cy, COLOR[f.f] || "#e0a01a", f.f === "sint" ? 90 : 48, f.f === "sint" ? 1.4 : 1);
   const k = clave(ida, idb);
-  const caminoNuevo = !!rec && !E.caminos[k];
-  if (rec) E.caminos[k] = Date.now();
-  if (prediccion) E.predicciones[k] = prediccion;
+  const caminoNuevo = !E.caminos[k];
+  E.caminos[k] = Date.now();
   const nueva = !tiene(res);
   if (nueva) {
     E.descubiertos[res] = Date.now();
@@ -186,55 +163,30 @@ function concretar(ida, idb, res, cx, cy, { rec, nota, prediccion } = {}) {
     renderCaja(res);
   } else if (caminoNuevo) {
     sonar.exito(f.nivel || 1);
-    avisoRico("Nuevo camino hacia " + f.e + " " + f.n + " (" + caminosHallados(res) + " de " + recetasDe(res).length + ")", nota || "", { familia: f.f, ms: 6500 });
+    avisoRico("Nuevo camino hacia " + f.e + " " + f.n + " (" + caminosHallados(res) + " de " + recetasDe(res).length + ")", rec[3] || "", { familia: f.f, ms: 6500 });
   } else sonar.exito(f.nivel || 1);
   guardarPizarra();
   emitir("mezcla", { id: res, via: [ida, idb], nueva, caminoNuevo });
 }
 
-/* ---------- Claude, para lo que no está en el núcleo ---------- */
-const enCurso = new Set();
-function crearEspera(cx, cy) {
-  const el = document.createElement("div");
-  el.className = "ficha pensando";
-  el.innerHTML = '<div class="fila"><span class="giro" aria-hidden="true"></span><span>Claude está mezclando…</span><button class="cancelar" type="button" aria-label="Cancelar">✕</button></div><small>Mientras tanto, ¿qué crees que saldrá?</small><input type="text" maxlength="60" placeholder="Tu predicción">';
-  el.style.zIndex = ++z;
-  el.addEventListener("pointerdown", e => e.stopPropagation());
-  pizarra.appendChild(el);
-  el.style.left = Math.max(6, Math.min(pizarra.clientWidth - el.offsetWidth - 6, cx - el.offsetWidth / 2)) + "px";
-  el.style.top = Math.max(6, Math.min(pizarra.clientHeight - el.offsetHeight - 6, cy - el.offsetHeight / 2)) + "px";
-  const ctl = new AbortController();
-  el.querySelector(".cancelar").addEventListener("click", () => ctl.abort());
-  setTimeout(() => el.querySelector("input").focus({ preventScroll: true }), 80);
-  return { ctl, quitar: () => el.remove(), prediccion: () => el.querySelector("input").value.trim() };
-}
-async function consultarIA(ida, idb, k, cx, cy) {
-  if (enCurso.has(k)) return;
-  enCurso.add(k);
-  sonar.pensando();
-  const w = crearEspera(cx, cy);
-  let r;
-  try {
-    const resp = await fetch("api/combinar", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ a: ida, b: idb }), signal: w.ctl.signal });
-    r = await resp.json();
-    if (!resp.ok) throw new Error(r.error || "error");
-  } catch (e) {
-    w.quitar(); enCurso.delete(k);
-    agregar(ida, cx - 80, cy, { centrar: true, niega: true }); agregar(idb, cx + 80, cy, { centrar: true, niega: true });
-    guardarPizarra();
-    if (e.name !== "AbortError") aviso(e.message && e.message !== "error" ? e.message : "No se pudo consultar a Claude. Vuelve a intentarlo.");
-    return;
+/* ---------- Que ninguna ficha quede encima de otra ---------- */
+// Busca el hueco libre más cercano dentro de la mesa; si la ficha no choca con nada, no se mueve.
+function acomodar(t) {
+  const W = pizarra.clientWidth, H = pizarra.clientHeight, M = 6, G = 10;
+  const w = t.el.offsetWidth, h = t.el.offsetHeight;
+  const otras = fichas.filter(o => o !== t);
+  const choca = (x, y) => otras.some(o => x < o.x + o.el.offsetWidth + G && x + w + G > o.x && y < o.y + o.el.offsetHeight + G && y + h + G > o.y);
+  if (!choca(t.x, t.y)) return;
+  let mejor = null, md = Infinity;
+  for (let y = M; y <= H - h - M; y += 8) for (let x = M; x <= W - w - M; x += 8) {
+    const dd = (x - t.x) ** 2 + (y - t.y) ** 2;
+    if (dd >= md || choca(x, y)) continue;
+    md = dd; mejor = { x, y };
   }
-  const pred = w.prediccion();
-  w.quitar(); enCurso.delete(k);
-  if (r.carta) { IA.cartas[r.res] = r.carta; registrarCartaIA(r.res, r.carta); }
-  IA.combos[k] = r.none ? { none: true, motivo: r.motivo } : { res: r.res, nota: r.nota };
-  if (r.none || !D.fichas[r.res]) {
-    const a = agregar(ida, cx - 80, cy, { centrar: true }), b = agregar(idb, cx + 80, cy, { centrar: true });
-    noCombina(a, b, (r.motivo || "No hay un concepto que una estas dos fichas.") + (pred ? " (Tu predicción: " + pred + ".)" : ""));
-    return;
-  }
-  concretar(ida, idb, r.res, cx, cy, { nota: r.nota, prediccion: pred });
+  if (!mejor) return;
+  t.x = mejor.x; t.y = mejor.y;
+  if (!reducido()) { t.el.style.transition = "left .28s cubic-bezier(.2,.8,.3,1), top .28s cubic-bezier(.2,.8,.3,1)"; setTimeout(() => { t.el.style.transition = ""; }, 320); }
+  ubicar(t);
 }
 
 /* ---------- Caja de fichas ---------- */
@@ -250,7 +202,7 @@ function lugarLibre() {
   }
   return p;
 }
-export function llevar(id) { const p = lugarLibre(); const t = agregar(id, p.x, p.y, { centrar: true, nace: true }); sonar.toque(); guardarPizarra(); return t; }
+export function llevar(id) { const p = lugarLibre(); const t = agregar(id, p.x, p.y, { centrar: true, nace: true }); if (t) acomodar(t); sonar.toque(); guardarPizarra(); return t; }
 const ORDENES = ["recientes", "alfabetico", "familia"];
 $("btnOrden").addEventListener("click", () => { E.orden = ORDENES[(ORDENES.indexOf(E.orden) + 1) % ORDENES.length]; guardar(); renderCaja(); aviso("Orden: " + { recientes: "lo más reciente primero", alfabetico: "alfabético", familia: "por familia" }[E.orden], { ms: 1600 }); });
 buscar.addEventListener("input", () => renderCaja());
@@ -296,7 +248,7 @@ function arrastrarDesdeCaja(e, id, chip) {
     const p = enPizarra(ev.clientX, ev.clientY);
     if (!p || ev.type !== "pointerup") return;
     const t = agregar(id, p.x, p.y, { centrar: true });
-    if (obj) combinar(t, obj); else guardarPizarra();
+    if (obj) combinar(t, obj); else { acomodar(t); guardarPizarra(); }
   };
   chip.addEventListener("pointermove", mover); chip.addEventListener("pointerup", soltar); chip.addEventListener("pointercancel", soltar);
 }

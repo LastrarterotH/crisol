@@ -99,7 +99,7 @@ function pedirReflexion(m, id) {
   const st = estadoMision(m.id);
   sonar.hito();
   abrirPanel(
-    '<h2>★ Hito: ' + esc(f.e + " " + f.n) + '</h2><p class="intro">Antes de seguir, aterriza la idea en tu propia docencia. Lo que escribas queda en Mi plan' + (E.taller ? " y en el muro del taller" : "") + ".</p>" +
+    '<h2>★ Hito: ' + esc(f.e + " " + f.n) + '</h2><p class="intro">Antes de seguir, aterriza la idea en tu propia docencia. Lo que escribas queda en Mi plan.</p>' +
     '<label class="campo" for="reflexion">' + esc(pregunta) + '<textarea id="reflexion" maxlength="600" placeholder="Por ejemplo: en mi curso de...">' + esc(st.reflexiones[id] || "") + "</textarea></label>" +
     '<div class="fila-botones"><button class="boton" type="button" data-accion="saltar">Ahora no</button><button class="boton principal" type="button" data-accion="guardar">Guardar en mi plan</button></div>',
     {
@@ -190,11 +190,12 @@ export function dibujarPlano(svg, m, opts = {}) {
   return { W, H, pos, g };
 }
 function aplicarVista(g, W, H) { g.setAttribute("transform", "translate(" + vistaPlano.x + "," + vistaPlano.y + ") scale(" + vistaPlano.k + ")"); }
-export function abrirPlano() {
+export function abrirPlano(inicio) {
   const m = misionActiva();
   if (!m) { aviso("El plano aparece cuando eliges una misión."); abrirMisiones(); return; }
   $("capaPlano").hidden = false;
   $("planoTitulo").innerHTML = rico(m.e + " " + m.n);
+  if (inicio === true) setTimeout(() => avisoRico("Este es el plano de tu misión", "Cada círculo es una pieza que hay que descubrir, y la estrella grande es la meta. Toca un círculo para leer su pista y elige por dónde empezar. En un taller, comparen sus rutas con las de sus colegas.", { oro: true, ms: 9000 }), 300);
   $("planoInfo").innerHTML = '<span class="leyenda"><b>' + piezasLogradas(m) + " de " + construibles(m).length + ' piezas</b><span><i class="l-ok"></i>Lograda</span><span><i class="l-alc"></i>A tu alcance</span><span><i class="l-no"></i>Por descubrir</span><span><i class="l-hito"></i>Hito o meta</span><span>Arrastra para moverte y usa la rueda para acercarte</span></span>';
   $("planoPista").hidden = true;
   const svg = $("planoSvg");
@@ -331,6 +332,8 @@ export function iniciarMision(id) {
   const m = misionActiva();
   if (m && m.tutorial) tutorialPaso();
   else ocultarCoach();
+  // La primera vez que se abre una misión se muestra su plano: el desafío completo, para discutir cómo llegar.
+  if (m && !m.tutorial && !estadoMision(m.id).planoVisto) { estadoMision(m.id).planoVisto = true; guardar(); setTimeout(() => abrirPlano(true), 350); }
 }
 
 /* ---------- Cuaderno ---------- */

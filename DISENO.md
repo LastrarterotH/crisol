@@ -1,14 +1,14 @@
 # Alquimia Docente: diseño de la versión local
 
 ## Qué tiene que lograr
-Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando y que deje algo concreto a quien enseña en la universidad. Se juega solo o en un taller, de forma cooperativa.
+Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando y que deje algo concreto a quien enseña en la universidad. Cada docente juega en su notebook, sin conexión ni servidor. En una capacitación, el grupo juega la misma misión en paralelo y conversa sobre cómo llegar a la meta mirando el plano.
 
 ## Pilares
 1. **Natural.** Se parte de cuatro elementos primigenios y las primeras mezclas se adivinan: Mente + Mundo = Experiencia. Cada receta debe poder leerse como una frase con sentido para un docente de cualquier disciplina.
 2. **Con rumbo.** Las misiones son encargos realistas con un plano. El plano muestra las piezas que faltan, desde los primigenios hasta la meta. Llegar a la meta de una misión exige entre 9 y 29 mezclas como mínimo, según la misión.
-3. **Generoso.** Casi toda mezcla entre fichas comunes produce algo: el 82 % de las parejas de los niveles 0 y 1 y cerca del 40 % de las de los niveles 0 a 2. Las parejas comunes están preanalizadas; las raras las resuelve Claude en unos segundos y quedan guardadas para todos.
+3. **Generoso y cerrado.** Casi toda mezcla entre fichas comunes produce algo: el 82 % de las parejas de los niveles 0 y 1 y cerca del 40 % de las de los niveles 0 a 2. Todo lo que se puede descubrir está escrito de antemano y verificado; el juego no genera fichas en vivo. Más adelante se evaluará si Claude entra, y en qué momento.
 4. **Bello y legible.** Un laboratorio luminoso: mesa marfil con grilla de puntos, fichas blancas con una moneda del color de su familia, títulos en Fraunces y lectura en Figtree. Al mezclar hay una onda y destellos del color de la familia, y el sonido es sintetizado. Se eligió una paleta clara porque se proyecta bien en una sala.
-5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con las reflexiones de quien juega. En el taller, las reflexiones se ven en un muro común.
+5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con las reflexiones de quien juega.
 
 ## Elementos primigenios
 - 🧠 Mente: lo que ocurre dentro de quien aprende (Piaget).
@@ -27,19 +27,20 @@ Cada misión tiene un encargo (un caso realista de docencia universitaria), una 
 
 ## Ayuda
 - **Chispas ✨:** se gana una por cada ficha nueva. Sirven para comprar pistas de una pieza del plano: ver uno de sus ingredientes cuesta 1 chispa y ver los dos cuesta 3.
-- **Mezclas fallidas:** si una pareja no forma nada, la respuesta explica por qué y, cuando se puede, orienta hacia otra combinación. Si la pareja ya estaba analizada, el aviso ofrece "Que Claude lo piense igual" para explorar fuera del núcleo.
+- **Mezclas fallidas:** si una pareja no forma nada, el aviso lo dice y, cuando se puede, orienta hacia otra combinación.
+- **Plano:** al empezar una misión se muestra su plano completo. Tocar una pieza lograda abre su ficha; tocar una pieza pendiente muestra su pista y permite comprar ingredientes con chispas.
 
 ## Densidad sin atajos
 Las recetas de densificación (`pre-D1.json`, `pre-D2.json`) cubren las parejas de los niveles 0 a 2. Las que llevaban a un hito, a una meta o a un ingrediente directo de una meta, o que acortaban mucho el camino a una pieza de un plano, quedan fuera en `quitar-D.txt`. Así el inicio es fértil y las misiones conservan su recorrido.
 
-## Taller
-El facilitador crea un taller desde su computador. Elige la misión y comparte un código QR, y los participantes entran desde la misma red con su nombre. El banco del grupo es opcional: deja tomar piezas que descubrió otra persona, con su crédito. La proyección muestra el plano con el avance del grupo, el registro de descubrimientos y el muro de reflexiones. Al cerrar, se exporta un resumen.
+## En una capacitación
+Cada participante abre el archivo del juego en su notebook y elige la misma misión. Quien facilita proyecta su propio plano y abre la conversación con preguntas como "¿por dónde empezarían?" o "¿qué pieza les costó más?". Las reflexiones de los hitos quedan en Mi plan de cada docente, que puede descargarlas. No hay conexión entre equipos: la puesta en común es conversada.
 
 ## Técnica
-- Servidor Node sin framework (`servidor.js`): archivos estáticos, API, eventos en vivo (SSE) y persistencia en archivos JSON (`servidor-datos/`).
-- IA: `claude -p` en modo mínimo (system prompt propio, sin herramientas, `claude-opus-5-5` con esfuerzo bajo por defecto), con caché compartida.
-- Cliente: HTML, CSS y módulos JS sin bundler ni librerías. El plano es SVG propio. En el servidor se usa qrcode.
-- Contenido: `datos/` y luego `node construir.js`, que genera `public/datos.json` validado.
+- Cliente: HTML, CSS y módulos JS sin framework ni librerías. El plano es SVG propio. Tipografías locales (Fraunces y Figtree).
+- Contenido: `datos/v2/` y luego `node construir.js`, que genera `public/datos.json` validado.
+- Distribución: `node empaquetar.js` (con esbuild) junta todo en `dist/Alquimia-Docente.html`, que funciona con doble clic y sin conexión. El progreso se guarda en el almacenamiento local del navegador.
+- `servidor.js` es solo para desarrollo.
 
 ## Textos
 Todo texto pasa por el filtro del detector de patrones LLM (prohibiciones A1 a A13, patrones B, vocabulario C, tono D). Español latinoamericano neutro, tuteo y sin raya larga. Se busca humor amable, precisión y utilidad.

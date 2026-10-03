@@ -20,8 +20,19 @@ for (const x of ["P1", "P2", "P3", "D1", "D2"]) {
   for (const r of p.recetas || []) { if (x[0] === "D" && quitarD.has(clave(r.a, r.b))) continue; const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = x; extra.push(rec); }
 }
 for (const r of ajustes.recetasExtra || []) { const rec = [r[0], r[1], r[2], r[3] || ""]; rec.origen = "ajustes"; extra.push(rec); }
+// Expansiones: misiones nuevas con sus fichas. Sus recetas hacia fichas nuevas son parte del grafo diseñado (origen "exp");
+// las de conexión hacia fichas existentes son caminos alternativos (origen "expx").
+const expFichas = {}, expMisiones = [], expTextos = [];
+for (const x of ["E1", "E2", "E3", "E4", "E5", "E6"]) {
+  const p = leer(V("expansion-" + x + ".json"));
+  if (!p) continue;
+  for (const [id, f] of Object.entries(p.fichas || {})) { if (expFichas[id]) { avisos.push(x + ": ficha repetida entre expansiones " + id); continue; } expFichas[id] = { n: f.n, e: f.e, f: f.f, _de: x }; }
+  for (const m of p.misiones || []) expMisiones.push({ id: m.id, n: m.n, e: m.e, meta: m.meta, hitos: m.hitos, _de: x });
+  expTextos.push([x, p]);
+}
+for (const [x, p] of expTextos) for (const r of p.recetas || []) { const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = expFichas[r.r] ? "exp" : "expx"; rec.de = x; extra.unshift(rec); }
 // el preanálisis no debe chocar con lo existente: se descartan sus colisiones en vez de fallar
-const base = cargarGrafo2({ quitar: ajustes.quitarRecetas || [] });
+const base = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], fichas: expFichas });
 const ocupadas = new Map(base.recetas.map(r => [clave(r[0], r[1]), r[2]]));
 const extraOk = [];
 for (const rec of extra) {
@@ -30,7 +41,7 @@ for (const rec of extra) {
   if (ocupadas.has(k)) { if (ocupadas.get(k) !== rec[2]) avisos.push(rec.origen + ": choque " + k + " = " + ocupadas.get(k) + " / " + rec[2] + " (se mantiene " + ocupadas.get(k) + ")"); continue; }
   ocupadas.set(k, rec[2]); extraOk.push(rec);
 }
-const g = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], recetas: extraOk });
+const g = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], recetas: extraOk, fichas: expFichas, misiones: expMisiones });
 errores.push(...g.errores);
 const F = g.fichas;
 
@@ -56,6 +67,17 @@ for (const x of ["N1", "N2"]) {
   }
   Object.assign(notas, p.notas || {});
   Object.assign(misionesTxt, p.misiones || {});
+}
+for (const [x, p] of expTextos) {
+  const remap = {};
+  mezclarRefs(x, p.refs, remap);
+  for (const [id, d] of Object.entries(p.fichas || {})) {
+    if (!F[id] || F[id]._de !== x) continue;
+    for (const c of ["pista", "why", "uni", "q", "belief", "evidence", "principios", "prueba"]) if (d[c]) F[id][c] = d[c];
+    if (Array.isArray(d.refs)) F[id].refs = d.refs.map(k => remap[k] || k);
+    delete F[id]._de;
+  }
+  for (const m of p.misiones || []) misionesTxt[m.id] = { encargo: m.encargo, objetivo: m.objetivo, reflexiones: m.reflexiones || {}, cierre: m.cierre };
 }
 const informeFiltro = [];
 for (const x of ["F1", "F2", "F3"]) {
@@ -131,7 +153,7 @@ if (sinNota.length) avisos.push(sinNota.length + " recetas sin nota (ej.: " + si
 // El plano sigue el grafo diseñado (recetas base y nuevas); los atajos del preanálisis son caminos alternativos.
 const nivelBase = {};
 for (const id of g.cat.iniciales) nivelBase[id] = 0;
-const recetasBase = g.recetas.filter(r => r.origen === "v1" || r.origen === "nuevas");
+const recetasBase = g.recetas.filter(r => r.origen === "v1" || r.origen === "nuevas" || r.origen === "exp");
 for (let cambio = true; cambio;) {
   cambio = false;
   for (const [a, b, r] of recetasBase) {
@@ -154,7 +176,7 @@ function plano(meta) {
   visitar(meta);
   return [...nodos.entries()].map(([id, ing]) => ({ id, ing, nivel: nivelBase[id] }));
 }
-const misiones = g.cat.misiones.map(m => {
+const misiones = g.cat.misiones.map(({ _de, ...m }) => {
   const txt = misionesTxt[m.id] || {};
   const pl = plano(m.meta);
   for (const h of m.hitos) if (!pl.some(n => n.id === h)) avisos.push("misión " + m.id + ": el hito " + h + " no está en el plano");
@@ -179,12 +201,11 @@ for (const m of misiones) for (const c of ["encargo", "objetivo", "cierre"]) rev
 fs.writeFileSync(V("informe-patrones.txt"), sospechas.join("\n") + "\n");
 
 // ---------- Salida ----------
-for (const id of ids) F[id].nivel = nivel[id];
+for (const id of ids) { F[id].nivel = nivel[id]; delete F[id]._de; }
 const DATOS = {
   version: new Date().toISOString(),
   familias: g.cat.familias, orden: g.cat.orden, iniciales: g.cat.iniciales,
   fichas: F, refs, recetas: g.recetas.map(r => [r[0], r[1], r[2], r[3] || ""]), misiones,
-  analizadas: leer(V("analizadas.json")) || [],
   pistaMito: "Combínalo con 📓 Práctica reflexiva para desarmarlo."
 };
 const json = JSON.stringify(DATOS);

@@ -1,0 +1,5 @@
+/* Tipografías locales (subconjunto latino), para que el juego se vea igual sin conexión.
+   Fraunces y Figtree: SIL Open Font License. */
+@font-face { font-family: "Fraunces"; font-style: normal; font-weight: 100 900; font-display: swap; src: url(fuentes/fraunces-latin-standard-normal.woff2) format("woff2"); }
+@font-face { font-family: "Fraunces"; font-style: italic; font-weight: 100 900; font-display: swap; src: url(fuentes/fraunces-latin-standard-italic.woff2) format("woff2"); }
+@font-face { font-family: "Figtree"; font-style: normal; font-weight: 300 900; font-display: swap; src: url(fuentes/figtree-latin-wght-normal.woff2) format("woff2"); }

@@ -5,9 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Alquimia Docente</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M9.6 20.5h12.8l2.2 3.6c1 1.8-.3 3.9-2.3 3.9H9.7c-2 0-3.3-2.1-2.3-3.9z' fill='%23d4532a'/%3E%3Cpath d='M12.5 3.5h7M14 3.5v8.6L7 23.6c-1.4 2.4.3 5.4 3.1 5.4h11.8c2.8 0 4.5-3 3.1-5.4L18 12.1V3.5' fill='none' stroke='%231c2130' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Figtree:wght@400;500;600;700;800&family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&display=swap">
+<link rel="stylesheet" href="fuentes.css">
 <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -54,7 +52,6 @@
         </div>
       </div>
       <div class="caja-lista" id="cajaLista"></div>
-      <div class="banco" id="banco" hidden></div>
     </aside>
   </div>
 
@@ -65,12 +62,8 @@
     <button class="tiza-btn" id="btnMisiones" type="button"><span>📜</span>Misiones</button>
     <button class="tiza-btn" id="btnCuaderno" type="button"><span>📒</span>Cuaderno</button>
     <button class="tiza-btn" id="btnPlan" type="button"><span>📝</span>Mi plan</button>
-    <span class="bandeja-taller" id="bandejaTaller" hidden></span>
   </footer>
 </section>
-
-<!-- ============ Proyección del taller ============ -->
-<section class="pantalla proyeccion" id="proyeccion" hidden></section>
 
 <!-- ============ Capas ============ -->
 <div class="capa" id="capaFicha" hidden><article class="ficha-estudio" id="fichaEstudio" role="dialog" aria-modal="true" aria-labelledby="fichaTitulo"></article></div>

@@ -1,0 +1,204 @@
+# Catálogo actual (200 fichas)
+
+Formato: id · emoji · nombre · familia · nivel · pista
+
+- mente · 🧠 · Mente · Primigenios · n0 · Eso que llevas detrás de los ojos y que ahora mismo está leyendo esta adivinanza.
+- mundo · 🌍 · Mundo · Primigenios · n0 · Todo lo que queda fuera de tu cabeza y que, tarde o temprano, desmiente alguna de tus ideas.
+- otros · 🤝 · Otros · Primigenios · n0 · Las personas que piensan contigo y que a veces, por suerte, te llevan la contraria.
+- tiempo · ⏰ · Tiempo · Primigenios · n0 · Nadie lo ve pasar en clase, pero decide qué recordarás en el examen y qué no.
+- cambio · 🦋 · Cambio · Lo esencial · n1 · Lo que los años le hacen al paisaje y un buen semestre a una persona.
+- comunidad · 🏘️ · Comunidad · Lo esencial · n1 · Gente que comparte un lugar y unas costumbres, y siente que pertenece al mismo grupo.
+- dialogo · 💬 · Diálogo · Lo esencial · n1 · Dos cabezas que se turnan para hablar y escuchar, y salen pensando algo que ninguna traía.
+- experiencia · 🌄 · Experiencia · Lo esencial · n1 · Lo que te pasa cuando sales a hacer algo de verdad y la realidad te responde.
+- grupo · 👥 · Grupo · Lo esencial · n1 · Varias personas que estudian juntas, aunque eso solo no asegura que aprendan unas de otras.
+- memoria · 🗄️ · Memoria · Lo esencial · n1 · El cajón donde guardas lo vivido, aunque cada vez que lo abres el contenido cambia un poco.
+- practica · ✏️ · Práctica · Lo esencial · n1 · Hacerlo una vez más, y luego otra, hasta que las manos se acuerdan solas.
+- problema · 🧩 · Problema real · Lo esencial · n1 · Situación de la disciplina, abierta y con datos incompletos, sin la solución al final del libro.
+- reflexion · 🪞 · Reflexión · Lo esencial · n1 · Volver a mirar con calma lo que pensaste o hiciste, para entender por qué salió así.
+- saber · 📚 · Saber · Lo esencial · n1 · Lo que la humanidad fue averiguando generación tras generación y dejó a tu alcance en libros y oficios.
+- abp · 🧗 · Aprendizaje basado en problemas · Metodologías · n2 · Nació en una facultad de medicina canadiense, donde el paciente de papel llega antes que la teoría.
+- aprendizaje · 🌱 · Aprendizaje · Lo esencial · n2 · El cambio duradero que deja en ti una vivencia sobre la que te detuviste a pensar.
+- autoeficacia · 💪 · Autoeficacia · Cómo se aprende · n2 · Ese “yo puedo con esto” que nace de haberlo logrado antes y te hace intentarlo de nuevo.
+- casos · 📂 · Método de casos · Metodologías · n2 · Una historia real con un dilema, que el curso analiza y discute para decidir qué haría.
+- competencias · 🏆 · Enfoque por competencias · Diseño de la enseñanza · n2 · Formar para que la futura abogada ponga en juego todo lo que aprendió frente a un caso real.
+- comunidad_practica · 🧶 · Comunidad de práctica · Cómo se aprende · n2 · Un oficio compartido donde el novato empieza lavando probetas y termina diseñando experimentos junto al equipo.
+- conceptos_umbral · 🚪 · Conceptos umbral · Cómo se aprende · n2 · Puertas estrechas de cada disciplina que cuesta cruzar y que, una vez cruzadas, cambian cómo ves la materia.
+- conectivismo · 🔌 · Conectivismo · Cómo se aprende · n2 · Saber dónde está la respuesta, y a quién preguntarle en línea, contaría tanto como llevarla en la cabeza.
+- curriculo · 🗓️ · Currículo · Diseño de la enseñanza · n2 · El plan que ordena qué se enseña en cada semestre de una carrera, y con qué fin.
+- curriculo_oculto · 👻 · Currículo oculto · Diseño de la enseñanza · n2 · Lo que el estudiante aprende sin que nadie lo haya planificado ni escrito en el programa.
+- docente · 🧑‍🏫 · Docente · Lo esencial · n2 · Persona que pone lo que sabe al alcance de otros y aprende del intento cada semestre.
+- emocion · ❤️ · Emoción · Lo esencial · n2 · Ese calor en el pecho o ese nudo en el estómago que aparece antes de presentar en clase.
+- error · 🪨 · Error · Lo esencial · n2 · La piedra con la que tropiezas al resolver, que también sirve para pisar más firme después.
+- escritura · ✍️ · Escritura · Lo esencial · n2 · Un invento para conversar con quien todavía no ha nacido o con quien ya se fue.
+- espaciada · 📅 · Práctica espaciada · Cómo se aprende · n2 · Varias dosis cortas de estudio con días de por medio, en vez de un atracón la noche anterior.
+- estudiante · 🧑‍🎓 · Estudiante · Lo esencial · n2 · Quien se sienta del otro lado del escritorio para hacer suyo lo que otros ya saben.
+- experiencial · 🌀 · Aprendizaje experiencial · Cómo se aprende · n2 · Vivir algo, mirarlo con calma, sacar una idea y probarla en la siguiente vuelta de la rueda.
+- herramienta · 🔨 · Herramienta · Lo esencial · n2 · Lo que inventas después de golpearte muchas veces con la misma tarea, para golpearte menos.
+- intercalada · 🃏 · Práctica intercalada · Cómo se aprende · n2 · Barajar los ejercicios de distintos temas como un mazo, en vez de hacerlos ordenados por capítulo.
+- investigacion · 🔬 · Investigación · Lo esencial · n2 · Interrogar a la realidad con método para añadir algo que nadie sabía todavía.
+- investigacion_accion · ♻️ · Investigación-acción · Conocimiento docente · n2 · Ciclos de planificar, intervenir, observar y reflexionar para mejorar una situación concreta de tu curso.
+- jigsaw · 🧷 · Rompecabezas de Aronson · Metodologías · n2 · Cada integrante recibe solo una pieza del tema, y el equipo necesita a todos para armar el todo.
+- juego · 🪁 · Juego · Lo esencial · n2 · Actividad libre, con reglas inventadas, que se hace por gusto y en la que perder no duele tanto.
+- lenguaje · 🗨️ · Lenguaje · Lo esencial · n2 · Sistema de palabras y reglas con que conversas con otros y también contigo en silencio.
+- mapa · 🕸️ · Mapa conceptual · Cómo se aprende · n2 · Cajas con ideas unidas por flechas que dicen algo, como “causa” o “es parte de”.
+- metacognicion · 💭 · Metacognición · Cómo se aprende · n2 · Mirarte pensar, como desde la tribuna, y notar cuándo de verdad entiendes y cuándo solo te suena.
+- olvido · 🍂 · Curva del olvido · Cómo se aprende · n2 · Una pendiente que cae en picada las primeras horas y luego baja despacio, salvo que repases.
+- pedagogia · 🧭 · Pedagogía · Lo esencial · n2 · Brújula de quien enseña, con métodos y teorías sobre cómo se aprende y cómo se acompaña.
+- pensamiento_critico · 🧐 · Pensamiento crítico · Cómo se aprende · n2 · Interrogar a un argumento como un fiscal, pidiendo sus pruebas y revisando si sostienen la conclusión.
+- practica_deliberada · 🎹 · Práctica deliberada · Cómo se aprende · n2 · Ensayar justo el compás que te sale mal, con atención total y alguien que te corrija.
+- practicas · 🧰 · Prácticas profesionales · Metodologías · n2 · Un periodo prolongado trabajando en una organización real, acompañado por alguien del oficio y un docente.
+- pregunta · ❓ · Pregunta · Lo esencial · n2 · Lleva un signo al revés al comienzo y la hace quien de verdad quiere saber algo.
+- previos · 🧳 · Conocimientos previos · Cómo se aprende · n2 · La maleta que cada estudiante trae a clase, con ideas útiles y alguna equivocada bien guardada.
+- proposito · 🎯 · Propósito · Lo esencial · n2 · La flecha que apuntas antes de tirar, para saber después si diste en el blanco.
+- proyectos · 📦 · Aprendizaje basado en proyectos · Metodologías · n2 · Trabajo extendido durante semanas, guiado por una pregunta motriz, que termina en un producto concreto.
+- recuperacion · 🧲 · Práctica de recuperación · Evaluación · n2 · Intentar traer algo a la memoria sin mirar los apuntes, y así fijarlo mejor.
+- reflexiva · 📓 · Práctica reflexiva · Conocimiento docente · n2 · Revisar tu clase en caliente, mientras la das, y en frío, camino a casa, para ajustar la próxima.
+- retos · 🏔️ · Aprendizaje basado en retos · Metodologías · n2 · Equipos que abordan un desafío social abierto junto a actores externos y llegan a implementar una solución.
+- servicio · 🤲 · Aprendizaje-servicio · Metodologías · n2 · Estudiantes que atienden una necesidad real de la comunidad como parte del curso y reflexionan sobre ello.
+- significativo · 🔗 · Aprendizaje significativo · Cómo se aprende · n2 · Lo nuevo se cuelga de un gancho que ya tenías y no se cae tras la prueba.
+- situado · 🗺️ · Aprendizaje situado · Cómo se aprende · n2 · El saber se queda pegado al lugar donde lo usaste y a la gente que te acompañaba.
+- tps · 👫 · Piensa, discute, comparte · Metodologías · n2 · Un minuto en silencio para cada uno, luego conversación en parejas y, al final, puesta en común.
+- transferencia · 🛫 · Transferencia del aprendizaje · Cómo se aprende · n2 · Reconocer y resolver fuera del aula un problema visto en clase, aunque llegue disfrazado.
+- universidad · 🏛️ · Universidad · Lo esencial · n2 · Gremio medieval de maestros y estudiantes que lleva más de ocho siglos funcionando y ahora tiene cafetería.
+- abj · 🎲 · Aprendizaje basado en juegos · Metodologías · n3 · Una partida donde nadie pasa de nivel sin entender la materia del curso.
+- activo · 🏃 · Aprendizaje activo · Metodologías · n3 · El oyente de butaca pasa a resolver problemas y a pensar en cómo los resolvió.
+- adaptativo · 🧬 · Aprendizaje adaptativo · Tecnología · n3 · Un sistema que elige el siguiente ejercicio según lo que cada estudiante ya demostró dominar.
+- alfabetizacion_academica · 📜 · Alfabetización académica · Cómo se aprende · n3 · Las reglas no escritas para leer y escribir en tu carrera, enseñadas dentro de cada asignatura.
+- algoritmo · 🔣 · Algoritmo · Tecnología · n3 · Una receta tan precisa que hasta una máquina podría seguirla sin pedirte aclaraciones.
+- analitica · 📈 · Analítica del aprendizaje · Tecnología · n3 · Las huellas que deja cada clic en la plataforma del curso, convertidas en información para decidir.
+- andamiaje · 🏗️ · Andamiaje · Cómo se aprende · n3 · Ayuda temporal que sostiene al aprendiz y se retira poco a poco cuando ya puede solo.
+- arcs · 🏹 · Modelo ARCS de motivación · Diseño de la enseñanza · n3 · Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.
+- asincronico · 🗂️ · Modalidad asincrónica · Modalidades · n3 · El foro recibe aportes a las tres de la mañana y nadie espera que el resto se conecte.
+- atencion10 · ⏲️ · La atención dura solo 10 minutos · Mitos · n3 · La regla de que, pasado un tiempo fijo de clase, el curso entero se apaga como con temporizador.
+- aula_activa · 🪑 · Aula de aprendizaje activo · Modalidades · n3 · Una sala donde nadie sabe dónde queda el frente, porque cada mesa redonda tiene su propia pizarra.
+- aumento · 🟩 · Aumento (SAMR) · Tecnología · n3 · En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional.
+- autoevaluacion · 🤔 · Autoevaluación · Evaluación · n3 · El estudiante juzga su propio trabajo con criterios, antes de que lo haga el docente.
+- autorregulado · 🔁 · Aprendizaje autorregulado · Cómo se aprende · n3 · Ser tu propio entrenador de estudio, que arma el plan y lo cambia si el marcador va mal.
+- bloom · 📶 · Taxonomía de Bloom · Diseño de la enseñanza · n3 · Una escalera de verbos que sube de recordar a crear para ordenar lo que se pide pensar.
+- cambio_conceptual · 💡 · Cambio conceptual · Cómo se aprende · n3 · Cuando tu intuición de siempre pierde el pleito frente a una explicación científica más útil.
+- carga_cognitiva · 🎒 · Teoría de la carga cognitiva · Cómo se aprende · n3 · La memoria de trabajo es una mesa pequeña; cada adorno inútil le roba espacio a lo importante.
+- carga_trabajo · ⏳ · Carga de trabajo del estudiante · Diseño de la enseñanza · n3 · Las horas reales que un curso exige a quien lo cursa, dentro y fuera del aula.
+- cats · ⏱️ · Técnicas de evaluación en el aula · Evaluación · n3 · Ejercicios de un minuto, sin calificación, para saber en plena clase qué se entendió.
+- ciencia_aprendizaje · 🔭 · Ciencia del aprendizaje · Cómo se aprende · n3 · Laboratorios que miden cómo recordamos y entendemos, y de paso desarman los neuromitos del taller de moda.
+- coevaluacion · 🗒️ · Evaluación entre pares · Evaluación · n3 · Tu trabajo lo corrige quien se sienta a tu lado, con los mismos criterios que usaría el docente.
+- coi · 🗣️ · Comunidad de indagación · Modalidades · n3 · Tres presencias, cognitiva, social y docente, para que un curso en línea piense en conjunto.
+- competencia · 🧑‍💻 · Competencia digital · Tecnología · n3 · Distinguir una fuente seria de un video viral se aprende, aunque hayas nacido con wifi.
+- competencia_digital_docente · 🧑‍💼 · Competencia digital docente · Tecnología · n3 · Lo que un profesor necesita saber para enseñar, evaluar y crecer en su profesión usando tecnología.
+- constructivismo · 🧱 · Constructivismo · Cómo se aprende · n3 · Cada cabeza vuelve a montar lo que oye en clase con las piezas que ya tenía.
+- contenido · 📖 · Contenido · Lo esencial · n3 · Lo que aparece en el programa del curso, ordenado por unidades, y que entra en la prueba.
+- cooperativo · 🫱 · Aprendizaje cooperativo · Metodologías · n3 · Trabajo en equipo estructurado, donde cada integrante depende de los demás y responde por su propia parte.
+- cpc · ⚗️ · Conocimiento pedagógico del contenido · Conocimiento docente · n3 · Saber qué analogía aclara tu tema y qué error traerá el curso antes de que lo cometa.
+- curiosidad · 🐈 · Curiosidad · Cómo se aprende · n3 · Lo que mató al gato, según el refrán, y lo que mantiene despierto a un buen estudiante.
+- datos · 📊 · Datos · Tecnología · n3 · Huellas que dejas en cada clic, contadas y guardadas, esperando a que alguien les pregunte algo.
+- descubrimiento · 🗝️ · Descubrimiento puro sin guía · Mitos · n3 · La idea de que el curso aprende mejor encontrando solo los principios, con el docente en silencio.
+- diagnostica · 🔍 · Evaluación diagnóstica · Evaluación · n3 · Averiguar qué sabe ya el curso antes de empezar a enseñar un tema.
+- dificultades_deseables · 🏋️ · Dificultades deseables · Cómo se aprende · n3 · Esos tropiezos al estudiar que hoy fastidian y dentro de un mes se notan en lo que recuerdas.
+- distancia · 🛤️ · Distancia transaccional · Modalidades · n3 · Lejanía que puedes sentir en primera fila y no sentir a mil kilómetros de tu profesor.
+- dominio · 🏅 · Aprendizaje para el dominio · Evaluación · n3 · Nadie pasa a la unidad siguiente hasta lograr la actual, con el tiempo que necesite.
+- efecto_retroactivo · 🪃 · Efecto retroactivo de la evaluación · Evaluación · n3 · Lo que entra en la prueba termina decidiendo qué y cómo estudian, y a veces qué se enseña.
+- ejemplos_resueltos · 📒 · Ejemplos resueltos · Cómo se aprende · n3 · Leer la receta con fotos de cada paso antes de cocinar tú un plato parecido.
+- emociones · 🎭 · Emociones de logro · Cómo se aprende · n3 · El nudo en el estómago antes del parcial y el alivio, o la vergüenza, al ver la nota.
+- enfoques_ensenanza · 🎚️ · Enfoques de enseñanza · Conocimiento docente · n3 · Tu intención de fondo al dar clase, sea pasar información o cambiar lo que tu curso entiende.
+- escribir · 🖊️ · Escribir para aprender · Cómo se aprende · n3 · Tomar el lápiz para averiguar qué entiendes, porque muchas ideas se aclaran mientras las redactas.
+- espacio · 🏫 · Aula · Lo esencial · n3 · Sala con horario fijo donde se juntan quien enseña y quienes aprenden, y las sillas también opinan.
+- espiral · 🐚 · Currículo en espiral · Diseño de la enseñanza · n3 · Volver a los grandes temas una y otra vez, y en cada vuelta profundizar un poco más.
+- estilos · 🎧 · Estilos de aprendizaje · Mitos · n3 · La idea de que enseñar por el canal favorito de cada uno, visual, auditivo o kinestésico, rinde más.
+- evaluacion · 📝 · Evaluación · Evaluación · n3 · Poner frente a frente lo que el estudiante demuestra y lo que se buscaba lograr.
+- evidencia · 🔎 · Docencia informada por evidencia · Conocimiento docente · n3 · Pedirle a cada método de moda su estudio de respaldo antes de dejarlo entrar al aula.
+- expositiva · 🎤 · Clase expositiva · Metodologías · n3 · Uno habla al frente y el resto escucha y anota, como en las universidades medievales.
+- formativa · 🌡️ · Evaluación formativa · Evaluación · n3 · Revisar el avance mientras la enseñanza ocurre, para ajustar el rumbo a tiempo.
+- gagne · 9️⃣ · Nueve eventos de instrucción · Diseño de la enseñanza · n3 · Una secuencia de pasos para una lección, desde captar la atención hasta favorecer que lo aprendido se transfiera.
+- gamificacion · 🎮 · Gamificación · Metodologías · n3 · Puntos, insignias, niveles y narrativa añadidos a un curso que, en sí mismo, no es un pasatiempo.
+- hemisferios · ☯️ · Cerebro izquierdo y cerebro derecho · Mitos · n3 · La creencia de que cada persona es lógica o creativa según qué mitad de su cabeza domine.
+- indagacion · 🔦 · Indagación guiada · Metodologías · n3 · Los estudiantes investigan una pregunta como científicos, con apoyos que el docente ajusta y va retirando.
+- integridad · 🛡️ · Integridad académica · Evaluación · n3 · Lo que sostiene la honestidad de un curso cuando el docente sale de la sala.
+- internet · 🌐 · Internet · Tecnología · n3 · Red de redes donde tu biblioteca y tus distracciones viven puerta con puerta.
+- inverso · 🔙 · Diseño inverso · Diseño de la enseñanza · n3 · Planificar empezando por la meta y la evidencia que la demostraría, y dejar las actividades para el final.
+- mas_tecnologia · ➕ · Más tecnología, más aprendizaje · Mitos · n3 · La creencia de que llenar el aula de pantallas y plataformas mejora por sí solo los resultados.
+- mentalidad · 🪴 · Mentalidad de crecimiento · Cómo se aprende · n3 · Creer que la inteligencia se entrena como un músculo, con esfuerzo y con buenas estrategias.
+- merrill · 🔰 · Primeros principios de instrucción · Diseño de la enseñanza · n3 · Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.
+- modelado · 🎙️ · Modelado cognitivo · Cómo se aprende · n3 · Pensar en voz alta frente al curso, con dudas y tropiezos incluidos, mientras resuelves.
+- motivacion · 🔥 · Motivación intrínseca · Cómo se aprende · n3 · Las ganas de seguir leyendo sobre un tema aunque nadie lo vaya a evaluar.
+- movil · 📲 · Aprendizaje móvil · Modalidades · n3 · El celular en el bolsillo convertido en herramienta de estudio, que acompaña al estudiante de un lugar a otro.
+- multimedia · 🖼️ · Aprendizaje multimedia · Cómo se aprende · n3 · Un buen diagrama junto a la explicación hablada rinde más que la misma explicación sin dibujo.
+- nativos · 📱 · Nativos digitales · Mitos · n3 · La creencia de que crecer entre pantallas entrega destrezas tecnológicas sin que nadie las enseñe.
+- peer · 🗳️ · Instrucción entre pares · Metodologías · n3 · Pregunta conceptual, voto individual, conversación con el compañero de al lado y nueva votación.
+- perfil_egreso · 🎓 · Perfil de egreso · Diseño de la enseñanza · n3 · Lo que una carrera promete que sabrá hacer quien se titule, declarado por escrito.
+- portafolio · 🗃️ · Portafolio de aprendizaje · Evaluación · n3 · Colección de trabajos elegidos por el estudiante, con reflexiones que muestran cómo progresó.
+- profundo · 🌊 · Enfoque profundo de aprendizaje · Cómo se aprende · n3 · Leer preguntándote por qué es así y con qué se conecta, más allá de la prueba.
+- rea · 🔓 · Recursos educativos abiertos · Tecnología · n3 · Un manual de anatomía gratis que puedes reescribir y volver a publicar, porque su licencia lo permite.
+- reaprendizaje · 🔃 · Reaprendizaje sucesivo · Cómo se aprende · n3 · Recuperar de memoria lo estudiado hasta acertar, y repetirlo en varias sesiones separadas por días.
+- releer · 🖍️ · Releer y subrayar · Mitos · n3 · Repasar los apuntes con marcador fosforescente la noche antes, seguro de que así se aprende.
+- respuesta_audiencia · 🙋 · Sistemas de respuesta en el aula · Tecnología · n3 · Toda la sala vota desde su teléfono y el resultado aparece al instante en la pantalla.
+- resultados · 📌 · Resultados de aprendizaje · Diseño de la enseñanza · n3 · Lo que alguien podrá hacer al cerrar un curso, escrito con un verbo que se puede observar.
+- retro · 📣 · Retroalimentación · Evaluación · n3 · Información que vuelve al estudiante y le dice dónde está y qué hacer después.
+- ritmo · 🐢 · Ritmo propio · Cómo se aprende · n3 · Cada estudiante necesita una cantidad distinta de tiempo para llegar a la misma meta.
+- rv · 🥽 · Realidad virtual inmersiva · Tecnología · n3 · Con un visor puesto, el estudiante pasea por el interior de una célula sin salir de la sala.
+- simulacion · 🩺 · Simulación · Metodologías · n3 · Practicar decisiones de alto riesgo en un escenario controlado, donde equivocarse no daña a nadie.
+- sincronico · 📡 · Sesión sincrónica · Modalidades · n3 · Todos conectados a la vez desde lugares distintos, viéndose por cámara.
+- solo · 🌳 · Taxonomía SOLO · Diseño de la enseñanza · n3 · Niveles que clasifican la calidad de una respuesta, desde piezas sueltas hasta ideas integradas y extendidas.
+- sotl · 📑 · Investigación sobre la propia docencia (SoTL) · Conocimiento docente · n3 · Tratar tu aula como laboratorio y llevar los resultados a colegas que puedan rebatirlos.
+- sumativa · 🏁 · Evaluación sumativa · Evaluación · n3 · El juicio final que certifica cuánto se logró cuando el periodo ya terminó.
+- sustitucion · 🟦 · Sustitución (SAMR) · Tecnología · n3 · En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica.
+- syllabus · 📋 · Programa de asignatura centrado en el aprendizaje · Diseño de la enseñanza · n3 · Una carta a quien tomará el curso, que le cuenta qué logrará y con qué apoyo contará.
+- tabla · 🧮 · Tabla de especificaciones · Evaluación · n3 · Plano de una prueba que cruza contenidos con niveles cognitivos y reparte el peso.
+- tck · 🧑‍🔬 · Conocimiento tecnológico del contenido · Tecnología · n3 · Saber qué herramienta representa mejor las ideas de tu disciplina, como un simulador para la física.
+- tecnologia · 💻 · Tecnología · Tecnología · n3 · Herramientas que llevan dentro mucho conocimiento acumulado, como el lápiz o la plataforma del curso.
+- tpk · 🛠️ · Conocimiento tecnopedagógico · Tecnología · n3 · Saber qué cambia en la forma de enseñar cuando una herramienta entra a la sala.
+- transposicion · 🪄 · Transposición didáctica · Diseño de la enseñanza · n3 · El viaje que transforma el saber de los expertos en algo que se puede enseñar en un aula.
+- tutoria_pares · 🧑‍🤝‍🧑 · Tutoría entre pares · Metodologías · n3 · Un estudiante algo más avanzado acompaña a otro, y ambos terminan entendiendo mejor la materia.
+- ubicuo · 🛰️ · Aprendizaje ubicuo · Modalidades · n3 · Se aprende en la calle, en el trabajo, en el bus o en la biblioteca, a cualquier hora.
+- validez · ✅ · Validez y confiabilidad · Evaluación · n3 · ¿Mide lo que dice medir, y daría lo mismo con otro corrector u otro día?
+- zdp · 🌉 · Zona de desarrollo próximo · Cómo se aprende · n3 · La franja entre lo que logras solo y lo que aún no logras ni siquiera con ayuda.
+- addie · ⚙️ · Modelo ADDIE · Diseño de la enseñanza · n4 · Un proceso en cinco fases, desde analizar necesidades hasta evaluar, para diseñar cursos y programas de formación.
+- alf_retro · 📬 · Alfabetización en retroalimentación · Evaluación · n4 · Saber descifrar los comentarios en rojo de un trabajo devuelto y convertirlos en cambios.
+- alineamiento · ⚖️ · Alineamiento constructivo · Diseño de la enseñanza · n4 · La clase entrena el mismo tipo de pensamiento que la meta promete y que la prueba después exige.
+- analisis_items · 🔢 · Análisis de ítems · Evaluación · n4 · Revisar, pregunta por pregunta, cuántos acertaron y si distinguió a quienes sabían más.
+- aprendizaje_automatico · 🦾 · Aprendizaje automático · Tecnología · n4 · Programas que mejoran su desempeño con ejemplos, sin que nadie les escriba cada regla.
+- autentica · 🧪 · Evaluación auténtica · Evaluación · n4 · Una prueba que se parece al trabajo de verdad, como redactar un peritaje o un plan de cuidados.
+- brecha · 🚧 · Brecha digital · Tecnología · n4 · Cuando la clase pasa a internet, quien no tiene datos o nunca usó una plataforma queda afuera.
+- cap_memoria · 🏺 · Estudio que perdura · Síntesis de misión · n4 · Volver a recordar sin mirar, con días de por medio y temas mezclados, aunque se sienta más lento.
+- cap_mitos · 🧹 · Claustro sin mitos · Síntesis de misión · n4 · Reunión de profesores en que toda cifra famosa debe mostrar su estudio de origen antes de entrar.
+- cerebro10 · 🔟 · Solo usamos el 10% del cerebro · Mitos · n4 · La creencia de que la mayor parte de nuestra materia gris está dormida, esperando ser despertada.
+- clase_interactiva · ⚡ · Clase interactiva · Síntesis de misión · n4 · El monólogo del docente se interrumpe, todos votan a solas y cada pareja discute hasta convencerse.
+- comentarios · 💌 · Comentarios sin nota · Evaluación · n4 · El trabajo vuelve lleno de observaciones al margen y sin ningún número en la esquina.
+- computador · 🖥️ · Computador · Tecnología · n4 · Máquina obediente que ejecuta cualquier receta bien escrita, millones de veces por segundo.
+- criterial · 📐 · Evaluación referida a criterio · Evaluación · n4 · Tu nota depende de llegar a un estándar fijado de antemano, aunque lo alcance todo el curso.
+- dua · 🌈 · Diseño Universal para el Aprendizaje · Diseño de la enseñanza · n4 · Una clase pensada como rampa de entrada, que algunos necesitan y que todo el curso termina usando.
+- emoderacion · 🪜 · Modelo de cinco etapas de Salmon · Modalidades · n4 · Una escalera de cinco peldaños donde el curso en línea parte saludándose y llega a construir conocimiento.
+- encuestas · 📮 · Las encuestas docentes miden el aprendizaje · Mitos · n4 · La creencia de que el profesor mejor evaluado por su curso es también el que más le enseñó.
+- inteligencias · 🎨 · Enseñar según la inteligencia dominante · Mitos · n4 · La creencia de que cada estudiante tiene un talento mental favorito por donde deben entrar las clases.
+- juicio · 🧑‍⚖️ · Juicio evaluativo · Evaluación · n4 · Capacidad de distinguir la calidad de un trabajo, propio o ajeno, sin depender del docente.
+- modificacion · 🟨 · Modificación (SAMR) · Tecnología · n4 · En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea.
+- mooc · 🏟️ · MOOC · Tecnología · n4 · Miles de inscritos de todo el mundo en una propuesta gratuita por internet; pocos la terminan.
+- multitarea · 🤹 · Multitarea eficaz · Mitos · n4 · La creencia de que se puede seguir una clase con el chat abierto sin perderse nada.
+- piramide · 🔻 · Pirámide del aprendizaje · Mitos · n4 · Un triángulo con porcentajes redondos que aparece en mil presentaciones y en ningún estudio.
+- portafolio_docente · 💼 · Portafolio docente · Conocimiento docente · n4 · Colección comentada de evidencias de cómo enseñas, útil para mejorar o para postular a una promoción.
+- presencial · 👀 · Presencialidad · Modalidades · n4 · Todos en la misma sala y a la misma hora, como en la universidad de siempre.
+- privacidad · 🔒 · Privacidad y ética de los datos · Tecnología · n4 · Antes de subir las notas del curso a una app gratis, te preguntas quién más podrá verlas.
+- remota_emergencia · 🚨 · Enseñanza remota de emergencia · Modalidades · n4 · Lo que hicieron muchas universidades en marzo de 2020 al trasladar de golpe todo a la videollamada.
+- rubrica · 📏 · Rúbrica · Evaluación · n4 · Criterios y niveles de desempeño explícitos, compartidos con el estudiante antes de entregar.
+- segmentacion · ✂️ · Segmentación · Cómo se aprende · n4 · Una lección larga servida en porciones; el estudiante decide cuándo pedir la siguiente.
+- tpack · 🔺 · TPACK · Conocimiento docente · n4 · Marco que pide a la tecnología entenderse con tu materia y tu didáctica antes de entrar a clase.
+- video · 📼 · Clase grabada · Tecnología · n4 · La exposición del profesor, disponible para verla cuando quieras y cuantas veces quieras.
+- virtual · 🪟 · Entorno virtual · Modalidades · n4 · Un campus sin ladrillos, con puertas que se abren con usuario y contraseña desde cualquier lugar.
+- accesibilidad · ♿ · Accesibilidad digital · Tecnología · n5 · Tu material en línea sirve igual para quien solo usa teclado o lo escucha con lector de pantalla.
+- blended · 🔀 · Aprendizaje combinado · Modalidades · n5 · Parte del curso ocurre en la sala y parte en línea, rediseñando qué conviene en cada lugar.
+- cap_activa · 🌅 · La clase que despierta · Síntesis de misión · n5 · Sesiones donde el curso piensa en voz alta y el docente averigua, antes del examen, qué se entendió.
+- cap_curso · 🎼 · Curso alineado para todos · Síntesis de misión · n5 · La prueba pide lo mismo que la meta y la práctica, y hay varias puertas de entrada.
+- capsula · 🎬 · Cápsula de video · Tecnología · n5 · Pieza audiovisual de pocos minutos que explica una sola idea.
+- eval_docencia · 🧾 · Evaluación de la docencia con múltiples fuentes · Conocimiento docente · n5 · Juzgar a un profesor como un buen jurado, que cruza testimonios de estudiantes y colegas con pruebas.
+- hyflex · 🎛️ · HyFlex · Modalidades · n5 · En cada sesión el estudiante elige si asiste a la sala, se conecta en vivo o avanza después.
+- ia · 🤖 · IA generativa · Tecnología · n5 · Le pides un soneto sobre la fotosíntesis y lo escribe en segundos, con rima y quizás algún error.
+- personalizacion_responsable · 🧵 · Personalización responsable · Síntesis de misión · n5 · Ejercicios a la medida de cada estudiante, con reglas claras sobre quién ve sus datos y para qué.
+- redefinicion · 🟥 · Redefinición (SAMR) · Tecnología · n5 · El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles.
+- sostenible · ♾️ · Evaluación sostenible · Evaluación · n5 · Preparar al estudiante para juzgar su propio desempeño cuando ya no haya docente que lo califique.
+- alfabetizacion_ia · 🔤 · Alfabetización en IA · Tecnología · n6 · Saber por qué un chatbot puede inventar una cita con total seguridad y cuándo conviene no preguntarle.
+- cap_eval · 🎖️ · Evaluación que enseña · Síntesis de misión · n6 · Calificar hoy de modo que mañana, sin docente cerca, el egresado sepa juzgar y mejorar su trabajo.
+- cap_hibrido · 🪐 · Comunidad híbrida que aprende · Síntesis de misión · n6 · Cada quien elige sala, conexión en vivo o ritmo propio, y todos sostienen la misma discusión.
+- detectores · 🕵️ · Detectores de IA · Mitos · n6 · Herramientas que prometen descubrir si un texto lo escribió una máquina, y que se equivocan con frecuencia.
+- invertida · 🔄 · Aula invertida · Metodologías · n6 · Lo que antes se explicaba en la sala se ve en casa, y la sesión se usa para trabajar.
+- tutoria · 🦉 · Tutor con IA · Tecnología · n6 · Un chatbot configurado para guiarte con pistas y preguntas, sin entregarte la solución.
+- evaluacion_ia · 🔐 · Evaluación en tiempos de IA · Síntesis de misión · n7 · Tareas donde un chatbot puede ayudar, pero las decisiones y su defensa oral quedan en manos del estudiante.
+- ia_que_ensena · 🕯️ · IA que enseña a pensar · Síntesis de misión · n8 · Un chatbot que responde con preguntas y pistas, y tareas que solo se aprueban razonando.
+- cap_ia · 🌟 · IA al servicio de una educación personalizada y realista · Síntesis de misión · n9 · Un tutor digital que se ajusta a cada estudiante sin quitarle el esfuerzo ni exponer sus datos.

@@ -26,6 +26,9 @@ function cargarGrafo2(extra = {}) {
   for (const [id, f] of Object.entries(v1)) fichas[id] = { ...f };
   for (const [id, f] of Object.entries(cat.nuevas)) fichas[id] = { ...(fichas[id] || {}), ...f };
   for (const [id, c] of Object.entries(cat.cambios)) { if (!fichas[id]) errores.push("cambio a ficha inexistente " + id); else Object.assign(fichas[id], c); }
+  // fichas y misiones de las expansiones (expansion-E*.json), ya leídas por construir.js
+  for (const [id, f] of Object.entries(extra.fichas || {})) { if (fichas[id]) errores.push("la expansión repite el id " + id); else fichas[id] = { ...f }; }
+  if (extra.misiones) cat.misiones = cat.misiones.concat(extra.misiones);
   const quitar = new Set(fs.readFileSync(V("quitar.txt"), "utf8").split("\n").map(s => s.trim()).filter(s => s && !s.startsWith("#")));
   for (const k of extra.quitar || []) quitar.add(k);
   const recetas = [], porClave = new Map();
