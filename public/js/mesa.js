@@ -127,14 +127,14 @@ async function fundir(a, b, cx, cy) {
   }
   await espera(200);
 }
+// Pista para seguir: una de las dos fichas que todavía puede formar una pieza del plano con otra que ya tienes.
 function sugerencia(a, b) {
   for (const x of [a, b]) {
     const posible = recetasMision().find(r => (r[0] === x || r[1] === x) && !tiene(r[2]) && tiene(r[0]) && tiene(r[1]));
-    if (posible) return "Prueba " + D.fichas[x].e + " " + D.fichas[x].n + " con otra de tus fichas, que hay una pieza esperándote.";
+    if (posible) return "Con " + D.fichas[x].e + " " + D.fichas[x].n + " y otra de tus fichas todavía puedes formar una pieza del plano.";
   }
-  return "Mira la hoja de la misión o el plano para ver qué piezas tienes a tu alcance.";
+  return "En la hoja de la misión y en el plano ves qué piezas tienes a tu alcance.";
 }
-const LINEA = "En esta misión no podemos seguir avanzando por esta línea investigativa.";
 function noCombina(a, b) {
   const cx = b.x + b.el.offsetWidth / 2, cy = b.y + b.el.offsetHeight / 2;
   a.el.classList.add("niega"); b.el.classList.add("niega");
@@ -144,9 +144,9 @@ function noCombina(a, b) {
   const titulo = D.fichas[a.id].e + " " + D.fichas[a.id].n + " + " + D.fichas[b.id].e + " " + D.fichas[b.id].n;
   const quieta = [a.id, b.id].find(agotada);
   let texto;
-  if (quieta) texto = LINEA + " " + D.fichas[quieta].e + " " + D.fichas[quieta].n + " ya no lleva a ninguna pieza pendiente del plano. " + sugerencia(a.id, b.id);
-  else if (recetaFuera(a.id, b.id)) texto = LINEA + " Esa mezcla lleva a una idea que no está en el plano de esta misión. " + sugerencia(a.id, b.id);
-  else texto = "Esta pareja no forma ninguna idea. " + sugerencia(a.id, b.id);
+  if (quieta) texto = D.fichas[quieta].e + " " + D.fichas[quieta].n + " ya entregó todo lo que podía en esta misión, así que por esa línea investigativa no podemos seguir avanzando. " + sugerencia(a.id, b.id);
+  else if (recetaFuera(a.id, b.id)) texto = "Esa mezcla lleva fuera del plano, y en esta misión no podemos seguir avanzando por esa línea investigativa. " + sugerencia(a.id, b.id);
+  else texto = "Por aquí no hay camino, busca otra senda. " + sugerencia(a.id, b.id);
   avisoRico(titulo, texto, { ms: 7000 });
   guardarPizarra();
 }
