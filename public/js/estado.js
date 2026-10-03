@@ -18,7 +18,16 @@ export function guardar() {
   clearTimeout(t);
   t = setTimeout(() => { try { localStorage.setItem(CLAVE, JSON.stringify(E)); } catch (e) { /* lleno o bloqueado */ } }, 120);
 }
-export function reiniciar() { const sonido = E.sonido; Object.keys(E).forEach(k => delete E[k]); Object.assign(E, inicial(), { sonido }); cargarEstado(); guardar(); }
+// Borra la partida: primero lo guardado en el navegador, después la memoria (antes se volvía a leer lo viejo).
+export function reiniciar() {
+  const sonido = E.sonido;
+  clearTimeout(t);
+  try { localStorage.removeItem(CLAVE); } catch (e) { /* sin almacenamiento */ }
+  Object.keys(E).forEach(k => delete E[k]);
+  Object.assign(E, inicial(), { sonido });
+  for (const id of D.iniciales) E.descubiertos[id] = 1;
+  guardar();
+}
 export const tiene = id => !!E.descubiertos[id];
 export const descubiertas = () => Object.keys(E.descubiertos).filter(id => D.fichas[id]);
 export function estadoMision(id) { return E.misiones[id] = E.misiones[id] || { iniciada: Date.now(), completada: null, reflexiones: {}, pistas: {} }; }

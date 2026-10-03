@@ -4,9 +4,9 @@ import { E, cargarEstado, guardar, reiniciar, descubiertas, tiene } from "./esta
 import { $, aviso, abrirPanel, cerrarPanel } from "./ui.js";
 import { activarSonido, sonar } from "./sonido.js";
 import { iniciarPolvo } from "./polvo.js";
-import { renderCaja, restaurarPizarra, borrarPizarra, colocarPrimigenios } from "./mesa.js";
+import { renderCaja, restaurarPizarra, borrarPizarra, colocarPrimigenios, vaciarMesa } from "./mesa.js";
 import { renderCabecera, renderHoja, abrirPlano, abrirMisiones, abrirCuaderno, abrirPlan, darPista, iniciarMision, misionActiva, tutorialPaso } from "./misiones.js";
-import { on } from "./bus.js";
+import { on, emitir } from "./bus.js";
 import { esAlcanzable, totalAlcanzables } from "./reglas.js";
 import { cerrarFicha } from "./ficha.js";
 
@@ -42,27 +42,25 @@ function renderPortada() {
   else if (m) h += '<button class="boton principal grande" type="button" data-p="continuar">Continuar: ' + esc(m.n) + "</button>";
   else h += '<button class="boton principal grande" type="button" data-p="misiones">Elegir una misión</button>';
   if (!(m && tiene(m.meta) && avanzo)) h += '<button class="boton grande" type="button" data-p="misiones"><span class="em">📜</span>Ver las ' + D.misiones.length + ' misiones</button>';
-  btns.innerHTML = '<div class="fila-a">' + h + "</div>";
+  btns.innerHTML = '<div class="fila-a">' + h + "</div>" + (avanzo ? '<div class="fila-b"><button class="enlace-btn" type="button" data-p="borrar">Borrar mi partida y empezar de cero</button></div>' : "");
   btns.querySelectorAll("[data-p]").forEach(b => b.addEventListener("click", () => {
     activarSonido();
     const a = b.dataset.p;
     if (a === "empezar") { entrar(); iniciarMision("primeros"); }
     if (a === "continuar") { entrar(); if (!misionActiva()) iniciarMision("primeros"); }
     if (a === "misiones") { entrar(); abrirMisiones(); }
+    if (a === "borrar") emitir("pedirReinicio");
   }));
   const hechas = D.misiones.filter(m => E.misiones[m.id] && E.misiones[m.id].completada).length;
   $("portadaPie").textContent = descubiertas().filter(esAlcanzable).length + " de " + totalAlcanzables() + " ideas descubiertas · " + hechas + " de " + D.misiones.length + " misiones cumplidas · funciona sin conexión";
 }
 
 /* ---------- Juego ---------- */
-let enJuego = false;
+let enJuego = false, mesaLista = false;
 function entrar() {
   mostrar("juego");
-  if (!enJuego) {
-    enJuego = true;
-    iniciarPolvo($("polvo"));
-    requestAnimationFrame(() => { restaurarPizarra(); notaPizarra(); });
-  }
+  if (!enJuego) { enJuego = true; iniciarPolvo($("polvo")); }
+  if (!mesaLista) { mesaLista = true; requestAnimationFrame(() => { restaurarPizarra(); notaPizarra(); }); }
   renderCaja(); renderCabecera(); renderHoja(); tutorialPaso();
 }
 function notaPizarra() {
@@ -81,7 +79,14 @@ $("btnCuaderno").addEventListener("click", abrirCuaderno);
 $("btnPlan").addEventListener("click", abrirPlan);
 on("pedirReinicio", () => {
   abrirPanel('<h2>¿Empezar de cero?</h2><p class="intro">Se borran tus ideas, caminos, chispas, reflexiones y misiones de este navegador.</p><div class="fila-botones"><button class="boton" type="button" data-accion="no">Cancelar</button><button class="boton principal" type="button" data-accion="si">Sí, borrar todo</button></div>',
-    { no: cerrarPanel, si: () => { reiniciar(); cerrarPanel(); renderCaja(); renderCabecera(); renderHoja(); for (const el of [...document.querySelectorAll("#pizarra .ficha")]) el.remove(); restaurarPizarra(); notaPizarra(); } });
+    { no: cerrarPanel, si: () => {
+      reiniciar(); emitir("reinicio");
+      cerrarPanel(); $("capaPlano").hidden = true; $("celebracion").hidden = true;
+      vaciarMesa(); mesaLista = false;
+      renderCaja(); renderCabecera(); renderHoja();
+      pintarPortada(); renderPortada(); mostrar("portada");
+      aviso("Tu partida se borró. Puedes empezar de nuevo.", { ms: 5000 });
+    } });
 });
 document.addEventListener("keydown", e => {
   if (e.key !== "Escape") return;

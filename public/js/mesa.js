@@ -340,6 +340,7 @@ export function colocarPrimigenios() {
   guardarPizarra();
   marcarAgotadas();
 }
+export function vaciarMesa() { [...fichas].forEach(quitar); }
 export const elementoDe = id => (fichas.find(t => t.id === id) || {}).el || null;
 on("cajaCambio", () => renderCaja());
 // Al cambiar de misión, la mesa vuelve a los cuatro primigenios y la caja muestra lo que sirve para la nueva.

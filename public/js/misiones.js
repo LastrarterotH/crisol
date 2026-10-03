@@ -99,6 +99,7 @@ const pendientes = [];
 const libre = () => !fichaAbierta() && $("capaPanel").hidden && $("celebracion").hidden;
 function seguir() { setTimeout(() => { if (libre() && pendientes.length) pendientes.shift()(); }, 220); }
 on("fichaCerrada", seguir);
+on("reinicio", () => { pendientes.length = 0; encargoAbierto = false; ocultarCoach(); });
 // Hitos ya logrados (en esta u otra misión) cuya reflexión todavía no se escribe en esta misión.
 const reflexionesPendientes = m => m.hitos.filter(h => tiene(h) && !(estadoMision(m.id).reflexiones || {})[h]);
 
