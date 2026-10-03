@@ -40,3 +40,11 @@ export function agotada(id) {
   if (!m) return false;
   return !reglas(m).recetas.some(r => (r[0] === id || r[1] === id) && !tiene(r[2]));
 }
+
+// Las ideas que se pueden descubrir: las que están en el plano de alguna misión.
+let alcanzables = null;
+export function esAlcanzable(id) {
+  if (!alcanzables) alcanzables = new Set(D.misiones.flatMap(m => m.plano.map(n => n.id)));
+  return alcanzables.has(id);
+}
+export const totalAlcanzables = () => Object.keys(D.fichas).filter(esAlcanzable).length;

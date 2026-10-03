@@ -7,6 +7,7 @@ import { iniciarPolvo } from "./polvo.js";
 import { renderCaja, restaurarPizarra, borrarPizarra, colocarPrimigenios } from "./mesa.js";
 import { renderCabecera, renderHoja, abrirPlano, abrirMisiones, abrirCuaderno, abrirPlan, darPista, iniciarMision, misionActiva, tutorialPaso } from "./misiones.js";
 import { on } from "./bus.js";
+import { esAlcanzable, totalAlcanzables } from "./reglas.js";
 import { cerrarFicha } from "./ficha.js";
 
 function mostrar(pantalla) {
@@ -26,6 +27,7 @@ function pintarDemo() {
   demo.querySelector(".d-r").addEventListener("animationiteration", () => { demoI++; pintarDemo(); }, { once: true });
 }
 function pintarPortada() {
+  $("portadaSub").textContent = "De cuatro elementos nacen " + totalAlcanzables() + " ideas sobre cómo se aprende, repartidas en " + D.misiones.length + " misiones. Suelta una ficha sobre otra y recorre la docencia universitaria desde su raíz.";
   const pts = [[7, 16], [81, 12], [9, 80], [80, 78]];
   $("portadaDeco").innerHTML = D.iniciales.map((id, i) => fichaMuestra(id, "", "left:" + pts[i][0] + "%;top:" + pts[i][1] + "%")).join("");
   pintarDemo();
@@ -49,7 +51,7 @@ function renderPortada() {
     if (a === "misiones") { entrar(); abrirMisiones(); }
   }));
   const hechas = D.misiones.filter(m => E.misiones[m.id] && E.misiones[m.id].completada).length;
-  $("portadaPie").textContent = descubiertas().length + " de " + Object.keys(D.fichas).length + " ideas descubiertas · " + hechas + " de " + D.misiones.length + " misiones cumplidas · funciona sin conexión";
+  $("portadaPie").textContent = descubiertas().filter(esAlcanzable).length + " de " + totalAlcanzables() + " ideas descubiertas · " + hechas + " de " + D.misiones.length + " misiones cumplidas · funciona sin conexión";
 }
 
 /* ---------- Juego ---------- */

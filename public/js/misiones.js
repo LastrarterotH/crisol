@@ -7,7 +7,7 @@ import { sonar } from "./sonido.js";
 import { on, emitir } from "./bus.js";
 import { COLOR, llevar, elementoDe, restaurarPizarra } from "./mesa.js";
 
-import { misionActiva, recetasMision } from "./reglas.js";
+import { misionActiva, recetasMision, esAlcanzable } from "./reglas.js";
 export { misionActiva };
 const nodoDe = (m, id) => m.plano.find(n => n.id === id);
 const construibles = m => m.plano.filter(n => !D.iniciales.includes(n.id));
@@ -236,8 +236,8 @@ export function celebrar(m) {
   const refl = Object.entries(st.reflexiones).filter(([, t]) => t);
   cel.innerHTML = '<canvas id="confeti" aria-hidden="true"></canvas><div class="contenido"><div class="sello-meta">' + esc(f.e) + '</div><h1>¡Misión <em>cumplida</em>!</h1>' +
     '<p class="cierre">' + rico(m.cierre || "Llegaste a la meta.") + "</p>" +
-    '<div class="plano-mini" style="width:min(100%,780px);height:260px"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
-    '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">Leer la síntesis</button>' +
+    '<div class="plano-mini" style="width:min(100%,1040px);height:min(340px,38vh)"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
+    '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">' + (m.tutorial ? "Leer la ficha de " + esc(f.n) : "Leer la síntesis") + "</button>" +
     '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
     (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") + "</div>";
   cel.hidden = false;
@@ -343,7 +343,7 @@ export function iniciarMision(id) {
 export function abrirCuaderno() {
   let h = '<h2>📒 Cuaderno</h2><p class="intro">Todas las ideas del juego, por familia. Las que ya descubriste se pueden releer; los huecos esperan su mezcla. Una ★ marca las fichas que dominas, porque encontraste todos sus caminos.</p>';
   for (const f of D.orden) {
-    const ids = Object.keys(D.fichas).filter(id => D.fichas[id].f === f && !D.fichas[id].ia);
+    const ids = Object.keys(D.fichas).filter(id => D.fichas[id].f === f && esAlcanzable(id));
     if (!ids.length) continue;
     const hechas = ids.filter(tiene);
     h += '<div class="cuaderno-fam f-' + f + '"><h3>' + esc(D.familias[f]) + " <small>" + hechas.length + " de " + ids.length + '</small></h3><div class="fila">' +
