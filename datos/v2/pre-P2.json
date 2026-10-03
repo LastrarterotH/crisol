@@ -1,0 +1,145 @@
+{
+  "recetas": [
+    {"a":"mundo","b":"pregunta","r":"indagacion","nota":"Llevas una pregunta al mundo y buscas evidencia para responderla. Si el docente acompaña cada etapa con apoyos, esa búsqueda se vuelve indagación guiada."},
+    {"a":"mundo","b":"universidad","r":"servicio","nota":"La universidad sale de sus muros y pone lo que sabe al servicio de una necesidad del entorno. Sus estudiantes aprenden la disciplina mientras ayudan."},
+    {"a":"mundo","b":"estudiante","r":"practicas","nota":"Un estudiante deja la sala y entra a un hospital o a una obra. Allí aprende el oficio con tareas reales y un supervisor que lo acompaña."},
+    {"a":"mundo","b":"contenido","r":"transferencia","nota":"Usar fuera del aula lo que aprendiste dentro, ante un problema que no venía en la guía, es transferencia. Cuesta más de lo que parece y conviene practicarla."},
+    {"a":"mundo","b":"tecnologia","r":"movil","nota":"Con el celular, la tecnología viaja contigo por el mundo. Un repaso en el bus o una consulta en terreno convierten cualquier lugar en ocasión de aprender."},
+    {"a":"mundo","b":"emocion","r":"curiosidad","nota":"Algo del mundo no calza con lo que esperabas y te sorprende. Esa emoción te empuja a averiguar; Pekrun la cuenta entre las emociones epistémicas."},
+    {"a":"mundo","b":"proyectos","r":"retos","nota":"Un proyecto toma un desafío global, como el agua o la energía, y lo convierte en una acción local. Así funciona el aprendizaje basado en retos."},
+    {"a":"mundo","b":"ritmo","r":"ubicuo","nota":"Si cada quien avanza a su ritmo y el mundo entero sirve de sala, se aprende en cualquier lugar y a cualquier hora. Eso describe el aprendizaje ubicuo."},
+
+    {"a":"cambio","b":"previos","r":"cambio_conceptual","nota":"Lo que el estudiante creía saber a veces está equivocado. Cuando esa idea previa se reorganiza frente a evidencia nueva, ocurre un cambio conceptual."},
+    {"a":"cambio","b":"error","r":"mentalidad","nota":"Si ves el error como algo que puedes cambiar con estrategia y esfuerzo, entiendes la habilidad como algo que crece. Dweck lo llamó mentalidad de crecimiento."},
+    {"a":"cambio","b":"experiencia","r":"aprendizaje","nota":"Muchos manuales de psicología definen el aprendizaje como un cambio relativamente duradero en lo que sabes o haces, producido por la experiencia."},
+    {"a":"cambio","b":"comunidad","r":"servicio","nota":"Una comunidad que quiere cambiar algo concreto y estudiantes que aportan a ese cambio aplicando lo que estudian. Ese beneficio doble define el aprendizaje-servicio."},
+    {"a":"cambio","b":"mapa","r":"cambio_conceptual","nota":"Una idea nueva no siempre se suma al mapa que ya tenías. A veces obliga a mover nodos y rehacer conexiones, y esa reorganización es el cambio conceptual."},
+
+    {"a":"experiencia","b":"aprendizaje","r":"experiencial","nota":"Aprender de lo vivido, con reflexión después. Kolb lo describió como un ciclo de experiencia concreta, observación reflexiva, conceptualización abstracta y experimentación activa."},
+    {"a":"experiencia","b":"memoria","r":"previos","nota":"Cada experiencia que recuerdas llega contigo a la próxima clase. Lo nuevo se apoya en eso que ya traes, con sus aciertos y sus ideas equivocadas."},
+    {"a":"experiencia","b":"practica","r":"practicas","nota":"Practicar en un lugar de trabajo real da una experiencia que el aula no reproduce. Las prácticas profesionales organizan esa vivencia con un supervisor que guía."},
+    {"a":"experiencia","b":"tecnologia","r":"rv","nota":"Con un visor, la tecnología te hace vivir un quirófano sin salir de la sala. Más presencia no siempre trae más aprendizaje (Makransky y colegas, 2019)."},
+    {"a":"experiencia","b":"docente","r":"cpc","nota":"Con los años, un docente aprende qué ejemplo destraba un tema y en qué se equivocan sus estudiantes. Shulman llamó a ese saber conocimiento pedagógico del contenido."},
+
+    {"a":"practica","b":"estudiante","r":"activo","nota":"Cuando el estudiante deja de solo escuchar y practica durante la clase, hay aprendizaje activo. En ciencias, Freeman y colegas (2014) mostraron que mejora el rendimiento."},
+    {"a":"practica","b":"retro","r":"dominio","nota":"Practicas, recibes una corrección precisa y vuelves a intentar hasta alcanzar el criterio. Bloom propuso organizar los cursos así y lo llamó aprendizaje para el dominio."},
+    {"a":"practica","b":"comunidad","r":"comunidad_practica","nota":"Un grupo que comparte una práctica, como las enfermeras de un turno, aprende junto al resolver los problemas diarios. Lave y Wenger lo llamaron comunidad de práctica."},
+    {"a":"practica","b":"investigacion","r":"investigacion_accion","nota":"Investigas tu propia práctica docente, cambias algo y observas qué pasa, en ciclos que se repiten. Eso es investigación-acción, una idea que se remonta a Kurt Lewin."},
+    {"a":"practica","b":"olvido","r":"reaprendizaje","nota":"Practicas justo cuando empiezas a olvidar, recuperas hasta acertar y repites en otra sesión. Rawson y Dunlosky llaman a esto reaprendizaje sucesivo."},
+    {"a":"practica","b":"saber","r":"situado","nota":"El saber se aprende mejor dentro de la práctica donde se usa, con sus herramientas y su gente. Brown, Collins y Duguid (1989) lo llamaron cognición situada."},
+
+    {"a":"saber","b":"curriculo","r":"transposicion","nota":"El saber de los expertos cambia de forma al entrar al currículo, porque hay que recortarlo y ordenarlo para enseñarlo. Chevallard llamó a ese proceso transposición didáctica."},
+    {"a":"saber","b":"espacio","r":"expositiva","nota":"Un saber dicho en voz alta frente a un aula llena es la clase expositiva. Rinde más si cada tanto el curso hace algo con lo que escuchó."},
+    {"a":"saber","b":"pregunta","r":"curiosidad","nota":"Una pregunta asoma en el borde de lo que sabes. Loewenstein (1994) describió la curiosidad como esa brecha entre lo que sabes y lo que quieres saber."},
+
+    {"a":"comunidad_practica","b":"tecnologia","r":"conectivismo","nota":"Una comunidad de práctica que vive en redes digitales aprende conectando personas y fuentes. Siemens llamó a eso conectivismo, aunque su estatus como teoría se discute."},
+    {"a":"comunidad_practica","b":"pregunta","r":"coi","nota":"Una comunidad que se organiza alrededor de preguntas compartidas investiga en conjunto. Garrison y colegas llevaron esa idea de comunidad de indagación a los cursos en línea."},
+    {"a":"comunidad_practica","b":"lenguaje","r":"alfabetizacion_academica","nota":"Cada disciplina tiene sus propios modos de leer y escribir. Entrar a esa comunidad exige aprender su lenguaje, y Carlino propone enseñarlo dentro de cada asignatura."},
+    {"a":"comunidad_practica","b":"estudiante","r":"practicas","nota":"Un estudiante entra como aprendiz a una comunidad de profesionales y empieza con tareas periféricas pero reales. Las prácticas profesionales organizan ese ingreso con supervisión."},
+    {"a":"comunidad_practica","b":"curriculo","r":"curriculo_oculto","nota":"Toda comunidad enseña costumbres que no figuran en el programa, como cuánto aguantar sin quejarse o cómo tratar a un paciente. Eso es el currículo oculto."},
+
+    {"a":"emocion","b":"juego","r":"motivacion","nota":"Se juega por gusto, sin premio externo. Esa emoción de hacer algo porque sí es el ejemplo típico de motivación intrínseca en la teoría de Deci y Ryan."},
+    {"a":"emocion","b":"metacognicion","r":"autorregulado","nota":"Notas cómo piensas y cómo te sientes frente a la tarea, y ajustas ambas cosas. El modelo de autorregulación de Pintrich incluye la emoción junto a la cognición."},
+    {"a":"emocion","b":"retro","r":"alf_retro","nota":"Recibir una crítica a tu trabajo duele. Carless y Boud cuentan el manejo de esa emoción como parte de la alfabetización en retroalimentación, junto con saber usarla."},
+
+    {"a":"espaciada","b":"olvido","r":"dificultades_deseables","nota":"Al espaciar el estudio olvidas un poco entre sesiones, y recordar te cuesta más. Ese esfuerzo fortalece la memoria; Bjork lo llamó dificultad deseable."},
+    {"a":"espaciada","b":"algoritmo","r":"adaptativo","nota":"Un algoritmo calcula cuándo repasar cada tarjeta según cuánto te costó la última vez. Así el calendario de práctica espaciada se adapta a cada estudiante."},
+    {"a":"espaciada","b":"previos","r":"espiral","nota":"Vuelves a un tema cada cierto tiempo y partes de lo que quedó la vuelta anterior, con más profundidad. Bruner llamó a esa estructura currículo en espiral."},
+
+    {"a":"investigacion","b":"aprendizaje","r":"ciencia_aprendizaje","nota":"Investigar cómo aprende la gente, en laboratorios y en aulas reales, produce una ciencia del aprendizaje. Sus hallazgos ayudan a elegir estrategias con algo más que intuición."},
+    {"a":"investigacion","b":"pedagogia","r":"evidencia","nota":"Una pedagogía que revisa qué dice la investigación antes de elegir una estrategia es docencia informada por evidencia. Tu conocimiento del curso sigue contando para aplicarla."},
+    {"a":"investigacion","b":"docente","r":"investigacion_accion","nota":"Un docente investiga su propia aula para mejorarla. Stenhouse defendió al profesor como investigador, y la investigación-acción le ofrece un método en ciclos."},
+    {"a":"investigacion","b":"estudiante","r":"indagacion","nota":"El estudiante investiga una pregunta y busca datos mientras el docente ofrece apoyos en cada etapa. Con esa guía, la indagación rinde más que el descubrimiento libre."},
+    {"a":"investigacion","b":"escritura","r":"alfabetizacion_academica","nota":"Escribir un informe de investigación exige géneros que rara vez se enseñan de forma explícita. Enseñarlos dentro de cada asignatura es el centro de la alfabetización académica."},
+
+    {"a":"mapa","b":"aprendizaje","r":"significativo","nota":"Novak creó los mapas conceptuales para mostrar el aprendizaje significativo de Ausubel, ese en que lo nuevo se ancla en lo que ya sabes."},
+    {"a":"mapa","b":"bloom","r":"tabla","nota":"Cruzas el mapa de contenidos del curso con los niveles de Bloom y obtienes una grilla. Con pesos por celda, esa grilla es la tabla de especificaciones."},
+    {"a":"mapa","b":"recuperacion","r":"dificultades_deseables","nota":"Armar el mapa de memoria cuesta más que copiarlo del texto. Karpicke y Blunt (2011) mostraron que recuperar deja más aprendizaje que mapear con el texto delante."},
+
+    {"a":"pedagogia","b":"docente","r":"enfoques_ensenanza","nota":"Según cómo entiende enseñar, cada docente se centra en transmitir información o en cambiar la comprensión del estudiante. Trigwell y Prosser llamaron a eso enfoques de enseñanza."},
+    {"a":"pedagogia","b":"zdp","r":"andamiaje","nota":"Enseñar dentro de la zona de desarrollo próximo pide apoyos que se retiran a medida que el estudiante avanza. Wood, Bruner y Ross llamaron a esos apoyos andamiaje."},
+    {"a":"pedagogia","b":"juego","r":"abj","nota":"Un juego elegido con intención pedagógica, en el que para ganar hay que usar justo lo que se quiere enseñar, es aprendizaje basado en juegos."},
+    {"a":"pedagogia","b":"pregunta","r":"bloom","nota":"Una pedagogía atenta a sus preguntas distingue las que piden recordar de las que piden analizar o crear. La taxonomía de Bloom ofrece esa escala para diseñarlas."},
+    {"a":"pedagogia","b":"metacognicion","r":"modelado","nota":"Para enseñar metacognición, el docente piensa en voz alta mientras resuelve y muestra cómo duda y se corrige. Eso es modelado cognitivo."},
+    {"a":"pedagogia","b":"escritura","r":"escribir","nota":"Pedir textos breves para pensar el contenido, sin nota de por medio, convierte la escritura en herramienta pedagógica. Eso es escribir para aprender."},
+    {"a":"pedagogia","b":"herramienta","r":"tpk","nota":"Saber cuándo una herramienta ayuda a aprender y cuándo estorba, más allá de saber usarla, es conocimiento tecnopedagógico. Mishra y Koehler lo ubican dentro de TPACK."},
+
+    {"a":"pregunta","b":"tecnologia","r":"respuesta_audiencia","nota":"Lanzas una pregunta y todo el curso responde a la vez desde el celular. En segundos ves qué entendió la mayoría y dónde está la confusión."},
+    {"a":"pregunta","b":"proyectos","r":"retos","nota":"Un proyecto que arranca de una pregunta de fondo sobre un gran tema y termina en una acción concreta. Esa es la secuencia del aprendizaje basado en retos."},
+    {"a":"pregunta","b":"escritura","r":"cats","nota":"Al cierre pides escribir qué aprendieron y qué quedó confuso. Ese papel de un minuto es una técnica de evaluación en el aula de Angelo y Cross."},
+    {"a":"pregunta","b":"previos","r":"diagnostica","nota":"Antes de empezar una unidad preguntas qué saben del tema. Las respuestas revelan conocimientos e ideas erróneas, y eso es evaluación diagnóstica."},
+
+    {"a":"proyectos","b":"comunidad","r":"servicio","nota":"Un proyecto pensado con una comunidad para atender una necesidad real, y que a la vez enseña la disciplina, es aprendizaje-servicio."},
+    {"a":"proyectos","b":"perfil_egreso","r":"competencias","nota":"Un proyecto integrador pide movilizar lo que exige el perfil de egreso en una tarea real. El enfoque por competencias se organiza en torno a ese desempeño."},
+
+    {"a":"situado","b":"problema","r":"casos","nota":"Un problema real narrado con su contexto y sus datos incompletos se discute en clase como si el curso tuviera que decidir. Así trabaja el método de casos."},
+    {"a":"situado","b":"juego","r":"simulacion","nota":"Un juego de roles que recrea una situación profesional, como una audiencia judicial o una consulta médica, permite practicar sin riesgo. Eso es una simulación."},
+    {"a":"situado","b":"docente","r":"modelado","nota":"Un docente resuelve una tarea auténtica de su oficio frente al curso, pensando en voz alta. Collins, Brown y Newman pusieron ese modelado al inicio del aprendizaje cognitivo."},
+
+    {"a":"abj","b":"tecnologia","r":"simulacion","nota":"Un videojuego que modela un sistema real, como una economía o una cuenca, deja probar decisiones y ver sus consecuencias. Ahí el juego se vuelve simulación."},
+    {"a":"abj","b":"ritmo","r":"adaptativo","nota":"Un buen juego sube la dificultad cuando aciertas y la baja cuando te cuesta, al ritmo de cada jugador. Los sistemas adaptativos hacen lo mismo con el aprendizaje."},
+    {"a":"abj","b":"recuperacion","r":"respuesta_audiencia","nota":"Un concurso de preguntas en vivo obliga a recordar sin mirar y a responder desde el celular. Esas plataformas juntan juego y sistema de respuesta en el aula."},
+
+    {"a":"autorregulado","b":"motivacion","r":"autoeficacia","nota":"Quien estudia por interés y monitorea su propio avance acumula pruebas de que puede lograrlo. Zimmerman sitúa la autoeficacia entre los motores de la autorregulación."},
+    {"a":"autorregulado","b":"ritmo","r":"asincronico","nota":"Un curso sin horario común, donde cada estudiante avanza a su propio paso, es modalidad asincrónica. Funciona mejor para quienes saben organizarse solos."},
+    {"a":"autorregulado","b":"zdp","r":"andamiaje","nota":"El docente apoya dentro de la zona de desarrollo próximo y retira la ayuda cuando el estudiante empieza a regularse solo. Ese retiro gradual es parte del andamiaje."},
+
+    {"a":"carga_trabajo","b":"mente","r":"carga_cognitiva","nota":"La carga de trabajo se cuenta en horas. La que pesa en la mente por manejar muchos elementos a la vez es la carga cognitiva que estudió Sweller."},
+    {"a":"carga_trabajo","b":"estudiante","r":"profundo","nota":"Cuando el estudiante siente una carga excesiva, memoriza para cumplir. Con una carga razonable le queda tiempo para buscar sentido, como muestran estudios de Kember y de Lizzio."},
+    {"a":"carga_trabajo","b":"tecnologia","r":"datos","nota":"La plataforma registra cuánto tiempo pasa cada estudiante en cada tarea. Esos datos permiten una primera comparación entre las horas que estimaste y las que el curso dedicó."},
+
+    {"a":"cooperativo","b":"retro","r":"coevaluacion","nota":"En un equipo cooperativo, cada integrante revisa el trabajo de otro con criterios claros y le devuelve comentarios. Esa retroalimentación entre compañeros es evaluación entre pares."},
+    {"a":"cooperativo","b":"estudiante","r":"tutoria_pares","nota":"Dentro de un trabajo cooperativo, un estudiante que domina un tema se lo explica a otro que está empezando. Ambos aprenden, y eso es tutoría entre pares."},
+    {"a":"cooperativo","b":"cooperativo","r":"jigsaw","nota":"Primero cooperas en un grupo de expertos sobre una pieza del tema, luego vuelves a tu grupo base a enseñarla. Dos cooperaciones encadenadas forman el rompecabezas de Aronson."},
+
+    {"a":"dificultades_deseables","b":"error","r":"mentalidad","nota":"Una tarea difícil trae errores, y puedes leerlos como falta de talento o como parte de aprender. Dweck asocia esa segunda lectura con la mentalidad de crecimiento."},
+    {"a":"dificultades_deseables","b":"tecnologia","r":"adaptativo","nota":"Un sistema que ajusta cada ejercicio para que cueste sin bloquear mantiene la dificultad en un punto productivo para cada estudiante. Eso busca el aprendizaje adaptativo."},
+    {"a":"dificultades_deseables","b":"zdp","r":"andamiaje","nota":"Una dificultad es deseable solo si el estudiante puede superarla. Si queda fuera de su alcance hace falta un apoyo temporal, y ese apoyo es el andamiaje."},
+
+    {"a":"espacio","b":"activo","r":"aula_activa","nota":"Si la clase pide trabajar en grupos y discutir, el aula acompaña con mesas móviles y pizarras en las paredes. Así se diseñan las aulas de aprendizaje activo."},
+    {"a":"espacio","b":"universidad","r":"presencial","nota":"Estar en un aula de la universidad, en el mismo lugar y momento que tus compañeros, es presencialidad. Facilita las conversaciones espontáneas antes y después de clase."},
+
+    {"a":"gagne","b":"proposito","r":"resultados","nota":"El segundo evento de Gagné pide contarle al estudiante qué podrá hacer al terminar. Ese propósito, escrito con un verbo observable, es un resultado de aprendizaje."},
+    {"a":"gagne","b":"curiosidad","r":"arcs","nota":"Gagné abre la clase captando la atención, y la curiosidad es una buena vía. Keller desarrolló esa idea en el modelo ARCS, cuya A es atención."},
+    {"a":"gagne","b":"previos","r":"merrill","nota":"El tercer evento de Gagné pide recordar lo aprendido antes. Merrill retomó la idea como principio de activación, uno de sus primeros principios de instrucción."},
+
+    {"a":"intercalada","b":"casos","r":"transferencia","nota":"Ver casos de distintos tipos mezclados te obliga a distinguirlos. Kornell y Bjork (2008) vieron que así se clasifican mejor ejemplos nuevos, una forma de transferencia."},
+    {"a":"intercalada","b":"significativo","r":"transferencia","nota":"Mezclar tipos de problemas te obliga a decidir qué estrategia aplica en cada uno. Si también entiendes por qué funciona, llegas mejor preparado a usarla fuera del ejercicio."},
+
+    {"a":"motivacion","b":"aprendizaje","r":"profundo","nota":"Cuando estudias por interés genuino buscas el sentido de lo que lees. Biggs describe el enfoque profundo como ese motivo intrínseco unido a estrategias que buscan significado."},
+    {"a":"motivacion","b":"retro","r":"mentalidad","nota":"Elogiar el esfuerzo y la estrategia en lugar del talento cambia cómo se enfrenta el siguiente desafío. Mueller y Dweck (1998) lo mostraron en experimentos con escolares."},
+
+    {"a":"reaprendizaje","b":"ritmo","r":"dominio","nota":"Cada estudiante vuelve a practicar hasta acertar, a su propio ritmo, antes de pasar al tema siguiente. Esa lógica es la del aprendizaje para el dominio de Bloom."},
+    {"a":"reaprendizaje","b":"tecnologia","r":"adaptativo","nota":"Una aplicación que te vuelve a preguntar cada concepto hasta que aciertas, y lo agenda para otra sesión, ajusta el plan a tu desempeño. Eso es aprendizaje adaptativo."},
+    {"a":"reaprendizaje","b":"retro","r":"dominio","nota":"Tras cada intento recibes una corrección concreta y repasas lo que fallaste en otra sesión. Bloom unió correcciones y nuevas pruebas en el aprendizaje para el dominio."},
+
+    {"a":"syllabus","b":"inverso","r":"alineamiento","nota":"Un programa que parte de los resultados y luego define evaluación y actividades hace que todo apunte a lo mismo. Biggs llamó a esa coherencia alineamiento constructivo."},
+    {"a":"syllabus","b":"bloom","r":"resultados","nota":"Un programa que redacta sus objetivos con verbos de Bloom, como analizar o diseñar, dice qué podrá hacer el estudiante. Así se escriben los resultados de aprendizaje."},
+    {"a":"syllabus","b":"tecnologia","r":"virtual","nota":"El programa del curso sube a la plataforma con fechas y materiales enlazados. Ese espacio digital que organiza el curso es el entorno virtual."},
+    {"a":"syllabus","b":"perfil_egreso","r":"competencias","nota":"Un programa que declara a qué parte del perfil de egreso contribuye, y la evalúa con desempeños reales, trabaja bajo el enfoque por competencias."}
+  ],
+  "sugerencias": [
+    {"a":"saber","b":"error","concepto":"Concepciones alternativas","por_que":"Ideas erróneas pero coherentes que los estudiantes traen, como creer que el verano llega porque la Tierra se acerca al Sol. Son el punto de partida del cambio conceptual."},
+    {"a":"pedagogia","b":"situado","concepto":"Aprendizaje cognitivo del oficio (cognitive apprenticeship)","por_que":"Collins, Brown y Newman (1989) propusieron enseñar como en un taller, haciendo visible el pensamiento experto con modelado y retiro gradual de apoyos. La referencia collins89 ya existe."},
+    {"a":"pedagogia","b":"error","concepto":"Fracaso productivo","por_que":"Kapur (2008) propone que los estudiantes intenten resolver un problema antes de recibir la explicación. Suelen fallar, pero luego comprenden mejor lo que se les enseña."},
+    {"a":"mapa","b":"pensamiento_critico","concepto":"Mapeo de argumentos","por_que":"Diagramar las premisas y objeciones que sostienen una conclusión. Van Gelder y colegas (2004) lo usaron para entrenar razonamiento crítico en estudiantes universitarios."},
+    {"a":"mapa","b":"syllabus","concepto":"Programa gráfico","por_que":"Nilson (2007) propuso acompañar el programa de asignatura con un diagrama que muestre cómo se conectan los temas y los resultados del curso."},
+    {"a":"mapa","b":"perfil_egreso","concepto":"Mapeo curricular","por_que":"Cruzar cada asignatura con los resultados del perfil de egreso para ver dónde se trabaja cada uno y detectar vacíos o repeticiones. Harden (2001) lo describió para medicina."},
+    {"a":"comunidad_practica","b":"docente","concepto":"Comunidad de aprendizaje docente","por_que":"Profesores de varias disciplinas se reúnen durante un año para estudiar y mejorar un aspecto de su docencia. Cox (2004) describió el modelo."},
+    {"a":"investigacion","b":"universidad","concepto":"Nexo docencia-investigación","por_que":"Cómo se conecta lo que investiga una universidad con lo que aprenden sus estudiantes. Healey (2005) distingue modelos en que el estudiante escucha resultados y otros en que investiga."},
+    {"a":"motivacion","b":"gamificacion","concepto":"Efecto de sobrejustificación","por_que":"Premiar con puntos una actividad que ya interesaba puede bajar la motivación intrínseca. El metaanálisis de Deci, Koestner y Ryan (1999) lo encontró con recompensas tangibles esperadas."},
+    {"a":"motivacion","b":"comunidad","concepto":"Sentido de pertenencia","por_que":"Sentir que encajas en la universidad sostiene el esfuerzo. Walton y Cohen (2011) mostraron que una intervención breve sobre pertenencia mejoró resultados de estudiantes de minorías."},
+    {"a":"abj","b":"reflexion","concepto":"Debriefing (análisis posterior al juego)","por_que":"La conversación guiada que sigue a un juego o una simulación para analizar qué pasó y qué se aprendió. Crookall (2010) la considera central en el aprendizaje con juegos."},
+    {"a":"abj","b":"problema","concepto":"Escape room educativo","por_que":"Equipos resuelven acertijos ligados al contenido para salir de una sala con tiempo límite. Veldkamp y colegas (2020) revisaron su uso educativo en una revisión sistemática."},
+    {"a":"cooperativo","b":"pensamiento_critico","concepto":"Controversia académica estructurada","por_que":"Parejas defienden una postura y después la contraria, para luego buscar un acuerdo basado en evidencia. Johnson y Johnson la desarrollaron dentro del aprendizaje cooperativo."},
+    {"a":"cooperativo","b":"autorregulado","concepto":"Regulación socialmente compartida","por_que":"Un equipo planifica y monitorea su trabajo en conjunto, de modo que la regulación deja de ser solo individual. Hadwin, Järvelä y Miller describieron este fenómeno."},
+    {"a":"cooperativo","b":"tecnologia","concepto":"Aprendizaje colaborativo mediado por computador (CSCL)","por_que":"Campo que estudia cómo la tecnología apoya a grupos que construyen conocimiento juntos, por ejemplo en foros o documentos compartidos."},
+    {"a":"intercalada","b":"estudiante","concepto":"Ilusión de fluidez","por_que":"Muchos estudiantes creen aprender más estudiando en bloques, aunque rinden mejor intercalando. Kornell y Bjork (2008) documentaron esa distancia entre sensación y resultado."},
+    {"a":"carga_trabajo","b":"tiempo","concepto":"Créditos académicos","por_que":"Sistemas como el ECTS europeo o el SCT de Chile expresan cada asignatura en horas totales de trabajo del estudiante, dentro y fuera del aula."},
+    {"a":"carga_trabajo","b":"carga_trabajo","concepto":"Enfoque superficial de aprendizaje","por_que":"Ante una carga excesiva, el estudiante memoriza lo justo para aprobar. Marton y Säljö (1976) describieron este enfoque, contraparte del enfoque profundo que ya está en el catálogo."},
+    {"a":"dificultades_deseables","b":"pregunta","concepto":"Efecto de la prueba previa (pretesting)","por_que":"Responder preguntas antes de estudiar un tema, aunque falles, mejora lo que aprendes después. Richland, Kornell y Kao (2009) lo mostraron con textos expositivos."},
+    {"a":"motivacion","b":"docente","concepto":"Docencia que apoya la autonomía","por_que":"Un estilo docente que ofrece opciones y explica el sentido de cada tarea. Reeve (2009) lo asocia con más motivación intrínseca en los estudiantes."},
+    {"a":"pregunta","b":"dialogo","concepto":"Método socrático","por_que":"Conversación en que el docente encadena preguntas para que el estudiante examine y precise sus propias ideas. Es habitual en la enseñanza del derecho."},
+    {"a":"emocion","b":"escritura","concepto":"Escritura expresiva antes de un examen","por_que":"Escribir unos diez minutos sobre las preocupaciones antes de una prueba mejoró el rendimiento de estudiantes ansiosos en el estudio de Ramirez y Beilock (2011)."}
+  ]
+}

@@ -1,0 +1,316 @@
+{
+ "refs": {
+  "smith11": "Smith, M. K., Wood, W. B., Krauter, K., & Knight, J. K. (2011). Combining peer discussion with instructor explanation increases student learning from in-class concept questions. _CBE-Life Sciences Education, 10_(1), 55–63.",
+  "lasry08": "Lasry, N. (2008). Clickers or flashcards: Is there really a difference? _The Physics Teacher, 46_(4), 242–244.",
+  "deslauriers19": "Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. _Proceedings of the National Academy of Sciences, 116_(39), 19251–19257.",
+  "kestin25": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. _Scientific Reports, 15_, artículo 17458.",
+  "dawson24": "Dawson, P., Bearman, M., Dollinger, M., & Boud, D. (2024). Validity matters more than cheating. _Assessment & Evaluation in Higher Education, 49_(7), 1005–1016.",
+  "perkins24": "Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. _Journal of University Teaching and Learning Practice, 21_(6).",
+  "lewandowsky12": "Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. _Psychological Science in the Public Interest, 13_(3), 106–131.",
+  "macdonald17": "Macdonald, K., Germine, L., Anderson, A., Christodoulou, J., & McGrath, L. M. (2017). Dispelling the myth: Training in education or neuroscience decreases but does not eliminate beliefs in neuromyths. _Frontiers in Psychology, 8_, artículo 1314."
+ },
+ "fichas": {
+  "clase_interactiva": {
+   "pista": "El monólogo del docente se interrumpe, todos votan a solas y cada pareja discute hasta convencerse.",
+   "why": "Une la pregunta conceptual con voto de Mazur y la estructura del aprendizaje cooperativo. Votar a solas antes de conversar obliga a cada estudiante a comprometerse con una respuesta, que es la responsabilidad individual que piden Johnson y Johnson, y después la pareja comparte una meta (llegar a la respuesta mejor argumentada). En un curso universitario de Genética, Smith y colaboradores mostraron que la discusión mejora la comprensión incluso cuando nadie en el grupo sabía la respuesta al principio. En un estudio posterior, discutir y luego escuchar la explicación del docente rindió más que cualquiera de las dos cosas por separado.",
+   "principios": [
+    "Elige preguntas conceptuales que dividan al curso en el primer voto, porque si casi todos aciertan o casi todos fallan la conversación aporta poco (Crouch y Mazur, 2001).",
+    "Pide siempre un voto individual antes de conversar, para que cada estudiante llegue a la discusión con una postura propia (Crouch y Mazur, 2001).",
+    "Da a cada pareja una tarea que exija a ambos, por ejemplo que uno explique su respuesta y el otro busque el punto débil antes de intercambiar los papeles (Johnson y Johnson, 2009).",
+    "Cierra cada ronda explicando tú el razonamiento correcto, porque la discusión seguida de la explicación docente rinde más que cada una por separado (Smith et al., 2011).",
+    "No esperes a tener clickers, porque en instrucción entre pares las tarjetas de colores dieron resultados de aprendizaje similares (Lasry, 2008)."
+   ],
+   "prueba": "En tu próxima clase, escribe una pregunta sobre la confusión más típica del tema, pide un voto con tarjetas o a mano alzada, da dos minutos para convencer al de al lado y vuelve a votar. Anota cuánto cambió el porcentaje de aciertos.",
+   "refs": [
+    "crouch01",
+    "johnson09",
+    "smith09",
+    "smith11",
+    "lasry08"
+   ]
+  },
+  "cap_activa": {
+   "pista": "Sesiones donde el curso piensa en voz alta y el docente averigua, antes del examen, qué se entendió.",
+   "why": "Integra la clase interactiva, donde el curso vota y discute, con las técnicas de evaluación en el aula de Angelo y Cross, como el papel de un minuto o el punto más confuso. Juntas cierran un ciclo en que la actividad hace pensar al curso y deja huellas de lo que entendió, y esas huellas deciden cómo empieza la sesión siguiente. Es evaluación formativa en el sentido de Black y Wiliam, porque la información se usa para ajustar la enseñanza mientras todavía sirve. En el metaanálisis de Freeman y colaboradores, los cursos de ciencias, ingeniería y matemáticas con aprendizaje activo tuvieron menos reprobación y mejores puntajes de examen que los de exposición tradicional.",
+   "principios": [
+    "Divide la exposición en tramos breves, cada uno seguido de una pregunta o un problema que el curso resuelve (Crouch y Mazur, 2001).",
+    "Termina con una técnica anónima y sin nota, como el papel de un minuto o el punto más confuso, para saber qué entendió el curso (Angelo y Cross, 1993).",
+    "Cuenta al curso qué encontraste en sus respuestas y qué vas a cambiar, para que vea que escribirlas sirve de algo (Angelo y Cross, 1993).",
+    "Usa lo que recoges para ajustar la clase siguiente, que es lo que vuelve formativa una evaluación (Black y Wiliam, 1998).",
+    "Sostén el formato aunque al principio el curso sienta que aprende menos, porque esa sensación no coincide con lo que miden las pruebas (Deslauriers et al., 2019)."
+   ],
+   "prueba": "Esta semana, termina una clase con el papel de un minuto (lo más importante de hoy y la duda que te quedó), léelo esa misma tarde y abre la sesión siguiente con tres minutos sobre la duda más repetida.",
+   "refs": [
+    "angelo93",
+    "freeman14",
+    "black98a",
+    "crouch01",
+    "deslauriers19"
+   ]
+  },
+  "cap_eval": {
+   "pista": "Calificar hoy de modo que mañana, sin docente cerca, el egresado sepa juzgar y mejorar su trabajo.",
+   "why": "Combina la evaluación sostenible de Boud, que prepara para valorar el propio trabajo cuando ya no haya docente, con la alfabetización en retroalimentación de Carless y Boud, que enseña a entender y usar los comentarios. Cada una necesita a la otra, porque los comentarios solo sirven si el estudiante sabe qué hacer con ellos, y usarlos una y otra vez es lo que entrena su juicio evaluativo. Sadler sostuvo que, para mejorar, el estudiante necesita una noción de calidad parecida a la del docente y la capacidad de comparar su trabajo con ella. Hattie y Timperley advierten que el efecto de la retroalimentación varía mucho, y hasta puede ser negativo, según cómo se entrega y cómo se recibe.",
+   "principios": [
+    "Diseña tareas en dos tiempos, borrador y versión final, para que los comentarios tengan dónde usarse (Carless y Boud, 2018).",
+    "Escribe comentarios que respondan hacia dónde va el trabajo, cómo va y qué sigue (Hattie y Timperley, 2007).",
+    "Muestra trabajos reales de distinta calidad y discute qué los diferencia, para que el curso construya su propia noción de calidad (Sadler, 1989).",
+    "Pide autoevaluación con los mismos criterios que usas tú y conversa las diferencias, que es como se calibra el juicio evaluativo (Tai et al., 2018).",
+    "Reconoce que una crítica puede doler y ayuda a separarla de la persona, porque manejar esa emoción es parte de saber usar la retroalimentación (Carless y Boud, 2018).",
+    "Revisa si cada tarea deja al estudiante un poco más capaz de evaluarse solo cuando egrese (Boud, 2000)."
+   ],
+   "prueba": "En tu próxima devolución, entrega primero solo los comentarios y pide a cada estudiante que estime su nota con la rúbrica y anote dos cambios que hará. Muestra la nota cuando lo haya hecho y conversen la diferencia entre ambas.",
+   "refs": [
+    "boud00",
+    "carless18",
+    "tai18",
+    "sadler89",
+    "hattie07"
+   ]
+  },
+  "cap_memoria": {
+   "pista": "Volver a recordar sin mirar, con días de por medio y temas mezclados, aunque se sienta más lento.",
+   "why": "Junta las dificultades deseables de Bjork, que vuelven el estudio más lento hoy y más duradero después, con el reaprendizaje sucesivo, que repite la recuperación de memoria en sesiones separadas por días. Las dos ideas empujan en la misma dirección, porque recuperar, espaciar y mezclar temas cuesta esfuerzo, y ese esfuerzo bien dosificado es el que deja huella. Dunlosky y colaboradores calificaron la práctica de recuperación y la práctica distribuida como técnicas de utilidad alta, y Rawson, Dunlosky y Sciartelli encontraron, en un curso universitario real, mejores notas y una retención mucho mayor meses después. Lo difícil es convencer al curso, porque Soderstrom y Bjork mostraron que lo que se siente fácil durante la práctica suele dar una idea equivocada de lo aprendido.",
+   "principios": [
+    "Cambia la relectura por preguntas sin apuntes al inicio de clase o en las guías, porque intentar recordar fija más que volver a leer (Roediger y Karpicke, 2006).",
+    "Practica cada concepto hasta recordarlo bien tres veces y vuelve a él en tres sesiones muy espaciadas (Rawson y Dunlosky, 2011).",
+    "Reparte la práctica de cada tema a lo largo de semanas, sin concentrarla en la víspera del examen (Cepeda et al., 2006).",
+    "Mezcla en una misma guía problemas parecidos de distinto tipo, para que elegir el método sea parte del ejercicio (Brunmair y Richter, 2019).",
+    "Avisa al curso que así se sentirá más lento y con más errores, y que esa sensación no mide lo que aprende (Soderstrom y Bjork, 2015).",
+    "Dosifica la dificultad, porque solo es deseable si el estudiante tiene con qué superarla (Bjork y Bjork, 2011)."
+   ],
+   "prueba": "Esta semana, abre cada clase con cuatro preguntas sin apuntes, dos de la semana pasada y dos de hace un mes. Anota cuáles fallan más y vuelve a ellas la semana siguiente.",
+   "refs": [
+    "bjork11",
+    "rawson11",
+    "rawson13",
+    "dunlosky13",
+    "soderstrom15"
+   ]
+  },
+  "evaluacion_ia": {
+   "pista": "Tareas donde un chatbot puede ayudar, pero las decisiones y su defensa oral quedan en manos del estudiante.",
+   "why": "Integra la evaluación auténtica, que pide tareas propias del oficio con realismo, desafío cognitivo y juicio evaluativo, con la alfabetización en IA, que enseña a usar estas herramientas sabiendo dónde fallan. Juntas permiten diseñar tareas en que el chatbot puede participar sin bastar para aprobar, porque se califican las decisiones del estudiante y su capacidad de defenderlas. Dawson y colaboradores proponen tratar la trampa como un problema de validez, es decir, preguntarse si la evaluación muestra de verdad lo que el egresado sabe hacer. Los detectores no resuelven eso, porque no son confiables y señalan más a quienes escriben en una segunda lengua. La investigación sobre qué diseños funcionan mejor con IA es reciente, así que conviene pilotear y revisar.",
+   "principios": [
+    "Pregúntate primero si la tarea muestra lo que el estudiante sabe hacer, y solo después cómo prevenir la trampa (Dawson et al., 2024).",
+    "Pide productos y decisiones propios del oficio, con datos o casos de tu contexto que obliguen a ejercer criterio (Villarroel et al., 2018).",
+    "Declara en cada tarea qué nivel de uso de IA permites, según el resultado de aprendizaje que evalúa (Perkins et al., 2024).",
+    "Haz de la verificación parte de la tarea, pidiendo contrastar lo que dice el chatbot con fuentes y señalar sus errores (Long y Magerko, 2020).",
+    "No uses detectores como prueba, porque fallan y acusan con más frecuencia a quienes no escriben en su lengua materna (Liang et al., 2023)."
+   ],
+   "prueba": "Dale a un chatbot tu próxima tarea escrita y califica su respuesta con tu rúbrica. Si aprueba, agrega una decisión que dependa de datos de tu contexto y cinco minutos de defensa oral.",
+   "refs": [
+    "villarroel18",
+    "long20",
+    "dawson24",
+    "perkins24",
+    "liang23"
+   ]
+  },
+  "ia_que_ensena": {
+   "pista": "Un chatbot que responde con preguntas y pistas, y tareas que solo se aprueban razonando.",
+   "why": "Suma al tutor con IA, configurado para dar pistas, una evaluación pensada para tiempos de IA que califica el razonamiento propio. Mientras se practica, el tutor no entrega el atajo, y como la nota depende de explicar, tampoco conviene buscarlo por otro lado. En el experimento de Bastani y colaboradores, con casi mil estudiantes de matemática de secundaria en Turquía, quienes practicaron con ChatGPT sin restricciones resolvieron 48% mejor los ejercicios, pero rindieron 17% peor en un examen posterior sin IA, y la versión tutora evitó en buena medida ese daño. En física introductoria en Harvard, Kestin y colaboradores encontraron que un tutor diseñado con principios de buena enseñanza produjo más aprendizaje en menos tiempo que una clase activa, aunque se probó en lecciones puntuales.",
+   "principios": [
+    "Configura el tutor para que pregunte qué intentó el estudiante y dé una pista por turno, sin entregar la solución (Bastani et al., 2025).",
+    "Construye el tutor sobre principios de enseñanza conocidos, como pasos breves, retroalimentación inmediata y avance al propio ritmo (Kestin et al., 2025).",
+    "Evalúa algunos momentos sin IA, porque rendir bien con ayuda puede ocultar cuánto se aprendió (Bastani et al., 2025).",
+    "Pide al estudiante que revise y corrija lo que le dijo el tutor, porque también se equivoca (Long y Magerko, 2020).",
+    "Revisa muestras de las conversaciones con el tutor y decide tú qué retomar en clase, sin delegar en la IA el juicio pedagógico (Miao y Holmes, 2023)."
+   ],
+   "prueba": "Escribe las instrucciones de un tutor para el tema más difícil de tu curso, pidiéndole que pregunte qué intentó el estudiante, dé una pista por turno y nunca la respuesta final. Pruébalo tres veces tratando de sacarle la solución y corrige lo que falle antes de compartirlo.",
+   "refs": [
+    "bastani25",
+    "kestin25",
+    "long20",
+    "unesco23"
+   ]
+  },
+  "personalizacion_responsable": {
+   "pista": "Ejercicios a la medida de cada estudiante, con reglas claras sobre quién ve sus datos y para qué.",
+   "why": "Integra el aprendizaje adaptativo, que ajusta ejercicios y pistas según lo que cada estudiante demuestra, con la privacidad y ética de los datos. Se necesitan porque no hay adaptación sin observar a quien estudia, y esa observación obliga a decidir quién accede a la información y con qué fin, con el consentimiento de la persona. VanLehn encontró que los tutores inteligentes que corrigen paso a paso se acercan a la eficacia de un tutor humano, aunque Kulik y Fletcher hallaron efectos mucho mayores en pruebas hechas a medida que en pruebas estandarizadas. Slade y Prinsloo proponen tratar estos datos como una práctica moral, con transparencia y con el estudiante como agente que participa en su interpretación.",
+   "principios": [
+    "Recoge solo los datos que el sistema necesita para decidir el siguiente paso y explica al curso cuáles son (Slade y Prinsloo, 2013).",
+    "Trata cada diagnóstico del sistema como provisional y deja que el estudiante lo vea y lo discuta, porque su desempeño cambia con el tiempo (Slade y Prinsloo, 2013).",
+    "Prefiere sistemas que comenten cada paso del ejercicio, porque rinden más que los que solo revisan la respuesta final (VanLehn, 2011).",
+    "Pide evidencia antes de adoptar una plataforma y desconfía de los resultados medidos solo con sus propias pruebas (Kulik y Fletcher, 2016).",
+    "Revisa la política de datos de cada herramienta antes de pedirla al curso, como recomienda la guía de UNESCO para la IA generativa (Miao y Holmes, 2023)."
+   ],
+   "prueba": "Antes de la próxima unidad, lee la política de privacidad de la plataforma que usa tu curso y resume en media página qué datos guarda y quién puede verlos, incluido el plazo en que los borra. Compártela con tus estudiantes en la clase siguiente.",
+   "refs": [
+    "vanlehn11",
+    "kulik16",
+    "slade13",
+    "unesco23"
+   ]
+  },
+  "cap_ia": {
+   "pista": "Un tutor digital que se ajusta a cada estudiante sin quitarle el esfuerzo ni exponer sus datos.",
+   "why": "Reúne la IA que enseña a pensar, un tutor que da pistas acompañado de tareas que exigen razonar, con la personalización responsable, que adapta la práctica a cada estudiante con reglas claras sobre sus datos. Lo realista está en calibrar las expectativas con una evidencia que todavía es reciente. Bastani y colaboradores mostraron que, sin resguardos, la IA puede mejorar la práctica y empeorar el aprendizaje, mientras Kestin y colaboradores encontraron que un tutor con buen diseño pedagógico superó a una clase activa en lecciones puntuales. Clark advirtió hace más de cuarenta años que el medio no enseña por sí solo y que el efecto viene del método, y la guía de UNESCO pide validar las herramientas y no delegar en ellas el juicio pedagógico.",
+   "principios": [
+    "Elige primero el tema que traba a tu curso y el método que lo destraba, y solo después la herramienta (Clark, 1983).",
+    "Configura la IA para pedir razonamiento y conserva evaluaciones sin IA que muestren lo aprendido (Bastani et al., 2025).",
+    "Mide el piloto con una evaluación que no dependa de la plataforma, porque los efectos crecen cuando se miden con pruebas hechas a la medida del sistema (Kulik y Fletcher, 2016).",
+    "Usa solo los datos necesarios y explica al curso para qué sirven (Slade y Prinsloo, 2013).",
+    "Valida cada herramienta antes de llevarla al aula y conserva en manos humanas el juicio pedagógico (Miao y Holmes, 2023).",
+    "Enseña al curso a usar la IA con criterio, verificando lo que produce y reconociendo cuándo no conviene (Long y Magerko, 2020)."
+   ],
+   "prueba": "Elige el tema donde más se atasca tu curso y diseña un piloto de dos semanas con un tutor que dé pistas, un aviso escrito sobre los datos y una pregunta final sin IA para comprobar si aprendieron.",
+   "refs": [
+    "bastani25",
+    "kestin25",
+    "kulik16",
+    "slade13",
+    "unesco23"
+   ]
+  },
+  "cap_hibrido": {
+   "pista": "Cada quien elige sala, conexión en vivo o ritmo propio, y todos sostienen la misma discusión.",
+   "why": "Combina el modelo HyFlex de Beatty, en que cada estudiante elige en cada sesión si asiste a la sala, se conecta en vivo o avanza de forma asincrónica, con la comunidad de indagación de Garrison, Anderson y Archer. HyFlex resuelve el acceso, pero por sí solo puede dejar tres cursos paralelos que no se hablan, y las presencias cognitiva, social y docente son las que vuelven a reunirlos en una misma conversación. Por eso el diseño tiene que crear a propósito la interacción entre estudiantes de distintas rutas, una de las tres interacciones que Moore pedía planificar. La evidencia sobre resultados de aprendizaje en HyFlex todavía es limitada, así que conviene evaluar la propia experiencia.",
+   "principios": [
+    "Haz equivalentes las rutas, de modo que la sala, la conexión en vivo y el trabajo asincrónico lleven a los mismos resultados (Beatty, 2019).",
+    "Ejerce la presencia docente en todos los canales, diseñando la pregunta, moderando y cerrando con una síntesis que llegue también a quien estudia días después (Garrison et al., 2000).",
+    "Cuida la presencia social con tareas que crucen modalidades, como parejas formadas por alguien en la sala y alguien conectado (Garrison et al., 2000).",
+    "Planifica la interacción entre estudiantes de distintas rutas, porque no aparece sola (Moore, 1989).",
+    "Prepara materiales reutilizables y accesibles para todas las rutas, con subtítulos y livianos para conexiones lentas (Beatty, 2019)."
+   ],
+   "prueba": "En tu próxima sesión, abre comentando dos aportes del foro hechos por estudiantes que no estaban en la sala, y arma parejas mixtas de sala y conexión para el primer ejercicio.",
+   "refs": [
+    "beatty19",
+    "garrison00",
+    "moore89"
+   ]
+  },
+  "cap_mitos": {
+   "pista": "Reunión de profesores en que toda cifra famosa debe mostrar su estudio de origen antes de entrar.",
+   "why": "Pone a trabajar juntas la docencia informada por evidencia, que pregunta de dónde sale cada receta, y la ciencia del aprendizaje, que ofrece prácticas probadas para reemplazarlas. Hace falta la segunda porque desmentir deja un hueco, y Lewandowsky y colaboradores, al revisar la investigación sobre desinformación, concluyeron que una corrección funciona mejor cuando ofrece una explicación alternativa. Dekker y colaboradores encontraron que docentes del Reino Unido y los Países Bajos creían cerca de la mitad de los neuromitos presentados, y Macdonald y colaboradores, que la formación en educación o neurociencia los reduce sin eliminarlos. Por eso conviene trabajarlos en grupo y de forma sostenida, con la fuente original a la vista.",
+   "principios": [
+    "Pide la fuente original de toda cifra que circule y revisa si dice lo que se le atribuye (Letrud, 2012).",
+    "Al desmentir un mito, ofrece en el mismo momento una explicación mejor que ocupe su lugar (Lewandowsky et al., 2012).",
+    "Reemplaza cada mito por una práctica con respaldo, como la recuperación y el espaciado frente a la relectura de apuntes (Dunlosky et al., 2013).",
+    "Rescata el hallazgo real detrás de cada deformación, como el respaldo al aprendizaje activo que la pirámide caricaturiza con porcentajes sin fuente (Freeman et al., 2014).",
+    "Discute los mitos sin ridiculizar a nadie, porque son frecuentes incluso entre docentes interesados en el cerebro (Dekker et al., 2012).",
+    "Lee con tus colegas estudios revisados por pares, porque esa costumbre se asoció con creer menos neuromitos (Macdonald et al., 2017)."
+   ],
+   "prueba": "En la próxima reunión de tu departamento, lleva una cifra o una diapositiva que circule en tu facultad, busquen juntos el estudio original en diez minutos y anoten qué práctica con respaldo la reemplaza.",
+   "refs": [
+    "dekker12",
+    "lewandowsky12",
+    "macdonald17",
+    "dunlosky13",
+    "letrud12"
+   ]
+  },
+  "cap_curso": {
+   "pista": "La prueba pide lo mismo que la meta y la práctica, y hay varias puertas de entrada.",
+   "why": "Integra el alineamiento constructivo de Biggs, que hace que resultados, actividades y evaluación pidan el mismo tipo de pensamiento, con el Diseño Universal para el Aprendizaje, que planifica desde el inicio para la diversidad del curso. Se complementan porque el alineamiento fija qué debe lograrse y el DUA abre varios caminos para lograrlo y demostrarlo. La regla es mantener firme la meta y flexibles los medios, de modo que si el resultado es argumentar una interpretación, el argumento puede entregarse por escrito o en video, siempre que se evalúe con los mismos criterios. Por eso conviene revisar si cada evaluación exige habilidades ajenas al resultado, como leer letra chica o escribir rápido a mano, que dejan fuera a quien sí aprendió.",
+   "principios": [
+    "Escribe cada resultado con un verbo observable y revisa que la evaluación pida ese mismo verbo (Biggs y Tang, 2011).",
+    "Diseña primero la evidencia final y después las actividades que preparan para producirla (Wiggins y McTighe, 2005).",
+    "Mantén firme la meta y ofrece más de una forma de demostrarla, evaluada con los mismos criterios (Meyer et al., 2014).",
+    "Entrega el material en más de un formato desde el primer día, sin esperar a que alguien pida un ajuste (CAST, 2018).",
+    "Da opciones que sostengan el interés, como elegir el caso o el tema sobre el que se aplica el resultado (CAST, 2018)."
+   ],
+   "prueba": "Haz una tabla de tu programa con tres columnas (resultado, actividad que lo practica y evaluación que lo mide), corrige cada fila donde el verbo no coincida y agrega una segunda forma de entrega en la evaluación principal.",
+   "refs": [
+    "biggs11",
+    "wiggins05",
+    "cast18",
+    "meyer14"
+   ]
+  }
+ },
+ "misiones": {
+  "primeros": {
+   "encargo": "El lunes das tu primera clase de Historia de América Latina en una universidad pública de Montevideo y quieres entender, antes de preparar nada, qué pasa cuando alguien aprende. Aquí eso se averigua mezclando de a dos, y basta arrastrar una ficha sobre otra para que, si la pareja tiene sentido, nazca una ficha nueva con su explicación y sus fuentes. Empieza por juntar 🧠 Mente con 🌍 Mundo y sigue hasta llegar a 🌱 Aprendizaje. Si una mezcla no da nada, el juego te explica por qué y te orienta hacia otra.",
+   "objetivo": "Llega a 🌱 Aprendizaje para descubrir de qué está hecho lo que quieres provocar en tu primera clase.",
+   "reflexiones": {
+    "aprendizaje": "En tu próxima clase, ¿qué experiencia concreta vivirán tus estudiantes (como leer una carta de 1810 en Historia) y en qué minuto les pedirás que se detengan a pensarla?"
+   },
+   "cierre": "Llegaste a 🌱 Aprendizaje juntando una experiencia con la reflexión sobre ella, la misma idea que Dewey y Kolb pusieron en el centro de sus teorías. En tu clase de Historia puede ser una fuente que el curso lee en silencio y después discute, y las próximas misiones construyen sobre esa base."
+  },
+  "activa": {
+   "encargo": "Te escribe Patricia Benítez, que enseña Química General a 130 estudiantes de primer año de Ingeniería en una universidad de Asunción. Su auditorio tiene butacas fijas, nadie pregunta durante la clase y el primer parcial mostró que la mitad del curso todavía confunde moles con gramos, algo que ella daba por resuelto desde la tercera semana. Quiere sesiones en que el curso piense en voz alta y ella sepa, antes del próximo parcial, quién se está quedando atrás.",
+   "objetivo": "Llega a 🌅 La clase que despierta para armar con Patricia un formato de sesión en que su auditorio trabaje y ella vea a tiempo lo que no se entendió.",
+   "reflexiones": {
+    "activo": "Si cortaras tu próxima exposición en el minuto quince, como hará Patricia, ¿qué problema breve de tu materia pondrías a resolver en ese corte?",
+    "cooperativo": "En un auditorio de butacas fijas como el de Patricia, ¿cómo armarías parejas o tríos en tu curso y qué responsabilidad concreta tendría cada integrante?",
+    "clase_interactiva": "¿Qué confusión de tu materia, como moles y gramos en la de Patricia, dividiría a tu curso en una votación? Escribe la pregunta tal como la proyectarías."
+   },
+   "cierre": "Patricia ya puede cortar su exposición con preguntas que dividen al curso y discusiones en parejas con roles, y cerrar cada sesión con un papel de un minuto. Así, la próxima confusión entre moles y gramos aparecerá en una clase de la tercera semana, con tiempo para corregirla antes del parcial."
+  },
+  "evaluar": {
+   "encargo": "Te escribe Gabriel Restrepo, que enseña Redacción de Escritos Judiciales en segundo año de Derecho en una universidad de Medellín. Cada semana devuelve demandas y tutelas llenas de comentarios al margen, pero sus estudiantes miran la nota y repiten los mismos errores en el escrito siguiente. Quiere que la evaluación les sirva para aprender y que, al egresar, sepan revisar un escrito antes de radicarlo sin esperar a que alguien lo corrija.",
+   "objetivo": "Llega a 🎖️ Evaluación que enseña para que los comentarios de Gabriel se usen y sus estudiantes aprendan a juzgar un escrito por su cuenta.",
+   "reflexiones": {
+    "retro": "Toma el último comentario que escribiste en un trabajo, como los que Gabriel deja al margen de una tutela. ¿Le dice al estudiante qué hacer en la próxima entrega? Si no lo hace, reescríbelo.",
+    "formativa": "¿En qué tarea de tu curso podrías pedir un borrador sin nota antes de la entrega final, como una demanda en primera versión, para que los comentarios alcancen a usarse?",
+    "juicio": "Gabriel quiere que sus estudiantes detecten los errores antes de radicar. ¿Qué tres trabajos anónimos de años anteriores, de distinta calidad, podrías llevar a tu clase para que el curso los ordene y explique sus criterios?"
+   },
+   "cierre": "Con borradores que vuelven con comentarios útiles y escritos de otros años para comparar, los estudiantes de Gabriel dejan de mirar solo la nota. El objetivo de fondo es que, en su primer trabajo en un despacho, revisen una tutela con el mismo ojo con que hoy la revisa él."
+  },
+  "memoria": {
+   "encargo": "Te escribe Rocío Mora, que enseña Farmacología en tercer año de Enfermería en una universidad de San José, Costa Rica. Su curso aprueba los parciales, pero en la práctica clínica del año siguiente las docentes de práctica le cuentan que casi nadie recuerda las dosis pediátricas ni las interacciones más peligrosas. Quiere que lo estudiado en su curso siga disponible cuando hay un paciente esperando.",
+   "objetivo": "Llega a 🏺 Estudio que perdura para rediseñar cómo se estudia en el curso de Rocío, de modo que la farmacología siga ahí en la práctica clínica.",
+   "reflexiones": {
+    "olvido": "¿Qué contenido de tu curso, como las dosis pediátricas en el de Rocío, necesitarán tus estudiantes un año después, y en qué semana vuelve a aparecer en tu programa una vez evaluado?",
+    "recuperacion": "Si abrieras tu próxima clase como lo hará Rocío, con preguntas sin apuntes sobre lo visto hace dos semanas, ¿cuáles serían esas tres preguntas?",
+    "intercalada": "Rocío enseña los antihipertensivos en semanas separadas, y su curso confunde un betabloqueador con un IECA. ¿Qué temas de tu materia se parecen tanto que tus estudiantes los confunden, y cómo los mezclarías en una misma guía?"
+   },
+   "cierre": "Rocío ahora abre cada clase con preguntas sin apuntes que vuelven sobre semanas anteriores, y sus guías mezclan los fármacos que el curso confunde. Le costará convencer a sus estudiantes porque así se estudia más lento, pero es lo que la investigación asocia con recordar una dosis meses después del examen."
+  },
+  "ia": {
+   "encargo": "Te escribe Lorena Fuentes, directora de la carrera de Contador Auditor en una universidad de Valparaíso. La rectoría quiere licenciar una plataforma de tutoría con IA para Contabilidad Financiera I, la asignatura con más reprobación de primer año, y mientras tanto sus docentes reciben análisis de estados financieros que suenan a chatbot. Te pide una propuesta para el comité que ayude a aprender sin exponer datos de nadie, ahora que la Ley 21.719 creó una agencia que fiscaliza su protección.",
+   "objetivo": "Llega a 🌟 IA al servicio de una educación personalizada y realista para llevarle a Lorena una propuesta que el comité pueda aprobar sin promesas infladas.",
+   "reflexiones": {
+    "ia": "Si le das a un chatbot la tarea más difícil de tu curso, como un análisis de estados financieros en la carrera de Lorena, ¿qué parte resuelve sin esfuerzo y qué parte todavía exige a tus estudiantes?",
+    "tutoria": "¿Qué tema de tu curso, como los asientos de ajuste en Contabilidad Financiera I, se beneficiaría de un tutor que pregunte antes de responder, y qué pista darías tras el primer intento fallido?",
+    "privacidad": "Antes de recomendar una plataforma a tu curso, como la que evalúa Lorena, ¿sabes qué datos de tus estudiantes guarda y quién puede verlos? Anota lo que te falta averiguar.",
+    "evaluacion_ia": "¿Qué parte de tu evaluación final podría resolver hoy un chatbot, y qué decisión con datos de tu contexto o qué defensa oral agregarías para que muestre lo que sabe cada estudiante?"
+   },
+   "cierre": "Lorena puede llevar al comité una propuesta acotada, con un tutor que da pistas en los asientos de ajuste, reglas de datos explicadas a cada estudiante y evaluaciones en que el chatbot no reemplaza el criterio contable. Incluye un piloto de un semestre con una prueba final sin IA, para saber si la plataforma ayudó antes de pagar la licencia completa."
+  },
+  "hibrido": {
+   "encargo": "Te escribe Wilmer Huamán, que coordina la Maestría en Salud Pública de una universidad del Cusco. La mitad de sus estudiantes trabaja en centros de salud de las provincias altas y se conecta desde el celular cuando hay señal, mientras la otra mitad viene a la sala los sábados. En las sesiones, quienes están conectados escuchan en silencio, y el foro de la plataforma lleva tres semanas vacío.",
+   "objetivo": "Llega a 🪐 Comunidad híbrida que aprende para que los estudiantes de Wilmer, en la sala o en un centro de salud de altura, discutan como un solo curso.",
+   "reflexiones": {
+    "virtual": "Si un estudiante de tu curso solo pudiera entrar a la plataforma desde el celular, como varios de los de Wilmer, ¿qué material o actividad tuya le quedaría fuera de alcance?",
+    "blended": "¿Qué parte de tu curso conviene trasladar a la semana en línea, como la lectura de casos en la maestría de Wilmer, para que la sesión del sábado se use en discutir?",
+    "coi": "En el próximo foro de tu curso, ¿qué pregunta harías que solo pueda responder alguien desde su propio contexto, como un dato del centro de salud donde trabaja un estudiante de Wilmer?"
+   },
+   "cierre": "Wilmer ya puede ofrecer rutas equivalentes que alimentan un mismo hilo de discusión, con sesiones de sábado que parten de lo dicho en el foro y casos que se trabajan en parejas mixtas. Quien atiende en una posta de Espinar deja de escuchar desde lejos y aporta datos que nadie en la sala tiene."
+  },
+  "mitos": {
+   "encargo": "Te escribe Ximena Arredondo, que dirige la unidad de apoyo a la docencia de una universidad de Guadalajara. En el curso de inducción para profesores nuevos, una diapositiva heredada muestra la pirámide del aprendizaje con sus porcentajes, y un profesor de Odontología la defendió agregando que solo usamos el 10% del cerebro. Te pide preparar la sesión del próximo claustro para desarmar esos mitos sin humillar a nadie y dejar en su lugar prácticas con respaldo.",
+   "objetivo": "Llega a 🧹 Claustro sin mitos para que la sesión de Ximena reemplace cada mito por una práctica que sí tiene respaldo.",
+   "reflexiones": {
+    "piramide": "¿Dónde has visto la pirámide del aprendizaje o una cifra parecida en tu universidad, como la diapositiva heredada de Ximena, y qué buscarías primero para rastrear su origen?",
+    "cerebro10": "Si un colega repitiera en tu facultad lo del 10% del cerebro, como el profesor de Odontología, ¿qué le dirías en dos frases sin dejarlo en ridículo frente a los demás?",
+    "evidencia": "¿Qué práctica de tu curso adoptaste porque alguien la recomendó, y qué estudio revisado por pares buscarías esta semana para confirmarla o descartarla, como hará el claustro de Ximena con cada diapositiva?"
+   },
+   "cierre": "En la sesión de Ximena, cada mito aparece junto a su fuente real, o a la falta de ella, y se reemplaza por una práctica con respaldo, como la recuperación o el espaciado. El profesor de Odontología puede salir de ahí con una técnica nueva para probar en su curso, y sin sentir que lo dejaron en ridículo."
+  },
+  "curso": {
+   "encargo": "Te escribe Verónica Paredes, directora de Diseño Gráfico en una universidad de Quito, y te encarga rehacer desde cero Historia del Diseño Latinoamericano para primer año. El programa heredado tiene quince unidades de contenido y termina en una prueba de fechas y autores que nadie relaciona con el oficio. En tu sección habrá una estudiante sorda que sigue las clases con intérprete de lengua de señas ecuatoriana y varios estudiantes que trabajan por las tardes en imprentas.",
+   "objetivo": "Llega a 🎼 Curso alineado para todos para entregarle a Verónica un programa en que cada resultado se practique y se evalúe, con caminos que sirvan a toda tu sección.",
+   "reflexiones": {
+    "resultados": "¿Qué objetivo de tu programa empieza con “conocer”, como los del programa heredado en Quito, y cómo lo escribirías con un verbo que puedas observar?",
+    "inverso": "Antes de planificar la primera clase, ¿qué producto final mostraría que tus estudiantes aprendieron, como analizar un afiche de los años setenta en el curso de Verónica?",
+    "alineamiento": "Toma tu evaluación principal y compárala con tus resultados. ¿Pide el mismo verbo, o le pasa lo mismo que a la prueba de fechas y autores del programa heredado?"
+   },
+   "cierre": "El programa que le entregas a Verónica tiene pocos resultados con verbos claros, actividades que los practican y una evaluación que pide lo mismo, con más de una forma de entregarla. La estudiante sorda y quienes salen de la imprenta a las seis llegan a la misma meta por caminos distintos, y se evalúan con los mismos criterios."
+  }
+ },
+ "notas": {
+  "cooperativo+peer": "Mazur hace votar a cada estudiante a solas y después convencer al de al lado. Con roles y responsabilidad individual, esas charlas sacuden la clase entera.",
+  "cats+clase_interactiva": "Una clase con votos y conversaciones deja pistas de lo que el curso entiende. El papel de un minuto las recoge y la sesión siguiente parte de ahí.",
+  "alf_retro+sostenible": "Boud quiere egresados que juzguen su propio trabajo sin docente al lado. Para llegar ahí, primero tienen que aprender a leer y usar los comentarios que hoy reciben.",
+  "dificultades_deseables+reaprendizaje": "Recordar sin mirar cuesta, y repetirlo días después cuesta de nuevo. Ese esfuerzo repetido hace que lo estudiado en marzo siga ahí en julio.",
+  "alfabetizacion_ia+autentica": "Una tarea real pide decidir con datos que el chatbot no conoce. Si el estudiante sabe dónde falla, puede usarlo y la nota sigue mostrando lo que sabe.",
+  "evaluacion_ia+tutoria": "El tutor se niega a entregar la respuesta, y la prueba final pide explicar cada paso. Así, al estudiante deja de convenirle delegar su razonamiento en la máquina.",
+  "adaptativo+privacidad": "Para ajustar cada ejercicio, el sistema necesita observar a quien estudia. Ponerle reglas a esa mirada, y contárselas al estudiante, vuelve confiable la adaptación.",
+  "ia_que_ensena+personalizacion_responsable": "Un tutor que obliga a razonar, más una personalización con reglas claras sobre los datos, da un plan que la facultad y sus estudiantes pueden aceptar.",
+  "coi+hyflex": "HyFlex deja elegir entre sala, pantalla o ritmo propio, y el riesgo es tener tres cursos paralelos. Las presencias de Garrison los reúnen en una sola conversación.",
+  "ciencia_aprendizaje+evidencia": "Desconfiar de las modas no basta si no hay con qué reemplazarlas. La ciencia del aprendizaje ofrece prácticas probadas y el claustro deja de discutir pirámides.",
+  "alineamiento+dua": "Biggs alinea la meta con la práctica y la prueba. El DUA abre varios caminos hacia esa misma meta, para que llegue también quien no ve la pizarra."
+ }
+}

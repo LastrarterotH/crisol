@@ -1,0 +1,16 @@
+{
+  "name": "alquimia-docente",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Juego de combinación para docentes de educación superior: de cuatro elementos primigenios a la docencia universitaria.",
+  "type": "commonjs",
+  "scripts": {
+    "construir": "node construir.js",
+    "start": "node construir.js && node servidor.js",
+    "servidor": "node servidor.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "roughjs": "^4.6.6"
+  }
+}

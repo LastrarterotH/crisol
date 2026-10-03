@@ -1,0 +1,7 @@
+# Recetas de la versión 1 que se eliminan (claves ordenadas a+b)
+tecnologia+tecnologia
+tiempo+tiempo
+tecnologia+tiempo
+contenido+espacio
+espacio+estudiante
+espacio+espacio

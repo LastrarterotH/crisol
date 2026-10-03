@@ -1,0 +1,202 @@
+# Catálogo de fichas (id: emoji nombre [familia] nivel)
+
+- tiempo: ⏰ Tiempo [Primigenios] nivel 0
+- mente: 🧠 Mente [Primigenios] nivel 0
+- mundo: 🌍 Mundo [Primigenios] nivel 0
+- otros: 🤝 Otros [Primigenios] nivel 0
+- grupo: 👥 Grupo [Lo esencial] nivel 1
+- problema: 🧩 Problema real [Lo esencial] nivel 1
+- reflexion: 🪞 Reflexión [Lo esencial] nivel 1
+- experiencia: 🌄 Experiencia [Lo esencial] nivel 1
+- dialogo: 💬 Diálogo [Lo esencial] nivel 1
+- memoria: 🗄️ Memoria [Lo esencial] nivel 1
+- comunidad: 🏘️ Comunidad [Lo esencial] nivel 1
+- cambio: 🦋 Cambio [Lo esencial] nivel 1
+- saber: 📚 Saber [Lo esencial] nivel 1
+- practica: ✏️ Práctica [Lo esencial] nivel 1
+- estudiante: 🧑‍🎓 Estudiante [Lo esencial] nivel 2
+- pedagogia: 🧭 Pedagogía [Lo esencial] nivel 2
+- proposito: 🎯 Propósito [Lo esencial] nivel 2
+- reflexiva: 📓 Práctica reflexiva [Conocimiento docente] nivel 2
+- mapa: 🕸️ Mapa conceptual [Cómo se aprende] nivel 2
+- previos: 🧳 Conocimientos previos [Cómo se aprende] nivel 2
+- metacognicion: 💭 Metacognición [Cómo se aprende] nivel 2
+- espaciada: 📅 Práctica espaciada [Cómo se aprende] nivel 2
+- situado: 🗺️ Aprendizaje situado [Cómo se aprende] nivel 2
+- abp: 🧗 Aprendizaje basado en problemas [Metodologías] nivel 2
+- proyectos: 📦 Aprendizaje basado en proyectos [Metodologías] nivel 2
+- recuperacion: 🧲 Práctica de recuperación [Evaluación] nivel 2
+- comunidad_practica: 🧶 Comunidad de práctica [Cómo se aprende] nivel 2
+- olvido: 🍂 Curva del olvido [Cómo se aprende] nivel 2
+- pensamiento_critico: 🧐 Pensamiento crítico [Cómo se aprende] nivel 2
+- tps: 👫 Piensa, discute, comparte [Metodologías] nivel 2
+- curriculo: 🗓️ Currículo [Diseño de la enseñanza] nivel 2
+- pregunta: ❓ Pregunta [Lo esencial] nivel 2
+- error: 🪨 Error [Lo esencial] nivel 2
+- emocion: ❤️ Emoción [Lo esencial] nivel 2
+- lenguaje: 🗨️ Lenguaje [Lo esencial] nivel 2
+- escritura: ✍️ Escritura [Lo esencial] nivel 2
+- herramienta: 🔨 Herramienta [Lo esencial] nivel 2
+- juego: 🪁 Juego [Lo esencial] nivel 2
+- docente: 🧑‍🏫 Docente [Lo esencial] nivel 2
+- aprendizaje: 🌱 Aprendizaje [Lo esencial] nivel 2
+- universidad: 🏛️ Universidad [Lo esencial] nivel 2
+- investigacion: 🔬 Investigación [Lo esencial] nivel 2
+- practica_deliberada: 🎹 Práctica deliberada [Cómo se aprende] nivel 2
+- contenido: 📖 Contenido [Lo esencial] nivel 3
+- tecnologia: 💻 Tecnología [Tecnología] nivel 3
+- espacio: 🏫 Aula [Lo esencial] nivel 3
+- significativo: 🔗 Aprendizaje significativo [Cómo se aprende] nivel 3
+- zdp: 🌉 Zona de desarrollo próximo [Cómo se aprende] nivel 3
+- autorregulado: 🔁 Aprendizaje autorregulado [Cómo se aprende] nivel 3
+- ritmo: 🐢 Ritmo propio [Cómo se aprende] nivel 3
+- activo: 🏃 Aprendizaje activo [Metodologías] nivel 3
+- cooperativo: 🫱 Aprendizaje cooperativo [Metodologías] nivel 3
+- retro: 📣 Retroalimentación [Evaluación] nivel 3
+- bloom: 📶 Taxonomía de Bloom [Diseño de la enseñanza] nivel 3
+- inverso: 🔙 Diseño inverso [Diseño de la enseñanza] nivel 3
+- investigacion_accion: ♻️ Investigación-acción [Conocimiento docente] nivel 3
+- enfoques_ensenanza: 🎚️ Enfoques de enseñanza [Conocimiento docente] nivel 3
+- intercalada: 🃏 Práctica intercalada [Cómo se aprende] nivel 3
+- dificultades_deseables: 🏋️ Dificultades deseables [Cómo se aprende] nivel 3
+- reaprendizaje: 🔃 Reaprendizaje sucesivo [Cómo se aprende] nivel 3
+- motivacion: 🔥 Motivación intrínseca [Cómo se aprende] nivel 3
+- experiencial: 🌀 Aprendizaje experiencial [Cómo se aprende] nivel 3
+- cambio_conceptual: 💡 Cambio conceptual [Cómo se aprende] nivel 3
+- escribir: 🖊️ Escribir para aprender [Cómo se aprende] nivel 3
+- casos: 📂 Método de casos [Metodologías] nivel 3
+- retos: 🏔️ Aprendizaje basado en retos [Metodologías] nivel 3
+- servicio: 🤲 Aprendizaje-servicio [Metodologías] nivel 3
+- gamificacion: 🎮 Gamificación [Metodologías] nivel 3
+- abj: 🎲 Aprendizaje basado en juegos [Metodologías] nivel 3
+- indagacion: 🔦 Indagación guiada [Metodologías] nivel 3
+- practicas: 🧰 Prácticas profesionales [Metodologías] nivel 3
+- perfil_egreso: 🎓 Perfil de egreso [Diseño de la enseñanza] nivel 3
+- curriculo_oculto: 👻 Currículo oculto [Diseño de la enseñanza] nivel 3
+- gagne: 9️⃣ Nueve eventos de instrucción [Diseño de la enseñanza] nivel 3
+- syllabus: 📋 Programa de asignatura centrado en el aprendizaje [Diseño de la enseñanza] nivel 3
+- espiral: 🐚 Currículo en espiral [Diseño de la enseñanza] nivel 3
+- carga_trabajo: ⏳ Carga de trabajo del estudiante [Diseño de la enseñanza] nivel 3
+- curiosidad: 🐈 Curiosidad [Cómo se aprende] nivel 3
+- algoritmo: 🔣 Algoritmo [Tecnología] nivel 3
+- cpc: ⚗️ Conocimiento pedagógico del contenido [Conocimiento docente] nivel 4
+- constructivismo: 🧱 Constructivismo [Cómo se aprende] nivel 4
+- andamiaje: 🏗️ Andamiaje [Cómo se aprende] nivel 4
+- segmentacion: ✂️ Segmentación [Cómo se aprende] nivel 4
+- expositiva: 🎤 Clase expositiva [Metodologías] nivel 4
+- tck: 🧑‍🔬 Conocimiento tecnológico del contenido [Tecnología] nivel 4
+- tpk: 🛠️ Conocimiento tecnopedagógico [Tecnología] nivel 4
+- presencial: 👀 Presencialidad [Modalidades] nivel 4
+- virtual: 🪟 Entorno virtual [Modalidades] nivel 4
+- dominio: 🏅 Aprendizaje para el dominio [Evaluación] nivel 4
+- resultados: 📌 Resultados de aprendizaje [Diseño de la enseñanza] nivel 4
+- alineamiento: ⚖️ Alineamiento constructivo [Diseño de la enseñanza] nivel 4
+- nativos: 📱 Nativos digitales [Mitos] nivel 4
+- estilos: 🎧 Estilos de aprendizaje [Mitos] nivel 4
+- piramide: 🔻 Pirámide del aprendizaje [Mitos] nivel 4
+- profundo: 🌊 Enfoque profundo de aprendizaje [Cómo se aprende] nivel 4
+- mentalidad: 🪴 Mentalidad de crecimiento [Cómo se aprende] nivel 4
+- transferencia: 🛫 Transferencia del aprendizaje [Cómo se aprende] nivel 4
+- conceptos_umbral: 🚪 Conceptos umbral [Cómo se aprende] nivel 4
+- alfabetizacion_academica: 📜 Alfabetización académica [Cómo se aprende] nivel 4
+- jigsaw: 🧷 Rompecabezas de Aronson [Metodologías] nivel 4
+- simulacion: 🩺 Simulación [Metodologías] nivel 4
+- tutoria_pares: 🧑‍🤝‍🧑 Tutoría entre pares [Metodologías] nivel 4
+- respuesta_audiencia: 🙋 Sistemas de respuesta en el aula [Tecnología] nivel 4
+- competencia_digital_docente: 🧑‍💼 Competencia digital docente [Tecnología] nivel 4
+- aula_activa: 🪑 Aula de aprendizaje activo [Modalidades] nivel 4
+- ubicuo: 🛰️ Aprendizaje ubicuo [Modalidades] nivel 4
+- coevaluacion: 🗒️ Evaluación entre pares [Evaluación] nivel 4
+- alf_retro: 📬 Alfabetización en retroalimentación [Evaluación] nivel 4
+- tabla: 🧮 Tabla de especificaciones [Evaluación] nivel 4
+- competencias: 🏆 Enfoque por competencias [Diseño de la enseñanza] nivel 4
+- transposicion: 🪄 Transposición didáctica [Diseño de la enseñanza] nivel 4
+- merrill: 🔰 Primeros principios de instrucción [Diseño de la enseñanza] nivel 4
+- arcs: 🏹 Modelo ARCS de motivación [Diseño de la enseñanza] nivel 4
+- cerebro10: 🔟 Solo usamos el 10% del cerebro [Mitos] nivel 4
+- releer: 🖍️ Releer y subrayar [Mitos] nivel 4
+- datos: 📊 Datos [Tecnología] nivel 4
+- computador: 🖥️ Computador [Tecnología] nivel 4
+- cap_memoria: 🏺 Estudio que perdura [Síntesis de misión] nivel 4
+- tpack: 🔺 TPACK [Conocimiento docente] nivel 5
+- evidencia: 🔎 Docencia informada por evidencia [Conocimiento docente] nivel 5
+- peer: 🗳️ Instrucción entre pares [Metodologías] nivel 5
+- sustitucion: 🟦 Sustitución (SAMR) [Tecnología] nivel 5
+- video: 📼 Clase grabada [Tecnología] nivel 5
+- competencia: 🧑‍💻 Competencia digital [Tecnología] nivel 5
+- sincronico: 📡 Sesión sincrónica [Modalidades] nivel 5
+- asincronico: 🗂️ Modalidad asincrónica [Modalidades] nivel 5
+- blended: 🔀 Aprendizaje combinado [Modalidades] nivel 5
+- coi: 🗣️ Comunidad de indagación [Modalidades] nivel 5
+- evaluacion: 📝 Evaluación [Evaluación] nivel 5
+- diagnostica: 🔍 Evaluación diagnóstica [Evaluación] nivel 5
+- rubrica: 📏 Rúbrica [Evaluación] nivel 5
+- dua: 🌈 Diseño Universal para el Aprendizaje [Diseño de la enseñanza] nivel 5
+- carga_cognitiva: 🎒 Teoría de la carga cognitiva [Cómo se aprende] nivel 5
+- autoeficacia: 💪 Autoeficacia [Cómo se aprende] nivel 5
+- modelado: 🎙️ Modelado cognitivo [Cómo se aprende] nivel 5
+- conectivismo: 🔌 Conectivismo [Cómo se aprende] nivel 5
+- ciencia_aprendizaje: 🔭 Ciencia del aprendizaje [Cómo se aprende] nivel 5
+- analitica: 📈 Analítica del aprendizaje [Tecnología] nivel 5
+- privacidad: 🔒 Privacidad y ética de los datos [Tecnología] nivel 5
+- adaptativo: 🧬 Aprendizaje adaptativo [Tecnología] nivel 5
+- rea: 🔓 Recursos educativos abiertos [Tecnología] nivel 5
+- rv: 🥽 Realidad virtual inmersiva [Tecnología] nivel 5
+- brecha: 🚧 Brecha digital [Tecnología] nivel 5
+- movil: 📲 Aprendizaje móvil [Modalidades] nivel 5
+- distancia: 🛤️ Distancia transaccional [Modalidades] nivel 5
+- cats: ⏱️ Técnicas de evaluación en el aula [Evaluación] nivel 5
+- validez: ✅ Validez y confiabilidad [Evaluación] nivel 5
+- solo: 🌳 Taxonomía SOLO [Diseño de la enseñanza] nivel 5
+- hemisferios: ☯️ Cerebro izquierdo y cerebro derecho [Mitos] nivel 5
+- atencion10: ⏲️ La atención dura solo 10 minutos [Mitos] nivel 5
+- multitarea: 🤹 Multitarea eficaz [Mitos] nivel 5
+- descubrimiento: 🗝️ Descubrimiento puro sin guía [Mitos] nivel 5
+- inteligencias: 🎨 Enseñar según la inteligencia dominante [Mitos] nivel 5
+- internet: 🌐 Internet [Tecnología] nivel 5
+- aprendizaje_automatico: 🦾 Aprendizaje automático [Tecnología] nivel 5
+- invertida: 🔄 Aula invertida [Metodologías] nivel 6
+- ia: 🤖 IA generativa [Tecnología] nivel 6
+- aumento: 🟩 Aumento (SAMR) [Tecnología] nivel 6
+- capsula: 🎬 Cápsula de video [Tecnología] nivel 6
+- hyflex: 🎛️ HyFlex [Modalidades] nivel 6
+- sumativa: 🏁 Evaluación sumativa [Evaluación] nivel 6
+- formativa: 🌡️ Evaluación formativa [Evaluación] nivel 6
+- autentica: 🧪 Evaluación auténtica [Evaluación] nivel 6
+- sotl: 📑 Investigación sobre la propia docencia (SoTL) [Conocimiento docente] nivel 6
+- ejemplos_resueltos: 📒 Ejemplos resueltos [Cómo se aprende] nivel 6
+- multimedia: 🖼️ Aprendizaje multimedia [Cómo se aprende] nivel 6
+- emociones: 🎭 Emociones de logro [Cómo se aprende] nivel 6
+- mooc: 🏟️ MOOC [Tecnología] nivel 6
+- accesibilidad: ♿ Accesibilidad digital [Tecnología] nivel 6
+- remota_emergencia: 🚨 Enseñanza remota de emergencia [Modalidades] nivel 6
+- emoderacion: 🪜 Modelo de cinco etapas de Salmon [Modalidades] nivel 6
+- autoevaluacion: 🤔 Autoevaluación [Evaluación] nivel 6
+- integridad: 🛡️ Integridad académica [Evaluación] nivel 6
+- juicio: 🧑‍⚖️ Juicio evaluativo [Evaluación] nivel 6
+- portafolio: 🗃️ Portafolio de aprendizaje [Evaluación] nivel 6
+- criterial: 📐 Evaluación referida a criterio [Evaluación] nivel 6
+- efecto_retroactivo: 🪃 Efecto retroactivo de la evaluación [Evaluación] nivel 6
+- addie: ⚙️ Modelo ADDIE [Diseño de la enseñanza] nivel 6
+- mas_tecnologia: ➕ Más tecnología, más aprendizaje [Mitos] nivel 6
+- clase_interactiva: ⚡ Clase interactiva [Síntesis de misión] nivel 6
+- personalizacion_responsable: 🧵 Personalización responsable [Síntesis de misión] nivel 6
+- cap_mitos: 🧹 Claustro sin mitos [Síntesis de misión] nivel 6
+- cap_curso: 🎼 Curso alineado para todos [Síntesis de misión] nivel 6
+- modificacion: 🟨 Modificación (SAMR) [Tecnología] nivel 7
+- tutoria: 🦉 Tutor con IA [Tecnología] nivel 7
+- detectores: 🕵️ Detectores de IA [Mitos] nivel 7
+- portafolio_docente: 💼 Portafolio docente [Conocimiento docente] nivel 7
+- alfabetizacion_ia: 🔤 Alfabetización en IA [Tecnología] nivel 7
+- analisis_items: 🔢 Análisis de ítems [Evaluación] nivel 7
+- comentarios: 💌 Comentarios sin nota [Evaluación] nivel 7
+- sostenible: ♾️ Evaluación sostenible [Evaluación] nivel 7
+- encuestas: 📮 Las encuestas docentes miden el aprendizaje [Mitos] nivel 7
+- cap_activa: 🌅 La clase que despierta [Síntesis de misión] nivel 7
+- cap_hibrido: 🪐 Comunidad híbrida que aprende [Síntesis de misión] nivel 7
+- redefinicion: 🟥 Redefinición (SAMR) [Tecnología] nivel 8
+- eval_docencia: 🧾 Evaluación de la docencia con múltiples fuentes [Conocimiento docente] nivel 8
+- cap_eval: 🎖️ Evaluación que enseña [Síntesis de misión] nivel 8
+- evaluacion_ia: 🔐 Evaluación en tiempos de IA [Síntesis de misión] nivel 8
+- ia_que_ensena: 🕯️ IA que enseña a pensar [Síntesis de misión] nivel 9
+- cap_ia: 🌟 IA al servicio de una educación personalizada y realista [Síntesis de misión] nivel 10

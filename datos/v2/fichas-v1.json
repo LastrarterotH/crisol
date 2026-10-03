@@ -1,0 +1,1913 @@
+{
+ "estudiante": {
+  "n": "Estudiante",
+  "e": "🧑‍🎓",
+  "f": "base",
+  "why": "Uno de los tres polos del triángulo pedagógico de Houssaye, junto al docente y el saber. Toda decisión didáctica parte de quién aprende: qué sabe, qué necesita y en qué condiciones estudia.",
+  "refs": [
+   "houssaye88"
+  ]
+ },
+ "contenido": {
+  "n": "Contenido",
+  "e": "📚",
+  "f": "base",
+  "why": "El saber disciplinar que se enseña. Shulman insistió en que dominar un contenido no basta para enseñarlo; por eso aquí casi nunca rinde solo.",
+  "refs": [
+   "houssaye88",
+   "shulman86"
+  ]
+ },
+ "pedagogia": {
+  "n": "Pedagogía",
+  "e": "🧭",
+  "f": "base",
+  "why": "El conocimiento sobre cómo se enseña y cómo se aprende: métodos, gestión de la clase, evaluación. En el modelo TPACK corresponde al conocimiento pedagógico (PK).",
+  "refs": [
+   "mishra06"
+  ]
+ },
+ "tecnologia": {
+  "n": "Tecnología",
+  "e": "💻",
+  "f": "base",
+  "why": "Mishra y Koehler agregaron la tecnología al modelo de Shulman porque cambia lo que es posible enseñar y cómo. Por sí sola no mejora el aprendizaje: su efecto depende de con qué se combine.",
+  "refs": [
+   "mishra06"
+  ]
+ },
+ "tiempo": {
+  "n": "Tiempo",
+  "e": "⏰",
+  "f": "base",
+  "why": "Carroll propuso que el grado de aprendizaje depende de la razón entre el tiempo que un estudiante realmente dedica y el tiempo que necesita. El tiempo es una variable didáctica, no solo un dato del calendario.",
+  "refs": [
+   "carroll63"
+  ]
+ },
+ "espacio": {
+  "n": "Espacio",
+  "e": "📍",
+  "f": "base",
+  "why": "Donde ocurre el aprendizaje también lo condiciona. Un aula con sillas fijas mirando al frente favorece la exposición; un espacio flexible o virtual abre otras formas de interacción.",
+  "refs": [
+   "oblinger06"
+  ]
+ },
+ "proposito": {
+  "n": "Propósito",
+  "e": "🎯",
+  "f": "base",
+  "why": "Tyler ordenó el diseño curricular en cuatro preguntas, y la primera es qué propósitos educativos se buscan. Sin un propósito explícito no hay criterio para elegir actividades ni para evaluar.",
+  "refs": [
+   "tyler49"
+  ]
+ },
+ "cpc": {
+  "n": "Conocimiento pedagógico del contenido",
+  "e": "🧩",
+  "f": "fund",
+  "why": "Saber química y saber pedagogía por separado no basta para enseñar química. Shulman llamó conocimiento pedagógico del contenido a esa mezcla propia del oficio docente: las analogías, ejemplos y representaciones que vuelven comprensible un tema, y saber qué lo hace fácil o difícil y qué errores traen los estudiantes.",
+  "q": {
+   "t": "Las formas de representar y formular la materia que la hacen comprensible para otros.",
+   "a": "Lee Shulman (1986), traducción propia"
+  },
+  "uni": "Saber que tu curso confunde masa con peso, y tener lista la analogía que lo aclara, es conocimiento pedagógico del contenido.",
+  "refs": [
+   "shulman86"
+  ],
+  "pista": "Saber qué ejemplos, analogías y errores típicos hacen fácil o difícil enseñar un tema concreto."
+ },
+ "tpack": {
+  "n": "TPACK",
+  "e": "🔺",
+  "f": "fund",
+  "why": "Cuando se integran las tres fuentes de conocimiento (contenido, pedagogía y tecnología) aparece el TPACK. La idea central de Mishra y Koehler es que una buena integración tecnológica no surge de ninguna de ellas por separado, sino de su interacción en un contexto concreto.",
+  "uni": "La pregunta de partida deja de ser qué herramienta usar y pasa a ser qué contenido, para qué estudiantes y con qué estrategia.",
+  "refs": [
+   "mishra06"
+  ],
+  "pista": "Marco donde disciplina, didáctica y tecnología se cruzan para decidir cómo integrar herramientas digitales."
+ },
+ "reflexiva": {
+  "n": "Práctica reflexiva",
+  "e": "🪞",
+  "f": "fund",
+  "why": "Pedagogía aplicada sobre la propia pedagogía. Schön describió cómo los profesionales piensan durante la acción (reflexión en la acción) y después de ella (reflexión sobre la acción) para ajustar su práctica. Es el motor de la mejora docente.",
+  "uni": "Anotar después de cada clase qué funcionó, qué no y por qué es reflexión sobre la acción.",
+  "tip": "La práctica reflexiva desarma mitos: combínala con uno.",
+  "refs": [
+   "schon83"
+  ],
+  "pista": "Pensar durante y después de cada clase sobre lo que hiciste, para ajustar cómo enseñas."
+ },
+ "evidencia": {
+  "n": "Docencia informada por evidencia",
+  "e": "📊",
+  "f": "fund",
+  "why": "Una docencia informada por evidencia contrasta las prácticas con investigación revisada por pares antes de adoptarlas, y pregunta de dónde viene cada cifra o receta que circula. Dunlosky y colaboradores, por ejemplo, evaluaron diez técnicas de estudio populares: releer y subrayar resultaron de utilidad baja, mientras que practicar la recuperación y espaciar el estudio resultaron de utilidad alta.",
+  "uni": "Antes de adoptar una receta que circula en redes, buscar el estudio original y revisar si lo que dice coincide con lo que se le atribuye.",
+  "refs": [
+   "dunlosky13",
+   "lalley07"
+  ],
+  "pista": "Enseñar contrastando cada método con lo que muestran estudios revisados por pares, no con modas."
+ },
+ "mapa": {
+  "n": "Mapa conceptual",
+  "e": "🕸️",
+  "f": "apr",
+  "why": "Relacionar un contenido con otro mediante palabras de enlace explícitas es la base del mapa conceptual de Novak, construido sobre la teoría de Ausubel. Un metaanálisis de Nesbit y Adesope encontró que estudiar y construir mapas conceptuales se asocia a mayor retención y transferencia que actividades como leer textos, asistir a clases o participar en discusiones.",
+  "uni": "Pedir al curso que arme el mapa de la unidad antes de la prueba revela qué relaciones entendió y cuáles no.",
+  "refs": [
+   "novak84",
+   "nesbit06"
+  ],
+  "pista": "Una red de ideas unidas por flechas y palabras de enlace que muestra cómo se relacionan."
+ },
+ "previos": {
+  "n": "Conocimientos previos",
+  "e": "🧠",
+  "f": "apr",
+  "why": "Un estudiante nunca llega vacío a un contenido: trae ideas, experiencias y también errores conceptuales. Según la síntesis How People Learn, si esas concepciones previas no se activan y se trabajan, el estudiante puede aprender lo nuevo solo para la prueba y volver a pensar como antes fuera del aula.",
+  "q": {
+   "t": "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe. Averígüese esto y enséñese consecuentemente.",
+   "a": "David Ausubel (1968)"
+  },
+  "refs": [
+   "ausubel68",
+   "bransford00"
+  ],
+  "pista": "Lo que cada estudiante ya trae a clase, incluidos sus errores, antes de que empieces a enseñar."
+ },
+ "significativo": {
+  "n": "Aprendizaje significativo",
+  "e": "🔗",
+  "f": "apr",
+  "why": "Cuando un contenido nuevo se conecta de manera sustancial y no arbitraria con lo que el estudiante ya sabe, se integra a su estructura cognitiva y perdura. Si no encuentra dónde anclarse, se memoriza de forma mecánica y se olvida pronto. Esa es la distinción central de Ausubel.",
+  "uni": "Abrir la unidad con un organizador previo: un caso, una pregunta o un esquema que conecte con lo que el curso ya domina.",
+  "refs": [
+   "ausubel68"
+  ],
+  "pista": "Lo nuevo se ancla a lo que ya sabes y por eso perdura, en vez de memorizarse y olvidarse."
+ },
+ "constructivismo": {
+  "n": "Constructivismo",
+  "e": "🧱",
+  "f": "apr",
+  "why": "Si el estudiante trabaja activamente a partir de lo que ya sabe, construye conocimiento en lugar de recibirlo. El constructivismo, con raíces en Piaget y Vygotsky, sostiene que el conocimiento no se transmite intacto: cada persona lo reconstruye. La síntesis How People Learn reúne evidencia en esa dirección.",
+  "uni": "Pedir una predicción antes de mostrar un resultado obliga a usar el modelo mental propio y a revisarlo si falla.",
+  "refs": [
+   "bransford00",
+   "vygotsky78"
+  ],
+  "pista": "Cada persona arma su propio saber a partir de lo que ya sabe; nadie lo recibe intacto."
+ },
+ "zdp": {
+  "n": "Zona de desarrollo próximo",
+  "e": "🌉",
+  "f": "apr",
+  "why": "Entre lo que el estudiante ya resuelve solo y lo que todavía no puede hacer ni con ayuda hay una franja donde la intervención pedagógica rinde más. Vygotsky la llamó zona de desarrollo próximo.",
+  "q": {
+   "t": "La distancia entre el nivel real de desarrollo, determinado por la capacidad de resolver independientemente un problema, y el nivel de desarrollo potencial, determinado a través de la resolución de un problema bajo la guía de un adulto o en colaboración con otro compañero más capaz.",
+   "a": "Lev Vygotsky (1978)"
+  },
+  "uni": "Una tarea demasiado fácil no enseña y una imposible frustra; el desafío bien calibrado cae en esta zona.",
+  "refs": [
+   "vygotsky78"
+  ],
+  "pista": "La franja entre lo que logras solo y lo que aún no logras ni siquiera con ayuda."
+ },
+ "andamiaje": {
+  "n": "Andamiaje",
+  "e": "🏗️",
+  "f": "apr",
+  "why": "La ayuda que trabaja en la zona de desarrollo próximo se ajusta y se retira con el tiempo, como un andamio que se desarma cuando la obra se sostiene sola. El término viene de Wood, Bruner y Ross: el tutor se hace cargo de los elementos de la tarea que exceden al aprendiz para que este se concentre en lo que sí puede lograr. Collins, Brown y Newman describieron después el retiro gradual de esa ayuda (fading).",
+  "uni": "Ejemplos resueltos al inicio, luego ejemplos incompletos y, al final, problemas sin apoyo.",
+  "refs": [
+   "wood76",
+   "collins89"
+  ],
+  "pista": "Ayuda temporal que sostiene al aprendiz y se retira poco a poco cuando ya puede solo."
+ },
+ "metacognicion": {
+  "n": "Metacognición",
+  "e": "💭",
+  "f": "apr",
+  "why": "Lo que la práctica reflexiva es para el docente, la metacognición es para el estudiante. Flavell la definió como el conocimiento sobre los propios procesos cognitivos y el monitoreo de esos procesos.",
+  "uni": "Preguntar al cierre: ¿qué parte te costó más y cómo te diste cuenta de que la entendiste?",
+  "refs": [
+   "flavell79"
+  ],
+  "pista": "Pensar sobre tu propio pensamiento: darte cuenta de qué entiendes, qué no y cómo lo sabes."
+ },
+ "autorregulado": {
+  "n": "Aprendizaje autorregulado",
+  "e": "🔁",
+  "f": "apr",
+  "why": "Cuando el estudiante monitorea su pensamiento y además recibe información sobre su desempeño, puede ajustar cómo estudia. Zimmerman describe la autorregulación como un ciclo de tres fases (planificación, ejecución y autorreflexión) que se aprende y se puede enseñar.",
+  "uni": "Pedir que cada estudiante prediga su nota antes de una prueba y la compare después entrena la calibración de su propio juicio.",
+  "refs": [
+   "zimmerman02"
+  ],
+  "pista": "El estudiante planifica, se vigila mientras estudia y ajusta su método según cómo le fue."
+ },
+ "espaciada": {
+  "n": "Práctica espaciada",
+  "e": "📅",
+  "f": "apr",
+  "why": "Repartir el estudio en varias sesiones separadas en el tiempo produce mejor retención a largo plazo que concentrarlo en una sola, aunque el tiempo total sea el mismo. Cepeda y colaboradores sintetizaron cientos de experimentos sobre este efecto, y Dunlosky y colaboradores lo calificaron como técnica de utilidad alta.",
+  "uni": "Retomar en cada clase dos o tres preguntas de unidades anteriores en vez de dejar todo para el examen final.",
+  "refs": [
+   "cepeda06",
+   "dunlosky13"
+  ],
+  "pista": "Repartir el estudio en varias sesiones separadas en vez de concentrarlo todo la noche anterior."
+ },
+ "ritmo": {
+  "n": "Ritmo propio",
+  "e": "🐢",
+  "f": "apr",
+  "why": "Cada estudiante necesita un tiempo distinto para aprender lo mismo. En el modelo de Carroll, si el tiempo es igual para todos, lo que varía es cuánto aprende cada uno; si el tiempo se flexibiliza, más estudiantes alcanzan el objetivo.",
+  "uni": "Material disponible para avanzar o repasar a la velocidad de cada quien, con hitos claros para no perderse.",
+  "refs": [
+   "carroll63"
+  ],
+  "pista": "Cada estudiante necesita una cantidad distinta de tiempo para llegar a la misma meta."
+ },
+ "segmentacion": {
+  "n": "Segmentación",
+  "e": "✂️",
+  "f": "apr",
+  "why": "Dividir un contenido complejo en partes que el estudiante recorre a su ritmo reduce la sobrecarga de la memoria de trabajo. Es el principio de segmentación de Mayer: se aprende mejor una lección multimedia presentada en segmentos controlados por el estudiante que como una unidad continua.",
+  "uni": "Una clase larga organizada en bloques breves, cada uno con una idea central y una pregunta de cierre.",
+  "refs": [
+   "mayer09"
+  ],
+  "pista": "Dividir una lección compleja en partes breves que el estudiante avanza cuando está listo."
+ },
+ "situado": {
+  "n": "Aprendizaje situado",
+  "e": "🌍",
+  "f": "apr",
+  "why": "Ubicar al estudiante en un contexto real cambia lo que aprende. Brown, Collins y Duguid sostienen que el conocimiento está ligado a la actividad, el contexto y la cultura donde se usa; aprendido lejos de ellos, tiende a quedar como un saber que el estudiante no logra aplicar.",
+  "uni": "Las prácticas clínicas, los talleres y las pasantías son aprendizaje situado.",
+  "refs": [
+   "brown89"
+  ],
+  "pista": "El saber queda ligado al lugar, la actividad y la cultura donde de verdad se usa."
+ },
+ "grupo": {
+  "n": "Grupo",
+  "e": "👥",
+  "f": "met",
+  "why": "Juntar estudiantes crea un grupo, pero no garantiza que aprendan juntos. Johnson y Johnson muestran que el trabajo grupal rinde cuando hay interdependencia positiva y responsabilidad individual; sin eso, es común que unos trabajen y otros miren.",
+  "uni": "El clásico trabajo en grupo donde una persona hace todo y el resto firma es un grupo sin estructura.",
+  "tip": "Un grupo cambia cuando le sumas 🧭 Pedagogía.",
+  "refs": [
+   "johnson09"
+  ],
+  "pista": "Varias personas que estudian juntas, aunque eso solo no asegura que aprendan unas de otras."
+ },
+ "activo": {
+  "n": "Aprendizaje activo",
+  "e": "🏃",
+  "f": "met",
+  "why": "Cuando la pedagogía pone al estudiante a hacer y a pensar sobre lo que hace, aprende más. Freeman y colaboradores analizaron 225 estudios en carreras de ciencias, ingeniería y matemáticas: con clase expositiva tradicional, los estudiantes tenían 1,5 veces más probabilidad de reprobar que con aprendizaje activo, y los puntajes en exámenes subieron en promedio 0,47 desviaciones estándar.",
+  "q": {
+   "t": "Involucrar a los estudiantes en hacer cosas y en pensar sobre las cosas que están haciendo.",
+   "a": "Bonwell y Eison (1991), definición de aprendizaje activo, traducción propia"
+  },
+  "uni": "No exige eliminar la exposición: bastan pausas con preguntas, problemas en parejas o un minuto de escritura.",
+  "refs": [
+   "bonwell91",
+   "freeman14"
+  ],
+  "pista": "El estudiante deja de solo escuchar y pasa a hacer, resolver y pensar sobre lo que hace."
+ },
+ "cooperativo": {
+  "n": "Aprendizaje cooperativo",
+  "e": "🤝",
+  "f": "met",
+  "why": "La pedagogía convierte un grupo en un equipo cuando estructura la tarea. Johnson y Johnson identifican cinco elementos: interdependencia positiva, responsabilidad individual, interacción que promueve el aprendizaje del otro, habilidades sociales y procesamiento grupal. Con ellos, la cooperación supera de forma consistente al trabajo competitivo e individual en logro.",
+  "uni": "Asignar roles con responsabilidades propias y evaluar también una parte individual evita que una sola persona cargue con el grupo.",
+  "refs": [
+   "johnson09"
+  ],
+  "pista": "Trabajo en equipo estructurado, donde cada integrante depende de los demás y responde por su propia parte."
+ },
+ "problema": {
+  "n": "Problema auténtico",
+  "e": "❓",
+  "f": "met",
+  "why": "Cuando el contenido aparece dentro de un contexto real, se presenta como un problema auténtico: algo que la disciplina realmente enfrenta, sin respuesta única ni datos perfectos. Es la materia prima de las metodologías basadas en problemas y en casos.",
+  "uni": "Un caso clínico, un conflicto legal real o una base de datos desordenada de una organización local.",
+  "refs": [
+   "brown89",
+   "barrows80"
+  ],
+  "pista": "Una situación real de la disciplina, abierta, con datos incompletos y sin una única respuesta correcta."
+ },
+ "abp": {
+  "n": "Aprendizaje basado en problemas",
+  "e": "🧗",
+  "f": "met",
+  "why": "Un problema auténtico trabajado en grupos pequeños antes de recibir la teoría: así nació el ABP en la Facultad de Medicina de la Universidad McMaster, a fines de los años sesenta. El problema activa lo que el grupo sabe, revela lo que necesita aprender y orienta el estudio autodirigido; el docente actúa como tutor.",
+  "uni": "En el ABP el problema llega primero y la teoría después, al revés que en un ejercicio de aplicación.",
+  "refs": [
+   "barrows80"
+  ],
+  "pista": "Nació en una facultad de medicina canadiense: primero llega la situación clínica por resolver y después la teoría."
+ },
+ "proyectos": {
+  "n": "Aprendizaje basado en proyectos",
+  "e": "📦",
+  "f": "met",
+  "why": "Si el trabajo sobre un problema se extiende en el tiempo y termina en un producto concreto, pasas al aprendizaje basado en proyectos. Thomas lo caracteriza con cinco criterios: el proyecto es central y no un anexo, gira en torno a una pregunta motriz, implica investigación constructiva, lo conducen los estudiantes y es realista.",
+  "uni": "ABP y ABPy suelen confundirse: el primero se centra en resolver un problema; el segundo, en producir algo a lo largo de semanas.",
+  "refs": [
+   "thomas00"
+  ],
+  "pista": "Trabajo extendido durante semanas, guiado por una pregunta motriz, que termina en un producto concreto."
+ },
+ "expositiva": {
+  "n": "Clase expositiva",
+  "e": "🎤",
+  "f": "met",
+  "why": "Contenido entregado en un espacio y un tiempo compartidos: la clase magistral. Es eficiente para presentar mucha información a mucha gente, pero por sí sola deja al estudiante en el rol de oyente. En el metaanálisis de Freeman y colaboradores fue la condición de comparación frente al aprendizaje activo, y quedó en desventaja.",
+  "uni": "Sigue siendo útil para dar una visión de conjunto o mostrar cómo razona una persona experta frente a un problema.",
+  "tip": "Prueba combinarla con lo que pone al estudiante a trabajar.",
+  "refs": [
+   "freeman14"
+  ],
+  "pista": "El docente habla y los estudiantes escuchan y toman apuntes: el formato universitario más antiguo."
+ },
+ "peer": {
+  "n": "Instrucción entre pares",
+  "e": "🗳️",
+  "f": "met",
+  "why": "La clase expositiva no desaparece: se interrumpe con preguntas conceptuales. En el método de Eric Mazur, el docente plantea una pregunta, cada estudiante vota, luego discute con quien tiene al lado y vuelve a votar. Crouch y Mazur reportaron diez años de mejoras en la comprensión conceptual en cursos de física de Harvard.",
+  "uni": "Funciona mejor con preguntas que dividan al curso: si casi todos aciertan o casi todos fallan, la discusión aporta poco.",
+  "refs": [
+   "mazur97",
+   "crouch01"
+  ],
+  "pista": "Pregunta conceptual, voto individual, conversación con el compañero de al lado y nueva votación."
+ },
+ "invertida": {
+  "n": "Aula invertida",
+  "e": "🔄",
+  "f": "met",
+  "why": "Si el contenido expositivo pasa a cápsulas que se ven antes de clase, el tiempo presencial queda libre para el trabajo activo, justo cuando el estudiante más necesita al docente. Lage, Platt y Treglia lo describieron como invertir el aula (2000), y Bergmann y Sams lo popularizaron como flipped classroom (2012).",
+  "uni": "La sesión parte de las dudas que dejó la cápsula y pasa rápido a problemas, casos o discusión.",
+  "refs": [
+   "lage00",
+   "bergmann12"
+  ],
+  "pista": "Lo que antes se explicaba en la sala se ve en casa, y la sesión se usa para trabajar."
+ },
+ "tck": {
+  "n": "Conocimiento tecnológico del contenido",
+  "e": "🔬",
+  "f": "tec",
+  "why": "La tecnología y el contenido se transforman mutuamente: una simulación cambia lo que se puede mostrar de la física y un sistema de información geográfica cambia cómo se estudia el territorio. Mishra y Koehler lo llaman TCK: saber qué tecnologías representan mejor tu disciplina.",
+  "uni": "Un software de geometría dinámica donde el estudiante arrastra un vértice y observa qué propiedades se conservan.",
+  "refs": [
+   "mishra06"
+  ],
+  "pista": "Saber qué herramienta representa mejor las ideas de tu disciplina, como un simulador para la física."
+ },
+ "tpk": {
+  "n": "Conocimiento tecnopedagógico",
+  "e": "🛠️",
+  "f": "tec",
+  "why": "Saber cómo cambian la enseñanza y el aprendizaje cuando se usa cierta herramienta: qué permite un foro que no permite la sala de clases, qué le hace un muro colaborativo a la participación. Es la intersección TPK del modelo TPACK.",
+  "uni": "Elegir un foro asincrónico para que participen quienes no hablan en clase, sabiendo que les da tiempo para pensar la respuesta.",
+  "refs": [
+   "mishra06"
+  ],
+  "pista": "Saber qué cambia en la forma de enseñar cuando una herramienta entra a la sala."
+ },
+ "ia": {
+  "n": "IA generativa",
+  "e": "🤖",
+  "f": "tec",
+  "why": "Tecnología que produce texto, imágenes o código a partir de instrucciones. La guía de UNESCO para educación e investigación pide un enfoque centrado en las personas: proteger los datos, validar las herramientas antes de usarlas con estudiantes y no delegar en ellas el juicio pedagógico.",
+  "uni": "Su efecto depende de con qué la combines: sin diseño, puede ahorrarle al estudiante justo el esfuerzo que lo hace aprender.",
+  "refs": [
+   "unesco23"
+  ],
+  "pista": "Máquina que redacta, dibuja o programa a partir de lo que le pides por escrito."
+ },
+ "sustitucion": {
+  "n": "Sustitución (SAMR)",
+  "e": "🟦",
+  "f": "tec",
+  "why": "Agregar tecnología a una clase expositiva sin cambiar la tarea es sustitución, el primer peldaño del modelo SAMR de Puentedura: la herramienta reemplaza a otra sin mejora funcional. Proyectar diapositivas en lugar de escribir en la pizarra es el ejemplo típico.",
+  "tip": "Lo que hace subir de peldaño no es sumar más tecnología. Prueba con 🧭 Pedagogía.",
+  "refs": [
+   "puentedura06"
+  ],
+  "pista": "Primer peldaño de la escalera de Puentedura: cambias la herramienta, pero la tarea queda idéntica."
+ },
+ "aumento": {
+  "n": "Aumento (SAMR)",
+  "e": "🟩",
+  "f": "tec",
+  "why": "Con intención pedagógica, la misma tarea gana una mejora funcional: segundo peldaño de SAMR. La tarea sigue siendo la misma, pero la herramienta aporta algo que antes no estaba.",
+  "uni": "Un cuestionario en línea que entrega retroalimentación al instante en lugar de corregirse una semana después.",
+  "refs": [
+   "puentedura06"
+  ],
+  "pista": "Segundo peldaño de Puentedura: la misma tarea, pero la herramienta le suma una mejora funcional."
+ },
+ "modificacion": {
+  "n": "Modificación (SAMR)",
+  "e": "🟨",
+  "f": "tec",
+  "why": "Tercer peldaño de SAMR: la tecnología permite rediseñar una parte importante de la tarea. Aquí se cruza la línea que Puentedura traza entre mejorar (sustitución y aumento) y transformar (modificación y redefinición).",
+  "uni": "El ensayo individual pasa a ser un documento compartido donde el curso comenta y mejora los borradores de otros.",
+  "refs": [
+   "puentedura06"
+  ],
+  "pista": "Tercer peldaño de Puentedura: la herramienta permite rediseñar buena parte de la tarea."
+ },
+ "redefinicion": {
+  "n": "Redefinición (SAMR)",
+  "e": "🟥",
+  "f": "tec",
+  "why": "Último peldaño de SAMR: la tecnología permite tareas que antes eran inconcebibles. Fíjate en cómo llegaste aquí: no sumando más tecnología, sino rediseñando la tarea con pedagogía. Un dato importante: SAMR no proviene de investigación con revisión de pares, y Hamilton, Rosenberg y Akcaoglu advierten que ignora el contexto, impone una jerarquía rígida y puede llevar a valorar el producto por sobre el proceso de aprendizaje.",
+  "uni": "Estudiantes de dos universidades analizan juntos datos abiertos y publican sus hallazgos para una audiencia externa.",
+  "refs": [
+   "puentedura06",
+   "hamilton16"
+  ],
+  "pista": "Peldaño más alto de Puentedura: tareas que sin la herramienta serían inconcebibles."
+ },
+ "video": {
+  "n": "Clase grabada",
+  "e": "📼",
+  "f": "tec",
+  "why": "La clase expositiva liberada del horario: se puede ver cuando y cuantas veces se quiera. Pero grabar una clase larga tal cual desperdicia esa ventaja. En 6,9 millones de sesiones de video de edX, Guo, Kim y Rubin encontraron que la duración era el factor que más pesaba en el compromiso: el tiempo de visualización mediano no superaba los 6 minutos, sin importar cuánto durara el video.",
+  "tip": "Prueba cortarla en partes.",
+  "refs": [
+   "guo14"
+  ],
+  "pista": "La exposición del profesor, disponible para verla cuando quieras y cuantas veces quieras."
+ },
+ "capsula": {
+  "n": "Cápsula de video",
+  "e": "🎬",
+  "f": "tec",
+  "why": "Una clase grabada dividida en segmentos breves, cada uno con una sola idea, aplica el principio de segmentación de Mayer y se ajusta a lo que Guo, Kim y Rubin observaron en video educativo: los videos cortos sostienen más la atención.",
+  "uni": "Una cápsula por concepto, de pocos minutos, con una pregunta al final para comprobar la comprensión.",
+  "refs": [
+   "mayer09",
+   "guo14"
+  ],
+  "pista": "Pieza audiovisual de pocos minutos que explica una sola idea."
+ },
+ "tutoria": {
+  "n": "Tutor con IA",
+  "e": "🧑‍🏫",
+  "f": "tec",
+  "why": "La IA con andamiaje da pistas en lugar de respuestas. Un experimento de campo en matemática escolar en Turquía lo mostró con claridad: quienes practicaron con ChatGPT sin restricciones resolvieron un 48% mejor los ejercicios de práctica, pero rindieron un 17% peor en el examen posterior sin IA. Con una versión configurada como tutor, que guiaba sin entregar la solución, ese efecto negativo prácticamente desapareció.",
+  "uni": "El estudio fue en enseñanza secundaria. Para la universidad, la lección de diseño es configurar la IA para que pida razonamiento y entregue pistas.",
+  "refs": [
+   "bastani25"
+  ],
+  "pista": "Un chatbot configurado para guiarte con pistas y preguntas, sin entregarte la solución."
+ },
+ "competencia": {
+  "n": "Competencia digital",
+  "e": "🧑‍💻",
+  "f": "tec",
+  "why": "La competencia digital no viene con el año de nacimiento: se aprende y se enseña. El marco europeo DigComp 2.2 la organiza en cinco áreas: información y datos, comunicación y colaboración, creación de contenido digital, seguridad y resolución de problemas.",
+  "uni": "Enseñar a evaluar fuentes, citar y usar la IA con criterio es parte del curso, no algo que el estudiante ya trae.",
+  "refs": [
+   "digcomp22",
+   "kirschner17"
+  ],
+  "pista": "Buscar, evaluar, crear y comunicar con tecnología: se aprende, no viene con el año de nacimiento."
+ },
+ "presencial": {
+  "n": "Presencialidad",
+  "e": "🏫",
+  "f": "mod",
+  "why": "Mismo lugar y mismo momento: la combinación más antigua. Johansen ordenó las formas de trabajo colaborativo en una matriz de tiempo y espacio; la presencialidad ocupa la celda donde ambos coinciden. Su fortaleza es la interacción inmediata; su límite, que exige a todos estar ahí a la vez.",
+  "refs": [
+   "johansen88"
+  ],
+  "pista": "Todos en la misma sala y a la misma hora, como en la universidad de siempre."
+ },
+ "virtual": {
+  "n": "Entorno virtual",
+  "e": "🌐",
+  "f": "mod",
+  "why": "La tecnología crea un espacio que no depende del lugar físico: el aula virtual. Moore distinguió tres interacciones que la educación a distancia debe diseñar a propósito: estudiante con contenido, estudiante con docente y estudiante con estudiante.",
+  "uni": "Un curso en la plataforma que solo aloja archivos PDF cubre una de las tres interacciones; faltan las otras dos.",
+  "refs": [
+   "moore89"
+  ],
+  "pista": "Un espacio de estudio que vive en internet: plataforma, foros y materiales sin edificio."
+ },
+ "sincronico": {
+  "n": "Sesión sincrónica",
+  "e": "📡",
+  "f": "mod",
+  "why": "Espacio virtual y tiempo compartido: la videoconferencia. Hrastinski encontró que lo sincrónico favorece la participación personal (motivación, sentido de comunidad, respuesta rápida), mientras que lo asincrónico favorece la participación cognitiva, porque da tiempo para reflexionar.",
+  "uni": "Úsala para lo que necesita respuesta inmediata: dudas, debate y acompañamiento.",
+  "refs": [
+   "hrastinski08"
+  ],
+  "pista": "Todos conectados a la vez desde lugares distintos, viéndose por cámara."
+ },
+ "asincronico": {
+  "n": "Modalidad asincrónica",
+  "e": "🗂️",
+  "f": "mod",
+  "why": "Cuando el entorno virtual se combina con el ritmo propio, cada estudiante participa en su momento. Hrastinski mostró que esta modalidad favorece la participación cognitiva: con tiempo para pensar, los aportes suelen ser más elaborados.",
+  "uni": "Un foro con una pregunta abierta y una semana de plazo produce respuestas más pensadas que una pregunta lanzada en vivo.",
+  "refs": [
+   "hrastinski08"
+  ],
+  "pista": "Cada uno entra cuando puede: foros, lecturas y tareas sin horario compartido."
+ },
+ "blended": {
+  "n": "Aprendizaje combinado",
+  "e": "🔀",
+  "f": "mod",
+  "why": "Combinar presencialidad y entorno virtual no es sumar horas de cada uno. Garrison y Kanuka definen el blended learning como la integración reflexiva de experiencias presenciales y en línea, rediseñando qué conviene hacer en cada espacio.",
+  "uni": "La exposición y la práctica individual van al entorno virtual; la discusión y el trabajo guiado, a la sala.",
+  "refs": [
+   "garrison04"
+  ],
+  "pista": "Parte del curso ocurre en la sala y parte en línea, rediseñando qué conviene en cada lugar."
+ },
+ "hyflex": {
+  "n": "HyFlex",
+  "e": "🎛️",
+  "f": "mod",
+  "why": "Si al curso combinado le sumas el ritmo propio, aparece el modelo híbrido flexible de Beatty: en cada sesión, el estudiante elige participar en la sala, en línea de forma sincrónica o de forma asincrónica, y todas las rutas deben llevar a los mismos resultados de aprendizaje.",
+  "uni": "Exige diseñar tres rutas equivalentes; poner una cámara en la sala no basta.",
+  "refs": [
+   "beatty19"
+  ],
+  "pista": "En cada sesión el estudiante elige si asiste a la sala, se conecta en vivo o avanza después."
+ },
+ "coi": {
+  "n": "Comunidad de indagación",
+  "e": "🗣️",
+  "f": "mod",
+  "why": "Un grupo en un entorno virtual no forma comunidad por sí solo. Garrison, Anderson y Archer proponen que el aprendizaje en línea profundo requiere tres presencias: cognitiva (construir significado), social (sentirse parte) y docente (diseñar, facilitar y guiar).",
+  "uni": "La presencia docente en un foro incluye diseñar la pregunta, moderar la discusión y ayudar a cerrarla con conclusiones.",
+  "refs": [
+   "garrison00"
+  ],
+  "pista": "Tres presencias, cognitiva, social y docente, para que un curso en línea piense en conjunto."
+ },
+ "evaluacion": {
+  "n": "Evaluación",
+  "e": "📝",
+  "f": "eva",
+  "why": "Contrastar lo que el estudiante muestra con el propósito que se buscaba: eso es evaluar. Scriven distinguió en 1967 dos funciones de la evaluación: la formativa, que sirve para mejorar mientras el proceso ocurre, y la sumativa, que juzga el resultado al final.",
+  "refs": [
+   "scriven67"
+  ],
+  "pista": "Poner frente a frente lo que el estudiante demuestra y lo que se buscaba lograr."
+ },
+ "diagnostica": {
+  "n": "Evaluación diagnóstica",
+  "e": "🔍",
+  "f": "eva",
+  "why": "Evaluar lo que el estudiante ya sabe antes de enseñar es el “averígüese esto” de Ausubel. La evaluación diagnóstica revela conocimientos previos y errores conceptuales para decidir por dónde partir.",
+  "uni": "Tres preguntas sin nota al inicio de la unidad bastan para ajustar la primera clase.",
+  "refs": [
+   "ausubel68",
+   "bransford00"
+  ],
+  "pista": "Averiguar qué sabe ya el curso antes de empezar a enseñar un tema."
+ },
+ "sumativa": {
+  "n": "Evaluación sumativa",
+  "e": "🏁",
+  "f": "eva",
+  "why": "La evaluación ubicada al final de un periodo, para certificar cuánto se logró. Scriven la distinguió de la formativa: la sumativa juzga el resultado; la formativa ayuda a mejorarlo mientras todavía hay tiempo.",
+  "uni": "Un examen final es sumativo; si se devuelve con comentarios y una oportunidad de mejorar, empieza a cumplir también una función formativa.",
+  "refs": [
+   "scriven67"
+  ],
+  "pista": "El juicio final que certifica cuánto se logró cuando el periodo ya terminó."
+ },
+ "retro": {
+  "n": "Retroalimentación",
+  "e": "💬",
+  "f": "eva",
+  "why": "Cuando la evaluación vuelve al estudiante como información útil, se convierte en retroalimentación. Hattie y Timperley la ubican entre las influencias más potentes en el aprendizaje, aunque su efecto puede ser positivo o negativo según cómo se entregue. La que funciona responde tres preguntas: ¿hacia dónde voy?, ¿cómo voy? y ¿qué sigue?",
+  "uni": "“Buen trabajo” no responde ninguna de las tres preguntas. “El argumento es sólido, pero al punto 2 le falta evidencia: agrega un dato” responde las tres.",
+  "refs": [
+   "hattie07"
+  ],
+  "pista": "Información que vuelve al estudiante y le dice dónde está y qué hacer después."
+ },
+ "formativa": {
+  "n": "Evaluación formativa",
+  "e": "🌱",
+  "f": "eva",
+  "why": "Evaluación usada para ajustar la enseñanza y el aprendizaje mientras ocurren. Black y Wiliam revisaron unos 250 estudios y concluyeron que fortalecer la evaluación formativa produce mejoras significativas en el aprendizaje, con tamaños de efecto típicos entre 0,4 y 0,7.",
+  "uni": "Un ticket de salida con una pregunta al final de la clase indica qué retomar en la siguiente.",
+  "refs": [
+   "black98a",
+   "black98b"
+  ],
+  "pista": "Revisar el avance mientras la enseñanza ocurre, para ajustar el rumbo a tiempo."
+ },
+ "recuperacion": {
+  "n": "Práctica de recuperación",
+  "e": "🧲",
+  "f": "eva",
+  "why": "Usar la evaluación como actividad de aprendizaje: intentar recordar fortalece la memoria más que releer. Roediger y Karpicke mostraron que quienes se pusieron a prueba recordaban más una semana después que quienes volvieron a estudiar el texto, aunque estos últimos se sentían más seguros de su aprendizaje. Dunlosky y colaboradores la califican como técnica de utilidad alta.",
+  "uni": "Preguntas breves sin nota al inicio de cada clase sobre lo visto antes.",
+  "refs": [
+   "roediger06",
+   "dunlosky13"
+  ],
+  "pista": "Intentar traer algo a la memoria sin mirar los apuntes, y así fijarlo mejor."
+ },
+ "rubrica": {
+  "n": "Rúbrica",
+  "e": "📏",
+  "f": "eva",
+  "why": "Cuando los resultados de aprendizaje se traducen en criterios y niveles de desempeño explícitos, y se comparten con el estudiante, se convierten en rúbrica. Jonsson y Svingby encontraron que las rúbricas mejoran la confiabilidad de la corrección y hacen transparentes las expectativas; Panadero y Jonsson muestran que su uso formativo apoya la autorregulación.",
+  "uni": "Entregar la rúbrica junto con el enunciado del trabajo, no solo junto con la nota.",
+  "refs": [
+   "jonsson07",
+   "panadero13"
+  ],
+  "pista": "Criterios y niveles de desempeño explícitos, compartidos con el estudiante antes de entregar."
+ },
+ "dominio": {
+  "n": "Aprendizaje para el dominio",
+  "e": "🏅",
+  "f": "eva",
+  "why": "Si cada estudiante tiene el tiempo que necesita y evaluaciones que le indican qué corregir antes de avanzar, la mayoría puede alcanzar el dominio. Bloom lo propuso en 1968 a partir del modelo de Carroll, y el metaanálisis de Kulik, Kulik y Bangert-Drowns encontró efectos positivos de estos programas en el rendimiento.",
+  "uni": "Cuestionarios por módulo con un mínimo para avanzar y la posibilidad de reintentar después de estudiar la retroalimentación.",
+  "refs": [
+   "bloom68",
+   "kulik90"
+  ],
+  "pista": "Nadie pasa a la unidad siguiente hasta lograr la actual, con el tiempo que necesite."
+ },
+ "autentica": {
+  "n": "Evaluación auténtica",
+  "e": "🧪",
+  "f": "eva",
+  "why": "Una evaluación auténtica pide resolver tareas propias del mundo profesional y hace visibles el proceso y el juicio del estudiante; por eso es una respuesta más sólida que los detectores frente a la IA. Villarroel y colaboradores revisaron 125 artículos y la organizaron en tres dimensiones: realismo, desafío cognitivo y juicio evaluativo (que el estudiante aprenda a juzgar la calidad de su propio trabajo).",
+  "uni": "En lugar de un ensayo sobre un tema, un informe técnico para un cliente real, con bitácora de decisiones y una defensa oral breve.",
+  "refs": [
+   "villarroel18",
+   "wiggins90"
+  ],
+  "pista": "Pedir tareas como las del mundo profesional, no preguntas que solo existen en un examen."
+ },
+ "resultados": {
+  "n": "Resultados de aprendizaje",
+  "e": "📌",
+  "f": "dis",
+  "why": "Un propósito aplicado a un contenido se expresa como lo que el estudiante será capaz de hacer con él, con un verbo observable. Biggs y Tang ponen estos resultados en el centro del diseño universitario: actividades y evaluación se alinean con ellos.",
+  "uni": "“Comprender la fotosíntesis” no se puede observar; “explicar cómo cambia la fotosíntesis si disminuye la luz” sí.",
+  "refs": [
+   "biggs11"
+  ],
+  "pista": "Lo que alguien podrá hacer al cerrar un curso, escrito con un verbo que se puede observar."
+ },
+ "bloom": {
+  "n": "Taxonomía de Bloom",
+  "e": "📶",
+  "f": "dis",
+  "why": "Para formular propósitos con intención pedagógica, Bloom y su equipo clasificaron los objetivos educativos por nivel cognitivo (1956). La revisión de Anderson y Krathwohl (2001) los expresa como verbos: recordar, comprender, aplicar, analizar, evaluar y crear.",
+  "uni": "Si todas las preguntas de una prueba piden recordar, la prueba no puede mostrar si el curso sabe analizar.",
+  "refs": [
+   "bloom56",
+   "anderson01"
+  ],
+  "pista": "Una escalera de verbos que sube de recordar a crear para ordenar lo que se pide pensar."
+ },
+ "inverso": {
+  "n": "Diseño inverso",
+  "e": "🔙",
+  "f": "dis",
+  "why": "Primero los resultados, luego la evidencia que los demostraría y recién después las actividades. Wiggins y McTighe llaman a esto diseño inverso (backward design): se planifica desde el final hacia el comienzo, en vez de partir por las actividades favoritas o por el índice del libro.",
+  "uni": "Antes de preparar la primera clase, escribir la pregunta del examen final que mostraría que el curso aprendió.",
+  "refs": [
+   "wiggins05"
+  ],
+  "pista": "Planificar empezando por la meta y la evidencia que la demostraría, y dejar las actividades para el final."
+ },
+ "alineamiento": {
+  "n": "Alineamiento constructivo",
+  "e": "⚖️",
+  "f": "dis",
+  "why": "Cuando resultados, actividades y evaluación apuntan a lo mismo, el estudiante aprende lo que se buscaba. Biggs lo llamó alineamiento constructivo: si el resultado pide analizar, la actividad debe hacer analizar y la evaluación debe pedir análisis. Biggs advierte que los estudiantes aprenden lo que creen que se les va a evaluar, de modo que una prueba de memoria produce memorización, diga lo que diga el programa.",
+  "q": {
+   "t": "Lo que hace el estudiante es en realidad más importante para determinar qué se aprende que lo que hace el docente.",
+   "a": "Thomas Shuell (1986), citado por Biggs, traducción propia"
+  },
+  "refs": [
+   "biggs96",
+   "biggs11",
+   "shuell86"
+  ],
+  "pista": "Cuando la meta, la actividad y la prueba piden exactamente el mismo tipo de pensamiento."
+ },
+ "dua": {
+  "n": "Diseño Universal para el Aprendizaje",
+  "e": "🌈",
+  "f": "dis",
+  "why": "En vez de etiquetar a cada estudiante con un estilo, el DUA diseña desde el inicio para la diversidad de todo el curso. CAST lo organiza en tres principios: proporcionar múltiples formas de implicación, de representación y de acción y expresión. Las opciones se ofrecen a todo el curso, sin clasificar a nadie.",
+  "uni": "Entregar la lectura también en audio y con un esquema, y permitir que el trabajo final sea escrito, oral o audiovisual.",
+  "refs": [
+   "cast18",
+   "meyer14"
+  ],
+  "pista": "Planificar desde el inicio con opciones para la diversidad de todo el curso, sin clasificar a nadie."
+ },
+ "nativos": {
+  "n": "Nativos digitales",
+  "e": "📱",
+  "f": "mito",
+  "myth": true,
+  "belief": "Quienes nacieron rodeados de tecnología aprenden de otra forma, son buenos en la multitarea y saben usarla para estudiar sin que nadie les enseñe.",
+  "evidence": "Kirschner y De Bruyckere revisaron la evidencia: no existe una generación con habilidades digitales innatas. Usar redes sociales con soltura no equivale a buscar, evaluar o producir información académica, y la multitarea perjudica el aprendizaje. El término lo popularizó Prensky en 2001.",
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo.",
+  "refs": [
+   "prensky01",
+   "kirschner17"
+  ],
+  "pista": "La creencia de que crecer entre pantallas entrega destrezas tecnológicas sin que nadie las enseñe."
+ },
+ "estilos": {
+  "n": "Estilos de aprendizaje",
+  "e": "🎧",
+  "f": "mito",
+  "myth": true,
+  "belief": "Cada estudiante es visual, auditivo o kinestésico, y aprende más si se le enseña según su estilo.",
+  "evidence": "Pashler, McDaniel, Rohrer y Bjork buscaron estudios con el diseño adecuado para probar esa hipótesis y prácticamente no encontraron evidencia a favor; varios estudios bien diseñados la contradicen. Las personas sí tienen preferencias, pero adaptar la enseñanza a ellas no mejora el aprendizaje. Lo que importa es lo que exige el contenido y lo que el estudiante ya sabe.",
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo.",
+  "refs": [
+   "pashler08"
+  ],
+  "pista": "La idea de que enseñar por el canal favorito de cada uno, visual, auditivo o kinestésico, rinde más."
+ },
+ "piramide": {
+  "n": "Pirámide del aprendizaje",
+  "e": "🔻",
+  "f": "mito",
+  "myth": true,
+  "belief": "Recordamos el 10% de lo que leemos, el 20% de lo que escuchamos y el 90% de lo que enseñamos a otros.",
+  "evidence": "Esos porcentajes circulan atribuidos al NTL Institute o al cono de la experiencia de Edgar Dale, pero ninguna investigación los respalda. Dale nunca puso cifras en su cono, y las revisiones de Lalley y Miller y de Letrud no encontraron el estudio que los originó. Que el aprendizaje activo funciona está bien documentado; esas cifras exactas, no.",
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo.",
+  "refs": [
+   "lalley07",
+   "letrud12"
+  ],
+  "pista": "Porcentajes famosos de cuánto se recuerda al leer, escuchar o enseñar, que ningún estudio respalda."
+ },
+ "detectores": {
+  "n": "Detectores de IA",
+  "e": "🕵️",
+  "f": "mito",
+  "myth": true,
+  "belief": "Un detector puede decir con confiabilidad si un estudiante escribió su trabajo con IA.",
+  "evidence": "Weber-Wulff y colaboradores probaron 14 herramientas de detección, entre ellas Turnitin, y concluyeron que no son precisas ni confiables. Liang y colaboradores encontraron además un sesgo: los detectores marcaron como generados por IA más de la mitad de los ensayos escritos por hablantes no nativos de inglés. Acusar a un estudiante con base en un detector puede ser injusto.",
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo.",
+  "refs": [
+   "weber23",
+   "liang23"
+  ],
+  "pista": "Herramientas que prometen descubrir si un texto lo escribió una máquina, y que se equivocan con frecuencia."
+ },
+ "sotl": {
+  "n": "Investigación sobre la propia docencia (SoTL)",
+  "e": "📑",
+  "f": "fund",
+  "pista": "Estudiar con método el aprendizaje en tus cursos y publicar los hallazgos para que otros los revisen.",
+  "why": "Cuando la reflexión sobre tus clases se vuelve sistemática, se apoya en evidencia y se comparte, se convierte en investigación sobre la propia docencia (Scholarship of Teaching and Learning, SoTL). Boyer propuso en 1990 reconocer la enseñanza como una forma de trabajo académico, y Hutchings y Shulman precisaron que el SoTL exige hacer público el trabajo para que otros lo revisen críticamente y construyan sobre él. Así, mejorar un curso también aporta conocimiento a la comunidad.",
+  "uni": "Una docente de Anatomía compara dos cohortes, una con cuestionarios de recuperación y otra sin ellos, analiza los resultados con aprobación ética y los presenta en un congreso de docencia universitaria.",
+  "refs": [
+   "boyer90",
+   "hutchings99"
+  ]
+ },
+ "investigacion_accion": {
+  "n": "Investigación-acción",
+  "e": "♻️",
+  "f": "fund",
+  "pista": "Ciclos de planificar, intervenir, observar y reflexionar para mejorar una situación concreta de tu curso.",
+  "why": "Lewin describió la investigación-acción como una espiral de ciclos de planificar, actuar y examinar los resultados de la acción para decidir el paso siguiente. En docencia, la hace el propio profesor sobre su práctica: identifica un problema real de su curso, prueba un cambio, recoge datos y reflexiona antes del ciclo siguiente. Elliott la impulsó como vía para que el profesorado investigue y transforme su enseñanza; su fuerza está en la mejora local, no en generalizar resultados.",
+  "uni": "Un docente de Contabilidad nota que muchos abandonan tras la primera prueba, introduce tutorías semanales, registra asistencia y notas durante el semestre y ajusta el plan para el siguiente.",
+  "refs": [
+   "lewin46",
+   "elliott91"
+  ]
+ },
+ "portafolio_docente": {
+  "n": "Portafolio docente",
+  "e": "💼",
+  "f": "fund",
+  "pista": "Colección comentada de evidencias de cómo enseñas, útil para mejorar o para postular a una promoción.",
+  "why": "Así como el estudiante reúne evidencias de su aprendizaje, el docente puede reunir evidencias seleccionadas de su enseñanza (programas, materiales, trabajos de estudiantes, observaciones de pares, encuestas) acompañadas de una reflexión que las interpreta. Edgerton, Hutchings y Quinlan lo propusieron como forma de documentar el trabajo académico de enseñar, y Seldin lo difundió tanto para mejorar la docencia como para decisiones de promoción. Su valor depende de esa reflexión selectiva, no de acumular documentos.",
+  "uni": "Para solicitar una promoción académica, una profesora de Biología presenta su filosofía docente, dos programas rediseñados, ejemplos de retroalimentación y una reflexión sobre cómo esos datos cambiaron su curso.",
+  "refs": [
+   "edgerton91",
+   "seldin04"
+  ]
+ },
+ "enfoques_ensenanza": {
+  "n": "Enfoques de enseñanza",
+  "e": "🎚️",
+  "f": "fund",
+  "pista": "Centrarte en transmitir información o en cambiar lo que tus estudiantes comprenden: dos intenciones al dar clase.",
+  "why": "Prosser y Trigwell distinguieron dos enfoques extremos en profesores universitarios: uno centrado en el docente, que busca transmitir información, y otro centrado en el estudiante, que busca cambiar su comprensión. En cursos de ciencias de primer año, Trigwell, Prosser y Waterhouse encontraron que el enfoque de transmisión se asociaba con más aprendizaje superficial en los estudiantes. Reflexionar sobre el propio enfoque importa porque está en la intención, no solo en el método: una exposición también puede buscar comprensión.",
+  "uni": "Un profesor de Física que expone cambia de enfoque cuando deja de preguntarse cuánto alcanzó a cubrir y empieza a preguntarse qué entendieron sus estudiantes y cómo lo sabe.",
+  "refs": [
+   "prosser99",
+   "trigwell99"
+  ]
+ },
+ "eval_docencia": {
+  "n": "Evaluación de la docencia con múltiples fuentes",
+  "e": "🧾",
+  "f": "fund",
+  "pista": "Juzgar la calidad de un profesor cruzando estudiantes, pares, portafolio y resultados, no solo encuestas.",
+  "why": "Las encuestas estudiantiles recogen experiencias valiosas, pero no alcanzan para juzgar la docencia: el metaanálisis de Uttl, White y Gonzalez no encontró relación entre esas valoraciones y el aprendizaje de los estudiantes al considerar los estudios con muestras grandes. Por eso Berk propone triangular varias fuentes: opiniones estudiantiles, observación de pares, autoevaluación, portafolio docente y medidas de aprendizaje. Cada fuente tiene sesgos distintos y, juntas, compensan sus puntos ciegos.",
+  "uni": "Para evaluar a un académico, una comisión combina las encuestas del curso con dos observaciones de pares, su portafolio docente y el desempeño de sus estudiantes en asignaturas posteriores.",
+  "refs": [
+   "uttl17",
+   "berk05"
+  ]
+ },
+ "comunidad_practica": {
+  "n": "Comunidad de práctica",
+  "e": "🏘️",
+  "f": "apr",
+  "pista": "Un grupo que comparte un oficio, donde el novato se forma participando junto a los expertos.",
+  "why": "Lave y Wenger analizaron cómo los recién llegados aprenden un oficio participando en él: primero en tareas periféricas pero legítimas y, gradualmente, en las centrales, un proceso que llamaron participación periférica legítima. Wenger caracterizó después la comunidad de práctica por el compromiso mutuo de sus miembros, una empresa conjunta y un repertorio compartido de herramientas, lenguaje y formas de hacer. En esta mirada, aprender es también construir una identidad profesional.",
+  "uni": "Un laboratorio donde el tesista novato aprende del equipo, o un grupo de docentes de Ingeniería que se reúne cada mes a revisar casos de su enseñanza, funcionan como comunidades de práctica.",
+  "refs": [
+   "lave91",
+   "wenger98"
+  ]
+ },
+ "carga_cognitiva": {
+  "n": "Teoría de la carga cognitiva",
+  "e": "🎒",
+  "f": "apr",
+  "pista": "La memoria de trabajo tiene un límite, y enseñar bien es no llenarla con lo que no ayuda.",
+  "why": "La memoria de trabajo procesa pocos elementos nuevos a la vez, y lo que la satura deja de estar disponible para aprender; por eso el diseño de la enseñanza, como la segmentación, debe ajustarse a ese límite del estudiante. Sweller formuló la teoría al estudiar la resolución de problemas, y con van Merriënboer y Paas distinguió la carga propia del contenido de la que agrega un mal diseño. Su punto más discutido es cómo medir esa carga de forma directa.",
+  "uni": "En Programación, poner la explicación junto a cada línea de código, y no en una diapositiva aparte, evita que el estudiante gaste memoria de trabajo yendo y viniendo entre ambas.",
+  "refs": [
+   "sweller88",
+   "sweller98"
+  ]
+ },
+ "ejemplos_resueltos": {
+  "n": "Ejemplos resueltos",
+  "e": "✍️",
+  "f": "apr",
+  "pista": "Estudiar paso a paso una solución completa antes de enfrentar problemas parecidos por tu cuenta.",
+  "why": "Para un principiante, estudiar soluciones completas paso a paso enseña más que resolver problemas desde cero, porque evita la búsqueda a ciegas y libera memoria de trabajo para entender el procedimiento. Sweller y Cooper lo mostraron con problemas de álgebra, y Atkinson y colaboradores reunieron principios como alternar ejemplos con problemas parecidos y pedir autoexplicaciones. El beneficio se pierde con la experiencia: Kalyuga y colaboradores describieron cómo la guía que ayuda al novato puede estorbar al avanzado.",
+  "uni": "En Contabilidad, mostrar un asiento resuelto paso a paso, explicando por qué se elige cada cuenta, y pedir enseguida un asiento parecido para que cada estudiante lo resuelva solo.",
+  "refs": [
+   "sweller85",
+   "atkinson00",
+   "kalyuga03"
+  ]
+ },
+ "intercalada": {
+  "n": "Práctica intercalada",
+  "e": "🃏",
+  "f": "apr",
+  "pista": "Mezclar ejercicios de distintos tipos en una misma sesión en lugar de agruparlos por tema.",
+  "why": "Mezclar en una sesión problemas de distintos tipos obliga a decidir qué estrategia corresponde a cada uno, una decisión que la práctica en bloques por tema entrega ya resuelta. Rohrer y Taylor lo mostraron con estudiantes universitarios y problemas de matemáticas, y Kornell y Bjork con el reconocimiento de estilos de pintores. El metaanálisis de Brunmair y Richter halló un beneficio moderado, mayor cuando las categorías se parecen entre sí, y aconseja cautela con textos expositivos y vocabulario.",
+  "uni": "En Estadística, una guía que mezcla problemas de prueba t, chi cuadrado y correlación obliga a decidir qué método corresponde, en vez de aplicar diez veces seguidas el mismo.",
+  "refs": [
+   "rohrer07",
+   "kornell08",
+   "brunmair19"
+  ]
+ },
+ "dificultades_deseables": {
+  "n": "Dificultades deseables",
+  "e": "🏋️",
+  "f": "apr",
+  "pista": "Obstáculos que hacen el estudio más lento y costoso hoy, pero dejan una huella más duradera.",
+  "why": "Algunas condiciones que vuelven el estudio más lento y con más errores, como espaciar, intercalar o recuperar de memoria, producen un aprendizaje más duradero que las que lo hacen fluido. Robert Bjork acuñó el término y, con Elizabeth Bjork, aclaró que una dificultad solo es deseable si el estudiante tiene con qué superarla. Soderstrom y Bjork mostraron que el desempeño durante la práctica es un mal indicador del aprendizaje: lo que se siente fácil puede engañar.",
+  "uni": "En Anatomía, avisar al curso que la práctica mezclada y espaciada se sentirá más lenta y con más errores evita que la abandonen creyendo que funciona peor.",
+  "refs": [
+   "bjork94",
+   "bjork11",
+   "soderstrom15"
+  ]
+ },
+ "reaprendizaje": {
+  "n": "Reaprendizaje sucesivo",
+  "e": "🔃",
+  "f": "apr",
+  "pista": "Recuperar de memoria lo estudiado hasta acertar, y repetirlo en varias sesiones separadas por días.",
+  "why": "Combina las dos técnicas mejor evaluadas por Dunlosky y colaboradores: recuperar de memoria hasta acertar y repetir esa recuperación en sesiones espaciadas. Rawson y Dunlosky estudiaron cuántos aciertos conviene lograr al inicio y cuántas sesiones posteriores rinden más. En un curso real de Introducción a la Psicología, Rawson, Dunlosky y Sciartelli encontraron mejores resultados en los exámenes y una retención mucho mayor meses después.",
+  "uni": "En Introducción a la Psicología, practicar cada concepto clave hasta recordarlo bien varias veces y volver a recuperarlo en dos o tres sesiones posteriores, separadas por días.",
+  "refs": [
+   "rawson11",
+   "rawson13",
+   "dunlosky13"
+  ]
+ },
+ "olvido": {
+  "n": "Curva del olvido",
+  "e": "🍂",
+  "f": "apr",
+  "pista": "Lo estudiado se desvanece rápido al principio y más lento después, si nadie vuelve a usarlo.",
+  "why": "Sin repaso ni uso, lo aprendido se pierde rápido al principio y cada vez más despacio después. Ebbinghaus lo midió en sí mismo con listas de sílabas sin sentido, calculando cuánto esfuerzo le ahorraba reaprenderlas tras distintos intervalos, y Murre y Dros replicaron la curva en 2015. Como usó material sin significado, sus cifras no se trasladan tal cual al aula: lo que se conecta con conocimientos previos tiende a retenerse mejor.",
+  "uni": "Si la unidad de límites de Cálculo I no se retoma, en Cálculo II habrá que reactivarla; preguntas breves de repaso a lo largo del semestre frenan esa pérdida.",
+  "refs": [
+   "ebbinghaus13",
+   "murre15"
+  ]
+ },
+ "multimedia": {
+  "n": "Aprendizaje multimedia",
+  "e": "🖼️",
+  "f": "apr",
+  "pista": "Palabras e imágenes bien combinadas enseñan más que las palabras solas.",
+  "why": "Las personas aprenden mejor con palabras e imágenes que solo con palabras, siempre que la combinación respete los límites de la memoria de trabajo. Mayer lo explica con tres supuestos: hay canales separados para lo verbal y lo visual, cada uno tiene capacidad limitada y aprender exige procesar activamente. De ahí principios como narrar en voz en lugar de poner texto en pantalla o quitar adornos que distraen, que Mayer y Moreno presentan como formas de reducir la carga cognitiva.",
+  "uni": "En Fisiología, narrar en voz el ciclo cardíaco mientras se muestra un diagrama animado, en lugar de proyectar el mismo texto escrito y leerlo en voz alta.",
+  "refs": [
+   "mayer09",
+   "mayer03"
+  ]
+ },
+ "profundo": {
+  "n": "Enfoque profundo de aprendizaje",
+  "e": "🌊",
+  "f": "apr",
+  "pista": "Estudiar para comprender el sentido de lo que se lee, no solo para repetirlo en la prueba.",
+  "why": "Ante la misma tarea, un estudiante puede buscar el sentido y relacionarlo con lo que sabe (enfoque profundo) o limitarse a reproducir lo que cree que le preguntarán (enfoque superficial). Marton y Säljö describieron esta diferencia con estudiantes universitarios suecos que leían un texto académico. Biggs y Tang insisten en que no es un rasgo fijo de la persona, sino una respuesta al contexto: la enseñanza y, sobre todo, la evaluación empujan hacia uno u otro.",
+  "uni": "Si el examen de Historia premia repetir fechas, el curso estudia de memoria; si pide explicar causas y comparar procesos, lo empuja a buscar el sentido.",
+  "refs": [
+   "marton76",
+   "biggs11"
+  ]
+ },
+ "motivacion": {
+  "n": "Motivación intrínseca",
+  "e": "🔥",
+  "f": "apr",
+  "pista": "Estudiar algo porque te interesa en sí mismo, no por la nota ni por un premio.",
+  "why": "Cuando el estudiante hace suyo el propósito de lo que estudia, aparece la motivación intrínseca: hacer algo por el interés o la satisfacción que produce en sí mismo, y no por una recompensa externa. La teoría de la autodeterminación de Ryan y Deci propone que se nutre de tres necesidades psicológicas básicas: autonomía, competencia y vinculación con otros. Por eso un curso con opciones reales, desafíos alcanzables y un clima de respeto tiende a sostenerla mejor que uno basado solo en premios y castigos.",
+  "uni": "En un curso de Estadística, dejar que cada estudiante elija un conjunto de datos de su interés para el proyecto final da autonomía sin bajar la exigencia.",
+  "q": {
+   "t": "Hacer una actividad por las satisfacciones inherentes a ella y no por alguna consecuencia separable.",
+   "a": "Ryan y Deci (2000), definición de motivación intrínseca, traducción propia"
+  },
+  "refs": [
+   "ryan00",
+   "ryan00b"
+  ]
+ },
+ "autoeficacia": {
+  "n": "Autoeficacia",
+  "e": "💪",
+  "f": "apr",
+  "pista": "Confiar en que eres capaz de lograr una tarea concreta, y esforzarte más gracias a eso.",
+  "why": "Para que la motivación se sostenga, el estudiante también necesita creerse capaz. Bandura llamó autoeficacia a la confianza en la propia capacidad para realizar una tarea concreta, y señaló como su fuente más poderosa las experiencias de dominio: lograr algo difícil con el propio esfuerzo. En universitarios, el metaanálisis de Richardson, Abraham y Bond la ubicó entre los correlatos psicológicos más fuertes de las notas, aunque una correlación no basta para probar causalidad.",
+  "uni": "En Programación, encadenar ejercicios de dificultad creciente que el estudiante logra resolver solo construye más autoeficacia que repetirle que es capaz.",
+  "refs": [
+   "bandura77",
+   "bandura97",
+   "richardson12"
+  ]
+ },
+ "mentalidad": {
+  "n": "Mentalidad de crecimiento",
+  "e": "🪴",
+  "f": "apr",
+  "pista": "Creer que la habilidad se desarrolla con esfuerzo y buenas estrategias, en vez de venir fija.",
+  "why": "Dweck distinguió entre creer que la inteligencia es un rasgo fijo y creer que puede desarrollarse con esfuerzo, buenas estrategias y ayuda; a esta segunda creencia la llamó mentalidad de crecimiento. Unida a la metacognición, invita a leer un error como información sobre qué ajustar. Su fama supera a la evidencia: los dos metaanálisis de Sisk y colaboradores hallaron una relación débil con el rendimiento y efectos pequeños de las intervenciones, algo mayores en estudiantes de nivel socioeconómico bajo o en riesgo académico.",
+  "uni": "Al devolver un parcial de Cálculo, en vez de elogiar la inteligencia de alguien, comentar qué estrategia funcionó y cuál conviene cambiar para el próximo intento.",
+  "refs": [
+   "dweck06",
+   "sisk18"
+  ]
+ },
+ "emociones": {
+  "n": "Emociones de logro",
+  "e": "🎭",
+  "f": "apr",
+  "pista": "Ansiedad antes del examen, orgullo al aprobar, aburrimiento en clase: lo que se siente al estudiar.",
+  "why": "Evaluar despierta emociones: ansiedad antes de un examen, orgullo o alivio al aprobar, vergüenza o desesperanza al reprobar. Pekrun las llama emociones de logro y, en su teoría de control-valor, propone que dependen de cuánto control siente el estudiante sobre la tarea y cuánto valor le atribuye. Sus estudios, muchos con universitarios, encontraron que el disfrute y la esperanza tienden a asociarse con mejor rendimiento, y la desesperanza y el aburrimiento, con peor rendimiento.",
+  "uni": "Ofrecer un ensayo sin nota antes del primer parcial de Química General puede aumentar la sensación de control del estudiante, que según esta teoría reduce la ansiedad.",
+  "refs": [
+   "pekrun06",
+   "pekrun02"
+  ]
+ },
+ "modelado": {
+  "n": "Modelado cognitivo",
+  "e": "🗨️",
+  "f": "apr",
+  "pista": "El experto resuelve en voz alta para mostrar lo que normalmente pasa solo dentro de su cabeza.",
+  "why": "Una clase expositiva puede mostrar no solo la respuesta, sino el pensamiento que lleva a ella. En el modelo de aprendiz cognitivo (cognitive apprenticeship), Collins, Brown y Newman llaman modelado a que el experto realice la tarea mientras hace explícitos sus procesos internos, para que se vean las estrategias, dudas y comprobaciones que normalmente quedan ocultas. Es el primer paso de una secuencia que sigue con el acompañamiento (coaching), el andamiaje y su retiro gradual.",
+  "uni": "En Física, el docente resuelve un problema en la pizarra diciendo en voz alta por qué elige una ecuación, cómo estima el resultado y qué revisa cuando algo no cuadra.",
+  "refs": [
+   "collins89"
+  ]
+ },
+ "conectivismo": {
+  "n": "Conectivismo",
+  "e": "🔌",
+  "f": "apr",
+  "pista": "Aprender sería también armar y recorrer redes de personas, fuentes y nodos digitales.",
+  "why": "Si el conocimiento se organiza como una red y esa red vive en entornos digitales, aprender pasa a ser también construir y recorrer conexiones entre personas, fuentes y herramientas. Siemens propuso el conectivismo con esa idea: parte del conocimiento reside en la red, y saber dónde encontrarlo importa tanto o más que lo que uno ya sabe. Su estatus es discutido: Kop y Hill concluyeron que no queda claro que sea una teoría del aprendizaje por sí misma, aunque sí impulsa nuevas pedagogías en red.",
+  "uni": "En un seminario de posgrado, cada estudiante sigue a investigadores del área, reúne fuentes en un tablero compartido y enlaza lo que encuentra con los aportes de sus compañeros.",
+  "refs": [
+   "siemens05",
+   "kop08"
+  ]
+ },
+ "experiencial": {
+  "n": "Aprendizaje experiencial",
+  "e": "🌀",
+  "f": "apr",
+  "pista": "Un ciclo: vivir una situación concreta, observarla, sacar conceptos y probarlos en otra.",
+  "why": "Kolb describió el aprendizaje experiencial como un ciclo de cuatro momentos: vivir una experiencia concreta, observarla reflexivamente, formar conceptos abstractos y ponerlos a prueba en nuevas situaciones. Por eso surge de unir el contexto real con la acción y la reflexión: la vivencia sola no basta si nadie la procesa. Conviene separar el ciclo de los estilos de aprendizaje que Kolb derivó de él, porque adaptar la enseñanza a estilos no tiene respaldo empírico, según la revisión de Pashler y colaboradores.",
+  "uni": "En Agronomía, el estudiante maneja una parcela, registra lo que observa, lo contrasta con la teoría vista en clase y ajusta su siguiente intervención en el terreno.",
+  "refs": [
+   "kolb84",
+   "pashler08"
+  ]
+ },
+ "transferencia": {
+  "n": "Transferencia del aprendizaje",
+  "e": "🛫",
+  "f": "apr",
+  "pista": "Usar lo estudiado en una situación nueva, distinta de la clase donde se enseñó.",
+  "why": "Es usar lo aprendido en situaciones distintas de aquella en que se aprendió, la meta de casi toda la enseñanza, y no ocurre sola. Gick y Holyoak mostraron que pocas personas aplican espontáneamente una analogía útil si nadie les sugiere relacionarla. La síntesis How People Learn indica que ayudan comprender en vez de memorizar y ver la idea en varios contextos, y Barnett y Ceci advierten que, tras un siglo de investigación, la transferencia lejana sigue en debate.",
+  "uni": "En Ingeniería, aplicar el balance de energía a una turbina, a un edificio y al cuerpo humano ayuda a reconocer el mismo principio en un problema nuevo.",
+  "refs": [
+   "bransford00",
+   "gick80",
+   "barnett02"
+  ]
+ },
+ "cambio_conceptual": {
+  "n": "Cambio conceptual",
+  "e": "💡",
+  "f": "apr",
+  "pista": "Reemplazar una idea intuitiva muy arraigada por una explicación científica que funciona mejor.",
+  "why": "Algunas ideas previas, como que todo movimiento necesita una fuerza que lo mantenga, resisten la enseñanza convencional. Halloun y Hestenes encontraron que las creencias de sentido común sobre el movimiento pesan mucho en el rendimiento de estudiantes universitarios de física y cambian poco con las clases tradicionales. Posner y colaboradores propusieron que el cambio ocurre cuando la idea vieja deja de satisfacer y la nueva resulta inteligible, plausible y fructífera.",
+  "uni": "En Física I, el curso suele creer que un objeto en movimiento necesita una fuerza que lo empuje; enfrentar esa idea con un caso que no explica prepara el terreno para la inercia.",
+  "refs": [
+   "posner82",
+   "halloun85"
+  ]
+ },
+ "conceptos_umbral": {
+  "n": "Conceptos umbral",
+  "e": "🚪",
+  "f": "apr",
+  "pista": "Ideas difíciles que, una vez comprendidas, transforman para siempre cómo ves una disciplina.",
+  "why": "Meyer y Land llaman así a ciertas ideas de cada disciplina que, una vez comprendidas, transforman la manera de ver la materia, son difíciles de desaprender e integran contenidos que antes parecían sueltos. Suelen ser conocimiento problemático, y antes de cruzarlas el estudiante atraviesa un estado liminal de confusión e idas y vueltas. Es un marco muy usado en educación superior, pero más interpretativo que experimental: definir cuáles son umbral en cada disciplina sigue en discusión.",
+  "uni": "En Economía, el costo de oportunidad suele funcionar como umbral: antes de comprenderlo, el estudiante ve gastos; después, ve renuncias en cada decisión.",
+  "refs": [
+   "meyer05",
+   "meyer06"
+  ]
+ },
+ "pensamiento_critico": {
+  "n": "Pensamiento crítico",
+  "e": "🧐",
+  "f": "apr",
+  "pista": "Analizar y evaluar argumentos y evidencias antes de aceptar una conclusión o tomar una decisión.",
+  "why": "Un panel de expertos coordinado por Facione definió el pensamiento crítico como un juicio intencional y autorregulado que interpreta, analiza, evalúa e infiere, y que explica las evidencias y criterios en que se apoya. Se forma cuando el estudiante aprende a pedir evidencias y a vigilar su propio razonamiento. No surge solo con exponerse al contenido: el metaanálisis de Abrami y colaboradores mostró que la enseñanza lo mejora, sobre todo cuando combina diálogo, problemas auténticos y acompañamiento de un mentor.",
+  "uni": "En Derecho, analizar un fallo identificando la tesis, las premisas, la evidencia citada y los contraargumentos que el tribunal no consideró.",
+  "refs": [
+   "facione90",
+   "abrami15"
+  ]
+ },
+ "escribir": {
+  "n": "Escribir para aprender",
+  "e": "🖊️",
+  "f": "apr",
+  "pista": "Redactar no solo para mostrar lo que sabes, sino para descubrir qué entiendes de verdad.",
+  "why": "Escribir para aprender usa la escritura como herramienta para pensar el contenido, no solo para mostrar lo aprendido. Emig sostuvo que escribir es un modo singular de aprendizaje, porque obliga a organizar y hacer explícitas las ideas. El metaanálisis de Bangert-Drowns, Hurley y Wilkinson encontró un efecto positivo pero pequeño en el rendimiento, mayor cuando las consignas pedían reflexionar sobre la propia comprensión: qué se entiende, qué confunde y cómo se está aprendiendo.",
+  "uni": "Al cierre de una clase de Microeconomía, pedir un minuto de escritura: explicar con palabras propias el concepto central y anotar la duda que todavía queda.",
+  "refs": [
+   "emig77",
+   "bangert04"
+  ]
+ },
+ "alfabetizacion_academica": {
+  "n": "Alfabetización académica",
+  "e": "📜",
+  "f": "apr",
+  "pista": "Enseñar a leer y redactar como lo hace cada disciplina, dentro de cada asignatura universitaria.",
+  "why": "Cada disciplina tiene sus propias formas de leer y escribir: un informe de laboratorio no se escribe como un ensayo filosófico. Carlino llama alfabetización académica a las nociones y estrategias para participar en esa cultura discursiva, y sostiene que deben enseñarse dentro de cada asignatura, en lugar de suponer que el estudiante ya las domina al ingresar o de delegarlas en un taller remedial. Lea y Street plantearon que las dificultades de escritura universitaria no son solo técnicas: implican aprender las convenciones, los valores y la identidad de cada campo.",
+  "uni": "En Historia, antes de pedir un ensayo, analizar con el curso un artículo modelo para ver cómo el autor plantea su tesis, cita fuentes primarias y discute con otros historiadores.",
+  "refs": [
+   "carlino05",
+   "lea98"
+  ]
+ },
+ "ciencia_aprendizaje": {
+  "n": "Ciencia del aprendizaje",
+  "e": "🔭",
+  "f": "apr",
+  "pista": "Investigación empírica sobre cómo funcionan la memoria y la comprensión, el mejor antídoto contra los neuromitos.",
+  "why": "Es el campo que estudia con métodos empíricos cómo se aprende, combinando psicología cognitiva, educación y neurociencia, y es el antídoto natural contra los neuromitos. Dekker y colaboradores encontraron que docentes del Reino Unido y Países Bajos creían cerca de la mitad de los neuromitos presentados, y que saber más sobre el cerebro no los protegía. Howard-Jones explica cómo hallazgos reales se deforman en mitos, y Weinstein, Madan y Sumeracki resumen seis estrategias con respaldo sólido.",
+  "uni": "Al planificar el semestre, elegir las técnicas de estudio que recomendarás al curso según revisiones de evidencia, y no según lo que circula en redes o talleres comerciales.",
+  "refs": [
+   "dekker12",
+   "howardjones14",
+   "weinstein18"
+  ]
+ },
+ "casos": {
+  "n": "Método de casos",
+  "e": "📂",
+  "f": "met",
+  "pista": "Una historia real con un dilema, que el curso analiza y discute para decidir qué haría.",
+  "why": "Un problema auténtico, contado como una situación concreta con un dilema y examinado con pensamiento crítico: eso es un caso. El método nació en la Escuela de Derecho de Harvard hacia 1870 y en los años veinte pasó a su Escuela de Negocios. Christensen, Garvin y Sweet muestran que su valor depende de cómo el docente conduce la discusión, y Herreid lo llevó a las ciencias para entrenar el análisis de evidencia y la toma de decisiones.",
+  "uni": "En un curso de gestión, los estudiantes leen la situación real de una empresa que debe decidir si exporta, defienden posturas con los datos del caso y acuerdan una recomendación.",
+  "refs": [
+   "christensen91",
+   "herreid94"
+  ]
+ },
+ "retos": {
+  "n": "Aprendizaje basado en retos",
+  "e": "🏔️",
+  "f": "met",
+  "pista": "Equipos que abordan un desafío social abierto junto a actores externos y llegan a implementar una solución.",
+  "why": "Cuando un proyecto se abre a un problema auténtico amplio, definido junto a actores externos, surge el aprendizaje basado en retos. Nichols y Cator lo formularon para Apple en 2008: de una gran idea se pasa a una pregunta esencial, a un reto concreto y a una solución que se implementa. Hoy lo usan universidades como el Tecnológico de Monterrey, pero la revisión de Leijon y colaboradores encontró pocos estudios (36 en once años) y escasa fundamentación teórica.",
+  "uni": "En Ingeniería Civil, los equipos trabajan un semestre con el municipio en el reto de reducir las inundaciones de un barrio y presentan un prototipo de drenaje a vecinos y autoridades.",
+  "refs": [
+   "nichols08",
+   "leijon22"
+  ]
+ },
+ "servicio": {
+  "n": "Aprendizaje-servicio",
+  "e": "🤲",
+  "f": "met",
+  "pista": "Estudiantes que atienden una necesidad real de la comunidad como parte del curso y reflexionan sobre ello.",
+  "why": "Un proyecto situado en una necesidad real de la comunidad, y no en un encargo ficticio, da el aprendizaje-servicio. Bringle y Hatcher lo definen como una experiencia con créditos académicos en la que un servicio organizado responde a necesidades de la comunidad y se acompaña de reflexión para comprender mejor el curso. El metaanálisis de Celio, Durlak y Dymnicki (62 estudios) encontró mejoras en actitudes, compromiso cívico, habilidades sociales y rendimiento académico, mayores con reflexión y vínculo curricular.",
+  "uni": "Estudiantes de Contabilidad asesoran a microemprendedores del barrio en sus declaraciones de impuestos y luego escriben una reflexión que conecta lo vivido con las normas tributarias del curso.",
+  "refs": [
+   "bringle95",
+   "celio11"
+  ]
+ },
+ "jigsaw": {
+  "n": "Rompecabezas de Aronson",
+  "e": "🧷",
+  "f": "met",
+  "pista": "Cada integrante recibe solo una pieza del tema, y el equipo necesita a todos para armar el todo.",
+  "why": "Una estructura cooperativa que reparte el contenido en partes: cada integrante estudia una, la profundiza con quienes tienen la misma en un grupo de expertos y vuelve a enseñarla a su equipo. Aronson y colaboradores la crearon en los años setenta en escuelas recién desegregadas de Austin, Texas, para reducir la competencia y los prejuicios. La revisión sistemática de Vives y colaboradores (69 estudios) encontró efectos en general positivos, pero variables según la disciplina y el resultado medido.",
+  "uni": "En Farmacología, cada integrante estudia una familia de fármacos, la discute con quienes estudiaron la misma en otros equipos y luego la explica a su equipo antes de resolver un caso integrador.",
+  "refs": [
+   "aronson78",
+   "vives25"
+  ]
+ },
+ "tps": {
+  "n": "Piensa, discute, comparte",
+  "e": "👫",
+  "f": "met",
+  "pista": "Un minuto en silencio para cada uno, luego conversación en parejas y, al final, puesta en común.",
+  "why": "Es la forma más simple de unir aprendizaje activo y trabajo en grupo: una pregunta, un tiempo individual para pensar, una conversación en parejas y una puesta en común con todo el curso. Frank Lyman la propuso en 1981 para que participaran todos, no solo quienes responden más rápido. Smith y colaboradores mostraron, en un curso universitario de ciencias, que conversar con un compañero mejora la comprensión incluso cuando nadie en la pareja sabía antes la respuesta.",
+  "uni": "En Cálculo, el docente proyecta una gráfica, da un minuto para escribir qué representa la derivada en ese punto, luego dos minutos en parejas, y elige tres respuestas para comentar.",
+  "refs": [
+   "lyman81",
+   "smith09"
+  ]
+ },
+ "gamificacion": {
+  "n": "Gamificación",
+  "e": "🎮",
+  "f": "met",
+  "pista": "Puntos, insignias, niveles y narrativa añadidos a un curso que, en sí mismo, no es un pasatiempo.",
+  "why": "Si la tecnología se usa para encender la motivación con puntos, insignias, niveles o narrativas, aparece la gamificación: Deterding y colaboradores la definen como el uso de elementos de diseño de juegos en contextos que no son juegos. El metaanálisis de Sailer y Homner encontró efectos positivos pequeños en resultados cognitivos, motivacionales y conductuales, que dependen del diseño. Ojo: puntos e insignias son recompensas externas y no garantizan, por sí solos, la motivación intrínseca.",
+  "uni": "En un curso de Programación, los estudiantes suben de nivel al resolver ejercicios en la plataforma y desbloquean desafíos opcionales, mientras el docente cuida que el ranking no desaliente a quienes van atrás.",
+  "refs": [
+   "deterding11",
+   "sailer20"
+  ]
+ },
+ "abj": {
+  "n": "Aprendizaje basado en juegos",
+  "e": "🎲",
+  "f": "met",
+  "pista": "El contenido vive dentro de la partida: avanzar en ella exige entender la materia.",
+  "why": "Cuando los elementos de juego dejan de ser una capa sobre el curso y el contenido pasa a estar dentro del juego, hablamos de aprendizaje basado en juegos: avanzar exige comprender. Gee sostuvo que los buenos videojuegos aplican principios de aprendizaje sólidos. El metaanálisis de Wouters y colaboradores encontró que los juegos serios enseñan más que la instrucción convencional, aunque no resultaron más motivadores, y que rinden mejor combinados con otras actividades y en varias sesiones.",
+  "uni": "En Economía, el curso juega varias rondas de un juego de mercado donde los equipos fijan precios, y luego analiza los resultados con los modelos de oferta y demanda vistos en clase.",
+  "refs": [
+   "gee03",
+   "wouters13"
+  ]
+ },
+ "simulacion": {
+  "n": "Simulación",
+  "e": "🩺",
+  "f": "met",
+  "pista": "Practicar decisiones de alto riesgo en un escenario controlado, donde equivocarse no daña a nadie.",
+  "why": "La simulación recrea con tecnología una situación profesional para practicar donde equivocarse no tiene costo real: un maniquí clínico, un simulador de vuelo o un laboratorio virtual. Cook y colaboradores, con 609 estudios en ciencias de la salud, hallaron efectos grandes en conocimientos y habilidades frente a no recibir esa formación. Chernikova y colaboradores, en varias disciplinas universitarias, encontraron efectos grandes en habilidades complejas, potenciados por el andamiaje.",
+  "uni": "En Enfermería, el equipo atiende a un maniquí que entra en paro cardíaco y después el docente conduce un análisis guiado (debriefing) de cada decisión tomada.",
+  "refs": [
+   "cook11",
+   "chernikova20"
+  ]
+ },
+ "indagacion": {
+  "n": "Indagación guiada",
+  "e": "🔦",
+  "f": "met",
+  "pista": "Los estudiantes investigan una pregunta como científicos, con apoyos que el docente ajusta y va retirando.",
+  "why": "Investigar un problema auténtico como lo haría la disciplina, pero con andamiaje: preguntas orientadoras, plantillas, pistas y retroalimentación. Es la respuesta de la investigación al descubrimiento puro: el metaanálisis de Alfieri y colaboradores mostró que el descubrimiento sin ayuda rinde menos que la instrucción explícita, mientras que el descubrimiento asistido rinde más. Lazonder y Harmsen confirmaron que la guía mejora las actividades, el desempeño y el aprendizaje en la indagación.",
+  "uni": "En Química, en vez de seguir una receta, los equipos diseñan cómo medir la velocidad de una reacción, apoyados por preguntas escalonadas y una revisión del docente antes de ejecutar.",
+  "refs": [
+   "alfieri11",
+   "lazonder16"
+  ]
+ },
+ "tutoria_pares": {
+  "n": "Tutoría entre pares",
+  "e": "🧑‍🤝‍🧑",
+  "f": "met",
+  "pista": "Un estudiante algo más avanzado acompaña a otro, y ambos terminan entendiendo mejor la materia.",
+  "why": "Un compañero algo más avanzado puede trabajar justo en la zona de desarrollo próximo de otro, con un lenguaje cercano y sin la distancia de la jerarquía. Topping revisó la tutoría entre pares en educación superior y encontró evidencia en general favorable, con variaciones según el formato. Roscoe y Chi mostraron que el tutor también aprende, sobre todo cuando construye explicaciones y reflexiona, en lugar de solo repetir lo que sabe.",
+  "uni": "Estudiantes de tercer año que aprobaron Anatomía guían sesiones semanales para los de primer año, con formación previa y supervisión del equipo docente.",
+  "refs": [
+   "topping96",
+   "roscoe07"
+  ]
+ },
+ "practicas": {
+  "n": "Prácticas profesionales",
+  "e": "🧰",
+  "f": "met",
+  "pista": "Un periodo prolongado trabajando en una organización real, acompañado por alguien del oficio y un docente.",
+  "why": "Las prácticas profesionales llevan el aprendizaje situado a un tiempo prolongado dentro de una organización real. Schön propuso el practicum reflexivo: aprender una profesión haciéndola, con la orientación de alguien con experiencia que ayuda a reflexionar sobre la acción. Lave y Wenger describen ese tránsito como participación periférica legítima: quien recién llega empieza con tareas acotadas y, con el tiempo, se integra plenamente a la comunidad de práctica.",
+  "uni": "Una estudiante de Trabajo Social pasa un semestre en un centro comunitario, lleva una bitácora reflexiva y se reúne cada dos semanas con su supervisora de terreno y su docente.",
+  "refs": [
+   "schon87",
+   "lave91"
+  ]
+ },
+ "analitica": {
+  "n": "Analítica del aprendizaje",
+  "e": "📈",
+  "f": "tec",
+  "pista": "Las huellas que deja cada clic en la plataforma del curso, convertidas en información para decidir.",
+  "why": "Cuando la tecnología registra lo que hacen los estudiantes a lo largo del tiempo, esas huellas se pueden medir, analizar y devolver como información. Siemens y Long describen la analítica del aprendizaje como la medición, el análisis y el reporte de datos sobre los estudiantes y sus contextos para comprender y mejorar el aprendizaje. La promesa es grande, pero la evidencia aún es modesta: la revisión de Viberg y colaboradores en educación superior encontró pocos estudios que muestren mejoras en los resultados de aprendizaje.",
+  "uni": "El panel del aula virtual muestra que un tercio del curso no abrió la guía de la semana 4, y el docente escribe a esos estudiantes antes del examen parcial.",
+  "refs": [
+   "siemens11",
+   "viberg18"
+  ]
+ },
+ "privacidad": {
+  "n": "Privacidad y ética de los datos",
+  "e": "🔒",
+  "f": "tec",
+  "pista": "Preguntarse quién ve la información de tus estudiantes, para qué se usa y con qué consentimiento.",
+  "why": "Toda herramienta que registra o procesa lo que hacen los estudiantes plantea preguntas de poder: quién accede a esa información, con qué fin y si la persona lo sabe y lo acepta. Slade y Prinsloo proponen tratar la analítica como una práctica moral, ser transparentes y ver a los estudiantes como agentes que colaboran en la interpretación de sus datos, no como simples fuentes. La guía de UNESCO sobre IA generativa también pide proteger la privacidad de los datos.",
+  "uni": "Antes de pedir que el curso use un chatbot externo, el docente explica qué datos guarda la empresa y ofrece una alternativa a quien no quiera crear una cuenta.",
+  "refs": [
+   "slade13",
+   "unesco23"
+  ]
+ },
+ "adaptativo": {
+  "n": "Aprendizaje adaptativo",
+  "e": "🧬",
+  "f": "tec",
+  "pista": "Un sistema que elige el siguiente ejercicio según lo que cada estudiante ya demostró dominar.",
+  "why": "Une los datos de desempeño con el ritmo de cada estudiante: el sistema ajusta la dificultad, la secuencia o las pistas según lo que cada uno demuestra. Su antecedente más estudiado son los tutores inteligentes. VanLehn encontró que los que corrigen paso a paso se acercan a la eficacia de un tutor humano, y Kulik y Fletcher, en 50 evaluaciones controladas, hallaron mejoras en la mayoría, aunque mucho mayores en pruebas hechas a medida que en pruebas estandarizadas.",
+  "uni": "En Cálculo I, una plataforma de ejercicios detecta que un estudiante falla en la regla de la cadena y le propone más práctica de ese tema antes de pasar a integrales.",
+  "refs": [
+   "vanlehn11",
+   "kulik16"
+  ]
+ },
+ "rea": {
+  "n": "Recursos educativos abiertos",
+  "e": "🔓",
+  "f": "tec",
+  "pista": "Materiales con licencia libre que puedes usar, adaptar y volver a compartir sin pagar.",
+  "why": "Materiales de enseñanza, aprendizaje o investigación que están en el dominio público o tienen una licencia abierta que permite usarlos, adaptarlos y redistribuirlos sin costo. Así los define la Recomendación de UNESCO de 2019; la red es lo que permite compartirlos a gran escala. Sobre el aprendizaje, la revisión de Hilton en educación superior encontró que, en general, los estudiantes logran resultados similares a los obtenidos con libros comerciales, con un ahorro importante.",
+  "uni": "En vez de exigir un manual de química caro, el docente adapta un libro abierto, agrega ejercicios de su contexto y publica su versión con la misma licencia.",
+  "refs": [
+   "unesco19",
+   "hilton16"
+  ]
+ },
+ "mooc": {
+  "n": "MOOC",
+  "e": "🏟️",
+  "f": "tec",
+  "pista": "Miles de inscritos de todo el mundo en una propuesta gratuita por internet; pocos la terminan.",
+  "why": "Recursos abiertos, video y entorno virtual a gran escala: un curso gratuito y sin límite de inscritos. El término nació en 2008 con un curso sobre conectivismo y se popularizó en 2012 con plataformas como Coursera y edX. Reich y Ruipérez-Valiente analizaron los cursos de MIT y Harvard en edX entre 2012 y 2018: la mayoría de los participantes no volvió después de su primer año, el crecimiento se concentró en los países más ricos y las bajas tasas de finalización no mejoraron.",
+  "uni": "Una facultad abre su curso de introducción a la programación en una plataforma internacional y lo usa también como material de nivelación para sus estudiantes de primer año.",
+  "refs": [
+   "reich19"
+  ]
+ },
+ "rv": {
+  "n": "Realidad virtual inmersiva",
+  "e": "🥽",
+  "f": "tec",
+  "pista": "Con un visor puesto, el estudiante entra a un quirófano, una mina o el interior de una célula.",
+  "why": "Una simulación que envuelve al estudiante: con un visor, el espacio deja de ser la sala y pasa a ser el laboratorio, la planta o el quirófano. Más inmersión no significa más aprendizaje: Makransky, Terkildsen y Mayer compararon la misma simulación de laboratorio en pantalla y con visor, y con visor los estudiantes se sintieron más presentes, pero aprendieron menos y tuvieron mayor carga cognitiva. Radianti y colaboradores observaron que pocas aplicaciones en educación superior se basan en teorías del aprendizaje.",
+  "uni": "Estudiantes de Geología recorren con visor un afloramiento rocoso de otro continente y luego discuten en clase lo observado, porque ahí estar en el lugar sí importa.",
+  "refs": [
+   "makransky19",
+   "radianti20"
+  ]
+ },
+ "respuesta_audiencia": {
+  "n": "Sistemas de respuesta en el aula",
+  "e": "🙋",
+  "f": "tec",
+  "pista": "Toda la sala vota desde su teléfono y el resultado aparece al instante en la pantalla.",
+  "why": "La tecnología al servicio del aprendizaje activo: cada estudiante responde con un control o con su teléfono y el docente ve al instante qué entendió el grupo. El metaanálisis de Hunsu, Adesope y Bayly encontró un efecto pequeño sobre el aprendizaje y uno mayor sobre aspectos afectivos, que varía según factores como el tamaño del curso y el tipo de pregunta. Caldwell propone pautas para escribir buenas preguntas: el beneficio depende de cómo se usa, no del aparato.",
+  "uni": "En un curso de Fisiología con 200 estudiantes, el docente lanza una pregunta conceptual, ve que la mitad se equivoca y pide discutir en parejas antes de volver a votar.",
+  "refs": [
+   "hunsu16",
+   "caldwell07"
+  ]
+ },
+ "alfabetizacion_ia": {
+  "n": "Alfabetización en IA",
+  "e": "🔤",
+  "f": "tec",
+  "pista": "Saber cómo funcionan los chatbots, dónde fallan y cuándo conviene usarlos o no usarlos.",
+  "why": "Usar la IA no basta: hay que entender qué hace, en qué se equivoca y cuándo conviene usarla. Long y Magerko definen esta alfabetización como un conjunto de competencias que permite evaluar críticamente las tecnologías de IA, comunicarse y colaborar con ellas y usarlas como herramienta. Por eso surge de la competencia digital y del pensamiento crítico: DigComp 2.2 ya incluye ejemplos de interacción con sistemas de IA, y evaluar sus respuestas exige contrastar fuentes y detectar errores o sesgos.",
+  "uni": "En un seminario de Derecho, los estudiantes piden a un chatbot jurisprudencia sobre un caso, verifican cada fallo citado en bases oficiales y descubren referencias inventadas.",
+  "refs": [
+   "long20",
+   "digcomp22"
+  ]
+ },
+ "brecha": {
+  "n": "Brecha digital",
+  "e": "🚧",
+  "f": "tec",
+  "pista": "Desigualdad de conexión, equipos y habilidades que deja atrás a parte del curso cuando la clase pasa a internet.",
+  "why": "Llevar la enseñanza a un entorno virtual supone que todos los estudiantes pueden entrar, y no siempre es así. La desigualdad tiene niveles: primero el acceso a conexión y dispositivos; luego las habilidades y los usos, lo que Hargittai llamó brecha de segundo nivel; y finalmente quién obtiene beneficios reales. Van Dijk sostiene que estas diferencias se entrelazan con las desigualdades sociales existentes y pueden reforzarlas.",
+  "uni": "Antes de exigir trabajo en línea, el docente aplica una encuesta breve sobre conexión y equipos, y descubre que varios estudiantes solo tienen un celular con datos limitados.",
+  "refs": [
+   "hargittai02",
+   "vandijk20"
+  ]
+ },
+ "competencia_digital_docente": {
+  "n": "Competencia digital docente",
+  "e": "🧑‍💼",
+  "f": "tec",
+  "pista": "Lo que un profesor necesita saber para enseñar, evaluar y crecer en su profesión usando tecnología.",
+  "why": "No basta con dominar herramientas: el profesor necesita usarlas con un propósito pedagógico. El marco europeo DigCompEdu, de Redecker, describe 22 competencias en seis áreas, desde el compromiso profesional y los recursos digitales hasta la evaluación y el desarrollo de la competencia digital de los estudiantes, con seis niveles que van de principiante a pionero. Se diferencia de la competencia digital general porque se centra en lo que la tecnología cambia de la enseñanza.",
+  "uni": "Una profesora de Contabilidad no solo sabe usar la hoja de cálculo: diseña con ella un ejercicio de análisis de casos y la usa para dar retroalimentación a cada grupo.",
+  "refs": [
+   "redecker17"
+  ]
+ },
+ "accesibilidad": {
+  "n": "Accesibilidad digital",
+  "e": "♿",
+  "f": "tec",
+  "pista": "Que un lector de pantalla, los subtítulos o el teclado basten para usar tus materiales en línea.",
+  "why": "El DUA pide ofrecer múltiples formas de acceder al aprendizaje; con tecnología, eso exige materiales que funcionen para todas las personas, incluidas quienes usan lector de pantalla, subtítulos o solo el teclado. Las pautas WCAG del W3C lo ordenan en cuatro principios: el contenido debe ser perceptible, operable, comprensible y robusto. Y beneficia a muchos más: Gernsbacher reunió más de cien estudios que muestran que los subtítulos mejoran la comprensión y la memoria de cualquier espectador.",
+  "uni": "Un docente de Historia sube sus cápsulas con subtítulos revisados, describe en texto alternativo cada mapa y entrega las lecturas en PDF accesible en lugar de fotocopias escaneadas.",
+  "refs": [
+   "w3c23",
+   "cast18",
+   "gernsbacher15"
+  ]
+ },
+ "aula_activa": {
+  "n": "Aula de aprendizaje activo",
+  "e": "🪑",
+  "f": "mod",
+  "pista": "Mesas redondas, pizarras en todas las paredes y sin un frente fijo: el espacio invita a trabajar juntos.",
+  "why": "Cuando la pedagogía rediseña el espacio, la sala deja de mirar a un frente: mesas para equipos, pizarras en las paredes y pantallas compartidas. Beichner y colaboradores lo hicieron con el proyecto SCALE-UP para cursos introductorios masivos de física. Brooks comparó el mismo curso, con el mismo docente, en una sala tradicional y en una de aprendizaje activo, y en la segunda los estudiantes rindieron más. El espacio facilita, pero no reemplaza el diseño de la actividad.",
+  "uni": "En un curso de Física de 90 estudiantes, una sala con mesas redondas para nueve permite alternar explicaciones breves con problemas en equipos de tres mientras el docente circula entre las mesas.",
+  "refs": [
+   "beichner07",
+   "brooks11"
+  ]
+ },
+ "ubicuo": {
+  "n": "Aprendizaje ubicuo",
+  "e": "🗺️",
+  "f": "mod",
+  "pista": "Cualquier lugar y momento sirve para estudiar: la calle, el trabajo, el bus o la biblioteca.",
+  "why": "Si se suman un espacio y otro y otro más, el aprendizaje deja de tener un solo lugar. Burbules analiza el aprendizaje ubicuo, la posibilidad de aprender en cualquier lugar y momento, y lo que implica para enseñar: un aprendizaje más continuo, integrado a las actividades diarias, más situado y que mezcla lo formal con lo informal. Más que un método, es una condición del contexto actual que el docente puede aprovechar.",
+  "uni": "Estudiantes de Arquitectura fotografían edificios de su ciudad durante la semana, los suben a un muro colaborativo con un comentario técnico y el curso los analiza en la siguiente sesión.",
+  "refs": [
+   "burbules12"
+  ]
+ },
+ "movil": {
+  "n": "Aprendizaje móvil",
+  "e": "📲",
+  "f": "mod",
+  "pista": "El celular en el bolsillo convertido en herramienta de estudio, que acompaña al estudiante de un lugar a otro.",
+  "why": "Cuando el aprendizaje ubicuo se apoya en dispositivos que caben en el bolsillo, se vuelve aprendizaje móvil. Sharples, Taylor y Vavoula insisten en que lo móvil no es solo el aparato sino el estudiante, que aprende a través de conversaciones en múltiples contextos. El metaanálisis de Sung, Chang y Liu (110 estudios) encontró un efecto moderado a favor de integrar dispositivos móviles en la enseñanza, aunque el efecto varía según la actividad y el contexto.",
+  "uni": "En Geología, durante una salida a terreno, los estudiantes registran afloramientos con el celular, los georreferencian y responden preguntas breves que el docente revisa esa misma tarde.",
+  "refs": [
+   "sharples07",
+   "sung16"
+  ]
+ },
+ "distancia": {
+  "n": "Distancia transaccional",
+  "e": "🛤️",
+  "f": "mod",
+  "pista": "La lejanía psicológica entre docente y estudiante, que depende del diseño del curso y no de los kilómetros.",
+  "why": "Pensar la educación en línea desde la pedagogía revela que la distancia que importa no es geográfica. Moore la llamó distancia transaccional: un espacio psicológico y de comunicación entre docente y estudiante, ligado a tres elementos, el diálogo, la estructura del curso y la autonomía del estudiante. Un curso muy estructurado y con poco diálogo se siente lejano aunque el docente esté en la misma ciudad; más diálogo la acorta.",
+  "uni": "Un curso en línea con módulos cerrados y sin foros se siente lejano; agregar retroalimentación semanal y un espacio para negociar el tema del trabajo final reduce esa distancia.",
+  "refs": [
+   "moore93",
+   "moore89"
+  ]
+ },
+ "remota_emergencia": {
+  "n": "Enseñanza remota de emergencia",
+  "e": "🚨",
+  "f": "mod",
+  "pista": "Lo que hicieron muchas universidades en marzo de 2020: trasladar de golpe todo a la videollamada.",
+  "why": "Llevar la clase expositiva tal cual a la sesión sincrónica, de un día para otro y por fuerza mayor, no es educación en línea. Hodges y colaboradores propusieron en 2020 el término enseñanza remota de emergencia para distinguir esa respuesta de crisis, pensada para dar acceso rápido y temporal, de un curso en línea bien diseñado, que requiere meses de planificación. Por eso advierten que no conviene juzgar la educación en línea por lo vivido en la pandemia.",
+  "uni": "Un curso de Historia que en 2020 pasó a dos horas diarias de videollamada con cámaras apagadas fue enseñanza remota de emergencia; rediseñarlo con lecturas, foros y encuentros breves ya es otra cosa.",
+  "q": {
+   "t": "Un cambio temporal de la entrega de la enseñanza a un modo alternativo debido a circunstancias de crisis.",
+   "a": "Hodges y colaboradores (2020), traducción propia"
+  },
+  "refs": [
+   "hodges20"
+  ]
+ },
+ "emoderacion": {
+  "n": "Modelo de cinco etapas de Salmon",
+  "e": "🪜",
+  "f": "mod",
+  "pista": "Una escalera para cursos en línea: primero entrar y sentirse parte, al final construir conocimiento juntos.",
+  "why": "Una comunidad en línea no nace madura: necesita andamiaje por fases. Gilly Salmon, a partir de su experiencia en la Open University, propuso cinco etapas como una escalera: acceso y motivación, socialización en línea, intercambio de información, construcción de conocimiento y desarrollo. En cada peldaño cambia el rol del moderador, que diseña actividades adecuadas a ese momento. Moule advierte que no debe usarse como plantilla única para todo diseño en línea.",
+  "uni": "En un diplomado en línea, la primera semana solo pide entrar al aula virtual y presentarse con una foto del lugar de trabajo; el análisis de casos en foros llega en la cuarta.",
+  "refs": [
+   "salmon00",
+   "moule07"
+  ]
+ },
+ "autoevaluacion": {
+  "n": "Autoevaluación",
+  "e": "🤔",
+  "f": "eva",
+  "pista": "El estudiante juzga su propio trabajo con criterios, antes de que lo haga el docente.",
+  "why": "Si el estudiante aplica a su propio trabajo los criterios con que se evalúa, la evaluación se vuelve un ejercicio metacognitivo. Boud la entiende como identificar qué criterios aplican y juzgar en qué medida se cumplieron; su valor es formativo, no ponerse la nota. En cuatro metaanálisis, Panadero, Jonsson y Botella encontraron efectos positivos de la autoevaluación sobre las estrategias de autorregulación y la autoeficacia.",
+  "uni": "Antes de entregar el informe de laboratorio, cada estudiante marca en la rúbrica el nivel que cree haber alcanzado y justifica en una frase por qué.",
+  "refs": [
+   "boud95",
+   "panadero17"
+  ]
+ },
+ "coevaluacion": {
+  "n": "Evaluación entre pares",
+  "e": "🗒️",
+  "f": "eva",
+  "pista": "Compañeros de curso revisan y juzgan el trabajo de otros con criterios comunes.",
+  "why": "Cuando el grupo asume parte de la evaluación, cada estudiante revisa el trabajo de sus compañeros con criterios compartidos. Topping revisó los estudios en educación superior y concluyó que la evaluación entre pares suele tener confiabilidad y validez adecuadas. El metaanálisis de Falchikov y Goldfinch mostró que las notas de los pares se parecen más a las del docente cuando se pide un juicio global con criterios bien comprendidos, en lugar de puntuar muchas dimensiones por separado.",
+  "uni": "En un curso de diseño, cada estudiante revisa con la rúbrica dos anteproyectos anónimos de compañeros y deja un comentario por criterio antes de la entrega final.",
+  "refs": [
+   "topping98",
+   "falchikov00"
+  ]
+ },
+ "integridad": {
+  "n": "Integridad académica",
+  "e": "🛡️",
+  "f": "eva",
+  "pista": "Honestidad, confianza y responsabilidad compartidas al estudiar, investigar y rendir pruebas.",
+  "why": "Cuando la evaluación se entiende como un asunto de toda la comunidad, y no solo del docente que vigila, aparece la integridad académica: el compromiso compartido con la honestidad, la confianza, la justicia, el respeto y la responsabilidad. McCabe, Treviño y Butterfield revisaron una década de investigación y concluyeron que el contexto, en especial lo que cada estudiante percibe que hacen sus compañeros, pesa más que los factores individuales. El manual editado por Bretag reúne el campo.",
+  "uni": "Al inicio del semestre, acordar con el curso qué usos de la IA se permiten en cada tarea y pedir que cada entrega declare cómo se usó.",
+  "refs": [
+   "mccabe01",
+   "bretag16"
+  ]
+ },
+ "alf_retro": {
+  "n": "Alfabetización en retroalimentación",
+  "e": "📬",
+  "f": "eva",
+  "pista": "Saber entender, valorar y usar los comentarios que se reciben sobre el propio trabajo.",
+  "why": "Los comentarios solo sirven si el estudiante sabe qué hacer con ellos. Carless y Boud definen la alfabetización en retroalimentación como las comprensiones, capacidades y disposiciones necesarias para dar sentido a esa información y usarla para mejorar el trabajo o las estrategias de aprendizaje. Proponen cuatro rasgos: valorar la retroalimentación, formarse juicios sobre la calidad, manejar las emociones que provoca y pasar a la acción. No basta con dar mejores comentarios: hay que enseñar a usarlos.",
+  "uni": "Al devolver el primer borrador, cada estudiante resume en tres líneas qué entendió de los comentarios y qué cambiará en la versión final.",
+  "refs": [
+   "carless18"
+  ]
+ },
+ "juicio": {
+  "n": "Juicio evaluativo",
+  "e": "🧑‍⚖️",
+  "f": "eva",
+  "pista": "Capacidad de distinguir la calidad de un trabajo, propio o ajeno, sin depender del docente.",
+  "why": "Reconocer la calidad del trabajo propio y ajeno es una capacidad que se puede entrenar: Tai y colaboradores la llaman juicio evaluativo y proponen desarrollarla de forma explícita en la universidad. La idea se apoya en Sadler, quien sostuvo que, para mejorar, el estudiante necesita una noción de calidad parecida a la del docente, poder comparar su trabajo con ella y estrategias para cerrar la brecha. Se cultiva con autoevaluación, evaluación entre pares, rúbricas y análisis de ejemplos.",
+  "uni": "Antes de escribir su ensayo, los estudiantes ordenan del mejor al peor tres ensayos anónimos de años anteriores y discuten qué criterios usaron para ordenarlos.",
+  "refs": [
+   "tai18",
+   "sadler89"
+  ]
+ },
+ "portafolio": {
+  "n": "Portafolio de aprendizaje",
+  "e": "🗃️",
+  "f": "eva",
+  "pista": "Colección de trabajos elegidos por el estudiante, con reflexiones que muestran cómo progresó.",
+  "why": "Paulson, Paulson y Meyer definen el portafolio como una colección intencionada de trabajos que muestra el esfuerzo, el progreso y los logros del estudiante, quien participa en elegir qué incluir y reflexiona sobre ello. Así la evaluación se extiende en el tiempo y pide reflexión, no solo productos. La evidencia es mixta: la revisión de Driessen y colaboradores en educación médica halló efectos más claros en pregrado y concluyó que el portafolio necesita integrarse de verdad al currículo y contar con apoyo de un tutor.",
+  "uni": "En un taller de arquitectura, cada estudiante selecciona tres láminas del semestre y escribe, para cada una, qué muestra de su avance y qué haría distinto hoy.",
+  "refs": [
+   "paulson91",
+   "driessen07"
+  ]
+ },
+ "cats": {
+  "n": "Técnicas de evaluación en el aula",
+  "e": "⏱️",
+  "f": "eva",
+  "pista": "Ejercicios de un minuto, sin calificación, para saber en plena clase qué se entendió.",
+  "why": "Angelo y Cross reunieron en un manual para docentes universitarios 50 técnicas breves, por lo general anónimas y sin nota, para averiguar durante el curso qué están aprendiendo los estudiantes. Dos de las más usadas son el papel de un minuto (¿qué fue lo más importante de hoy?, ¿qué pregunta te quedó?) y el punto más confuso. Son evaluación formativa en miniatura: lo que revelan sirve para ajustar la clase siguiente.",
+  "uni": "En una clase expositiva de microeconomía, los últimos tres minutos se usan para que cada estudiante anote el punto más confuso; la clase siguiente parte por ahí.",
+  "refs": [
+   "angelo93"
+  ]
+ },
+ "tabla": {
+  "n": "Tabla de especificaciones",
+  "e": "🧮",
+  "f": "eva",
+  "pista": "Plano de una prueba que cruza contenidos con niveles cognitivos y reparte el peso.",
+  "why": "Es el plano de una prueba: cruza los contenidos o resultados de aprendizaje con niveles cognitivos, por ejemplo los de la taxonomía revisada de Anderson y Krathwohl, e indica cuántos ítems o puntos corresponden a cada celda. Así la prueba refleja lo enseñado con el peso que tuvo. Fives y DiDonato-Barnes la presentan como una herramienta para que las pruebas hechas por el propio docente permitan conclusiones más válidas.",
+  "uni": "Para el examen parcial de bioquímica, el docente arma una matriz con las cuatro unidades en filas y recordar, aplicar y analizar en columnas, y reparte los puntos según el tiempo dedicado.",
+  "refs": [
+   "fives13",
+   "anderson01"
+  ]
+ },
+ "validez": {
+  "n": "Validez y confiabilidad",
+  "e": "✅",
+  "f": "eva",
+  "pista": "¿Mide lo que dice medir, y daría lo mismo con otro corrector u otro día?",
+  "why": "Toda evaluación es una inferencia sobre lo que el estudiante sabe, y esa inferencia puede fallar de dos maneras. La confiabilidad es la consistencia del resultado con otro corrector, otra versión u otro día. La validez, según Messick y los Estándares de AERA, APA y NCME, no es una propiedad del instrumento: es el grado en que la evidencia y la teoría respaldan las interpretaciones y usos de los puntajes. Una prueba puede ser muy confiable y aun así medir otra cosa.",
+  "uni": "Si un examen de estadística tiene enunciados tan largos que la nota refleja sobre todo comprensión lectora, el puntaje puede ser estable y aun así no decir cuánta estadística saben.",
+  "refs": [
+   "messick89",
+   "aera14"
+  ]
+ },
+ "analisis_items": {
+  "n": "Análisis de ítems",
+  "e": "🔢",
+  "f": "eva",
+  "pista": "Revisar, pregunta por pregunta, cuántos acertaron y si distinguió a quienes sabían más.",
+  "why": "Después de una prueba, los resultados de cada pregunta también evalúan a la pregunta. Se calcula la dificultad (qué proporción acertó) y la discriminación (si acertaron más quienes tuvieron mejor puntaje total) y, en la opción múltiple, qué distractores se eligieron. Kelley mostró que comparar el 27 % superior con el 27 % inferior es óptimo para este fin; Haladyna y Rodriguez lo integran en la validación de ítems. Un ítem que discrimina al revés suele esconder un error de clave o de redacción.",
+  "uni": "Si en la pregunta 12 del examen final los estudiantes con mejores notas eligieron el distractor C más que los de notas bajas, revisa la clave y la redacción antes de publicar las notas.",
+  "refs": [
+   "kelley39",
+   "haladyna13"
+  ]
+ },
+ "criterial": {
+  "n": "Evaluación referida a criterio",
+  "e": "📐",
+  "f": "eva",
+  "pista": "La nota depende de alcanzar un estándar fijado de antemano, no de cómo le fue al resto.",
+  "why": "Glaser distinguió en 1963 dos maneras de interpretar un puntaje: referido a la norma, comparándolo con el resto del grupo, o referido a criterio, comparándolo con un estándar de desempeño definido de antemano. En la segunda, todos pueden obtener la nota máxima si alcanzan el estándar. Biggs y Tang la defienden en la universidad porque es coherente con el alineamiento constructivo, a diferencia de calificar con curva normal.",
+  "uni": "En vez de reservar la nota máxima al 10 % mejor del curso, se publica la rúbrica y obtiene la nota máxima quien alcance el nivel más alto, sean tres estudiantes o treinta.",
+  "refs": [
+   "glaser63",
+   "biggs11"
+  ]
+ },
+ "comentarios": {
+  "n": "Comentarios sin nota",
+  "e": "💌",
+  "f": "eva",
+  "pista": "Devolver el trabajo solo con observaciones escritas, dejando fuera la calificación.",
+  "why": "Cuando la nota y los comentarios llegan juntos, la nota suele acaparar la atención. En un estudio clásico con escolares, Butler encontró que el interés y el desempeño fueron más altos cuando se entregaron solo comentarios; la nota, sola o acompañada de comentarios, tendió a socavarlos. Con universitarios, Lipnevich y Smith observaron que la retroalimentación detallada funcionó mejor cuando llegaba sin nota ni elogio. No implica eliminar las notas, sino separar el momento de mejorar del momento de calificar.",
+  "uni": "En un curso de redacción académica, el primer borrador vuelve solo con comentarios y únicamente se califica la versión corregida.",
+  "refs": [
+   "butler88",
+   "lipnevich09"
+  ]
+ },
+ "sostenible": {
+  "n": "Evaluación sostenible",
+  "e": "♾️",
+  "f": "eva",
+  "pista": "Preparar al estudiante para juzgar su propio desempeño cuando ya no haya docente que lo califique.",
+  "why": "Boud propuso la evaluación sostenible: la que cumple las necesidades formativas y sumativas del curso y, a la vez, prepara al estudiante para atender sus propias necesidades de aprendizaje futuras. Después de egresar no habrá docente que califique; el profesional tendrá que valorar por sí mismo la calidad de su trabajo, lo que Tai y colaboradores llaman juicio evaluativo. Por eso privilegia tareas realistas, autoevaluación y diálogo sobre criterios más que la nota aislada.",
+  "uni": "En un curso de enfermería, cada entrega incluye una autoevaluación con los criterios del servicio clínico, que el docente compara con la suya para ir calibrando el juicio del estudiante.",
+  "refs": [
+   "boud00",
+   "tai18"
+  ]
+ },
+ "efecto_retroactivo": {
+  "n": "Efecto retroactivo de la evaluación",
+  "e": "🪃",
+  "f": "eva",
+  "pista": "Lo que entra en la prueba termina decidiendo qué y cómo estudian, y a veces qué se enseña.",
+  "why": "La evaluación no solo mide: orienta qué y cómo estudian los estudiantes, y a veces qué se enseña. Snyder mostró, con estudiantes del MIT y de Wellesley, que junto al currículo declarado existe uno oculto: aprender a descifrar qué se evalúa de verdad para obtener buenas notas. Biggs y Tang llaman backwash a este efecto y proponen aprovecharlo: si la evaluación está alineada con los resultados de aprendizaje, empuja hacia un aprendizaje profundo; si no, puede premiar la memorización superficial.",
+  "uni": "Si el examen final solo pide definiciones, aunque el programa prometa análisis de casos, los estudiantes estudiarán con tarjetas de memoria; si pide resolver un caso nuevo, practicarán con casos.",
+  "refs": [
+   "snyder71",
+   "biggs11"
+  ]
+ },
+ "perfil_egreso": {
+  "n": "Perfil de egreso",
+  "e": "🎓",
+  "f": "dis",
+  "pista": "Lo que una carrera promete que sabrá hacer quien se titule, declarado por escrito.",
+  "why": "Cuando se reúnen los propósitos de todos los cursos de una carrera, aparece un propósito mayor: lo que debe saber hacer quien se titula. En América Latina suele llamarse perfil de egreso, y el proyecto Tuning América Latina propuso expresarlo en competencias genéricas y específicas. Barrie, que estudió los atributos del egresado en Australia, mostró que los académicos entienden estas declaraciones de maneras muy distintas, y que esa comprensión influye en cómo las abordan en su enseñanza.",
+  "uni": "Si la carrera de Enfermería declara que sus titulados trabajarán en equipos de salud, algún curso debe enseñar y evaluar ese trabajo en equipo, en vez de darlo por supuesto.",
+  "refs": [
+   "tuning07",
+   "barrie06"
+  ]
+ },
+ "competencias": {
+  "n": "Enfoque por competencias",
+  "e": "🏆",
+  "f": "dis",
+  "pista": "Formar para movilizar saberes, habilidades y actitudes ante situaciones reales de una profesión.",
+  "why": "Cuando el perfil de egreso o los resultados de aprendizaje se llevan a situaciones reales, la meta deja de ser acumular saberes sueltos: se trata de movilizar conocimientos, habilidades y actitudes para resolver problemas de una profesión. El proyecto Tuning América Latina adoptó las competencias como lenguaje común entre universidades, y Tobón propuso un modelo de diseño curricular basado en ellas. Es un enfoque de diseño más que un método con efecto medido, y ha recibido críticas por fragmentar la formación en listas de conductas.",
+  "uni": "En Derecho Procesal, en vez de un examen de memoria sobre plazos, los estudiantes redactan y defienden un recurso a partir de un expediente real anonimizado.",
+  "refs": [
+   "tuning07",
+   "tobon06"
+  ]
+ },
+ "curriculo": {
+  "n": "Currículo",
+  "e": "🗓️",
+  "f": "dis",
+  "pista": "El plan que decide qué se enseña, en qué orden y para qué, a lo largo de una carrera.",
+  "why": "Organizar contenidos y propósitos en una secuencia a lo largo del tiempo es hacer currículo. Tyler lo formuló en 1949 como cuatro preguntas: qué propósitos perseguir, qué experiencias ofrecer, cómo organizarlas y cómo evaluar si se lograron. En educación superior, Fraser y Bosanquet encontraron que los académicos lo entienden de formas muy distintas: desde el contenido de una asignatura o de una carrera hasta la experiencia del estudiante o el proceso vivo de enseñar y aprender.",
+  "uni": "Revisar el plan de estudios de Ingeniería Civil para ver en qué semestre se enseña estadística, y si llega antes de los cursos que la necesitan, es trabajo curricular.",
+  "refs": [
+   "tyler49",
+   "fraser06"
+  ]
+ },
+ "curriculo_oculto": {
+  "n": "Currículo oculto",
+  "e": "👻",
+  "f": "dis",
+  "pista": "Lo que el estudiante aprende sin que nadie lo haya planificado ni escrito en el programa.",
+  "why": "Junto al currículo escrito, el espacio, las normas y la vida en grupo enseñan cosas que nadie declaró. Jackson acuñó la expresión currículo oculto en 1968 observando aulas escolares, y Snyder la llevó a la universidad: en el MIT y en Wellesley, los estudiantes aprendían a descifrar qué se evaluaba en realidad, más allá de lo que decía el programa. En medicina, Hafferty y Franks sostuvieron que buena parte de la identidad profesional se forma en ese plano informal.",
+  "uni": "Si en las rondas clínicas los residentes se burlan de los pacientes difíciles, los estudiantes aprenden eso, aunque el curso de ética diga lo contrario.",
+  "refs": [
+   "jackson68",
+   "snyder71",
+   "hafferty94"
+  ]
+ },
+ "transposicion": {
+  "n": "Transposición didáctica",
+  "e": "🪄",
+  "f": "dis",
+  "pista": "El viaje que transforma el saber de los expertos en algo que se puede enseñar en un aula.",
+  "why": "El contenido que se enseña no es el mismo que producen los investigadores: al pasar por planes de estudio, textos y clases, se recorta, se reordena y se simplifica. Chevallard llamó a este proceso transposición didáctica y distinguió tres momentos: el saber sabio, el saber a enseñar y el saber enseñado. La transformación es inevitable; por eso Chevallard pide vigilancia epistemológica, para que la versión enseñada no deforme el saber de origen.",
+  "uni": "Convertir la teoría de juegos de los artículos de economía en un ejemplo de dos empresas para primer año, cuidando que la simplificación no enseñe algo falso.",
+  "refs": [
+   "chevallard91"
+  ]
+ },
+ "addie": {
+  "n": "Modelo ADDIE",
+  "e": "⚙️",
+  "f": "dis",
+  "pista": "Un proceso en cinco fases, desde analizar necesidades hasta evaluar, para diseñar cursos y programas de formación.",
+  "why": "Unir propósito y evaluación en un ciclo ordenado da el modelo ADDIE: análisis, diseño, desarrollo, implementación y evaluación. Molenda rastreó su origen y concluyó que no tiene un autor único: el acrónimo se difundió de boca en boca como etiqueta para toda una familia de modelos de diseño instruccional sistemático. Hoy suele presentarse como un ciclo en que la evaluación revisa cada fase, más que como una secuencia rígida.",
+  "uni": "Antes de lanzar un curso en línea de bioseguridad para laboratorios, el equipo analiza qué errores cometen hoy los estudiantes, diseña, produce, lo prueba con un grupo piloto y ajusta según los resultados.",
+  "refs": [
+   "molenda03",
+   "branch09"
+  ]
+ },
+ "gagne": {
+  "n": "Nueve eventos de instrucción",
+  "e": "9️⃣",
+  "f": "dis",
+  "pista": "Una secuencia de pasos para una lección, desde captar la atención hasta favorecer que lo aprendido se transfiera.",
+  "why": "Cuando la pedagogía se ordena en el tiempo de una clase, surge una secuencia. Gagné propuso nueve eventos de instrucción, ligados a los procesos internos del aprendizaje: captar la atención, informar el objetivo, estimular el recuerdo de lo previo, presentar el contenido, guiar el aprendizaje, provocar el desempeño, retroalimentar, evaluar el desempeño y favorecer la retención y la transferencia. No es un guion rígido: los eventos pueden reordenarse o combinarse según la clase.",
+  "uni": "Una clase de Farmacología abre con un caso de intoxicación, declara la meta, recuerda lo visto sobre metabolismo, explica, hace resolver un caso parecido y retroalimenta antes de cerrar.",
+  "refs": [
+   "gagne05"
+  ]
+ },
+ "merrill": {
+  "n": "Primeros principios de instrucción",
+  "e": "🔰",
+  "f": "dis",
+  "pista": "Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.",
+  "why": "Si a una secuencia como la de Gagné se le pone al centro un problema real, aparecen los primeros principios de Merrill. Al comparar muchas teorías de diseño instruccional, Merrill encontró cinco ideas compartidas: se aprende mejor cuando se resuelven problemas del mundo real, se activa lo que ya se sabe, se observa una demostración, se aplica lo nuevo con retroalimentación y se lo integra al propio trabajo. Él mismo los presentó como principios comunes a muchos modelos, no como un modelo nuevo.",
+  "uni": "En Contabilidad, el curso gira en torno a cerrar los estados financieros de una pyme real: se activa lo previo, el docente muestra un cierre, los equipos lo aplican y luego lo presentan.",
+  "refs": [
+   "merrill02"
+  ]
+ },
+ "solo": {
+  "n": "Taxonomía SOLO",
+  "e": "🌳",
+  "f": "dis",
+  "pista": "Niveles que clasifican la calidad de una respuesta, desde piezas sueltas hasta ideas integradas y extendidas.",
+  "why": "Mientras Bloom clasifica el tipo de proceso que se pide, Biggs y Collis propusieron clasificar la calidad estructural de lo que el estudiante responde. La taxonomía SOLO tiene cinco niveles: preestructural, uniestructural, multiestructural, relacional y abstracto extendido. El salto clave está entre enumerar muchos datos (multiestructural) e integrarlos en un todo coherente (relacional), que es lo que busca el enfoque profundo. Biggs y Tang la usan para redactar resultados de aprendizaje y criterios de evaluación.",
+  "uni": "En un curso de Historia, enumerar cinco causas de la Revolución Mexicana es una respuesta multiestructural; explicar cómo se influyeron entre sí es relacional.",
+  "refs": [
+   "biggs82",
+   "biggs11"
+  ]
+ },
+ "syllabus": {
+  "n": "Programa de asignatura centrado en el aprendizaje",
+  "e": "📋",
+  "f": "dis",
+  "pista": "El documento del curso que le habla a quien lo cursa: qué logrará, cómo y con qué apoyo.",
+  "why": "Cuando el currículo de un curso se escribe pensando en el estudiante, el programa deja de ser una lista de temas y pasa a ser una guía para aprender. O'Brien, Millis y Cohen proponen que explique qué lograrán los estudiantes, qué se espera de ellos, cómo serán evaluados y con qué recursos cuentan. Palmer, Bach y Streifer crearon una rúbrica que ubica cada programa en un continuo que va de centrado en el contenido a centrado en el aprendizaje.",
+  "uni": "En vez de listar doce unidades temáticas, el programa de Microeconomía abre con tres resultados, muestra qué actividad y qué evaluación sirve a cada uno y estima las horas semanales de trabajo.",
+  "refs": [
+   "obrien08",
+   "palmer14"
+  ]
+ },
+ "espiral": {
+  "n": "Currículo en espiral",
+  "e": "🐚",
+  "f": "dis",
+  "pista": "Volver a los grandes temas una y otra vez, y en cada vuelta profundizar un poco más.",
+  "why": "Si el currículo se organiza para retomar las mismas ideas espaciadas en el tiempo, se obtiene un currículo en espiral. Bruner lo propuso en 1960: las ideas fundamentales de una disciplina se presentan pronto en forma simple y se revisitan después con más profundidad. Harden y Stamper lo aplicaron a la formación médica y subrayan que no basta con repetir: cada nuevo encuentro debe construir sobre el anterior y aumentar la complejidad.",
+  "uni": "En Medicina, la farmacología se ve en segundo año con fármacos básicos, se retoma en cuarto con casos clínicos y vuelve en el internado con pacientes reales.",
+  "refs": [
+   "bruner60",
+   "harden99"
+  ]
+ },
+ "carga_trabajo": {
+  "n": "Carga de trabajo del estudiante",
+  "e": "⏳",
+  "f": "dis",
+  "pista": "Las horas reales que un curso exige a quien lo cursa, dentro y fuera del aula.",
+  "why": "Al cruzar el currículo con el tiempo disponible surge la pregunta de cuántas horas exige de verdad cada curso, contando lecturas, tareas y estudio autónomo. El sistema europeo ECTS asigna 60 créditos a un año a tiempo completo, en general de 25 a 30 horas cada uno. Kember encontró que la carga percibida se relaciona poco con las horas reales: también pesan la evaluación, la dificultad y el clima del curso, y una carga que parece excesiva empuja a estudiar en forma superficial.",
+  "uni": "Una docente de Química suma las horas que piden sus lecturas, informes y estudio, descubre que duplican lo que asignan los créditos y elimina dos informes.",
+  "refs": [
+   "ects15",
+   "kember04"
+  ]
+ },
+ "arcs": {
+  "n": "Modelo ARCS de motivación",
+  "e": "🏹",
+  "f": "dis",
+  "pista": "Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.",
+  "why": "Cuando la pedagogía se pone al servicio de la motivación, la motivación deja de ser solo un rasgo del estudiante y pasa a ser algo que se diseña. Keller organizó en el modelo ARCS cuatro condiciones: atención, relevancia, confianza y satisfacción, cada una con estrategias concretas. Propuso además un proceso para diagnosticar qué condición falla en un curso y elegir las estrategias que la atienden, en vez de agregar estímulos al azar.",
+  "uni": "En Estadística para Psicología: abrir con un estudio viral mal interpretado, ligarlo a la práctica clínica, partir con ejercicios alcanzables y mostrar a cada estudiante su progreso.",
+  "refs": [
+   "keller87",
+   "keller10"
+  ]
+ },
+ "cerebro10": {
+  "n": "Solo usamos el 10% del cerebro",
+  "e": "🔟",
+  "f": "mito",
+  "pista": "La creencia de que la mayor parte de nuestra materia gris está dormida, esperando ser despertada.",
+  "belief": "Usamos apenas el 10% del cerebro, y con la técnica adecuada un estudiante podría activar el resto y aprender mucho más.",
+  "evidence": "No tiene respaldo científico: las neuroimágenes muestran actividad en todas las regiones del cerebro a lo largo del día, y un daño en casi cualquier zona produce algún déficit. Aun así, Dekker y colaboradores encontraron que cerca de la mitad de los docentes encuestados en el Reino Unido y los Países Bajos lo aceptaba, y Howard-Jones documentó la misma creencia entre docentes de Turquía, Grecia y China. El aprendizaje cambia las conexiones del cerebro; no hay una reserva dormida que activar.",
+  "refs": [
+   "dekker12",
+   "howardjones14"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "hemisferios": {
+  "n": "Cerebro izquierdo y cerebro derecho",
+  "e": "☯️",
+  "f": "mito",
+  "pista": "La creencia de que cada persona es lógica o creativa según qué mitad de su cabeza domine.",
+  "belief": "Hay personas de hemisferio izquierdo, lógicas y analíticas, y personas de hemisferio derecho, creativas e intuitivas, y conviene enseñar a cada una según el suyo.",
+  "evidence": "Algunas funciones sí se lateralizan, como gran parte del lenguaje en el hemisferio izquierdo en la mayoría de las personas, pero ambos hemisferios trabajan juntos en casi cualquier tarea compleja. Nielsen y colaboradores analizaron la conectividad cerebral de más de mil personas y no encontraron individuos con un hemisferio globalmente más fuerte que el otro. Clasificar a los estudiantes como de cerebro izquierdo o derecho no tiene base y puede encasillarlos.",
+  "refs": [
+   "nielsen13",
+   "howardjones14"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "atencion10": {
+  "n": "La atención dura solo 10 minutos",
+  "e": "⏲️",
+  "f": "mito",
+  "pista": "La regla de que un curso desconecta, como un reloj, al cabo de un tiempo fijo de clase.",
+  "belief": "La atención de los estudiantes en una clase expositiva dura entre 10 y 15 minutos; pasado ese límite, cae de forma inevitable.",
+  "evidence": "Wilson y Korn revisaron los estudios que se citan para respaldar esa cifra y concluyeron que ofrecen poco apoyo: muchos usaban medidas indirectas, como la cantidad de apuntes, y la atención variaba según el estudiante, el docente y el tema. Bradbury llegó a la misma conclusión. Bunce y colaboradores encontraron que la atención no cae una sola vez, sino que fluctúa en ciclos cortos durante toda la clase, y que los lapsos disminuyen durante y después de preguntas y demostraciones.",
+  "refs": [
+   "wilson07",
+   "bradbury16",
+   "bunce10"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "multitarea": {
+  "n": "Multitarea eficaz",
+  "e": "🤹",
+  "f": "mito",
+  "pista": "La creencia de que se puede estudiar, chatear y revisar redes a la vez sin perder nada.",
+  "belief": "Los estudiantes de hoy pueden seguir la clase, responder mensajes y revisar redes al mismo tiempo sin que su aprendizaje se resienta.",
+  "evidence": "En tareas que exigen pensar, lo que parece multitarea es alternar rápidamente entre una y otra, y cada cambio cuesta tiempo y errores. Sana, Weston y Cepeda encontraron que los universitarios que usaban el portátil para otras cosas durante una clase comprendían menos, y que también bajaba la comprensión de quienes tenían esa pantalla a la vista. Kirschner y De Bruyckere concluyen que la multitarea perjudica el aprendizaje, también en la generación que creció con pantallas.",
+  "refs": [
+   "sana13",
+   "kirschner17"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "descubrimiento": {
+  "n": "Descubrimiento puro sin guía",
+  "e": "🗝️",
+  "f": "mito",
+  "pista": "La idea de que el curso aprende mejor encontrando solo los principios, con el docente en silencio.",
+  "belief": "Como el conocimiento se construye, lo mejor es dejar que los estudiantes descubran por sí mismos los principios, sin explicaciones ni guía del docente.",
+  "evidence": "Mayer revisó décadas de estudios y encontró que, una y otra vez, el descubrimiento guiado superó al descubrimiento puro. El metaanálisis de Alfieri y colaboradores confirmó que el descubrimiento sin asistencia no beneficia, mientras que el apoyado con retroalimentación, ejemplos resueltos o andamiaje sí. El constructivismo describe cómo se aprende, no prescribe enseñar sin guía; por eso el debate que abrieron Kirschner, Sweller y Clark gira en torno a cuánta guía dar y de qué tipo, no a si darla.",
+  "refs": [
+   "mayer04",
+   "alfieri11",
+   "kirschner06"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "inteligencias": {
+  "n": "Enseñar según la inteligencia dominante",
+  "e": "🎨",
+  "f": "mito",
+  "pista": "La creencia de que cada estudiante tiene una capacidad mental favorita y que las clases deben pasar por ella.",
+  "belief": "Cada estudiante tiene una inteligencia dominante (lingüística, lógico-matemática, musical, corporal, etc.) y aprende mejor si se le enseña a través de ella.",
+  "evidence": "Gardner propuso en 1983 la teoría de las inteligencias múltiples, pero él mismo aclaró que una inteligencia no es un estilo de aprendizaje y criticó que su teoría se use para etiquetar estudiantes. Waterhouse revisó la evidencia y concluyó que la teoría tiene escaso respaldo empírico y no debería guiar la práctica, aunque Gardner le respondió defendiéndola. Tampoco hay evidencia sólida de que ajustar la enseñanza a una supuesta inteligencia dominante mejore el aprendizaje.",
+  "refs": [
+   "gardner83",
+   "gardner95",
+   "waterhouse06"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "mas_tecnologia": {
+  "n": "Más tecnología, más aprendizaje",
+  "e": "➕",
+  "f": "mito",
+  "pista": "La creencia de que llenar el aula de pantallas y plataformas mejora por sí solo los resultados.",
+  "belief": "Equipar las aulas con más dispositivos, plataformas y pantallas mejora por sí mismo el aprendizaje de los estudiantes.",
+  "evidence": "Clark sostuvo en 1983 que los medios solo transportan la enseñanza, así como el camión que reparte los alimentos no cambia la nutrición: lo que produce aprendizaje es el método. Su tesis fue muy debatida. El metaanálisis de segundo orden de Tamim y colaboradores, que reunió 40 años de investigación, encontró un efecto positivo pero modesto del uso de tecnología, mayor cuando apoya la enseñanza que cuando se usa para impartirla directamente: importa cómo se usa, no cuánta hay.",
+  "refs": [
+   "clark83",
+   "tamim11"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "releer": {
+  "n": "Releer y subrayar",
+  "e": "🖍️",
+  "f": "mito",
+  "pista": "Repasar los apuntes una y otra vez y pintarlos de colores: lo más común al estudiar, y poco eficaz.",
+  "belief": "Releer los apuntes varias veces y subrayar lo importante con marcador es la mejor forma de prepararse para una prueba.",
+  "evidence": "Dunlosky y colaboradores evaluaron diez técnicas de estudio y calificaron releer y subrayar como de baja utilidad, frente a la práctica de recuperación y la práctica espaciada, de alta utilidad. Karpicke, Butler y Roediger encontraron que releer era la estrategia más usada por los universitarios encuestados, y que pocos se ponían a prueba al estudiar. Releer da sensación de dominio porque el texto se vuelve familiar, pero reconocer no es lo mismo que recordar o aplicar.",
+  "refs": [
+   "dunlosky13",
+   "karpicke09"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ },
+ "encuestas": {
+  "n": "Las encuestas docentes miden el aprendizaje",
+  "e": "📮",
+  "f": "mito",
+  "pista": "La creencia de que la calificación que el curso le pone a su profesor revela cuánto sabe al final.",
+  "belief": "Si un docente obtiene buenas notas en la encuesta estudiantil de fin de semestre, es porque sus estudiantes aprendieron más.",
+  "evidence": "Los primeros metaanálisis encontraron una relación moderada entre las notas de las encuestas y el aprendizaje, pero Uttl, White y Gonzalez mostraron que se debía sobre todo a estudios con muestras pequeñas: en los estudios grandes, la relación es nula o mínima. Boring, Ottoboni y Stark encontraron además sesgos, como uno en contra de las profesoras, capaces de hacer que docentes más eficaces reciban peores notas. Las encuestas sí informan sobre la experiencia del estudiante; el error es leerlas como medida de aprendizaje.",
+  "refs": [
+   "uttl17",
+   "boring16"
+  ],
+  "tip": "Combínalo con 🪞 Práctica reflexiva para desarmarlo."
+ }
+}

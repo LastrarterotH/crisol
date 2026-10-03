@@ -1,0 +1,376 @@
+{
+  "fichas": {
+    "cpc": {
+      "pista": "Saber qué analogía aclara tu tema y qué error traerá el curso antes de que lo cometa.",
+      "why": "Saber química y saber pedagogía por separado no basta para enseñar química. Shulman llamó conocimiento pedagógico del contenido a esa mezcla propia del oficio docente, que incluye las representaciones que vuelven comprensible un tema, como analogías o ejemplos, y saber qué lo hace fácil o difícil y qué errores traen los estudiantes."
+    },
+    "tpack": {
+      "pista": "Marco que pide a la tecnología entenderse con tu materia y tu didáctica antes de entrar a clase.",
+      "why": "Cuando se integran las tres fuentes de conocimiento (contenido, pedagogía y tecnología) aparece el TPACK. La idea central de Mishra y Koehler es que una buena integración tecnológica surge de la interacción entre las tres en un contexto concreto.",
+      "uni": "En Química General, definir primero qué concepto le cuesta más al curso y con qué estrategia abordarlo, y solo después elegir la herramienta digital que sirva a esa estrategia."
+    },
+    "reflexiva": {
+      "pista": "Revisar tu clase en caliente, mientras la das, y en frío, camino a casa, para ajustar la próxima.",
+      "why": "Aplicar la pedagogía sobre la propia pedagogía lleva a mirar la enseñanza como objeto de estudio. Schön describió cómo los profesionales piensan durante la acción (reflexión en la acción) y después de ella (reflexión sobre la acción) para ajustar su práctica.",
+      "uni": "Al salir de cada clase de Enfermería, dedicar cinco minutos a anotar el momento que mejor funcionó y el que falló, con una hipótesis sobre la causa."
+    },
+    "evidencia": {
+      "pista": "Pedirle a cada método de moda su estudio de respaldo antes de dejarlo entrar al aula.",
+      "why": "Una docencia informada por evidencia contrasta las prácticas con investigación revisada por pares antes de adoptarlas, y pregunta de dónde viene cada cifra o receta que circula. Por ejemplo, Dunlosky y colaboradores evaluaron diez técnicas de estudio populares y calificaron de utilidad baja releer y resaltar el texto, y de utilidad alta practicar la recuperación y espaciar el estudio."
+    },
+    "mapa": {
+      "pista": "Cajas con ideas unidas por flechas que dicen algo, como “causa” o “es parte de”.",
+      "why": "Relacionar un contenido con otro mediante palabras de enlace explícitas es la base del mapa conceptual de Novak, construido sobre la teoría de Ausubel. Un metaanálisis de Nesbit y Adesope encontró que estudiar y construir mapas conceptuales se asocia a mayor retención y transferencia que leer textos o asistir a clases, y también que participar en discusiones."
+    },
+    "previos": {
+      "pista": "La maleta que cada estudiante trae a clase, con ideas útiles y alguna equivocada bien guardada.",
+      "why": "Un estudiante llega a cada contenido con ideas y experiencias propias, y entre ellas suele haber errores conceptuales. Según la síntesis How People Learn, si esas concepciones previas no se activan y se trabajan, el estudiante puede aprender lo nuevo solo para la prueba y volver a pensar como antes fuera del aula."
+    },
+    "significativo": {
+      "pista": "Lo nuevo se cuelga de un gancho que ya tenías y no se cae tras la prueba.",
+      "why": "Para Ausubel, cuando un contenido nuevo se conecta de manera sustancial y no arbitraria con lo que el estudiante ya sabe, se integra a su estructura cognitiva y perdura. Si no encuentra dónde anclarse, se memoriza de forma mecánica y se olvida pronto.",
+      "uni": "Abrir la unidad de contratos de Derecho Civil con un organizador previo, por ejemplo un esquema que parta de la compraventa cotidiana que el curso ya entiende."
+    },
+    "constructivismo": {
+      "pista": "Cada cabeza vuelve a montar lo que oye en clase con las piezas que ya tenía.",
+      "why": "Si el estudiante trabaja activamente a partir de lo que ya sabe, construye conocimiento propio. El constructivismo, con raíces en Piaget y Vygotsky, sostiene que cada persona reconstruye lo que aprende a partir de sus ideas y experiencias previas. La síntesis How People Learn reúne evidencia en esa dirección."
+    },
+    "zdp": {
+      "uni": "En un taller de Programación, dejar que cada estudiante intente solo un ejercicio y, cuando se atasque, darle una pista; lo que resuelva con esa ayuda está en su zona de desarrollo próximo."
+    },
+    "andamiaje": {
+      "uni": "En Cálculo, partir con ejemplos resueltos y, a medida que el curso gana soltura, borrar pasos hasta dejar problemas sin ningún apoyo."
+    },
+    "metacognicion": {
+      "pista": "Mirarte pensar, como desde la tribuna, y notar cuándo de verdad entiendes y cuándo solo te suena.",
+      "why": "La metacognición traslada al estudiante el hábito que la práctica reflexiva propone al docente, el de observar su propio trabajo para ajustarlo. Flavell la definió como el conocimiento sobre los propios procesos cognitivos y el monitoreo de esos procesos."
+    },
+    "autorregulado": {
+      "pista": "Ser tu propio entrenador de estudio, que arma el plan y lo cambia si el marcador va mal."
+    },
+    "espaciada": {
+      "pista": "Varias dosis cortas de estudio con días de por medio, en vez de un atracón la noche anterior."
+    },
+    "segmentacion": {
+      "pista": "Una lección larga servida en porciones; el estudiante decide cuándo pedir la siguiente."
+    },
+    "situado": {
+      "pista": "El saber se queda pegado al lugar donde lo usaste y a la gente que te acompañaba.",
+      "uni": "Llevar la clase de Topografía a un terreno del campus y medirlo con el mismo instrumental que el curso usará después en obra."
+    },
+    "sotl": {
+      "pista": "Tratar tu aula como laboratorio y llevar los resultados a colegas que puedan rebatirlos.",
+      "why": "Cuando reflexionas sobre tus clases con método y evidencia, y compartes lo que encuentras, esa reflexión se convierte en investigación sobre la propia docencia (Scholarship of Teaching and Learning, SoTL). Boyer propuso en 1990 reconocer la enseñanza como una forma de trabajo académico, y Hutchings y Shulman precisaron que el SoTL exige hacer público el trabajo para que otros lo revisen críticamente y construyan sobre él.",
+      "uni": "Una docente de Anatomía, con aprobación ética, compara una cohorte que hizo cuestionarios de recuperación con otra que no los hizo y presenta el análisis en un congreso de docencia universitaria."
+    },
+    "investigacion_accion": {
+      "why": "Lewin describió la investigación-acción como una espiral de ciclos de planificar, actuar y examinar los resultados de la acción para decidir el paso siguiente. En docencia, la hace el propio profesor sobre su práctica, cuando identifica un problema real de su curso, prueba un cambio, recoge datos y reflexiona antes del ciclo siguiente. Elliott la impulsó como vía para que el profesorado investigue y transforme su enseñanza, con resultados pensados para mejorar ese curso concreto más que para generalizarse."
+    },
+    "portafolio_docente": {
+      "why": "Así como el estudiante reúne evidencias de su aprendizaje, el docente puede seleccionar evidencias de su enseñanza (programas, materiales, trabajos de estudiantes, observaciones de pares, encuestas) y acompañarlas de una reflexión que las interpreta, sin la cual el portafolio se reduce a un archivo de documentos. Edgerton, Hutchings y Quinlan lo propusieron como forma de documentar el trabajo académico de enseñar, y Seldin lo difundió tanto para mejorar la docencia como para decisiones de promoción."
+    },
+    "enfoques_ensenanza": {
+      "pista": "Tu intención de fondo al dar clase, sea pasar información o cambiar lo que tu curso entiende.",
+      "why": "Prosser y Trigwell describieron en profesores universitarios dos enfoques extremos, uno centrado en el docente que busca transmitir información y otro centrado en el estudiante que busca cambiar su comprensión. En cursos de ciencias de primer año, Trigwell, Prosser y Waterhouse encontraron que el enfoque de transmisión se asociaba con más aprendizaje superficial en los estudiantes. Como el enfoque combina intención y estrategia, una exposición también puede buscar la comprensión si esa es la intención del docente.",
+      "uni": "Un profesor de Física puede seguir exponiendo y cambiar de enfoque si planifica cada clase a partir de qué deben comprender sus estudiantes y cómo va a comprobarlo."
+    },
+    "eval_docencia": {
+      "pista": "Juzgar a un profesor como un buen jurado, que cruza testimonios de estudiantes y colegas con pruebas.",
+      "why": "Las encuestas estudiantiles recogen experiencias valiosas, pero no alcanzan para juzgar la docencia, porque el metaanálisis de Uttl, White y Gonzalez no encontró relación entre esas valoraciones y el aprendizaje de los estudiantes al considerar los estudios con muestras grandes. Por eso Berk propone triangular varias fuentes con sesgos distintos (opiniones estudiantiles, observación de pares, autoevaluación, portafolio docente y medidas de aprendizaje), para que unas cubran los puntos ciegos de otras."
+    },
+    "comunidad_practica": {
+      "pista": "Un oficio compartido donde el novato empieza lavando probetas y termina diseñando experimentos junto al equipo.",
+      "why": "Lave y Wenger analizaron cómo los recién llegados aprenden un oficio participando en él, primero en tareas periféricas pero legítimas y luego, de forma gradual, en las centrales, un proceso que llamaron participación periférica legítima. Wenger caracterizó después la comunidad de práctica por el compromiso mutuo de sus miembros, una empresa conjunta y un repertorio compartido de rutinas, palabras, herramientas y formas de hacer, y entendió el aprendizaje también como la construcción de una identidad."
+    },
+    "carga_cognitiva": {
+      "pista": "La memoria de trabajo es una mesa pequeña; cada adorno inútil le roba espacio a lo importante."
+    },
+    "ejemplos_resueltos": {
+      "pista": "Leer la receta con fotos de cada paso antes de cocinar tú un plato parecido.",
+      "why": "Para un principiante, estudiar soluciones completas paso a paso enseña más que resolver problemas desde cero, porque evita la búsqueda a ciegas y libera memoria de trabajo para entender el procedimiento. Sweller y Cooper lo mostraron con problemas de álgebra, y Atkinson y colaboradores reunieron principios como alternar ejemplos con problemas parecidos y pedir autoexplicaciones. El beneficio se pierde con la experiencia, y Kalyuga y colaboradores describieron cómo la guía que ayuda al novato puede estorbar al avanzado."
+    },
+    "intercalada": {
+      "pista": "Barajar los ejercicios de distintos temas como un mazo, en vez de hacerlos ordenados por capítulo.",
+      "uni": "En Estadística, una guía que mezcla problemas de prueba t con otros de chi cuadrado y de correlación obliga a decidir qué método corresponde, en vez de aplicar diez veces seguidas el mismo."
+    },
+    "dificultades_deseables": {
+      "pista": "Esos tropiezos al estudiar que hoy fastidian y dentro de un mes se notan en lo que recuerdas.",
+      "why": "Algunas condiciones que vuelven el estudio más lento y con más errores, como espaciar o intercalar la práctica y recuperar de memoria, producen un aprendizaje más duradero que las que lo hacen fluido. Robert Bjork acuñó el término y, con Elizabeth Bjork, aclaró que una dificultad solo es deseable si el estudiante tiene con qué superarla. Soderstrom y Bjork mostraron que el desempeño durante la práctica es un mal indicador del aprendizaje, porque una sesión que se siente fácil puede dar una falsa sensación de dominio."
+    },
+    "reaprendizaje": {
+      "why": "Combina las dos técnicas mejor evaluadas por Dunlosky y colaboradores, porque se recupera de memoria hasta acertar y esa recuperación se repite en sesiones espaciadas. Rawson y Dunlosky estudiaron cuántos aciertos conviene lograr al inicio y cuántas sesiones posteriores rinden más. En un curso real de Introducción a la Psicología, Rawson, Dunlosky y Sciartelli encontraron mejores resultados en los exámenes y una retención mucho mayor meses después.",
+      "uni": "En Introducción a la Psicología, practicar cada concepto hasta recordarlo bien varias veces y volver a recuperarlo en dos o tres sesiones posteriores, separadas por días."
+    },
+    "olvido": {
+      "pista": "Una pendiente que cae en picada las primeras horas y luego baja despacio, salvo que repases.",
+      "why": "Sin repaso ni uso, lo aprendido se pierde rápido al principio y cada vez más despacio después. Ebbinghaus lo midió en sí mismo con listas de sílabas sin sentido, calculando cuánto esfuerzo le ahorraba reaprenderlas tras distintos intervalos, y Murre y Dros replicaron la curva en 2015. Como usó material sin significado, sus cifras no se trasladan tal cual al aula, donde lo que se conecta con conocimientos previos tiende a retenerse mejor."
+    },
+    "multimedia": {
+      "pista": "Un buen diagrama junto a la explicación hablada rinde más que la misma explicación sin dibujo."
+    },
+    "profundo": {
+      "pista": "Leer preguntándote por qué es así y con qué se conecta, más allá de la prueba.",
+      "why": "Ante la misma tarea, un estudiante puede buscar el sentido y relacionarlo con lo que sabe (enfoque profundo) o limitarse a reproducir lo que cree que le preguntarán (enfoque superficial). Marton y Säljö describieron esta diferencia con estudiantes universitarios suecos que leían un texto académico. Biggs y Tang lo tratan como una respuesta al contexto que cambia con la enseñanza y, sobre todo, con la evaluación, de modo que un mismo estudiante puede adoptar uno u otro según el curso.",
+      "uni": "En Historia, cambiar una pregunta de examen que pide fechas por otra que pide explicar las causas de un proceso empuja al curso a estudiar buscando el sentido."
+    },
+    "motivacion": {
+      "pista": "Las ganas de seguir leyendo sobre un tema aunque nadie lo vaya a evaluar.",
+      "why": "Cuando el estudiante hace suyo el propósito de lo que estudia, aparece la motivación intrínseca: hacer algo por el interés o la satisfacción que produce en sí mismo, y no por una recompensa externa. La teoría de la autodeterminación de Ryan y Deci propone que se nutre de tres necesidades psicológicas básicas: autonomía, competencia y vinculación con otros. Por eso un curso que da opciones reales y propone desafíos alcanzables, en un clima de respeto, tiende a sostenerla mejor que uno basado solo en premios y castigos."
+    },
+    "autoeficacia": {
+      "pista": "Ese “yo puedo con esto” que nace de haberlo logrado antes y te hace intentarlo de nuevo."
+    },
+    "mentalidad": {
+      "pista": "Creer que la inteligencia se entrena como un músculo, con esfuerzo y con buenas estrategias.",
+      "why": "Dweck llamó mentalidad de crecimiento a creer que la inteligencia puede desarrollarse con esfuerzo y buenas estrategias, y con ayuda de otros, en vez de verla como un rasgo fijo. Unida a la metacognición, invita a leer un error como información sobre qué ajustar. Su popularidad va más allá de lo que muestra la evidencia, ya que los dos metaanálisis de Sisk y colaboradores hallaron una relación débil con el rendimiento y efectos pequeños de las intervenciones, algo mayores en estudiantes de nivel socioeconómico bajo o en riesgo académico."
+    },
+    "emociones": {
+      "pista": "El nudo en el estómago antes del parcial y el alivio, o la vergüenza, al ver la nota.",
+      "why": "Una evaluación puede provocar ansiedad antes del examen y, después, orgullo o vergüenza según el resultado. Pekrun las llama emociones de logro y, en su teoría de control-valor, propone que dependen de cuánto control siente el estudiante sobre la tarea y cuánto valor le atribuye. Sus estudios, muchos con universitarios, encontraron que el disfrute y la esperanza tienden a asociarse con mejor rendimiento, y la desesperanza y el aburrimiento, con peor rendimiento."
+    },
+    "modelado": {
+      "pista": "Pensar en voz alta frente al curso, con dudas y tropiezos incluidos, mientras resuelves.",
+      "why": "Una clase expositiva también puede mostrar el pensamiento que lleva a una respuesta. En el modelo de aprendiz cognitivo (cognitive apprenticeship), Collins, Brown y Newman llaman modelado a que el experto realice la tarea mientras hace explícitos sus procesos internos, para que el aprendiz vea estrategias que normalmente quedan ocultas, como cuándo duda y cómo comprueba. Es el primer paso de una secuencia que sigue con el acompañamiento (coaching), el andamiaje y su retiro gradual.",
+      "uni": "En Física, el docente resuelve un problema en la pizarra diciendo en voz alta por qué elige cada ecuación y qué revisa cuando el resultado no cuadra con su estimación."
+    },
+    "conectivismo": {
+      "pista": "Saber dónde está la respuesta, y a quién preguntarle en línea, contaría tanto como llevarla en la cabeza.",
+      "why": "Si el conocimiento se organiza como una red que vive en entornos digitales, aprender pasa a ser también construir y recorrer conexiones con otras personas y con fuentes y herramientas. Siemens propuso el conectivismo a partir de esa idea, y sostuvo que parte del conocimiento reside en la red y que saber dónde encontrarlo importa tanto o más que lo que uno ya sabe. Kop y Hill concluyeron que no queda claro que sea una teoría del aprendizaje por sí misma, aunque sí impulsa nuevas pedagogías en red.",
+      "uni": "En un seminario de posgrado, cada estudiante sigue a investigadores del área y reúne en un tablero compartido las fuentes que encuentra, enlazadas con los aportes de sus compañeros."
+    },
+    "experiencial": {
+      "pista": "Vivir algo, mirarlo con calma, sacar una idea y probarla en la siguiente vuelta de la rueda.",
+      "why": "Kolb describió el aprendizaje experiencial como un ciclo en el que se vive una experiencia concreta, se la observa reflexivamente, se forman conceptos abstractos y se ponen a prueba en nuevas situaciones. Por eso surge de unir el contexto real con la acción y la reflexión, ya que una vivencia que nadie procesa no completa el ciclo. Conviene separar el ciclo de los estilos de aprendizaje que Kolb derivó de él, porque adaptar la enseñanza a estilos no tiene respaldo empírico, según la revisión de Pashler y colaboradores."
+    },
+    "transferencia": {
+      "pista": "Reconocer y resolver fuera del aula un problema visto en clase, aunque llegue disfrazado.",
+      "uni": "En Ingeniería, aplicar el mismo balance de energía a una turbina y luego al cuerpo humano ayuda a reconocer el principio cuando aparece en un problema nuevo."
+    },
+    "cambio_conceptual": {
+      "pista": "Cuando tu intuición de siempre pierde el pleito frente a una explicación científica más útil."
+    },
+    "conceptos_umbral": {
+      "pista": "Puertas estrechas de cada disciplina que cuesta cruzar y que, una vez cruzadas, cambian cómo ves la materia.",
+      "why": "Meyer y Land llaman así a ciertas ideas de cada disciplina que, una vez comprendidas, transforman la manera de ver la materia, son difíciles de desaprender e integran contenidos que antes parecían sueltos. Suelen ser conocimiento problemático, y antes de cruzarlas el estudiante atraviesa un estado liminal de confusión e idas y vueltas. Es un marco muy usado en educación superior, pero más interpretativo que experimental, y definir cuáles son umbral en cada disciplina sigue en discusión.",
+      "uni": "En Economía, el costo de oportunidad suele funcionar como umbral, porque una vez que el estudiante lo comprende empieza a ver una renuncia detrás de cada gasto."
+    },
+    "pensamiento_critico": {
+      "pista": "Interrogar a un argumento como un fiscal, pidiendo sus pruebas y revisando si sostienen la conclusión.",
+      "why": "Un panel de expertos coordinado por Facione definió el pensamiento crítico como un juicio intencional y autorregulado que interpreta, analiza, evalúa e infiere, y que explica las evidencias y criterios en que se apoya. Se forma cuando el estudiante aprende a pedir evidencias y a vigilar su propio razonamiento. Exponerse al contenido no alcanza para desarrollarlo, y el metaanálisis de Abrami y colaboradores mostró que la enseñanza lo mejora, sobre todo cuando el diálogo se combina con problemas auténticos y con el acompañamiento de un mentor."
+    },
+    "escribir": {
+      "pista": "Tomar el lápiz para averiguar qué entiendes, porque muchas ideas se aclaran mientras las redactas.",
+      "why": "Escribir para aprender usa la escritura como herramienta para pensar el contenido. Emig sostuvo que escribir es un modo singular de aprendizaje, porque obliga a organizar y hacer explícitas las ideas. El metaanálisis de Bangert-Drowns, Hurley y Wilkinson encontró un efecto positivo pero pequeño en el rendimiento, mayor cuando las consignas pedían reflexionar sobre lo que se sabe y lo que confunde, o sobre el propio proceso de aprendizaje.",
+      "uni": "Al cierre de una clase de Microeconomía, pedir un minuto de escritura en el que cada estudiante explique con sus palabras el concepto central y anote la duda que todavía le queda."
+    },
+    "alfabetizacion_academica": {
+      "pista": "Las reglas no escritas para leer y escribir en tu carrera, enseñadas dentro de cada asignatura.",
+      "why": "Cada disciplina lee y escribe a su modo, y un informe de laboratorio se escribe distinto de un ensayo filosófico. Carlino llama alfabetización académica a las nociones y estrategias para participar en esa cultura discursiva, y sostiene que deben enseñarse dentro de cada asignatura, sin suponerlas aprendidas al ingresar ni delegarlas en un taller remedial. Para Lea y Street, escribir en la universidad exige más que técnica, porque implica apropiarse de las convenciones y valores de cada campo y construir allí una identidad.",
+      "uni": "En Historia, antes de pedir un ensayo, analizar con el curso un artículo modelo para ver cómo el autor plantea su tesis y la defiende con fuentes primarias frente a otros historiadores."
+    },
+    "ciencia_aprendizaje": {
+      "pista": "Laboratorios que miden cómo recordamos y entendemos, y de paso desarman los neuromitos del taller de moda.",
+      "why": "Es el campo que estudia con métodos empíricos cómo se aprende, reuniendo la psicología cognitiva con la educación y la neurociencia, y por eso sirve para poner a prueba los neuromitos. Dekker y colaboradores encontraron que docentes del Reino Unido y Países Bajos creían cerca de la mitad de los neuromitos presentados, y que saber más sobre el cerebro no los protegía. Howard-Jones explica cómo hallazgos reales se deforman en mitos, y Weinstein, Madan y Sumeracki resumen seis estrategias con respaldo sólido."
+    }
+  },
+  "notas": {
+    "contenido+contenido": "Pon fotosíntesis junto a respiración y surge la pregunta de cómo se relacionan; el mapa conceptual la contesta con una palabra de enlace sobre la flecha.",
+    "pedagogia+pedagogia": "Cuando la pedagogía se mira al espejo, tu clase se vuelve caso de estudio y te preguntas por qué el martes funcionó y el jueves no.",
+    "contenido+estudiante": "Cuando un estudiante de Enfermería oye “presión arterial”, se despiertan ideas que trae de casa, algunas certeras y otras equivocadas, antes de que expliques nada.",
+    "estudiante+tiempo": "Pon el mismo reloj a todo el curso y unos terminarán sobrados y otros a medias; Carroll partió de esa diferencia.",
+    "estudiante+proposito": "Cuando el estudiante hace suyo el propósito del curso, que antes era solo del docente, estudia por interés en el tema y la nota pasa a segundo plano.",
+    "contenido+pedagogia": "Al cruzar la química con la didáctica nace un saber que ninguna tenía por separado, como la analogía justa para que este curso entienda el enlace covalente.",
+    "contenido+tiempo": "Una hora seguida sobre el ciclo de Krebs abruma; dividida en tramos que el estudiante avanza a su paso, deja respirar a la memoria de trabajo.",
+    "cpc+tecnologia": "Si ya tienes la analogía que hace entender tu tema, la tecnología entra con otra pregunta, la de qué herramienta muestra mejor esa analogía a tus estudiantes.",
+    "contenido+tpk": "Dominar foros y cuestionarios en línea sirve para cualquier curso; cruzado con Anatomía o con Cálculo, ese saber tecnopedagógico obliga a decisiones propias de cada disciplina.",
+    "pedagogia+tck": "Saber que un simulador muestra en movimiento circuitos que en la pizarra quedan quietos es el punto de partida; la pedagogía decide cuándo y cómo usarlo en clase.",
+    "mas_tecnologia+reflexiva": "Sumar tabletas no garantiza aprender más; al reflexionar sobre ese mito, empiezas a preguntar cómo encaja cada herramienta con el contenido y la pedagogía.",
+    "cambio_conceptual+pedagogia": "Shulman incluyó en este conocimiento saber qué ideas erróneas trae el curso sobre un tema, como confundir calor con temperatura, y con qué estrategias reorganizarlas.",
+    "reflexiva+tiempo": "Si la reflexión se sostiene durante el semestre, toma forma de ciclos en los que planificas un cambio, lo aplicas, observas qué pasó y vuelves a planificar.",
+    "problema+reflexiva": "La mitad del curso reprobó el primer parcial de Contabilidad; ese problema real da la pregunta, y la reflexión sistemática sobre cómo enfrentarlo pone en marcha los ciclos.",
+    "evidencia+reflexiva": "La reflexión te deja una pregunta sobre tu clase, como por qué fallan en el segundo parcial, y la evidencia aporta el método para responderla ante tus colegas.",
+    "expositiva+reflexiva": "Al revisar tus clases expositivas descubres para qué hablas en realidad, si para cubrir el programa o para cambiar cómo tu curso entiende el tema.",
+    "activo+reflexiva": "Puedes llenar la clase de dinámicas grupales y seguir pensando en cubrir el programa; al revisar por qué las usas, descubres si de verdad buscas que comprendan.",
+    "encuestas+reflexiva": "Al revisar el mito notas que las encuestas registran cómo vivió el curso cada estudiante, algo distinto de cuánto aprendió, y que conviene cruzarlas con otras fuentes.",
+    "piramide+reflexiva": "Al rastrear las cifras de la pirámide no aparece ningún estudio que las respalde, y ese hábito de buscar la fuente original sostiene esta forma de enseñar.",
+    "ciencia_aprendizaje+pedagogia": "Si la ciencia del aprendizaje probó que espaciar el repaso rinde más, la pedagogía puede convertir ese dato en el calendario de tu curso.",
+    "contenido+previos": "La ley de oferta y demanda se ancla en lo que el estudiante ya sabe del precio del pan; sin ese gancho, solo se memoriza.",
+    "activo+previos": "Un estudiante de Física que predice dónde caerá la pelota pone a prueba lo que ya creía y, si falla, rearma su idea por su cuenta.",
+    "pedagogia+previos": "Si sabes qué ecuaciones ya resuelve solo tu estudiante, puedes proponerle la siguiente, la que todavía no logra sin ayuda pero sí contigo al lado.",
+    "tiempo+zdp": "Como las rueditas de una bicicleta, la ayuda en la zona de desarrollo próximo se va quitando con el tiempo hasta que el estudiante pedalea solo.",
+    "retro+zdp": "Un comentario al margen que señala justo el paso que le falta al estudiante funciona como apoyo puntual, y se retira cuando ya no se necesita.",
+    "previos+reflexiva": "Antes de estudiar para el examen de Microbiología, separar lo que de verdad sabes de lo que solo crees saber es el primer acto metacognitivo.",
+    "metacognicion+proposito": "Saber cómo estudias sirve de poco sin una meta; si te propones dominar la unidad de enzimas, ese monitoreo te permite planificar y corregir el rumbo.",
+    "autoevaluacion+metacognicion": "Una estudiante de Arquitectura compara su maqueta con la rúbrica y, según lo que le falta, cambia su forma de trabajar; así el monitoreo se vuelve autorregulación.",
+    "previos+tiempo": "Lo que tu curso sabía de derivadas en marzo se va desvaneciendo si nadie lo usa, rápido al principio y más despacio después.",
+    "espaciada+problema": "Si cada guía de Física repasa problemas de unidades anteriores, tienes que reconocer qué tipo de problema enfrentas antes de elegir la técnica.",
+    "espaciada+intercalada": "Espaciar e intercalar se sienten como estudiar cuesta arriba, con más lentitud y más errores, y aun así dejan un aprendizaje más duradero.",
+    "intercalada+recuperacion": "Recuperar de memoria y mezclar tipos de problema cuestan más que releer o practicar en bloque, y ese esfuerzo extra deja recuerdos más firmes.",
+    "capsula+carga_cognitiva": "Una cápsula de video de Histología pensada desde la carga cognitiva narra en voz lo que muestra la imagen y deja fuera todo adorno que no ayude.",
+    "alineamiento+estudiante": "Si las actividades y la prueba de Farmacología piden razonar casos en vez de recitar dosis, el estudiante cambia su forma de estudiar y busca el sentido.",
+    "dominio+motivacion": "Cuando dominas por fin un tema difícil con tu propio esfuerzo, vives lo que Bandura consideró la fuente más poderosa de autoeficacia, y las ganas de seguir crecen.",
+    "metacognicion+motivacion": "Con ganas de mejorar y el hábito de revisar tus estrategias, un parcial reprobado se lee como señal de qué ajustar, y la habilidad, como algo que crece.",
+    "expositiva+metacognicion": "Si al exponer dices en voz alta cuándo dudas de un cálculo y cómo lo verificas, la clase enseña también la forma experta de pensar.",
+    "mapa+virtual": "Un mapa conceptual ya dibuja el saber como red de nodos y enlaces; en un entorno virtual, algunos nodos pasan a ser personas y comunidades reales.",
+    "activo+situado": "Un estudiante de Enfermería que prueba en el centro de salud lo que vio en clase, y mira qué pasa, recorre la mitad activa del ciclo de Kolb.",
+    "metacognicion+problema": "Un problema auténtico obliga a sopesar alternativas sin respuesta única; la metacognición agrega la vigilancia sobre tu propio razonamiento y los sesgos que lo tuercen.",
+    "cpc+escribir": "Saber cómo se escribe en tu disciplina es parte del conocimiento pedagógico del contenido, y enseñarlo de forma explícita da acceso a géneros que el campo da por sabidos.",
+    "escribir+situado": "Escribir informes clínicos o memorias de cálculo reales sitúa la escritura en la comunidad donde esos textos se usan y se juzgan.",
+    "grupo+reflexiva": "Cuando los docentes de Enfermería se juntan cada mes a revisar sus clases, van armando un repertorio común de casos y soluciones, con palabras propias para nombrarlos.",
+    "andamiaje+metacognicion": "Si al principio guías al estudiante para planificar y revisar su estudio, y luego retiras ese apoyo poco a poco, el control pasa de tus manos a las suyas.",
+    "reflexiva+simulacion": "En un paro cardíaco simulado, el maniquí pone la experiencia y el análisis posterior (debriefing) la convierte en aprendizaje, como pide el ciclo de Kolb.",
+    "cpc+tpk": "Ya sabes cómo enseñar Histología; si le sumas tu saber tecnopedagógico, puedes elegir con criterio el microscopio virtual que esa materia necesita.",
+    "olvido+recuperacion": "Ebbinghaus midió el olvido por el ahorro al reaprender, que crecía con cada repaso; recuperar cuando la memoria empieza a caer, sesión tras sesión, es el reaprendizaje sucesivo.",
+    "constructivismo+grupo": "Vygotsky llevó el constructivismo al plano social, y lo que un estudiante logra con ayuda del docente o de compañeros más capaces marca su zona de desarrollo próximo.",
+    "estilos+evidencia": "El principio multimedia de Mayer (combinar palabras e imágenes) ayuda a aprender sin clasificar a nadie por estilo, una práctica que la evidencia no respalda.",
+    "carga_cognitiva+expositiva": "Tus diapositivas ya son una presentación multimedia; Mayer recomienda quitarles lo decorativo y no llenarlas con el mismo texto que estás diciendo, para no sobrecargar.",
+    "enfoques_ensenanza+estudiante": "Trigwell, Prosser y Waterhouse hallaron que enseñar para transmitir información se asocia con más aprendizaje superficial que enseñar buscando el cambio conceptual del estudiante.",
+    "ciencia_aprendizaje+tiempo": "Ebbinghaus midió cuánto quedaba de lo aprendido a medida que pasaban los días, y su curva del olvido se volvió un hallazgo fundacional de la ciencia del aprendizaje.",
+    "intercalada+metacognicion": "Al intercalar, el estudiante siente que aprende menos que practicando por bloques, aunque en la prueba rinde más; la metacognición le permite notar ese desajuste.",
+    "modelado+motivacion": "Ver a alguien resolver la tarea explicando cómo piensa es experiencia vicaria, fuente de autoeficacia para Bandura, porque te deja ver un camino que tú también puedes seguir.",
+    "pedagogia+portafolio": "Si aplicas a tu propia pedagogía la lógica del portafolio que pides a tus estudiantes, terminas reuniendo evidencias comentadas de cómo enseñas y de qué aprende tu curso."
+  },
+  "informe": [
+    { "id": "cpc", "campo": "pista", "patrones": ["A2"] },
+    { "id": "cpc", "campo": "why", "patrones": ["A2", "A10"] },
+    { "id": "tpack", "campo": "pista", "patrones": ["A2"] },
+    { "id": "tpack", "campo": "why", "patrones": ["A1"] },
+    { "id": "tpack", "campo": "uni", "patrones": ["A1", "A2"] },
+    { "id": "reflexiva", "campo": "pista", "patrones": ["vida"] },
+    { "id": "reflexiva", "campo": "why", "patrones": ["A6", "A12", "B7"] },
+    { "id": "reflexiva", "campo": "uni", "patrones": ["A2"] },
+    { "id": "evidencia", "campo": "pista", "patrones": ["A1"] },
+    { "id": "evidencia", "campo": "why", "patrones": ["A10", "B10", "C"] },
+    { "id": "mapa", "campo": "pista", "patrones": ["vida"] },
+    { "id": "mapa", "campo": "why", "patrones": ["A2"] },
+    { "id": "previos", "campo": "pista", "patrones": ["vida"] },
+    { "id": "previos", "campo": "why", "patrones": ["A10", "A2"] },
+    { "id": "significativo", "campo": "pista", "patrones": ["vida"] },
+    { "id": "significativo", "campo": "why", "patrones": ["A12"] },
+    { "id": "significativo", "campo": "uni", "patrones": ["A10", "A2"] },
+    { "id": "constructivismo", "campo": "pista", "patrones": ["A1"] },
+    { "id": "constructivismo", "campo": "why", "patrones": ["A1", "A10"] },
+    { "id": "zdp", "campo": "uni", "patrones": ["A8", "B10"] },
+    { "id": "andamiaje", "campo": "uni", "patrones": ["A2", "A5"] },
+    { "id": "metacognicion", "campo": "pista", "patrones": ["A10", "A2"] },
+    { "id": "metacognicion", "campo": "why", "patrones": ["B10"] },
+    { "id": "autorregulado", "campo": "pista", "patrones": ["A2"] },
+    { "id": "espaciada", "campo": "pista", "patrones": ["vida"] },
+    { "id": "segmentacion", "campo": "pista", "patrones": ["vida"] },
+    { "id": "situado", "campo": "pista", "patrones": ["A2"] },
+    { "id": "situado", "campo": "uni", "patrones": ["A2"] },
+    { "id": "sotl", "campo": "pista", "patrones": ["vida"] },
+    { "id": "sotl", "campo": "why", "patrones": ["A2", "A6"] },
+    { "id": "sotl", "campo": "uni", "patrones": ["A2"] },
+    { "id": "investigacion_accion", "campo": "why", "patrones": ["A1", "A6"] },
+    { "id": "portafolio_docente", "campo": "why", "patrones": ["A1", "A6"] },
+    { "id": "enfoques_ensenanza", "campo": "pista", "patrones": ["A10"] },
+    { "id": "enfoques_ensenanza", "campo": "why", "patrones": ["A1", "A10"] },
+    { "id": "enfoques_ensenanza", "campo": "uni", "patrones": ["A1"] },
+    { "id": "eval_docencia", "campo": "pista", "patrones": ["A1"] },
+    { "id": "eval_docencia", "campo": "why", "patrones": ["A10", "A6"] },
+    { "id": "comunidad_practica", "campo": "pista", "patrones": ["vida"] },
+    { "id": "comunidad_practica", "campo": "why", "patrones": ["A10", "A2", "A6"] },
+    { "id": "carga_cognitiva", "campo": "pista", "patrones": ["A6"] },
+    { "id": "ejemplos_resueltos", "campo": "pista", "patrones": ["vida"] },
+    { "id": "ejemplos_resueltos", "campo": "why", "patrones": ["A10"] },
+    { "id": "intercalada", "campo": "pista", "patrones": ["vida"] },
+    { "id": "intercalada", "campo": "uni", "patrones": ["A2"] },
+    { "id": "dificultades_deseables", "campo": "pista", "patrones": ["vida"] },
+    { "id": "dificultades_deseables", "campo": "why", "patrones": ["A10", "A2"] },
+    { "id": "reaprendizaje", "campo": "why", "patrones": ["A10"] },
+    { "id": "reaprendizaje", "campo": "uni", "patrones": ["C"] },
+    { "id": "olvido", "campo": "pista", "patrones": ["vida"] },
+    { "id": "olvido", "campo": "why", "patrones": ["A10"] },
+    { "id": "multimedia", "campo": "pista", "patrones": ["vida"] },
+    { "id": "profundo", "campo": "pista", "patrones": ["A1"] },
+    { "id": "profundo", "campo": "why", "patrones": ["A1", "A10"] },
+    { "id": "profundo", "campo": "uni", "patrones": ["B10"] },
+    { "id": "motivacion", "campo": "pista", "patrones": ["vida"] },
+    { "id": "motivacion", "campo": "why", "patrones": ["A2"] },
+    { "id": "autoeficacia", "campo": "pista", "patrones": ["vida"] },
+    { "id": "mentalidad", "campo": "pista", "patrones": ["vida"] },
+    { "id": "mentalidad", "campo": "why", "patrones": ["A10", "A2"] },
+    { "id": "emociones", "campo": "pista", "patrones": ["A10", "A2"] },
+    { "id": "emociones", "campo": "why", "patrones": ["A10", "A2"] },
+    { "id": "modelado", "campo": "pista", "patrones": ["vida"] },
+    { "id": "modelado", "campo": "why", "patrones": ["A1", "A2"] },
+    { "id": "modelado", "campo": "uni", "patrones": ["A2"] },
+    { "id": "conectivismo", "campo": "pista", "patrones": ["A2"] },
+    { "id": "conectivismo", "campo": "why", "patrones": ["A2", "A10"] },
+    { "id": "conectivismo", "campo": "uni", "patrones": ["A2"] },
+    { "id": "experiencial", "campo": "pista", "patrones": ["A10"] },
+    { "id": "experiencial", "campo": "why", "patrones": ["A10"] },
+    { "id": "transferencia", "campo": "pista", "patrones": ["vida"] },
+    { "id": "transferencia", "campo": "uni", "patrones": ["A2"] },
+    { "id": "cambio_conceptual", "campo": "pista", "patrones": ["vida"] },
+    { "id": "conceptos_umbral", "campo": "pista", "patrones": ["vida", "B1"] },
+    { "id": "conceptos_umbral", "campo": "why", "patrones": ["A10"] },
+    { "id": "conceptos_umbral", "campo": "uni", "patrones": ["A10", "B10"] },
+    { "id": "pensamiento_critico", "campo": "pista", "patrones": ["vida"] },
+    { "id": "pensamiento_critico", "campo": "why", "patrones": ["A1", "A10", "A2"] },
+    { "id": "escribir", "campo": "pista", "patrones": ["A1"] },
+    { "id": "escribir", "campo": "why", "patrones": ["A1", "A10", "A2"] },
+    { "id": "escribir", "campo": "uni", "patrones": ["A10"] },
+    { "id": "alfabetizacion_academica", "campo": "pista", "patrones": ["vida"] },
+    { "id": "alfabetizacion_academica", "campo": "why", "patrones": ["A10", "A1", "A2"] },
+    { "id": "alfabetizacion_academica", "campo": "uni", "patrones": ["A2"] },
+    { "id": "ciencia_aprendizaje", "campo": "pista", "patrones": ["B3"] },
+    { "id": "ciencia_aprendizaje", "campo": "why", "patrones": ["A2", "B3"] },
+    { "id": "contenido+contenido", "campo": "nota", "patrones": ["A10"] },
+    { "id": "pedagogia+pedagogia", "campo": "nota", "patrones": ["A10"] },
+    { "id": "contenido+estudiante", "campo": "nota", "patrones": ["A10"] },
+    { "id": "estudiante+tiempo", "campo": "nota", "patrones": ["vida"] },
+    { "id": "estudiante+proposito", "campo": "nota", "patrones": ["A1"] },
+    { "id": "contenido+pedagogia", "campo": "nota", "patrones": ["A10"] },
+    { "id": "contenido+tiempo", "campo": "nota", "patrones": ["vida"] },
+    { "id": "cpc+tecnologia", "campo": "nota", "patrones": ["A10", "C"] },
+    { "id": "contenido+tpk", "campo": "nota", "patrones": ["A10"] },
+    { "id": "pedagogia+tck", "campo": "nota", "patrones": ["A2"] },
+    { "id": "mas_tecnologia+reflexiva", "campo": "nota", "patrones": ["A1"] },
+    { "id": "cambio_conceptual+pedagogia", "campo": "nota", "patrones": ["A10"] },
+    { "id": "reflexiva+tiempo", "campo": "nota", "patrones": ["A10"] },
+    { "id": "problema+reflexiva", "campo": "nota", "patrones": ["vida"] },
+    { "id": "evidencia+reflexiva", "campo": "nota", "patrones": ["A6", "B10"] },
+    { "id": "expositiva+reflexiva", "campo": "nota", "patrones": ["A10"] },
+    { "id": "activo+reflexiva", "campo": "nota", "patrones": ["A1", "A10"] },
+    { "id": "encuestas+reflexiva", "campo": "nota", "patrones": ["A1"] },
+    { "id": "piramide+reflexiva", "campo": "nota", "patrones": ["A10"] },
+    { "id": "ciencia_aprendizaje+pedagogia", "campo": "nota", "patrones": ["A2", "B8"] },
+    { "id": "contenido+previos", "campo": "nota", "patrones": ["vida"] },
+    { "id": "activo+previos", "campo": "nota", "patrones": ["A1", "A10", "A2"] },
+    { "id": "pedagogia+previos", "campo": "nota", "patrones": ["A10"] },
+    { "id": "tiempo+zdp", "campo": "nota", "patrones": ["A10"] },
+    { "id": "retro+zdp", "campo": "nota", "patrones": ["vida"] },
+    { "id": "previos+reflexiva", "campo": "nota", "patrones": ["A10"] },
+    { "id": "metacognicion+proposito", "campo": "nota", "patrones": ["A2", "B10"] },
+    { "id": "autoevaluacion+metacognicion", "campo": "nota", "patrones": ["A10"] },
+    { "id": "previos+tiempo", "campo": "nota", "patrones": ["A10"] },
+    { "id": "espaciada+problema", "campo": "nota", "patrones": ["A1"] },
+    { "id": "espaciada+intercalada", "campo": "nota", "patrones": ["A10", "A13"] },
+    { "id": "intercalada+recuperacion", "campo": "nota", "patrones": ["A6"] },
+    { "id": "capsula+carga_cognitiva", "campo": "nota", "patrones": ["A2"] },
+    { "id": "alineamiento+estudiante", "campo": "nota", "patrones": ["A10"] },
+    { "id": "dominio+motivacion", "campo": "nota", "patrones": ["A10"] },
+    { "id": "metacognicion+motivacion", "campo": "nota", "patrones": ["A10", "B10"] },
+    { "id": "expositiva+metacognicion", "campo": "nota", "patrones": ["A1", "A2"] },
+    { "id": "mapa+virtual", "campo": "nota", "patrones": ["A2"] },
+    { "id": "activo+situado", "campo": "nota", "patrones": ["A10", "A1"] },
+    { "id": "metacognicion+problema", "campo": "nota", "patrones": ["A2"] },
+    { "id": "cpc+escribir", "campo": "nota", "patrones": ["A10"] },
+    { "id": "escribir+situado", "campo": "nota", "patrones": ["A2"] },
+    { "id": "grupo+reflexiva", "campo": "nota", "patrones": ["A10", "A2"] },
+    { "id": "andamiaje+metacognicion", "campo": "nota", "patrones": ["A10", "A2"] },
+    { "id": "reflexiva+simulacion", "campo": "nota", "patrones": ["A10"] },
+    { "id": "cpc+tpk", "campo": "nota", "patrones": ["A10"] },
+    { "id": "olvido+recuperacion", "campo": "nota", "patrones": ["A10"] },
+    { "id": "constructivismo+grupo", "campo": "nota", "patrones": ["A10"] },
+    { "id": "estilos+evidencia", "campo": "nota", "patrones": ["A1", "A10"] },
+    { "id": "carga_cognitiva+expositiva", "campo": "nota", "patrones": ["A10", "A2", "C"] },
+    { "id": "enfoques_ensenanza+estudiante", "campo": "nota", "patrones": ["A10", "B10"] },
+    { "id": "ciencia_aprendizaje+tiempo", "campo": "nota", "patrones": ["A10"] },
+    { "id": "intercalada+metacognicion", "campo": "nota", "patrones": ["A6"] },
+    { "id": "modelado+motivacion", "campo": "nota", "patrones": ["A10"] },
+    { "id": "pedagogia+portafolio", "campo": "nota", "patrones": ["A10", "A2"] }
+  ]
+}

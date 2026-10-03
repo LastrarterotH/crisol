@@ -1,0 +1,442 @@
+{
+  "refs": {
+    "piaget52": "Piaget, J. (1952). _The origins of intelligence in children_ (M. Cook, Trad.). International Universities Press. (Obra original publicada en 1936)",
+    "dewey38": "Dewey, J. (1938). _Experience and education_. Macmillan.",
+    "dewey10": "Dewey, J. (1910). _How we think_. D. C. Heath.",
+    "boud85": "Boud, D., Keogh, R., & Walker, D. (Eds.). (1985). _Reflection: Turning experience into learning_. Kogan Page.",
+    "chi14": "Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. _Educational Psychologist, 49_(4), 219–243.",
+    "bartlett32": "Bartlett, F. C. (1932). _Remembering: A study in experimental and social psychology_. Cambridge University Press.",
+    "tinto93": "Tinto, V. (1993). _Leaving college: Rethinking the causes and cures of student attrition_ (2nd ed.). University of Chicago Press.",
+    "fitts67": "Fitts, P. M., & Posner, M. I. (1967). _Human performance_. Brooks/Cole.",
+    "ericsson93": "Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. _Psychological Review, 100_(3), 363–406.",
+    "rosenshine96": "Rosenshine, B., Meister, C., & Chapman, S. (1996). Teaching students to generate questions: A review of the intervention studies. _Review of Educational Research, 66_(2), 181–221.",
+    "metcalfe17": "Metcalfe, J. (2017). Learning from errors. _Annual Review of Psychology, 68_, 465–489.",
+    "sinha21": "Sinha, T., & Kapur, M. (2021). When problem solving followed by instruction works: Evidence for productive failure. _Review of Educational Research, 91_(5), 761–798.",
+    "immordino07": "Immordino-Yang, M. H., & Damasio, A. (2007). We feel, therefore we learn: The relevance of affective and social neuroscience to education. _Mind, Brain, and Education, 1_(1), 3–10.",
+    "vygotsky86": "Vygotsky, L. S. (1986). _Thought and language_ (A. Kozulin, Ed. y Trad.). MIT Press. (Obra original publicada en 1934)",
+    "lemke90": "Lemke, J. L. (1990). _Talking science: Language, learning, and values_. Ablex.",
+    "ong82": "Ong, W. J. (1982). _Orality and literacy: The technologizing of the word_. Methuen.",
+    "salomon91": "Salomon, G., Perkins, D. N., & Globerson, T. (1991). Partners in cognition: Extending human intelligence with intelligent technologies. _Educational Researcher, 20_(3), 2–9.",
+    "huizinga49": "Huizinga, J. (1949). _Homo ludens: A study of the play-element in culture_ (R. F. C. Hull, Trad.). Routledge & Kegan Paul. (Obra original publicada en 1938)",
+    "haskins23": "Haskins, C. H. (1923). _The rise of universities_. Henry Holt.",
+    "hattie96": "Hattie, J., & Marsh, H. W. (1996). The relationship between research and teaching: A meta-analysis. _Review of Educational Research, 66_(4), 507–542.",
+    "healey09": "Healey, M., & Jenkins, A. (2009). _Developing undergraduate research and inquiry_. Higher Education Academy.",
+    "loewenstein94": "Loewenstein, G. (1994). The psychology of curiosity: A review and reinterpretation. _Psychological Bulletin, 116_(1), 75–98.",
+    "gruber14": "Gruber, M. J., Gelman, B. D., & Ranganath, C. (2014). States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit. _Neuron, 84_(2), 486–496.",
+    "macnamara14": "Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis. _Psychological Science, 25_(8), 1608–1618.",
+    "mandinach16": "Mandinach, E. B., & Gummer, E. S. (2016). What does it mean for teachers to be data literate: Laying out the skills, knowledge, and dispositions. _Teaching and Teacher Education, 60_, 366–376.",
+    "campbell79": "Campbell, D. T. (1979). Assessing the impact of planned social change. _Evaluation and Program Planning, 2_(1), 67–90.",
+    "knuth97": "Knuth, D. E. (1997). _The art of computer programming: Vol. 1. Fundamental algorithms_ (3rd ed.). Addison-Wesley.",
+    "wing06": "Wing, J. M. (2006). Computational thinking. _Communications of the ACM, 49_(3), 33–35.",
+    "turing37": "Turing, A. M. (1937). On computable numbers, with an application to the Entscheidungsproblem. _Proceedings of the London Mathematical Society, s2-42_(1), 230–265.",
+    "papert80": "Papert, S. (1980). _Mindstorms: Children, computers, and powerful ideas_. Basic Books.",
+    "leiner09": "Leiner, B. M., Cerf, V. G., Clark, D. D., Kahn, R. E., Kleinrock, L., Lynch, D. C., Postel, J., Roberts, L. G., & Wolff, S. (2009). A brief history of the Internet. _ACM SIGCOMM Computer Communication Review, 39_(5), 22–31.",
+    "samuel59": "Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. _IBM Journal of Research and Development, 3_(3), 210–229.",
+    "mitchell97": "Mitchell, T. M. (1997). _Machine learning_. McGraw-Hill.",
+    "baker22": "Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. _International Journal of Artificial Intelligence in Education, 32_(4), 1052–1092."
+  },
+  "fichas": {
+    "mente": {
+      "pista": "Eso que llevas detrás de los ojos y que ahora mismo está leyendo esta adivinanza.",
+      "why": "La mente es lo que en ti aprende desde dentro, dándole sentido a cada cosa nueva. Piaget sostuvo, a partir de sus estudios con niños, que cada persona construye su conocimiento actuando sobre lo que la rodea, asimilando lo nuevo a los esquemas que ya tiene y modificándolos cuando algo no encaja. Por eso, para enseñar conviene averiguar qué piensa ya quien aprende. Mézclala consigo misma o con otro primigenio y mira qué aparece.",
+      "uni": "En la primera clase de Bioquímica, pide que cada estudiante escriba cómo cree que el cuerpo saca energía de un pan, antes de explicar nada.",
+      "refs": [
+        "piaget52"
+      ]
+    },
+    "mundo": {
+      "pista": "Todo lo que queda fuera de tu cabeza y que, tarde o temprano, desmiente alguna de tus ideas.",
+      "why": "El mundo es todo lo que está fuera de tu cabeza y responde cuando actúas sobre él. Dewey sostuvo que la educación genuina pasa por la experiencia, aunque no toda experiencia educa; educa la que se conecta con las siguientes y surge de una interacción real con el entorno. Al aprendizaje le aporta problemas reales y la sorpresa de que las cosas no salgan como esperabas. Mézclalo con la mente, con otros o con el tiempo.",
+      "uni": "En Contabilidad, lleva la factura real de un comercio del barrio y pide que el curso registre la operación antes de ver la teoría del asiento contable.",
+      "refs": [
+        "dewey38"
+      ]
+    },
+    "otros": {
+      "pista": "Las personas que piensan contigo y que a veces, por suerte, te llevan la contraria.",
+      "why": "Los otros son las personas con quienes aprendes, en la sala o en un libro. Vygotsky sostuvo que las funciones mentales superiores aparecen primero entre personas y solo después dentro de cada una, y que lo que hoy logras con ayuda, mañana podrás hacerlo por tu cuenta. Aportan al aprendizaje la ayuda en el momento justo y también el desacuerdo, que obliga a explicarse mejor. Mézclalos con la mente, con el mundo o con el tiempo.",
+      "uni": "En Arquitectura, antes de corregir un plano, pide que cada estudiante se lo explique a un compañero y que este le haga una pregunta.",
+      "refs": [
+        "vygotsky78"
+      ]
+    },
+    "tiempo": {
+      "pista": "Nadie lo ve pasar en clase, pero decide qué recordarás en el examen y qué no.",
+      "why": "Todo aprendizaje ocurre en el tiempo. Ebbinghaus memorizó listas de sílabas sin sentido y midió cómo las olvidaba, muy rápido al principio y cada vez más despacio, y notó que repartir los repasos en varios días le rendía más que amontonarlos. Carroll agregó que cada estudiante necesita una cantidad distinta de tiempo para aprender lo mismo. Mézclalo con otro primigenio, o consigo mismo, y mira qué sale.",
+      "uni": "En Historia, dedica los primeros cinco minutos de cada clase a dos preguntas sin nota sobre lo visto hace dos semanas.",
+      "refs": [
+        "ebbinghaus13",
+        "carroll63"
+      ]
+    },
+    "reflexion": {
+      "pista": "Volver a mirar con calma lo que pensaste o hiciste, para entender por qué salió así.",
+      "why": "Cuando la mente se toma a sí misma como objeto, aparece la reflexión. Dewey la describió como examinar una creencia con cuidado y constancia a la luz de las razones que la sostienen, y observó que el pensamiento reflexivo empieza cuando algo nos deja perplejos. Boud, Keogh y Walker la entendieron como volver sobre lo vivido, incluidas las emociones que dejó, para reevaluarlo y convertirlo en aprendizaje.",
+      "uni": "Después de devolver una prueba de Derecho Civil, da diez minutos para que cada estudiante escriba qué error repitió y a qué lo atribuye.",
+      "refs": [
+        "dewey10",
+        "boud85"
+      ]
+    },
+    "experiencia": {
+      "pista": "Lo que te pasa cuando sales a hacer algo de verdad y la realidad te responde.",
+      "why": "Cuando la mente se encuentra con el mundo y actúa sobre él, vive una experiencia. Dewey propuso dos criterios para que una experiencia eduque: continuidad, porque cada experiencia prepara las siguientes, e interacción real entre la persona y su entorno. Kolb describió el aprendizaje como un proceso en el que el conocimiento se crea al transformar la experiencia. Para que deje aprendizaje hay que detenerse a pensarla, y por eso rinde más junto a la reflexión.",
+      "uni": "En Ingeniería Civil, antes de la clase de suelos, pide que cada grupo tome una muestra de tierra del campus y prediga cuánta agua absorberá.",
+      "refs": [
+        "dewey38",
+        "kolb84"
+      ]
+    },
+    "dialogo": {
+      "pista": "Dos cabezas que se turnan para hablar y escuchar, y salen pensando algo que ninguna traía.",
+      "why": "Cuando una mente se cruza con otras y empiezan a responderse, aparece el diálogo. Chi y Wylie propusieron, a partir de una revisión de estudios, que el modo interactivo, en que dos personas construyen ideas respondiendo a lo que dice la otra, suele producir más aprendizaje que construirlas en solitario. Smith y colaboradores mostraron que discutir una pregunta conceptual con compañeros mejoraba las respuestas siguientes, aunque nadie en el grupo supiera antes la respuesta.",
+      "uni": "En Sociología, entrega una afirmación polémica del texto y pide que, en parejas, una persona la defienda y la otra le pregunte cómo lo sabe.",
+      "refs": [
+        "chi14",
+        "smith09"
+      ]
+    },
+    "memoria": {
+      "pista": "El cajón donde guardas lo vivido, aunque cada vez que lo abres el contenido cambia un poco.",
+      "why": "Sostenida en el tiempo, la mente forma memoria, la capacidad de conservar lo aprendido y traerlo de vuelta cuando se necesita. Bartlett mostró que recordar implica reconstruir, porque quienes volvían a contar un relato desconocido lo acortaban y lo acomodaban a lo que ya sabían de su propia cultura. Recuperar algo también lo fortalece, y Roediger y Karpicke encontraron que quienes se pusieron a prueba recordaban más una semana después que quienes volvieron a leer el texto.",
+      "uni": "Al empezar la clase de Farmacología, pide que el curso escriba sin apuntes los fármacos de la sesión anterior y cómo actúa cada uno.",
+      "refs": [
+        "bartlett32",
+        "roediger06"
+      ]
+    },
+    "comunidad": {
+      "pista": "Gente que comparte un lugar y unas costumbres, y siente que pertenece al mismo grupo.",
+      "why": "Cuando varias personas comparten un mismo lugar del mundo, con normas y propósitos propios, forman una comunidad. Lave y Wenger describieron cómo los recién llegados a un oficio aprenden participando, primero en tareas periféricas y luego en las centrales. En su modelo del abandono universitario, Tinto le dio un peso central a cuánto se integra el estudiante a la vida académica y social de la institución.",
+      "uni": "En la primera semana de Odontología, arma grupos de estudio fijos e invita a cada uno a un estudiante de curso superior, para que los nuevos sepan a quién preguntar.",
+      "refs": [
+        "lave91",
+        "tinto93"
+      ]
+    },
+    "cambio": {
+      "pista": "Lo que los años le hacen al paisaje y un buen semestre a una persona.",
+      "why": "Con tiempo, el mundo se transforma, y aprender es una de esas transformaciones. Shuell definió el aprendizaje como un cambio duradero en la conducta, o en la capacidad de actuar de cierta manera, que resulta de la práctica o de otras experiencias. Soderstrom y Bjork distinguen ese cambio del desempeño del momento, porque rendir bien durante la clase no garantiza haber aprendido.",
+      "uni": "En Química General, aplica la misma pregunta diagnóstica el primer día y en la semana ocho, y muéstrale al curso cuánto cambiaron sus respuestas.",
+      "refs": [
+        "shuell86",
+        "soderstrom15"
+      ]
+    },
+    "saber": {
+      "pista": "Lo que la humanidad fue averiguando generación tras generación y dejó a tu alcance en libros y oficios.",
+      "why": "Muchas personas, a lo largo de mucho tiempo, construyen y depuran lo que hoy llamamos saber, en forma de disciplinas y oficios. Houssaye lo ubicó como uno de los tres polos del triángulo pedagógico, junto al docente y al estudiante. Chevallard mostró que el saber de los especialistas se transforma para poder enseñarse y llega al aula convertido en saber enseñado.",
+      "uni": "En Historia del Arte, muestra cómo cambió en el último siglo la interpretación de una misma obra y pide al curso identificar quién aportó cada lectura.",
+      "refs": [
+        "houssaye88",
+        "chevallard91"
+      ]
+    },
+    "practica": {
+      "pista": "Hacerlo una vez más, y luego otra, hasta que las manos se acuerdan solas.",
+      "why": "Dedicar tiempo, una y otra vez, a la misma tarea es practicar. Fitts y Posner describieron cómo una habilidad pasa por una fase cognitiva, en que cada paso exige atención, luego por una asociativa y llega a una autónoma, en que la tarea sale casi sin pensar. Ericsson y colaboradores mostraron que el dominio se asocia a una práctica diseñada para mejorar, más que a la simple acumulación de horas, y por eso esta ficha cambia mucho al sumarle la mente.",
+      "uni": "En Enfermería, dedica quince minutos de cada taller a repetir la técnica de lavado de manos clínico hasta que el curso la haga sin mirar la pauta.",
+      "refs": [
+        "fitts67",
+        "ericsson93"
+      ]
+    },
+    "pregunta": {
+      "pista": "Lleva un signo al revés al comienzo y la hace quien de verdad quiere saber algo.",
+      "why": "Cuando una mente choca con un problema real y lo que sabe no le alcanza, formula una pregunta. Dewey escribió que el pensamiento empieza en una encrucijada, una situación ambigua que obliga a elegir y pide salir de la perplejidad. Rosenshine, Meister y Chapman revisaron estudios, en su mayoría escolares, donde se enseñó a los estudiantes a generar sus propias preguntas sobre un texto, y encontraron mejoras en la comprensión.",
+      "uni": "Al terminar la lectura de un caso en Administración, pide que cada estudiante escriba la pregunta que le haría al gerente antes de tomar cualquier decisión.",
+      "refs": [
+        "dewey10",
+        "rosenshine96"
+      ]
+    },
+    "error": {
+      "pista": "La piedra con la que tropiezas al resolver, que también sirve para pisar más firme después.",
+      "why": "Cuando la experiencia se enfrenta a un problema real, a veces lo intentado falla, y ese tropiezo es un error. Metcalfe concluyó que equivocarse durante el aprendizaje y recibir luego la corrección favorece la retención, y que los errores cometidos con mucha seguridad suelen corregirse mejor. Sinha y Kapur encontraron en un metaanálisis un efecto moderado a favor de intentar resolver un problema antes de la explicación, mayor cuando el intento sigue un diseño cuidadoso.",
+      "uni": "En Estadística, entrega un problema de probabilidad antes de enseñar la fórmula, deja que los equipos lo intenten y se equivoquen, y luego explica a partir de sus soluciones.",
+      "refs": [
+        "metcalfe17",
+        "sinha21"
+      ]
+    },
+    "emocion": {
+      "pista": "Ese calor en el pecho o ese nudo en el estómago que aparece antes de presentar en clase.",
+      "why": "Las experiencias le dejan a la mente un tono, como interés, miedo, orgullo o aburrimiento, y ese tono es la emoción. Immordino-Yang y Damasio sostienen, desde la neurociencia, que la atención y la memoria están entrelazadas con la emoción, y que sin ella lo aprendido difícilmente guía decisiones en la vida real. Pekrun y colaboradores encontraron que las emociones que viven los estudiantes al estudiar se relacionan con su motivación y su rendimiento.",
+      "uni": "Antes del primer examen parcial de Cálculo, dedica cinco minutos a que el curso anote qué le preocupa de la prueba y responde las dudas más repetidas.",
+      "refs": [
+        "immordino07",
+        "pekrun02"
+      ]
+    },
+    "lenguaje": {
+      "pista": "Sistema de palabras y reglas con que conversas con otros y también contigo en silencio.",
+      "why": "Cuando el diálogo se instala en la mente, se vuelve lenguaje, una herramienta con la que también pensamos. Vygotsky sostuvo que el habla tiene un origen social y que, con el desarrollo, se interioriza como pensamiento verbal. Lemke mostró que aprender ciencias es en buena parte aprender a hablar ciencia, y lo mismo vale para otras disciplinas, cada una con su vocabulario y su manera de argumentar.",
+      "uni": "En Derecho Penal, pide que el curso explique un fallo primero con palabras cotidianas y luego con los términos técnicos, y que compare qué cambia.",
+      "refs": [
+        "vygotsky86",
+        "lemke90"
+      ]
+    },
+    "escritura": {
+      "pista": "Un invento para conversar con quien todavía no ha nacido o con quien ya se fue.",
+      "why": "Si un diálogo se guarda en una memoria fuera del cuerpo, aparece la escritura, y alguien puede responderte siglos después. En el Fedro de Platón, Sócrates temía que quienes aprendieran a escribir se volvieran olvidadizos por confiar en marcas externas. Ong analizó cómo la escritura transformó la manera de pensar, porque al fijar las palabras permite volver sobre ellas y corregirlas con una distancia que la conversación no da.",
+      "uni": "En Medicina, pide que cada estudiante redacte la evolución de un paciente simulado para un colega del turno siguiente, que deberá entenderla sin hacer preguntas.",
+      "refs": [
+        "ong82"
+      ]
+    },
+    "herramienta": {
+      "pista": "Lo que inventas después de golpearte muchas veces con la misma tarea, para golpearte menos.",
+      "why": "La práctica repetida sobre el mundo deja objetos que facilitan la tarea siguiente, como el martillo o la tabla de logaritmos. Vygotsky distinguió las herramientas, que actúan sobre el mundo exterior, de los signos, que orientan la propia mente, y vio en ambos mediadores de la actividad humana. Salomon, Perkins y Globerson propusieron mirar dos efectos, lo que logras con una herramienta mientras la usas y lo que te queda cuando ya no la tienes.",
+      "uni": "En Topografía, haz que el curso mida una pendiente primero con cuerda y nivel, y luego con una aplicación del teléfono, y discuta qué entendió con cada una.",
+      "refs": [
+        "vygotsky78",
+        "salomon91"
+      ]
+    },
+    "juego": {
+      "pista": "Actividad libre, con reglas inventadas, que se hace por gusto y en la que perder no duele tanto.",
+      "why": "Cuando varias personas practican juntas por gusto y bajo reglas acordadas, juegan. Huizinga describió el juego como una actividad libre, con reglas propias y separada de la vida corriente, y sostuvo que es más antiguo que la cultura. Vygotsky observó que al jugar los niños se comportan por encima de su edad habitual, porque las reglas los obligan a contener sus impulsos.",
+      "uni": "En Microeconomía, organiza con el curso una subasta con billetes de utilería y luego analiza las ofertas con la teoría vista en clase.",
+      "refs": [
+        "huizinga49",
+        "vygotsky78"
+      ]
+    },
+    "docente": {
+      "pista": "Persona que pone lo que sabe al alcance de otros y aprende del intento cada semestre.",
+      "why": "Quien pone un saber en diálogo con otras personas para que lo aprendan ejerce de docente. Houssaye lo ubicó como uno de los tres polos del triángulo pedagógico, junto al estudiante y al saber, y advirtió que cada situación pedagógica privilegia la relación entre dos de ellos y deja al tercero en segundo plano. Shulman agregó que enseñar bien requiere un conocimiento propio, el de cómo volver comprensible una materia para otros.",
+      "uni": "Graba diez minutos de tu próxima clase de Química Orgánica y anota en qué momentos hablaste tú y en cuáles hablaron tus estudiantes.",
+      "refs": [
+        "houssaye88",
+        "shulman86"
+      ]
+    },
+    "aprendizaje": {
+      "pista": "El cambio duradero que deja en ti una vivencia sobre la que te detuviste a pensar.",
+      "why": "Cuando la reflexión se encuentra con la experiencia, lo vivido se convierte en aprendizaje. Kolb lo describió como un ciclo en el que se vive algo concreto, se observa con calma, se conceptualiza y luego se pone a prueba en una situación nueva. La síntesis How People Learn agrega que lo nuevo se construye sobre lo que ya se sabe, y que para usarlo en situaciones nuevas hace falta comprenderlo.",
+      "uni": "Después de una salida de campo en Geología, pide que cada estudiante describa algo que no esperaba encontrar y lo explique con un concepto del curso.",
+      "refs": [
+        "kolb84",
+        "bransford00"
+      ]
+    },
+    "universidad": {
+      "pista": "Gremio medieval de maestros y estudiantes que lleva más de ocho siglos funcionando y ahora tiene cafetería.",
+      "why": "Una comunidad organizada alrededor del saber forma una universidad. Haskins recuerda que en la Edad Media universitas designaba a cualquier gremio o corporación, fuera de barberos o de estudiantes, y que con el tiempo pasó a nombrar a las asociaciones de maestros y alumnos, como las de Bolonia y París. Boyer propuso en 1990 ampliar lo que cuenta como trabajo académico, para que enseñar se reconozca junto con investigar.",
+      "uni": "En la primera semana de Ingeniería, invita a una investigadora de la facultad a contar qué problema estudia y cómo podrían sumarse estudiantes de pregrado.",
+      "refs": [
+        "haskins23",
+        "boyer90"
+      ]
+    },
+    "investigacion": {
+      "pista": "Interrogar a la realidad con método para añadir algo que nadie sabía todavía.",
+      "why": "Llevar el saber disponible al mundo para ponerlo a prueba y ampliarlo es investigar. Hattie y Marsh revisaron decenas de estudios y encontraron que la relación entre la productividad en investigación de los académicos y la calidad de su docencia es prácticamente nula. Healey y Jenkins proponen construir el vínculo a propósito, haciendo que los estudiantes de pregrado aprendan investigando y participen de la investigación de su disciplina.",
+      "uni": "En Biología, entrega los datos crudos de un estudio publicado y pide que los equipos vuelvan a calcular uno de sus resultados y lo comparen con el artículo.",
+      "refs": [
+        "hattie96",
+        "healey09"
+      ]
+    },
+    "curiosidad": {
+      "pista": "Lo que mató al gato, según el refrán, y lo que mantiene despierto a un buen estudiante.",
+      "why": "Cuando una pregunta viene cargada de emoción y pide respuesta con urgencia, aparece la curiosidad. Loewenstein la explicó como la sensación de privación que produce percibir un vacío entre lo que sabes y lo que quieres saber. En un experimento con preguntas de cultura general, Gruber y colaboradores encontraron que las personas recordaban mejor las respuestas que más curiosidad les despertaban, e incluso rostros ajenos al tema mostrados mientras esperaban.",
+      "uni": "Abre la clase de Astronomía preguntando por qué el cielo nocturno es oscuro si hay tantas estrellas, y deja que el curso apueste respuestas antes de explicar.",
+      "refs": [
+        "loewenstein94",
+        "gruber14"
+      ]
+    },
+    "practica_deliberada": {
+      "pista": "Ensayar justo el compás que te sale mal, con atención total y alguien que te corrija.",
+      "why": "Si a la repetición le sumas una mente atenta que busca mejorar un aspecto concreto, aparece la práctica deliberada. Ericsson, Krampe y Tesch-Römer la estudiaron en violinistas y la definieron como una actividad diseñada, a menudo por un maestro, para mejorar aspectos específicos con retroalimentación y gran concentración. El metaanálisis de Macnamara, Hambrick y Oswald halló que explica el 21 % de las diferencias de desempeño en música y apenas el 4 % en educación.",
+      "uni": "En el taller de suturas de Medicina, pide que cada estudiante repita solo el nudo que más le cuesta mientras un compañero lo observa con una pauta y le da retroalimentación.",
+      "refs": [
+        "ericsson93",
+        "macnamara14"
+      ]
+    },
+    "datos": {
+      "pista": "Huellas que dejas en cada clic, contadas y guardadas, esperando a que alguien les pregunte algo.",
+      "why": "Cuando la tecnología guarda memoria de lo que ocurre a lo largo del tiempo, se acumulan datos, registros que se pueden contar y comparar. Mandinach y Gummer describen la alfabetización docente en datos como un proceso que parte de formular una buena pregunta y termina en una decisión pedagógica cuyos efectos se evalúan. Campbell advirtió que cuanto más se usa un indicador cuantitativo para tomar decisiones sociales, más presión recibe para corromperse y más distorsiona lo que pretendía observar.",
+      "uni": "Antes de abrir el panel de la plataforma de tu curso de Economía, escribe qué decisión quieres tomar con él y revisa solo los datos que la informan.",
+      "refs": [
+        "mandinach16",
+        "campbell79"
+      ]
+    },
+    "algoritmo": {
+      "pista": "Una receta tan precisa que hasta una máquina podría seguirla sin pedirte aclaraciones.",
+      "why": "Escribir paso a paso cómo resolver un problema produce un algoritmo. La palabra viene del nombre del matemático persa al-Juarismi, del siglo IX, y Knuth le exige a un algoritmo, entre otras cosas, que termine tras un número finito de pasos y que cada paso esté definido sin ambigüedad. Wing propuso el pensamiento computacional, que incluye descomponer problemas y diseñar algoritmos, como una habilidad útil para cualquier persona.",
+      "uni": "En Enfermería, pide que cada grupo escriba como diagrama de flujo el protocolo ante la caída de un paciente y que otro grupo lo siga al pie de la letra.",
+      "refs": [
+        "knuth97",
+        "wing06"
+      ]
+    },
+    "computador": {
+      "pista": "Máquina obediente que ejecuta cualquier receta bien escrita, millones de veces por segundo.",
+      "why": "Cuando la tecnología puede ejecutar cualquier algoritmo que se le entregue, aparece el computador. Turing describió en los años treinta una máquina universal capaz de imitar a cualquier otra máquina de cálculo si recibe su descripción. Papert propuso en 1980 que el estudiante programara al computador en lugar de ser programado por él. La síntesis de Tamim y colaboradores, sobre cuarenta años de investigación, encontró un efecto positivo de tamaño pequeño a moderado del uso de computadores en el rendimiento.",
+      "uni": "En Física, en vez de mostrar una simulación ya hecha, pide que los equipos programen en una hoja de cálculo la caída de un objeto con resistencia del aire.",
+      "refs": [
+        "turing37",
+        "papert80",
+        "tamim11"
+      ]
+    },
+    "internet": {
+      "pista": "Red de redes donde tu biblioteca y tus distracciones viven puerta con puerta.",
+      "why": "Si conectas los computadores de una comunidad y luego unes esas redes entre sí, obtienes internet. Leiner y colaboradores, varios de ellos protagonistas de esa historia, cuentan que ARPANET conectó sus primeros nodos en 1969 entre universidades y centros de investigación de Estados Unidos. Hargittai mostró que, aun con el mismo acceso, las personas difieren mucho en su habilidad para encontrar información en línea, lo que llamó una brecha digital de segundo nivel.",
+      "uni": "En Periodismo, pide que cada pareja encuentre en línea dos fuentes que se contradigan sobre un mismo hecho y explique en clase cuál es más confiable y por qué.",
+      "refs": [
+        "leiner09",
+        "hargittai02"
+      ]
+    },
+    "aprendizaje_automatico": {
+      "pista": "Programas que mejoran su desempeño con ejemplos, sin que nadie les escriba cada regla.",
+      "why": "Cuando un algoritmo se alimenta de datos y ajusta su comportamiento con ellos, la máquina aprende. Samuel describió en 1959 un programa de damas que aprendía a jugar mejor que su propio programador, y Mitchell lo definió así: un programa aprende si su desempeño en una tarea mejora con la experiencia. Baker y Hawn revisaron casos educativos en que estos modelos funcionaron peor para ciertos grupos de estudiantes, porque también aprenden los sesgos de sus datos.",
+      "uni": "En Trabajo Social, analiza con el curso un modelo que predice qué familias necesitarán apoyo y pregunta qué datos usa y a quién perjudicaría un error.",
+      "refs": [
+        "samuel59",
+        "mitchell97",
+        "baker22"
+      ]
+    },
+    "problema": {
+      "pista": "Situación de la disciplina, abierta y con datos incompletos, sin la solución al final del libro.",
+      "why": "Cuando dos partes del mundo entran en conflicto, o un contenido aparece dentro de su contexto real, surge un problema auténtico: algo que la disciplina realmente enfrenta, sin respuesta única ni datos perfectos. Brown, Collins y Duguid sostienen que el conocimiento queda ligado a la actividad y al contexto donde se usa. Barrows y Tamblyn hicieron de estos problemas el punto de partida de la formación médica en el aprendizaje basado en problemas.",
+      "uni": "En Administración, entrega la base de datos desordenada de un emprendimiento local y pide una recomendación de precios, sin indicar qué método usar.",
+      "refs": [
+        "brown89",
+        "barrows80"
+      ]
+    },
+    "espacio": {
+      "pista": "Sala con horario fijo donde se juntan quien enseña y quienes aprenden, y las sillas también opinan.",
+      "why": "Cuando un docente se reúne con un grupo en un lugar y un horario, aparece el aula. Un aula con sillas fijas mirando al frente favorece la exposición, y un espacio flexible o virtual abre otras formas de interacción. Brooks comparó dos secciones del mismo curso, con el mismo docente, y encontró que quienes estudiaron en una sala diseñada para el aprendizaje activo superaron las notas que se esperaban según su preparación previa.",
+      "uni": "Antes de tu próxima clase de Sociología, reordena las sillas en islas de cuatro y cuenta cuántos estudiantes distintos intervienen, comparado con la semana anterior.",
+      "refs": [
+        "oblinger06",
+        "brooks11"
+      ]
+    },
+    "estudiante": {
+      "pista": "Quien se sienta del otro lado del escritorio para hacer suyo lo que otros ya saben.",
+      "why": "Una mente que se acerca a un saber para hacerlo suyo es un estudiante. Houssaye lo ubica como uno de los tres polos del triángulo pedagógico, junto al docente y al saber. Ausubel sostuvo que lo que más influye en el aprendizaje es lo que el estudiante ya sabe, y por eso toda decisión didáctica parte de quién aprende y en qué condiciones estudia.",
+      "uni": "En la primera clase de Contabilidad, aplica una encuesta breve sobre lo que ya saben del tema y cuántas horas trabajan, y ajusta ejemplos y plazos con esas respuestas.",
+      "refs": [
+        "houssaye88",
+        "ausubel68"
+      ]
+    },
+    "contenido": {
+      "pista": "Lo que aparece en el programa del curso, ordenado por unidades, y que entra en la prueba.",
+      "why": "Cuando el saber se escribe y se organiza para enseñarse, se convierte en el contenido de un curso. Escribirlo obliga a elegir qué entra y en qué orden. Shulman insistió en que dominar un contenido no basta para enseñarlo, y por eso en este juego casi nunca rinde solo.",
+      "uni": "Revisa el programa de tu curso de Anatomía y marca qué temas podrían pasar a lectura autónoma para liberar tiempo de práctica en clase.",
+      "refs": [
+        "shulman86"
+      ]
+    },
+    "pedagogia": {
+      "pista": "Brújula de quien enseña, con métodos y teorías sobre cómo se aprende y cómo se acompaña.",
+      "why": "Reflexionar sobre cómo se comparte un saber, o mirar cómo el trabajo docente se cruza con el aprendizaje, produce pedagogía, el conocimiento sobre cómo se enseña y cómo se aprende. Abarca los métodos y la gestión de la clase, incluida la evaluación, y en el modelo TPACK corresponde al conocimiento pedagógico (PK). Shulman mostró que, al combinarse con una disciplina concreta, da lugar a un saber propio del docente, el conocimiento pedagógico del contenido.",
+      "uni": "Elige una clase de Ciencia Política que hoy sea solo exposición e intercala dos pausas de tres minutos para que el curso resuelva un caso breve.",
+      "refs": [
+        "mishra06",
+        "shulman86"
+      ]
+    },
+    "proposito": {
+      "pista": "La flecha que apuntas antes de tirar, para saber después si diste en el blanco.",
+      "why": "Cuando una mente imagina un cambio y se orienta hacia él, tiene un propósito. Tyler ordenó el diseño curricular en cuatro preguntas, y la primera es qué propósitos educativos se buscan. Sin un propósito explícito no hay criterio para elegir actividades ni para evaluar.",
+      "uni": "Antes de preparar la próxima unidad de Microbiología, escribe en una oración qué deberían poder hacer tus estudiantes al terminarla y compártela con ellos el primer día.",
+      "refs": [
+        "tyler49"
+      ]
+    },
+    "tecnologia": {
+      "pista": "Herramientas que llevan dentro mucho conocimiento acumulado, como el lápiz o la plataforma del curso.",
+      "why": "Cuando una herramienta incorpora saber sistemático, se vuelve tecnología. Mishra y Koehler la agregaron al modelo de Shulman porque cambia lo que es posible enseñar y cómo. Clark sostuvo que los medios son vehículos que transportan la enseñanza sin cambiar por sí mismos el aprendizaje, de modo que su efecto depende del diseño pedagógico con que se usen.",
+      "uni": "Antes de sumar una herramienta digital a tu curso de Música, escribe qué actividad de aprendizaje mejora y cómo sabrás si funcionó.",
+      "refs": [
+        "mishra06",
+        "clark83"
+      ]
+    },
+    "grupo": {
+      "pista": "Varias personas que estudian juntas, aunque eso solo no asegura que aprendan unas de otras.",
+      "why": "Juntar estudiantes, o simplemente juntar personas, crea un grupo, pero eso no garantiza que aprendan juntos. Johnson y Johnson muestran que el trabajo grupal rinde cuando hay interdependencia positiva y responsabilidad individual; sin eso, es común que unos trabajen y otros miren.",
+      "uni": "En el próximo trabajo grupal de Marketing, asigna a cada integrante una parte que el resto necesita y agrega una pregunta individual sobre el producto completo.",
+      "refs": [
+        "johnson09"
+      ]
+    }
+  },
+  "notas": {
+    "mente+mente": "Cuando la mente se toma a sí misma como tema, se detiene a revisar lo que pensó y por qué lo pensó así.",
+    "mente+mundo": "Cuando la mente sale al mundo y actúa sobre él, el mundo responde, y ese encuentro vivido en primera persona es una experiencia.",
+    "mente+otros": "Cuando una mente se encuentra con otras, empiezan a turnarse para hablar y escuchar, y las ideas van y vienen en un diálogo.",
+    "mente+tiempo": "Lo que la mente logra sostener a pesar del paso del tiempo, y puede traer de vuelta cuando lo necesita, es su memoria.",
+    "mundo+mundo": "Cuando dos partes del mundo chocan, como un río que crece y un pueblo en su orilla, aparece un problema real que alguien tendrá que resolver.",
+    "mundo+otros": "Personas que comparten un mismo pedazo de mundo terminan acordando normas y cuidándose entre sí, y así se forma una comunidad.",
+    "mundo+tiempo": "Deja correr el tiempo sobre el mundo y verás cómo cambia el cauce de un río, y también la forma de pensar de quien estudia.",
+    "otros+otros": "Junta a varias personas y ya tienes un grupo. Que aprendan unas de otras es otra historia, y depende de cómo organices la tarea.",
+    "otros+tiempo": "Muchas personas trabajando durante siglos, cada una corrigiendo y ampliando lo que dejó la anterior, van acumulando lo que hoy llamamos saber.",
+    "tiempo+tiempo": "Tiempo y más tiempo dedicados a la misma tarea se convierten en repetición, y la repetición sostenida es lo que llamamos práctica.",
+    "mente+reflexion": "Una mente que reflexiona sobre su propia forma de pensar aprende a notar cuándo entiende algo y cuándo solo cree entenderlo.",
+    "experiencia+mente": "Casi toda experiencia le deja a la mente un tono, a veces entusiasmo y a veces miedo, y ese tono influye en lo que después recuerda.",
+    "dialogo+mente": "Después de mucho diálogo, la mente se queda con las palabras y empieza a usarlas para pensar a solas, y así el diálogo se vuelve lenguaje.",
+    "memoria+mente": "Cuando la mente revisa lo que ya tiene guardado antes de una clase nueva, aparecen sus conocimientos previos, con aciertos y errores incluidos.",
+    "mente+problema": "Una mente frente a un problema real que todavía no sabe resolver hace lo más natural del mundo, formular una pregunta.",
+    "comunidad+mente": "Una mente que aprende dentro de una comunidad real, junto a quienes ejercen el oficio, se queda con un saber ligado a ese lugar y a esa actividad.",
+    "cambio+mente": "Cuando una mente imagina un cambio que quiere lograr, ya tiene un propósito, y con él un criterio para decidir qué hacer primero.",
+    "mente+saber": "Una mente que se acerca a un saber para hacerlo suyo se convierte en estudiante, con todo lo que ya trae consigo.",
+    "mente+practica": "Cuando la mente se mete en la práctica y busca a propósito su punto más débil, la repetición deja el piloto automático y se vuelve deliberada.",
+    "mundo+saber": "Llevar lo que se sabe al mundo para ponerlo a prueba, y volver con algo nuevo, es lo que hace quien investiga.",
+    "mundo+practica": "De tanto practicar sobre el mundo, alguien se cansa de usar solo las manos y fabrica algo que haga parte del trabajo.",
+    "otros+saber": "Quien tiene un saber y se lo ofrece a otros para que también lo aprendan está haciendo de docente.",
+    "otros+practica": "Practicar con otros por gusto, con reglas que todos aceptan y sin que importe tanto perder, es jugar.",
+    "memoria+tiempo": "Si a lo guardado en la memoria solo le agregas tiempo, sin repasar, se va borrando, rápido al principio y más lento después.",
+    "saber+tiempo": "Un saber que se reparte a lo largo de varios semestres, con un orden y un para qué, se convierte en currículo.",
+    "practica+tiempo": "La misma práctica, repartida en varios días en lugar de concentrarla en una tarde, deja un recuerdo más duradero.",
+    "experiencia+reflexion": "Cuando te detienes a pensar en lo que viviste, la experiencia deja en ti un cambio que dura, y ese cambio es aprendizaje.",
+    "problema+reflexion": "Reflexionar con calma ante un problema real lleva a pedir evidencias y a desconfiar de la primera respuesta que suena bien.",
+    "reflexion+saber": "Reflexionar sobre cómo se comparte un saber, y por qué a veces llega y a veces no, es el oficio de la pedagogía.",
+    "practica+reflexion": "Cuando quien enseña reflexiona sobre su propia práctica, durante la clase y después de ella, puede ajustarla para la próxima vez.",
+    "experiencia+problema": "Al enfrentar un problema real con lo que ya has vivido, a veces lo intentado no funciona, y ese tropiezo es un error del que se puede aprender.",
+    "comunidad+experiencia": "Cuando una comunidad comparte la experiencia de un mismo oficio, los novatos aprenden participando junto a los expertos, y se forma una comunidad de práctica.",
+    "dialogo+memoria": "La escritura guarda un diálogo en una memoria fuera de la cabeza, y así alguien puede responderte siglos después de que hablaste.",
+    "dialogo+grupo": "Para que dialogue todo el grupo y no solo los más rápidos, primero piensa cada persona, luego conversan en parejas y al final comparten con el curso.",
+    "dialogo+saber": "Poner un saber en diálogo, preguntando y escuchando hasta que otra persona lo entienda, es lo que hace un docente en clase.",
+    "memoria+practica": "Practicar sacando algo de la memoria, sin mirar los apuntes, lo fija mejor que volver a leerlo.",
+    "comunidad+saber": "Una comunidad que se organiza para cultivar y transmitir el saber, con maestros y estudiantes, terminó llamándose universidad.",
+    "saber+saber": "Dos saberes juntos piden una relación, y el mapa conceptual la dibuja con una flecha y una palabra de enlace.",
+    "escritura+saber": "Cuando el saber se escribe y se ordena para enseñarlo, se convierte en el contenido de un curso.",
+    "docente+grupo": "Un docente y un grupo necesitan dónde encontrarse, y ese lugar, con sus sillas y su pizarra, también influye en cómo aprenden.",
+    "grupo+universidad": "La universidad le asigna a cada grupo una sala y un horario, y así aparece el aula, con todo lo que su forma permite o impide.",
+    "aprendizaje+docente": "Cuando un docente se pregunta cómo ocurre el aprendizaje para enseñar mejor, entra en el terreno de la pedagogía.",
+    "dialogo+error": "Un error que alguien conversa contigo, explicándote dónde estás y qué hacer después, se transforma en retroalimentación.",
+    "emocion+pregunta": "Cuando una pregunta te inquieta tanto que no puedes dejarla sin respuesta, la emoción la ha convertido en curiosidad.",
+    "emocion+proposito": "Cuando sientes como tuyo un propósito, las ganas de lograrlo nacen de dentro y ya no dependen de un premio.",
+    "aprendizaje+juego": "Si el juego se diseña para que avanzar exija comprender la materia, el aprendizaje ocurre dentro de la partida.",
+    "juego+proposito": "Tomar los puntos y los niveles de los juegos y ponerlos al servicio de un propósito del curso es gamificar.",
+    "investigacion+pregunta": "Una pregunta de los estudiantes, investigada con apoyos que el docente va ajustando, se convierte en indagación guiada.",
+    "aprendizaje+escritura": "Escribir mientras se aprende obliga a poner las ideas en orden y deja ver dónde todavía falta comprender.",
+    "herramienta+saber": "Una herramienta que lleva dentro conocimiento sistemático, como un microscopio o un programa estadístico, es tecnología.",
+    "espacio+mundo": "Cuando el aula se abre al mundo y cualquier lugar sirve para estudiar, el aprendizaje deja de depender de una sala.",
+    "memoria+tecnologia": "Una tecnología con memoria registra cada cosa que pasa por ella, y esos registros acumulados son datos.",
+    "tecnologia+tiempo": "Deja una tecnología funcionando el tiempo suficiente y acumulará registros de todo lo ocurrido, datos que esperan una buena pregunta.",
+    "escritura+problema": "Escribir, paso a paso y sin ambigüedad, cómo se resuelve un problema produce un algoritmo, una receta que cualquiera podría seguir.",
+    "algoritmo+tecnologia": "Una tecnología capaz de ejecutar cualquier algoritmo que le escribas, sin cansarse ni saltarse pasos, es un computador.",
+    "computador+comunidad": "Cuando los computadores de una comunidad se conectan, y luego esas redes se conectan con otras, nace internet.",
+    "algoritmo+datos": "Un algoritmo que se alimenta de muchos datos y ajusta su respuesta según los ejemplos termina aprendiendo patrones que nadie le escribió.",
+    "aprendizaje_automatico+lenguaje": "Entrena una máquina con enormes cantidades de lenguaje humano y aprenderá a producir textos nuevos que suenan plausibles, aunque no siempre sean ciertos.",
+    "aprendizaje+datos": "Los datos que deja un curso, leídos con el fin de entender y mejorar el aprendizaje, se convierten en analítica del aprendizaje.",
+    "espacio+internet": "Si el aula se traslada a internet, el encuentro ya no necesita edificio y aparece el entorno virtual.",
+    "internet+universidad": "Una universidad que abre un curso por internet, gratis y sin límite de inscritos, puede terminar con miles de estudiantes en todo el mundo.",
+    "internet+saber": "Un saber compartido en internet con una licencia que permite adaptarlo y volver a compartirlo es un recurso educativo abierto.",
+    "datos+reflexion": "Detenerse a reflexionar sobre los datos de los estudiantes lleva a preguntar quién los ve y si alguien pidió permiso para usarlos."
+  }
+}

@@ -1,0 +1,32 @@
+A10  tck.why  La tecnología y el contenido se transforman mutuamente: una simulación cambia lo que se puede mostrar de la física y un sistema de información geográfica cambia
+A10  tpk.why  Saber cómo cambian la enseñanza y el aprendizaje cuando se usa cierta herramienta: qué permite un foro que no permite la sala de clases, qué le hace un muro col
+A10  modificacion.why  Tercer peldaño de SAMR: la tecnología permite rediseñar una parte importante de la tarea. Aquí se cruza la línea que Puentedura traza entre mejorar (sustitución
+A10  redefinicion.why  Último peldaño de SAMR: la tecnología permite tareas que antes eran inconcebibles. Llegaste aquí sumando pedagogía en cada peldaño, con la misma tecnología del 
+C  retos.why  Cuando un proyecto se abre a un problema auténtico amplio, definido junto a actores externos, surge el aprendizaje basado en retos. Nichols y Cator lo formularo
+A10  jigsaw.why  Una estructura cooperativa que reparte el contenido en partes: cada integrante estudia una, la profundiza con quienes tienen la misma en un grupo de expertos y 
+A10  tps.why  Es la forma más simple de unir aprendizaje activo y trabajo en grupo: una pregunta, un tiempo individual para pensar, una conversación en parejas y una puesta e
+A10  indagacion.why  Investigar un problema auténtico como lo haría la disciplina, pero con andamiaje: preguntas orientadoras, plantillas, pistas y retroalimentación. La investigaci
+C  accesibilidad.why  El DUA pide ofrecer múltiples formas de acceder al aprendizaje; con tecnología, eso exige materiales que funcionen para todas las personas, incluidas quienes us
+A10  tabla.why  Es el plano de una prueba: cruza los contenidos o resultados de aprendizaje con niveles cognitivos, por ejemplo los de la taxonomía revisada de Anderson y Krath
+A10  criterial.why  Glaser distinguió en 1963 dos maneras de interpretar un puntaje: referido a la norma, comparándolo con el resto del grupo, o referido a criterio, comparándolo c
+A10  sostenible.why  Boud propuso la evaluación sostenible: la que cumple las necesidades formativas y sumativas del curso y, a la vez, prepara al estudiante para atender sus propia
+A10  addie.why  Unir propósito y evaluación en un ciclo ordenado da el modelo ADDIE: análisis, diseño, desarrollo, implementación y evaluación. Molenda rastreó su origen y conc
+A10  merrill.pista  Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.
+A10  merrill.uni  En Contabilidad, el curso gira en torno a cerrar los estados financieros de una pyme real: se activa lo previo, el docente muestra un cierre, los equipos lo apl
+C  espiral.why  Si el currículo se organiza para retomar las mismas ideas espaciadas en el tiempo, se obtiene un currículo en espiral. Bruner propuso en 1960 presentar pronto l
+A10  arcs.pista  Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.
+A10  arcs.uni  En Estadística para Psicología: abrir con un estudio viral mal interpretado, ligarlo a la práctica clínica, partir con ejercicios alcanzables y mostrar a cada e
+C  releer.belief  Releer los apuntes varias veces y subrayar lo importante con marcador es la mejor forma de prepararse para una prueba.
+C  releer.evidence  Dunlosky y colaboradores evaluaron diez técnicas de estudio y calificaron releer y subrayar como de baja utilidad, frente a la práctica de recuperación y la prá
+A10  nota pedagogia+tecnologia  Cuando cruzas cómo enseñas con lo que una herramienta permite, surgen preguntas nuevas: qué participación facilita un foro y qué se gana o se pierde frente a la
+A10  nota grupo+pedagogia  Un grupo se vuelve equipo cuando la pedagogía diseña la tarea: metas compartidas, roles, responsabilidad individual y tiempo para revisar cómo trabajaron.
+A10  nota sustitucion+pedagogia  Al darle intención pedagógica a la sustitución, la herramienta empieza a aportar algo: por ejemplo, un cuestionario en línea que da retroalimentación inmediata 
+A10  nota coi+andamiaje  Para que una comunidad de indagación madure en línea necesita andamiaje por fases: primero acceso y confianza, después intercambio y, al final, construcción de 
+A10  nota problema+gagne  Merrill toma secuencias como la de Gagné y las ordena alrededor de un problema real: activar, demostrar, aplicar e integrar, siempre al servicio de resolver una
+A10  nota autorregulado+virtual  Moore explica la distancia transaccional con tres variables: diálogo, estructura y autonomía del estudiante. En un entorno virtual con poco diálogo, el curso ex
+A10  nota conectivismo+rea  El primer curso llamado MOOC (2008) lo dictaron Siemens y Downes sobre conectivismo: abierto, masivo y armado con recursos libres que cada participante conectab
+A10  nota contenido+bloom  La tabla de especificaciones cruza dos ejes: qué contenidos evalúas y en qué nivel cognitivo de la taxonomía. Así ves si la prueba cubre el curso o solo pide re
+A10  nota tecnologia+dominio  Los sistemas adaptativos automatizan el aprendizaje para el dominio: estiman si cada estudiante ya domina una habilidad y solo entonces le proponen la siguiente
+A10  nota constructivismo+resultados  Biggs puso ambas ideas en el nombre: el estudiante construye significado con lo que hace, y el docente alinea actividades y evaluación con los resultados de apr
+C  nota ciencia_aprendizaje+releer  Cuando la ciencia compara técnicas de estudio, releer y subrayar salen poco útiles y las preguntas de práctica, entre las mejores; conviene cambiar el hábito po
+C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar. Se siente seguro porque el texto le resulta familiar, pero la evidencia muestra poco beneficio.

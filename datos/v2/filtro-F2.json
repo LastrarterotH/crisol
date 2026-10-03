@@ -1,0 +1,1303 @@
+{
+  "fichas": {
+    "activo": {
+      "pista": "El oyente de butaca pasa a resolver problemas y a pensar en cómo los resolvió.",
+      "why": "Cuando la pedagogía pone al estudiante a hacer y a pensar sobre lo que hace, aprende más. Freeman y colaboradores analizaron 225 estudios en carreras de ciencias, ingeniería y matemáticas. Con clase expositiva tradicional, los estudiantes tenían 1,5 veces más probabilidad de reprobar que con aprendizaje activo, y con este último los puntajes en exámenes subieron en promedio 0,47 desviaciones estándar.",
+      "uni": "En una clase de Derecho Civil, el docente mantiene su exposición, pero la corta dos veces con un caso breve que el curso resuelve en parejas, y al final pide un minuto de escritura."
+    },
+    "abp": {
+      "pista": "Nació en una facultad de medicina canadiense, donde el paciente de papel llega antes que la teoría.",
+      "why": "El ABP nació a fines de los años sesenta en la Facultad de Medicina de la Universidad McMaster, donde grupos pequeños trabajaban un problema auténtico antes de recibir la teoría. Al discutirlo, el grupo pone en juego lo que ya sabe y descubre qué le falta aprender; ese vacío orienta el estudio autodirigido, y el docente acompaña como tutor."
+    },
+    "proyectos": {
+      "uni": "Un equipo de Ingeniería que pasa ocho semanas diseñando y construyendo el prototipo de una rampa para su facultad hace ABPy, que se distingue del ABP por ese producto final."
+    },
+    "expositiva": {
+      "pista": "Uno habla al frente y el resto escucha y anota, como en las universidades medievales.",
+      "why": "La clase magistral entrega contenido en un espacio y un tiempo compartidos. Sirve para presentar mucha información a mucha gente, aunque por sí sola deja al estudiante en el rol de oyente. En el metaanálisis de Freeman y colaboradores fue la condición de comparación frente al aprendizaje activo, y quedó en desventaja."
+    },
+    "peer": {
+      "why": "Eric Mazur mantiene la clase expositiva y la interrumpe con preguntas conceptuales. El docente plantea una pregunta, cada estudiante vota, luego la discute con quien tiene al lado y vuelve a votar. Crouch y Mazur reportaron diez años de mejoras en la comprensión conceptual en cursos de física de Harvard.",
+      "uni": "En Química General, el docente busca preguntas en que el primer voto quede dividido, porque si casi todos aciertan o casi todos fallan, la conversación entre compañeros aporta poco."
+    },
+    "invertida": {
+      "uni": "En Microeconomía, la sesión abre con las dos dudas más repetidas sobre la cápsula de elasticidad y luego el curso resuelve problemas en parejas mientras el docente circula."
+    },
+    "ia": {
+      "pista": "Le pides un soneto sobre la fotosíntesis y lo escribe en segundos, con rima y quizás algún error.",
+      "why": "Tecnología que produce texto, imágenes o código a partir de instrucciones. La guía de UNESCO para educación e investigación pide un enfoque centrado en las personas, que proteja los datos y valide las herramientas antes de usarlas con estudiantes, sin delegar en ellas el juicio pedagógico.",
+      "uni": "En un taller de escritura académica, pedirle a la IA el ensayo completo puede ahorrarle al estudiante justo el esfuerzo que lo hace aprender; pedirle críticas a su propio borrador lo mantiene."
+    },
+    "aumento": {
+      "why": "En el segundo peldaño de SAMR, la intención pedagógica hace que la herramienta aporte una mejora funcional. La tarea sigue siendo la misma, pero gana algo que antes no tenía."
+    },
+    "redefinicion": {
+      "why": "Último peldaño de SAMR: la tecnología permite tareas que antes eran inconcebibles. Llegaste aquí sumando pedagogía en cada peldaño, con la misma tecnología del inicio. SAMR no proviene de investigación con revisión de pares, y Hamilton, Rosenberg y Akcaoglu le critican que ignore el contexto y que imponga una jerarquía rígida; también advierten que puede llevar a valorar el producto por sobre el proceso de aprendizaje."
+    },
+    "video": {
+      "why": "Una clase expositiva grabada se libera del horario y se puede ver cuando y cuantas veces se quiera. Grabar una clase larga tal cual, sin embargo, desperdicia esa ventaja. En 6,9 millones de sesiones de video de edX, Guo, Kim y Rubin encontraron que la duración era el factor que más pesaba en el compromiso, y que el tiempo de visualización mediano no superaba los 6 minutos, sin importar cuánto durara el video."
+    },
+    "tutoria": {
+      "why": "La IA con andamiaje da pistas en lugar de respuestas. En un experimento de campo en matemática escolar en Turquía, quienes practicaron con ChatGPT sin restricciones resolvieron un 48% mejor los ejercicios de práctica, pero rindieron un 17% peor en el examen posterior sin IA. Con una versión configurada como tutor, que guiaba sin entregar la solución, ese efecto negativo prácticamente desapareció."
+    },
+    "competencia": {
+      "pista": "Distinguir una fuente seria de un video viral se aprende, aunque hayas nacido con wifi.",
+      "why": "La competencia digital se aprende y se enseña, también en quienes crecieron con un celular en la mano. El marco europeo DigComp 2.2 la organiza en cinco áreas: información y datos, comunicación y colaboración, creación de contenido digital, seguridad y resolución de problemas.",
+      "uni": "En Historia, antes del primer ensayo, el docente dedica media sesión a comparar un artículo académico con un blog sobre el mismo hecho y a practicar cómo citarlos."
+    },
+    "presencial": {
+      "why": "Compartir lugar y momento es la combinación más antigua de la enseñanza. Johansen ordenó las formas de trabajo colaborativo en una matriz de tiempo y espacio, y la presencialidad ocupa la celda donde ambos coinciden. Ofrece interacción inmediata a cambio de exigir que todos estén ahí a la vez."
+    },
+    "virtual": {
+      "pista": "Un campus sin ladrillos, con puertas que se abren con usuario y contraseña desde cualquier lugar.",
+      "why": "El aula virtual es un espacio creado por la tecnología que no depende del lugar físico. Moore distinguió tres interacciones que la educación a distancia debe diseñar a propósito: estudiante con contenido, estudiante con docente y estudiante con estudiante."
+    },
+    "sincronico": {
+      "why": "Un espacio virtual con tiempo compartido da la videoconferencia. Hrastinski encontró que lo sincrónico favorece la participación personal (motivación, sentido de comunidad, respuesta rápida), mientras que lo asincrónico favorece la participación cognitiva, porque da tiempo para reflexionar.",
+      "uni": "En un curso en línea de Contabilidad, la sesión sincrónica semanal se reserva para resolver en vivo las dudas del cierre contable, y la lectura de normas queda para el trabajo asincrónico."
+    },
+    "asincronico": {
+      "pista": "El foro recibe aportes a las tres de la mañana y nadie espera que el resto se conecte.",
+      "why": "Cuando el entorno virtual se combina con el ritmo propio, cada estudiante participa en su momento. Hrastinski mostró que esta modalidad favorece la participación cognitiva, porque con tiempo para pensar los aportes suelen ser más elaborados."
+    },
+    "blended": {
+      "why": "Garrison y Kanuka definen el blended learning como la integración reflexiva de experiencias presenciales y en línea. Combinar presencialidad y entorno virtual exige entonces rediseñar qué conviene hacer en cada espacio.",
+      "uni": "En Enfermería, los estudiantes ven en la plataforma la técnica de curación y resuelven en línea ejercicios de cálculo de dosis, y la sesión presencial se usa para practicar la curación con supervisión."
+    },
+    "hyflex": {
+      "uni": "En Derecho Procesal, quien no puede ir a la sala sigue la clase en vivo o la ve grabada con un foro, y las tres rutas cierran con el mismo ejercicio evaluado."
+    },
+    "coi": {
+      "uni": "En un foro de Bioética sobre consentimiento informado, el docente reformula la pregunta cuando la discusión se estanca y, al cierre de la semana, pide a un estudiante que sintetice los argumentos."
+    },
+    "casos": {
+      "why": "Un caso es un problema auténtico contado como una situación concreta con un dilema, que el curso examina con pensamiento crítico. El método nació en la Escuela de Derecho de Harvard hacia 1870 y en los años veinte pasó a su Escuela de Negocios. Christensen, Garvin y Sweet muestran que su valor depende de cómo el docente conduce la discusión, y Herreid lo llevó a las ciencias para entrenar el análisis de evidencia y la toma de decisiones."
+    },
+    "servicio": {
+      "why": "Cuando un proyecto responde a una necesidad real de la comunidad, aparece el aprendizaje-servicio. Bringle y Hatcher lo definen como una experiencia con créditos académicos en la que un servicio organizado responde a necesidades de la comunidad y se acompaña de reflexión para comprender mejor el curso. El metaanálisis de Celio, Durlak y Dymnicki (62 estudios) encontró mejoras en actitudes, compromiso cívico, habilidades sociales y rendimiento académico, mayores con reflexión y vínculo curricular."
+    },
+    "gamificacion": {
+      "why": "Si la tecnología se usa para encender la motivación con puntos, insignias, niveles o narrativas, aparece la gamificación, que Deterding y colaboradores definen como el uso de elementos de diseño de juegos en contextos que no son juegos. El metaanálisis de Sailer y Homner encontró efectos positivos pequeños en resultados cognitivos, motivacionales y conductuales, que dependen del diseño. Puntos e insignias son recompensas externas y, por sí solos, no garantizan la motivación intrínseca."
+    },
+    "abj": {
+      "pista": "Una partida donde nadie pasa de nivel sin entender la materia del curso.",
+      "why": "Cuando los elementos de juego dejan de ser una capa sobre el curso y el contenido pasa a estar dentro del juego, hablamos de aprendizaje basado en juegos, donde avanzar exige comprender. Gee sostuvo que los buenos videojuegos aplican principios de aprendizaje sólidos. El metaanálisis de Wouters y colaboradores encontró que los juegos serios enseñan más que la instrucción convencional, aunque no resultaron más motivadores, y que rinden mejor combinados con otras actividades y en varias sesiones."
+    },
+    "simulacion": {
+      "why": "La simulación recrea con tecnología una situación profesional, en un maniquí clínico o en un laboratorio virtual, para practicar donde equivocarse no tiene costo real. Cook y colaboradores, con 609 estudios en ciencias de la salud, hallaron efectos grandes en conocimientos y habilidades frente a no recibir esa formación. Chernikova y colaboradores, en varias disciplinas universitarias, encontraron efectos grandes en habilidades complejas, mayores cuando la simulación incluía andamiaje."
+    },
+    "indagacion": {
+      "why": "Investigar un problema auténtico como lo haría la disciplina, pero con andamiaje: preguntas orientadoras, plantillas, pistas y retroalimentación. La investigación la propone frente al descubrimiento puro, porque en el metaanálisis de Alfieri y colaboradores el descubrimiento sin ayuda rindió menos que la instrucción explícita, mientras que el asistido rindió más. Lazonder y Harmsen confirmaron que la guía mejora el aprendizaje en la indagación, y también las actividades y el desempeño durante ella."
+    },
+    "analitica": {
+      "why": "Cuando la tecnología registra lo que hacen los estudiantes a lo largo del tiempo, esas huellas pueden devolverse como información a docentes y estudiantes. Siemens y Long describen la analítica del aprendizaje como la medición, recolección, análisis y reporte de datos sobre los estudiantes y sus contextos para comprender y mejorar el aprendizaje. Por ahora la evidencia es modesta, y la revisión de Viberg y colaboradores en educación superior encontró pocos estudios que muestren mejoras en los resultados de aprendizaje."
+    },
+    "privacidad": {
+      "pista": "Antes de subir las notas del curso a una app gratis, te preguntas quién más podrá verlas.",
+      "why": "Toda herramienta que registra o procesa lo que hacen los estudiantes plantea preguntas de poder sobre quién accede a esa información y con qué fin, y sobre si la persona lo sabe y lo acepta. Slade y Prinsloo proponen tratar la analítica como una práctica moral y transparente, en la que los estudiantes son agentes que colaboran en la interpretación de sus propios datos. La guía de UNESCO sobre IA generativa también pide proteger la privacidad de los datos."
+    },
+    "adaptativo": {
+      "why": "Une los datos de desempeño con el ritmo de cada estudiante, de modo que el sistema ajusta la dificultad o la secuencia de las tareas según lo que cada uno demuestra. Su antecedente más estudiado son los tutores inteligentes. VanLehn encontró que los que corrigen paso a paso se acercan a la eficacia de un tutor humano, y Kulik y Fletcher, en 50 evaluaciones controladas, hallaron mejoras en la mayoría, aunque mucho mayores en pruebas hechas a medida que en pruebas estandarizadas."
+    },
+    "rea": {
+      "pista": "Un manual de anatomía gratis que puedes reescribir y volver a publicar, porque su licencia lo permite."
+    },
+    "mooc": {
+      "why": "Un MOOC es un curso gratuito y sin límite de inscritos, hecho con video y recursos abiertos. El término nació en 2008 con un curso sobre conectivismo y se popularizó en 2012 con Coursera y edX. Reich y Ruipérez-Valiente analizaron los cursos de MIT y Harvard en edX entre 2012 y 2018 y hallaron que la mayoría de los participantes no volvió tras su primer año y que el crecimiento se concentró en los países más ricos. Las bajas tasas de finalización tampoco mejoraron."
+    },
+    "rv": {
+      "pista": "Con un visor puesto, el estudiante pasea por el interior de una célula sin salir de la sala.",
+      "why": "Con un visor, la simulación envuelve al estudiante y el espacio deja de ser la sala para convertirse en el laboratorio o el quirófano. Makransky, Terkildsen y Mayer compararon la misma simulación de laboratorio en pantalla y con visor, y con visor los estudiantes se sintieron más presentes, pero aprendieron menos y tuvieron mayor carga cognitiva. Radianti y colaboradores observaron que pocas aplicaciones en educación superior se basan en teorías del aprendizaje."
+    },
+    "respuesta_audiencia": {
+      "why": "Con un control o con su teléfono, cada estudiante responde y el docente ve al instante qué entendió el grupo, lo que pone la tecnología al servicio del aprendizaje activo. El metaanálisis de Hunsu, Adesope y Bayly encontró un efecto pequeño sobre el aprendizaje y uno mayor sobre aspectos afectivos, que varía según factores como el tamaño del curso y el tipo de pregunta. Caldwell propone pautas para escribir buenas preguntas, porque el beneficio depende de cómo se usa el sistema."
+    },
+    "alfabetizacion_ia": {
+      "pista": "Saber por qué un chatbot puede inventar una cita con total seguridad y cuándo conviene no preguntarle.",
+      "why": "Para usar bien la IA hay que entender qué hace y en qué se equivoca. Long y Magerko definen esta alfabetización como un conjunto de competencias que permite evaluar críticamente las tecnologías de IA, comunicarse y colaborar con ellas y usarlas como herramienta. Por eso surge de la competencia digital y del pensamiento crítico. DigComp 2.2 ya incluye ejemplos de interacción con sistemas de IA, y evaluar sus respuestas exige contrastar fuentes y detectar errores o sesgos."
+    },
+    "brecha": {
+      "pista": "Cuando la clase pasa a internet, quien no tiene datos o nunca usó una plataforma queda afuera."
+    },
+    "competencia_digital_docente": {
+      "why": "La competencia digital docente suma al dominio de herramientas un propósito pedagógico. El marco europeo DigCompEdu, de Redecker, describe 22 competencias en seis áreas, que incluyen el compromiso profesional, los recursos digitales, la evaluación y el desarrollo de la competencia digital de los estudiantes, con seis niveles que van de principiante a pionero. Se diferencia de la competencia digital general porque se centra en lo que la tecnología cambia de la enseñanza.",
+      "uni": "Una profesora de Contabilidad diseña en la hoja de cálculo un ejercicio de análisis de casos y la usa también para dar retroalimentación a cada grupo."
+    },
+    "accesibilidad": {
+      "pista": "Tu material en línea sirve igual para quien solo usa teclado o lo escucha con lector de pantalla.",
+      "why": "El DUA pide ofrecer múltiples formas de acceder al aprendizaje; con tecnología, eso exige materiales que funcionen para todas las personas, incluidas quienes usan lector de pantalla, subtítulos o solo el teclado. Las pautas WCAG del W3C lo ordenan en cuatro principios: el contenido debe ser perceptible, operable, comprensible y robusto. Gernsbacher reunió más de cien estudios que muestran que los subtítulos mejoran la comprensión y la memoria de cualquier espectador, tenga o no dificultades auditivas."
+    },
+    "aula_activa": {
+      "pista": "Una sala donde nadie sabe dónde queda el frente, porque cada mesa redonda tiene su propia pizarra.",
+      "why": "Cuando la pedagogía rediseña el espacio, la sala deja de mirar a un frente y se llena de mesas para equipos con pizarras y pantallas a mano. Beichner y colaboradores lo hicieron con el proyecto SCALE-UP para cursos introductorios masivos de física. Brooks comparó el mismo curso, con el mismo docente, en una sala tradicional y en una de aprendizaje activo, y en la segunda los estudiantes rindieron más. La sala ayuda si la actividad está diseñada para aprovecharla."
+    },
+    "ubicuo": {
+      "why": "Si se suman un espacio y otro y otro más, el aprendizaje deja de tener un solo lugar. Burbules analiza el aprendizaje ubicuo, la posibilidad de aprender en cualquier lugar y momento, y lo que implica para enseñar: un aprendizaje más continuo, integrado a las actividades diarias, más situado y que mezcla lo formal con lo informal. Es una condición del contexto actual que el docente puede aprovechar."
+    },
+    "movil": {
+      "why": "Cuando el aprendizaje ubicuo se apoya en dispositivos que caben en el bolsillo, se vuelve aprendizaje móvil. Para Sharples, Taylor y Vavoula, lo que se mueve es sobre todo el estudiante, que aprende a través de conversaciones en múltiples contextos. El metaanálisis de Sung, Chang y Liu (110 estudios) encontró un efecto moderado a favor de integrar dispositivos móviles en la enseñanza, aunque el efecto varía según la actividad y el contexto."
+    },
+    "distancia": {
+      "pista": "Lejanía que puedes sentir en primera fila y no sentir a mil kilómetros de tu profesor.",
+      "why": "Mirada desde la pedagogía, la lejanía de un curso en línea depende más del diseño que de los kilómetros. Moore la llamó distancia transaccional: un espacio psicológico y de comunicación entre docente y estudiante, ligado a tres elementos, el diálogo, la estructura del curso y la autonomía del estudiante. Un curso muy estructurado y con poco diálogo se siente lejano aunque el docente esté en la misma ciudad; más diálogo la acorta."
+    },
+    "remota_emergencia": {
+      "why": "Cuando la clase expositiva pasa tal cual a la sesión sincrónica, de un día para otro y por fuerza mayor, hay enseñanza remota de emergencia. Hodges y colaboradores propusieron el término en 2020 para distinguir esa respuesta de crisis, pensada para dar acceso rápido y temporal, de un curso en línea bien diseñado, que requiere meses de planificación. Por eso advierten que no conviene juzgar la educación en línea por lo vivido en la pandemia.",
+      "uni": "Un curso de Historia que en 2020 pasó a dos horas diarias de videollamada con cámaras apagadas fue enseñanza remota de emergencia; rediseñarlo con foros y encuentros breves lo acercó a un curso en línea."
+    },
+    "emoderacion": {
+      "pista": "Una escalera de cinco peldaños donde el curso en línea parte saludándose y llega a construir conocimiento.",
+      "why": "Una comunidad en línea madura por fases, y cada fase pide su propio andamiaje. Gilly Salmon, a partir de su experiencia en la Open University, propuso cinco etapas como una escalera: acceso y motivación, socialización en línea, intercambio de información, construcción de conocimiento y desarrollo. En cada peldaño cambia el rol del moderador, que diseña actividades adecuadas a ese momento. Moule advierte que no debe usarse como plantilla única para todo diseño en línea."
+    }
+  },
+  "notas": {
+    "contenido+tecnologia": "En geometría, arrastrar un vértice en pantalla muestra lo que la pizarra deja quieto; cada disciplina tiene herramientas que cambian cómo se representa su contenido.",
+    "espacio+pedagogia": "Cuando la pedagogía diseña el espacio, las filas que miran al frente se vuelven mesas para equipos y el docente baja del estrado a circular entre ellas.",
+    "espacio+tecnologia": "Si la tecnología saca el aula del edificio, queda una plataforma con foros y materiales a la que cada estudiante entra desde donde esté.",
+    "proposito+tecnologia": "Dos docentes con el mismo proyector pueden dar clases muy distintas; saber para qué usar la tecnología en tu curso es una competencia profesional del docente.",
+    "espacio+tiempo": "Si el aula y la hora coinciden para todos, tienes la presencialidad, con preguntas respondidas al instante y la obligación de llegar a tiempo.",
+    "cooperativo+problema": "Si el equipo ya coopera, el problema auténtico le da un motor, porque cada integrante investiga una parte de lo que falta saber y la trae de vuelta.",
+    "abp+tiempo": "Con semanas por delante, el equipo que resolvía un problema alcanza a construir algo con lo aprendido, y ese producto lo convierte en proyecto.",
+    "contenido+presencial": "Contenido y presencialidad, sin más ingredientes, dan la forma más antigua de enseñar en la universidad, con alguien que explica en la sala mientras el resto escucha.",
+    "contenido+grupo": "Cuando hay que llevar el mismo contenido a cien personas a la vez, aparece la exposición, que cubre mucha materia aunque deja al grupo como audiencia.",
+    "activo+expositiva": "La exposición sigue, con pausas para preguntas conceptuales que cada estudiante vota, discute con su compañero y vuelve a votar.",
+    "activo+capsula": "Si la explicación queda en una cápsula para ver antes, la sesión se libera para resolver problemas con el docente cerca, justo cuando más se le necesita.",
+    "pensamiento_critico+problema": "Cuenta un problema real como la historia de alguien que debe decidir, súmale el hábito de pesar evidencia, y el curso discute qué haría con datos incompletos.",
+    "problema+proyectos": "Si el proyecto se abre a un problema amplio, definido con el municipio o una empresa, se vuelve un reto cuya solución se prueba fuera de la sala.",
+    "proyectos+situado": "Cuando el proyecto atiende una necesidad real del barrio, con créditos y reflexión, el curso aprende su disciplina mientras deja algo útil en la comunidad.",
+    "experiencial+proyectos": "Aplica el ciclo de Kolb a un proyecto con la comunidad y la reflexión sobre lo vivido se vuelve parte del curso, lo que lo separa del voluntariado.",
+    "contenido+cooperativo": "Si el contenido se reparte en piezas y cada integrante del equipo recibe una, nadie puede armar el tema completo sin lo que aportan los demás.",
+    "cooperativo+segmentacion": "Al segmentar el material, cada parte pasa por un grupo de expertos y vuelve al equipo base, que solo arma el todo si cada integrante trae la suya.",
+    "activo+grupo": "En cinco minutos, cada estudiante piensa solo y prueba su idea con el compañero de al lado antes de llevarla al curso.",
+    "motivacion+tecnologia": "Usar la tecnología para alimentar la motivación con puntos y niveles da la gamificación; el riesgo es que el premio externo desplace al interés propio.",
+    "contenido+gamificacion": "Cuando el contenido deja de estar debajo de los puntos y pasa a estar dentro del juego, avanzar en la partida exige entender la materia.",
+    "situado+tecnologia": "Si la tecnología recrea el contexto profesional sin sus riesgos, el estudiante puede equivocarse en una situación realista y repetirla cuantas veces necesite.",
+    "problema+tecnologia": "Montado en un simulador, un problema real deja que el estudiante decida y vea qué le pasa al paciente o al puente antes de analizarlo.",
+    "andamiaje+problema": "Un problema auténtico sin apoyo abruma a quien empieza; con preguntas guía y plantillas, el estudiante investiga como lo haría la disciplina sin perderse.",
+    "descubrimiento+reflexiva": "Al examinar el mito del descubrimiento sin guía, el docente mantiene la investigación del estudiante y le agrega estructura, porque el descubrimiento asistido sí funciona.",
+    "comunidad_practica+situado": "En una pasantía bien acompañada, quien recién llega empieza en la periferia de la comunidad de práctica, con tareas acotadas, y avanza hacia la participación plena.",
+    "atencion10+reflexiva": "Revisar el mito de los diez minutos muestra que conviene intercalar momentos en que el estudiante resuelve y discute, porque así se sostiene mejor el compromiso.",
+    "expositiva+tecnologia": "Si a la misma clase expositiva solo le sumas un proyector, el estudiante sigue escuchando y copiando, y la herramienta reemplaza a la pizarra sin mejora funcional.",
+    "aumento+pedagogia": "Con más diseño pedagógico, la herramienta ya cambia la tarea misma, y el ensayo individual se vuelve un documento que el grupo escribe y comenta en línea.",
+    "modificacion+pedagogia": "Otra vuelta de pedagogía y aparecen tareas que no existirían sin la herramienta, como publicar un análisis para una audiencia real junto a otra universidad.",
+    "asincronico+expositiva": "Si la exposición pasa a la modalidad asincrónica, quien se perdió en el minuto veinte puede retroceder y volver a verlo a la hora que le acomode.",
+    "segmentacion+video": "Cortar la clase grabada en piezas de una idea alivia la carga y se adapta a una audiencia que suele abandonar los videos largos antes del final.",
+    "nativos+reflexiva": "Quien desliza el teléfono con soltura puede no saber evaluar una fuente académica; reflexionar sobre el mito de los nativos lleva a enseñar esa competencia.",
+    "analitica+reflexiva": "Reflexionar sobre la analítica obliga a preguntarse si los estudiantes saben que sus clics quedan registrados y si una alerta de riesgo puede etiquetarlos injustamente.",
+    "estudiante+ia": "Lo que un estudiante escribe en un chatbot puede quedar en manos de una empresa, así que antes de exigir su uso conviene averiguar qué se guarda.",
+    "analitica+ritmo": "Si los datos muestran qué domina cada estudiante, el sistema refuerza la regla de la cadena a quien tropieza con ella y deja avanzar al resto.",
+    "contenido+virtual": "Subir tus apuntes a la red no autoriza a nadie a modificarlos; con una licencia abierta, cualquier docente puede adaptarlos a su curso y volver a compartirlos.",
+    "asincronico+rea": "Los primeros MOOC llevaron recursos abiertos y una modalidad asincrónica a miles de personas a la vez, aunque hoy muchos cobran por el certificado.",
+    "video+virtual": "Las clases grabadas fueron la columna vertebral de los MOOC, y Guo, Kim y Rubin estudiaron el compromiso del público con videos de cursos de edX.",
+    "espacio+simulacion": "Ponte un visor y la simulación te rodea; el espacio pasa a ser parte de lo que aprendes, porque puedes caminar por él y verlo a escala real.",
+    "activo+tecnologia": "En una sala de doscientos, la tecnología deja que todos respondan en segundos y muestra qué piensa el curso entero, incluidos quienes nunca levantan la mano.",
+    "competencia+ia": "Ante la IA, la competencia digital suma una tarea nueva, entender cómo genera sus respuestas y por qué puede inventar datos.",
+    "ia+pensamiento_critico": "Aplicar pensamiento crítico a la IA es tratar cada respuesta como una afirmación por verificar, contrastándola con fuentes y buscando sesgos antes de creerle.",
+    "estudiante+virtual": "Pasar un curso al entorno virtual supone que cada estudiante tiene conexión y sabe usar la plataforma; si le falta una de las dos, queda afuera.",
+    "competencia+pedagogia": "Una profesora que domina la planilla para sus propias cuentas da el salto a la competencia digital docente cuando la usa para diseñar y evaluar su curso.",
+    "dua+tecnologia": "El DUA pide múltiples formas de representación, y la tecnología las multiplica solo si es accesible, con subtítulos en los videos y texto alternativo en las imágenes.",
+    "dua+virtual": "En un entorno virtual, un botón sin etiqueta o un video sin subtítulos bloquean a alguien, aunque la actividad esté bien pensada desde el diseño universal.",
+    "tiempo+virtual": "Ponle hora fija al entorno virtual y tienes a todos conectados a la vez, cada uno desde un lugar distinto, con respuesta inmediata.",
+    "ritmo+virtual": "Cuando el entorno virtual respeta el ritmo de cada estudiante, cada uno participa en el foro cuando puede, entre turnos de trabajo o tras acostar a los hijos.",
+    "presencial+virtual": "Al combinar presencialidad y entorno virtual, cada actividad va donde rinde más, por ejemplo la discusión a la sala y la lectura a la plataforma.",
+    "grupo+virtual": "Un grupo en línea se vuelve comunidad de indagación cuando hay presencia cognitiva, social y docente, y el foro deja de funcionar como tablón de anuncios.",
+    "tecnologia+ubicuo": "Para aprender en cualquier lugar hace falta algo que viaje con el estudiante, y el teléfono en el bolsillo lo acompaña del bus al trabajo.",
+    "situado+virtual": "Con el entorno virtual en el celular, un estudiante de Ingeniería consulta planos y registra avances parado en medio de la obra.",
+    "pedagogia+virtual": "Mirado con ojos pedagógicos, un curso en línea se siente lejano o cercano según cuánto diálogo y cuánta estructura tenga, sin importar los kilómetros.",
+    "expositiva+sincronico": "En 2020, muchas universidades llevaron la exposición tal cual a la videollamada de un día para otro, una salida de crisis distinta de un curso en línea diseñado.",
+    "andamiaje+asincronico": "En foros asincrónicos, el andamiaje sube como una escalera, con actividades breves para cada fase y un moderador que cambia de rol a medida que el grupo avanza.",
+    "multimedia+video": "Aplicar a una clase grabada los principios de Mayer, como señalar lo importante y dividirla en segmentos, produce una cápsula breve y enfocada.",
+    "expositiva+ritmo": "Grabar la clase expositiva deja que cada estudiante la pause y retroceda hasta donde se perdió, en vez de seguir el ritmo de quien habla.",
+    "gamificacion+simulacion": "Agrégale metas y puntaje a una simulación y el modelo de la realidad se vuelve un juego serio, donde avanzar exige aprender.",
+    "competencia+nativos": "Hargittai mostró que entre jóvenes de la misma generación las habilidades digitales varían según el origen socioeconómico, una brecha que el mito del nativo digital esconde.",
+    "competencia+tpk": "Quien usa bien la tecnología y aprende cómo cambia la enseñanza con ella convierte su competencia digital personal en competencia digital docente.",
+    "blended+dua": "Si el curso combinado ofrece opciones como pide el DUA, cada estudiante elige sala, sesión en línea o ruta asincrónica; Beatty incluye la accesibilidad entre sus principios.",
+    "respuesta_audiencia+tps": "Cada estudiante vota, discute con quien tiene al lado y vuelve a votar, así que la instrucción de Mazur es un piensa, discute, comparte con sistema de respuesta.",
+    "blended+expositiva": "Si el curso combinado pasa la exposición al entorno virtual y deja la sala para practicar y discutir, tienes el aula invertida, uno de sus modelos más usados.",
+    "asincronico+presencial": "Sesiones en sala más trabajo en línea a ritmo propio forman el curso combinado más común, siempre que ambas partes se diseñen integradas.",
+    "expositiva+presencial": "Para Moore, la distancia transaccional depende del diálogo y la estructura, así que una clase expositiva rígida y sin diálogo puede generarla aunque todos compartan la sala.",
+    "carga_cognitiva+video": "Aplicar la teoría de la carga cognitiva a una clase grabada lleva a cortarla en segmentos breves y quitarle lo accesorio, y de ahí sale la cápsula.",
+    "nativos+remota_emergencia": "En 2020, el estudiante que seguía la clase desde el celular de su mamá desmintió el mito de los nativos digitales y dejó a la vista la brecha.",
+    "presencial+remota_emergencia": "Al volver a las aulas tras la emergencia, muchas universidades transmitieron y grabaron sus clases presenciales, y así se difundió el HyFlex de Beatty, que exige rutas equivalentes.",
+    "diagnostica+tecnologia": "Si la tecnología diagnostica de forma continua lo que cada estudiante domina, puede elegir el próximo ejercicio para cada uno, como hace el aprendizaje adaptativo.",
+    "expositiva+respuesta_audiencia": "En el método de Mazur, la exposición se interrumpe con una pregunta conceptual que todos responden con su dispositivo, discuten con el compañero y vuelven a votar.",
+    "analitica+video": "En millones de sesiones de edX, Guo, Kim y Rubin vieron que el compromiso caía con la duración, un argumento para dividir la clase grabada en cápsulas.",
+    "estudiante+mooc": "Los MOOC prometían abrir la universidad a todos, pero Hansen y Reich encontraron que los aprovechan más quienes ya tienen ventajas socioeconómicas.",
+    "retro+sustitucion": "Cuando la misma prueba, ya digital, corrige al instante y explica cada error, la tarea gana una mejora funcional y sube de sustitución a aumento.",
+    "ia+pedagogia": "Por sí sola, la IA generativa entrega respuestas; con intención pedagógica, se configura como tutor que pregunta y da pistas mientras el estudiante hace el trabajo de pensar.",
+    "pedagogia+video": "Con criterio pedagógico, la clase grabada se recorta en piezas breves de una idea, y cada una termina con una pregunta que obliga a procesar lo visto.",
+    "problema+tiempo": "Cuando un problema auténtico se trabaja durante semanas y desemboca en un producto, como la maqueta de una plaza o un plan de negocios, ya es un proyecto.",
+    "competencias+tecnologia": "La Unión Europea incluye la competencia digital entre las ocho competencias clave para el aprendizaje permanente y la entiende como conocimientos, habilidades y actitudes que se desarrollan."
+  },
+  "informe": [
+    {
+      "id": "activo",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "activo",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "activo",
+      "campo": "uni",
+      "patrones": [
+        "A1",
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "abp",
+      "campo": "pista",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "abp",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "proyectos",
+      "campo": "uni",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "expositiva",
+      "campo": "pista",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "expositiva",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "peer",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "peer",
+      "campo": "uni",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "invertida",
+      "campo": "uni",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "ia",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "ia",
+      "campo": "why",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "ia",
+      "campo": "uni",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "aumento",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "redefinicion",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10",
+        "A13",
+        "A2"
+      ]
+    },
+    {
+      "id": "video",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "tutoria",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "competencia",
+      "campo": "pista",
+      "patrones": [
+        "A1",
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "competencia",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "competencia",
+      "campo": "uni",
+      "patrones": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "presencial",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "virtual",
+      "campo": "pista",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "virtual",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "sincronico",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "sincronico",
+      "campo": "uni",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "asincronico",
+      "campo": "pista",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "asincronico",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "blended",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "blended",
+      "campo": "uni",
+      "patrones": [
+        "B10"
+      ]
+    },
+    {
+      "id": "hyflex",
+      "campo": "uni",
+      "patrones": [
+        "A6"
+      ]
+    },
+    {
+      "id": "coi",
+      "campo": "uni",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "casos",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "servicio",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "gamificacion",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "abj",
+      "campo": "pista",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "abj",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "simulacion",
+      "campo": "why",
+      "patrones": [
+        "A2",
+        "C"
+      ]
+    },
+    {
+      "id": "indagacion",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "analitica",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2",
+        "B10"
+      ]
+    },
+    {
+      "id": "privacidad",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "privacidad",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "adaptativo",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "rea",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "mooc",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "rv",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "rv",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "respuesta_audiencia",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "alfabetizacion_ia",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "alfabetizacion_ia",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "brecha",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "competencia_digital_docente",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10",
+        "B8"
+      ]
+    },
+    {
+      "id": "competencia_digital_docente",
+      "campo": "uni",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "accesibilidad",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "accesibilidad",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "aula_activa",
+      "campo": "pista",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "aula_activa",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2",
+        "A6"
+      ]
+    },
+    {
+      "id": "ubicuo",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "movil",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "distancia",
+      "campo": "pista",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "distancia",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "remota_emergencia",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "remota_emergencia",
+      "campo": "uni",
+      "patrones": [
+        "A2",
+        "A6"
+      ]
+    },
+    {
+      "id": "emoderacion",
+      "campo": "pista",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "emoderacion",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "espacio+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "espacio+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "proposito+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "espacio+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "cooperativo+problema",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "abp+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+presencial",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+grupo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+expositiva",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+capsula",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "pensamiento_critico+problema",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "problema+proyectos",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "proyectos+situado",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "experiencial+proyectos",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "contenido+cooperativo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "cooperativo+segmentacion",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+grupo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "motivacion+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "contenido+gamificacion",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "situado+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "problema+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "andamiaje+problema",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "descubrimiento+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "comunidad_practica+situado",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "atencion10+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "expositiva+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "aumento+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "modificacion+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "asincronico+expositiva",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "segmentacion+video",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "nativos+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "analitica+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "estudiante+ia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "analitica+ritmo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "contenido+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "asincronico+rea",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "video+virtual",
+      "campo": "nota",
+      "patrones": [
+        "B4"
+      ]
+    },
+    {
+      "id": "espacio+simulacion",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "activo+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "competencia+ia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "ia+pensamiento_critico",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "estudiante+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "competencia+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "dua+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "dua+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "tiempo+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "ritmo+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "presencial+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "grupo+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A6"
+      ]
+    },
+    {
+      "id": "tecnologia+ubicuo",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "situado+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "pedagogia+virtual",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "expositiva+sincronico",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "andamiaje+asincronico",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "multimedia+video",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2",
+        "C"
+      ]
+    },
+    {
+      "id": "expositiva+ritmo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "gamificacion+simulacion",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "competencia+nativos",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "competencia+tpk",
+      "campo": "nota",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "blended+dua",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "respuesta_audiencia+tps",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "blended+expositiva",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "asincronico+presencial",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "expositiva+presencial",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "carga_cognitiva+video",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2",
+        "C"
+      ]
+    },
+    {
+      "id": "nativos+remota_emergencia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2",
+        "A6"
+      ]
+    },
+    {
+      "id": "presencial+remota_emergencia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "diagnostica+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "expositiva+respuesta_audiencia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "analitica+video",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "estudiante+mooc",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "retro+sustitucion",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "ia+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A2",
+        "A6"
+      ]
+    },
+    {
+      "id": "pedagogia+video",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "problema+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "competencias+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "fichas": {
+    "evaluacion": {
+      "why": "Evaluar es contrastar lo que el estudiante muestra con el propósito que se buscaba. Scriven distinguió en 1967 dos funciones de la evaluación: la formativa, que sirve para mejorar mientras el proceso ocurre, y la sumativa, que juzga el resultado al final."
+    },
+    "sumativa": {
+      "why": "Es la evaluación que se ubica al final de un periodo para certificar cuánto se logró. Scriven la distinguió de la formativa por su función, ya que juzga el resultado en vez de ayudar a mejorarlo mientras todavía hay tiempo."
+    },
+    "recuperacion": {
+      "why": "Consiste en usar la evaluación como actividad de aprendizaje, porque intentar recordar fortalece la memoria más que releer. Roediger y Karpicke mostraron que quienes se pusieron a prueba recordaban más una semana después que quienes volvieron a estudiar el texto, aunque estos últimos se sentían más seguros de su aprendizaje. Dunlosky y colaboradores la califican como técnica de utilidad alta."
+    },
+    "autentica": {
+      "pista": "Una prueba que se parece al trabajo de verdad, como redactar un peritaje o un plan de cuidados."
+    },
+    "resultados": {
+      "why": "Un propósito aplicado a un contenido se expresa como lo que el estudiante será capaz de hacer con él, con un verbo observable. Biggs y Tang ponen estos resultados en el centro del diseño universitario y alinean con ellos las actividades y la evaluación."
+    },
+    "alineamiento": {
+      "pista": "La clase entrena el mismo tipo de pensamiento que la meta promete y que la prueba después exige.",
+      "why": "Cuando resultados, actividades y evaluación apuntan a lo mismo, el estudiante aprende lo que se buscaba. Biggs lo llamó alineamiento constructivo; por ejemplo, si el resultado pide analizar, la actividad debe poner a analizar y la evaluación debe pedir análisis. También advierte que los estudiantes aprenden lo que creen que se les va a evaluar, de modo que una prueba de memoria produce memorización aunque el programa prometa otra cosa."
+    },
+    "dua": {
+      "pista": "Una clase pensada como rampa de entrada, que algunos necesitan y que todo el curso termina usando.",
+      "why": "El DUA planifica desde el inicio para la diversidad de todo el curso, sin etiquetar a cada estudiante con un estilo. CAST lo organiza en tres principios: proporcionar múltiples formas de implicación, de representación y de acción y expresión. Las opciones quedan abiertas para todos, y cada estudiante usa las que le sirven."
+    },
+    "nativos": {
+      "evidence": "El término lo popularizó Prensky en 2001. Kirschner y De Bruyckere revisaron la evidencia y concluyeron que no existe una generación con habilidades digitales innatas. Moverse con soltura en redes sociales no garantiza saber buscar y evaluar información académica, ni producirla, y la multitarea perjudica el aprendizaje."
+    },
+    "estilos": {
+      "evidence": "Pashler, McDaniel, Rohrer y Bjork buscaron estudios con el diseño adecuado para probar esa hipótesis y prácticamente no encontraron evidencia a favor; varios estudios bien diseñados la contradicen. Las personas sí tienen preferencias, pero adaptar la enseñanza a ellas no mejora el aprendizaje. Al elegir cómo enseñar algo, conviene guiarse por lo que exige el contenido y por lo que el estudiante ya sabe."
+    },
+    "piramide": {
+      "pista": "Un triángulo con porcentajes redondos que aparece en mil presentaciones y en ningún estudio.",
+      "evidence": "Esos porcentajes circulan atribuidos al NTL Institute o al cono de la experiencia de Edgar Dale, pero ninguna investigación los respalda. Dale nunca puso cifras en su cono, y las revisiones de Lalley y Miller y de Letrud no encontraron el estudio que los originó. El aprendizaje activo tiene buen respaldo propio, que no depende de esas cifras."
+    },
+    "detectores": {
+      "evidence": "Weber-Wulff y colaboradores probaron 14 herramientas de detección, entre ellas Turnitin, y concluyeron que no son precisas ni confiables. Liang y colaboradores detectaron además un sesgo, porque los detectores marcaron como generados por IA más de la mitad de los ensayos escritos por hablantes no nativos de inglés. Acusar a un estudiante con base en un detector puede ser injusto."
+    },
+    "autoevaluacion": {
+      "why": "Si el estudiante aplica a su propio trabajo los criterios con que se evalúa, la evaluación se vuelve un ejercicio metacognitivo. Boud la entiende como identificar qué criterios aplican y juzgar en qué medida se cumplieron, con un valor sobre todo formativo que va más allá de ponerse la nota. En cuatro metaanálisis, Panadero, Jonsson y Botella encontraron efectos positivos de la autoevaluación sobre las estrategias de autorregulación y la autoeficacia."
+    },
+    "coevaluacion": {
+      "pista": "Tu trabajo lo corrige quien se sienta a tu lado, con los mismos criterios que usaría el docente."
+    },
+    "integridad": {
+      "pista": "Lo que sostiene la honestidad de un curso cuando el docente sale de la sala."
+    },
+    "alf_retro": {
+      "pista": "Saber descifrar los comentarios en rojo de un trabajo devuelto y convertirlos en cambios.",
+      "why": "Los comentarios solo sirven si el estudiante sabe qué hacer con ellos. Carless y Boud definen la alfabetización en retroalimentación como las comprensiones, capacidades y disposiciones necesarias para dar sentido a esa información y usarla para mejorar el trabajo o las estrategias de aprendizaje. Proponen cuatro rasgos que se pueden enseñar: valorar la retroalimentación, formarse juicios sobre la calidad, manejar las emociones que provoca y pasar a la acción."
+    },
+    "juicio": {
+      "why": "Reconocer la calidad del trabajo propio y ajeno es una capacidad entrenable. Tai y colaboradores la llaman juicio evaluativo y proponen desarrollarla de forma explícita en la universidad. La idea se apoya en Sadler, quien sostuvo que, para mejorar, el estudiante necesita una noción de calidad parecida a la del docente, poder comparar su trabajo con ella y estrategias para cerrar la brecha. Se cultiva con autoevaluación, evaluación entre pares, rúbricas y análisis de ejemplos."
+    },
+    "portafolio": {
+      "why": "Paulson, Paulson y Meyer definen el portafolio como una colección intencionada de trabajos que muestra el esfuerzo, el progreso y los logros del estudiante, quien participa en elegir qué incluir y reflexiona sobre ello. Así la evaluación se extiende en el tiempo y pide reflexionar sobre lo producido. La evidencia es mixta. En educación médica, la revisión de Driessen y colaboradores halló efectos más claros en pregrado y concluyó que el portafolio necesita integrarse de verdad al currículo y contar con apoyo de un tutor."
+    },
+    "cats": {
+      "why": "Angelo y Cross reunieron en un manual para docentes universitarios 50 técnicas breves, por lo general anónimas y sin nota, para averiguar durante el curso qué están aprendiendo los estudiantes. Dos de las más usadas son el papel de un minuto (¿qué fue lo más importante de hoy?, ¿qué pregunta te quedó?) y el punto más confuso. Funcionan como evaluación formativa en miniatura, porque lo que revelan sirve para ajustar la clase siguiente."
+    },
+    "validez": {
+      "why": "Toda evaluación es una inferencia sobre lo que el estudiante sabe, y esa inferencia puede fallar por falta de consistencia o por medir algo distinto. La confiabilidad es la consistencia del resultado si cambia el corrector, la versión de la prueba o el día. Messick y los Estándares de AERA, APA y NCME ubican la validez en las interpretaciones y usos de los puntajes, y la definen como el grado en que la evidencia y la teoría los respaldan."
+    },
+    "criterial": {
+      "pista": "Tu nota depende de llegar a un estándar fijado de antemano, aunque lo alcance todo el curso."
+    },
+    "comentarios": {
+      "pista": "El trabajo vuelve lleno de observaciones al margen y sin ningún número en la esquina.",
+      "why": "Cuando la nota y los comentarios llegan juntos, la nota suele acaparar la atención. En un estudio clásico con escolares, Butler encontró que el interés y el desempeño fueron más altos cuando se entregaron solo comentarios; la nota, sola o acompañada de comentarios, tendió a socavarlos. Con universitarios, Lipnevich y Smith observaron que la retroalimentación detallada funcionó mejor cuando llegaba sin nota ni elogio. Por eso conviene separar el momento de mejorar del momento de calificar, sin renunciar a las notas."
+    },
+    "sostenible": {
+      "why": "Boud propuso la evaluación sostenible: la que cumple las necesidades formativas y sumativas del curso y, a la vez, prepara al estudiante para atender sus propias necesidades de aprendizaje futuras. Después de egresar no habrá docente que califique; el profesional tendrá que valorar por sí mismo la calidad de su trabajo, lo que Tai y colaboradores llaman juicio evaluativo. Por eso privilegia las tareas realistas y la autoevaluación, y abre un diálogo sobre los criterios en lugar de quedarse en la nota aislada."
+    },
+    "efecto_retroactivo": {
+      "why": "La evaluación orienta qué y cómo estudia el curso, y a veces también qué se enseña. Snyder mostró, con estudiantes del MIT y de Wellesley, que junto al currículo declarado existe uno oculto, que consiste en descifrar qué se evalúa de verdad para obtener buenas notas. Biggs y Tang llaman backwash a este efecto y proponen aprovecharlo, alineando la evaluación con los resultados de aprendizaje para que empuje hacia un aprendizaje profundo y no premie la memorización superficial."
+    },
+    "perfil_egreso": {
+      "why": "Cuando se reúnen los propósitos de todos los cursos de una carrera, aparece un propósito mayor, que es lo que debe saber hacer quien se titula. En América Latina suele llamarse perfil de egreso, y el proyecto Tuning América Latina propuso expresarlo en competencias genéricas y específicas. Barrie, que estudió los atributos del egresado en Australia, mostró que los académicos entienden estas declaraciones de maneras muy distintas, y que esa comprensión influye en cómo las abordan en su enseñanza."
+    },
+    "competencias": {
+      "pista": "Formar para que la futura abogada ponga en juego todo lo que aprendió frente a un caso real.",
+      "why": "Cuando el perfil de egreso o los resultados de aprendizaje se llevan a situaciones reales, la meta pasa a ser movilizar conocimientos, habilidades y actitudes para resolver problemas de una profesión, más allá de acumular saberes sueltos. El proyecto Tuning América Latina adoptó las competencias como lenguaje común entre universidades, y Tobón propuso un modelo de diseño curricular basado en ellas. Es un enfoque de diseño más que un método con efecto medido, y ha recibido críticas por fragmentar la formación en listas de conductas."
+    },
+    "curriculo": {
+      "pista": "El plan que ordena qué se enseña en cada semestre de una carrera, y con qué fin.",
+      "why": "Organizar contenidos y propósitos en una secuencia a lo largo del tiempo es hacer currículo. Tyler lo formuló en 1949 como cuatro preguntas: qué propósitos perseguir, qué experiencias ofrecer, cómo organizarlas y cómo evaluar si se lograron. En educación superior, Fraser y Bosanquet encontraron que los académicos lo entienden de formas muy distintas, por ejemplo como el contenido de una asignatura o de una carrera, como la experiencia del estudiante o como el proceso vivo de enseñar y aprender."
+    },
+    "curriculo_oculto": {
+      "why": "Junto al currículo escrito, el espacio del aula y la vida del grupo, con sus normas, enseñan cosas que nadie declaró. Jackson acuñó la expresión currículo oculto en 1968 observando aulas escolares, y Snyder la llevó a la universidad al mostrar que, en el MIT y en Wellesley, los estudiantes aprendían a descifrar qué se evaluaba en realidad, más allá de lo que decía el programa. En medicina, Hafferty y Franks sostuvieron que buena parte de la identidad profesional se forma en ese plano informal."
+    },
+    "transposicion": {
+      "why": "El saber que llega al aula ya no es idéntico al que producen los investigadores. En el camino por planes de estudio y textos se recorta y se simplifica, y cambia de orden para volverse enseñable. Chevallard llamó a este proceso transposición didáctica y distinguió tres momentos: el saber sabio, el saber a enseñar y el saber enseñado. La transformación es inevitable; por eso Chevallard pide vigilancia epistemológica, para que la versión enseñada no deforme el saber de origen."
+    },
+    "addie": {
+      "why": "Unir propósito y evaluación en un ciclo ordenado da el modelo ADDIE: análisis, diseño, desarrollo, implementación y evaluación. Molenda rastreó su origen y concluyó que no tiene un autor único, porque el acrónimo se difundió de boca en boca como etiqueta para toda una familia de modelos de diseño instruccional sistemático. Hoy suele presentarse como un ciclo en que la evaluación revisa cada fase, más que como una secuencia rígida."
+    },
+    "gagne": {
+      "why": "Cuando la pedagogía se ordena en el tiempo de una clase, surge una secuencia. Gagné propuso nueve eventos de instrucción, ligados a los procesos internos del aprendizaje: captar la atención, informar el objetivo, estimular el recuerdo de lo previo, presentar el contenido, guiar el aprendizaje, provocar el desempeño, retroalimentar, evaluar el desempeño y favorecer la retención y la transferencia. Los eventos pueden reordenarse o combinarse según la clase."
+    },
+    "merrill": {
+      "why": "Si a una secuencia como la de Gagné se le pone al centro un problema real, aparecen los primeros principios de Merrill. Al comparar muchas teorías de diseño instruccional, Merrill encontró cinco ideas compartidas: se aprende mejor cuando se resuelven problemas del mundo real, se activa lo que ya se sabe, se observa una demostración, se aplica lo nuevo con retroalimentación y se lo integra al propio trabajo. Él mismo los presentó como un denominador común de muchos modelos."
+    },
+    "solo": {
+      "why": "Mientras Bloom clasifica el tipo de proceso que se pide, Biggs y Collis propusieron clasificar la calidad estructural de lo que el estudiante responde. La taxonomía SOLO tiene cinco niveles: preestructural, uniestructural, multiestructural, relacional y abstracto extendido. La frontera más importante separa enumerar muchos datos (multiestructural) de integrarlos en un todo coherente (relacional), que es lo que busca el enfoque profundo. Biggs y Tang la usan para redactar resultados de aprendizaje y criterios de evaluación."
+    },
+    "syllabus": {
+      "pista": "Una carta a quien tomará el curso, que le cuenta qué logrará y con qué apoyo contará.",
+      "why": "Cuando el currículo de un curso se escribe pensando en el estudiante, el programa se convierte en una guía para aprender, más que en una lista de temas. O'Brien, Millis y Cohen proponen que explique qué lograrán los estudiantes, qué se espera de ellos, cómo serán evaluados y con qué recursos cuentan. Palmer, Bach y Streifer crearon una rúbrica que ubica cada programa en un continuo que va de centrado en el contenido a centrado en el aprendizaje."
+    },
+    "espiral": {
+      "why": "Si el currículo se organiza para retomar las mismas ideas espaciadas en el tiempo, se obtiene un currículo en espiral. Bruner propuso en 1960 presentar pronto las ideas fundamentales de una disciplina en forma simple y revisitarlas después con más profundidad. Harden y Stamper lo aplicaron a la formación médica y advierten que cada nuevo encuentro debe construir sobre el anterior y aumentar la complejidad, en vez de solo repetir."
+    },
+    "carga_trabajo": {
+      "why": "Al cruzar el currículo con el tiempo disponible surge la pregunta de cuántas horas exige de verdad cada curso, contando lecturas, tareas y estudio autónomo. El sistema europeo ECTS asigna 60 créditos a un año a tiempo completo, en general de 25 a 30 horas cada uno. Kember encontró que la carga percibida se relaciona poco con las horas reales y depende también de factores como la evaluación, la dificultad o el clima del curso. Cuando parece excesiva, empuja a estudiar en forma superficial."
+    },
+    "arcs": {
+      "why": "Cuando la pedagogía se pone al servicio de la motivación, esta se vuelve algo que el docente puede diseñar, además de un rasgo del estudiante. Keller organizó en el modelo ARCS cuatro condiciones: atención, relevancia, confianza y satisfacción, cada una con estrategias concretas. Propuso además un proceso para diagnosticar qué condición falla en un curso y elegir las estrategias que la atienden, en vez de agregar estímulos al azar."
+    },
+    "cerebro10": {
+      "evidence": "El mito no tiene respaldo científico. Las neuroimágenes muestran actividad en todas las regiones del cerebro a lo largo del día, y un daño en casi cualquier zona produce algún déficit. Al aprender cambian las conexiones del cerebro, y no existe una reserva dormida que activar. Aun así, Dekker y colaboradores encontraron que cerca de la mitad de los docentes encuestados en el Reino Unido y los Países Bajos lo aceptaba, y Howard-Jones documentó la misma creencia entre docentes de Turquía, Grecia y China."
+    },
+    "atencion10": {
+      "pista": "La regla de que, pasado un tiempo fijo de clase, el curso entero se apaga como con temporizador.",
+      "evidence": "Wilson y Korn revisaron los estudios que se citan para respaldar esa cifra y concluyeron que ofrecen poco apoyo, porque muchos usaban medidas indirectas, como la cantidad de apuntes, y la atención variaba según el estudiante, el docente y el tema. Bradbury llegó a la misma conclusión. Bunce y colaboradores encontraron que la atención fluctúa en ciclos cortos durante toda la clase, y que los lapsos disminuyen durante y después de preguntas y demostraciones."
+    },
+    "multitarea": {
+      "pista": "La creencia de que se puede seguir una clase con el chat abierto sin perderse nada."
+    },
+    "descubrimiento": {
+      "evidence": "Mayer revisó décadas de estudios y encontró que, una y otra vez, el descubrimiento guiado superó al descubrimiento puro. El metaanálisis de Alfieri y colaboradores confirmó que el descubrimiento sin asistencia no beneficia, mientras que el apoyado con retroalimentación, ejemplos resueltos o andamiaje sí. El constructivismo describe cómo se aprende y deja abierta la forma de enseñar; por eso el debate que abrieron Kirschner, Sweller y Clark discute cuánta guía dar y de qué tipo."
+    },
+    "inteligencias": {
+      "pista": "La creencia de que cada estudiante tiene un talento mental favorito por donde deben entrar las clases."
+    },
+    "mas_tecnologia": {
+      "evidence": "Clark sostuvo en 1983 que los medios solo transportan la enseñanza, como el camión que reparte los alimentos sin cambiar la nutrición, y que el aprendizaje lo produce el método. Su tesis fue muy debatida. El metaanálisis de segundo orden de Tamim y colaboradores, que reunió 40 años de investigación, encontró un efecto positivo pero modesto del uso de tecnología, mayor cuando apoya la enseñanza que cuando se usa para impartirla directamente."
+    },
+    "releer": {
+      "pista": "Repasar los apuntes con marcador fosforescente la noche antes, seguro de que así se aprende.",
+      "evidence": "Dunlosky y colaboradores evaluaron diez técnicas de estudio y calificaron releer y subrayar como de baja utilidad, frente a la práctica de recuperación y la práctica espaciada, de alta utilidad. Karpicke, Butler y Roediger encontraron que releer era la estrategia más usada por los universitarios encuestados, y que pocos se ponían a prueba al estudiar. Releer da sensación de dominio porque el texto se vuelve familiar, y esa familiaridad se confunde con poder recordarlo o aplicarlo."
+    },
+    "encuestas": {
+      "pista": "La creencia de que el profesor mejor evaluado por su curso es también el que más le enseñó.",
+      "evidence": "Los primeros metaanálisis encontraron una relación moderada entre las notas de las encuestas y el aprendizaje, pero Uttl, White y Gonzalez mostraron que se debía sobre todo a estudios con muestras pequeñas, y que en los estudios grandes la relación es nula o mínima. Boring, Ottoboni y Stark encontraron además sesgos, como uno en contra de las profesoras, capaces de hacer que docentes más eficaces reciban peores notas. Las encuestas informan sobre la experiencia del estudiante, un dato útil pero distinto del aprendizaje."
+    }
+  },
+  "notas": {
+    "proposito+proposito": "Apila los propósitos de cada curso, de Anatomía al internado, y obtienes uno mayor que abarca la carrera entera. Ese propósito de propósitos es el perfil de egreso.",
+    "estudiante+tecnologia": "Junta a un estudiante con un celular y es tentador concluir que, por haber crecido entre pantallas, ya sabe usarlo para aprender. Esa conclusión sin evidencia es el mito.",
+    "contenido+proposito": "Toma “el contrato de compraventa”, súmale un para qué, y obtienes lo que el estudiante podrá hacer con él, como “detectar cláusulas abusivas en uno real”.",
+    "pedagogia+tiempo": "Reparte las decisiones pedagógicas a lo largo de una clase y aparece una secuencia. Gagné propuso nueve pasos, que parten captando la atención y terminan favoreciendo la transferencia.",
+    "pedagogia+proposito": "Un propósito pedagógico debe precisar qué pensamiento pide, y memorizar fechas no exige lo mismo que analizar causas. Ordenar esos niveles da la taxonomía.",
+    "evaluacion+tiempo": "Si la evaluación llega en la última semana del semestre, ya no queda tiempo para corregir el rumbo, así que su función pasa a ser certificar lo logrado.",
+    "evaluacion+retro": "Si los comentarios de una prueba llegan cuando aún queda semestre por delante, el estudiante alcanza a usarlos para mejorar. Así la evaluación acompaña el proceso.",
+    "evaluacion+pedagogia": "Si el ticket de salida muestra que medio curso confundió media y mediana, la clase siguiente empieza por ahí; evaluar pasa a ser parte de la pedagogía.",
+    "detectores+reflexiva": "Mirar con lupa los detectores de IA revela cuánto fallan, y empuja a rediseñar las tareas para que pidan proceso visible y juicio propio.",
+    "evaluacion+problema": "Arma la prueba de Contabilidad en torno a los libros reales de una pyme, y el estudiante tendrá que aplicar lo aprendido como lo haría un contador.",
+    "metacognicion+retro": "Recibir comentarios no garantiza usarlos. Pensar qué dicen sobre el propio trabajo, sin tomarlos como ataque, y decidir qué cambiar es una capacidad que se enseña.",
+    "evaluacion+reflexiva": "Si la evaluación pide reflexionar, el estudiante reúne evidencias de su semestre y explica por qué eligió cada una y qué muestran de su avance.",
+    "reflexiva+tabla": "Revisar con ojo crítico la tabla de especificaciones lleva a preguntarse si la prueba cubre lo enseñado en su justa proporción, una cuestión de validez de contenido.",
+    "analitica+sumativa": "Aplicar analítica al examen final, pregunta por pregunta, delata qué ítems resultaron muy fáciles o muy difíciles y cuáles confundieron por ambiguos.",
+    "juicio+tiempo": "Lleva el juicio evaluativo años hacia adelante y tendrás a una enfermera que revisa sola su informe clínico, sin nadie que la califique.",
+    "evaluacion+resultados": "Si defines los resultados y enseguida decides qué evidencia los demostraría, planificas la evaluación antes que las actividades, tal como pide el segundo paso del diseño inverso.",
+    "activo+inverso": "Si el diseño inverso ya fijó que se evaluará un análisis de caso, el aprendizaje activo pone al curso a analizar casos en clase, y todo queda alineado.",
+    "activo+rubrica": "Si la rúbrica premia argumentar con evidencia, una clase activa pone al curso a hacer justo eso, y la práctica coincide con lo evaluado.",
+    "estilos+reflexiva": "Al reflexionar sobre el mito de los estilos se rescata que el curso es diverso y se descarta la etiqueta; el DUA atiende esa diversidad con opciones para todos.",
+    "inteligencias+reflexiva": "Al reflexionar, a la etiqueta de inteligencia dominante le sobrevive una buena idea, presentar cada tema de varias formas, que el DUA ofrece a todo el curso.",
+    "perfil_egreso+situado": "Si el perfil de egreso promete que el titulado sabrá atender una urgencia y el aprendizaje situado exige practicarlo en contexto real, lo que se forma son competencias.",
+    "resultados+situado": "Lleva un resultado de aprendizaje a una consulta real y el estudiante deberá combinar lo que sabe con su destreza y su trato al paciente, como pide una competencia.",
+    "mapa+proposito": "Un mapa conceptual muestra cómo se conectan los contenidos, pero no por dónde empezar; un propósito formativo lo convierte en ruta, y esa ruta es el currículo.",
+    "curriculo+espacio": "Un auditorio con el docente en lo alto y filas atornilladas enseña quién habla y quién escucha, aunque el currículo escrito pida participación.",
+    "curriculo+grupo": "En el grupo circulan normas que ningún programa declara, como qué atajos sirven o a quién conviene no contradecir. Ese aprendizaje informal es el currículo oculto.",
+    "contenido+cpc": "El conocimiento pedagógico del contenido, como saber qué analogía explica la entropía, le permite al docente hacer la transposición dentro de su propia aula.",
+    "contenido+curriculo": "Un contenido que entra a un currículo se recorta y se ordena hasta caber en un temario, y esa es la transposición que ocurre antes del aula.",
+    "evaluacion+proposito": "Si lo que evalúas al final de un curso alimenta el análisis del propósito para la siguiente versión, tienes el ciclo de ADDIE.",
+    "activo+gagne": "Sumar aprendizaje activo a la secuencia de Gagné da protagonismo al estudiante, que en los principios de Merrill aplica lo nuevo con retroalimentación y lo integra a su trabajo.",
+    "bloom+profundo": "Cruza la idea de Bloom de ordenar el pensamiento por niveles con el afán del enfoque profundo por relacionar ideas, y obtienes SOLO, que clasifica cuán integrada está una respuesta.",
+    "profundo+rubrica": "Si quieres que tu rúbrica premie el enfoque profundo, arma sus niveles con SOLO, de modo que enumerar diez datos valga menos que relacionarlos o extenderlos a casos nuevos.",
+    "alineamiento+tiempo": "Un programa centrado en el aprendizaje pone el alineamiento en un calendario, mostrando semana a semana qué actividad y qué evaluación sirven a cada resultado, con tiempos realistas.",
+    "curriculo+espaciada": "Lleva la práctica espaciada a la escala de un plan de estudios y los temas centrales volverán en distintos semestres, cada vez más a fondo, como en una espiral.",
+    "curriculo+tiempo": "Cruza lo que pide el currículo con las horas de la semana y aparece la carga real, que suma lecturas y estudio autónomo a las horas de clase.",
+    "expositiva+tiempo": "Cronometrar la clase expositiva tienta a fijar la regla de que la atención se acaba a los 10 minutos, aunque en realidad fluctúa según lo que pasa en clase.",
+    "estilos+estudiante": "Clasificar al estudiante por un estilo tiene un primo con bata de neurocientífico, que lo rotula como de cerebro izquierdo o derecho. Ambos mitos encasillan sin evidencia.",
+    "constructivismo+problema": "Leer el constructivismo como “que lo descubran solos” y soltar un problema sin apoyo produce el mito, aunque esa teoría describe cómo se aprende y no prohíbe guiar.",
+    "estilos+pedagogia": "Aplicar a la pedagogía la lógica de los estilos, ahora con las inteligencias de Gardner, repite el error de clasificar a cada estudiante y enseñarle por un solo canal.",
+    "sustitucion+tecnologia": "Cambiar la fotocopia por un PDF es sustitución, porque la tarea sigue igual. Creer que sumar aparatos de ese modo ya mejora el aprendizaje es el mito.",
+    "contenido+ritmo": "Con mucho contenido y a su propio ritmo, el estudiante elige lo más cómodo, volver a leer con el marcador en mano, y confunde esa familiaridad con dominio.",
+    "retro+ritmo": "Si la retroalimentación dice qué corregir y quien lo necesita recibe tiempo extra antes de reintentar, tienes el ciclo de correctivos del aprendizaje para el dominio de Bloom.",
+    "curriculo+proposito": "Pregúntale a un plan de estudios para qué existe y te responderá con el perfil de egreso, la declaración de lo que la carrera se compromete a formar.",
+    "evaluacion+mapa": "Un mapa conceptual pedido el primer día de la unidad muestra qué relaciones ya establece el curso y qué ideas erróneas trae, justo lo que busca una evaluación diagnóstica.",
+    "grupo+retro": "Cuando la retroalimentación circula entre compañeros, también aprende quien la da; Nicol y colaboradores encontraron que comentar el trabajo ajeno lleva a revisar críticamente el propio.",
+    "detectores+evidencia": "Los estudios muestran que los detectores de IA fallan y penalizan más a quienes escriben en una segunda lengua, así que la respuesta defendible pasa por cultivar la integridad académica.",
+    "evidencia+releer": "Cuando la evidencia compara técnicas de estudio, releer rinde poco y evocar lo aprendido rinde mucho más (Karpicke y Roediger; Dunlosky y colaboradores), y gana la práctica de recuperación.",
+    "escribir+formativa": "Con el papel de un minuto o el punto más confuso de Angelo y Cross, la escritura breve del cierre revela qué entendió el curso y qué retomar.",
+    "evaluacion+olvido": "Roediger y Karpicke compararon releer con hacer pruebas; a los pocos minutos ganaba releer, pero días después recordaban más quienes se habían evaluado, que olvidaban más lento.",
+    "formativa+segmentacion": "Bloom propuso dividir el curso en unidades breves, cada una con una prueba formativa y actividades correctivas antes de avanzar, y sobre esa base montó el aprendizaje para el dominio.",
+    "inverso+perfil_egreso": "Aplica el diseño inverso a una carrera entera y partirás del perfil de egreso para decidir qué evidencias pedir y cómo ordenar las asignaturas, que es armar el currículo.",
+    "formativa+tiempo": "Según Bloom, que partió del modelo de tiempo de Carroll, si cada estudiante recibe evaluaciones formativas y el tiempo extra que necesita para corregir, la mayoría puede alcanzar el dominio.",
+    "carga_trabajo+evaluacion": "Snyder observó en el MIT que, ante cargas imposibles de cubrir, los estudiantes descubren qué se evalúa de verdad y siguen ese currículo oculto, distinto del oficial.",
+    "coevaluacion+retro": "Carless y Boud proponen la retroalimentación entre pares para desarrollar la alfabetización en retroalimentación, porque comentar el trabajo de otros enseña a interpretar y usar los comentarios que uno recibe.",
+    "estilos+tecnologia": "Prensky aplicó la lógica de los estilos a toda una generación al afirmar que quienes crecieron con tecnología procesan la información de otra manera, algo que tampoco tiene respaldo.",
+    "ciencia_aprendizaje+releer": "Cuando la ciencia compara técnicas de estudio, releer y subrayar salen poco útiles y las preguntas de práctica, entre las mejores; conviene cambiar el hábito por la recuperación.",
+    "evaluacion+profundo": "Si la prueba solo premia memorizar, el estudiante estudiará en superficie; pídele aplicar lo aprendido a un caso nuevo y tendrá motivos para ir a fondo.",
+    "perfil_egreso+transferencia": "Un perfil de egreso que pide usar lo aprendido en situaciones profesionales nuevas exige competencias, es decir, saberes que el titulado moviliza y lleva a contextos distintos.",
+    "constructivismo+pedagogia": "El constructivismo explica cómo se aprende sin prescribir un método. Traducirlo en descubrir sin guía es un error común, y Mayer advierte que aprender activamente no exige enseñar sin orientación.",
+    "competencias+evaluacion": "Una competencia se demuestra actuando ante una tarea realista, así que evaluarla exige desempeños parecidos a los profesionales, como atender a un paciente simulado, además de pruebas de recuerdo.",
+    "brecha+tecnologia": "Dar equipos y conexión es necesario para cerrar la brecha; el mito es creer que con eso basta para aprender más mientras la enseñanza siga igual.",
+    "activo+bloom": "Ordenar las actividades activas en niveles, como Bloom ordena los objetivos, tienta a dibujar una pirámide con porcentajes de retención que ningún estudio respalda."
+  },
+  "informe": [
+    {
+      "id": "evaluacion",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "sumativa",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "recuperacion",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "autentica",
+      "campo": "pista",
+      "patrones": [
+        "A1",
+        "vida"
+      ]
+    },
+    {
+      "id": "resultados",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "alineamiento",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "alineamiento",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "dua",
+      "campo": "pista",
+      "patrones": [
+        "vida"
+      ]
+    },
+    {
+      "id": "dua",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "B5"
+      ]
+    },
+    {
+      "id": "nativos",
+      "campo": "evidence",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "estilos",
+      "campo": "evidence",
+      "patrones": [
+        "A6",
+        "A1"
+      ]
+    },
+    {
+      "id": "piramide",
+      "campo": "pista",
+      "patrones": [
+        "vida"
+      ]
+    },
+    {
+      "id": "piramide",
+      "campo": "evidence",
+      "patrones": [
+        "A6",
+        "B10"
+      ]
+    },
+    {
+      "id": "detectores",
+      "campo": "evidence",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "autoevaluacion",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "coevaluacion",
+      "campo": "pista",
+      "patrones": [
+        "vida"
+      ]
+    },
+    {
+      "id": "integridad",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "alf_retro",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "alf_retro",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A1"
+      ]
+    },
+    {
+      "id": "juicio",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "portafolio",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "cats",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "validez",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10",
+        "A11",
+        "A6"
+      ]
+    },
+    {
+      "id": "criterial",
+      "campo": "pista",
+      "patrones": [
+        "A1",
+        "vida"
+      ]
+    },
+    {
+      "id": "comentarios",
+      "campo": "pista",
+      "patrones": [
+        "vida"
+      ]
+    },
+    {
+      "id": "comentarios",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "sostenible",
+      "campo": "why",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "efecto_retroactivo",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "perfil_egreso",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "competencias",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "competencias",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "curriculo",
+      "campo": "pista",
+      "patrones": [
+        "A2",
+        "largo"
+      ]
+    },
+    {
+      "id": "curriculo",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "B8"
+      ]
+    },
+    {
+      "id": "curriculo_oculto",
+      "campo": "why",
+      "patrones": [
+        "A2",
+        "A10"
+      ]
+    },
+    {
+      "id": "transposicion",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "addie",
+      "campo": "why",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "gagne",
+      "campo": "why",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "merrill",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "solo",
+      "campo": "why",
+      "patrones": [
+        "C"
+      ]
+    },
+    {
+      "id": "syllabus",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "syllabus",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "espiral",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A1",
+        "C"
+      ]
+    },
+    {
+      "id": "carga_trabajo",
+      "campo": "why",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "arcs",
+      "campo": "why",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "cerebro10",
+      "campo": "evidence",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "atencion10",
+      "campo": "pista",
+      "patrones": [
+        "vida"
+      ]
+    },
+    {
+      "id": "atencion10",
+      "campo": "evidence",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "multitarea",
+      "campo": "pista",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "descubrimiento",
+      "campo": "evidence",
+      "patrones": [
+        "A1",
+        "B10"
+      ]
+    },
+    {
+      "id": "inteligencias",
+      "campo": "pista",
+      "patrones": [
+        "largo"
+      ]
+    },
+    {
+      "id": "mas_tecnologia",
+      "campo": "evidence",
+      "patrones": [
+        "A10",
+        "A1"
+      ]
+    },
+    {
+      "id": "releer",
+      "campo": "pista",
+      "patrones": [
+        "A10",
+        "largo"
+      ]
+    },
+    {
+      "id": "releer",
+      "campo": "evidence",
+      "patrones": [
+        "A6"
+      ]
+    },
+    {
+      "id": "encuestas",
+      "campo": "pista",
+      "patrones": [
+        "largo"
+      ]
+    },
+    {
+      "id": "encuestas",
+      "campo": "evidence",
+      "patrones": [
+        "A10",
+        "A6",
+        "B10"
+      ]
+    },
+    {
+      "id": "proposito+proposito",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "vida"
+      ]
+    },
+    {
+      "id": "estudiante+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+proposito",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10",
+        "vida"
+      ]
+    },
+    {
+      "id": "pedagogia+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "pedagogia+proposito",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "evaluacion+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "evaluacion+retro",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "B10"
+      ]
+    },
+    {
+      "id": "evaluacion+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "vida"
+      ]
+    },
+    {
+      "id": "detectores+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A2"
+      ]
+    },
+    {
+      "id": "evaluacion+problema",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "vida"
+      ]
+    },
+    {
+      "id": "metacognicion+retro",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "evaluacion+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "reflexiva+tabla",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "analitica+sumativa",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "juicio+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "vida"
+      ]
+    },
+    {
+      "id": "evaluacion+resultados",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+inverso",
+      "campo": "nota",
+      "patrones": [
+        "B10",
+        "A2"
+      ]
+    },
+    {
+      "id": "activo+rubrica",
+      "campo": "nota",
+      "patrones": [
+        "B10"
+      ]
+    },
+    {
+      "id": "estilos+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A1"
+      ]
+    },
+    {
+      "id": "inteligencias+reflexiva",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "perfil_egreso+situado",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "resultados+situado",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "mapa+proposito",
+      "campo": "nota",
+      "patrones": [
+        "B10"
+      ]
+    },
+    {
+      "id": "curriculo+espacio",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "curriculo+grupo",
+      "campo": "nota",
+      "patrones": [
+        "A2"
+      ]
+    },
+    {
+      "id": "contenido+cpc",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+curriculo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2"
+      ]
+    },
+    {
+      "id": "evaluacion+proposito",
+      "campo": "nota",
+      "patrones": [
+        "A2",
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+gagne",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "bloom+profundo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "profundo+rubrica",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A1"
+      ]
+    },
+    {
+      "id": "alineamiento+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "curriculo+espaciada",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "curriculo+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2",
+        "A1"
+      ]
+    },
+    {
+      "id": "expositiva+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A12"
+      ]
+    },
+    {
+      "id": "estilos+estudiante",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "constructivismo+problema",
+      "campo": "nota",
+      "patrones": [
+        "A6",
+        "B10"
+      ]
+    },
+    {
+      "id": "estilos+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "sustitucion+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "contenido+ritmo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "retro+ritmo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "curriculo+proposito",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "evaluacion+mapa",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "grupo+retro",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "detectores+evidencia",
+      "campo": "nota",
+      "patrones": [
+        "A1"
+      ]
+    },
+    {
+      "id": "evidencia+releer",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "escribir+formativa",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "evaluacion+olvido",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A6"
+      ]
+    },
+    {
+      "id": "formativa+segmentacion",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "inverso+perfil_egreso",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "formativa+tiempo",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "carga_trabajo+evaluacion",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "coevaluacion+retro",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "estilos+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "ciencia_aprendizaje+releer",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "evaluacion+profundo",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "B10"
+      ]
+    },
+    {
+      "id": "perfil_egreso+transferencia",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A1"
+      ]
+    },
+    {
+      "id": "constructivismo+pedagogia",
+      "campo": "nota",
+      "patrones": [
+        "A1",
+        "A10"
+      ]
+    },
+    {
+      "id": "competencias+evaluacion",
+      "campo": "nota",
+      "patrones": [
+        "A10",
+        "A2",
+        "A1"
+      ]
+    },
+    {
+      "id": "brecha+tecnologia",
+      "campo": "nota",
+      "patrones": [
+        "A10"
+      ]
+    },
+    {
+      "id": "activo+bloom",
+      "campo": "nota",
+      "patrones": [
+        "A12"
+      ]
+    }
+  ]
+}
