@@ -7,6 +7,7 @@ import { rafaga, nube, estela } from "./polvo.js";
 import { caminosHallados } from "./ficha.js";
 import { emitir, on } from "./bus.js";
 import { abrirFicha } from "./ficha.js";
+import { misionActiva, recetaEnMision, recetaFuera, recetasMision, sirveEnMision, agotada } from "./reglas.js";
 
 export const COLOR = { prim: "#9a7432", cot: "#c27c1e", fund: "#8b5e3c", apr: "#23935f", met: "#db5a2a", eva: "#cf3f74", dis: "#13909a", tec: "#6a54d1", mod: "#2f74c9", mito: "#c23a2e", sint: "#d99a12" };
 const pizarra = $("pizarra"), lista = $("cajaLista"), caja = $("caja"), buscar = $("buscar");
@@ -53,15 +54,19 @@ export function agregar(id, x, y, opts = {}) {
 }
 export function quitar(t) { t.el.remove(); fichas = fichas.filter(o => o !== t); }
 export const fichasEnPizarra = () => fichas;
-function objetivoEn(px, py, excluir) {
-  let mejor = null, md = Infinity;
+// Destino de una ficha arrastrada: la que tiene el puntero encima o la que más se superpone con ella.
+// Basta con que se toquen de forma visible; no hace falta acertar al centro.
+function objetivoPara(x, y, w, h, px, py, excluir) {
+  let mejor = null, puntaje = 0;
   for (const o of fichas) {
     if (o === excluir) continue;
-    const w = o.el.offsetWidth, h = o.el.offsetHeight;
-    if (px >= o.x - 8 && px <= o.x + w + 8 && py >= o.y - 8 && py <= o.y + h + 8) {
-      const d = Math.hypot(px - (o.x + w / 2), py - (o.y + h / 2));
-      if (d < md) { md = d; mejor = o; }
-    }
+    const ow = o.el.offsetWidth, oh = o.el.offsetHeight;
+    const ix = Math.min(x + w, o.x + ow) - Math.max(x, o.x), iy = Math.min(y + h, o.y + oh) - Math.max(y, o.y);
+    const area = ix > 0 && iy > 0 ? ix * iy : 0;
+    const encima = px >= o.x - 10 && px <= o.x + ow + 10 && py >= o.y - 10 && py <= o.y + oh + 10;
+    if (!encima && area < Math.min(w * h, ow * oh) * .12) continue;
+    const p = area + (encima ? 1e6 : 0);
+    if (p > puntaje) { puntaje = p; mejor = o; }
   }
   return mejor;
 }
@@ -81,12 +86,14 @@ function vincular(t) {
       if (!movida && Math.hypot(dx, dy) < 5) return;
       if (!movida) { movida = true; el.classList.add("arrastrando"); sonar.toque(); }
       t.x = ox + dx; t.y = oy + dy; ubicar(t);
-      const n = objetivoEn(t.x + el.offsetWidth / 2, t.y + el.offsetHeight / 2, t);
+      const r = pizarra.getBoundingClientRect();
+      const n = objetivoPara(t.x, t.y, el.offsetWidth, el.offsetHeight, ev.clientX - r.left, ev.clientY - r.top, t);
       if (n !== obj) { obj && obj.el.classList.remove("objetivo"); obj = n; obj && obj.el.classList.add("objetivo"); }
       caja.classList.toggle("soltar-aqui", sobreCaja(ev.clientX, ev.clientY));
     };
     const soltar = ev => {
-      el.removeEventListener("pointermove", mover); el.removeEventListener("pointerup", soltar); el.removeEventListener("pointercancel", soltar);
+      el.removeEventListener("pointermove", mover); el.removeEventListener("pointerup", soltar); el.removeEventListener("pointercancel", soltar); el.removeEventListener("lostpointercapture", soltar);
+      if (movida && ev.type === "pointerup") mover(ev);
       el.classList.remove("arrastrando");
       obj && obj.el.classList.remove("objetivo");
       caja.classList.remove("soltar-aqui");
@@ -94,7 +101,7 @@ function vincular(t) {
       if (sobreCaja(ev.clientX, ev.clientY)) { quitar(t); guardarPizarra(); return; }
       if (obj) combinar(t, obj); else { acotar(t); acomodar(t); guardarPizarra(); }
     };
-    el.addEventListener("pointermove", mover); el.addEventListener("pointerup", soltar); el.addEventListener("pointercancel", soltar);
+    el.addEventListener("pointermove", mover); el.addEventListener("pointerup", soltar); el.addEventListener("pointercancel", soltar); el.addEventListener("lostpointercapture", soltar);
   });
   el.addEventListener("dblclick", () => { const c = agregar(t.id, t.x + 26, t.y + 26, { nace: true }); if (c) { acomodar(c); guardarPizarra(); } });
   el.addEventListener("keydown", e => {
@@ -122,22 +129,29 @@ async function fundir(a, b, cx, cy) {
 }
 function sugerencia(a, b) {
   for (const x of [a, b]) {
-    const posible = D.recetas.find(r => (r[0] === x || r[1] === x) && !tiene(r[2]) && tiene(r[0]) && tiene(r[1]));
-    if (posible) return "Prueba " + D.fichas[x].e + " " + D.fichas[x].n + " con otra de tus fichas, que hay una mezcla esperándote.";
+    const posible = recetasMision().find(r => (r[0] === x || r[1] === x) && !tiene(r[2]) && tiene(r[0]) && tiene(r[1]));
+    if (posible) return "Prueba " + D.fichas[x].e + " " + D.fichas[x].n + " con otra de tus fichas, que hay una pieza esperándote.";
   }
-  return "Prueba con otra pareja.";
+  return "Mira la hoja de la misión o el plano para ver qué piezas tienes a tu alcance.";
 }
+const LINEA = "En esta misión no podemos seguir avanzando por esta línea investigativa.";
 function noCombina(a, b) {
   const cx = b.x + b.el.offsetWidth / 2, cy = b.y + b.el.offsetHeight / 2;
   a.el.classList.add("niega"); b.el.classList.add("niega");
   setTimeout(() => { a.el.classList.remove("niega"); b.el.classList.remove("niega"); }, 460);
-  a.x = b.x + b.el.offsetWidth + 14; a.y = b.y + 6; acotar(a); acomodar(a);
+  a.x = b.x + b.el.offsetWidth + 28; a.y = b.y; acotar(a); acomodar(a, 18);
   nube(cx, cy); sonar.fallo();
-  avisoRico(D.fichas[a.id].e + " " + D.fichas[a.id].n + " + " + D.fichas[b.id].e + " " + D.fichas[b.id].n, "Esta pareja no forma una idea del juego. " + sugerencia(a.id, b.id));
+  const titulo = D.fichas[a.id].e + " " + D.fichas[a.id].n + " + " + D.fichas[b.id].e + " " + D.fichas[b.id].n;
+  const quieta = [a.id, b.id].find(agotada);
+  let texto;
+  if (quieta) texto = LINEA + " " + D.fichas[quieta].e + " " + D.fichas[quieta].n + " ya no lleva a ninguna pieza pendiente del plano. " + sugerencia(a.id, b.id);
+  else if (recetaFuera(a.id, b.id)) texto = LINEA + " Esa mezcla lleva a una idea que no está en el plano de esta misión. " + sugerencia(a.id, b.id);
+  else texto = "Esta pareja no forma ninguna idea. " + sugerencia(a.id, b.id);
+  avisoRico(titulo, texto, { ms: 7000 });
   guardarPizarra();
 }
 export async function combinar(a, b) {
-  const rec = RECETA.get(clave(a.id, b.id));
+  const rec = recetaEnMision(a.id, b.id);
   if (!rec) { noCombina(a, b); return; }
   const ida = a.id, idb = b.id;
   const cx = b.x + b.el.offsetWidth / 2, cy = b.y + b.el.offsetHeight / 2;
@@ -166,13 +180,20 @@ function concretar(ida, idb, rec, cx, cy) {
     avisoRico("Nuevo camino hacia " + f.e + " " + f.n + " (" + caminosHallados(res) + " de " + recetasDe(res).length + ")", rec[3] || "", { familia: f.f, ms: 6500 });
   } else sonar.exito(f.nivel || 1);
   guardarPizarra();
+  marcarAgotadas();
   emitir("mezcla", { id: res, via: [ida, idb], nueva, caminoNuevo });
+}
+
+// Las fichas que ya no llevan a ninguna pieza pendiente se ven apagadas, en la mesa y en la caja.
+export function marcarAgotadas() {
+  for (const t of fichas) { const v = agotada(t.id); t.el.classList.toggle("agotada", v); t.el.title = v ? "Ya no lleva a ninguna pieza pendiente de esta misión" : ""; }
+  lista.querySelectorAll(".chip").forEach(ch => ch.classList.toggle("agotada", agotada(ch.dataset.id)));
 }
 
 /* ---------- Que ninguna ficha quede encima de otra ---------- */
 // Busca el hueco libre más cercano dentro de la mesa; si la ficha no choca con nada, no se mueve.
-function acomodar(t) {
-  const W = pizarra.clientWidth, H = pizarra.clientHeight, M = 6, G = 10;
+function acomodar(t, G = 12) {
+  const W = pizarra.clientWidth, H = pizarra.clientHeight, M = 6;
   const w = t.el.offsetWidth, h = t.el.offsetHeight;
   const otras = fichas.filter(o => o !== t);
   const choca = (x, y) => otras.some(o => x < o.x + o.el.offsetWidth + G && x + w + G > o.x && y < o.y + o.el.offsetHeight + G && y + h + G > o.y);
@@ -208,18 +229,22 @@ $("btnOrden").addEventListener("click", () => { E.orden = ORDENES[(ORDENES.index
 buscar.addEventListener("input", () => renderCaja());
 export function renderCaja(nueva) {
   const q = norm(buscar.value);
-  let ids = descubiertas().filter(id => !q || norm(D.fichas[id].n).includes(q));
+  const utiles = descubiertas().filter(sirveEnMision);
+  let ids = utiles.filter(id => !q || norm(D.fichas[id].n).includes(q));
   if (E.orden === "alfabetico") ids.sort((a, b) => D.fichas[a].n.localeCompare(D.fichas[b].n, "es"));
   else if (E.orden === "familia") ids.sort((a, b) => D.orden.indexOf(D.fichas[a].f) - D.orden.indexOf(D.fichas[b].f) || D.fichas[a].n.localeCompare(D.fichas[b].n, "es"));
   else ids.sort((a, b) => (E.descubiertos[b] || 0) - (E.descubiertos[a] || 0));
-  lista.innerHTML = ids.length ? ids.map(id => chipHtml(id)).join("") : '<p class="caja-vacia">Ninguna ficha coincide con la búsqueda.</p>';
+  const otras = descubiertas().length - utiles.length;
+  lista.innerHTML = (ids.length ? ids.map(id => chipHtml(id)).join("") : '<p class="caja-vacia">Ninguna ficha de esta misión coincide con la búsqueda.</p>') +
+    (otras > 0 && !q ? '<p class="caja-otras">' + otras + (otras === 1 ? " idea de otras misiones queda" : " ideas de otras misiones quedan") + " en tu Cuaderno.</p>" : "");
   lista.querySelectorAll(".chip").forEach(ch => {
     const id = ch.dataset.id;
     if (id === nueva) ch.classList.add("nuevo");
     ch.addEventListener("click", () => { if (performance.now() < ignorarClicHasta) return; activarSonido(); llevar(id); });
     ch.addEventListener("pointerdown", e => arrastrarDesdeCaja(e, id, ch));
   });
-  $("cajaCuenta").textContent = descubiertas().length + " de " + Object.keys(D.fichas).filter(i => !D.fichas[i].ia).length;
+  $("cajaCuenta").textContent = misionActiva() ? "para esta misión" : "";
+  marcarAgotadas();
   emitir("cajaRender");
 }
 function arrastrarDesdeCaja(e, id, chip) {
@@ -237,12 +262,14 @@ function arrastrarDesdeCaja(e, id, chip) {
     }
     fantasma.style.left = (ev.clientX - fantasma.offsetWidth / 2) + "px"; fantasma.style.top = (ev.clientY - fantasma.offsetHeight / 2) + "px";
     const p = enPizarra(ev.clientX, ev.clientY);
-    const n = p ? objetivoEn(p.x, p.y, null) : null;
+    const gw = fantasma.offsetWidth, gh = fantasma.offsetHeight;
+    const n = p ? objetivoPara(p.x - gw / 2, p.y - gh / 2, gw, gh, p.x, p.y, null) : null;
     if (n !== obj) { obj && obj.el.classList.remove("objetivo"); obj = n; obj && obj.el.classList.add("objetivo"); }
   };
   const soltar = ev => {
-    chip.removeEventListener("pointermove", mover); chip.removeEventListener("pointerup", soltar); chip.removeEventListener("pointercancel", soltar);
+    chip.removeEventListener("pointermove", mover); chip.removeEventListener("pointerup", soltar); chip.removeEventListener("pointercancel", soltar); chip.removeEventListener("lostpointercapture", soltar);
     if (!fantasma) return;
+    if (ev.type === "pointerup") mover(ev);
     ignorarClicHasta = performance.now() + 350;
     fantasma.remove(); obj && obj.el.classList.remove("objetivo");
     const p = enPizarra(ev.clientX, ev.clientY);
@@ -250,7 +277,7 @@ function arrastrarDesdeCaja(e, id, chip) {
     const t = agregar(id, p.x, p.y, { centrar: true });
     if (obj) combinar(t, obj); else { acomodar(t); guardarPizarra(); }
   };
-  chip.addEventListener("pointermove", mover); chip.addEventListener("pointerup", soltar); chip.addEventListener("pointercancel", soltar);
+  chip.addEventListener("pointermove", mover); chip.addEventListener("pointerup", soltar); chip.addEventListener("pointercancel", soltar); chip.addEventListener("lostpointercapture", soltar);
 }
 
 /* ---------- Borrar la pizarra con la esponja ---------- */
@@ -279,7 +306,7 @@ export async function borrarPizarra() {
 export function restaurarPizarra() {
   const W = pizarra.clientWidth, H = pizarra.clientHeight;
   [...fichas].forEach(quitar);
-  if (E.mesa && E.mesa.length) { for (const m of E.mesa) agregar(m.id, m.x * W, m.y * H, { centrar: true }); desencimar(); return; }
+  if (E.mesa && E.mesa.length) { for (const m of E.mesa) agregar(m.id, m.x * W, m.y * H, { centrar: true }); desencimar(); marcarAgotadas(); return; }
   colocarPrimigenios();
 }
 // Al pasar de una pantalla ancha a una angosta las fichas guardadas pueden quedar encimadas:
@@ -311,7 +338,10 @@ export function colocarPrimigenios() {
     agregar(id, W / 2 + Math.cos(ang) * r * 1.35, H / 2 + Math.sin(ang) * r, { centrar: true, nace: true });
   });
   guardarPizarra();
+  marcarAgotadas();
 }
 export const elementoDe = id => (fichas.find(t => t.id === id) || {}).el || null;
 on("cajaCambio", () => renderCaja());
+// Al cambiar de misión, la mesa vuelve a los cuatro primigenios y la caja muestra lo que sirve para la nueva.
+on("misionCambio", () => requestAnimationFrame(() => { [...fichas].forEach(quitar); colocarPrimigenios(); renderCaja(); }));
 new ResizeObserver(() => { for (const t of fichas) acotar(t); }).observe(pizarra);

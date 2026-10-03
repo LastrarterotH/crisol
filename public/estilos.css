@@ -359,10 +359,18 @@ button.mini:hover { border-color: var(--c); }
 .aviso.oro::before { background: var(--oro); }
 @keyframes avisoEntra { from { opacity: 0; transform: translateY(14px) scale(.98); } }
 
-/* globo del tutorial */
-.coach { position: fixed; z-index: 2500; pointer-events: none; display: flex; align-items: center; gap: 10px; background: var(--tinta); color: #fff; font-size: 15px; font-weight: 650; line-height: 1.35; padding: 11px 16px 11px 12px; border-radius: 16px; box-shadow: var(--sombra-3); max-width: 330px; animation: avisoEntra .35s ease; }
-.coach .flecha { flex: none; display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--oro); color: var(--tinta); font-size: 17px; font-weight: 800; animation: senalar 1s ease-in-out infinite; }
-@keyframes senalar { 50% { transform: translate(3px, 3px); } }
+/* letrero del tutorial: arriba de la mesa, nunca encima de las fichas */
+.coach { position: fixed; z-index: 2500; pointer-events: none; display: flex; align-items: center; gap: 12px; background: var(--tinta); color: #fff; font-size: 15.5px; font-weight: 650; line-height: 1.35; padding: 10px 18px 10px 10px; border-radius: 16px; box-shadow: var(--sombra-3); max-width: min(560px, 90vw); animation: avisoEntra .35s ease; }
+.coach small { display: block; font-size: 11px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; color: #f2c96a; margin-bottom: 1px; }
+.coach .flecha { flex: none; display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--oro); color: var(--tinta); font-size: 16px; font-weight: 800; }
+.ficha.senalada, .chip.senalada { animation: senal 1.3s ease-in-out infinite; border-color: var(--oro); }
+@keyframes senal { 50% { box-shadow: 0 0 0 2.5px var(--oro), 0 0 0 8px color-mix(in srgb, var(--oro) 18%, transparent), var(--sombra-2); } }
+
+/* fichas que ya no llevan a ninguna pieza pendiente de la misión */
+.ficha.agotada, .chip.agotada { opacity: .5; }
+.ficha.agotada .em, .chip.agotada .em { filter: grayscale(1); }
+.ficha.agotada:hover, .chip.agotada:hover { opacity: .8; }
+.caja-otras { width: 100%; margin: 10px 0 0; font-size: 12.5px; color: var(--tinta-3); }
 
 /* ============ Pantallas angostas ============ */
 @media (max-width: 980px) {

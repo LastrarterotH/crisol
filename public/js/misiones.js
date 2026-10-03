@@ -7,7 +7,8 @@ import { sonar } from "./sonido.js";
 import { on, emitir } from "./bus.js";
 import { COLOR, llevar, elementoDe, restaurarPizarra } from "./mesa.js";
 
-export const misionActiva = () => D.misiones.find(m => m.id === E.mision) || null;
+import { misionActiva, recetasMision } from "./reglas.js";
+export { misionActiva };
 const nodoDe = (m, id) => m.plano.find(n => n.id === id);
 const construibles = m => m.plano.filter(n => !D.iniciales.includes(n.id));
 const piezasLogradas = m => construibles(m).filter(n => tiene(n.id)).length;
@@ -23,7 +24,7 @@ export function renderCabecera() {
   const m = misionActiva(), cab = $("misionCab");
   $("chispas").querySelector("b").textContent = E.chispas;
   $("contador").textContent = descubiertas().length + " ideas";
-  if (!m) { cab.innerHTML = '<span class="nombre">Laboratorio libre</span>'; return; }
+  if (!m) { cab.innerHTML = '<span class="nombre">Elige una misión</span>'; return; }
   const n = piezasLogradas(m), tot = construibles(m).length;
   cab.innerHTML = '<span class="nombre">' + rico(m.e + " " + m.n) + '</span><span class="avance"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><small>' + n + " de " + tot + " piezas</small>";
 }
@@ -31,7 +32,7 @@ let encargoAbierto = false;
 export function renderHoja() {
   const m = misionActiva(), hoja = $("hojaMision");
   if (!m) {
-    hoja.innerHTML = '<div class="hoja"><h2><span class="em">🧪</span>Laboratorio libre</h2><p class="encargo libre">Aquí no hay encargo. Mezcla lo que quieras y mira qué aparece. Cada idea nueva te da una chispa ✨.</p><h3>¿Quieres un rumbo?</h3><p class="libre">Las misiones proponen un caso real de docencia y un plano de piezas para resolverlo.</p><p class="pie-hoja"><button class="boton-papel principal" type="button" data-a="misiones">Ver misiones</button></p></div>';
+    hoja.innerHTML = '<div class="hoja"><h2><span class="em">📜</span>Elige una misión</h2><p class="encargo libre">Cada misión es un caso real de docencia universitaria con un plano de piezas para resolverlo.</p><p class="pie-hoja"><button class="boton-papel principal" type="button" data-a="misiones">Ver misiones</button></p></div>';
     hoja.querySelector('[data-a="misiones"]').addEventListener("click", abrirMisiones);
     return;
   }
@@ -237,7 +238,7 @@ export function celebrar(m) {
     '<p class="cierre">' + rico(m.cierre || "Llegaste a la meta.") + "</p>" +
     '<div class="plano-mini" style="width:min(100%,780px);height:260px"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
     '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">Leer la síntesis</button>' +
-    '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Seguir mezclando</button></div>' +
+    '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
     (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") + "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
@@ -321,15 +322,16 @@ export function abrirMisiones() {
     h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
       (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad">' + estrellas + "</span></div></button>";
   });
-  h += '</div><div class="fila-botones"><button class="boton" type="button" data-accion="libre"><span class="em">🧪</span>Laboratorio libre</button></div>';
-  const p = abrirPanel(h, { libre: () => { iniciarMision(null); cerrarPanel(); } });
+  h += "</div>";
+  const p = abrirPanel(h);
   p.querySelectorAll("[data-m]").forEach(b => b.addEventListener("click", () => { cerrarPanel(); iniciarMision(b.dataset.m); }));
 }
 export function iniciarMision(id) {
+  const cambia = E.mision !== id;
   E.mision = id; if (id) estadoMision(id); guardar();
   encargoAbierto = false;
   renderCabecera(); renderHoja();
-  emitir("misionCambio", id);
+  if (cambia) emitir("misionCambio", id);
   const m = misionActiva();
   if (m && m.tutorial) tutorialPaso();
   else ocultarCoach();
@@ -361,8 +363,9 @@ export function darPista() {
     const n = listos[0] || cerca[0];
     if (n) { avisoRico("Pista", (D.fichas[n.id].pista || "") + " En la hoja de la misión puedes ver sus ingredientes a cambio de chispas ✨.", { oro: true, ms: 6500 }); return; }
   }
-  const posibles = D.recetas.filter(([a, b, r]) => !tiene(r) && tiene(a) && tiene(b));
-  if (!posibles.length) { aviso("Ya descubriste todo lo que el núcleo permite con tus fichas actuales. Prueba combinaciones raras, que Claude las resuelve."); return; }
+  if (m && tiene(m.meta)) { aviso("Esta misión ya está cumplida. Elige otra en 📜 Misiones."); return; }
+  const posibles = recetasMision().filter(([a, b, r]) => !tiene(r) && tiene(a) && tiene(b));
+  if (!posibles.length) { aviso("Abre el plano y toca una pieza pendiente para leer su pista."); return; }
   const [a] = posibles[Math.floor(Math.random() * posibles.length)];
   avisoRico("Pista", "Hay algo nuevo esperando si mezclas " + D.fichas[a].e + " " + D.fichas[a].n + " con otra de tus fichas.", { oro: true, ms: 6000 });
 }
@@ -370,27 +373,30 @@ export function darPista() {
 /* ---------- Tutorial ---------- */
 const PASOS = [
   { necesita: "experiencia", texto: "Arrastra 🧠 Mente y suéltala sobre 🌍 Mundo", de: "mente", a: "mundo" },
-  { necesita: "reflexion", texto: "Trae 🧠 Mente desde tu caja dos veces y suelta una sobre la otra", de: "mente", a: "mente" },
+  { necesita: "reflexion", texto: "Ahora mezcla 🧠 Mente consigo misma. Trae dos desde tu caja y suelta una sobre la otra", de: "mente", a: "mente" },
   { necesita: "aprendizaje", texto: "Por último, junta 🪞 Reflexión con 🌄 Experiencia", de: "reflexion", a: "experiencia" }
 ];
 let coachTimer = null;
-function ocultarCoach() { $("coach").hidden = true; clearInterval(coachTimer); }
+function ocultarCoach() { $("coach").hidden = true; clearInterval(coachTimer); document.querySelectorAll(".senalada").forEach(e => e.classList.remove("senalada")); }
+// El tutorial habla desde un letrero arriba de la mesa (nunca encima de las fichas) y hace latir las fichas que hay que usar.
 export function tutorialPaso() {
   const m = misionActiva();
-  if (!m || !m.tutorial) { ocultarCoach(); return; }
-  const paso = PASOS.find(p => !tiene(p.necesita));
-  if (!paso) { ocultarCoach(); return; }
+  if (!m || !m.tutorial || $("juego").hidden) { ocultarCoach(); return; }
+  const i = PASOS.findIndex(p => !tiene(p.necesita));
+  if (i < 0) { ocultarCoach(); return; }
+  const paso = PASOS[i];
   const coach = $("coach");
   coach.hidden = false;
-  coach.innerHTML = '<span class="flecha">↙</span><span>' + rico(paso.texto) + "</span>";
+  coach.innerHTML = '<span class="flecha">' + (i + 1) + '</span><span><small>Paso ' + (i + 1) + " de " + PASOS.length + "</small>" + rico(paso.texto) + "</span>";
   clearInterval(coachTimer);
   const ubicar = () => {
-    const enPizarra = elementoDe(paso.de);
-    const el = enPizarra || document.querySelector('#cajaLista .chip[data-id="' + paso.de + '"]');
-    if (!el) return;
-    const r = el.getBoundingClientRect();
-    if (enPizarra) { coach.style.left = Math.min(innerWidth - 330, r.right + 12) + "px"; coach.style.top = Math.max(70, r.top - 74) + "px"; coach.querySelector(".flecha").textContent = "↙"; }
-    else { const c = $("caja").getBoundingClientRect(); coach.style.left = Math.max(10, c.left - 330) + "px"; coach.style.top = Math.max(70, r.top - 30) + "px"; coach.querySelector(".flecha").textContent = "→"; coach.querySelector(".flecha").style.textAlign = "right"; }
+    const r = $("pizarra").getBoundingClientRect();
+    coach.style.left = Math.max(8, r.left + r.width / 2 - coach.offsetWidth / 2) + "px";
+    coach.style.top = (r.top + 14) + "px";
+    document.querySelectorAll(".senalada").forEach(e => e.classList.remove("senalada"));
+    for (const id of new Set([paso.de, paso.a])) {
+      document.querySelectorAll('#pizarra .ficha[data-id="' + id + '"], #cajaLista .chip[data-id="' + id + '"]').forEach(e => e.classList.add("senalada"));
+    }
   };
   ubicar(); coachTimer = setInterval(ubicar, 400);
 }

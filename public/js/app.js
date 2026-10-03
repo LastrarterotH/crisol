@@ -37,17 +37,16 @@ function renderPortada() {
   let h = "";
   if (!avanzo) h += '<button class="boton principal grande" type="button" data-p="empezar">Empezar · 2 minutos</button>';
   else if (m && tiene(m.meta)) h += '<button class="boton principal grande" type="button" data-p="misiones">Elegir mi próxima misión</button>';
-  else h += '<button class="boton principal grande" type="button" data-p="continuar">Continuar' + (m ? ": " + esc(m.n) : "") + "</button>";
-  if (!(m && tiene(m.meta) && avanzo)) h += '<button class="boton grande" type="button" data-p="misiones"><span class="em">📜</span>Misiones</button>';
-  h += '<button class="boton grande" type="button" data-p="libre"><span class="em">🧪</span>Laboratorio libre</button>';
+  else if (m) h += '<button class="boton principal grande" type="button" data-p="continuar">Continuar: ' + esc(m.n) + "</button>";
+  else h += '<button class="boton principal grande" type="button" data-p="misiones">Elegir una misión</button>';
+  if (!(m && tiene(m.meta) && avanzo)) h += '<button class="boton grande" type="button" data-p="misiones"><span class="em">📜</span>Ver las ' + D.misiones.length + ' misiones</button>';
   btns.innerHTML = '<div class="fila-a">' + h + "</div>";
   btns.querySelectorAll("[data-p]").forEach(b => b.addEventListener("click", () => {
     activarSonido();
     const a = b.dataset.p;
     if (a === "empezar") { entrar(); iniciarMision("primeros"); }
-    if (a === "continuar") entrar();
+    if (a === "continuar") { entrar(); if (!misionActiva()) iniciarMision("primeros"); }
     if (a === "misiones") { entrar(); abrirMisiones(); }
-    if (a === "libre") { entrar(); iniciarMision(null); }
   }));
   const hechas = D.misiones.filter(m => E.misiones[m.id] && E.misiones[m.id].completada).length;
   $("portadaPie").textContent = descubiertas().length + " de " + Object.keys(D.fichas).length + " ideas descubiertas · " + hechas + " de " + D.misiones.length + " misiones cumplidas · funciona sin conexión";
@@ -89,14 +88,7 @@ document.addEventListener("keydown", e => {
   else if (!$("capaPanel").hidden) cerrarPanel();
   else if (!$("celebracion").hidden) $("celebracion").hidden = true;
 });
-on("misionCambio", id => {
-  const m = D.misiones.find(x => x.id === id);
-  if (m && m.tutorial && enJuego) {
-    for (const el of [...document.querySelectorAll("#pizarra .ficha")]) el.remove();
-    E.mesa = []; guardar();
-    requestAnimationFrame(() => { restaurarPizarra(); tutorialPaso(); });
-  }
-});
+on("misionCambio", () => requestAnimationFrame(() => requestAnimationFrame(tutorialPaso)));
 
 /* ---------- Arranque ---------- */
 (async () => {

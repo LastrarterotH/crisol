@@ -6,7 +6,7 @@ Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando
 ## Pilares
 1. **Natural.** Se parte de cuatro elementos primigenios y las primeras mezclas se adivinan: Mente + Mundo = Experiencia. Cada receta debe poder leerse como una frase con sentido para un docente de cualquier disciplina.
 2. **Con rumbo.** Las misiones son encargos realistas con un plano. El plano muestra las piezas que faltan, desde los primigenios hasta la meta. Llegar a la meta de una misión exige entre 9 y 29 mezclas como mínimo, según la misión.
-3. **Generoso y cerrado.** Casi toda mezcla entre fichas comunes produce algo: el 82 % de las parejas de los niveles 0 y 1 y cerca del 40 % de las de los niveles 0 a 2. Todo lo que se puede descubrir está escrito de antemano y verificado; el juego no genera fichas en vivo. Más adelante se evaluará si Claude entra, y en qué momento.
+3. **Cerrado y claro.** Solo hay misiones (no hay laboratorio libre). Dentro de una misión valen las mezclas que llevan a piezas de su plano, por el camino diseñado o por caminos alternativos. Si una mezcla lleva fuera del plano, o si una ficha ya no lleva a ninguna pieza pendiente, el aviso dice que en esta misión no se puede seguir avanzando por esa línea investigativa. Las fichas agotadas se ven apagadas y la caja muestra solo lo que sirve para la misión. Todo está escrito de antemano y el juego no genera fichas en vivo; más adelante se evaluará si Claude entra, y en qué momento.
 4. **Bello y legible.** Un laboratorio luminoso: mesa marfil con grilla de puntos, fichas blancas con una moneda del color de su familia, títulos en Fraunces y lectura en Figtree. Al mezclar hay una onda y destellos del color de la familia, y el sonido es sintetizado. Se eligió una paleta clara porque se proyecta bien en una sala.
 5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con las reflexiones de quien juega.
 
@@ -27,7 +27,8 @@ Cada misión tiene un encargo (un caso realista de docencia universitaria), una 
 
 ## Ayuda
 - **Chispas ✨:** se gana una por cada ficha nueva. Sirven para comprar pistas de una pieza del plano: ver uno de sus ingredientes cuesta 1 chispa y ver los dos cuesta 3.
-- **Mezclas fallidas:** si una pareja no forma nada, el aviso lo dice y, cuando se puede, orienta hacia otra combinación.
+- **Mezclas fallidas:** basta con que las fichas se toquen de forma visible para intentar la mezcla. Si no forman una pieza del plano, el aviso explica por qué y, cuando se puede, orienta hacia otra combinación.
+- **Tutorial:** un letrero arriba de la mesa indica el paso, y las fichas que hay que usar laten en dorado.
 - **Plano:** al empezar una misión se muestra su plano completo. Tocar una pieza lograda abre su ficha; tocar una pieza pendiente muestra su pista y permite comprar ingredientes con chispas.
 
 ## Densidad sin atajos
