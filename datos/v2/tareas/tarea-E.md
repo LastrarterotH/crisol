@@ -10,7 +10,7 @@ Tu tarea: diseñar y escribir **dos misiones completas** con las **fichas nuevas
 - RECETAS-ACTUALES.txt: las parejas que ya tienen receta. Ninguna de tus recetas puede usar una pareja de esa lista.
 - REFS-ACTUALES.md: referencias existentes. Reutilízalas por su clave.
 - EMOJIS-E?.txt (el de tu número): tu reserva de emojis. Usa solo emojis de esa lista, uno distinto por ficha, que se relacione con el concepto.
-- Como ejemplo de textos, mira en datos/v2/parte-N2.json la ficha "clase_interactiva" (síntesis con principios y prueba) y la misión "activa" (encargo, objetivo, reflexiones y cierre).
+- Como ejemplo de textos, mira en datos/v2/parte-N2.json la ficha "clase_interactiva" (síntesis con principios y prueba) y la misión "activa" (encargo, objetivo y cierre).
 
 ## Misiones que ya existen (no las repitas)
 - 🌱 Primeros pasos (tutorial, meta aprendizaje)
@@ -25,12 +25,11 @@ Tu tarea: diseñar y escribir **dos misiones completas** con las **fichas nuevas
 ## Cómo se arma una misión
 - **Meta:** una ficha nueva de familia "sint" (síntesis), con id "cap_algo". La misión usa el mismo nombre y emoji que su meta. La meta se obtiene con una receta de dos piezas avanzadas, normalmente otra síntesis intermedia y un concepto clave.
 - **Camino:** desde los cuatro primigenios hasta la meta debe haber un recorrido de **12 a 28 mezclas mínimas**. El validador lo calcula. Para que el recorrido sea largo, la meta y sus piezas previas deben salir de recetas entre fichas de nivel alto, no de atajos con fichas de nivel 0 a 2.
-- **Hitos:** exactamente 3 fichas del camino, que sean pasos obligados (el validador avisa si un hito no queda en el camino mínimo). Al lograr un hito el juego pide una reflexión.
+- **Hitos:** exactamente 3 fichas del camino, que sean pasos obligados (el validador avisa si un hito no queda en el camino mínimo). El plano los marca con una estrella como piezas clave del caso.
 - **Síntesis intermedias:** 1 o 2 por misión, también de familia "sint", que integran dos ideas. Llevan "principios" (3 a 5, cada uno termina con su cita entre paréntesis, por ejemplo "(Johnson y Johnson, 2009)") y "prueba" (algo concreto para probar la próxima semana), además de pista y why.
 - **Textos de la misión:**
   - "encargo": 80 a 120 palabras, en segunda persona hacia quien juega. Un caso realista de docencia universitaria en América Latina ("Te escribe Nombre Apellido, que enseña X en Y..."). Usa otra ciudad y otra disciplina que las misiones existentes (ya están Montevideo, Asunción, Medellín, San José, Valparaíso, Cusco y Santiago).
   - "objetivo": una oración, "Llega a EMOJI Nombre de la meta para ...".
-  - "reflexiones": una pregunta por cada hito (y si quieres una para la meta). Cada pregunta aterriza la idea en el curso de quien juega, con un ejemplo del caso.
   - "cierre": 50 a 80 palabras que conectan la síntesis con el caso del encargo.
 
 ## Fichas nuevas
@@ -61,7 +60,7 @@ Un único JSON en tu ruta de salida:
   "refs": { "clave_nueva": "Referencia APA 7 con _cursiva_ marcada con guiones bajos." },
   "misiones": [
     { "id": "algo", "n": "Nombre de la meta", "e": "emoji de la meta", "meta": "cap_algo", "hitos": ["id1", "id2", "id3"],
-      "encargo": "...", "objetivo": "...", "reflexiones": { "id1": "...", "id2": "...", "id3": "..." }, "cierre": "..." }
+      "encargo": "...", "objetivo": "...", "cierre": "..." }
   ]
 }
 ```

@@ -8,7 +8,7 @@ Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando
 2. **Con rumbo.** Las misiones son encargos realistas con un plano. El plano muestra las piezas que faltan, desde los primigenios hasta la meta. Llegar a la meta de una misión exige entre 9 y 29 mezclas como mínimo, según la misión.
 3. **Cerrado y claro.** Solo hay misiones (no hay laboratorio libre). Dentro de una misión valen las mezclas que llevan a piezas de su plano, por el camino diseñado o por caminos alternativos. Si una mezcla lleva fuera del plano, o si una ficha ya no lleva a ninguna pieza pendiente, el aviso dice que en esta misión no se puede seguir avanzando por esa línea investigativa. Las fichas agotadas se ven apagadas y la caja muestra solo lo que sirve para la misión. Todo está escrito de antemano y el juego no genera fichas en vivo; más adelante se evaluará si Claude entra, y en qué momento.
 4. **Bello y legible.** Un laboratorio luminoso: mesa marfil con grilla de puntos, fichas blancas con una moneda del color de su familia, títulos en Fraunces y lectura en Figtree. Al mezclar hay una onda y destellos del color de la familia, y el sonido es sintetizado. Se eligió una paleta clara porque se proyecta bien en una sala.
-5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con las reflexiones de quien juega.
+5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con la síntesis, sus principios y una prueba para la semana siguiente.
 
 ## Elementos primigenios
 - 🧠 Mente: lo que ocurre dentro de quien aprende (Piaget).
@@ -23,7 +23,7 @@ Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando
 - **Niveles 7 a 10:** síntesis de misión y metas.
 
 ## Misiones
-Cada misión tiene un encargo (un caso realista de docencia universitaria), una meta (ficha síntesis) y un plano que se deriva del grafo. Algunas piezas son **hitos**: al lograrlas, la misión pide una reflexión breve ("¿cómo se vería esto en tu curso?"). La meta abre un plan de acción con las reflexiones, principios de diseño y lecturas.
+Cada misión tiene un encargo (un caso realista de docencia universitaria), una meta (ficha síntesis) y un plano que se deriva del grafo. Algunas piezas son **hitos**: los conceptos clave del caso, marcados con una estrella en el plano, por los que el camino siempre pasa. La meta abre un plan de acción con la síntesis, principios de diseño y lecturas.
 
 ## Ayuda
 - **Chispas ✨:** se gana una por cada ficha nueva. Sirven para comprar pistas de una pieza del plano: ver uno de sus ingredientes cuesta 1 chispa y ver los dos cuesta 3.
@@ -35,7 +35,7 @@ Cada misión tiene un encargo (un caso realista de docencia universitaria), una 
 Las recetas de densificación (`pre-D1.json`, `pre-D2.json`) cubren las parejas de los niveles 0 a 2. Las que llevaban a un hito, a una meta o a un ingrediente directo de una meta, o que acortaban mucho el camino a una pieza de un plano, quedan fuera en `quitar-D.txt`. Así el inicio es fértil y las misiones conservan su recorrido.
 
 ## En una capacitación
-Cada participante abre el archivo del juego en su notebook y elige la misma misión. Quien facilita proyecta su propio plano y abre la conversación con preguntas como "¿por dónde empezarían?" o "¿qué pieza les costó más?". Las reflexiones de los hitos quedan en Mi plan de cada docente, que puede descargarlas. No hay conexión entre equipos: la puesta en común es conversada.
+Cada participante abre el archivo del juego en su notebook y elige la misma misión. Quien facilita proyecta su propio plano y abre la conversación con preguntas como "¿por dónde empezarían?" o "¿qué pieza les costó más?". Mi plan de cada docente junta las síntesis de las misiones cumplidas y lo que marcó en las fichas, y se puede descargar. No hay conexión entre equipos: la puesta en común es conversada.
 
 ## Técnica
 - Cliente: HTML, CSS y módulos JS sin framework ni librerías. El plano es SVG propio. Tipografías locales (Fraunces y Figtree).

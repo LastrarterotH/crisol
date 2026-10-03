@@ -56,8 +56,7 @@ Los informes completos están en `datos/v2/revision/`: R1.json a R4.json e `info
 
 ## Cambios en el juego por razones pedagógicas
 
-- **Las reflexiones ya no se pierden.** Antes, si un hito se descubría en otra misión, su reflexión no se pedía nunca. Ahora queda como "Reflexión por escribir" en la hoja de la misión, para responderla pensando en el caso de esa misión.
-- **El tutorial pide su reflexión.** Primeros pasos nunca la pedía, porque su único hito es la meta.
+- **Se quitó la pausa de reflexión (actualización posterior a la revisión).** Al lograr un hito, el juego abría el panel "Llévalo a tu curso" con una pregunta para escribir. Se eliminó por decisión del equipo, junto con todo lo que dependía de ella: las reflexiones pendientes en la hoja de la misión, su lugar en Mi plan y en el plan descargable. Los hitos siguen como piezas clave marcadas con una estrella en el plano. Las preguntas escritas siguen en los archivos de datos por si se retoman, pero el juego ya no las usa.
 - **El plano pasa por los hitos.** El camino de cada misión prefiere las recetas que atraviesan sus hitos, para que las piezas clave del caso estén siempre en el recorrido.
 
 ## Evaluación del diseño pedagógico del juego
@@ -66,18 +65,18 @@ Los informes completos están en `datos/v2/revision/`: R1.json a R4.json e `info
 - Mezclar de a dos obliga a pensar en relaciones entre conceptos y no en definiciones sueltas, lo que favorece un conocimiento organizado.
 - Las pistas son adivinanzas: hay que generar la respuesta antes de verla.
 - Cada misión ancla los conceptos en un caso de docencia latinoamericana, con una persona, una disciplina y un problema verosímil.
-- La secuencia completa avanza de entender a aplicar: ficha de estudio, ejemplo de aula, reflexión sobre el propio curso, síntesis con principios y una prueba para la semana siguiente, y por último un plan descargable.
+- La secuencia completa avanza de entender a aplicar: ficha de estudio, ejemplo de aula, síntesis con principios y una prueba para la semana siguiente, y por último un plan descargable.
 - El error tiene una explicación. Una mezcla fallida dice por qué no avanza y orienta hacia otra.
 
 **Riesgos que conviene vigilar en el uso real:**
 - **Mezclar al azar.** Un docente puede llegar a la meta probando parejas sin leer las fichas. El plano y las pistas lo frenan, pero no lo impiden. En un taller, quien facilita puede contrarrestarlo con preguntas como "¿por qué creen que esas dos ideas forman esta?".
 - **Carga de lectura.** Las síntesis son densas (85 a 110 palabras más 4 a 6 principios). Conviene leerlas en el taller y no dejarlas solo para después.
 - **Las recetas son metáforas.** "A + B = C" sugiere composición, y algunas relaciones son de uso o de contexto más que de origen. La nota de cada receta lo aclara, pero vale la pena decirlo al presentar el juego.
-- **No mide el aprendizaje.** El juego registra lo descubierto y las reflexiones, pero no comprueba comprensión. Si se usa para certificar, hace falta otra evidencia; por ejemplo, el plan descargado revisado por quien facilita.
+- **No mide el aprendizaje.** El juego registra lo descubierto y lo que cada docente marca para probar, pero no comprueba comprensión. Si se usa para certificar, hace falta otra evidencia; por ejemplo, el plan descargado revisado por quien facilita.
 
 **Recomendaciones antes de usarlo en una capacitación:**
 1. Que un especialista humano revise las referencias que los revisores dejaron sin verificar (ver abajo), sobre todo libros y cifras sin acceso abierto.
-2. Pilotear una o dos misiones con un grupo pequeño de docentes y medir cuánto tardan, qué fichas leen y qué escriben en las reflexiones.
+2. Pilotear una o dos misiones con un grupo pequeño de docentes y medir cuánto tardan, qué fichas leen y qué marcan para probar.
 3. Preparar una guía breve de facilitación por misión: preguntas para la puesta en común, tiempos y cómo usar el plano proyectado.
 
 ## Lo que quedó sin verificar

@@ -1,4 +1,4 @@
-// Misiones: encargos con un plano de piezas, pistas con chispas, hitos con reflexión y una meta que celebra.
+// Misiones: encargos con un plano de piezas, pistas con chispas, piezas clave y una meta que celebra.
 import { D, esc, rico, clave, recetasDe } from "./datos.js";
 import { E, tiene, guardar, descubiertas, estadoMision } from "./estado.js";
 import { $, aviso, avisoRico, abrirPanel, cerrarPanel, miniHtml, chipHtml, descargar } from "./ui.js";
@@ -49,14 +49,11 @@ export function renderHoja() {
     if (!listos.length) h += '<p class="logrado">Todavía no tienes los dos ingredientes de ninguna pieza. Estas están cerca:</p>';
     h += '<div class="alcance">' + lista.map(n => piezaHtml(m, n, st)).join("") + "</div>";
   }
-  const porEscribir = reflexionesPendientes(m);
-  if (porEscribir.length) h += "<h3>Reflexiones por escribir</h3>" + porEscribir.map(hh => '<button class="pieza pendiente" type="button" data-reflexion="' + hh + '"><span class="silueta">✍️</span><span><p>' + rico(D.fichas[hh].e + " " + D.fichas[hh].n) + '</p><span class="comprar">Escribir mi reflexión</span></span></button>').join("");
   h += '<p class="pie-hoja"><button class="boton-papel" type="button" data-a="plano"><span class="em">🗺️</span>Ver el plano completo</button></p></div>';
   hoja.innerHTML = h;
   hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => ({ encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); }, plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones })[b.dataset.a]()));
   hoja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => comprarPista(m, b.dataset.comprar)));
   hoja.querySelectorAll("[data-traer]").forEach(b => b.addEventListener("click", () => llevar(b.dataset.traer)));
-  hoja.querySelectorAll("[data-reflexion]").forEach(b => b.addEventListener("click", () => pedirReflexion(m, b.dataset.reflexion)));
 }
 function piezaHtml(m, n, st) {
   const f = D.fichas[n.id];
@@ -87,40 +84,19 @@ on("mezcla", ({ id, via, nueva }) => {
   if (nueva) {
     const pieza = nodo ? piezasLogradas(m) + " de " + construibles(m).length : null;
     setTimeout(() => abrirFicha(id, { nueva: true, via, pieza }), via && !matchMedia("(prefers-reduced-motion: reduce)").matches ? 750 : 0);
-    if (nodo && m.hitos.includes(id)) pendientes.push(() => pedirReflexion(m, id));
     if (m && id === m.meta) { estadoMision(m.id).completada = Date.now(); guardar(); pendientes.push(() => celebrar(m)); }
     else if (nodo) setTimeout(() => sonar.exito(3), 450);
   }
   tutorialPaso();
   renderCabecera(); renderHoja();
 });
-// Lo que queda por mostrar tras cerrar una ficha (reflexiones de hitos, celebración), de a uno.
+// Lo que queda por mostrar tras cerrar una ficha (la celebración de la meta).
 const pendientes = [];
 const libre = () => !fichaAbierta() && $("capaPanel").hidden && $("celebracion").hidden;
 function seguir() { setTimeout(() => { if (libre() && pendientes.length) pendientes.shift()(); }, 220); }
 on("fichaCerrada", seguir);
 on("reinicio", () => { pendientes.length = 0; encargoAbierto = false; ocultarCoach(); });
-// Hitos ya logrados (en esta u otra misión) cuya reflexión todavía no se escribe en esta misión.
-const reflexionesPendientes = m => m.hitos.filter(h => tiene(h) && !(estadoMision(m.id).reflexiones || {})[h]);
 
-function pedirReflexion(m, id) {
-  const f = D.fichas[id];
-  const pregunta = (m.reflexiones && m.reflexiones[id]) || "¿Cómo se vería " + f.n.toLowerCase() + " en tu próximo curso? Escribe una acción concreta.";
-  const st = estadoMision(m.id);
-  sonar.hito();
-  abrirPanel(
-    '<p class="etiqueta">★ Pieza clave de la misión · ' + esc(f.e + " " + f.n) + '</p><h2>Llévalo a tu curso</h2><p class="intro">Una pausa breve para pensar cómo usarías esta idea en una clase tuya. Lo que escribas queda en Mi plan, que puedes descargar y llevarte.</p>' +
-    '<label class="campo" for="reflexion">' + esc(pregunta) + '<textarea id="reflexion" maxlength="600" placeholder="Por ejemplo: en mi curso de...">' + esc(st.reflexiones[id] || "") + "</textarea></label>" +
-    '<div class="fila-botones"><button class="boton" type="button" data-accion="saltar">Ahora no</button><button class="boton principal" type="button" data-accion="guardar">Guardar en mi plan</button></div>',
-    { saltar: cerrarPanel, guardar: cerrarPanel },
-    // Lo escrito se guarda siempre, se cierre con el botón, la ✕ o Escape: perder una reflexión sin aviso es peor que guardarla.
-    () => {
-      const t = ((document.getElementById("reflexion") || {}).value || "").trim();
-      if (t && st.reflexiones[id] !== t) { st.reflexiones[id] = t; guardar(); emitir("reflexion", { mision: m.id, hito: id, texto: t }); aviso("Guardado en Mi plan."); }
-      renderHoja(); seguir();
-    }
-  );
-}
 
 /* ---------- Plano ---------- */
 let vistaPlano = { x: 0, y: 0, k: 1 };
@@ -241,14 +217,12 @@ export function celebrar(m) {
   const f = D.fichas[m.meta], st = estadoMision(m.id);
   sonar.meta();
   const cel = $("celebracion");
-  const refl = Object.entries(st.reflexiones).filter(([, t]) => t);
   cel.innerHTML = '<canvas id="confeti" aria-hidden="true"></canvas><div class="contenido"><div class="sello-meta">' + esc(f.e) + '</div><h1>¡Misión <em>cumplida</em>!</h1>' +
     '<p class="cierre">' + rico(m.cierre || "Llegaste a la meta.") + "</p>" +
     '<div class="plano-mini" style="width:min(100%,1040px);height:min(340px,38vh)"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
     '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">' + (m.tutorial ? "Leer la ficha de " + esc(f.n) : "Leer la síntesis") + "</button>" +
     '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
-    (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") +
-    (reflexionesPendientes(m).length ? '<p class="cierre">Te ' + (reflexionesPendientes(m).length === 1 ? "falta una reflexión" : "faltan " + reflexionesPendientes(m).length + " reflexiones") + " de las piezas clave. Puedes escribirlas desde la hoja de la misión.</p>" : "") + "</div>";
+    "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
   confeti($("confeti"));
@@ -291,8 +265,6 @@ function textoPlan(m) {
       if (meta.principios) { lineas.push("Principios de diseño:"); meta.principios.forEach(p => lineas.push("- " + p)); lineas.push(""); }
       if (meta.prueba) lineas.push("**Para la próxima semana.** " + meta.prueba, "");
     }
-    const refl = Object.entries(st.reflexiones || {}).filter(([, t]) => t);
-    if (refl.length) { lineas.push("### Mis reflexiones"); for (const [h, t] of refl) lineas.push("- **" + (D.fichas[h] ? D.fichas[h].n : h) + ".** " + t); lineas.push(""); }
   }
   const probar = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "probar" && D.fichas[id]);
   if (probar.length) {
@@ -305,15 +277,12 @@ function textoPlan(m) {
   return lineas.join("\n");
 }
 export function abrirPlan() {
-  const conRefl = D.misiones.filter(m => E.misiones[m.id] && Object.values(E.misiones[m.id].reflexiones || {}).some(Boolean));
+  const cumplidas = D.misiones.filter(m => E.misiones[m.id] && E.misiones[m.id].completada);
   const probar = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "probar" && D.fichas[id]);
   const hago = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "hago" && D.fichas[id]);
-  let h = '<h2>📝 Mi plan</h2><p class="intro">Aquí se juntan las reflexiones de tus misiones y lo que marcaste en las fichas como “Quiero probarlo”. Descárgalo y llévalo a tu próximo curso.</p>';
-  if (!conRefl.length && !probar.length && !hago.length) h += '<p class="vacio">Todavía está en blanco. Juega una misión o marca fichas con “Quiero probarlo”.</p>';
-  for (const m of conRefl) {
-    h += '<h3 class="subtitulo">' + esc(m.e + " " + m.n) + '</h3><div class="plan-lista">' +
-      Object.entries(E.misiones[m.id].reflexiones).filter(([, t]) => t).map(([hid, t]) => '<div class="plan-hito"><b>' + esc(D.fichas[hid] ? D.fichas[hid].e + " " + D.fichas[hid].n : hid) + "</b><p>" + esc(t) + "</p></div>").join("") + "</div>";
-  }
+  let h = '<h2>📝 Mi plan</h2><p class="intro">Aquí se juntan las síntesis de las misiones que cumpliste y lo que marcaste en las fichas como “Quiero probarlo”. Descárgalo y llévalo a tu próximo curso.</p>';
+  if (!cumplidas.length && !probar.length && !hago.length) h += '<p class="vacio">Todavía está en blanco. Juega una misión o marca fichas con “Quiero probarlo”.</p>';
+  if (cumplidas.length) h += '<h3 class="subtitulo">Misiones cumplidas</h3><div class="cuaderno-fam" style="margin-top:12px"><div class="fila">' + cumplidas.map(m => chipHtml(m.meta)).join("") + "</div></div>";
   if (probar.length) h += '<h3 class="subtitulo">Quiero probarlo</h3><div class="plan-lista">' + probar.map(id => '<div class="plan-hito"><b>' + esc(D.fichas[id].e + " " + D.fichas[id].n) + "</b><p>" + esc(D.fichas[id].uni || "") + "</p></div>").join("") + "</div>";
   if (hago.length) h += '<h3 class="subtitulo">Ya lo hago</h3><div class="cuaderno-fam" style="margin-top:12px"><div class="fila">' + hago.map(id => chipHtml(id)).join("") + "</div></div>";
   h += '<div class="fila-botones"><button class="boton" type="button" data-accion="reiniciar">Empezar de cero</button><button class="boton principal" type="button" data-accion="bajar">Descargar mi plan (.md)</button></div>';
@@ -346,7 +315,6 @@ export function iniciarMision(id) {
   else ocultarCoach();
   // La primera vez que se abre una misión se muestra su plano: el desafío completo, para discutir cómo llegar.
   if (m && !m.tutorial && !estadoMision(m.id).planoVisto) { estadoMision(m.id).planoVisto = true; guardar(); setTimeout(() => abrirPlano(true), 350); }
-  if (m && cambia && reflexionesPendientes(m).length) setTimeout(() => avisoRico("Ya traes piezas clave de esta misión", "Las lograste en otra misión. Escribe su reflexión desde la hoja, pensando en el caso de esta.", { oro: true, ms: 7000 }), 1200);
 }
 
 /* ---------- Cuaderno ---------- */

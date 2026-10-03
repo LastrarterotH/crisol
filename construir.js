@@ -76,7 +76,7 @@ for (const [x, p] of expTextos) {
     if (Array.isArray(d.refs)) F[id].refs = d.refs.map(k => remap[k] || k);
     delete F[id]._de;
   }
-  for (const m of p.misiones || []) misionesTxt[m.id] = { encargo: m.encargo, objetivo: m.objetivo, reflexiones: m.reflexiones || {}, cierre: m.cierre };
+  for (const m of p.misiones || []) misionesTxt[m.id] = { encargo: m.encargo, objetivo: m.objetivo, cierre: m.cierre };
 }
 // Las correcciones de referencias van al final, para que ninguna fuente las pise con una versión anterior.
 Object.assign(refs, ajustes.refs || {});
@@ -199,8 +199,7 @@ const misiones = g.cat.misiones.map(({ _de, ruta, ...m }) => {
   for (const h of m.hitos) if (!pl.some(n => n.id === h)) avisos.push("misión " + m.id + ": el hito " + h + " no está en el plano");
   if (!txt.encargo) avisos.push("misión " + m.id + " sin textos");
   const aj = (ajustes.misiones || {})[m.id] || {};
-  const reflexiones = Object.assign({}, txt.reflexiones || {}, aj.reflexiones || {});
-  return Object.assign({}, m, { encargo: aj.encargo || txt.encargo || "", objetivo: aj.objetivo || txt.objetivo || "", reflexiones, cierre: aj.cierre || txt.cierre || "", plano: pl });
+  return Object.assign({}, m, { encargo: aj.encargo || txt.encargo || "", objetivo: aj.objetivo || txt.objetivo || "", cierre: aj.cierre || txt.cierre || "", plano: pl });
 });
 
 // ---------- Informe de patrones sospechosos (para revisión humana) ----------

@@ -78,7 +78,7 @@ $("btnMisiones").addEventListener("click", abrirMisiones);
 $("btnCuaderno").addEventListener("click", abrirCuaderno);
 $("btnPlan").addEventListener("click", abrirPlan);
 on("pedirReinicio", () => {
-  abrirPanel('<h2>¿Empezar de cero?</h2><p class="intro">Se borran tus ideas, caminos, chispas, reflexiones y misiones de este navegador.</p><div class="fila-botones"><button class="boton" type="button" data-accion="no">Cancelar</button><button class="boton principal" type="button" data-accion="si">Sí, borrar todo</button></div>',
+  abrirPanel('<h2>¿Empezar de cero?</h2><p class="intro">Se borran tus ideas, caminos, chispas, misiones y lo que marcaste en Mi plan en este navegador.</p><div class="fila-botones"><button class="boton" type="button" data-accion="no">Cancelar</button><button class="boton principal" type="button" data-accion="si">Sí, borrar todo</button></div>',
     { no: cerrarPanel, si: () => {
       reiniciar(); emitir("reinicio");
       cerrarPanel(); $("capaPlano").hidden = true; $("celebracion").hidden = true;

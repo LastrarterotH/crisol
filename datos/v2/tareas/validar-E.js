@@ -71,7 +71,6 @@ for (const m of misiones) {
   const camino = nec[m.meta];
   if (!camino) { errores.push("misión " + m.id + ": la meta es inalcanzable"); continue; }
   for (const h of m.hitos || []) { if (!existe(h)) errores.push("misión " + m.id + ": hito desconocido " + h); else if (!camino.has(h)) avisos.push("misión " + m.id + ": el hito " + h + " no queda en el camino mínimo a la meta (debe ser un paso obligado)"); }
-  for (const h of m.hitos || []) if (!(m.reflexiones || {})[h]) avisos.push("misión " + m.id + ": falta reflexión para el hito " + h);
   const n = camino.size;
   (n < 12 || n > 28 ? avisos : []).push("misión " + m.id + ": la meta exige " + n + " mezclas mínimas (busca entre 12 y 28)");
   console.log("misión " + m.id + ": meta en nivel " + nivel[m.meta] + ", " + n + " mezclas mínimas. Camino: " + [...camino].join(", "));

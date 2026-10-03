@@ -30,4 +30,4 @@ export function reiniciar() {
 }
 export const tiene = id => !!E.descubiertos[id];
 export const descubiertas = () => Object.keys(E.descubiertos).filter(id => D.fichas[id]);
-export function estadoMision(id) { return E.misiones[id] = E.misiones[id] || { iniciada: Date.now(), completada: null, reflexiones: {}, pistas: {} }; }
+export function estadoMision(id) { return E.misiones[id] = E.misiones[id] || { iniciada: Date.now(), completada: null, pistas: {} }; }
