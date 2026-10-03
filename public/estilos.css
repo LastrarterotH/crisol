@@ -270,6 +270,7 @@ button.mini:hover { border-color: var(--c); }
 .panel-tiza { position: relative; width: min(100%, 980px); max-height: min(92vh, 900px); overflow-y: auto; border-radius: 22px; padding: 28px 30px 28px; background: var(--sup); box-shadow: var(--sombra-3); scrollbar-width: thin; animation: abrirCarta .4s cubic-bezier(.2, 1.1, .35, 1); }
 .panel-tiza > .cerrar { position: absolute; top: 16px; right: 16px; }
 .panel-tiza h2 { margin: 0; font-family: var(--f-display); font-size: 32px; font-weight: 650; letter-spacing: -.015em; padding-right: 40px; }
+.panel-tiza > .etiqueta { margin: 0 0 8px; font-size: 12px; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; color: #a87100; }
 .panel-tiza > p.intro { margin: 8px 0 0; color: var(--tinta-2); max-width: 68ch; font-size: 15.5px; line-height: 1.6; }
 .panel-tiza .subtitulo { font-family: var(--f-display); font-size: 22px; font-weight: 650; margin: 26px 0 0; }
 .panel-tiza .vacio { margin-top: 20px; padding: 18px; border: 1px dashed var(--borde-2); border-radius: 14px; color: var(--tinta-2); text-align: center; }

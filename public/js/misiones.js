@@ -109,7 +109,7 @@ function pedirReflexion(m, id) {
   const st = estadoMision(m.id);
   sonar.hito();
   abrirPanel(
-    '<h2>★ Hito: ' + esc(f.e + " " + f.n) + '</h2><p class="intro">Antes de seguir, aterriza la idea en tu propia docencia. Lo que escribas queda en Mi plan.</p>' +
+    '<p class="etiqueta">★ Pieza clave de la misión · ' + esc(f.e + " " + f.n) + '</p><h2>Llévalo a tu curso</h2><p class="intro">Una pausa breve para pensar cómo usarías esta idea en una clase tuya. Lo que escribas queda en Mi plan, que puedes descargar y llevarte.</p>' +
     '<label class="campo" for="reflexion">' + esc(pregunta) + '<textarea id="reflexion" maxlength="600" placeholder="Por ejemplo: en mi curso de...">' + esc(st.reflexiones[id] || "") + "</textarea></label>" +
     '<div class="fila-botones"><button class="boton" type="button" data-accion="saltar">Ahora no</button><button class="boton principal" type="button" data-accion="guardar">Guardar en mi plan</button></div>',
     {
@@ -207,7 +207,7 @@ export function abrirPlano(inicio) {
   $("capaPlano").hidden = false;
   $("planoTitulo").innerHTML = rico(m.e + " " + m.n);
   if (inicio === true) setTimeout(() => avisoRico("Este es el plano de tu misión", "Cada círculo es una pieza que hay que descubrir, y la estrella grande es la meta. Toca un círculo para leer su pista y elige por dónde empezar. En un taller, comparen sus rutas con las de sus colegas.", { oro: true, ms: 9000 }), 300);
-  $("planoInfo").innerHTML = '<span class="leyenda"><b>' + piezasLogradas(m) + " de " + construibles(m).length + ' piezas</b><span><i class="l-ok"></i>Lograda</span><span><i class="l-alc"></i>A tu alcance</span><span><i class="l-no"></i>Por descubrir</span><span><i class="l-hito"></i>Hito o meta</span><span>Arrastra para moverte y usa la rueda para acercarte</span></span>';
+  $("planoInfo").innerHTML = '<span class="leyenda"><b>' + piezasLogradas(m) + " de " + construibles(m).length + ' piezas</b><span><i class="l-ok"></i>Lograda</span><span><i class="l-alc"></i>A tu alcance</span><span><i class="l-no"></i>Por descubrir</span><span><i class="l-hito"></i>Pieza clave o meta</span><span>Arrastra para moverte y usa la rueda para acercarte</span></span>';
   $("planoPista").hidden = true;
   const svg = $("planoSvg");
   const { W, H, g } = dibujarPlano(svg, m);
@@ -228,7 +228,7 @@ function clicNodo(m, id) {
   const caja = $("planoPista");
   caja.hidden = false;
   const listo = n.ing && n.ing.every(tiene);
-  caja.innerHTML = "<h3>" + (n.id === m.meta ? "★ La meta" : m.hitos.includes(id) ? "★ Un hito" : "Una pieza") + "</h3>" +
+  caja.innerHTML = "<h3>" + (n.id === m.meta ? "★ La meta" : m.hitos.includes(id) ? "★ Una pieza clave" : "Una pieza") + "</h3>" +
     (n.ing ? '<p class="estado">' + (listo ? "Ya tienes sus dos ingredientes." : n.ing.some(tiene) ? "Tienes uno de sus ingredientes." : "Todavía te faltan sus dos ingredientes.") + "</p>" : "") +
     piezaHtml(m, n, st).replace('class="pieza', 'style="border:0;padding:0;background:none" class="pieza');
   caja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => { comprarPista(m, b.dataset.comprar); clicNodo(m, id); }));
@@ -250,7 +250,7 @@ export function celebrar(m) {
     '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">' + (m.tutorial ? "Leer la ficha de " + esc(f.n) : "Leer la síntesis") + "</button>" +
     '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
     (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") +
-    (reflexionesPendientes(m).length ? '<p class="cierre">Te ' + (reflexionesPendientes(m).length === 1 ? "falta una reflexión" : "faltan " + reflexionesPendientes(m).length + " reflexiones") + " de los hitos: puedes escribirlas desde la hoja de la misión.</p>" : "") + "</div>";
+    (reflexionesPendientes(m).length ? '<p class="cierre">Te ' + (reflexionesPendientes(m).length === 1 ? "falta una reflexión" : "faltan " + reflexionesPendientes(m).length + " reflexiones") + " de las piezas clave. Puedes escribirlas desde la hoja de la misión.</p>" : "") + "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
   confeti($("confeti"));
@@ -348,7 +348,7 @@ export function iniciarMision(id) {
   else ocultarCoach();
   // La primera vez que se abre una misión se muestra su plano: el desafío completo, para discutir cómo llegar.
   if (m && !m.tutorial && !estadoMision(m.id).planoVisto) { estadoMision(m.id).planoVisto = true; guardar(); setTimeout(() => abrirPlano(true), 350); }
-  if (m && cambia && reflexionesPendientes(m).length) setTimeout(() => avisoRico("Ya traes hitos de esta misión", "Los lograste en otra misión. Escribe su reflexión desde la hoja, pensando en el caso de esta.", { oro: true, ms: 7000 }), 1200);
+  if (m && cambia && reflexionesPendientes(m).length) setTimeout(() => avisoRico("Ya traes piezas clave de esta misión", "Las lograste en otra misión. Escribe su reflexión desde la hoja, pensando en el caso de esta.", { oro: true, ms: 7000 }), 1200);
 }
 
 /* ---------- Cuaderno ---------- */
