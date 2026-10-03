@@ -12,10 +12,12 @@ const avisos = [], errores = [];
 // ---------- Grafo base + preanálisis + ajustes ----------
 const ajustes = leer(V("ajustes.json")) || {};
 const extra = [];
-for (const x of ["P1", "P2", "P3"]) {
+// quitar-D.txt: recetas de densificación que acortaban demasiado el camino a hitos y metas de las misiones
+const quitarD = new Set((fs.existsSync(V("quitar-D.txt")) ? fs.readFileSync(V("quitar-D.txt"), "utf8") : "").split("\n").filter(l => l.includes("+") && !l.startsWith("#")).map(l => clave(...l.split("+").map(t => t.trim()))));
+for (const x of ["P1", "P2", "P3", "D1", "D2"]) {
   const p = leer(V("pre-" + x + ".json"));
   if (!p) { avisos.push("falta pre-" + x); continue; }
-  for (const r of p.recetas || []) { const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = x; extra.push(rec); }
+  for (const r of p.recetas || []) { if (x[0] === "D" && quitarD.has(clave(r.a, r.b))) continue; const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = x; extra.push(rec); }
 }
 for (const r of ajustes.recetasExtra || []) { const rec = [r[0], r[1], r[2], r[3] || ""]; rec.origen = "ajustes"; extra.push(rec); }
 // el preanálisis no debe chocar con lo existente: se descartan sus colisiones en vez de fallar

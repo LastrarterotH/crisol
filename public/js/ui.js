@@ -1,11 +1,11 @@
 // Utilidades de interfaz: avisos, panel a tiza y fichas en miniatura.
-import { D, esc } from "./datos.js";
+import { D, esc, rico, EMOJI } from "./datos.js";
 const $ = id => document.getElementById(id);
 export { $ };
 export function aviso(contenido, opts = {}) {
   const el = document.createElement("div");
   el.className = "aviso" + (opts.oro ? " oro" : "") + (opts.familia ? " f-" + opts.familia : "");
-  if (typeof contenido === "string") el.textContent = contenido; else el.appendChild(contenido);
+  if (typeof contenido === "string") el.innerHTML = rico(contenido); else el.appendChild(contenido);
   $("avisos").appendChild(el);
   setTimeout(() => { el.style.transition = "opacity .4s"; el.style.opacity = "0"; setTimeout(() => el.remove(), 400); }, opts.ms || 4200);
   const todos = $("avisos").children;
@@ -13,20 +13,21 @@ export function aviso(contenido, opts = {}) {
 }
 export function avisoRico(titulo, texto, opts = {}) {
   const f = document.createDocumentFragment();
-  const b = document.createElement("b"); b.textContent = titulo; f.appendChild(b);
-  if (texto) { const s = document.createElement("span"); s.textContent = texto; f.appendChild(s); }
+  const b = document.createElement("b"); b.innerHTML = rico(titulo); f.appendChild(b);
+  if (texto) { const s = document.createElement("span"); s.innerHTML = rico(texto); f.appendChild(s); }
   aviso(f, opts);
 }
 let alCerrar = null;
 export function abrirPanel(html, acciones = {}, cerrar) {
   const p = $("panel");
   p.innerHTML = '<button class="icono cerrar" type="button" aria-label="Cerrar">✕</button>' + html;
+  p.querySelectorAll("h2, h3.subtitulo").forEach(h => { h.innerHTML = h.innerHTML.replace(EMOJI, '<span class="emo">$&</span>'); });
   p.querySelector(".cerrar").addEventListener("click", cerrarPanel);
   p.querySelectorAll("[data-accion]").forEach(b => b.addEventListener("click", ev => (acciones[b.dataset.accion] || cerrarPanel)(ev, b)));
   alCerrar = cerrar || null;
   $("capaPanel").hidden = false;
   p.scrollTop = 0;
-  const f = p.querySelector("[autofocus], input, .boton.principal");
+  const f = p.querySelector("[autofocus], input, textarea, .boton.principal");
   if (f) setTimeout(() => f.focus({ preventScroll: true }), 50);
   return p;
 }

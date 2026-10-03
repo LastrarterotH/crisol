@@ -1,5 +1,5 @@
 // Ficha de estudio: lo que se lee al descubrir una idea o al abrirla desde la caja.
-import { D, IA, SERVIDOR, esc, refHtml, clave, recetasDe, registrarCartaIA } from "./datos.js";
+import { D, IA, SERVIDOR, esc, rico, refHtml, clave, recetasDe, registrarCartaIA } from "./datos.js";
 import { E, tiene, guardar } from "./estado.js";
 import { $, miniHtml, aviso } from "./ui.js";
 import { emitir } from "./bus.js";
@@ -27,7 +27,7 @@ export function abrirFicha(id, opts = {}) {
 
   let ceja = '<span class="fam">' + esc(D.familias[f.f] || "") + "</span>";
   if (opts.nueva) ceja = '<span class="nuevo">' + (f.f === "mito" ? "Encontraste un mito" : "Nueva idea") + "</span>" + ceja;
-  if (opts.pieza) ceja += '<span class="fe-pieza">🧩 Pieza del plano · ' + esc(opts.pieza) + "</span>";
+  if (opts.pieza) ceja += '<span class="fe-pieza"><span class="emo">🧩</span>Pieza del plano · ' + esc(opts.pieza) + "</span>";
   if (f.ia) ceja += '<span class="ia">Propuesta por Claude</span>' + (f.estado === "aprobada" ? '<span style="color:#2f7a4a">Revisada</span>' : '<span style="color:#9a6a12">Por revisar</span>');
 
   let form = "";
@@ -41,25 +41,30 @@ export function abrirFicha(id, opts = {}) {
   if (viaMito && f.f !== "mito") c += '<p class="fe-aviso">Desarmaste un mito. «' + esc(D.fichas[viaMito].n) + "» no se sostiene, y esta ficha cuenta lo que la evidencia sí respalda.</p>";
   if (f.ia && f.estado !== "aprobada") c += '<p class="fe-aviso">Claude propuso esta ficha a partir de una mezcla que no estaba en el núcleo verificado. Contrasta las fuentes antes de llevarla a clase.</p>';
   if (f.f === "mito") {
-    c += "<section><h3>Lo que se cree</h3><p>" + esc(f.belief) + "</p></section><section><h3>Lo que dice la evidencia</h3><p>" + esc(f.evidence) + "</p></section>";
+    c += "<section><h3>Lo que se cree</h3><p>" + rico(f.belief) + "</p></section><section><h3>Lo que dice la evidencia</h3><p>" + rico(f.evidence) + "</p></section>";
   } else if (f.why) {
-    c += "<section><h3>" + (f.f === "prim" ? "Qué aporta" : f.f === "sint" ? "Qué integra" : "Por qué funciona") + "</h3><p>" + esc(f.why) + "</p></section>";
+    c += "<section><h3>" + (f.f === "prim" ? "Qué aporta" : f.f === "sint" ? "Qué integra" : "Por qué funciona") + "</h3><p>" + rico(f.why) + "</p></section>";
   }
   if (f.q) c += '<blockquote class="fe-cita"><p>“' + esc(f.q.t) + '”</p><footer>' + esc(f.q.a) + "</footer></blockquote>";
-  if (Array.isArray(f.principios) && f.principios.length) c += '<section><h3>Principios de diseño</h3><ol class="fe-principios">' + f.principios.map(p => "<li>" + esc(p) + "</li>").join("") + "</ol></section>";
-  if (f.prueba) c += '<section><h3>Pruébalo la próxima semana</h3><p class="fe-prueba">' + esc(f.prueba) + "</p></section>";
-  if (f.uni) c += '<section><h3>En una clase universitaria</h3><p class="fe-aula">' + esc(f.uni) + "</p></section>";
+  if (Array.isArray(f.principios) && f.principios.length) c += '<section><h3>Principios de diseño</h3><ol class="fe-principios">' + f.principios.map(p => "<li>" + rico(p) + "</li>").join("") + "</ol></section>";
+  if (f.prueba) c += '<section><h3>Pruébalo la próxima semana</h3><p class="fe-prueba">' + rico(f.prueba) + "</p></section>";
+  if (f.uni) c += '<section><h3>En una clase universitaria</h3><p class="fe-aula">' + rico(f.uni) + "</p></section>";
   const via = opts.via || E.como[id];
   const pred = via && E.predicciones[clave(via[0], via[1])];
-  if (pred) c += '<p class="fe-prueba"><b>Tu predicción:</b> ' + esc(pred) + "</p>";
-  if (f.tip) c += '<p style="font-size:14px;color:var(--tinta-suave)"><b>Pista:</b> ' + esc(f.tip) + "</p>";
+  if (pred) c += '<p class="fe-prueba"><b>Tu predicción:</b> ' + rico(pred) + "</p>";
+  if (f.tip) c += '<p style="font-size:14.5px;color:var(--tinta-2)"><b>Pista:</b> ' + rico(f.tip) + "</p>";
 
   const recs = recetasDe(id);
   if (recs.length) {
     const h = caminosHallados(id);
     c += '<section><h3>Caminos <small>' + h + " de " + recs.length + (domina(id) ? " · ★ maestría" : "") + '</small></h3><div class="fe-caminos">';
-    for (const [a, b, , nota] of recs) {
-      if (caminoHallado(clave(a, b))) c += '<div class="fe-camino"><div class="fe-formula">' + formula(a, b) + "</div>" + (nota ? "<p>" + esc(nota) + "</p>" : "") + "</div>";
+    const kv = via && clave(via[0], via[1]);
+    if (kv && !recs.some(r => clave(r[0], r[1]) === kv)) {
+      const nv = IA.combos[kv] && IA.combos[kv].nota;
+      c += '<div class="fe-camino"><div class="fe-formula">' + formula(via[0], via[1]) + "<span>Tu atajo con Claude</span></div>" + (nv ? "<p>" + rico(nv) + "</p>" : "") + "</div>";
+    }
+    for (const [a, b, , nota] of [...recs].sort((x, y) => caminoHallado(clave(y[0], y[1])) - caminoHallado(clave(x[0], x[1])))) {
+      if (caminoHallado(clave(a, b))) c += '<div class="fe-camino"><div class="fe-formula">' + formula(a, b) + "</div>" + (nota ? "<p>" + rico(nota) + "</p>" : "") + "</div>";
       else c += '<div class="fe-camino oculto"><div class="fe-formula">' + miniHtml(a, !tiene(a)) + '<span class="op">+</span>' + miniHtml(b, true) + "<span>Camino por descubrir</span></div></div>";
     }
     c += "</div></section>";

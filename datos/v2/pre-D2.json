@@ -1,0 +1,1564 @@
+{
+ "recetas": [
+  {
+   "a": "jigsaw",
+   "b": "pedagogia",
+   "r": "cooperativo",
+   "nota": "El rompecabezas está pensado para que nadie termine la tarea sin el aporte de los demás. Johnson y Johnson llaman a esa dependencia interdependencia positiva, base del aprendizaje cooperativo."
+  },
+  {
+   "a": "pedagogia",
+   "b": "tps",
+   "r": "activo",
+   "nota": "Si tu pedagogía corta la exposición con pausas para pensar y conversar en pareja, el estudiante trabaja con la idea en lugar de solo escucharla. Eso es aprendizaje activo."
+  },
+  {
+   "a": "pedagogia",
+   "b": "practicas",
+   "r": "experiencial",
+   "nota": "La pedagogía de las prácticas cuida el después de cada turno, cuando el estudiante revisa lo vivido y prueba otra cosa al día siguiente. Kolb describió ese ciclo experiencial."
+  },
+  {
+   "a": "curriculo",
+   "b": "pedagogia",
+   "r": "alineamiento",
+   "nota": "Si el currículo promete que el estudiante sabrá diagnosticar, la pedagogía debe darle tareas de diagnóstico y evaluarlo diagnosticando. Biggs llamó a ese calce alineamiento constructivo."
+  },
+  {
+   "a": "error",
+   "b": "pedagogia",
+   "r": "formativa",
+   "nota": "Una pedagogía que recoge a tiempo los errores del curso los usa para decidir qué reenseñar mañana. Usar así la evidencia mientras aún se aprende es evaluación formativa."
+  },
+  {
+   "a": "emocion",
+   "b": "pedagogia",
+   "r": "emociones",
+   "nota": "El disfrute y la ansiedad en clase cambian cuánto y cómo se estudia. Pekrun mostró que la manera de enseñar y de evaluar influye en esas emociones de logro."
+  },
+  {
+   "a": "lenguaje",
+   "b": "pedagogia",
+   "r": "transposicion",
+   "nota": "La pedagogía traduce el lenguaje denso del experto a palabras y ejemplos que el curso pueda seguir sin falsear la idea. Chevallard llamó a ese paso transposición didáctica."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "pedagogia",
+   "r": "ciencia_aprendizaje",
+   "nota": "Cuando la pedagogía pregunta cómo ocurre el aprendizaje y busca la respuesta en experimentos de laboratorio y de aula, entra en el terreno de la ciencia del aprendizaje."
+  },
+  {
+   "a": "pedagogia",
+   "b": "universidad",
+   "r": "sotl",
+   "nota": "Boyer propuso en 1990 que la pedagogía universitaria merece el rigor de cualquier investigación. De esa idea nace estudiar la propia docencia y publicar lo aprendido."
+  },
+  {
+   "a": "pedagogia",
+   "b": "practica_deliberada",
+   "r": "retro",
+   "nota": "La práctica deliberada necesita a alguien que diseñe el ejercicio justo y diga enseguida qué corregir. Ericsson contaba esa retroalimentación inmediata entre sus condiciones."
+  },
+  {
+   "a": "previos",
+   "b": "proposito",
+   "r": "significativo",
+   "nota": "Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje significativo."
+  },
+  {
+   "a": "espaciada",
+   "b": "proposito",
+   "r": "espiral",
+   "nota": "Si vuelves a un tema cada cierto tiempo con el propósito de profundizarlo, cada regreso sube un peldaño. Bruner propuso organizar así el currículo en espiral."
+  },
+  {
+   "a": "proposito",
+   "b": "situado",
+   "r": "servicio",
+   "nota": "Aprender en un contexto real con el propósito de atender una necesidad de esa comunidad, y reflexionar sobre lo hecho, define el aprendizaje-servicio."
+  },
+  {
+   "a": "abp",
+   "b": "proposito",
+   "r": "retos",
+   "nota": "Un problema de clase se vuelve reto cuando el equipo se propone cambiar algo real y presentar su solución a quienes la necesitan."
+  },
+  {
+   "a": "proposito",
+   "b": "proyectos",
+   "r": "inverso",
+   "nota": "Un buen proyecto se arma desde el propósito hacia atrás, decidiendo qué evidencia mostrará el logro antes de elegir actividades. Wiggins y McTighe lo llamaron diseño inverso."
+  },
+  {
+   "a": "proposito",
+   "b": "recuperacion",
+   "r": "autoevaluacion",
+   "nota": "Si te pones a prueba sin mirar y comparas lo recordado con la meta del curso, descubres qué te falta. Esa revisión de tu propio avance es autoevaluación."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "proposito",
+   "r": "perfil_egreso",
+   "nota": "La comunidad de una profesión sabe qué necesita alguien que recién llega para trabajar con ella. Convertir esa expectativa en compromiso de la carrera da el perfil de egreso."
+  },
+  {
+   "a": "intercalada",
+   "b": "proposito",
+   "r": "dificultades_deseables",
+   "nota": "Mezclar a propósito tipos de ejercicio hace la práctica más torpe hoy y mejora lo que recuerdas después. Bjork llama dificultad deseable a ese costo buscado."
+  },
+  {
+   "a": "olvido",
+   "b": "proposito",
+   "r": "espaciada",
+   "nota": "Si sabes que olvidarás buena parte de una clase en pocos días, puedes programar a propósito repasos separados. Ese plan contra la curva del olvido es la práctica espaciada."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "proposito",
+   "r": "juicio",
+   "nota": "Pensar críticamente con el propósito concreto de decidir si un trabajo está bien hecho, el tuyo o uno ajeno, es lo que Tai y colegas llaman juicio evaluativo."
+  },
+  {
+   "a": "casos",
+   "b": "proposito",
+   "r": "inverso",
+   "nota": "Para elegir un caso, primero defines qué decisión profesional debe aprender el curso y después buscas la historia que la exija. Así trabaja el diseño inverso."
+  },
+  {
+   "a": "proposito",
+   "b": "retos",
+   "r": "motivacion",
+   "nota": "Cuando el equipo elige un reto porque le importa, el empuje viene de adentro. Deci y Ryan muestran que la sensación de elegir alimenta la motivación intrínseca."
+  },
+  {
+   "a": "proposito",
+   "b": "servicio",
+   "r": "motivacion",
+   "nota": "Saber que tu trabajo de curso le sirve a una persona real le da sentido a la tarea. Ese sentido sostiene las ganas aunque nadie califique."
+  },
+  {
+   "a": "jigsaw",
+   "b": "proposito",
+   "r": "cooperativo",
+   "nota": "Aronson creó el rompecabezas en 1971 para bajar la competencia y los prejuicios en escuelas recién integradas de Austin, haciendo que cada estudiante necesitara a los demás."
+  },
+  {
+   "a": "proposito",
+   "b": "tps",
+   "r": "alineamiento",
+   "nota": "Si la meta es que el curso argumente, una pausa para discutir en parejas le da práctica en justo eso. Esa coherencia entre meta y actividad es alineamiento."
+  },
+  {
+   "a": "practicas",
+   "b": "proposito",
+   "r": "competencias",
+   "nota": "El propósito de las prácticas es que el estudiante movilice lo aprendido ante situaciones reales del oficio. El enfoque por competencias pone esa capacidad de actuar en el centro."
+  },
+  {
+   "a": "pregunta",
+   "b": "proposito",
+   "r": "investigacion",
+   "nota": "Una pregunta que alguien se propone responder con método y datos deja de ser curiosidad pasajera y se convierte en pregunta de investigación."
+  },
+  {
+   "a": "error",
+   "b": "proposito",
+   "r": "mentalidad",
+   "nota": "Quien revisa cada error con el propósito de mejorar trata la habilidad como algo que crece. Dweck lo llama mentalidad de crecimiento; intervenir en ella da efectos pequeños."
+  },
+  {
+   "a": "lenguaje",
+   "b": "proposito",
+   "r": "bloom",
+   "nota": "Para escribir el propósito de una clase necesitas verbos precisos. La taxonomía de Bloom revisada agrupa esos verbos según el proceso cognitivo que piden, de recordar a crear."
+  },
+  {
+   "a": "escritura",
+   "b": "proposito",
+   "r": "resultados",
+   "nota": "Poner por escrito qué podrá hacer el estudiante al terminar, con un verbo que se pueda observar, convierte un propósito vago en un resultado de aprendizaje."
+  },
+  {
+   "a": "herramienta",
+   "b": "proposito",
+   "r": "tpk",
+   "nota": "Elegir una herramienta según lo que permite hacer en clase exige saber cómo cambia la enseñanza con ella. Mishra y Koehler llaman a eso conocimiento tecnopedagógico."
+  },
+  {
+   "a": "docente",
+   "b": "proposito",
+   "r": "enfoques_ensenanza",
+   "nota": "Trigwell y Prosser describen el enfoque de enseñanza como la intención del docente más la estrategia que elige. Querer transmitir información o cambiar la comprensión lleva a clases distintas."
+  },
+  {
+   "a": "investigacion",
+   "b": "proposito",
+   "r": "investigacion_accion",
+   "nota": "Investigar con el propósito de mejorar tu propia práctica, en ciclos de planificar, actuar, observar y reflexionar, es investigación-acción."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "proposito",
+   "r": "dominio",
+   "nota": "Ericsson pedía una meta específica para cada sesión de práctica. Si avanzas a la siguiente solo cuando dominas la anterior, aplicas el aprendizaje para el dominio de Bloom."
+  },
+  {
+   "a": "reflexiva",
+   "b": "reflexiva",
+   "r": "sotl",
+   "nota": "Cuando tu reflexión sobre la clase recoge datos y se comparte para que otros la critiquen, se convierte en investigación sobre la propia docencia."
+  },
+  {
+   "a": "mapa",
+   "b": "reflexiva",
+   "r": "cpc",
+   "nota": "Al dibujar el mapa de tu materia y marcar dónde se traba el curso, juntas saber disciplinar y saber de enseñanza. Shulman lo llamó conocimiento pedagógico del contenido."
+  },
+  {
+   "a": "metacognicion",
+   "b": "reflexiva",
+   "r": "modelado",
+   "nota": "Un docente que reflexiona en voz alta sobre cómo piensa un problema deja a la vista su metacognición. Hacerlo frente al curso es modelado cognitivo."
+  },
+  {
+   "a": "espaciada",
+   "b": "reflexiva",
+   "r": "portafolio",
+   "nota": "Si escribes una reflexión breve cada dos semanas y la guardas junto a tus trabajos, al final ves cómo cambiaste. Ese registro acumulado es un portafolio de aprendizaje."
+  },
+  {
+   "a": "abp",
+   "b": "reflexiva",
+   "r": "metacognicion",
+   "nota": "Cada problema del ABP cierra con la pregunta de qué aprendiste y cómo lo buscaste. Mirar así tu propio proceso entrena la metacognición."
+  },
+  {
+   "a": "proyectos",
+   "b": "reflexiva",
+   "r": "experiencial",
+   "nota": "Un proyecto deja experiencias, y detenerse a pensar qué funcionó y qué cambiarías en el siguiente las convierte en aprendizaje. Kolb dibujó ese ir y venir como un ciclo."
+  },
+  {
+   "a": "recuperacion",
+   "b": "reflexiva",
+   "r": "metacognicion",
+   "nota": "Intentar recordar sin mirar y luego revisar qué salió y qué no te muestra lo que de verdad sabes. Esa calibración de tu propio saber es metacognición."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "reflexiva",
+   "r": "investigacion_accion",
+   "nota": "Un grupo de colegas que reflexiona junto sobre sus clases puede pasar de la conversación a ciclos de cambio y observación. Así trabaja la investigación-acción colaborativa."
+  },
+  {
+   "a": "intercalada",
+   "b": "reflexiva",
+   "r": "metacognicion",
+   "nota": "Al practicar mezclado sientes que aprendes menos, aunque las pruebas digan lo contrario. Kornell y Bjork documentaron ese desfase, y notarlo en ti mismo es metacognición."
+  },
+  {
+   "a": "olvido",
+   "b": "reflexiva",
+   "r": "diagnostica",
+   "nota": "Si sabes que el curso olvidó parte de lo visto el semestre pasado, conviene medir qué quedó antes de avanzar. Esa prueba inicial es evaluación diagnóstica."
+  },
+  {
+   "a": "casos",
+   "b": "reflexiva",
+   "r": "transferencia",
+   "nota": "Tras resolver un caso, preguntarte qué principio lo explica te ayuda a reconocerlo en el siguiente. Gentner y colegas vieron que comparar casos así mejora la transferencia."
+  },
+  {
+   "a": "reflexiva",
+   "b": "retos",
+   "r": "autoeficacia",
+   "nota": "Superar un reto difícil y mirar después qué hiciste para lograrlo te convence de que podrás con el próximo. Bandura llama autoeficacia a esa confianza."
+  },
+  {
+   "a": "reflexiva",
+   "b": "servicio",
+   "r": "pensamiento_critico",
+   "nota": "En el aprendizaje-servicio, la reflexión guiada conecta lo vivido en la comunidad con la teoría del curso. Eyler y Giles asociaron esa reflexión con mejor análisis de problemas."
+  },
+  {
+   "a": "reflexiva",
+   "b": "tps",
+   "r": "enfoques_ensenanza",
+   "nota": "Al reflexionar sobre tus pausas para conversar, notas que tu atención pasó de tu discurso a lo que hace el curso. Ese giro cambia tu enfoque de enseñanza."
+  },
+  {
+   "a": "practicas",
+   "b": "reflexiva",
+   "r": "portafolio",
+   "nota": "Durante la práctica clínica, el estudiante junta evidencias de lo que hizo y comenta por escrito qué aprendió de cada una. Ese archivo comentado es un portafolio."
+  },
+  {
+   "a": "curriculo",
+   "b": "reflexiva",
+   "r": "curriculo_oculto",
+   "nota": "Al revisar tu currículo con calma aparecen lecciones que nadie escribió, como qué se premia o quién habla en clase. Eso es el currículo oculto."
+  },
+  {
+   "a": "pregunta",
+   "b": "reflexiva",
+   "r": "cats",
+   "nota": "Al cerrar la clase pregunta cuál fue el punto más confuso y lee las respuestas esa noche. Angelo y Cross reunieron técnicas así de evaluación en el aula."
+  },
+  {
+   "a": "emocion",
+   "b": "reflexiva",
+   "r": "alf_retro",
+   "nota": "Una crítica a tu trabajo duele, y quien aprende a mirar ese malestar sin cerrarse puede usar el comentario. Manejar ese afecto es parte de la alfabetización en retroalimentación."
+  },
+  {
+   "a": "lenguaje",
+   "b": "reflexiva",
+   "r": "alfabetizacion_academica",
+   "nota": "Reflexionar sobre el lenguaje de tu disciplina muestra que leer un fallo judicial o un paper se aprende. Carlino propone enseñarlo dentro de cada materia."
+  },
+  {
+   "a": "escritura",
+   "b": "reflexiva",
+   "r": "escribir",
+   "nota": "Escribir sobre lo que pasó en una clase obliga a ordenar lo vivido y a ponerle palabras. Ese uso de la escritura para pensar es escribir para aprender."
+  },
+  {
+   "a": "herramienta",
+   "b": "reflexiva",
+   "r": "sustitucion",
+   "nota": "Al revisar qué cambió con una herramienta nueva, a veces descubres que solo reemplazó al papel. Puentedura llamó sustitución a ese primer peldaño del modelo SAMR."
+  },
+  {
+   "a": "juego",
+   "b": "reflexiva",
+   "r": "abj",
+   "nota": "Un juego enseña cuando después se conversa sobre qué pasó y cómo se conecta con el tema. Ese cierre reflexivo sostiene el aprendizaje basado en juegos."
+  },
+  {
+   "a": "docente",
+   "b": "reflexiva",
+   "r": "enfoques_ensenanza",
+   "nota": "Un docente que revisa su práctica suele descubrir qué cree sobre enseñar, si transmitir información o ayudar a comprender. Trigwell y Prosser estudiaron esos enfoques de enseñanza."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "reflexiva",
+   "r": "evidencia",
+   "nota": "Si reflexionas sobre tu clase con los trabajos del curso en la mano, tus decisiones ya no dependen solo de la intuición. Eso es docencia informada por evidencia."
+  },
+  {
+   "a": "reflexiva",
+   "b": "universidad",
+   "r": "curriculo_oculto",
+   "nota": "Snyder describió en 1970 cómo los estudiantes del MIT aprendían reglas no escritas para sobrevivir en la universidad. Reflexionar sobre esas reglas destapa el currículo oculto."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "reflexiva",
+   "r": "autorregulado",
+   "nota": "Practicar con metas precisas y revisar después qué ajustar te hace planificar y evaluar tu propio avance. Zimmerman describe ese ciclo como aprendizaje autorregulado."
+  },
+  {
+   "a": "mapa",
+   "b": "mapa",
+   "r": "solo",
+   "nota": "Compara dos mapas del mismo tema, uno con conceptos sueltos y otro con todas sus relaciones. Biggs y Collis usaron esa diferencia de estructura para ordenar la taxonomía SOLO."
+  },
+  {
+   "a": "mapa",
+   "b": "metacognicion",
+   "r": "profundo",
+   "nota": "Armar tu propio mapa y buscar qué conexiones faltan te obliga a relacionar ideas en lugar de acumularlas. Biggs asocia esa búsqueda de relaciones con el enfoque profundo."
+  },
+  {
+   "a": "espaciada",
+   "b": "mapa",
+   "r": "espiral",
+   "nota": "Si vuelves al mismo mapa cada mes y le agregas ramas nuevas, el tema crece en capas. Bruner propuso diseñar así el currículo en espiral."
+  },
+  {
+   "a": "abp",
+   "b": "mapa",
+   "r": "previos",
+   "nota": "Un grupo de ABP abre cada problema anotando lo que ya sabe y lo que le falta averiguar. Ese mapa inicial saca a la luz los conocimientos previos."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "mapa",
+   "r": "conectivismo",
+   "nota": "Una comunidad de práctica guarda saber repartido entre sus miembros, y aprender incluye saber a quién acudir. Siemens llamó conectivismo a esa mirada en red, aún con poca evidencia."
+  },
+  {
+   "a": "mapa",
+   "b": "olvido",
+   "r": "significativo",
+   "nota": "Un dato memorizado suelto se pierde rápido, en cambio uno conectado a un mapa de ideas tiene de dónde agarrarse. Ausubel atribuía esa retención mayor al aprendizaje significativo."
+  },
+  {
+   "a": "jigsaw",
+   "b": "mapa",
+   "r": "segmentacion",
+   "nota": "Para armar un rompecabezas de Aronson, primero miras el mapa del tema y lo cortas en piezas que cada experto pueda dominar. Dividir así el contenido es segmentarlo."
+  },
+  {
+   "a": "mapa",
+   "b": "tps",
+   "r": "coevaluacion",
+   "nota": "Tras armar cada uno su mapa, la pareja revisa el del otro buscando enlaces dudosos antes de compartir. Revisar así el trabajo ajeno es evaluación entre pares."
+  },
+  {
+   "a": "curriculo",
+   "b": "mapa",
+   "r": "alineamiento",
+   "nota": "Harden propuso mapear el currículo para ver qué resultado se enseña en qué curso y cómo se evalúa. Ese mapa revela si el plan está alineado o tiene huecos."
+  },
+  {
+   "a": "mapa",
+   "b": "pregunta",
+   "r": "evaluacion",
+   "nota": "Pedir un mapa conceptual que responda una pregunta de enfoque, y revisarlo con criterios, permite ver cuánto comprende el estudiante. Novak usó los mapas así, para evaluar."
+  },
+  {
+   "a": "error",
+   "b": "mapa",
+   "r": "cambio_conceptual",
+   "nota": "Un enlace mal puesto en el mapa de un estudiante delata una idea equivocada que conviene trabajar en clase. Llevarla a reemplazarse por otra mejor es cambio conceptual."
+  },
+  {
+   "a": "lenguaje",
+   "b": "mapa",
+   "r": "multimedia",
+   "nota": "Un mapa conceptual junta palabras con una forma visual. Mayer mostró que palabras más imágenes bien diseñadas enseñan mejor que palabras solas, el principio multimedia."
+  },
+  {
+   "a": "escritura",
+   "b": "mapa",
+   "r": "escribir",
+   "nota": "Antes de redactar, un mapa ordena las ideas, y al escribir el texto descubres qué enlaces no entendías. Esa vuelta entre mapa y prosa es escribir para aprender."
+  },
+  {
+   "a": "herramienta",
+   "b": "mapa",
+   "r": "tck",
+   "nota": "Programas como CmapTools representan el saber de una disciplina de formas que el papel no permite. Saber cómo una herramienta cambia el contenido es conocimiento tecnológico del contenido."
+  },
+  {
+   "a": "docente",
+   "b": "mapa",
+   "r": "expositiva",
+   "nota": "Un docente que abre la exposición mostrando el mapa de ideas da al curso un organizador previo. Ausubel defendía la clase expositiva bien organizada como vía de aprendizaje significativo."
+  },
+  {
+   "a": "mapa",
+   "b": "universidad",
+   "r": "curriculo",
+   "nota": "Dibujar cómo se conectan las asignaturas de una carrera universitaria muestra qué cursos se apoyan en otros y dónde hay vacíos. Ese mapa es el currículo visto desde arriba."
+  },
+  {
+   "a": "previos",
+   "b": "previos",
+   "r": "cambio_conceptual",
+   "nota": "Cuando dos ideas previas del estudiante chocan entre sí, aparece la insatisfacción que Posner y colegas pusieron como primera condición del cambio conceptual."
+  },
+  {
+   "a": "metacognicion",
+   "b": "previos",
+   "r": "diagnostica",
+   "nota": "Pedir que cada estudiante estime cuánto sabe de cada tema antes de empezar le activa la metacognición y te entrega un diagnóstico del curso."
+  },
+  {
+   "a": "previos",
+   "b": "proyectos",
+   "r": "constructivismo",
+   "nota": "Un proyecto obliga a construir sobre lo que cada integrante ya sabe, y lo nuevo se arma con esas piezas. Esa idea del conocimiento construido es el constructivismo."
+  },
+  {
+   "a": "previos",
+   "b": "recuperacion",
+   "r": "merrill",
+   "nota": "Abrir la clase pidiendo recordar sin apuntes lo visto antes activa los conocimientos previos. Merrill incluye esa activación entre sus primeros principios de instrucción."
+  },
+  {
+   "a": "olvido",
+   "b": "previos",
+   "r": "reaprendizaje",
+   "nota": "Ebbinghaus notó que volver a aprender una lista olvidada toma menos tiempo que la primera vez. Ese ahorro muestra que algo quedó y sostiene el reaprendizaje sucesivo."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "previos",
+   "r": "cambio_conceptual",
+   "nota": "Someter tus propias ideas previas a la misma crítica que aplicas a las ajenas abre la puerta para cambiarlas. Reemplazar una idea intuitiva por otra mejor es cambio conceptual."
+  },
+  {
+   "a": "casos",
+   "b": "previos",
+   "r": "significativo",
+   "nota": "Un caso cercano a lo que el curso ya vivió le da dónde anclar la teoría nueva. Ausubel diría que esa conexión con lo previo vuelve significativo lo aprendido."
+  },
+  {
+   "a": "previos",
+   "b": "retos",
+   "r": "zdp",
+   "nota": "Un reto que parte de lo que el estudiante ya sabe y le pide un poco más, con ayuda a mano, cae en la zona de desarrollo próximo."
+  },
+  {
+   "a": "previos",
+   "b": "tps",
+   "r": "diagnostica",
+   "nota": "Una pregunta inicial discutida en parejas saca a la superficie lo que el curso ya cree sobre el tema. Escuchar esas respuestas antes de explicar es hacer evaluación diagnóstica."
+  },
+  {
+   "a": "practicas",
+   "b": "previos",
+   "r": "transferencia",
+   "nota": "En la práctica, el estudiante debe usar lo aprendido en clase ante casos nuevos. Ese salto es transferencia, y rara vez ocurre sin ayuda para conectar ambos mundos."
+  },
+  {
+   "a": "emocion",
+   "b": "previos",
+   "r": "autoeficacia",
+   "nota": "Tus experiencias anteriores con una materia y los nervios que dejaron pesan en cuánto crees poder con ella. Bandura cuenta ambas entre las fuentes de la autoeficacia."
+  },
+  {
+   "a": "lenguaje",
+   "b": "previos",
+   "r": "cambio_conceptual",
+   "nota": "En física, palabras como calor o fuerza llegan cargadas de sentidos cotidianos que chocan con el técnico. Desarmar esa idea previa y reconstruirla es trabajo de cambio conceptual."
+  },
+  {
+   "a": "escritura",
+   "b": "previos",
+   "r": "diagnostica",
+   "nota": "Pide al inicio que escriban en tres minutos todo lo que saben del tema. Esas hojas muestran las ideas previas del curso y sirven como diagnóstico."
+  },
+  {
+   "a": "herramienta",
+   "b": "previos",
+   "r": "nativos",
+   "nota": "Suponer que tus estudiantes dominan lo digital porque crecieron con pantallas es el mito de los nativos digitales. Kirschner y De Bruyckere no hallaron evidencia que lo sostenga."
+  },
+  {
+   "a": "docente",
+   "b": "previos",
+   "r": "significativo",
+   "nota": "Ausubel sostuvo que lo que más influye en aprender es lo que ya sabes, y pidió al docente averiguarlo y enseñar desde ahí. Así se logra aprendizaje significativo."
+  },
+  {
+   "a": "previos",
+   "b": "universidad",
+   "r": "alfabetizacion_academica",
+   "nota": "Quien llega a primer año trae hábitos de lectura escolares que no alcanzan para un paper. Carlino pide que cada materia enseñe a leer y escribir como su disciplina."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "previos",
+   "r": "ejemplos_resueltos",
+   "nota": "Con pocos conocimientos previos, estudiar ejemplos resueltos rinde más que resolver problemas sin apoyo; con más saber, conviene practicar. Kalyuga llamó a ese cruce reversión de la pericia."
+  },
+  {
+   "a": "metacognicion",
+   "b": "metacognicion",
+   "r": "autorregulado",
+   "nota": "Pensar sobre cómo piensas, y luego usar eso para planificar y ajustar tu estudio, convierte la metacognición en hábito. Ese aprender a aprender es el aprendizaje autorregulado."
+  },
+  {
+   "a": "metacognicion",
+   "b": "situado",
+   "r": "transferencia",
+   "nota": "Saber cuándo y dónde sirve lo aprendido es metacognición. Sin ella, un estudiante resuelve la guía y no reconoce el mismo problema en el hospital, un fallo de transferencia."
+  },
+  {
+   "a": "metacognicion",
+   "b": "proyectos",
+   "r": "portafolio",
+   "nota": "En un proyecto largo conviene registrar decisiones y dudas en cada etapa. Ese registro comentado, revisado al final, se vuelve un portafolio que muestra cómo pensaste."
+  },
+  {
+   "a": "metacognicion",
+   "b": "olvido",
+   "r": "releer",
+   "nota": "Releer se siente eficaz porque el texto se vuelve familiar, pero esa familiaridad no predice lo que recordarás en una semana. Dunlosky y colegas le dieron baja utilidad."
+  },
+  {
+   "a": "metacognicion",
+   "b": "pensamiento_critico",
+   "r": "juicio",
+   "nota": "Aplicar el pensamiento crítico a tu propio trabajo, revisando con qué criterio lo das por bueno, desarrolla juicio evaluativo. Boud y colegas lo ven como meta universitaria."
+  },
+  {
+   "a": "metacognicion",
+   "b": "practicas",
+   "r": "reflexiva",
+   "nota": "En plena práctica, un profesional nota que algo no sale como esperaba y ajusta sobre la marcha. Schön lo llamó reflexión en la acción, base de la práctica reflexiva."
+  },
+  {
+   "a": "metacognicion",
+   "b": "pregunta",
+   "r": "autoevaluacion",
+   "nota": "Preguntarte a mitad de lectura si podrías explicar lo leído a otra persona es un control metacognitivo. Hacerlo con criterios claros convierte esa pregunta en autoevaluación."
+  },
+  {
+   "a": "error",
+   "b": "metacognicion",
+   "r": "retro",
+   "nota": "Cuando te equivocas muy seguro de tu respuesta y alguien te muestra la correcta, la recuerdas mejor. Butterfield y Metcalfe llamaron a eso hipercorrección, y depende de la retroalimentación."
+  },
+  {
+   "a": "escritura",
+   "b": "metacognicion",
+   "r": "cats",
+   "nota": "En el papel de un minuto cada estudiante escribe qué entendió y qué no, revisa así su pensamiento y te informa. Es una técnica de evaluación en el aula."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "metacognicion",
+   "r": "autorregulado",
+   "nota": "Cuando aprendes y además vigilas cómo estás aprendiendo, puedes cambiar de estrategia a tiempo. Ese control del propio proceso es el aprendizaje autorregulado."
+  },
+  {
+   "a": "investigacion",
+   "b": "metacognicion",
+   "r": "ciencia_aprendizaje",
+   "nota": "Flavell acuñó en los años setenta el término metacognición para investigar cómo las personas conocen su propio conocer. Hoy es un tema central de la ciencia del aprendizaje."
+  },
+  {
+   "a": "espaciada",
+   "b": "espaciada",
+   "r": "intercalada",
+   "nota": "Si repasas varios temas en sesiones separadas, tarde o temprano se cruzan en la misma sesión. Espaciar varias materias a la vez te lleva a intercalarlas."
+  },
+  {
+   "a": "espaciada",
+   "b": "proyectos",
+   "r": "carga_trabajo",
+   "nota": "Si el proyecto tiene entregas parciales repartidas en el semestre, el trabajo no se amontona en la última semana. Repartirlo así cuida la carga de trabajo del estudiante."
+  },
+  {
+   "a": "espaciada",
+   "b": "pregunta",
+   "r": "recuperacion",
+   "nota": "Una pregunta sobre la clase de hace dos semanas, respondida sin mirar el apunte, suma espaciado y esfuerzo por recordar. Ese esfuerzo es práctica de recuperación."
+  },
+  {
+   "a": "espaciada",
+   "b": "lenguaje",
+   "r": "reaprendizaje",
+   "nota": "Los Bahrick estudiaron vocabulario de otro idioma durante años y vieron que las sesiones de reaprendizaje más separadas dejaban más palabras vivas. Es reaprendizaje sucesivo a largo plazo."
+  },
+  {
+   "a": "espaciada",
+   "b": "herramienta",
+   "r": "adaptativo",
+   "nota": "Programas de tarjetas como Anki deciden cuándo volver a preguntarte según si acertaste. Una herramienta que ajusta el espaciado a cada persona hace aprendizaje adaptativo."
+  },
+  {
+   "a": "espaciada",
+   "b": "juego",
+   "r": "gamificacion",
+   "nota": "Las rachas diarias de algunas aplicaciones premian volver un poco cada día. Esa mecánica de juego, puesta al servicio del repaso espaciado, es gamificación."
+  },
+  {
+   "a": "docente",
+   "b": "espaciada",
+   "r": "syllabus",
+   "nota": "Un docente que quiere repasos espaciados los deja escritos en el programa, con fechas y propósito. Así el programa de asignatura se organiza alrededor de cómo se aprende."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "espaciada",
+   "r": "dificultades_deseables",
+   "nota": "Estudiar repartido se siente más lento que estudiar todo junto, y aun así deja más aprendizaje. Bjork pone el espaciado entre las dificultades deseables."
+  },
+  {
+   "a": "espaciada",
+   "b": "universidad",
+   "r": "efecto_retroactivo",
+   "nota": "Una universidad que pone la nota en un solo final empuja a estudiar todo junto, sin espaciar. Ese impacto de la evaluación en el estudio es el efecto retroactivo."
+  },
+  {
+   "a": "espaciada",
+   "b": "investigacion",
+   "r": "ciencia_aprendizaje",
+   "nota": "El efecto del espaciado se ha replicado en cientos de experimentos desde Ebbinghaus. El metaanálisis de Cepeda y colegas es una referencia de la ciencia del aprendizaje."
+  },
+  {
+   "a": "situado",
+   "b": "situado",
+   "r": "transferencia",
+   "nota": "Aprender la misma idea en varios contextos reales distintos ayuda a separarla de cada situación. Bransford y colegas recomiendan esa variedad para lograr transferencia."
+  },
+  {
+   "a": "abp",
+   "b": "situado",
+   "r": "retos",
+   "nota": "Cuando el problema del ABP sale de la vida real de una comunidad y el equipo debe proponer una solución aplicable, el ejercicio se convierte en un reto."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "situado",
+   "r": "casos",
+   "nota": "Llevar el pensamiento crítico a una situación real narrada con detalle, con datos incompletos y decisiones en juego, es la base del método de casos."
+  },
+  {
+   "a": "casos",
+   "b": "situado",
+   "r": "competencias",
+   "nota": "Resolver casos reales del oficio en su contexto muestra si sabes movilizar lo aprendido. Esa capacidad de actuar en situación es lo que observa el enfoque por competencias."
+  },
+  {
+   "a": "retos",
+   "b": "situado",
+   "r": "servicio",
+   "nota": "Un reto planteado junto a una organización del barrio, que el curso resuelve para ella, se acerca al aprendizaje-servicio. Falta sumar reflexión sobre lo vivido para completarlo."
+  },
+  {
+   "a": "servicio",
+   "b": "situado",
+   "r": "experiencial",
+   "nota": "El aprendizaje-servicio pone al estudiante en una experiencia concreta con la comunidad y le pide reflexionar sobre ella. Kolb vería ahí su ciclo de aprendizaje experiencial."
+  },
+  {
+   "a": "practicas",
+   "b": "situado",
+   "r": "comunidad_practica",
+   "nota": "En las prácticas el estudiante entra a un equipo real y aprende participando desde el borde. Lave y Wenger lo llamaron participación periférica legítima en una comunidad de práctica."
+  },
+  {
+   "a": "pregunta",
+   "b": "situado",
+   "r": "indagacion",
+   "nota": "Una pregunta que nace de observar un lugar real, como un río contaminado cerca del campus, lleva al curso a investigar con guía del docente. Eso es indagación guiada."
+  },
+  {
+   "a": "error",
+   "b": "situado",
+   "r": "simulacion",
+   "nota": "En un hospital, equivocarse con un paciente tiene costo humano. La simulación recrea esa situación para que el error ocurra sin daño y se analice después."
+  },
+  {
+   "a": "escritura",
+   "b": "situado",
+   "r": "alfabetizacion_academica",
+   "nota": "Escribir un informe de laboratorio o una demanda exige las convenciones de esa comunidad. Aprenderlas escribiendo dentro de la disciplina es alfabetización académica."
+  },
+  {
+   "a": "herramienta",
+   "b": "situado",
+   "r": "movil",
+   "nota": "El teléfono en el bolsillo deja consultar y registrar en el mismo lugar donde ocurre la práctica, como una visita a terreno. Ese uso es aprendizaje móvil."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "situado",
+   "r": "comunidad_practica",
+   "nota": "Si aprender depende del contexto, buena parte ocurre al participar con quienes ya dominan un oficio. Lave y Wenger describieron ese aprendizaje dentro de comunidades de práctica."
+  },
+  {
+   "a": "situado",
+   "b": "universidad",
+   "r": "servicio",
+   "nota": "Cuando la universidad saca el aprendizaje del aula y lo sitúa en su territorio, con proyectos útiles para la comunidad, aparece el aprendizaje-servicio."
+  },
+  {
+   "a": "investigacion",
+   "b": "situado",
+   "r": "investigacion_accion",
+   "nota": "Investigar en tu propio contexto, con las personas involucradas y para cambiar algo de ese lugar, es investigación-acción. Lewin la propuso en los años cuarenta."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "situado",
+   "r": "simulacion",
+   "nota": "Repetir un procedimiento real con metas precisas, sin poner a nadie en riesgo, pide un escenario simulado. Por eso cirugía y enfermería practican en simulación."
+  },
+  {
+   "a": "abp",
+   "b": "abp",
+   "r": "carga_cognitiva",
+   "nota": "Muchos problemas complejos con poca guía pueden saturar la memoria de trabajo de un novato. Kirschner y colegas criticaron así al ABP; sus defensores responden que, bien andamiado, funciona."
+  },
+  {
+   "a": "abp",
+   "b": "proyectos",
+   "r": "retos",
+   "nota": "El ABP aporta el problema y el proyecto aporta el producto. Sumados a un desafío real con un público que espera la solución, dan el aprendizaje basado en retos."
+  },
+  {
+   "a": "abp",
+   "b": "pensamiento_critico",
+   "r": "casos",
+   "nota": "Un problema real analizado con pensamiento crítico, sopesando evidencia y alternativas antes de decidir, es lo que Harvard practica desde hace un siglo con el método de casos."
+  },
+  {
+   "a": "abp",
+   "b": "retos",
+   "r": "proyectos",
+   "nota": "Cuando un problema se vuelve reto, el equipo debe entregar algo concreto, como un prototipo o una propuesta. Ese producto final marca el aprendizaje basado en proyectos."
+  },
+  {
+   "a": "abp",
+   "b": "jigsaw",
+   "r": "tutoria_pares",
+   "nota": "En el ABP cada integrante investiga una parte del problema y luego la explica al grupo, como en el rompecabezas. Explicarle a un compañero es tutoría entre pares."
+  },
+  {
+   "a": "abp",
+   "b": "curriculo",
+   "r": "merrill",
+   "nota": "Merrill propone ordenar un curso alrededor de problemas reales de complejidad creciente. Un currículo hecho de problemas sigue ese primer principio de instrucción."
+  },
+  {
+   "a": "abp",
+   "b": "pregunta",
+   "r": "indagacion",
+   "nota": "Si el problema del ABP se abre con una pregunta que el curso investiga paso a paso con apoyo del docente, la experiencia se parece a la indagación guiada."
+  },
+  {
+   "a": "abp",
+   "b": "error",
+   "r": "dificultades_deseables",
+   "nota": "Kapur pidió a estudiantes intentar un problema antes de la explicación, sabiendo que fallarían. Ese fracaso productivo mejoró la comprensión conceptual, como otras dificultades deseables."
+  },
+  {
+   "a": "abp",
+   "b": "juego",
+   "r": "abj",
+   "nota": "Un juego de escape educativo encadena problemas que el grupo debe resolver para avanzar. Usar así un juego completo para aprender es aprendizaje basado en juegos."
+  },
+  {
+   "a": "abp",
+   "b": "aprendizaje",
+   "r": "constructivismo",
+   "nota": "El ABP asume que el estudiante arma su conocimiento al enfrentar un problema y discutirlo con otros. Esa idea de un aprendizaje construido viene del constructivismo."
+  },
+  {
+   "a": "abp",
+   "b": "universidad",
+   "r": "curriculo",
+   "nota": "La Universidad McMaster, en Canadá, organizó a fines de los sesenta su carrera de medicina alrededor de problemas. Así el ABP pasó de técnica a currículo completo."
+  },
+  {
+   "a": "proyectos",
+   "b": "proyectos",
+   "r": "carga_trabajo",
+   "nota": "Si cada asignatura del semestre pide su propio proyecto, el estudiante termina con cinco entregas grandes en la misma semana. Coordinarlas es cuidar la carga de trabajo."
+  },
+  {
+   "a": "proyectos",
+   "b": "retos",
+   "r": "autentica",
+   "nota": "Un proyecto que responde a un reto real puede evaluarse con el mismo estándar que usaría quien lo encargó. Evaluar así, con tareas del mundo profesional, es evaluación auténtica."
+  },
+  {
+   "a": "curriculo",
+   "b": "proyectos",
+   "r": "perfil_egreso",
+   "nota": "Un proyecto final integrador, al cierre de la carrera, permite mostrar de una vez lo que el currículo promete. Por eso suele diseñarse mirando el perfil de egreso."
+  },
+  {
+   "a": "emocion",
+   "b": "proyectos",
+   "r": "motivacion",
+   "nota": "Un proyecto que toca algo que al equipo le importa despierta ganas que no dependen de la nota. Ese impulso propio es motivación intrínseca."
+  },
+  {
+   "a": "docente",
+   "b": "proyectos",
+   "r": "andamiaje",
+   "nota": "En un proyecto largo, el docente pone hitos y revisiones parciales que va retirando a medida que el equipo gana autonomía. Ese apoyo temporal es andamiaje."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "proyectos",
+   "r": "activo",
+   "nota": "En un proyecto se aprende al hacer y al corregir lo hecho, lejos de la escucha pasiva. Por eso cuenta como aprendizaje activo."
+  },
+  {
+   "a": "investigacion",
+   "b": "proyectos",
+   "r": "indagacion",
+   "nota": "Un proyecto en que el curso formula su propia pregunta y la investiga con método, acompañado por el docente, es indagación guiada."
+  },
+  {
+   "a": "recuperacion",
+   "b": "tps",
+   "r": "peer",
+   "nota": "Primero cada estudiante responde solo, sin mirar apuntes, y vota; después discute con su pareja y vuelve a votar. Mazur armó así la instrucción entre pares."
+  },
+  {
+   "a": "curriculo",
+   "b": "recuperacion",
+   "r": "espiral",
+   "nota": "Un currículo que obliga a recuperar en tercer año lo aprendido en primero hace volver a las ideas con más profundidad cada vez. Así funciona el currículo en espiral."
+  },
+  {
+   "a": "pregunta",
+   "b": "recuperacion",
+   "r": "formativa",
+   "nota": "Una pregunta breve al inicio de la clase, sin nota, obliga a recordar y muestra qué quedó. Usar esa información para ajustar la clase es evaluación formativa."
+  },
+  {
+   "a": "emocion",
+   "b": "recuperacion",
+   "r": "emociones",
+   "nota": "Agarwal y colegas encontraron que muchos escolares se sentían menos nerviosos ante los exámenes tras practicar con pruebas frecuentes sin nota. Recuperar seguido cambia las emociones de evaluar."
+  },
+  {
+   "a": "escritura",
+   "b": "recuperacion",
+   "r": "escribir",
+   "nota": "Cierra el cuaderno y escribe todo lo que recuerdas del tema. Esa escritura de memoria combina recuperación con la organización de ideas que da escribir para aprender."
+  },
+  {
+   "a": "herramienta",
+   "b": "recuperacion",
+   "r": "respuesta_audiencia",
+   "nota": "Con un sistema de votación, todo el curso responde a la vez una pregunta de repaso y ves los resultados al instante. Así la recuperación llega a cada estudiante."
+  },
+  {
+   "a": "juego",
+   "b": "recuperacion",
+   "r": "gamificacion",
+   "nota": "Un concurso de preguntas con puntos y equipos vuelve la práctica de recuperación un juego. Agregar elementos de juego a una tarea de estudio es gamificación."
+  },
+  {
+   "a": "docente",
+   "b": "recuperacion",
+   "r": "cats",
+   "nota": "Un docente que pide recordar en un minuto la idea central de la clase anterior sabe al instante qué quedó. Es una técnica de evaluación en el aula."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "recuperacion",
+   "r": "reaprendizaje",
+   "nota": "Recordar sin mirar hasta acertar, y volver a hacerlo en varias sesiones separadas por días, es el reaprendizaje sucesivo que Rawson y Dunlosky propusieron para cursos universitarios."
+  },
+  {
+   "a": "recuperacion",
+   "b": "universidad",
+   "r": "sumativa",
+   "nota": "El examen final pide recordar todo de una vez y su nota certifica si aprobaste. Esa evaluación al cierre de un ciclo es sumativa."
+  },
+  {
+   "a": "investigacion",
+   "b": "recuperacion",
+   "r": "evidencia",
+   "nota": "Roediger y Karpicke mostraron que ponerse a prueba deja más recuerdo a la semana que releer. Hallazgos replicados así son la base de una docencia informada por evidencia."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "comunidad_practica",
+   "r": "conectivismo",
+   "nota": "Cuando varias comunidades de práctica se conectan, el saber circula de una a otra gracias a personas que participan en ambas. Siemens describe el aprendizaje como formar esas redes."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "pensamiento_critico",
+   "r": "coi",
+   "nota": "Garrison y colegas describen grupos en línea que piensan críticamente juntos con guía docente. A ese modelo lo llamaron comunidad de indagación."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "practicas",
+   "r": "modelado",
+   "nota": "En las prácticas, el novato ve a profesionales con experiencia resolver casos y explicar por qué hacen lo que hacen. Hacer visible ese razonamiento experto es modelado cognitivo."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "escritura",
+   "r": "alfabetizacion_academica",
+   "nota": "Cada comunidad profesional escribe a su manera, sea una historia clínica o un fallo judicial. Aprender a escribir como ella es parte de la alfabetización académica."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "herramienta",
+   "r": "rea",
+   "nota": "Una comunidad que comparte sus materiales con licencias abiertas, para que otros los usen y adapten, construye recursos educativos abiertos."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "docente",
+   "r": "sotl",
+   "nota": "Un grupo de docentes que comparte sus experimentos de aula y los somete a la crítica de colegas está haciendo investigación sobre la propia docencia."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "comunidad_practica",
+   "r": "situado",
+   "nota": "Para Lave y Wenger, aprender en una comunidad de práctica es participar cada vez más en ella. Ese aprendizaje inseparable de su contexto es aprendizaje situado."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "universidad",
+   "r": "integridad",
+   "nota": "La universidad es una comunidad con normas sobre citar fuentes y firmar solo el trabajo propio. Aprender esas normas y su razón de ser es integridad académica."
+  },
+  {
+   "a": "intercalada",
+   "b": "pregunta",
+   "r": "recuperacion",
+   "nota": "Una prueba corta con preguntas de varias unidades te obliga a recordar sin pistas sobre el tema. Ese esfuerzo de traer la respuesta es práctica de recuperación."
+  },
+  {
+   "a": "intercalada",
+   "b": "practica_deliberada",
+   "r": "dificultades_deseables",
+   "nota": "En deporte y música, alternar movimientos distintos rinde peor durante la sesión y mejor en la retención. Shea y Morgan lo mostraron en 1979, una dificultad deseable clásica."
+  },
+  {
+   "a": "olvido",
+   "b": "pregunta",
+   "r": "recuperacion",
+   "nota": "Cuando ya empezaste a olvidar, buscar el recuerdo a partir de una pregunta lo fortalece más que releer, siempre que logres encontrarlo. Es práctica de recuperación."
+  },
+  {
+   "a": "escritura",
+   "b": "olvido",
+   "r": "tecnologia",
+   "nota": "En el Fedro de Platón, Sócrates cuenta el temor de que la escritura vuelva olvidadizos a quienes la usen. Es una de las quejas más antiguas contra una tecnología."
+  },
+  {
+   "a": "herramienta",
+   "b": "olvido",
+   "r": "adaptativo",
+   "nota": "Algunas aplicaciones de idiomas estiman cuándo olvidarás cada palabra y te la vuelven a preguntar justo a tiempo. Ajustar así el repaso a cada persona es aprendizaje adaptativo."
+  },
+  {
+   "a": "docente",
+   "b": "olvido",
+   "r": "gagne",
+   "nota": "Gagné cerraba su secuencia de nueve eventos con un paso para favorecer la retención y la transferencia. Un docente que conoce el olvido planifica ese cierre."
+  },
+  {
+   "a": "olvido",
+   "b": "universidad",
+   "r": "espiral",
+   "nota": "Lo aprendido en primer año y no vuelto a usar se olvida antes de tercero. Una carrera que retoma esos temas con más profundidad aplica el currículo en espiral."
+  },
+  {
+   "a": "investigacion",
+   "b": "olvido",
+   "r": "ciencia_aprendizaje",
+   "nota": "En 1885 Ebbinghaus memorizó listas de sílabas sin sentido y midió cuánto olvidaba con los días. Ese experimento consigo mismo inauguró el estudio científico de la memoria."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "pensamiento_critico",
+   "r": "metacognicion",
+   "nota": "Aplicar el pensamiento crítico a tu propio razonamiento, buscando sesgos y supuestos, es pensar sobre tu pensar. Eso es metacognición."
+  },
+  {
+   "a": "casos",
+   "b": "pensamiento_critico",
+   "r": "juicio",
+   "nota": "Discutir varias soluciones a un caso y defender cuál es mejor entrena para distinguir la calidad con criterios. Esa habilidad es juicio evaluativo."
+  },
+  {
+   "a": "curriculo",
+   "b": "pensamiento_critico",
+   "r": "curriculo_oculto",
+   "nota": "Leer el currículo con ojo crítico revela lo que enseña sin decirlo, como qué autores nunca aparecen o qué saberes se tratan como menores. Eso es el currículo oculto."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "pregunta",
+   "r": "bloom",
+   "nota": "Las preguntas que piden evaluar o crear exigen más pensamiento crítico que las de recordar. La taxonomía de Bloom sirve para notar qué nivel pide cada pregunta."
+  },
+  {
+   "a": "herramienta",
+   "b": "pensamiento_critico",
+   "r": "competencia",
+   "nota": "Usar herramientas digitales con criterio, sabiendo verificar una fuente o detectar una imagen manipulada, es parte de la competencia digital según el marco europeo DigComp."
+  },
+  {
+   "a": "docente",
+   "b": "pensamiento_critico",
+   "r": "modelado",
+   "nota": "Un docente que piensa en voz alta mientras evalúa un argumento muestra los pasos del pensamiento crítico que suelen quedar ocultos. Eso es modelado cognitivo."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "pensamiento_critico",
+   "r": "profundo",
+   "nota": "Aprender preguntándote por qué algo es así y cómo se relaciona con otras ideas es lo que Marton y Säljö llamaron enfoque profundo."
+  },
+  {
+   "a": "pensamiento_critico",
+   "b": "universidad",
+   "r": "perfil_egreso",
+   "nota": "Muchas universidades declaran el pensamiento crítico como atributo de sus titulados. Al escribirlo en el perfil de egreso se comprometen a enseñarlo y evaluarlo en la carrera."
+  },
+  {
+   "a": "investigacion",
+   "b": "pensamiento_critico",
+   "r": "evidencia",
+   "nota": "Leer un estudio con pensamiento crítico, preguntando por el tamaño de la muestra y del efecto, es la habilidad que exige una docencia informada por evidencia."
+  },
+  {
+   "a": "casos",
+   "b": "practicas",
+   "r": "autentica",
+   "nota": "Evaluar al estudiante con un caso tomado de su práctica, en las condiciones reales del oficio, es evaluación auténtica."
+  },
+  {
+   "a": "casos",
+   "b": "pregunta",
+   "r": "pensamiento_critico",
+   "nota": "En el método de casos, el docente conduce con preguntas que obligan a justificar cada decisión y a revisar la evidencia. Ese cuestionamiento sostenido entrena el pensamiento crítico."
+  },
+  {
+   "a": "casos",
+   "b": "escritura",
+   "r": "autentica",
+   "nota": "Pedir una nota clínica o un informe técnico sobre un caso, escrito tal como se hace en el oficio, es evaluación auténtica."
+  },
+  {
+   "a": "casos",
+   "b": "herramienta",
+   "r": "simulacion",
+   "nota": "Un paciente virtual en pantalla convierte el caso escrito en una situación que responde a tus decisiones. Esa herramienta lleva el caso hacia la simulación."
+  },
+  {
+   "a": "casos",
+   "b": "juego",
+   "r": "simulacion",
+   "nota": "Actuar un caso como juego de roles, con alguien haciendo de paciente o de cliente, lo convierte en una simulación de la situación real."
+  },
+  {
+   "a": "casos",
+   "b": "docente",
+   "r": "ejemplos_resueltos",
+   "nota": "Un docente que resuelve un caso paso a paso frente al curso, explicando cada decisión antes de pedir que lo intenten, ofrece un ejemplo resuelto."
+  },
+  {
+   "a": "curriculo",
+   "b": "retos",
+   "r": "competencias",
+   "nota": "El Tecnológico de Monterrey rediseñó su currículo alrededor de retos con organizaciones externas. Su modelo Tec21 organiza la formación por competencias."
+  },
+  {
+   "a": "error",
+   "b": "retos",
+   "r": "mentalidad",
+   "nota": "Ante un reto difícil, quien lee sus tropiezos como información sobre qué practicar sigue intentando. Dweck asocia esa lectura con la mentalidad de crecimiento."
+  },
+  {
+   "a": "juego",
+   "b": "retos",
+   "r": "gamificacion",
+   "nota": "Insignias y retos semanales llevan elementos de juego a un curso que no es un juego. Esa capa es gamificación, con efectos que dependen mucho del diseño."
+  },
+  {
+   "a": "docente",
+   "b": "retos",
+   "r": "andamiaje",
+   "nota": "En un reto real el equipo se pierde fácil al comienzo, así que el docente entrega guías que va retirando. Ese apoyo que se desvanece es andamiaje."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "retos",
+   "r": "zdp",
+   "nota": "Un reto apenas por encima de tu nivel actual, como pide la práctica deliberada, y con un guía que acompañe, cae en la zona de desarrollo próximo."
+  },
+  {
+   "a": "investigacion",
+   "b": "servicio",
+   "r": "investigacion_accion",
+   "nota": "Fals Borda propuso investigar junto a las comunidades para que ellas mismas cambien su realidad. Un servicio que investiga así se vuelve investigación-acción participativa."
+  },
+  {
+   "a": "jigsaw",
+   "b": "tps",
+   "r": "cooperativo",
+   "nota": "El rompecabezas y piensa, discute, comparte son estructuras que organizan quién habla y cuándo. Ambas pertenecen a la familia del aprendizaje cooperativo."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "jigsaw",
+   "r": "tutoria_pares",
+   "nota": "En el rompecabezas cada estudiante enseña su pieza al resto. Preparar esa explicación mejora lo que aprende quien enseña, como ocurre en la tutoría entre pares."
+  },
+  {
+   "a": "tps",
+   "b": "tps",
+   "r": "piramide",
+   "nota": "Como conversar y explicar ayuda a aprender, se difundió una pirámide que promete recordar el 90 % de lo que enseñas. Esos porcentajes no vienen de ningún estudio rastreable."
+  },
+  {
+   "a": "error",
+   "b": "tps",
+   "r": "coevaluacion",
+   "nota": "En parejas, cada estudiante revisa la respuesta del otro y señala dónde está el error antes de compartir con el curso. Esa revisión mutua es evaluación entre pares."
+  },
+  {
+   "a": "escritura",
+   "b": "tps",
+   "r": "coevaluacion",
+   "nota": "Escribe tu respuesta, intercámbiala con tu pareja y comenten qué le falta antes de compartir. Revisar el texto de otro con criterios es evaluación entre pares."
+  },
+  {
+   "a": "herramienta",
+   "b": "tps",
+   "r": "respuesta_audiencia",
+   "nota": "Un sistema de votación suma al piensa, discute, comparte un registro de lo que opina todo el curso antes y después de conversar."
+  },
+  {
+   "a": "docente",
+   "b": "tps",
+   "r": "atencion10",
+   "nota": "Muchos docentes cortan la clase cada diez minutos con una pausa en parejas porque creen que la atención no da más. Bradbury revisó ese dato y no halló base."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "tps",
+   "r": "activo",
+   "nota": "Pensar solo y luego explicarle a otro hace que el aprendizaje ocurra durante la clase. Freeman y colegas hallaron que las clases con aprendizaje activo reducen la reprobación."
+  },
+  {
+   "a": "tps",
+   "b": "universidad",
+   "r": "aula_activa",
+   "nota": "Hacer conversar en parejas a un curso grande en filas fijas cuesta. Varias universidades rediseñaron salas con mesas redondas, como en el proyecto SCALE-UP, para facilitar ese trabajo."
+  },
+  {
+   "a": "investigacion",
+   "b": "tps",
+   "r": "peer",
+   "nota": "Mazur midió con pruebas conceptuales que sus clases de física, bien evaluadas, dejaban poca comprensión. Probó que discutieran en pareja y así nació la instrucción entre pares."
+  },
+  {
+   "a": "curriculo",
+   "b": "practicas",
+   "r": "competencias",
+   "nota": "Un currículo con prácticas desde los primeros años permite demostrar competencias en situaciones reales a lo largo de la carrera. Así se organiza un enfoque por competencias."
+  },
+  {
+   "a": "escritura",
+   "b": "practicas",
+   "r": "casos",
+   "nota": "Escribir lo que pasó con un paciente o un cliente durante la práctica, con las decisiones tomadas, produce un caso que el curso puede discutir después."
+  },
+  {
+   "a": "docente",
+   "b": "practicas",
+   "r": "modelado",
+   "nota": "El tutor de prácticas atiende a un paciente explicando en voz alta qué observa y por qué decide. Mostrar así el razonamiento experto es modelado cognitivo."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "practicas",
+   "r": "experiencial",
+   "nota": "En las prácticas el aprendizaje nace de la experiencia concreta con el oficio. Si se acompaña de reflexión y nuevas pruebas, sigue el ciclo experiencial de Kolb."
+  },
+  {
+   "a": "curriculo",
+   "b": "curriculo",
+   "r": "curriculo_oculto",
+   "nota": "Junto al currículo escrito corre otro que nadie redactó, hecho de rutinas y expectativas. Philip Jackson lo llamó currículo oculto en 1968."
+  },
+  {
+   "a": "curriculo",
+   "b": "pregunta",
+   "r": "tabla",
+   "nota": "Para que las preguntas de una prueba cubran el currículo en proporción a lo enseñado, se reparten en un cuadro por contenidos y niveles. Es la tabla de especificaciones."
+  },
+  {
+   "a": "curriculo",
+   "b": "error",
+   "r": "conceptos_umbral",
+   "nota": "Donde el curso tropieza cada año con los mismos errores suele haber un concepto umbral. Meyer y Land lo describen como una idea difícil que, entendida, cambia la mirada."
+  },
+  {
+   "a": "curriculo",
+   "b": "emocion",
+   "r": "dua",
+   "nota": "Un currículo que ofrece varias formas de despertar el interés reconoce que la emoción por aprender varía entre personas. Es un principio del Diseño Universal para el Aprendizaje."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "curriculo",
+   "r": "syllabus",
+   "nota": "Un programa organizado alrededor de lo que el estudiante aprenderá, con las metas y los criterios a la vista, es un programa de asignatura centrado en el aprendizaje."
+  },
+  {
+   "a": "curriculo",
+   "b": "universidad",
+   "r": "perfil_egreso",
+   "nota": "Cada carrera de una universidad declara qué será capaz de hacer quien se titule. Ese compromiso orienta el currículo completo y se llama perfil de egreso."
+  },
+  {
+   "a": "pregunta",
+   "b": "pregunta",
+   "r": "curiosidad",
+   "nota": "Una buena pregunta abre otra, y cada respuesta parcial deja a la vista un hueco nuevo. Loewenstein explicó la curiosidad como el impulso de cerrar esos vacíos de información."
+  },
+  {
+   "a": "lenguaje",
+   "b": "pregunta",
+   "r": "bloom",
+   "nota": "Cambiar el verbo de una pregunta cambia lo que exige. Definir pide recordar y justificar pide evaluar, dos niveles distintos en la taxonomía de Bloom."
+  },
+  {
+   "a": "juego",
+   "b": "pregunta",
+   "r": "descubrimiento",
+   "nota": "Dejar que el curso juegue con un problema sin guía alguna, esperando que descubra solo la respuesta, suena atractivo. Mayer revisó décadas de estudios y la guía rindió más."
+  },
+  {
+   "a": "docente",
+   "b": "pregunta",
+   "r": "formativa",
+   "nota": "Una pregunta bisagra en mitad de la clase, con opciones que delatan errores típicos, le dice al docente si puede avanzar. Wiliam la propone como herramienta de evaluación formativa."
+  },
+  {
+   "a": "pregunta",
+   "b": "universidad",
+   "r": "investigacion",
+   "nota": "Una universidad convierte las preguntas abiertas de cada disciplina en estudios con método que se publican y se discuten. Esa práctica es la investigación."
+  },
+  {
+   "a": "error",
+   "b": "lenguaje",
+   "r": "alf_retro",
+   "nota": "Para usar un comentario sobre tu error primero tienes que entender su lenguaje, como cuando dice «falta desarrollo». Comprenderlo es parte de la alfabetización en retroalimentación."
+  },
+  {
+   "a": "error",
+   "b": "escritura",
+   "r": "retro",
+   "nota": "Un borrador devuelto con comentarios sobre sus errores, y tiempo para reescribirlo, ayuda a mejorar el texto siguiente. Esa información para avanzar es retroalimentación."
+  },
+  {
+   "a": "error",
+   "b": "herramienta",
+   "r": "aumento",
+   "nota": "Escribir en un procesador que marca los errores ortográficos es la misma tarea con una mejora funcional. Puentedura llama aumento a ese segundo peldaño del modelo SAMR."
+  },
+  {
+   "a": "docente",
+   "b": "error",
+   "r": "cpc",
+   "nota": "Saber qué errores comete el curso en cada tema, y por qué, es parte del saber docente que Shulman llamó conocimiento pedagógico del contenido."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "error",
+   "r": "mentalidad",
+   "nota": "Si cada error se lee como parte del aprendizaje, equivocarse deja de parecer prueba de falta de talento. Dweck llama a esa creencia mentalidad de crecimiento."
+  },
+  {
+   "a": "error",
+   "b": "investigacion",
+   "r": "validez",
+   "nota": "Toda medición tiene error, y una prueba también. Estimar cuánto error tiene y si mide lo que dice medir es el trabajo de la validez y la confiabilidad."
+  },
+  {
+   "a": "error",
+   "b": "practica_deliberada",
+   "r": "dominio",
+   "nota": "La práctica deliberada apunta justo a lo que sale mal. Si además no avanzas hasta corregir cada error, aplicas la idea de Bloom del aprendizaje para el dominio."
+  },
+  {
+   "a": "emocion",
+   "b": "emocion",
+   "r": "motivacion",
+   "nota": "Cuando el gusto por una tarea se suma a la emoción de avanzar en ella, el impulso para seguir viene de adentro. Esa es la motivación intrínseca."
+  },
+  {
+   "a": "emocion",
+   "b": "lenguaje",
+   "r": "hemisferios",
+   "nota": "Como el lenguaje depende más de un hemisferio, se difundió la idea de gente de cerebro izquierdo lógica y de cerebro derecho emotiva. Nielsen y colegas no lo confirmaron."
+  },
+  {
+   "a": "emocion",
+   "b": "escritura",
+   "r": "emociones",
+   "nota": "Ramirez y Beilock pidieron a estudiantes escribir diez minutos sobre sus preocupaciones antes de un examen. Rindieron mejor que quienes no escribieron, sobre todo los más ansiosos."
+  },
+  {
+   "a": "docente",
+   "b": "emocion",
+   "r": "arcs",
+   "nota": "Keller propuso que el docente cuide cuatro aspectos para motivar, empezando por captar la atención. Su modelo ARCS planifica la emoción de una clase en lugar de improvisarla."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "emocion",
+   "r": "curiosidad",
+   "nota": "Gruber y colegas vieron que, con la curiosidad encendida, se recuerda mejor incluso información secundaria que aparece en ese momento."
+  },
+  {
+   "a": "emocion",
+   "b": "universidad",
+   "r": "emociones",
+   "nota": "El primer año universitario trae orgullo por haber entrado y miedo a no estar a la altura. Pekrun estudia esas emociones de logro y su efecto en el estudio."
+  },
+  {
+   "a": "emocion",
+   "b": "investigacion",
+   "r": "curiosidad",
+   "nota": "La incomodidad de no saber algo que parece a tu alcance empuja a investigar. Esa emoción que pide respuestas es la curiosidad."
+  },
+  {
+   "a": "lenguaje",
+   "b": "lenguaje",
+   "r": "carga_cognitiva",
+   "nota": "Leer en voz alta el mismo texto de la diapositiva duplica el lenguaje y suele perjudicar. Sweller explica ese efecto de redundancia con la teoría de la carga cognitiva."
+  },
+  {
+   "a": "escritura",
+   "b": "lenguaje",
+   "r": "escribir",
+   "nota": "Al pasar una idea del lenguaje hablado al escrito tienes que precisarla y ordenarla. Ese esfuerzo de hacerla explícita es lo que aprovecha escribir para aprender."
+  },
+  {
+   "a": "herramienta",
+   "b": "lenguaje",
+   "r": "ia",
+   "nota": "Una herramienta que genera lenguaje a partir de lo que le escribes es la IA generativa. Produce textos verosímiles que pueden contener errores, así que exige verificar."
+  },
+  {
+   "a": "docente",
+   "b": "lenguaje",
+   "r": "transposicion",
+   "nota": "El docente reformula el lenguaje técnico de la disciplina en ejemplos y analogías que el curso entienda, cuidando que la idea no se deforme. Es transposición didáctica."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "lenguaje",
+   "r": "zdp",
+   "nota": "Para Vygotsky, lo que primero aprendes conversando con alguien más capaz se vuelve después pensamiento propio. Esa conversación ocurre en la zona de desarrollo próximo."
+  },
+  {
+   "a": "lenguaje",
+   "b": "universidad",
+   "r": "expositiva",
+   "nota": "La lección magistral nació en las universidades medievales, cuando un maestro leía y comentaba un texto en voz alta. De ahí viene la clase expositiva universitaria."
+  },
+  {
+   "a": "escritura",
+   "b": "escritura",
+   "r": "portafolio",
+   "nota": "Reunir borradores y versiones finales de tus textos del semestre muestra cómo mejoró tu escritura. Esa colección comentada es un portafolio."
+  },
+  {
+   "a": "escritura",
+   "b": "herramienta",
+   "r": "tecnologia",
+   "nota": "Ong sostuvo que la escritura es una tecnología que cambió la forma de pensar. Toda herramienta que guarda y transmite saber entra en esa familia."
+  },
+  {
+   "a": "escritura",
+   "b": "practica_deliberada",
+   "r": "rubrica",
+   "nota": "Para practicar a conciencia la escritura necesitas saber cómo se ve un texto logrado. Una rúbrica describe esos niveles de desempeño y te dice hacia dónde apuntar."
+  },
+  {
+   "a": "herramienta",
+   "b": "herramienta",
+   "r": "mas_tecnologia",
+   "nota": "Sumar herramientas a una clase parece garantía de mejora. La OCDE halló en 2015 que más computadores en la escuela no se tradujeron en mejores resultados PISA."
+  },
+  {
+   "a": "docente",
+   "b": "herramienta",
+   "r": "competencia_digital_docente",
+   "nota": "Un docente que sabe elegir herramientas digitales para enseñar y evaluar tiene la competencia digital docente que describe el marco europeo DigCompEdu."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "herramienta",
+   "r": "analitica",
+   "nota": "Las plataformas de aprendizaje registran cada entrega y cada acceso. Analizar esos rastros para apoyar a quien se está quedando atrás es analítica del aprendizaje."
+  },
+  {
+   "a": "herramienta",
+   "b": "universidad",
+   "r": "virtual",
+   "nota": "La plataforma donde la universidad publica materiales y recibe tareas, como Moodle o Canvas, es su entorno virtual de aprendizaje."
+  },
+  {
+   "a": "herramienta",
+   "b": "investigacion",
+   "r": "datos",
+   "nota": "Una encuesta o un sensor es una herramienta de investigación que convierte lo observado en datos que luego se analizan."
+  },
+  {
+   "a": "herramienta",
+   "b": "practica_deliberada",
+   "r": "retro",
+   "nota": "Un simulador o una aplicación que te dice al instante si acertaste da a la práctica deliberada lo que necesita para corregir rápido. Esa información inmediata es retroalimentación."
+  },
+  {
+   "a": "juego",
+   "b": "juego",
+   "r": "gamificacion",
+   "nota": "Cuando tomas piezas de un juego, como puntos o niveles, y las pones en una actividad que no es un juego, haces gamificación."
+  },
+  {
+   "a": "investigacion",
+   "b": "juego",
+   "r": "abj",
+   "nota": "Wouters y colegas, en un metaanálisis, hallaron que los juegos serios enseñan algo más que la clase convencional, aunque no motivan más."
+  },
+  {
+   "a": "docente",
+   "b": "universidad",
+   "r": "cpc",
+   "nota": "Shulman notó que saber mucho de una materia no basta para enseñarla. Hace falta saber qué ejemplos y explicaciones funcionan con ese contenido, el conocimiento pedagógico del contenido."
+  },
+  {
+   "a": "docente",
+   "b": "practica_deliberada",
+   "r": "andamiaje",
+   "nota": "Un buen entrenador diseña ejercicios un poco más difíciles cada vez y da apoyos que retira al ver progreso. Ese acompañamiento temporal es andamiaje."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "aprendizaje",
+   "r": "autorregulado",
+   "nota": "Aprender sobre tu manera de aprender, para planificar y ajustar tu estudio, es lo que Zimmerman describió como aprendizaje autorregulado."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "universidad",
+   "r": "resultados",
+   "nota": "Una universidad que certifica aprendizajes necesita decir con precisión cuáles. Los resultados de aprendizaje declaran qué podrá hacer el estudiante al terminar un curso."
+  },
+  {
+   "a": "aprendizaje",
+   "b": "practica_deliberada",
+   "r": "dominio",
+   "nota": "Bloom sostuvo que casi todo el curso puede dominar una unidad si practica con correcciones y recibe el tiempo que necesita. Ese es el aprendizaje para el dominio."
+  },
+  {
+   "a": "universidad",
+   "b": "universidad",
+   "r": "internet",
+   "nota": "En 1969 ARPANET conectó sus primeros nodos, casi todos en universidades como UCLA y la de Utah. Esa red entre universidades fue la semilla de internet."
+  },
+  {
+   "a": "investigacion",
+   "b": "universidad",
+   "r": "sotl",
+   "nota": "Hutchings y Shulman pidieron tratar la docencia universitaria como la investigación disciplinar, haciéndola pública y abierta a la crítica de colegas. Eso define la investigación sobre la propia docencia."
+  },
+  {
+   "a": "investigacion",
+   "b": "investigacion",
+   "r": "evidencia",
+   "nota": "Reunir muchas investigaciones sobre la misma pregunta en una revisión sistemática da una respuesta más confiable que un estudio aislado. Esa síntesis alimenta la docencia informada por evidencia."
+  },
+  {
+   "a": "practica_deliberada",
+   "b": "practica_deliberada",
+   "r": "autoeficacia",
+   "nota": "Practicar con método y ver tu progreso semana a semana acumula experiencias de logro. Bandura las considera la fuente más fuerte de autoeficacia."
+  }
+ ]
+}

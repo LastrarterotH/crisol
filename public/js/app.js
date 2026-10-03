@@ -1,7 +1,6 @@
 // Arranque: portada, navegación y conexión de todas las piezas.
-import rough from "../vendor/rough.esm.js";
 import { D, SERVIDOR, cargar, esc } from "./datos.js";
-import { E, cargarEstado, guardar, reiniciar, descubiertas } from "./estado.js";
+import { E, cargarEstado, guardar, reiniciar, descubiertas, tiene } from "./estado.js";
 import { $, aviso, abrirPanel, cerrarPanel } from "./ui.js";
 import { activarSonido, sonar } from "./sonido.js";
 import { iniciarPolvo } from "./polvo.js";
@@ -16,44 +15,36 @@ function mostrar(pantalla) {
 }
 
 /* ---------- Portada ---------- */
-function dibujarPortada() {
-  const svg = $("portadaDibujo");
-  const W = innerWidth, H = innerHeight;
-  svg.setAttribute("viewBox", "0 0 " + W + " " + H);
-  svg.innerHTML = "";
-  const rc = rough.svg(svg);
-  const NS = "http://www.w3.org/2000/svg";
-  const prims = D.iniciales.map(id => D.fichas[id]);
-  const pts = [[.13, .22], [.87, .24], [.12, .78], [.88, .76]];
-  prims.forEach((f, i) => {
-    const x = pts[i][0] * W, y = pts[i][1] * H;
-    svg.appendChild(rc.circle(x, y, 96, { stroke: "rgba(242,239,228,.55)", strokeWidth: 1.6, roughness: 1.6, seed: i + 3 }));
-    const t = document.createElementNS(NS, "text");
-    t.setAttribute("x", x); t.setAttribute("y", y + 13); t.setAttribute("text-anchor", "middle"); t.setAttribute("font-size", 38); t.setAttribute("style", "font-family:var(--f-emoji)");
-    t.textContent = f.e; svg.appendChild(t);
-    const n = document.createElementNS(NS, "text");
-    n.setAttribute("x", x); n.setAttribute("y", y + 78); n.setAttribute("text-anchor", "middle"); n.setAttribute("font-size", 24); n.setAttribute("style", "font-family:var(--f-mano);fill:rgba(242,239,228,.7)");
-    n.textContent = f.n; svg.appendChild(n);
-  });
-  const ecuaciones = [["🧠", "🌍", "🌄", .22, .5], ["💬", "🪨", "📣", .78, .5]];
-  for (const [a, b, c, fx, fy] of ecuaciones) {
-    const t = document.createElementNS(NS, "text");
-    t.setAttribute("x", fx * W); t.setAttribute("y", fy * H); t.setAttribute("text-anchor", "middle"); t.setAttribute("font-size", 26);
-    t.setAttribute("style", "font-family:var(--f-mano);fill:rgba(242,239,228,.35)");
-    t.textContent = a + " + " + b + " = " + c; svg.appendChild(t);
-  }
+const EJEMPLOS = [["mente", "mundo", "experiencia"], ["reflexion", "experiencia", "aprendizaje"], ["dialogo", "error", "retro"], ["herramienta", "saber", "tecnologia"], ["datos", "algoritmo", "aprendizaje_automatico"]];
+const fichaMuestra = (id, cls, estilo) => { const f = D.fichas[id]; return '<span class="ficha f-' + f.f + " " + cls + '"' + (estilo ? ' style="' + estilo + '"' : "") + '><span class="em">' + esc(f.e) + "</span><span>" + esc(f.n) + "</span></span>"; };
+let demoI = 0;
+function pintarDemo() {
+  const ok = EJEMPLOS.filter(([a, b, r]) => D.fichas[a] && D.fichas[b] && D.fichas[r] && D.recetas.some(x => x[2] === r && ((x[0] === a && x[1] === b) || (x[0] === b && x[1] === a))));
+  const demo = $("portadaDemo");
+  if (!ok.length) { demo.hidden = true; return; }
+  const [a, b, r] = ok[demoI % ok.length];
+  demo.innerHTML = fichaMuestra(a, "d-a") + '<span class="d-mas">+</span>' + fichaMuestra(b, "d-b") + '<span class="d-onda f-' + D.fichas[r].f + '"></span>' + fichaMuestra(r, "d-r");
+  demo.querySelector(".d-r").addEventListener("animationiteration", () => { demoI++; pintarDemo(); }, { once: true });
+}
+function pintarPortada() {
+  const pts = [[7, 16], [81, 12], [9, 80], [80, 78]];
+  $("portadaDeco").innerHTML = D.iniciales.map((id, i) => fichaMuestra(id, "", "left:" + pts[i][0] + "%;top:" + pts[i][1] + "%")).join("");
+  pintarDemo();
 }
 function renderPortada() {
   const btns = $("portadaBotones");
   const avanzo = descubiertas().length > D.iniciales.length;
   const m = misionActiva();
   let h = "";
-  if (!avanzo) h += '<button class="boton principal grande" type="button" data-p="empezar">Empezar · 2 minutos</button>';
+  if (E.taller) h += '<button class="boton principal grande" type="button" data-p="continuar">Volver al taller ' + esc(E.taller.codigo) + "</button>";
+  else if (!avanzo) h += '<button class="boton principal grande" type="button" data-p="empezar">Empezar · 2 minutos</button>';
+  else if (m && tiene(m.meta)) h += '<button class="boton principal grande" type="button" data-p="misiones">Elegir mi próxima misión</button>';
   else h += '<button class="boton principal grande" type="button" data-p="continuar">Continuar' + (m ? ": " + esc(m.n) : "") + "</button>";
-  h += '<button class="boton grande" type="button" data-p="misiones">Misiones</button><button class="boton grande" type="button" data-p="libre">Laboratorio libre</button>';
-  h += '<button class="boton" type="button" data-p="unirse">Unirme a un taller</button>';
-  if (SERVIDOR.local) h += '<button class="boton" type="button" data-p="crear">Crear un taller</button>';
-  btns.innerHTML = h;
+  if (!(m && tiene(m.meta) && avanzo)) h += '<button class="boton grande" type="button" data-p="misiones"><span class="em">📜</span>Misiones</button>';
+  h += '<button class="boton grande" type="button" data-p="libre"><span class="em">🧪</span>Laboratorio libre</button>';
+  let t = '<span>¿En un taller?</span><button class="enlace-btn" type="button" data-p="unirse">Unirme con un código</button>';
+  if (SERVIDOR.local) t += '<span aria-hidden="true">·</span><button class="enlace-btn" type="button" data-p="crear">Crear un taller para mi grupo</button>';
+  btns.innerHTML = '<div class="fila-a">' + h + '</div><div class="fila-b">' + t + "</div>";
   btns.querySelectorAll("[data-p]").forEach(b => b.addEventListener("click", () => {
     activarSonido();
     const a = b.dataset.p;
@@ -82,10 +73,10 @@ function entrar() {
 function notaPizarra() {
   const n = $("pizarraNota");
   if (descubiertas().length > D.iniciales.length + 2) { n.innerHTML = ""; return; }
-  n.innerHTML = "Suelta una ficha sobre otra<small>y mira qué idea nace</small>";
+  n.innerHTML = "Suelta una ficha sobre otra<small>Arrastra desde tu caja o mueve las que ya están en la mesa</small>";
 }
 on("mezcla", () => notaPizarra());
-$("btnInicio").addEventListener("click", () => { renderPortada(); mostrar("portada"); dibujarPortada(); });
+$("btnInicio").addEventListener("click", () => { renderPortada(); mostrar("portada"); });
 $("btnSonido").addEventListener("click", () => { E.sonido = !E.sonido; guardar(); $("btnSonido").textContent = E.sonido ? "🔊" : "🔇"; if (E.sonido) { activarSonido(); sonar.chispa(); } });
 $("btnPista").addEventListener("click", darPista);
 $("btnBorrar").addEventListener("click", borrarPizarra);
@@ -129,6 +120,7 @@ on("misionCambio", id => {
     return;
   }
   reconectarSiCorresponde();
-  renderPortada(); mostrar("portada"); dibujarPortada();
-  window.addEventListener("resize", () => { if (!$("portada").hidden) dibujarPortada(); });
+  pintarPortada(); renderPortada();
+  if (E.taller) { entrar(); return; }
+  mostrar("portada");
 })();

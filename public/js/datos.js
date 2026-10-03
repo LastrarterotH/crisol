@@ -8,6 +8,8 @@ export let ANALIZADAS = new Set();
 
 export const clave = (a, b) => [a, b].sort().join("+");
 export const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c]));
+export const EMOJI = /(?:\p{Extended_Pictographic}|\p{Regional_Indicator})(?:\uFE0F|\u200D\p{Extended_Pictographic}\uFE0F?|[\u{1F3FB}-\u{1F3FF}])*/gu;
+export const rico = s => esc(s).replace(EMOJI, '<span class="emo">$&</span>');
 export const refHtml = s => esc(s).replace(/_(.+?)_/g, "<em>$1</em>");
 export const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 export const ficha = id => D.fichas[id];

@@ -1,6 +1,5 @@
 // Misiones: encargos con un plano de piezas, pistas con chispas, hitos con reflexión y una meta que celebra.
-import rough from "../vendor/rough.esm.js";
-import { D, esc, clave, recetasDe } from "./datos.js";
+import { D, esc, rico, clave, recetasDe } from "./datos.js";
 import { E, tiene, guardar, descubiertas, estadoMision } from "./estado.js";
 import { $, aviso, avisoRico, abrirPanel, cerrarPanel, miniHtml, chipHtml, descargar } from "./ui.js";
 import { abrirFicha, fichaAbierta, domina } from "./ficha.js";
@@ -26,13 +25,13 @@ export function renderCabecera() {
   $("contador").textContent = descubiertas().length + " ideas";
   if (!m) { cab.innerHTML = '<span class="nombre">Laboratorio libre</span>'; return; }
   const n = piezasLogradas(m), tot = construibles(m).length;
-  cab.innerHTML = '<span class="nombre">' + esc(m.e + " " + m.n) + '</span><span class="avance"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><small>' + n + " de " + tot + " piezas</small>";
+  cab.innerHTML = '<span class="nombre">' + rico(m.e + " " + m.n) + '</span><span class="avance"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><small>' + n + " de " + tot + " piezas</small>";
 }
 let encargoAbierto = false;
 export function renderHoja() {
   const m = misionActiva(), hoja = $("hojaMision");
   if (!m) {
-    hoja.innerHTML = '<div class="hoja"><h2>🧪 Laboratorio libre</h2><p class="encargo libre">Aquí no hay encargo. Mezcla lo que quieras y mira qué aparece. Cada idea nueva te da una chispa ✨.</p><h3>¿Quieres un rumbo?</h3><p class="libre">Las misiones proponen un caso real de docencia y un plano de piezas para resolverlo.</p><p><button class="boton-papel principal" type="button" data-a="misiones">Ver misiones</button></p></div>';
+    hoja.innerHTML = '<div class="hoja"><h2><span class="em">🧪</span>Laboratorio libre</h2><p class="encargo libre">Aquí no hay encargo. Mezcla lo que quieras y mira qué aparece. Cada idea nueva te da una chispa ✨.</p><h3>¿Quieres un rumbo?</h3><p class="libre">Las misiones proponen un caso real de docencia y un plano de piezas para resolverlo.</p><p class="pie-hoja"><button class="boton-papel principal" type="button" data-a="misiones">Ver misiones</button></p></div>';
     hoja.querySelector('[data-a="misiones"]').addEventListener("click", abrirMisiones);
     return;
   }
@@ -40,8 +39,8 @@ export function renderHoja() {
   const { listos, cerca } = alcance(m);
   const hecha = tiene(m.meta);
   let h = '<div class="hoja"><h2><span class="em">' + esc(m.e) + "</span>" + esc(m.n) + "</h2>";
-  if (m.encargo) h += '<p class="encargo' + (encargoAbierto ? "" : " plegado") + '">' + esc(m.encargo) + '</p><button class="ver-mas" type="button" data-a="encargo">' + (encargoAbierto ? "ver menos" : "leer el encargo completo") + "</button>";
-  if (m.objetivo) h += '<p class="encargo" style="margin-top:8px"><b>Objetivo:</b> ' + esc(m.objetivo) + "</p>";
+  if (m.encargo) h += '<p class="encargo' + (encargoAbierto ? "" : " plegado") + '">' + rico(m.encargo) + '</p><button class="ver-mas" type="button" data-a="encargo">' + (encargoAbierto ? "ver menos" : "leer el encargo completo") + "</button>";
+  if (m.objetivo) h += '<p class="objetivo"><b>Tu objetivo</b>' + rico(m.objetivo) + "</p>";
   if (hecha) h += '<h3>¡Misión cumplida!</h3><p class="logrado">Llegaste a ' + esc(D.fichas[m.meta].n) + '. Puedes seguir explorando o elegir otra misión.</p><p><button class="boton-papel principal" type="button" data-a="celebrar">Ver mi síntesis</button></p>';
   else {
     h += "<h3>A tu alcance</h3>";
@@ -49,7 +48,7 @@ export function renderHoja() {
     if (!listos.length) h += '<p class="logrado">Todavía no tienes los dos ingredientes de ninguna pieza. Estas están cerca:</p>';
     h += '<div class="alcance">' + lista.map(n => piezaHtml(m, n, st)).join("") + "</div>";
   }
-  h += '<p style="margin-top:12px"><button class="boton-papel" type="button" data-a="plano">🗺️ Ver el plano completo</button></p></div>';
+  h += '<p class="pie-hoja"><button class="boton-papel" type="button" data-a="plano"><span class="em">🗺️</span>Ver el plano completo</button></p></div>';
   hoja.innerHTML = h;
   hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => ({ encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); }, plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones })[b.dataset.a]()));
   hoja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => comprarPista(m, b.dataset.comprar)));
@@ -65,8 +64,9 @@ function piezaHtml(m, n, st) {
     ing = '<div class="ingred">' + n.ing.map(x => vis.includes(x) ? '<button class="mini f-' + D.fichas[x].f + '" data-traer="' + x + '" title="Llevar a la pizarra" type="button" style="cursor:pointer"><span class="em">' + esc(D.fichas[x].e) + "</span>" + esc(D.fichas[x].n) + "</button>" : '<span class="mini oculta">?</span>').join(" + ") + "</div>";
   }
   const coste = nivelPista === 0 ? 1 : 2;
-  const comprar = nivelPista < 2 ? '<button class="comprar" type="button" data-comprar="' + n.id + '"' + (E.chispas < coste ? " disabled" : "") + ">✨" + coste + " · " + (nivelPista === 0 ? "ver un ingrediente" : "ver el otro ingrediente") + "</button>" : "";
-  return '<div class="pieza' + (hito ? " hito" : "") + '"><span class="silueta">' + (hito ? "★" : "?") + "</span><div><p>" + esc(f.pista || "Una pieza del plano.") + "</p>" + ing + comprar + "</div></div>";
+  const iguales = n.ing && n.ing[0] === n.ing[1];
+  const comprar = nivelPista < 2 && !(iguales && nivelPista >= 1) ? '<button class="comprar" type="button" data-comprar="' + n.id + '"' + (E.chispas < coste ? " disabled" : "") + "><span class=\"emo\">✨</span>" + coste + " · " + (nivelPista === 0 ? "ver un ingrediente" : "ver el otro ingrediente") + "</button>" : "";
+  return '<div class="pieza' + (hito ? " hito" : "") + '"><span class="silueta">' + (hito ? "★" : "?") + "</span><div><p>" + rico(f.pista || "Una pieza del plano.") + "</p>" + ing + comprar + "</div></div>";
 }
 function comprarPista(m, id) {
   const st = estadoMision(m.id);
@@ -82,7 +82,7 @@ on("mezcla", ({ id, via, nueva }) => {
   const nodo = m && nodoDe(m, id);
   if (nueva) {
     const pieza = nodo ? piezasLogradas(m) + " de " + construibles(m).length : null;
-    abrirFicha(id, { nueva: true, via, pieza });
+    setTimeout(() => abrirFicha(id, { nueva: true, via, pieza }), via && !matchMedia("(prefers-reduced-motion: reduce)").matches ? 750 : 0);
     if (nodo && m.hitos.includes(id) && id !== m.meta) pendientes.push(() => pedirReflexion(m, id));
     if (m && id === m.meta) { estadoMision(m.id).completada = Date.now(); guardar(); pendientes.push(() => celebrar(m)); }
     else if (nodo) setTimeout(() => sonar.exito(3), 450);
@@ -113,10 +113,16 @@ function pedirReflexion(m, id) {
   );
 }
 
-/* ---------- Plano a tiza ---------- */
+/* ---------- Plano ---------- */
 let vistaPlano = { x: 0, y: 0, k: 1 };
+const NS = "http://www.w3.org/2000/svg";
+export function nodoSvg(tag, attrs, texto) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (texto !== undefined) e.textContent = texto;
+  return e;
+}
 export function dibujarPlano(svg, m, opts = {}) {
-  const rc = rough.svg(svg);
   svg.innerHTML = "";
   const niveles = {};
   for (const n of m.plano) (niveles[n.nivel] = niveles[n.nivel] || []).push(n);
@@ -125,19 +131,19 @@ export function dibujarPlano(svg, m, opts = {}) {
   const caja = svg.getBoundingClientRect();
   const horizontal = opts.horizontal !== undefined ? opts.horizontal : caja.width > caja.height * 1.15;
   const grande = !!opts.grande;
-  const R = grande ? 30 : 27, RM = grande ? 40 : 35, FL = grande ? 17 : 14.5, FE = grande ? 26 : 23;
+  const R = grande ? 30 : 26, RM = grande ? 40 : 34, FL = grande ? 16 : 13.5, FE = grande ? 27 : 23;
   let W, H;
   const pos = {};
   if (horizontal) {
-    const DX = grande ? 150 : 138, DY = grande ? 92 : 84;
-    W = nivelesOrden.length * DX + 80; H = Math.max(anchoMax * DY + 90, 520);
+    const DX = grande ? 158 : 146, DY = grande ? 96 : 88;
+    W = nivelesOrden.length * DX + 90; H = Math.max(anchoMax * DY + 90, 300);
     nivelesOrden.forEach((nv, col) => {
       const l = niveles[nv];
       if (col > 0) l.sort((a, b) => prom(a, "y") - prom(b, "y"));
-      l.forEach((n, i) => { pos[n.id] = { x: 70 + col * DX, y: H / 2 + (i - (l.length - 1) / 2) * DY }; });
+      l.forEach((n, i) => { pos[n.id] = { x: 76 + col * DX, y: H / 2 + (i - (l.length - 1) / 2) * DY }; });
     });
   } else {
-    const DX = 136, DY = 100;
+    const DX = 140, DY = 104;
     W = Math.max(anchoMax * DX + 100, 700); H = nivelesOrden.length * DY + 110;
     nivelesOrden.forEach((nv, fila) => {
       const l = niveles[nv];
@@ -147,46 +153,37 @@ export function dibujarPlano(svg, m, opts = {}) {
   }
   function prom(n, eje) { if (!n.ing) return 0; const v = n.ing.map(x => pos[x] ? pos[x][eje] : (eje === "x" ? W : H) / 2); return v.reduce((s, q) => s + q, 0) / v.length; }
   svg.setAttribute("viewBox", "0 0 " + W + " " + H);
-  const NS = "http://www.w3.org/2000/svg";
-  const g = document.createElementNS(NS, "g"); g.setAttribute("class", "mundo"); svg.appendChild(g);
+  const g = nodoSvg("g", { class: "mundo" }); svg.appendChild(g);
   const logrado = opts.logrado || tiene;
   const { listos } = alcance(m);
   const alc = new Set(opts.logrado ? [] : listos.map(n => n.id));
+  const radio = n => n.id === m.meta ? RM : R;
   for (const n of m.plano) {
     if (!n.ing) continue;
-    for (const x of n.ing) {
+    for (const x of new Set(n.ing)) {
       const a = pos[x], b = pos[n.id];
       if (!a || !b) continue;
       const ok = logrado(x) && logrado(n.id);
-      const [x1, y1, x2, y2] = horizontal ? [a.x + R, a.y, b.x - R, b.y] : [a.x, a.y - R, b.x, b.y + R];
-      g.appendChild(rc.line(x1, y1, x2, y2, { stroke: ok ? "rgba(242,239,228,.85)" : "rgba(242,239,228,.2)", strokeWidth: ok ? 1.9 : 1.2, roughness: 1.5, bowing: 1.4, seed: (a.x * 7 + b.y) | 0 }));
+      let d;
+      if (horizontal) { const x1 = a.x + R + 2, x2 = b.x - radio(n) - 2, mx = (x1 + x2) / 2; d = "M" + x1 + " " + a.y + " C" + mx + " " + a.y + " " + mx + " " + b.y + " " + x2 + " " + b.y; }
+      else { const y1 = a.y - R - 2, y2 = b.y + radio(n) + 2, my = (y1 + y2) / 2; d = "M" + a.x + " " + y1 + " C" + a.x + " " + my + " " + b.x + " " + my + " " + b.x + " " + y2; }
+      const frontera = !ok && logrado(x) && !logrado(n.id);
+      const arista = nodoSvg("path", { d, class: "arista" + (ok ? " ok" : frontera ? " frontera" : ""), style: "--c:var(--c-" + D.fichas[n.id].f + ")" });
+      if (ok || frontera) g.appendChild(arista); else g.insertBefore(arista, g.firstChild);
     }
   }
   for (const n of m.plano) {
     const p = pos[n.id], f = D.fichas[n.id], ok = logrado(n.id);
     const esMeta = n.id === m.meta, hito = m.hitos.includes(n.id);
-    const nodo = document.createElementNS(NS, "g");
-    nodo.setAttribute("class", "nodo" + (ok ? "" : " oculto") + (alc.has(n.id) ? " alcance" : ""));
+    const nodo = nodoSvg("g", { class: "nodo" + (ok ? " logrado" : " oculto") + (alc.has(n.id) ? " alcance" : "") + (esMeta ? " meta" : hito ? " hito" : ""), style: "--c:var(--c-" + f.f + ")" });
     nodo.dataset.id = n.id;
-    const r = esMeta ? RM : R;
-    if (ok) nodo.appendChild(rc.circle(p.x, p.y, r * 2, { fill: (COLOR[f.f] || "#fff") + "55", fillStyle: "hachure", hachureGap: 5, fillWeight: 1.2, stroke: COLOR[f.f] || "#fff", strokeWidth: 2.2, roughness: 1.3, seed: (p.x + p.y) | 0 }));
-    else {
-      const anillo = rc.circle(p.x, p.y, r * 2, { stroke: alc.has(n.id) ? "#f4cd5c" : "rgba(242,239,228,.4)", strokeWidth: alc.has(n.id) ? 2.6 : 1.4, roughness: 1.8, strokeLineDash: [6, 5], seed: (p.x + p.y) | 0 });
-      anillo.setAttribute("class", "anillo"); nodo.appendChild(anillo);
-    }
-    if (esMeta || hito) nodo.appendChild(rc.circle(p.x, p.y, r * 2 + 14, { stroke: "#f4cd5c", strokeWidth: 1.4, roughness: 2.2, seed: 7 }));
-    const t = document.createElementNS(NS, "text");
-    t.setAttribute("x", p.x); t.setAttribute("y", p.y + FE * .36); t.setAttribute("text-anchor", "middle");
-    if (ok) { t.setAttribute("class", "em-svg"); t.setAttribute("font-size", esMeta ? FE * 1.3 : FE); t.textContent = f.e; }
-    else { t.setAttribute("class", "signo"); t.setAttribute("font-size", esMeta ? FE * 1.3 : FE); t.textContent = esMeta || hito ? "★" : "?"; }
-    nodo.appendChild(t);
-    if (ok) {
-      const lab = document.createElementNS(NS, "text");
-      lab.setAttribute("x", p.x); lab.setAttribute("y", p.y + r + FL + 3); lab.setAttribute("text-anchor", "middle"); lab.setAttribute("font-size", FL);
-      lab.setAttribute("font-weight", "500");
-      lab.textContent = f.n.length > 20 ? f.n.slice(0, 19) + "…" : f.n;
-      nodo.appendChild(lab);
-    }
+    const r = radio(n);
+    if (esMeta || hito) nodo.appendChild(nodoSvg("circle", { cx: p.x, cy: p.y, r: r + 7, class: "halo" }));
+    nodo.appendChild(nodoSvg("circle", { cx: p.x, cy: p.y, r, class: "disco" }));
+    const fe = esMeta ? FE * 1.3 : FE;
+    if (ok) nodo.appendChild(nodoSvg("text", { x: p.x, y: p.y + fe * .36, "text-anchor": "middle", "font-size": fe, class: "em-svg" }, f.e));
+    else nodo.appendChild(nodoSvg("text", { x: p.x, y: p.y + fe * .34, "text-anchor": "middle", "font-size": fe * .85, class: "signo" }, esMeta || hito ? "★" : "?"));
+    if (ok) nodo.appendChild(nodoSvg("text", { x: p.x, y: p.y + r + FL + 5, "text-anchor": "middle", "font-size": FL, class: "lab" }, f.n.length > 20 ? f.n.slice(0, 19) + "…" : f.n));
     if (opts.extra) opts.extra(nodo, n, p, r);
     g.appendChild(nodo);
   }
@@ -197,8 +194,8 @@ export function abrirPlano() {
   const m = misionActiva();
   if (!m) { aviso("El plano aparece cuando eliges una misión."); abrirMisiones(); return; }
   $("capaPlano").hidden = false;
-  $("planoTitulo").textContent = m.e + " " + m.n;
-  $("planoInfo").textContent = piezasLogradas(m) + " de " + construibles(m).length + " piezas · las piezas con borde dorado ya están a tu alcance · arrastra para moverte, rueda para acercarte";
+  $("planoTitulo").innerHTML = rico(m.e + " " + m.n);
+  $("planoInfo").innerHTML = '<span class="leyenda"><b>' + piezasLogradas(m) + " de " + construibles(m).length + ' piezas</b><span><i class="l-ok"></i>Lograda</span><span><i class="l-alc"></i>A tu alcance</span><span><i class="l-no"></i>Por descubrir</span><span><i class="l-hito"></i>Hito o meta</span><span>Arrastra para moverte y usa la rueda para acercarte</span></span>';
   $("planoPista").hidden = true;
   const svg = $("planoSvg");
   const { W, H, g } = dibujarPlano(svg, m);
@@ -219,8 +216,8 @@ function clicNodo(m, id) {
   const caja = $("planoPista");
   caja.hidden = false;
   const listo = n.ing && n.ing.every(tiene);
-  caja.innerHTML = "<h3>" + (n.id === m.meta ? "★ La meta" : m.hitos.includes(id) ? "★ Un hito" : "Una pieza") + "</h3><p>" + esc(D.fichas[id].pista || "") + "</p>" +
-    (n.ing ? '<p style="font-size:13px;color:var(--tinta-suave)">' + (listo ? "Ya tienes sus dos ingredientes." : n.ing.some(tiene) ? "Tienes uno de sus ingredientes." : "Todavía te faltan sus dos ingredientes.") + "</p>" : "") +
+  caja.innerHTML = "<h3>" + (n.id === m.meta ? "★ La meta" : m.hitos.includes(id) ? "★ Un hito" : "Una pieza") + "</h3>" +
+    (n.ing ? '<p class="estado">' + (listo ? "Ya tienes sus dos ingredientes." : n.ing.some(tiene) ? "Tienes uno de sus ingredientes." : "Todavía te faltan sus dos ingredientes.") + "</p>" : "") +
     piezaHtml(m, n, st).replace('class="pieza', 'style="border:0;padding:0;background:none" class="pieza');
   caja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => { comprarPista(m, b.dataset.comprar); clicNodo(m, id); }));
   caja.querySelectorAll("[data-traer]").forEach(b => b.addEventListener("click", () => { cerrarPlano(); llevar(b.dataset.traer); }));
@@ -235,12 +232,12 @@ export function celebrar(m) {
   sonar.meta();
   const cel = $("celebracion");
   const refl = Object.entries(st.reflexiones).filter(([, t]) => t);
-  cel.innerHTML = '<canvas id="confeti" aria-hidden="true"></canvas><div class="contenido"><h1>¡Misión cumplida!</h1>' +
-    '<p class="cierre">' + esc(m.cierre || "Llegaste a la meta.") + "</p>" +
-    '<div class="plano-mini" style="width:min(100%,760px);height:260px"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
-    '<div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center"><button class="boton principal grande" type="button" data-c="sintesis">' + esc(f.e) + " Leer la síntesis</button>" +
-    '<button class="boton" type="button" data-c="plan">📝 Descargar mi plan</button><button class="boton" type="button" data-c="misiones">📜 Otra misión</button><button class="boton" type="button" data-c="seguir">Seguir mezclando</button></div>' +
-    (refl.length ? '<p class="cierre" style="font-family:var(--f-mano);font-size:24px">Tus reflexiones quedaron en el plan: ' + refl.length + "</p>" : "") + "</div>";
+  cel.innerHTML = '<canvas id="confeti" aria-hidden="true"></canvas><div class="contenido"><div class="sello-meta">' + esc(f.e) + '</div><h1>¡Misión <em>cumplida</em>!</h1>' +
+    '<p class="cierre">' + rico(m.cierre || "Llegaste a la meta.") + "</p>" +
+    '<div class="plano-mini" style="width:min(100%,780px);height:260px"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
+    '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">Leer la síntesis</button>' +
+    '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Seguir mezclando</button></div>' +
+    (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") + "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
   confeti($("confeti"));
@@ -301,13 +298,13 @@ export function abrirPlan() {
   const probar = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "probar" && D.fichas[id]);
   const hago = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "hago" && D.fichas[id]);
   let h = '<h2>📝 Mi plan</h2><p class="intro">Aquí se juntan las reflexiones de tus misiones y lo que marcaste en las fichas como “Quiero probarlo”. Descárgalo y llévalo a tu próximo curso.</p>';
-  if (!conRefl.length && !probar.length && !hago.length) h += '<p class="intro" style="font-family:var(--f-mano);font-size:24px;margin-top:20px">Todavía está en blanco. Juega una misión o marca fichas con “Quiero probarlo”.</p>';
+  if (!conRefl.length && !probar.length && !hago.length) h += '<p class="vacio">Todavía está en blanco. Juega una misión o marca fichas con “Quiero probarlo”.</p>';
   for (const m of conRefl) {
-    h += '<h3 style="font-family:var(--f-tiza);font-size:24px;margin:22px 0 0">' + esc(m.e + " " + m.n) + '</h3><div class="plan-lista">' +
+    h += '<h3 class="subtitulo">' + esc(m.e + " " + m.n) + '</h3><div class="plan-lista">' +
       Object.entries(E.misiones[m.id].reflexiones).filter(([, t]) => t).map(([hid, t]) => '<div class="plan-hito"><b>' + esc(D.fichas[hid] ? D.fichas[hid].e + " " + D.fichas[hid].n : hid) + "</b><p>" + esc(t) + "</p></div>").join("") + "</div>";
   }
-  if (probar.length) h += '<h3 style="font-family:var(--f-tiza);font-size:24px;margin:22px 0 0">Quiero probarlo</h3><div class="plan-lista">' + probar.map(id => '<div class="plan-hito"><b>' + esc(D.fichas[id].e + " " + D.fichas[id].n) + "</b><p>" + esc(D.fichas[id].uni || "") + "</p></div>").join("") + "</div>";
-  if (hago.length) h += '<h3 style="font-family:var(--f-tiza);font-size:24px;margin:22px 0 8px">Ya lo hago</h3><div class="cuaderno-fam"><div class="fila">' + hago.map(id => chipHtml(id)).join("") + "</div></div>";
+  if (probar.length) h += '<h3 class="subtitulo">Quiero probarlo</h3><div class="plan-lista">' + probar.map(id => '<div class="plan-hito"><b>' + esc(D.fichas[id].e + " " + D.fichas[id].n) + "</b><p>" + esc(D.fichas[id].uni || "") + "</p></div>").join("") + "</div>";
+  if (hago.length) h += '<h3 class="subtitulo">Ya lo hago</h3><div class="cuaderno-fam" style="margin-top:12px"><div class="fila">' + hago.map(id => chipHtml(id)).join("") + "</div></div>";
   h += '<div class="fila-botones"><button class="boton" type="button" data-accion="reiniciar">Empezar de cero</button><button class="boton principal" type="button" data-accion="bajar">Descargar mi plan (.md)</button></div>';
   const p = abrirPanel(h, { bajar: () => descargar("mi-plan-docente.md", textoPlan(null)), reiniciar: () => emitir("pedirReinicio") });
   p.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => abrirFicha(c.dataset.id)));
@@ -319,10 +316,10 @@ export function abrirMisiones() {
   D.misiones.forEach((m, i) => {
     const n = piezasLogradas(m), st = E.misiones[m.id], tot = construibles(m).length;
     const estrellas = tot < 10 ? "●○○" : tot < 26 ? "●●○" : "●●●";
-    h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '" style="--giro:' + ((i % 3) - 1) * .8 + 'deg">' +
-      (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + esc(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="dificultad" title="Dificultad">' + estrellas + "</span></div></button>";
+    h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
+      (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad">' + estrellas + "</span></div></button>";
   });
-  h += '</div><div class="fila-botones"><button class="boton" type="button" data-accion="libre">🧪 Laboratorio libre</button></div>';
+  h += '</div><div class="fila-botones"><button class="boton" type="button" data-accion="libre"><span class="em">🧪</span>Laboratorio libre</button></div>';
   const p = abrirPanel(h, { libre: () => { iniciarMision(null); cerrarPanel(); } });
   p.querySelectorAll("[data-m]").forEach(b => b.addEventListener("click", () => { cerrarPanel(); iniciarMision(b.dataset.m); }));
 }
@@ -381,7 +378,7 @@ export function tutorialPaso() {
   if (!paso) { ocultarCoach(); return; }
   const coach = $("coach");
   coach.hidden = false;
-  coach.innerHTML = '<span class="flecha">↙</span>' + esc(paso.texto);
+  coach.innerHTML = '<span class="flecha">↙</span><span>' + rico(paso.texto) + "</span>";
   clearInterval(coachTimer);
   const ubicar = () => {
     const enPizarra = elementoDe(paso.de);

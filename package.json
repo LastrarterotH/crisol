@@ -10,7 +10,6 @@
     "servidor": "node servidor.js"
   },
   "dependencies": {
-    "qrcode": "^1.5.4",
-    "roughjs": "^4.6.6"
+    "qrcode": "^1.5.4"
   }
 }

@@ -30,3 +30,7 @@ A10  nota tecnologia+dominio  Los sistemas adaptativos automatizan el aprendizaj
 A10  nota constructivismo+resultados  Biggs puso ambas ideas en el nombre: el estudiante construye significado con lo que hace, y el docente alinea actividades y evaluación con los resultados de apr
 C  nota ciencia_aprendizaje+releer  Cuando la ciencia compara técnicas de estudio, releer y subrayar salen poco útiles y las preguntas de práctica, entre las mejores; conviene cambiar el hábito po
 C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar. Se siente seguro porque el texto le resulta familiar, pero la evidencia muestra poco beneficio.
+A1  nota juego+mundo  Llevar puntos e insignias del juego a contextos que no son juegos, como un curso, es gamificación según la definición de Deterding y colegas.
+A10  nota previos+proposito  Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje s
+C  nota proposito+retos  Cuando el equipo elige un reto porque le importa, el empuje viene de adentro. Deci y Ryan muestran que la sensación de elegir alimenta la motivación intrínseca.
+C  nota emocion+emocion  Cuando el gusto por una tarea se suma a la emoción de avanzar en ella, el impulso para seguir viene de adentro. Esa es la motivación intrínseca.

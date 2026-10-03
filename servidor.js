@@ -221,7 +221,7 @@ async function api(req, res, url) {
     const t = { codigo: codigoNuevo(), titulo: String(titulo || "Taller").slice(0, 80), mision, banco: !!banco, activo: true, creado: Date.now(), jugadores: {}, eventos: [], reflexiones: [] };
     TALLERES.set(t.codigo, t); guardarTaller(t);
     const enlace = "http://" + ipLan() + ":" + PUERTO + "/?taller=" + t.codigo;
-    const qr = await QRCode.toString(enlace, { type: "svg", margin: 1, color: { dark: "#1c2f26", light: "#f3f1e6" } });
+    const qr = await QRCode.toString(enlace, { type: "svg", margin: 1, color: { dark: "#1c2130", light: "#ffffff" } });
     return json(res, 200, { taller: vistaTaller(t), enlace, qr });
   }
   const m = p.match(/^\/api\/taller\/([A-Z]{4})(?:\/(\w+))?$/);
@@ -231,7 +231,7 @@ async function api(req, res, url) {
     const accion = m[2];
     if (!accion && req.method === "GET") {
       const enlace = "http://" + ipLan() + ":" + PUERTO + "/?taller=" + t.codigo;
-      const qr = await QRCode.toString(enlace, { type: "svg", margin: 1, color: { dark: "#1c2f26", light: "#f3f1e6" } });
+      const qr = await QRCode.toString(enlace, { type: "svg", margin: 1, color: { dark: "#1c2130", light: "#ffffff" } });
       return json(res, 200, { taller: vistaTaller(t), enlace, qr });
     }
     if (accion === "stream" && req.method === "GET") {

@@ -1,13 +1,14 @@
 // Talleres en vivo: quien facilita crea la sesión en su computador y el grupo se une desde la misma red.
-import { D, SERVIDOR, esc } from "./datos.js";
+import { D, SERVIDOR, esc, rico } from "./datos.js";
 import { E, tiene, guardar } from "./estado.js";
 import { $, aviso, abrirPanel, cerrarPanel, chipHtml, descargar } from "./ui.js";
 import { on, emitir } from "./bus.js";
-import { iniciarMision, dibujarPlano } from "./misiones.js";
+import { iniciarMision, dibujarPlano, nodoSvg } from "./misiones.js";
 import { llevar, renderCaja } from "./mesa.js";
 
 const AVATARES = ["🧑‍🏫", "👩‍🏫", "👨‍🏫", "🦉", "🦊", "🐢", "🦋", "🌻", "🚀", "🎻", "🧪", "📐", "🌋", "🐙", "🍄", "🪐"];
 let fuente = null, taller = null;
+const piezasDe = m => m.plano.filter(n => !D.iniciales.includes(n.id));
 
 const post = async (url, cuerpo) => {
   const r = await fetch(url, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(cuerpo || {}) });
@@ -19,13 +20,13 @@ const post = async (url, cuerpo) => {
 /* ---------- Crear (solo en el computador anfitrión) ---------- */
 export function abrirCrearTaller() {
   if (!SERVIDOR.local) { aviso("Los talleres se crean desde el computador donde corre el juego."); return; }
-  const opciones = D.misiones.filter(m => !m.tutorial).map(m => '<option value="' + m.id + '">' + esc(m.e + " " + m.n + " · " + m.plano.length + " piezas") + "</option>").join("");
+  const opciones = D.misiones.filter(m => !m.tutorial).map(m => '<option value="' + m.id + '">' + esc(m.e + " " + m.n + " · " + piezasDe(m).length + " piezas") + "</option>").join("");
   abrirPanel(
     '<h2>👥 Crear un taller</h2><p class="intro">El grupo trabaja en la misma misión desde sus computadores o celulares, conectados a la misma red que este equipo. En la proyección se ve, en vivo, el plano del grupo, quién descubre qué y un muro con las reflexiones.</p>' +
     '<div style="display:grid;gap:14px;margin-top:16px;max-width:560px">' +
     '<label class="campo" for="tTitulo">Nombre del taller<input id="tTitulo" type="text" maxlength="80" value="Taller de docencia universitaria"></label>' +
     '<label class="campo" for="tMision">Misión del grupo<select id="tMision">' + opciones + "</select></label>" +
-    '<label style="display:flex;gap:10px;align-items:center;font-size:15px"><input id="tBanco" type="checkbox" checked> Banco del grupo: cada pieza descubierta queda disponible para quienes aún no la tienen, con el crédito de quien la encontró.</label></div>' +
+    '<label class="casilla"><input id="tBanco" type="checkbox" checked><span><b>Banco del grupo.</b> Cada pieza descubierta queda disponible para quienes aún no la tienen, con el crédito de quien la encontró.</span></label></div>' +
     '<div class="fila-botones"><button class="boton" type="button" data-accion="cancelar">Cancelar</button><button class="boton principal" type="button" data-accion="crear">Crear taller</button></div>',
     {
       cancelar: cerrarPanel,
@@ -43,7 +44,7 @@ function mostrarCreado(r) {
   abrirPanel(
     '<h2>👥 ' + esc(t.titulo) + '</h2><p class="intro">Comparte el código o el QR. Quienes se unan deben estar en la misma red wifi que este computador.</p>' +
     '<div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap;margin-top:18px"><div class="qr">' + r.qr + '</div><div style="display:grid;gap:10px">' +
-    '<p style="margin:0;font-family:var(--f-mano);font-size:24px">Código del taller</p><p style="margin:0;font-family:var(--f-tiza);font-size:64px;letter-spacing:.14em;color:var(--oro)">' + t.codigo + "</p>" +
+    '<p class="etiqueta">Código del taller</p><p class="codigo-taller">' + t.codigo + "</p>" +
     '<p style="margin:0">o abre <span class="enlace">' + esc(r.enlace) + "</span></p></div></div>" +
     '<div class="fila-botones"><button class="boton" type="button" data-accion="jugar">Jugar también desde aquí</button><button class="boton principal" type="button" data-accion="proyectar">Abrir la proyección</button></div>',
     {
@@ -63,7 +64,7 @@ export async function pedirNombre(codigo) {
   const m = D.misiones.find(x => x.id === t.mision);
   let avatar = AVATARES[Math.floor(Math.random() * 6)];
   const p = abrirPanel(
-    '<h2>👋 ' + esc(t.titulo) + '</h2><p class="intro">Misión del grupo: <b>' + esc(m.e + " " + m.n) + '</b>. Escribe tu nombre como quieres que aparezca en la proyección.</p>' +
+    '<h2>👋 ' + esc(t.titulo) + '</h2><p class="intro">Misión del grupo: <b>' + rico(m.e + " " + m.n) + '</b>. Escribe tu nombre como quieres que aparezca en la proyección.</p>' +
     '<div style="display:grid;gap:14px;margin-top:16px;max-width:520px"><label class="campo" for="jNombre">Tu nombre<input id="jNombre" type="text" maxlength="40" placeholder="Por ejemplo: Ana, de Enfermería" autofocus></label>' +
     '<div class="campo">Elige un avatar<div class="avatares">' + AVATARES.map(a => '<button type="button" data-av="' + a + '" aria-pressed="' + (a === avatar) + '">' + a + "</button>").join("") + "</div></div></div>" +
     '<div class="fila-botones"><button class="boton principal" type="button" data-accion="unirme">Unirme</button></div>',
@@ -78,7 +79,7 @@ export async function pedirNombre(codigo) {
           cerrarPanel();
           conectar(codigo);
           iniciarMision(t.mision);
-          for (const id of Object.keys(E.descubiertos)) if (m.plano.some(n => n.id === id)) enviarDescubrimiento(id);
+          for (const id of Object.keys(E.descubiertos)) if (!D.iniciales.includes(id) && m.plano.some(n => n.id === id)) enviarDescubrimiento(id);
           aviso("Ya estás en el taller. Tu avance se verá en la proyección.", { oro: true });
         } catch (e) { aviso(e.message); }
       }
@@ -122,7 +123,7 @@ function renderIndicador() {
   if (!E.taller) { el.hidden = true; return; }
   el.hidden = false;
   const n = taller ? Object.keys(taller.jugadores).length : 0;
-  el.innerHTML = '<span class="punto"></span>Taller ' + esc(E.taller.codigo) + " · " + esc(E.taller.avatar + " " + E.taller.nombre) + (n ? " · " + n + (n === 1 ? " persona" : " personas") : "");
+  el.innerHTML = '<span class="punto"></span>Taller ' + esc(E.taller.codigo) + " · " + rico(E.taller.avatar + " " + E.taller.nombre) + (n ? " · " + n + (n === 1 ? " persona" : " personas") : "");
 }
 function enviarDescubrimiento(id) {
   if (!E.taller) return;
@@ -147,7 +148,7 @@ function renderBanco() {
   const ids = Object.keys(ofertas);
   el.hidden = !ids.length;
   if (!ids.length) return;
-  el.innerHTML = "<h3>🤝 Banco del grupo</h3><p>Piezas que otras personas ya descubrieron. Tómalas si te ayudan a avanzar.</p><div class=\"fila\">" + ids.map(id => chipHtml(id, " <small>· " + esc(ofertas[id].nombre.split(" ")[0]) + "</small>")).join("") + "</div>";
+  el.innerHTML = "<h3><span class=\"emo\">🤝</span>Banco del grupo</h3><p>Piezas que otras personas ya descubrieron. Tómalas si te ayudan a avanzar.</p><div class=\"fila\">" + ids.map(id => chipHtml(id, " <small>· " + esc(ofertas[id].nombre.split(/[ ,]/)[0]) + "</small>")).join("") + "</div>";
   el.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
     const id = c.dataset.id;
     E.descubiertos[id] = Date.now(); E.regalos[id] = ofertas[id].nombre; guardar();
@@ -166,11 +167,11 @@ export async function abrirProyeccion(codigo) {
   pant.hidden = false;
   const m = D.misiones.find(x => x.id === taller.mision);
   pant.innerHTML =
-    '<div class="proy-cab"><h1>' + esc(taller.titulo) + '</h1><span style="font-family:var(--f-mano);font-size:26px;color:var(--tiza-media)">' + esc(m.e + " " + m.n) + "</span>" +
+    '<div class="proy-cab"><div class="titulo"><h1>' + esc(taller.titulo) + '</h1><span class="mision">' + rico(m.e + " " + m.n) + "</span></div>" +
     '<div class="unirse"><div class="qr">' + info.qr + '</div><div><p>Únete en</p><b>' + taller.codigo + '</b><p class="enlace" style="margin-top:4px">' + esc(info.enlace) + "</p></div>" +
     (SERVIDOR.local ? '<button class="boton" type="button" id="proyCerrar">Cerrar taller</button>' : "") + "</div></div>" +
     '<div class="proy-plano"><svg id="proySvg"></svg></div>' +
-    '<aside class="proy-lado"><div class="proy-stats" id="proyStats"></div><h2>Lo último</h2><div class="feed" id="proyFeed"></div><div style="display:grid;grid-template-rows:auto 1fr;min-height:0"><h2>Muro de reflexiones</h2><div class="muro" id="proyMuro"></div></div></aside>';
+    '<aside class="proy-lado"><div class="proy-stats" id="proyStats"></div><h2>Lo último</h2><div class="feed" id="proyFeed"></div><div class="proy-bloque"><h2>Muro de reflexiones</h2><div class="muro" id="proyMuro"></div></div></aside>';
   const cerrar = $("proyCerrar");
   if (cerrar) cerrar.addEventListener("click", async () => { try { await post("api/taller/" + codigo + "/cerrar"); resumenTaller(m); } catch (e) { aviso(e.message); } });
   renderProyeccion(m);
@@ -195,37 +196,51 @@ function renderProyeccion(m) {
   const c = conteo();
   const primero = {};
   for (const e of taller.eventos) if (!primero[e.carta] && taller.jugadores[e.jugador]) primero[e.carta] = taller.jugadores[e.jugador];
-  const NS = "http://www.w3.org/2000/svg";
   dibujarPlano($("proySvg"), m, {
     logrado: id => !!c[id] || D.iniciales.includes(id), grande: true,
     extra: (nodo, n, p, r) => {
       if (!c[n.id] || D.iniciales.includes(n.id)) return;
-      const t = document.createElementNS(NS, "text");
-      t.setAttribute("x", p.x + r - 2); t.setAttribute("y", p.y - r + 4); t.setAttribute("font-size", 14); t.setAttribute("text-anchor", "middle");
-      t.setAttribute("style", "fill:#f4cd5c;font-family:var(--f-tiza);font-weight:700");
-      t.textContent = "×" + c[n.id];
-      nodo.appendChild(t);
+      const b = nodoSvg("g", { class: "conteo" });
+      b.appendChild(nodoSvg("circle", { cx: p.x + r * .78, cy: p.y - r * .78, r: 13 }));
+      b.appendChild(nodoSvg("text", { x: p.x + r * .78, y: p.y - r * .78 + 4.5, "text-anchor": "middle", "font-size": 12.5 }, "×" + c[n.id]));
+      nodo.appendChild(b);
     }
   });
-  const piezasGrupo = m.plano.filter(n => c[n.id] || D.iniciales.includes(n.id)).length;
+  const piezasGrupo = piezasDe(m).filter(n => c[n.id]).length;
   const nombres = Object.values(taller.jugadores);
-  $("proyStats").innerHTML = "<div><b>" + nombres.length + "</b><span>personas</span></div><div><b>" + piezasGrupo + "/" + m.plano.length + "</b><span>piezas del grupo</span></div><div><b>" + taller.reflexiones.length + "</b><span>reflexiones</span></div>";
+  $("proyStats").innerHTML = "<div><b>" + nombres.length + "</b><span>personas</span></div><div><b>" + piezasGrupo + "/" + piezasDe(m).length + "</b><span>piezas del grupo</span></div><div><b>" + taller.reflexiones.length + "</b><span>reflexiones</span></div>";
   const hace = ts => { const s = Math.round((Date.now() - ts) / 1000); return s < 60 ? "recién" : "hace " + Math.round(s / 60) + " min"; };
-  $("proyFeed").innerHTML = taller.eventos.slice(-30).reverse().filter(e => D.fichas[e.carta] && taller.jugadores[e.jugador]).map(e => {
+  $("proyFeed").innerHTML = taller.eventos.filter(e => D.fichas[e.carta] && !D.iniciales.includes(e.carta) && taller.jugadores[e.jugador]).slice(-30).reverse().map(e => {
     const j = taller.jugadores[e.jugador], f = D.fichas[e.carta];
     return "<div" + (e.primero ? ' class="primero"' : "") + "><span class=\"em\">" + esc(j.avatar) + "</span> " + esc(j.nombre) + " descubrió <span class=\"em\">" + esc(f.e) + "</span> " + esc(f.n) + (e.primero ? " · ¡primera vez en el grupo!" : "") + " <small style=\"opacity:.6\">" + hace(e.t) + "</small></div>";
   }).join("") || "<div>Esperando los primeros descubrimientos…</div>";
   $("proyMuro").innerHTML = taller.reflexiones.slice().reverse().map((r, i) => {
     const j = taller.jugadores[r.jugador], h = D.fichas[r.hito];
     return '<div class="nota-muro" style="--giro:' + ((i % 5) - 2) * .8 + 'deg">' + esc(r.texto) + "<small>" + esc((j ? j.avatar + " " + j.nombre : "") + (h ? " · " + h.n : "")) + "</small></div>";
-  }).join("");
+  }).join("") || '<p class="vacio">Cuando alguien llega a un hito, su reflexión aparece aquí.</p>';
 }
 function resumenTaller(m) {
-  const lineas = ["# " + taller.titulo, "", "Misión: " + m.n + ". Fecha: " + new Date().toLocaleDateString("es-CL") + ".", "", "## Participantes", ""];
-  for (const j of Object.values(taller.jugadores)) lineas.push("- " + j.nombre + ": " + Object.keys(j.piezas || {}).length + " piezas");
+  const jugadores = Object.values(taller.jugadores);
+  const c = conteo(), piezas = piezasDe(m), logradas = piezas.filter(n => c[n.id]).length;
+  const nPiezas = j => Object.keys(j.piezas || {}).filter(id => !D.iniciales.includes(id)).length;
+  const lineas = ["# " + taller.titulo, "", "Misión: " + m.n + ". Fecha: " + new Date().toLocaleDateString("es-CL") + ".", "", "El grupo reunió " + logradas + " de " + piezas.length + " piezas del plano" + (c[m.meta] ? " y llegó a la meta." : "."), "", "## Participantes", ""];
+  for (const j of jugadores) lineas.push("- " + j.nombre + ": " + nPiezas(j) + " piezas");
   lineas.push("", "## Reflexiones", "");
   for (const r of taller.reflexiones) { const j = taller.jugadores[r.jugador]; lineas.push("- **" + (D.fichas[r.hito] ? D.fichas[r.hito].n : r.hito) + "** (" + (j ? j.nombre : "") + "): " + r.texto); }
-  abrirPanel('<h2>Taller cerrado</h2><p class="intro">Gracias por facilitar. Descarga el resumen con las reflexiones del grupo para retomarlas en la próxima sesión.</p><div class="fila-botones"><button class="boton principal" type="button" data-accion="bajar">Descargar resumen (.md)</button></div>',
+  const personas = jugadores.map(j => '<li><span class="emo">' + esc(j.avatar) + "</span>" + esc(j.nombre) + " <small>" + nPiezas(j) + " piezas</small></li>").join("");
+  const refl = taller.reflexiones.map(r => { const j = taller.jugadores[r.jugador], h = D.fichas[r.hito]; return '<div class="plan-hito"><b>' + rico((h ? h.e + " " + h.n : "") + (j ? " · " + j.nombre : "")) + "</b><p>" + esc(r.texto) + "</p></div>"; }).join("");
+  abrirPanel('<h2>Taller cerrado</h2><p class="intro">El grupo reunió <b>' + logradas + " de " + piezas.length + "</b> piezas del plano" + (c[m.meta] ? " y llegó a la meta" : "") + ". Usa estas reflexiones para la puesta en común y descarga el resumen para retomarlas en la próxima sesión.</p>" +
+    (personas ? '<h3 class="subtitulo">Participantes</h3><ul class="lista-personas">' + personas + "</ul>" : "") +
+    (refl ? '<h3 class="subtitulo">Reflexiones del grupo</h3><div class="plan-lista">' + refl + "</div>" : "") +
+    '<div class="fila-botones"><button class="boton principal" type="button" data-accion="bajar">Descargar resumen (.md)</button></div>',
     { bajar: () => descargar("taller-" + taller.codigo + ".md", lineas.join("\n")) });
 }
-export function reconectarSiCorresponde() { if (E.taller) conectar(E.taller.codigo); }
+export async function reconectarSiCorresponde() {
+  if (!E.taller) return;
+  try {
+    const r = await fetch("api/taller/" + E.taller.codigo);
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.taller || !j.taller.activo) { desconectar(); aviso("El taller " + (j.taller ? "ya terminó" : "ya no existe") + ". Puedes seguir jugando por tu cuenta."); return; }
+  } catch (e) { return; }
+  conectar(E.taller.codigo);
+}
