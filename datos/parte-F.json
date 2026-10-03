@@ -1,0 +1,249 @@
+{
+  "refs": {
+    "barrie06": "Barrie, S. C. (2006). Understanding what we mean by the generic attributes of graduates. _Higher Education, 51_(2), 215–241.",
+    "tuning07": "Beneitone, P., Esquetini, C., González, J., Marty Maletá, M., Siufi, G., & Wagenaar, R. (Eds.). (2007). _Reflexiones y perspectivas de la educación superior en América Latina: Informe final, Proyecto Tuning América Latina 2004-2007_. Universidad de Deusto; Universidad de Groningen.",
+    "tobon06": "Tobón, S. (2006). _Formación basada en competencias: Pensamiento complejo, diseño curricular y didáctica_ (2.ª ed.). Ecoe Ediciones.",
+    "fraser06": "Fraser, S. P., & Bosanquet, A. M. (2006). The curriculum? That's just a unit outline, isn't it? _Studies in Higher Education, 31_(3), 269–284.",
+    "jackson68": "Jackson, P. W. (1968). _Life in classrooms_. Holt, Rinehart and Winston.",
+    "snyder71": "Snyder, B. R. (1971). _The hidden curriculum_. Knopf.",
+    "hafferty94": "Hafferty, F. W., & Franks, R. (1994). The hidden curriculum, ethics teaching, and the structure of medical education. _Academic Medicine, 69_(11), 861–871.",
+    "chevallard91": "Chevallard, Y. (1991). _La transposición didáctica: Del saber sabio al saber enseñado_ (C. Gilman, Trad.). Aique. (Obra original publicada en 1985)",
+    "molenda03": "Molenda, M. (2003). In search of the elusive ADDIE model. _Performance Improvement, 42_(5), 34–36.",
+    "branch09": "Branch, R. M. (2009). _Instructional design: The ADDIE approach_. Springer.",
+    "gagne05": "Gagné, R. M., Wager, W. W., Golas, K. C., & Keller, J. M. (2005). _Principles of instructional design_ (5th ed.). Thomson/Wadsworth.",
+    "merrill02": "Merrill, M. D. (2002). First principles of instruction. _Educational Technology Research and Development, 50_(3), 43–59.",
+    "biggs82": "Biggs, J. B., & Collis, K. F. (1982). _Evaluating the quality of learning: The SOLO taxonomy (Structure of the Observed Learning Outcome)_. Academic Press.",
+    "obrien08": "O'Brien, J. G., Millis, B. J., & Cohen, M. W. (2008). _The course syllabus: A learning-centered approach_ (2nd ed.). Jossey-Bass.",
+    "palmer14": "Palmer, M. S., Bach, D. J., & Streifer, A. C. (2014). Measuring the promise: A learning-focused syllabus rubric. _To Improve the Academy, 33_(1), 14–36.",
+    "bruner60": "Bruner, J. S. (1960). _The process of education_. Harvard University Press.",
+    "harden99": "Harden, R. M., & Stamper, N. (1999). What is a spiral curriculum? _Medical Teacher, 21_(2), 141–143.",
+    "kember04": "Kember, D. (2004). Interpreting student workload and the factors which shape students' perceptions of their workload. _Studies in Higher Education, 29_(2), 165–184.",
+    "ects15": "European Commission. (2015). _ECTS users' guide 2015_. Publications Office of the European Union.",
+    "keller87": "Keller, J. M. (1987). Development and use of the ARCS model of instructional design. _Journal of Instructional Development, 10_(3), 2–10.",
+    "keller10": "Keller, J. M. (2010). _Motivational design for learning and performance: The ARCS model approach_. Springer.",
+    "dekker12": "Dekker, S., Lee, N. C., Howard-Jones, P., & Jolles, J. (2012). Neuromyths in education: Prevalence and predictors of misconceptions among teachers. _Frontiers in Psychology, 3_, artículo 429.",
+    "howardjones14": "Howard-Jones, P. A. (2014). Neuroscience and education: Myths and messages. _Nature Reviews Neuroscience, 15_(12), 817–824.",
+    "nielsen13": "Nielsen, J. A., Zielinski, B. A., Ferguson, M. A., Lainhart, J. E., & Anderson, J. S. (2013). An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging. _PLoS ONE, 8_(8), e71275.",
+    "wilson07": "Wilson, K., & Korn, J. H. (2007). Attention during lectures: Beyond ten minutes. _Teaching of Psychology, 34_(2), 85–89.",
+    "bradbury16": "Bradbury, N. A. (2016). Attention span during lectures: 8 seconds, 10 minutes, or more? _Advances in Physiology Education, 40_(4), 509–513.",
+    "bunce10": "Bunce, D. M., Flens, E. A., & Neiles, K. Y. (2010). How long can students pay attention in class? A study of student attention decline using clickers. _Journal of Chemical Education, 87_(12), 1438–1443.",
+    "sana13": "Sana, F., Weston, T., & Cepeda, N. J. (2013). Laptop multitasking hinders classroom learning for both users and nearby peers. _Computers & Education, 62_, 24–31.",
+    "mayer04": "Mayer, R. E. (2004). Should there be a three-strikes rule against pure discovery learning? The case for guided methods of instruction. _American Psychologist, 59_(1), 14–19.",
+    "alfieri11": "Alfieri, L., Brooks, P. J., Aldrich, N. J., & Tenenbaum, H. R. (2011). Does discovery-based instruction enhance learning? _Journal of Educational Psychology, 103_(1), 1–18.",
+    "kirschner06": "Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work: An analysis of the failure of constructivist, discovery, problem-based, experiential, and inquiry-based teaching. _Educational Psychologist, 41_(2), 75–86.",
+    "gardner83": "Gardner, H. (1983). _Frames of mind: The theory of multiple intelligences_. Basic Books.",
+    "gardner95": "Gardner, H. (1995). Reflections on multiple intelligences: Myths and messages. _Phi Delta Kappan, 77_, 200–203, 206–209.",
+    "waterhouse06": "Waterhouse, L. (2006). Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review. _Educational Psychologist, 41_(4), 207–225.",
+    "clark83": "Clark, R. E. (1983). Reconsidering research on learning from media. _Review of Educational Research, 53_(4), 445–459.",
+    "tamim11": "Tamim, R. M., Bernard, R. M., Borokhovski, E., Abrami, P. C., & Schmid, R. F. (2011). What forty years of research says about the impact of technology on learning: A second-order meta-analysis and validation study. _Review of Educational Research, 81_(1), 4–28.",
+    "karpicke09": "Karpicke, J. D., Butler, A. C., & Roediger, H. L. (2009). Metacognitive strategies in student learning: Do students practise retrieval when they study on their own? _Memory, 17_(4), 471–479.",
+    "uttl17": "Uttl, B., White, C. A., & Gonzalez, D. W. (2017). Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related. _Studies in Educational Evaluation, 54_, 22–42.",
+    "boring16": "Boring, A., Ottoboni, K., & Stark, P. B. (2016). Student evaluations of teaching (mostly) do not measure teaching effectiveness. _ScienceOpen Research_."
+  },
+  "fichas": {
+    "resultados": {
+      "pista": "Lo que alguien podrá hacer al cerrar un curso, escrito con un verbo que se puede observar."
+    },
+    "bloom": {
+      "pista": "Una escalera de verbos que sube de recordar a crear para ordenar lo que se pide pensar."
+    },
+    "inverso": {
+      "pista": "Planificar empezando por la meta y la evidencia que la demostraría, y dejar las actividades para el final."
+    },
+    "alineamiento": {
+      "pista": "Cuando la meta, la actividad y la prueba piden exactamente el mismo tipo de pensamiento."
+    },
+    "dua": {
+      "pista": "Planificar desde el inicio con opciones para la diversidad de todo el curso, sin clasificar a nadie."
+    },
+    "perfil_egreso": {
+      "pista": "Lo que una carrera promete que sabrá hacer quien se titule, declarado por escrito.",
+      "why": "Cuando se reúnen los propósitos de todos los cursos de una carrera, aparece un propósito mayor: lo que debe saber hacer quien se titula. En América Latina suele llamarse perfil de egreso, y el proyecto Tuning América Latina propuso expresarlo en competencias genéricas y específicas. Barrie, que estudió los atributos del egresado en Australia, mostró que los académicos entienden estas declaraciones de maneras muy distintas, y que esa comprensión influye en cómo las abordan en su enseñanza.",
+      "uni": "Si la carrera de Enfermería declara que sus titulados trabajarán en equipos de salud, algún curso debe enseñar y evaluar ese trabajo en equipo, en vez de darlo por supuesto.",
+      "refs": ["tuning07", "barrie06"]
+    },
+    "competencias": {
+      "pista": "Formar para movilizar saberes, habilidades y actitudes ante situaciones reales de una profesión.",
+      "why": "Cuando el perfil de egreso o los resultados de aprendizaje se llevan a situaciones reales, la meta deja de ser acumular saberes sueltos: se trata de movilizar conocimientos, habilidades y actitudes para resolver problemas de una profesión. El proyecto Tuning América Latina adoptó las competencias como lenguaje común entre universidades, y Tobón propuso un modelo de diseño curricular basado en ellas. Es un enfoque de diseño más que un método con efecto medido, y ha recibido críticas por fragmentar la formación en listas de conductas.",
+      "uni": "En Derecho Procesal, en vez de un examen de memoria sobre plazos, los estudiantes redactan y defienden un recurso a partir de un expediente real anonimizado.",
+      "refs": ["tuning07", "tobon06"]
+    },
+    "curriculo": {
+      "pista": "El plan que decide qué se enseña, en qué orden y para qué, a lo largo de una carrera.",
+      "why": "Organizar contenidos y propósitos en una secuencia a lo largo del tiempo es hacer currículo. Tyler lo formuló en 1949 como cuatro preguntas: qué propósitos perseguir, qué experiencias ofrecer, cómo organizarlas y cómo evaluar si se lograron. En educación superior, Fraser y Bosanquet encontraron que los académicos lo entienden de formas muy distintas: desde el contenido de una asignatura o de una carrera hasta la experiencia del estudiante o el proceso vivo de enseñar y aprender.",
+      "uni": "Revisar el plan de estudios de Ingeniería Civil para ver en qué semestre se enseña estadística, y si llega antes de los cursos que la necesitan, es trabajo curricular.",
+      "refs": ["tyler49", "fraser06"]
+    },
+    "curriculo_oculto": {
+      "pista": "Lo que el estudiante aprende sin que nadie lo haya planificado ni escrito en el programa.",
+      "why": "Junto al currículo escrito, el espacio, las normas y la vida en grupo enseñan cosas que nadie declaró. Jackson acuñó la expresión currículo oculto en 1968 observando aulas escolares, y Snyder la llevó a la universidad: en el MIT y en Wellesley, los estudiantes aprendían a descifrar qué se evaluaba en realidad, más allá de lo que decía el programa. En medicina, Hafferty y Franks sostuvieron que buena parte de la identidad profesional se forma en ese plano informal.",
+      "uni": "Si en las rondas clínicas los residentes se burlan de los pacientes difíciles, los estudiantes aprenden eso, aunque el curso de ética diga lo contrario.",
+      "refs": ["jackson68", "snyder71", "hafferty94"]
+    },
+    "transposicion": {
+      "pista": "El viaje que transforma el saber de los expertos en algo que se puede enseñar en un aula.",
+      "why": "El contenido que se enseña no es el mismo que producen los investigadores: al pasar por planes de estudio, textos y clases, se recorta, se reordena y se simplifica. Chevallard llamó a este proceso transposición didáctica y distinguió tres momentos: el saber sabio, el saber a enseñar y el saber enseñado. La transformación es inevitable; por eso Chevallard pide vigilancia epistemológica, para que la versión enseñada no deforme el saber de origen.",
+      "uni": "Convertir la teoría de juegos de los artículos de economía en un ejemplo de dos empresas para primer año, cuidando que la simplificación no enseñe algo falso.",
+      "refs": ["chevallard91"]
+    },
+    "addie": {
+      "pista": "Un proceso en cinco fases, desde analizar necesidades hasta evaluar, para diseñar cursos y programas de formación.",
+      "why": "Unir propósito y evaluación en un ciclo ordenado da el modelo ADDIE: análisis, diseño, desarrollo, implementación y evaluación. Molenda rastreó su origen y concluyó que no tiene un autor único: el acrónimo se difundió de boca en boca como etiqueta para toda una familia de modelos de diseño instruccional sistemático. Hoy suele presentarse como un ciclo en que la evaluación revisa cada fase, más que como una secuencia rígida.",
+      "uni": "Antes de lanzar un curso en línea de bioseguridad para laboratorios, el equipo analiza qué errores cometen hoy los estudiantes, diseña, produce, lo prueba con un grupo piloto y ajusta según los resultados.",
+      "refs": ["molenda03", "branch09"]
+    },
+    "gagne": {
+      "pista": "Una secuencia de pasos para una lección, desde captar la atención hasta favorecer que lo aprendido se transfiera.",
+      "why": "Cuando la pedagogía se ordena en el tiempo de una clase, surge una secuencia. Gagné propuso nueve eventos de instrucción, ligados a los procesos internos del aprendizaje: captar la atención, informar el objetivo, estimular el recuerdo de lo previo, presentar el contenido, guiar el aprendizaje, provocar el desempeño, retroalimentar, evaluar el desempeño y favorecer la retención y la transferencia. No es un guion rígido: los eventos pueden reordenarse o combinarse según la clase.",
+      "uni": "Una clase de Farmacología abre con un caso de intoxicación, declara la meta, recuerda lo visto sobre metabolismo, explica, hace resolver un caso parecido y retroalimenta antes de cerrar.",
+      "refs": ["gagne05"]
+    },
+    "merrill": {
+      "pista": "Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.",
+      "why": "Si a una secuencia como la de Gagné se le pone al centro un problema real, aparecen los primeros principios de Merrill. Al comparar muchas teorías de diseño instruccional, Merrill encontró cinco ideas compartidas: se aprende mejor cuando se resuelven problemas del mundo real, se activa lo que ya se sabe, se observa una demostración, se aplica lo nuevo con retroalimentación y se lo integra al propio trabajo. Él mismo los presentó como principios comunes a muchos modelos, no como un modelo nuevo.",
+      "uni": "En Contabilidad, el curso gira en torno a cerrar los estados financieros de una pyme real: se activa lo previo, el docente muestra un cierre, los equipos lo aplican y luego lo presentan.",
+      "refs": ["merrill02"]
+    },
+    "solo": {
+      "pista": "Niveles que clasifican la calidad de una respuesta, desde piezas sueltas hasta ideas integradas y extendidas.",
+      "why": "Mientras Bloom clasifica el tipo de proceso que se pide, Biggs y Collis propusieron clasificar la calidad estructural de lo que el estudiante responde. La taxonomía SOLO tiene cinco niveles: preestructural, uniestructural, multiestructural, relacional y abstracto extendido. El salto clave está entre enumerar muchos datos (multiestructural) e integrarlos en un todo coherente (relacional), que es lo que busca el enfoque profundo. Biggs y Tang la usan para redactar resultados de aprendizaje y criterios de evaluación.",
+      "uni": "En un curso de Historia, enumerar cinco causas de la Revolución Mexicana es una respuesta multiestructural; explicar cómo se influyeron entre sí es relacional.",
+      "refs": ["biggs82", "biggs11"]
+    },
+    "syllabus": {
+      "pista": "El documento del curso que le habla a quien lo cursa: qué logrará, cómo y con qué apoyo.",
+      "why": "Cuando el currículo de un curso se escribe pensando en el estudiante, el programa deja de ser una lista de temas y pasa a ser una guía para aprender. O'Brien, Millis y Cohen proponen que explique qué lograrán los estudiantes, qué se espera de ellos, cómo serán evaluados y con qué recursos cuentan. Palmer, Bach y Streifer crearon una rúbrica que ubica cada programa en un continuo que va de centrado en el contenido a centrado en el aprendizaje.",
+      "uni": "En vez de listar doce unidades temáticas, el programa de Microeconomía abre con tres resultados, muestra qué actividad y qué evaluación sirve a cada uno y estima las horas semanales de trabajo.",
+      "refs": ["obrien08", "palmer14"]
+    },
+    "espiral": {
+      "pista": "Volver a los grandes temas una y otra vez, y en cada vuelta profundizar un poco más.",
+      "why": "Si el currículo se organiza para retomar las mismas ideas espaciadas en el tiempo, se obtiene un currículo en espiral. Bruner lo propuso en 1960: las ideas fundamentales de una disciplina se presentan pronto en forma simple y se revisitan después con más profundidad. Harden y Stamper lo aplicaron a la formación médica y subrayan que no basta con repetir: cada nuevo encuentro debe construir sobre el anterior y aumentar la complejidad.",
+      "uni": "En Medicina, la farmacología se ve en segundo año con fármacos básicos, se retoma en cuarto con casos clínicos y vuelve en el internado con pacientes reales.",
+      "refs": ["bruner60", "harden99"]
+    },
+    "carga_trabajo": {
+      "pista": "Las horas reales que un curso exige a quien lo cursa, dentro y fuera del aula.",
+      "why": "Al cruzar el currículo con el tiempo disponible surge la pregunta de cuántas horas exige de verdad cada curso, contando lecturas, tareas y estudio autónomo. El sistema europeo ECTS asigna 60 créditos a un año a tiempo completo, en general de 25 a 30 horas cada uno. Kember encontró que la carga percibida se relaciona poco con las horas reales: también pesan la evaluación, la dificultad y el clima del curso, y una carga que parece excesiva empuja a estudiar en forma superficial.",
+      "uni": "Una docente de Química suma las horas que piden sus lecturas, informes y estudio, descubre que duplican lo que asignan los créditos y elimina dos informes.",
+      "refs": ["ects15", "kember04"]
+    },
+    "arcs": {
+      "pista": "Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.",
+      "why": "Cuando la pedagogía se pone al servicio de la motivación, la motivación deja de ser solo un rasgo del estudiante y pasa a ser algo que se diseña. Keller organizó en el modelo ARCS cuatro condiciones: atención, relevancia, confianza y satisfacción, cada una con estrategias concretas. Propuso además un proceso para diagnosticar qué condición falla en un curso y elegir las estrategias que la atienden, en vez de agregar estímulos al azar.",
+      "uni": "En Estadística para Psicología: abrir con un estudio viral mal interpretado, ligarlo a la práctica clínica, partir con ejercicios alcanzables y mostrar a cada estudiante su progreso.",
+      "refs": ["keller87", "keller10"]
+    },
+    "nativos": {
+      "pista": "La creencia de que crecer entre pantallas entrega destrezas tecnológicas sin que nadie las enseñe."
+    },
+    "estilos": {
+      "pista": "La idea de que enseñar por el canal favorito de cada uno, visual, auditivo o kinestésico, rinde más."
+    },
+    "piramide": {
+      "pista": "Porcentajes famosos de cuánto se recuerda al leer, escuchar o enseñar, que ningún estudio respalda."
+    },
+    "detectores": {
+      "pista": "Herramientas que prometen descubrir si un texto lo escribió una máquina, y que se equivocan con frecuencia."
+    },
+    "cerebro10": {
+      "pista": "La creencia de que la mayor parte de nuestra materia gris está dormida, esperando ser despertada.",
+      "belief": "Usamos apenas el 10% del cerebro, y con la técnica adecuada un estudiante podría activar el resto y aprender mucho más.",
+      "evidence": "No tiene respaldo científico: las neuroimágenes muestran actividad en todas las regiones del cerebro a lo largo del día, y un daño en casi cualquier zona produce algún déficit. Aun así, Dekker y colaboradores encontraron que cerca de la mitad de los docentes encuestados en el Reino Unido y los Países Bajos lo aceptaba, y Howard-Jones documentó la misma creencia entre docentes de Turquía, Grecia y China. El aprendizaje cambia las conexiones del cerebro; no hay una reserva dormida que activar.",
+      "refs": ["dekker12", "howardjones14"]
+    },
+    "hemisferios": {
+      "pista": "La creencia de que cada persona es lógica o creativa según qué mitad de su cabeza domine.",
+      "belief": "Hay personas de hemisferio izquierdo, lógicas y analíticas, y personas de hemisferio derecho, creativas e intuitivas, y conviene enseñar a cada una según el suyo.",
+      "evidence": "Algunas funciones sí se lateralizan, como gran parte del lenguaje en el hemisferio izquierdo en la mayoría de las personas, pero ambos hemisferios trabajan juntos en casi cualquier tarea compleja. Nielsen y colaboradores analizaron la conectividad cerebral de más de mil personas y no encontraron individuos con un hemisferio globalmente más fuerte que el otro. Clasificar a los estudiantes como de cerebro izquierdo o derecho no tiene base y puede encasillarlos.",
+      "refs": ["nielsen13", "howardjones14"]
+    },
+    "atencion10": {
+      "pista": "La regla de que un curso desconecta, como un reloj, al cabo de un tiempo fijo de clase.",
+      "belief": "La atención de los estudiantes en una clase expositiva dura entre 10 y 15 minutos; pasado ese límite, cae de forma inevitable.",
+      "evidence": "Wilson y Korn revisaron los estudios que se citan para respaldar esa cifra y concluyeron que ofrecen poco apoyo: muchos usaban medidas indirectas, como la cantidad de apuntes, y la atención variaba según el estudiante, el docente y el tema. Bradbury llegó a la misma conclusión. Bunce y colaboradores encontraron que la atención no cae una sola vez, sino que fluctúa en ciclos cortos durante toda la clase, y que los lapsos disminuyen durante y después de preguntas y demostraciones.",
+      "refs": ["wilson07", "bradbury16", "bunce10"]
+    },
+    "multitarea": {
+      "pista": "La creencia de que se puede estudiar, chatear y revisar redes a la vez sin perder nada.",
+      "belief": "Los estudiantes de hoy pueden seguir la clase, responder mensajes y revisar redes al mismo tiempo sin que su aprendizaje se resienta.",
+      "evidence": "En tareas que exigen pensar, lo que parece multitarea es alternar rápidamente entre una y otra, y cada cambio cuesta tiempo y errores. Sana, Weston y Cepeda encontraron que los universitarios que usaban el portátil para otras cosas durante una clase comprendían menos, y que también bajaba la comprensión de quienes tenían esa pantalla a la vista. Kirschner y De Bruyckere concluyen que la multitarea perjudica el aprendizaje, también en la generación que creció con pantallas.",
+      "refs": ["sana13", "kirschner17"]
+    },
+    "descubrimiento": {
+      "pista": "La idea de que el curso aprende mejor encontrando solo los principios, con el docente en silencio.",
+      "belief": "Como el conocimiento se construye, lo mejor es dejar que los estudiantes descubran por sí mismos los principios, sin explicaciones ni guía del docente.",
+      "evidence": "Mayer revisó décadas de estudios y encontró que, una y otra vez, el descubrimiento guiado superó al descubrimiento puro. El metaanálisis de Alfieri y colaboradores confirmó que el descubrimiento sin asistencia no beneficia, mientras que el apoyado con retroalimentación, ejemplos resueltos o andamiaje sí. El constructivismo describe cómo se aprende, no prescribe enseñar sin guía; por eso el debate que abrieron Kirschner, Sweller y Clark gira en torno a cuánta guía dar y de qué tipo, no a si darla.",
+      "refs": ["mayer04", "alfieri11", "kirschner06"]
+    },
+    "inteligencias": {
+      "pista": "La creencia de que cada estudiante tiene una capacidad mental favorita y que las clases deben pasar por ella.",
+      "belief": "Cada estudiante tiene una inteligencia dominante (lingüística, lógico-matemática, musical, corporal, etc.) y aprende mejor si se le enseña a través de ella.",
+      "evidence": "Gardner propuso en 1983 la teoría de las inteligencias múltiples, pero él mismo aclaró que una inteligencia no es un estilo de aprendizaje y criticó que su teoría se use para etiquetar estudiantes. Waterhouse revisó la evidencia y concluyó que la teoría tiene escaso respaldo empírico y no debería guiar la práctica, aunque Gardner le respondió defendiéndola. Tampoco hay evidencia sólida de que ajustar la enseñanza a una supuesta inteligencia dominante mejore el aprendizaje.",
+      "refs": ["gardner83", "gardner95", "waterhouse06"]
+    },
+    "mas_tecnologia": {
+      "pista": "La creencia de que llenar el aula de pantallas y plataformas mejora por sí solo los resultados.",
+      "belief": "Equipar las aulas con más dispositivos, plataformas y pantallas mejora por sí mismo el aprendizaje de los estudiantes.",
+      "evidence": "Clark sostuvo en 1983 que los medios solo transportan la enseñanza, así como el camión que reparte los alimentos no cambia la nutrición: lo que produce aprendizaje es el método. Su tesis fue muy debatida. El metaanálisis de segundo orden de Tamim y colaboradores, que reunió 40 años de investigación, encontró un efecto positivo pero modesto del uso de tecnología, mayor cuando apoya la enseñanza que cuando se usa para impartirla directamente: importa cómo se usa, no cuánta hay.",
+      "refs": ["clark83", "tamim11"]
+    },
+    "releer": {
+      "pista": "Repasar los apuntes una y otra vez y pintarlos de colores: lo más común al estudiar, y poco eficaz.",
+      "belief": "Releer los apuntes varias veces y subrayar lo importante con marcador es la mejor forma de prepararse para una prueba.",
+      "evidence": "Dunlosky y colaboradores evaluaron diez técnicas de estudio y calificaron releer y subrayar como de baja utilidad, frente a la práctica de recuperación y la práctica espaciada, de alta utilidad. Karpicke, Butler y Roediger encontraron que releer era la estrategia más usada por los universitarios encuestados, y que pocos se ponían a prueba al estudiar. Releer da sensación de dominio porque el texto se vuelve familiar, pero reconocer no es lo mismo que recordar o aplicar.",
+      "refs": ["dunlosky13", "karpicke09"]
+    },
+    "encuestas": {
+      "pista": "La creencia de que la calificación que el curso le pone a su profesor revela cuánto sabe al final.",
+      "belief": "Si un docente obtiene buenas notas en la encuesta estudiantil de fin de semestre, es porque sus estudiantes aprendieron más.",
+      "evidence": "Los primeros metaanálisis encontraron una relación moderada entre las notas de las encuestas y el aprendizaje, pero Uttl, White y Gonzalez mostraron que se debía sobre todo a estudios con muestras pequeñas: en los estudios grandes, la relación es nula o mínima. Boring, Ottoboni y Stark encontraron además sesgos, como uno en contra de las profesoras, capaces de hacer que docentes más eficaces reciban peores notas. Las encuestas sí informan sobre la experiencia del estudiante; el error es leerlas como medida de aprendizaje.",
+      "refs": ["uttl17", "boring16"]
+    }
+  },
+  "notas": {
+    "contenido+proposito": "Un contenido solo no dice qué hacer con él, y un propósito solo queda abstracto. Juntos se vuelven una frase evaluable: qué podrá hacer el estudiante con ese contenido.",
+    "pedagogia+proposito": "Para que la pedagogía persiga un propósito hay que precisar qué tipo de pensamiento exige: recordar no es lo mismo que analizar o crear. Ordenar esos niveles da la taxonomía.",
+    "proposito+tiempo": "Poner el propósito al final de la línea de tiempo y planificar hacia atrás, desde la meta hasta la primera clase, es la idea central del diseño inverso.",
+    "evaluacion+resultados": "Si defines los resultados y enseguida decides qué evidencia los demostraría, la evaluación se planifica antes que las actividades: ese es el segundo paso del diseño inverso.",
+    "activo+inverso": "El diseño inverso fija metas y evidencias; el aprendizaje activo pone al estudiante a practicar lo mismo que se evaluará. Así meta, actividad y evaluación quedan alineadas.",
+    "activo+rubrica": "La rúbrica explicita el desempeño esperado y la actividad activa lo hace practicar en clase. Cuando ambas piden lo mismo, enseñanza y evaluación avanzan en la misma dirección.",
+    "estilos+reflexiva": "Reflexionar sobre el mito de los estilos deja una idea útil: la diversidad del curso es real, pero se atiende ofreciendo varias opciones a todos, no etiquetando a cada uno.",
+    "inteligencias+reflexiva": "Al revisar la etiqueta de inteligencia dominante queda lo valioso: presentar los temas importantes de varias formas. El DUA lo hace para todo el curso, sin clasificar a nadie.",
+    "proposito+proposito": "Sumar los propósitos de todos los cursos de una carrera da un propósito mayor: lo que debe saber hacer quien se titula. Ese propósito de propósitos es el perfil de egreso.",
+    "perfil_egreso+situado": "El perfil de egreso declara qué hará el titulado; el aprendizaje situado exige practicarlo en contextos reales. Juntos piden formar capacidades que se movilizan en la profesión: competencias.",
+    "resultados+situado": "Un resultado de aprendizaje puesto en un contexto real exige combinar conocimientos, habilidades y actitudes ante una situación auténtica: eso define a una competencia.",
+    "mapa+proposito": "Un mapa conceptual muestra cómo se relacionan los contenidos; un propósito dice hacia dónde ir. Ordenar ese mapa en función de un propósito formativo es construir un currículo.",
+    "resultados+tiempo": "Distribuir los resultados de aprendizaje a lo largo de los semestres, decidiendo cuáles van primero y cuáles se apoyan en otros, es la tarea de organizar un currículo.",
+    "curriculo+espacio": "El espacio también enseña: un auditorio con el docente en lo alto y filas fijas transmite quién habla y quién escucha, aunque el currículo escrito pida participación.",
+    "curriculo+grupo": "En el grupo circulan normas que ningún programa declara: qué se valora de verdad, cómo se trata a los demás, qué atajos sirven. Ese aprendizaje informal es el currículo oculto.",
+    "contenido+cpc": "El conocimiento pedagógico del contenido es lo que permite al docente transformar un saber experto en algo enseñable en su aula: la transposición que ocurre dentro de la clase.",
+    "contenido+curriculo": "Cuando un contenido entra a un currículo ya se transforma: se recorta, se secuencia y se convierte en temario. Es la parte de la transposición que ocurre antes de llegar al aula.",
+    "evaluacion+proposito": "Fijar el propósito, diseñar para lograrlo y evaluar si se logró, en un ciclo que se repite, es la lógica de ADDIE: la evaluación vuelve a informar el análisis inicial.",
+    "pedagogia+tiempo": "Distribuir las decisiones pedagógicas a lo largo del tiempo de una clase da una secuencia: Gagné propuso nueve momentos, de captar la atención a favorecer la transferencia.",
+    "expositiva+segmentacion": "Cortar una clase expositiva en segmentos con funciones distintas (activar lo previo, presentar, practicar, retroalimentar) lleva a una secuencia como la de los nueve eventos de Gagné.",
+    "gagne+problema": "Merrill toma secuencias como la de Gagné y las ordena alrededor de un problema real: activar, demostrar, aplicar e integrar, siempre al servicio de resolver una tarea auténtica.",
+    "activo+gagne": "A la secuencia de Gagné, el aprendizaje activo le agrega protagonismo: en los principios de Merrill el estudiante aplica lo nuevo con retroalimentación y lo integra a su propio trabajo.",
+    "bloom+profundo": "Bloom clasifica qué proceso se pide; el enfoque profundo busca relacionar ideas. SOLO une ambas cosas: clasifica qué tan integrada está la respuesta, de datos sueltos a ideas relacionadas.",
+    "profundo+rubrica": "Para que una rúbrica premie el enfoque profundo y no la acumulación de datos, sus niveles pueden seguir a SOLO: enumerar vale menos que relacionar y extender a casos nuevos.",
+    "curriculo+estudiante": "Cuando la parte del currículo que toca a un curso se escribe para el estudiante, y no solo para la institución, aparece un programa que explica qué logrará y cómo.",
+    "alineamiento+tiempo": "Un programa centrado en el aprendizaje muestra el alineamiento en un calendario: qué actividad y qué evaluación sirven a cada resultado, semana a semana, con tiempos realistas.",
+    "curriculo+espaciada": "Llevar la práctica espaciada a la escala de un plan de estudios produce un currículo en espiral: los temas centrales vuelven en distintos semestres, cada vez con más profundidad.",
+    "curriculo+tiempo": "Cruzar lo que el currículo pide con las horas disponibles obliga a medir la carga real: lecturas, tareas y estudio también cuentan, no solo las horas de clase.",
+    "curriculo+ritmo": "Cada estudiante avanza a su ritmo, pero el currículo fija plazos comunes. Si las exigencias superan un tiempo realista, la carga se vuelve excesiva y empuja a estudiar en forma superficial.",
+    "motivacion+pedagogia": "Tratar la motivación como algo que la pedagogía puede diseñar, y no solo como un rasgo del estudiante, lleva a ARCS: atención, relevancia, confianza y satisfacción.",
+    "estudiante+tecnologia": "Juntar al estudiante con la tecnología invita a un salto apresurado: si creció rodeado de pantallas, ya sabría usarlas para aprender. Ese salto, sin evidencia, es el mito.",
+    "pedagogia+ritmo": "Querer que la pedagogía respete las diferencias y el ritmo de cada uno es legítimo; el mito aparece cuando esas diferencias se convierten en etiquetas fijas de estilo.",
+    "activo+bloom": "Ordenar las actividades activas en niveles, como Bloom ordena los objetivos, tienta a dibujar una pirámide con porcentajes de retención. Esos porcentajes no tienen respaldo.",
+    "evaluacion+ia": "Cuando la IA generativa entra a la evaluación, la respuesta rápida es buscar un programa que la delate. Ese atajo promete más certeza de la que puede dar.",
+    "estudiante+motivacion": "La promesa de un potencial dormido suena motivadora para cualquier estudiante; por eso el mito del 10% del cerebro aparece tanto en charlas motivacionales, aunque no tenga base.",
+    "estilos+estudiante": "Clasificar al estudiante por un estilo tiene un primo con aspecto neurocientífico: rotularlo como de cerebro izquierdo o derecho. Ambos mitos encasillan a las personas sin evidencia.",
+    "expositiva+tiempo": "Medir la clase expositiva con el reloj lleva a una regla tentadora: la atención se acaba a los 10 minutos. La evidencia muestra que fluctúa según lo que ocurre en clase.",
+    "nativos+tiempo": "Si el nativo digital lo maneja todo y el tiempo falta, parece lógico que haga varias cosas a la vez. En realidad alterna entre tareas, y cada cambio cuesta.",
+    "constructivismo+problema": "Leer el constructivismo como “que lo descubran solos” y soltar un problema sin apoyo produce el mito. El constructivismo describe cómo se aprende; no prohíbe guiar.",
+    "estilos+pedagogia": "Aplicar a la pedagogía la lógica de los estilos, pero con las inteligencias de Gardner, repite el mismo error: clasificar a cada estudiante y enseñarle por un solo canal.",
+    "sustitucion+tecnologia": "Cambiar la fotocopia por un PDF es sustitución: la tarea sigue igual. Creer que sumar aparatos de ese modo ya mejora el aprendizaje es el mito.",
+    "contenido+ritmo": "Frente a mucho contenido y a su propio ritmo, el estudiante elige lo más cómodo: volver a leer y marcar. Se siente productivo, pero la familiaridad no es dominio.",
+    "pedagogia+sumativa": "Ponerle a la pedagogía una nota sumativa de fin de semestre, puesta por los estudiantes, parece medir cuánto aprendieron. En realidad recoge su experiencia y arrastra sesgos."
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "refs": {
+    "siemens11": "Siemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. _EDUCAUSE Review, 46_(5), 30–40.",
+    "viberg18": "Viberg, O., Hatakka, M., Bälter, O., & Mavroudi, A. (2018). The current landscape of learning analytics in higher education. _Computers in Human Behavior, 89_, 98–110.",
+    "slade13": "Slade, S., & Prinsloo, P. (2013). Learning analytics: Ethical issues and dilemmas. _American Behavioral Scientist, 57_(10), 1510–1529.",
+    "vanlehn11": "VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. _Educational Psychologist, 46_(4), 197–221.",
+    "kulik16": "Kulik, J. A., & Fletcher, J. D. (2016). Effectiveness of intelligent tutoring systems: A meta-analytic review. _Review of Educational Research, 86_(1), 42–78.",
+    "unesco19": "UNESCO. (2019). _Recommendation on Open Educational Resources (OER)_. UNESCO.",
+    "hilton16": "Hilton, J., III. (2016). Open educational resources and college textbook choices: A review of research on efficacy and perceptions. _Educational Technology Research and Development, 64_(4), 573–590.",
+    "reich19": "Reich, J., & Ruipérez-Valiente, J. A. (2019). The MOOC pivot. _Science, 363_(6423), 130–131.",
+    "makransky19": "Makransky, G., Terkildsen, T. S., & Mayer, R. E. (2019). Adding immersive virtual reality to a science lab simulation causes more presence but less learning. _Learning and Instruction, 60_, 225–236.",
+    "radianti20": "Radianti, J., Majchrzak, T. A., Fromm, J., & Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda. _Computers & Education, 147_, artículo 103778.",
+    "hunsu16": "Hunsu, N. J., Adesope, O., & Bayly, D. J. (2016). A meta-analysis of the effects of audience response systems (clicker-based technologies) on cognition and affect. _Computers & Education, 94_, 102–119.",
+    "caldwell07": "Caldwell, J. E. (2007). Clickers in the large classroom: Current research and best-practice tips. _CBE-Life Sciences Education, 6_(1), 9–20.",
+    "long20": "Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. En _Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems_. ACM.",
+    "hargittai02": "Hargittai, E. (2002). Second-level digital divide: Differences in people's online skills. _First Monday, 7_(4).",
+    "vandijk20": "van Dijk, J. (2020). _The digital divide_. Polity Press.",
+    "redecker17": "Redecker, C. (2017). _European framework for the digital competence of educators: DigCompEdu_ (Y. Punie, Ed.). Publications Office of the European Union.",
+    "w3c23": "World Wide Web Consortium. (2023). _Web Content Accessibility Guidelines (WCAG) 2.2_. W3C.",
+    "gernsbacher15": "Gernsbacher, M. A. (2015). Video captions benefit everyone. _Policy Insights from the Behavioral and Brain Sciences, 2_(1), 195–202."
+  },
+  "fichas": {
+    "tck": {
+      "pista": "Saber qué herramienta representa mejor las ideas de tu disciplina, como un simulador para la física."
+    },
+    "tpk": {
+      "pista": "Saber qué cambia en la forma de enseñar cuando una herramienta entra a la sala."
+    },
+    "ia": {
+      "pista": "Máquina que redacta, dibuja o programa a partir de lo que le pides por escrito."
+    },
+    "sustitucion": {
+      "pista": "Primer peldaño de la escalera de Puentedura: cambias la herramienta, pero la tarea queda idéntica."
+    },
+    "aumento": {
+      "pista": "Segundo peldaño de Puentedura: la misma tarea, pero la herramienta le suma una mejora funcional."
+    },
+    "modificacion": {
+      "pista": "Tercer peldaño de Puentedura: la herramienta permite rediseñar buena parte de la tarea."
+    },
+    "redefinicion": {
+      "pista": "Peldaño más alto de Puentedura: tareas que sin la herramienta serían inconcebibles."
+    },
+    "video": {
+      "pista": "La exposición del profesor, disponible para verla cuando quieras y cuantas veces quieras."
+    },
+    "capsula": {
+      "pista": "Pieza audiovisual de pocos minutos que explica una sola idea."
+    },
+    "tutoria": {
+      "pista": "Un chatbot configurado para guiarte con pistas y preguntas, sin entregarte la solución."
+    },
+    "competencia": {
+      "pista": "Buscar, evaluar, crear y comunicar con tecnología: se aprende, no viene con el año de nacimiento."
+    },
+    "analitica": {
+      "pista": "Las huellas que deja cada clic en la plataforma del curso, convertidas en información para decidir.",
+      "why": "Cuando la tecnología registra lo que hacen los estudiantes a lo largo del tiempo, esas huellas se pueden medir, analizar y devolver como información. Siemens y Long describen la analítica del aprendizaje como la medición, el análisis y el reporte de datos sobre los estudiantes y sus contextos para comprender y mejorar el aprendizaje. La promesa es grande, pero la evidencia aún es modesta: la revisión de Viberg y colaboradores en educación superior encontró pocos estudios que muestren mejoras en los resultados de aprendizaje.",
+      "uni": "El panel del aula virtual muestra que un tercio del curso no abrió la guía de la semana 4, y el docente escribe a esos estudiantes antes del examen parcial.",
+      "refs": [
+        "siemens11",
+        "viberg18"
+      ]
+    },
+    "privacidad": {
+      "pista": "Preguntarse quién ve la información de tus estudiantes, para qué se usa y con qué consentimiento.",
+      "why": "Toda herramienta que registra o procesa lo que hacen los estudiantes plantea preguntas de poder: quién accede a esa información, con qué fin y si la persona lo sabe y lo acepta. Slade y Prinsloo proponen tratar la analítica como una práctica moral, ser transparentes y ver a los estudiantes como agentes que colaboran en la interpretación de sus datos, no como simples fuentes. La guía de UNESCO sobre IA generativa también pide proteger la privacidad de los datos.",
+      "uni": "Antes de pedir que el curso use un chatbot externo, el docente explica qué datos guarda la empresa y ofrece una alternativa a quien no quiera crear una cuenta.",
+      "refs": [
+        "slade13",
+        "unesco23"
+      ]
+    },
+    "adaptativo": {
+      "pista": "Un sistema que elige el siguiente ejercicio según lo que cada estudiante ya demostró dominar.",
+      "why": "Une los datos de desempeño con el ritmo de cada estudiante: el sistema ajusta la dificultad, la secuencia o las pistas según lo que cada uno demuestra. Su antecedente más estudiado son los tutores inteligentes. VanLehn encontró que los que corrigen paso a paso se acercan a la eficacia de un tutor humano, y Kulik y Fletcher, en 50 evaluaciones controladas, hallaron mejoras en la mayoría, aunque mucho mayores en pruebas hechas a medida que en pruebas estandarizadas.",
+      "uni": "En Cálculo I, una plataforma de ejercicios detecta que un estudiante falla en la regla de la cadena y le propone más práctica de ese tema antes de pasar a integrales.",
+      "refs": [
+        "vanlehn11",
+        "kulik16"
+      ]
+    },
+    "rea": {
+      "pista": "Materiales con licencia libre que puedes usar, adaptar y volver a compartir sin pagar.",
+      "why": "Materiales de enseñanza, aprendizaje o investigación que están en el dominio público o tienen una licencia abierta que permite usarlos, adaptarlos y redistribuirlos sin costo. Así los define la Recomendación de UNESCO de 2019; la red es lo que permite compartirlos a gran escala. Sobre el aprendizaje, la revisión de Hilton en educación superior encontró que, en general, los estudiantes logran resultados similares a los obtenidos con libros comerciales, con un ahorro importante.",
+      "uni": "En vez de exigir un manual de química caro, el docente adapta un libro abierto, agrega ejercicios de su contexto y publica su versión con la misma licencia.",
+      "refs": [
+        "unesco19",
+        "hilton16"
+      ]
+    },
+    "mooc": {
+      "pista": "Miles de inscritos de todo el mundo en una propuesta gratuita por internet; pocos la terminan.",
+      "why": "Recursos abiertos, video y entorno virtual a gran escala: un curso gratuito y sin límite de inscritos. El término nació en 2008 con un curso sobre conectivismo y se popularizó en 2012 con plataformas como Coursera y edX. Reich y Ruipérez-Valiente analizaron los cursos de MIT y Harvard en edX entre 2012 y 2018: la mayoría de los participantes no volvió después de su primer año, el crecimiento se concentró en los países más ricos y las bajas tasas de finalización no mejoraron.",
+      "uni": "Una facultad abre su curso de introducción a la programación en una plataforma internacional y lo usa también como material de nivelación para sus estudiantes de primer año.",
+      "refs": [
+        "reich19"
+      ]
+    },
+    "rv": {
+      "pista": "Con un visor puesto, el estudiante entra a un quirófano, una mina o el interior de una célula.",
+      "why": "Una simulación que envuelve al estudiante: con un visor, el espacio deja de ser la sala y pasa a ser el laboratorio, la planta o el quirófano. Más inmersión no significa más aprendizaje: Makransky, Terkildsen y Mayer compararon la misma simulación de laboratorio en pantalla y con visor, y con visor los estudiantes se sintieron más presentes, pero aprendieron menos y tuvieron mayor carga cognitiva. Radianti y colaboradores observaron que pocas aplicaciones en educación superior se basan en teorías del aprendizaje.",
+      "uni": "Estudiantes de Geología recorren con visor un afloramiento rocoso de otro continente y luego discuten en clase lo observado, porque ahí estar en el lugar sí importa.",
+      "refs": [
+        "makransky19",
+        "radianti20"
+      ]
+    },
+    "respuesta_audiencia": {
+      "pista": "Toda la sala vota desde su teléfono y el resultado aparece al instante en la pantalla.",
+      "why": "La tecnología al servicio del aprendizaje activo: cada estudiante responde con un control o con su teléfono y el docente ve al instante qué entendió el grupo. El metaanálisis de Hunsu, Adesope y Bayly encontró un efecto pequeño sobre el aprendizaje y uno mayor sobre aspectos afectivos, que varía según factores como el tamaño del curso y el tipo de pregunta. Caldwell propone pautas para escribir buenas preguntas: el beneficio depende de cómo se usa, no del aparato.",
+      "uni": "En un curso de Fisiología con 200 estudiantes, el docente lanza una pregunta conceptual, ve que la mitad se equivoca y pide discutir en parejas antes de volver a votar.",
+      "refs": [
+        "hunsu16",
+        "caldwell07"
+      ]
+    },
+    "alfabetizacion_ia": {
+      "pista": "Saber cómo funcionan los chatbots, dónde fallan y cuándo conviene usarlos o no usarlos.",
+      "why": "Usar la IA no basta: hay que entender qué hace, en qué se equivoca y cuándo conviene usarla. Long y Magerko definen esta alfabetización como un conjunto de competencias que permite evaluar críticamente las tecnologías de IA, comunicarse y colaborar con ellas y usarlas como herramienta. Por eso surge de la competencia digital y del pensamiento crítico: DigComp 2.2 ya incluye ejemplos de interacción con sistemas de IA, y evaluar sus respuestas exige contrastar fuentes y detectar errores o sesgos.",
+      "uni": "En un seminario de Derecho, los estudiantes piden a un chatbot jurisprudencia sobre un caso, verifican cada fallo citado en bases oficiales y descubren referencias inventadas.",
+      "refs": [
+        "long20",
+        "digcomp22"
+      ]
+    },
+    "brecha": {
+      "pista": "Desigualdad de conexión, equipos y habilidades que deja atrás a parte del curso cuando la clase pasa a internet.",
+      "why": "Llevar la enseñanza a un entorno virtual supone que todos los estudiantes pueden entrar, y no siempre es así. La desigualdad tiene niveles: primero el acceso a conexión y dispositivos; luego las habilidades y los usos, lo que Hargittai llamó brecha de segundo nivel; y finalmente quién obtiene beneficios reales. Van Dijk sostiene que estas diferencias se entrelazan con las desigualdades sociales existentes y pueden reforzarlas.",
+      "uni": "Antes de exigir trabajo en línea, el docente aplica una encuesta breve sobre conexión y equipos, y descubre que varios estudiantes solo tienen un celular con datos limitados.",
+      "refs": [
+        "hargittai02",
+        "vandijk20"
+      ]
+    },
+    "competencia_digital_docente": {
+      "pista": "Lo que un profesor necesita saber para enseñar, evaluar y crecer en su profesión usando tecnología.",
+      "why": "No basta con dominar herramientas: el profesor necesita usarlas con un propósito pedagógico. El marco europeo DigCompEdu, de Redecker, describe 22 competencias en seis áreas, desde el compromiso profesional y los recursos digitales hasta la evaluación y el desarrollo de la competencia digital de los estudiantes, con seis niveles que van de principiante a pionero. Se diferencia de la competencia digital general porque se centra en lo que la tecnología cambia de la enseñanza.",
+      "uni": "Una profesora de Contabilidad no solo sabe usar la hoja de cálculo: diseña con ella un ejercicio de análisis de casos y la usa para dar retroalimentación a cada grupo.",
+      "refs": [
+        "redecker17"
+      ]
+    },
+    "accesibilidad": {
+      "pista": "Que un lector de pantalla, los subtítulos o el teclado basten para usar tus materiales en línea.",
+      "why": "El DUA pide ofrecer múltiples formas de acceder al aprendizaje; con tecnología, eso exige materiales que funcionen para todas las personas, incluidas quienes usan lector de pantalla, subtítulos o solo el teclado. Las pautas WCAG del W3C lo ordenan en cuatro principios: el contenido debe ser perceptible, operable, comprensible y robusto. Y beneficia a muchos más: Gernsbacher reunió más de cien estudios que muestran que los subtítulos mejoran la comprensión y la memoria de cualquier espectador.",
+      "uni": "Un docente de Historia sube sus cápsulas con subtítulos revisados, describe en texto alternativo cada mapa y entrega las lecturas en PDF accesible en lugar de fotocopias escaneadas.",
+      "refs": [
+        "w3c23",
+        "cast18",
+        "gernsbacher15"
+      ]
+    }
+  },
+  "notas": {
+    "contenido+tecnologia": "Cada disciplina tiene herramientas que cambian lo que se puede mostrar de ella: un software de geometría dinámica, un SIG o un simulador representan el contenido de otra manera.",
+    "pedagogia+tecnologia": "Cuando cruzas cómo enseñas con lo que una herramienta permite, surgen preguntas nuevas: qué participación facilita un foro y qué se gana o se pierde frente a la sala.",
+    "tecnologia+tecnologia": "Tecnología sobre tecnología: modelos entrenados con enormes cantidades de datos digitales que producen contenido nuevo. Es la herramienta más potente y también la que más criterio exige.",
+    "expositiva+tecnologia": "Si a la misma clase expositiva solo le sumas un proyector, la tarea del estudiante no cambia: escuchar y copiar. La herramienta reemplaza a la pizarra sin mejora funcional.",
+    "pedagogia+sustitucion": "Al darle intención pedagógica a la sustitución, la herramienta empieza a aportar algo: por ejemplo, un cuestionario en línea que da retroalimentación inmediata en lugar de la prueba en papel.",
+    "aumento+pedagogia": "Con más diseño pedagógico, la mejora deja de ser un agregado y cambia la tarea: el ensayo individual se vuelve un documento que el grupo escribe y comenta en línea.",
+    "modificacion+pedagogia": "Otra vuelta de pedagogía y la tarea ya no tendría sentido sin la herramienta: estudiantes que publican un análisis para una audiencia real o colaboran con otra universidad.",
+    "asincronico+expositiva": "Llevar la exposición a la modalidad asincrónica la libera del horario: cada estudiante puede pausar, retroceder y volver a ver lo que no entendió.",
+    "segmentacion+video": "Cortar la clase grabada en piezas breves, de una idea cada una, alivia la carga y respeta un dato: los videos largos suelen abandonarse antes del final.",
+    "andamiaje+ia": "La IA sola entrega respuestas; con andamiaje, se configura para dar pistas graduales y pedir razonamiento, de modo que el esfuerzo de pensar siga siendo del estudiante.",
+    "nativos+reflexiva": "Al reflexionar sobre el mito queda claro que usar el teléfono con soltura no es lo mismo que buscar o evaluar información académica: eso hay que enseñarlo.",
+    "tecnologia+tiempo": "La tecnología registra cada acceso, entrega e intento, y el tiempo acumula esas huellas hasta formar patrones que muestran quién avanza y quién se está quedando atrás.",
+    "analitica+reflexiva": "Reflexionar sobre la analítica obliga a hacerse preguntas incómodas: si los estudiantes saben que sus datos se registran, quién los ve y si una alerta puede etiquetarlos injustamente.",
+    "estudiante+ia": "Cuando un estudiante escribe en un chatbot, sus textos y datos pueden quedar en manos de una empresa: antes de exigir su uso, averigua qué se guarda y para qué.",
+    "analitica+ritmo": "Si los datos muestran qué domina cada estudiante, el sistema puede decidir qué practicar después: quien tropieza recibe refuerzo y quien domina avanza sin esperar al resto.",
+    "ia+ritmo": "La IA generativa promete ajustar explicaciones a cada estudiante sobre la marcha, pero la evidencia sólida viene de tutores inteligentes clásicos; la de la IA generativa recién se acumula.",
+    "contenido+virtual": "Publicar contenido en la red no basta para que otros lo reutilicen: con una licencia abierta, cualquier docente puede adaptarlo a su curso y volver a compartirlo.",
+    "asincronico+rea": "Junta recursos abiertos con una modalidad asincrónica y llévalo a miles de personas: así nacieron los MOOC, aunque hoy muchos cobran por el certificado.",
+    "video+virtual": "Las clases grabadas fueron la columna vertebral de los MOOC; de hecho, Guo, Kim y Rubin estudiaron el compromiso justamente con videos de cursos de edX.",
+    "espacio+simulacion": "Cuando la simulación no se mira en una pantalla, sino que te rodea, el espacio mismo pasa a ser parte de lo que se aprende: moverse, orientarse, ver a escala.",
+    "activo+tecnologia": "La tecnología lleva el aprendizaje activo a salas grandes: en segundos todos responden y ves qué piensa el grupo completo, no solo quienes levantan la mano.",
+    "competencia+ia": "La competencia digital se queda corta ante la IA: además de buscar y crear, hay que entender cómo genera sus respuestas y por qué puede inventar datos.",
+    "ia+pensamiento_critico": "Aplicar pensamiento crítico a la IA es tratar cada respuesta como una afirmación por verificar: contrastar fuentes, detectar sesgos y decidir cuándo no conviene usarla.",
+    "estudiante+virtual": "Pasar un curso al entorno virtual supone que cada estudiante tiene conexión, equipo y habilidades; cuando no es así, la modalidad misma deja a algunos afuera.",
+    "proposito+tecnologia": "La tecnología con propósito no depende de la herramienta, sino de quien la elige: saber para qué usarla en tu curso es una competencia profesional del docente.",
+    "competencia+pedagogia": "La competencia digital general se vuelve docente cuando se cruza con la pedagogía: ya no basta con usar herramientas, hay que enseñar, evaluar y diseñar con ellas.",
+    "dua+tecnologia": "El DUA pide múltiples formas de representación; la tecnología las hace posibles solo si es accesible: subtítulos, texto alternativo y documentos que un lector de pantalla pueda leer.",
+    "dua+virtual": "En un entorno virtual, el diseño universal choca con barreras técnicas: un botón sin etiqueta o un video sin subtítulos bloquean a alguien aunque la actividad esté bien pensada."
+  }
+}

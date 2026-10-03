@@ -1,0 +1,143 @@
+<title>Alquimia Docente</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Caveat:wght@500;700&family=Young+Serif&display=swap">
+<style>
+/*ESTILOS*/
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1><span>Alquimia</span> Docente</h1>
+      <p>Combina conceptos de docencia universitaria y descubre por qué funcionan.</p>
+      <span class="revision-flag" id="revFlag" hidden>Modo revisión</span>
+    </div>
+    <div class="stats">
+      <div class="meter" aria-live="polite">
+        <span><b id="count">0</b> fichas · núcleo <span id="nucleo">0 de 0</span></span>
+        <div class="bar" title="Avance en el núcleo verificado"><i id="bar"></i></div>
+      </div>
+      <span class="stat-mini stat-caminos">Caminos <b id="caminosCount">0</b></span>
+      <span class="stat-mini mitos">Mitos <b id="mythCount">0</b></span>
+      <span class="ia-estado" id="iaEstado" hidden></span>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Secciones">
+    <button class="tab" role="tab" data-vista="lab" aria-selected="true" type="button">Laboratorio</button>
+    <button class="tab" role="tab" data-vista="rutas" aria-selected="false" type="button">Rutas</button>
+    <button class="tab" role="tab" data-vista="mapa" aria-selected="false" type="button">Mapa</button>
+    <button class="tab" role="tab" data-vista="cuaderno" aria-selected="false" type="button">Cuaderno</button>
+    <button class="tab" role="tab" data-vista="plan" aria-selected="false" type="button">Mi plan<span class="cuenta" id="planCount"></span></button>
+    <span class="tabs-spacer"></span>
+    <button class="tab taller-tab" id="tabTaller" type="button" hidden>Taller</button>
+  </nav>
+
+  <div class="vistas">
+    <div class="taller-banner" id="tallerBanner" hidden></div>
+
+    <section class="vista lab" id="vLab" role="tabpanel">
+      <div class="destinos" id="destinos"></div>
+      <div class="work">
+        <section class="mesa" id="mesa" aria-label="Mesa de trabajo">
+          <div class="mesa-nota" id="mesaNota">Suelta una ficha sobre otra para combinarlas.<small>Si la receta no está en el núcleo verificado, Claude propone una. Toca cualquier ficha para leer su fundamento.</small></div>
+        </section>
+        <aside class="biblio" id="biblio" aria-label="Tus fichas">
+          <div class="biblio-head">
+            <h2>Tus fichas <small id="listaCount"></small></h2>
+            <input id="buscar" type="search" placeholder="Buscar ficha" aria-label="Buscar ficha" autocomplete="off">
+          </div>
+          <div class="lista" id="lista"></div>
+          <p class="biblio-foot">Arrastra o toca una ficha para llevarla a la mesa. Para retirar una ficha de la mesa, arrástrala de vuelta aquí.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="vista scroll" id="vRutas" role="tabpanel" hidden>
+      <div class="pagina">
+        <header>
+          <h2>Rutas</h2>
+          <p>Cada ruta propone destinos: conceptos a los que puedes llegar combinando fichas. Cada destino tiene varios caminos, y cada camino muestra una faceta distinta del concepto. La última parada es la cumbre de la ruta.</p>
+        </header>
+        <div class="rutas-grid" id="rutasGrid"></div>
+        <div class="libre"><span>¿Prefieres explorar sin destino?</span><button class="btn small" id="btnLibre" type="button">Explorar libre</button></div>
+      </div>
+    </section>
+
+    <section class="vista" id="vMapa" role="tabpanel" hidden>
+      <div class="cielo" id="cieloMapa">
+        <canvas id="canvasMapa" aria-label="Mapa de constelaciones de tus descubrimientos"></canvas>
+        <div class="cielo-info">
+          <h2>Tu constelación</h2>
+          <p id="mapaInfo">Cada estrella es una ficha; cada línea, un camino que encontraste. Arrastra para moverte y usa la rueda o los botones para acercarte.</p>
+        </div>
+        <div class="cielo-ctrl">
+          <button type="button" id="mapaMio" aria-pressed="true">Mi mapa</button>
+          <button type="button" id="mapaComunidad" aria-pressed="false">Comunidad</button>
+          <button type="button" id="mapaMas" aria-label="Acercar">+</button>
+          <button type="button" id="mapaMenos" aria-label="Alejar">−</button>
+          <button type="button" id="mapaCentrar">Centrar</button>
+        </div>
+        <div class="leyenda" id="leyendaMapa"></div>
+        <div class="tooltip" id="tipMapa" hidden></div>
+      </div>
+    </section>
+
+    <section class="vista scroll" id="vCuaderno" role="tabpanel" hidden>
+      <div class="pagina">
+        <header>
+          <h2>Cuaderno de fichas</h2>
+          <p>Todo lo que descubriste, ordenado por familia. Las estrellas marcan las fichas que dominas: encontraste todos sus caminos. Toca una ficha para releerla.</p>
+        </header>
+        <div id="cuadernoCuerpo"></div>
+      </div>
+    </section>
+
+    <section class="vista scroll" id="vPlan" role="tabpanel" hidden>
+      <div class="pagina" id="planPagina"></div>
+    </section>
+  </div>
+</div>
+
+<div class="toasts" id="toasts" aria-live="polite"></div>
+
+<div class="overlay top-layer" id="fichaOv" hidden>
+  <article class="ficha" id="ficha" role="dialog" aria-modal="true" aria-labelledby="fichaTitulo"></article>
+</div>
+
+<div class="overlay" id="panelOv" hidden>
+  <div class="panel" id="panel" role="dialog" aria-modal="true" aria-labelledby="panelTitulo"></div>
+</div>
+
+<div class="proyeccion" id="proyeccion" hidden>
+  <div class="cielo">
+    <canvas id="canvasProy" aria-label="Constelación del taller"></canvas>
+    <div class="cielo-info"><h2 id="proyTitulo">Taller</h2><p>Cada estrella encendida es una ficha que alguien del grupo descubrió. Mientras más grande, más personas llegaron a ella.</p></div>
+    <div class="leyenda" id="leyendaProy"></div>
+    <div class="tooltip" id="tipProy" hidden></div>
+  </div>
+  <aside class="proy-lado">
+    <h2>Destino del grupo</h2>
+    <div class="proy-destino" id="proyDestino"></div>
+    <div class="proy-stats" id="proyStats"></div>
+    <div class="feed" id="proyFeed" aria-live="polite"></div>
+    <button class="btn" id="proyCerrar" type="button">Cerrar proyección</button>
+  </aside>
+</div>
+
+<div class="overlay top-layer" id="confirmOv" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="confirmTitulo">
+    <h2 id="confirmTitulo">¿Borrar tu progreso?</h2>
+    <p id="confirmTexto"></p>
+    <div class="row">
+      <button class="btn" id="confirmNo" type="button">Cancelar</button>
+      <button class="btn danger" id="confirmSi" type="button">Borrar progreso</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/*DATOS*/
+/*MOTOR*/
+</script>

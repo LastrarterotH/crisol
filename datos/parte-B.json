@@ -1,0 +1,188 @@
+{
+  "refs": {
+    "ryan00": "Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. _American Psychologist, 55_(1), 68–78.",
+    "ryan00b": "Ryan, R. M., & Deci, E. L. (2000). Intrinsic and extrinsic motivations: Classic definitions and new directions. _Contemporary Educational Psychology, 25_(1), 54–67.",
+    "bandura77": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. _Psychological Review, 84_(2), 191–215.",
+    "bandura97": "Bandura, A. (1997). _Self-efficacy: The exercise of control_. W. H. Freeman.",
+    "richardson12": "Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: A systematic review and meta-analysis. _Psychological Bulletin, 138_(2), 353–387.",
+    "dweck06": "Dweck, C. S. (2006). _Mindset: The new psychology of success_. Random House.",
+    "sisk18": "Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., & Macnamara, B. N. (2018). To what extent and under what circumstances are growth mind-sets important to academic achievement? Two meta-analyses. _Psychological Science, 29_(4), 549–571.",
+    "pekrun06": "Pekrun, R. (2006). The control-value theory of achievement emotions: Assumptions, corollaries, and implications for educational research and practice. _Educational Psychology Review, 18_(4), 315–341.",
+    "pekrun02": "Pekrun, R., Goetz, T., Titz, W., & Perry, R. P. (2002). Academic emotions in students' self-regulated learning and achievement: A program of qualitative and quantitative research. _Educational Psychologist, 37_(2), 91–105.",
+    "siemens05": "Siemens, G. (2005). Connectivism: A learning theory for the digital age. _International Journal of Instructional Technology and Distance Learning, 2_(1).",
+    "kop08": "Kop, R., & Hill, A. (2008). Connectivism: Learning theory of the future or vestige of the past? _The International Review of Research in Open and Distance Learning, 9_(3).",
+    "kolb84": "Kolb, D. A. (1984). _Experiential learning: Experience as the source of learning and development_. Prentice-Hall.",
+    "facione90": "Facione, P. A. (1990). _Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction_. American Philosophical Association.",
+    "abrami15": "Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A., & Persson, T. (2015). Strategies for teaching students to think critically: A meta-analysis. _Review of Educational Research, 85_(2), 275–314.",
+    "emig77": "Emig, J. (1977). Writing as a mode of learning. _College Composition and Communication, 28_(2), 122–128.",
+    "bangert04": "Bangert-Drowns, R. L., Hurley, M. M., & Wilkinson, B. (2004). The effects of school-based writing-to-learn interventions on academic achievement: A meta-analysis. _Review of Educational Research, 74_(1), 29–58.",
+    "carlino05": "Carlino, P. (2005). _Escribir, leer y aprender en la universidad: Una introducción a la alfabetización académica_. Fondo de Cultura Económica.",
+    "lea98": "Lea, M. R., & Street, B. V. (1998). Student writing in higher education: An academic literacies approach. _Studies in Higher Education, 23_(2), 157–172.",
+    "lave91": "Lave, J., & Wenger, E. (1991). _Situated learning: Legitimate peripheral participation_. Cambridge University Press.",
+    "wenger98": "Wenger, E. (1998). _Communities of practice: Learning, meaning, and identity_. Cambridge University Press.",
+    "boyer90": "Boyer, E. L. (1990). _Scholarship reconsidered: Priorities of the professoriate_. Carnegie Foundation for the Advancement of Teaching.",
+    "hutchings99": "Hutchings, P., & Shulman, L. S. (1999). The scholarship of teaching: New elaborations, new developments. _Change: The Magazine of Higher Learning, 31_(5).",
+    "lewin46": "Lewin, K. (1946). Action research and minority problems. _Journal of Social Issues, 2_(4), 34–46.",
+    "elliott91": "Elliott, J. (1991). _Action research for educational change_. Open University Press.",
+    "edgerton91": "Edgerton, R., Hutchings, P., & Quinlan, K. (1991). _The teaching portfolio: Capturing the scholarship in teaching_. American Association for Higher Education.",
+    "seldin04": "Seldin, P. (2004). _The teaching portfolio: A practical guide to improved performance and promotion/tenure decisions_ (3rd ed.). Anker.",
+    "prosser99": "Prosser, M., & Trigwell, K. (1999). _Understanding learning and teaching: The experience in higher education_. Society for Research into Higher Education & Open University Press.",
+    "trigwell99": "Trigwell, K., Prosser, M., & Waterhouse, F. (1999). Relations between teachers' approaches to teaching and students' approaches to learning. _Higher Education, 37_(1), 57–70.",
+    "uttl17": "Uttl, B., White, C. A., & Gonzalez, D. W. (2017). Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related. _Studies in Educational Evaluation, 54_, 22–42.",
+    "berk05": "Berk, R. A. (2005). Survey of 12 strategies to measure teaching effectiveness. _International Journal of Teaching and Learning in Higher Education, 17_(1), 48–62."
+  },
+  "fichas": {
+    "situado": {
+      "pista": "El saber queda ligado al lugar, la actividad y la cultura donde de verdad se usa."
+    },
+    "motivacion": {
+      "pista": "Estudiar algo porque te interesa en sí mismo, no por la nota ni por un premio.",
+      "why": "Cuando el estudiante hace suyo el propósito de lo que estudia, aparece la motivación intrínseca: hacer algo por el interés o la satisfacción que produce en sí mismo, y no por una recompensa externa. La teoría de la autodeterminación de Ryan y Deci propone que se nutre de tres necesidades psicológicas básicas: autonomía, competencia y vinculación con otros. Por eso un curso con opciones reales, desafíos alcanzables y un clima de respeto tiende a sostenerla mejor que uno basado solo en premios y castigos.",
+      "uni": "En un curso de Estadística, dejar que cada estudiante elija un conjunto de datos de su interés para el proyecto final da autonomía sin bajar la exigencia.",
+      "q": {
+        "t": "Hacer una actividad por las satisfacciones inherentes a ella y no por alguna consecuencia separable.",
+        "a": "Ryan y Deci (2000), definición de motivación intrínseca, traducción propia"
+      },
+      "refs": ["ryan00", "ryan00b"]
+    },
+    "autoeficacia": {
+      "pista": "Confiar en que eres capaz de lograr una tarea concreta, y esforzarte más gracias a eso.",
+      "why": "Para que la motivación se sostenga, el estudiante también necesita creerse capaz. Bandura llamó autoeficacia a la confianza en la propia capacidad para realizar una tarea concreta, y señaló como su fuente más poderosa las experiencias de dominio: lograr algo difícil con el propio esfuerzo. En universitarios, el metaanálisis de Richardson, Abraham y Bond la ubicó entre los correlatos psicológicos más fuertes de las notas, aunque una correlación no basta para probar causalidad.",
+      "uni": "En Programación, encadenar ejercicios de dificultad creciente que el estudiante logra resolver solo construye más autoeficacia que repetirle que es capaz.",
+      "refs": ["bandura77", "bandura97", "richardson12"]
+    },
+    "mentalidad": {
+      "pista": "Creer que la habilidad se desarrolla con esfuerzo y buenas estrategias, en vez de venir fija.",
+      "why": "Dweck distinguió entre creer que la inteligencia es un rasgo fijo y creer que puede desarrollarse con esfuerzo, buenas estrategias y ayuda; a esta segunda creencia la llamó mentalidad de crecimiento. Unida a la metacognición, invita a leer un error como información sobre qué ajustar. Su fama supera a la evidencia: los dos metaanálisis de Sisk y colaboradores hallaron una relación débil con el rendimiento y efectos pequeños de las intervenciones, algo mayores en estudiantes de nivel socioeconómico bajo o en riesgo académico.",
+      "uni": "Al devolver un parcial de Cálculo, en vez de elogiar la inteligencia de alguien, comentar qué estrategia funcionó y cuál conviene cambiar para el próximo intento.",
+      "refs": ["dweck06", "sisk18"]
+    },
+    "emociones": {
+      "pista": "Ansiedad antes del examen, orgullo al aprobar, aburrimiento en clase: lo que se siente al estudiar.",
+      "why": "Evaluar despierta emociones: ansiedad antes de un examen, orgullo o alivio al aprobar, vergüenza o desesperanza al reprobar. Pekrun las llama emociones de logro y, en su teoría de control-valor, propone que dependen de cuánto control siente el estudiante sobre la tarea y cuánto valor le atribuye. Sus estudios, muchos con universitarios, encontraron que el disfrute y la esperanza tienden a asociarse con mejor rendimiento, y la desesperanza y el aburrimiento, con peor rendimiento.",
+      "uni": "Ofrecer un ensayo sin nota antes del primer parcial de Química General puede aumentar la sensación de control del estudiante, que según esta teoría reduce la ansiedad.",
+      "refs": ["pekrun06", "pekrun02"]
+    },
+    "modelado": {
+      "pista": "El experto resuelve en voz alta para mostrar lo que normalmente pasa solo dentro de su cabeza.",
+      "why": "Una clase expositiva puede mostrar no solo la respuesta, sino el pensamiento que lleva a ella. En el modelo de aprendiz cognitivo (cognitive apprenticeship), Collins, Brown y Newman llaman modelado a que el experto realice la tarea mientras hace explícitos sus procesos internos, para que se vean las estrategias, dudas y comprobaciones que normalmente quedan ocultas. Es el primer paso de una secuencia que sigue con el acompañamiento (coaching), el andamiaje y su retiro gradual.",
+      "uni": "En Física, el docente resuelve un problema en la pizarra diciendo en voz alta por qué elige una ecuación, cómo estima el resultado y qué revisa cuando algo no cuadra.",
+      "refs": ["collins89"]
+    },
+    "conectivismo": {
+      "pista": "Aprender sería también armar y recorrer redes de personas, fuentes y nodos digitales.",
+      "why": "Si el conocimiento se organiza como una red y esa red vive en entornos digitales, aprender pasa a ser también construir y recorrer conexiones entre personas, fuentes y herramientas. Siemens propuso el conectivismo con esa idea: parte del conocimiento reside en la red, y saber dónde encontrarlo importa tanto o más que lo que uno ya sabe. Su estatus es discutido: Kop y Hill concluyeron que no queda claro que sea una teoría del aprendizaje por sí misma, aunque sí impulsa nuevas pedagogías en red.",
+      "uni": "En un seminario de posgrado, cada estudiante sigue a investigadores del área, reúne fuentes en un tablero compartido y enlaza lo que encuentra con los aportes de sus compañeros.",
+      "refs": ["siemens05", "kop08"]
+    },
+    "experiencial": {
+      "pista": "Un ciclo: vivir una situación concreta, observarla, sacar conceptos y probarlos en otra.",
+      "why": "Kolb describió el aprendizaje experiencial como un ciclo de cuatro momentos: vivir una experiencia concreta, observarla reflexivamente, formar conceptos abstractos y ponerlos a prueba en nuevas situaciones. Por eso surge de unir el contexto real con la acción y la reflexión: la vivencia sola no basta si nadie la procesa. Conviene separar el ciclo de los estilos de aprendizaje que Kolb derivó de él, porque adaptar la enseñanza a estilos no tiene respaldo empírico, según la revisión de Pashler y colaboradores.",
+      "uni": "En Agronomía, el estudiante maneja una parcela, registra lo que observa, lo contrasta con la teoría vista en clase y ajusta su siguiente intervención en el terreno.",
+      "refs": ["kolb84", "pashler08"]
+    },
+    "pensamiento_critico": {
+      "pista": "Analizar y evaluar argumentos y evidencias antes de aceptar una conclusión o tomar una decisión.",
+      "why": "Un panel de expertos coordinado por Facione definió el pensamiento crítico como un juicio intencional y autorregulado que interpreta, analiza, evalúa e infiere, y que explica las evidencias y criterios en que se apoya. Se forma cuando el estudiante aprende a pedir evidencias y a vigilar su propio razonamiento. No surge solo con exponerse al contenido: el metaanálisis de Abrami y colaboradores mostró que la enseñanza lo mejora, sobre todo cuando combina diálogo, problemas auténticos y acompañamiento de un mentor.",
+      "uni": "En Derecho, analizar un fallo identificando la tesis, las premisas, la evidencia citada y los contraargumentos que el tribunal no consideró.",
+      "refs": ["facione90", "abrami15"]
+    },
+    "escribir": {
+      "pista": "Redactar no solo para mostrar lo que sabes, sino para descubrir qué entiendes de verdad.",
+      "why": "Escribir para aprender usa la escritura como herramienta para pensar el contenido, no solo para mostrar lo aprendido. Emig sostuvo que escribir es un modo singular de aprendizaje, porque obliga a organizar y hacer explícitas las ideas. El metaanálisis de Bangert-Drowns, Hurley y Wilkinson encontró un efecto positivo pero pequeño en el rendimiento, mayor cuando las consignas pedían reflexionar sobre la propia comprensión: qué se entiende, qué confunde y cómo se está aprendiendo.",
+      "uni": "Al cierre de una clase de Microeconomía, pedir un minuto de escritura: explicar con palabras propias el concepto central y anotar la duda que todavía queda.",
+      "refs": ["emig77", "bangert04"]
+    },
+    "alfabetizacion_academica": {
+      "pista": "Enseñar a leer y redactar como lo hace cada disciplina, dentro de cada asignatura universitaria.",
+      "why": "Cada disciplina tiene sus propias formas de leer y escribir: un informe de laboratorio no se escribe como un ensayo filosófico. Carlino llama alfabetización académica a las nociones y estrategias para participar en esa cultura discursiva, y sostiene que deben enseñarse dentro de cada asignatura, en lugar de suponer que el estudiante ya las domina al ingresar o de delegarlas en un taller remedial. Lea y Street plantearon que las dificultades de escritura universitaria no son solo técnicas: implican aprender las convenciones, los valores y la identidad de cada campo.",
+      "uni": "En Historia, antes de pedir un ensayo, analizar con el curso un artículo modelo para ver cómo el autor plantea su tesis, cita fuentes primarias y discute con otros historiadores.",
+      "refs": ["carlino05", "lea98"]
+    },
+    "comunidad_practica": {
+      "pista": "Un grupo que comparte un oficio, donde el novato se forma participando junto a los expertos.",
+      "why": "Lave y Wenger analizaron cómo los recién llegados aprenden un oficio participando en él: primero en tareas periféricas pero legítimas y, gradualmente, en las centrales, un proceso que llamaron participación periférica legítima. Wenger caracterizó después la comunidad de práctica por el compromiso mutuo de sus miembros, una empresa conjunta y un repertorio compartido de herramientas, lenguaje y formas de hacer. En esta mirada, aprender es también construir una identidad profesional.",
+      "uni": "Un laboratorio donde el tesista novato aprende del equipo, o un grupo de docentes de Ingeniería que se reúne cada mes a revisar casos de su enseñanza, funcionan como comunidades de práctica.",
+      "refs": ["lave91", "wenger98"]
+    },
+    "cpc": {
+      "pista": "Saber qué ejemplos, analogías y errores típicos hacen fácil o difícil enseñar un tema concreto."
+    },
+    "tpack": {
+      "pista": "Marco donde disciplina, didáctica y tecnología se cruzan para decidir cómo integrar herramientas digitales."
+    },
+    "reflexiva": {
+      "pista": "Pensar durante y después de cada clase sobre lo que hiciste, para ajustar cómo enseñas."
+    },
+    "evidencia": {
+      "pista": "Enseñar contrastando cada método con lo que muestran estudios revisados por pares, no con modas."
+    },
+    "sotl": {
+      "pista": "Estudiar con método el aprendizaje en tus cursos y publicar los hallazgos para que otros los revisen.",
+      "why": "Cuando la reflexión sobre tus clases se vuelve sistemática, se apoya en evidencia y se comparte, se convierte en investigación sobre la propia docencia (Scholarship of Teaching and Learning, SoTL). Boyer propuso en 1990 reconocer la enseñanza como una forma de trabajo académico, y Hutchings y Shulman precisaron que el SoTL exige hacer público el trabajo para que otros lo revisen críticamente y construyan sobre él. Así, mejorar un curso también aporta conocimiento a la comunidad.",
+      "uni": "Una docente de Anatomía compara dos cohortes, una con cuestionarios de recuperación y otra sin ellos, analiza los resultados con aprobación ética y los presenta en un congreso de docencia universitaria.",
+      "refs": ["boyer90", "hutchings99"]
+    },
+    "investigacion_accion": {
+      "pista": "Ciclos de planificar, intervenir, observar y reflexionar para mejorar una situación concreta de tu curso.",
+      "why": "Lewin describió la investigación-acción como una espiral de ciclos de planificar, actuar y examinar los resultados de la acción para decidir el paso siguiente. En docencia, la hace el propio profesor sobre su práctica: identifica un problema real de su curso, prueba un cambio, recoge datos y reflexiona antes del ciclo siguiente. Elliott la impulsó como vía para que el profesorado investigue y transforme su enseñanza; su fuerza está en la mejora local, no en generalizar resultados.",
+      "uni": "Un docente de Contabilidad nota que muchos abandonan tras la primera prueba, introduce tutorías semanales, registra asistencia y notas durante el semestre y ajusta el plan para el siguiente.",
+      "refs": ["lewin46", "elliott91"]
+    },
+    "portafolio_docente": {
+      "pista": "Colección comentada de evidencias de cómo enseñas, útil para mejorar o para postular a una promoción.",
+      "why": "Así como el estudiante reúne evidencias de su aprendizaje, el docente puede reunir evidencias seleccionadas de su enseñanza (programas, materiales, trabajos de estudiantes, observaciones de pares, encuestas) acompañadas de una reflexión que las interpreta. Edgerton, Hutchings y Quinlan lo propusieron como forma de documentar el trabajo académico de enseñar, y Seldin lo difundió tanto para mejorar la docencia como para decisiones de promoción. Su valor depende de esa reflexión selectiva, no de acumular documentos.",
+      "uni": "Para solicitar una promoción académica, una profesora de Biología presenta su filosofía docente, dos programas rediseñados, ejemplos de retroalimentación y una reflexión sobre cómo esos datos cambiaron su curso.",
+      "refs": ["edgerton91", "seldin04"]
+    },
+    "enfoques_ensenanza": {
+      "pista": "Centrarte en transmitir información o en cambiar lo que tus estudiantes comprenden: dos intenciones al dar clase.",
+      "why": "Prosser y Trigwell distinguieron dos enfoques extremos en profesores universitarios: uno centrado en el docente, que busca transmitir información, y otro centrado en el estudiante, que busca cambiar su comprensión. En cursos de ciencias de primer año, Trigwell, Prosser y Waterhouse encontraron que el enfoque de transmisión se asociaba con más aprendizaje superficial en los estudiantes. Reflexionar sobre el propio enfoque importa porque está en la intención, no solo en el método: una exposición también puede buscar comprensión.",
+      "uni": "Un profesor de Física que expone cambia de enfoque cuando deja de preguntarse cuánto alcanzó a cubrir y empieza a preguntarse qué entendieron sus estudiantes y cómo lo sabe.",
+      "refs": ["prosser99", "trigwell99"]
+    },
+    "eval_docencia": {
+      "pista": "Juzgar la calidad de un profesor cruzando estudiantes, pares, portafolio y resultados, no solo encuestas.",
+      "why": "Las encuestas estudiantiles recogen experiencias valiosas, pero no alcanzan para juzgar la docencia: el metaanálisis de Uttl, White y Gonzalez no encontró relación entre esas valoraciones y el aprendizaje de los estudiantes al considerar los estudios con muestras grandes. Por eso Berk propone triangular varias fuentes: opiniones estudiantiles, observación de pares, autoevaluación, portafolio docente y medidas de aprendizaje. Cada fuente tiene sesgos distintos y, juntas, compensan sus puntos ciegos.",
+      "uni": "Para evaluar a un académico, una comisión combina las encuestas del curso con dos observaciones de pares, su portafolio docente y el desempeño de sus estudiantes en asignaturas posteriores.",
+      "refs": ["uttl17", "berk05"]
+    }
+  },
+  "notas": {
+    "espacio+estudiante": "Llevar al estudiante a un espacio real de su futura profesión (hospital, obra, tribunal) cambia lo que aprende: el saber queda ligado al lugar y la actividad donde se usa.",
+    "contenido+espacio": "Un contenido enseñado donde vive (la planta industrial, el terreno, el archivo) conserva sus vínculos con la práctica; aprendido solo en abstracto, después cuesta aplicarlo.",
+    "estudiante+proposito": "Cuando el propósito del curso deja de ser solo del docente y el estudiante lo hace suyo, estudia por interés en lo que aprende y no solo por la nota.",
+    "dominio+motivacion": "El dominio ofrece lo que Bandura consideró la fuente más poderosa de autoeficacia: comprobar con tu propio esfuerzo que lograste algo difícil, lo que alimenta las ganas de seguir.",
+    "metacognicion+motivacion": "La motivación aporta las ganas de mejorar y la metacognición, la mirada sobre tus propias estrategias: juntas sostienen la idea de que la habilidad crece ajustando cómo estudias.",
+    "evaluacion+motivacion": "La evaluación pone en juego lo que el estudiante valora y cuánto control siente sobre el resultado; de ese cruce nacen la ansiedad, el orgullo, la vergüenza o la esperanza.",
+    "expositiva+metacognicion": "Si en la exposición el docente narra su propio monitoreo (qué intenta, cuándo duda, cómo verifica), la clase deja de mostrar solo resultados y enseña la forma experta de pensar.",
+    "mapa+virtual": "Un mapa conceptual muestra el conocimiento como una red de nodos y enlaces; llevado a un entorno virtual, esos nodos pasan a ser también personas, fuentes y comunidades conectadas.",
+    "reflexiva+situado": "El contexto real aporta la experiencia concreta y la reflexión la convierte en conceptos; sin ese procesamiento, la vivencia en terreno se queda en anécdota y no cierra el ciclo.",
+    "activo+situado": "Hacer cosas en un contexto real activa la otra mitad del ciclo: probar ideas en situaciones nuevas y ver qué pasa, en lugar de solo escuchar cómo se aplican.",
+    "estudiante+evidencia": "Cuando el estudiante adopta el hábito de preguntar de dónde viene una afirmación y qué datos la sostienen, empieza a juzgar argumentos en lugar de solo memorizarlos.",
+    "metacognicion+problema": "Un problema auténtico obliga a sopesar alternativas sin respuesta única; la metacognición agrega la vigilancia sobre el propio razonamiento, sus sesgos y sus supuestos.",
+    "contenido+metacognicion": "Escribir sobre el contenido obliga a ponerlo en palabras propias, y las consignas metacognitivas (qué entiendo, qué me confunde) resultaron especialmente eficaces en la investigación.",
+    "cpc+escribir": "Saber cómo se escribe en tu disciplina es parte del conocimiento pedagógico del contenido: enseñarlo de forma explícita da acceso a los géneros que el campo da por sabidos.",
+    "escribir+situado": "Escribir en los géneros reales de la disciplina (informe clínico, memoria de cálculo, reseña crítica) sitúa la escritura en la comunidad donde esos textos se usan y se juzgan.",
+    "grupo+situado": "Un grupo que trabaja en el mismo contexto real permite que el novato aprenda participando junto a los más expertos, desde tareas periféricas hasta las centrales del oficio.",
+    "grupo+reflexiva": "Cuando varios docentes reflexionan juntos y con regularidad sobre su práctica, la mejora deja de ser individual: se construye un repertorio compartido de casos, lenguaje y soluciones.",
+    "contenido+pedagogia": "Saber la disciplina y saber enseñar no se suman sin más: al cruzarlos aparece un saber nuevo sobre cómo representar ese tema concreto para que alguien lo entienda.",
+    "cambio_conceptual+pedagogia": "Shulman incluyó en este conocimiento saber qué concepciones erróneas traen los estudiantes sobre un tema y qué estrategias sirven para reorganizarlas: pedagogía aplicada al cambio conceptual.",
+    "cpc+tecnologia": "Si ya sabes enseñar tu tema y le sumas tecnología, la pregunta cambia: qué herramienta potencia esa forma específica de representar el contenido para tus estudiantes.",
+    "contenido+tpk": "Saber usar tecnología para enseñar en general no basta: cuando ese conocimiento tecnopedagógico se cruza con un contenido concreto, aparecen decisiones propias de cada disciplina.",
+    "pedagogia+tck": "Saber qué tecnologías transforman tu disciplina (simuladores, software estadístico, bases de datos) es el punto de partida; la pedagogía decide cómo usarlas para que tus estudiantes aprendan.",
+    "mas_tecnologia+reflexiva": "Al reflexionar sobre el mito de que más tecnología trae más aprendizaje, descubres que el valor no está en la herramienta, sino en su encaje con el contenido y la pedagogía.",
+    "pedagogia+pedagogia": "Aplicar la pedagogía sobre sí misma es mirar tu propia enseñanza como objeto de estudio: preguntarte por qué una clase funcionó o no, y ajustarla.",
+    "piramide+reflexiva": "Al preguntarte de dónde salen las cifras de la pirámide, descubres que ningún estudio las respalda: ese hábito de rastrear la fuente original es la base de esta forma de enseñar.",
+    "ciencia_aprendizaje+pedagogia": "Cuando la pedagogía se alimenta de lo que la ciencia del aprendizaje ha probado sobre memoria, atención y práctica, tus decisiones de clase pasan de la intuición a los datos.",
+    "evidencia+reflexiva": "La práctica reflexiva aporta preguntas sobre tu propia clase y la docencia informada por evidencia, el rigor para responderlas; juntas convierten la intuición en conocimiento compartible.",
+    "evidencia+investigacion_accion": "La investigación-acción mejora tu curso en ciclos; si además usas métodos rigurosos y publicas lo que aprendes para que otros lo revisen, el ciclo se vuelve SoTL.",
+    "reflexiva+tiempo": "La reflexión sostenida en el tiempo se ordena en ciclos: planificas un cambio, lo aplicas, observas qué pasó y vuelves a planificar con lo aprendido.",
+    "problema+reflexiva": "Un problema auténtico de tu propio curso, como alta reprobación o baja participación, da el punto de partida; la reflexión sistemática sobre cómo enfrentarlo hace el resto.",
+    "portafolio+reflexiva": "El portafolio que el docente pide a sus estudiantes, aplicado a sí mismo y acompañado de reflexión, se convierte en un registro comentado de cómo enseña y por qué.",
+    "expositiva+reflexiva": "Reflexionar sobre tus clases expositivas revela tu intención de fondo: si la exposición busca cubrir el programa o provocar cambios en cómo tus estudiantes entienden el tema.",
+    "activo+reflexiva": "Al revisar por qué usas actividades, ves que cambiar el método no basta: el enfoque centrado en el estudiante depende de buscar su comprensión, no de moverse más en clase.",
+    "encuestas+reflexiva": "Al reflexionar sobre el mito, ves que las encuestas miden la experiencia del estudiante, no su aprendizaje; la salida no es descartarlas, sino cruzarlas con otras fuentes.",
+    "evaluacion+portafolio_docente": "Llevar la lógica de la evaluación al portafolio docente implica criterios claros y varias evidencias convergentes, igual que no calificarías a un estudiante con un solo instrumento."
+  }
+}

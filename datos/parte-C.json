@@ -1,0 +1,205 @@
+{
+  "refs": {
+    "christensen91": "Christensen, C. R., Garvin, D. A., & Sweet, A. (Eds.). (1991). _Education for judgment: The artistry of discussion leadership_. Harvard Business School Press.",
+    "herreid94": "Herreid, C. F. (1994). Case studies in science: A novel method of science education. _Journal of College Science Teaching, 23_(4), 221–229.",
+    "nichols08": "Nichols, M. H., & Cator, K. (2008). _Challenge based learning white paper_. Apple, Inc.",
+    "leijon22": "Leijon, M., Gudmundsson, P., Staaf, P., & Christersson, C. (2022). Challenge based learning in higher education: A systematic literature review. _Innovations in Education and Teaching International, 59_(5), 609–618.",
+    "bringle95": "Bringle, R. G., & Hatcher, J. A. (1995). A service-learning curriculum for faculty. _Michigan Journal of Community Service Learning, 2_, 112–122.",
+    "celio11": "Celio, C. I., Durlak, J., & Dymnicki, A. (2011). A meta-analysis of the impact of service-learning on students. _Journal of Experiential Education, 34_(2), 164–181.",
+    "aronson78": "Aronson, E., Blaney, N., Stephan, C., Sikes, J., & Snapp, M. (1978). _The jigsaw classroom_. Sage.",
+    "vives25": "Vives, E., Poletti, C., Robert, A., Butera, F., Huguet, P., ProFAN Consortium, & Régner, I. (2025). Learning with jigsaw: A systematic review gathering all the pieces of the puzzle more than 40 years later. _Review of Educational Research, 95_(3), 339–384.",
+    "lyman81": "Lyman, F. T. (1981). The responsive classroom discussion: The inclusion of all students. En A. S. Anderson (Ed.), _Mainstreaming digest_ (pp. 109–113). University of Maryland, College of Education.",
+    "smith09": "Smith, M. K., Wood, W. B., Adams, W. K., Wieman, C., Knight, J. K., Guild, N., & Su, T. T. (2009). Why peer discussion improves student performance on in-class concept questions. _Science, 323_(5910), 122–124.",
+    "deterding11": "Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). From game design elements to gamefulness: Defining \"gamification\". En _Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments_ (pp. 9–15). ACM.",
+    "sailer20": "Sailer, M., & Homner, L. (2020). The gamification of learning: A meta-analysis. _Educational Psychology Review, 32_(1), 77–112.",
+    "gee03": "Gee, J. P. (2003). _What video games have to teach us about learning and literacy_. Palgrave Macmillan.",
+    "wouters13": "Wouters, P., van Nimwegen, C., van Oostendorp, H., & van der Spek, E. D. (2013). A meta-analysis of the cognitive and motivational effects of serious games. _Journal of Educational Psychology, 105_(2), 249–265.",
+    "cook11": "Cook, D. A., Hatala, R., Brydges, R., Zendejas, B., Szostek, J. H., Wang, A. T., Erwin, P. J., & Hamstra, S. J. (2011). Technology-enhanced simulation for health professions education: A systematic review and meta-analysis. _JAMA, 306_(9), 978–988.",
+    "chernikova20": "Chernikova, O., Heitzmann, N., Stadler, M., Holzberger, D., Seidel, T., & Fischer, F. (2020). Simulation-based learning in higher education: A meta-analysis. _Review of Educational Research, 90_(4), 499–541.",
+    "alfieri11": "Alfieri, L., Brooks, P. J., Aldrich, N. J., & Tenenbaum, H. R. (2011). Does discovery-based instruction enhance learning? _Journal of Educational Psychology, 103_(1), 1–18.",
+    "lazonder16": "Lazonder, A. W., & Harmsen, R. (2016). Meta-analysis of inquiry-based learning: Effects of guidance. _Review of Educational Research, 86_(3), 681–718.",
+    "topping96": "Topping, K. J. (1996). The effectiveness of peer tutoring in further and higher education: A typology and review of the literature. _Higher Education, 32_(3), 321–345.",
+    "roscoe07": "Roscoe, R. D., & Chi, M. T. H. (2007). Understanding tutor learning: Knowledge-building and knowledge-telling in peer tutors' explanations and questions. _Review of Educational Research, 77_(4), 534–574.",
+    "schon87": "Schön, D. A. (1987). _Educating the reflective practitioner: Toward a new design for teaching and learning in the professions_. Jossey-Bass.",
+    "lave91": "Lave, J., & Wenger, E. (1991). _Situated learning: Legitimate peripheral participation_. Cambridge University Press.",
+    "beichner07": "Beichner, R. J., Saul, J. M., Abbott, D. S., Morse, J. J., Deardorff, D. L., Allain, R. J., Bonham, S. W., Dancy, M. H., & Risley, J. S. (2007). The student-centered activities for large enrollment undergraduate programs (SCALE-UP) project. En E. F. Redish & P. J. Cooney (Eds.), _Research-based reform of university physics_ (Vol. 1). American Association of Physics Teachers.",
+    "brooks11": "Brooks, D. C. (2011). Space matters: The impact of formal learning environments on student learning. _British Journal of Educational Technology, 42_(5), 719–726.",
+    "burbules12": "Burbules, N. C. (2012). Ubiquitous learning and the future of teaching. _Encounters on Education, 13_, 3–14.",
+    "sharples07": "Sharples, M., Taylor, J., & Vavoula, G. (2007). A theory of learning for the mobile age. En R. Andrews & C. Haythornthwaite (Eds.), _The SAGE handbook of e-learning research_ (pp. 221–247). Sage.",
+    "sung16": "Sung, Y.-T., Chang, K.-E., & Liu, T.-C. (2016). The effects of integrating mobile devices with teaching and learning on students' learning performance: A meta-analysis and research synthesis. _Computers & Education, 94_, 252–275.",
+    "moore93": "Moore, M. G. (1993). Theory of transactional distance. En D. Keegan (Ed.), _Theoretical principles of distance education_ (pp. 22–38). Routledge.",
+    "hodges20": "Hodges, C., Moore, S., Lockee, B., Trust, T., & Bond, A. (2020). The difference between emergency remote teaching and online learning. _EDUCAUSE Review_.",
+    "salmon00": "Salmon, G. (2000). _E-moderating: The key to teaching and learning online_. Kogan Page.",
+    "moule07": "Moule, P. (2007). Challenging the five-stage model for e-learning: A new approach. _ALT-J, Research in Learning Technology, 15_(1), 37–50."
+  },
+  "fichas": {
+    "grupo": { "pista": "Varias personas que estudian juntas, aunque eso solo no asegura que aprendan unas de otras." },
+    "activo": { "pista": "El estudiante deja de solo escuchar y pasa a hacer, resolver y pensar sobre lo que hace." },
+    "cooperativo": { "pista": "Trabajo en equipo estructurado, donde cada integrante depende de los demás y responde por su propia parte." },
+    "problema": { "pista": "Una situación real de la disciplina, abierta, con datos incompletos y sin una única respuesta correcta." },
+    "abp": { "pista": "Nació en una facultad de medicina canadiense: primero llega la situación clínica por resolver y después la teoría." },
+    "proyectos": { "pista": "Trabajo extendido durante semanas, guiado por una pregunta motriz, que termina en un producto concreto." },
+    "expositiva": { "pista": "El docente habla y los estudiantes escuchan y toman apuntes: el formato universitario más antiguo." },
+    "peer": { "pista": "Pregunta conceptual, voto individual, conversación con el compañero de al lado y nueva votación." },
+    "invertida": { "pista": "Lo que antes se explicaba en la sala se ve en casa, y la sesión se usa para trabajar." },
+    "presencial": { "pista": "Todos en la misma sala y a la misma hora, como en la universidad de siempre." },
+    "virtual": { "pista": "Un espacio de estudio que vive en internet: plataforma, foros y materiales sin edificio." },
+    "sincronico": { "pista": "Todos conectados a la vez desde lugares distintos, viéndose por cámara." },
+    "asincronico": { "pista": "Cada uno entra cuando puede: foros, lecturas y tareas sin horario compartido." },
+    "blended": { "pista": "Parte del curso ocurre en la sala y parte en línea, rediseñando qué conviene en cada lugar." },
+    "hyflex": { "pista": "En cada sesión el estudiante elige si asiste a la sala, se conecta en vivo o avanza después." },
+    "coi": { "pista": "Tres presencias, cognitiva, social y docente, para que un curso en línea piense en conjunto." },
+
+    "casos": {
+      "pista": "Una historia real con un dilema, que el curso analiza y discute para decidir qué haría.",
+      "why": "Un problema auténtico, contado como una situación concreta con un dilema y examinado con pensamiento crítico: eso es un caso. El método nació en la Escuela de Derecho de Harvard hacia 1870 y en los años veinte pasó a su Escuela de Negocios. Christensen, Garvin y Sweet muestran que su valor depende de cómo el docente conduce la discusión, y Herreid lo llevó a las ciencias para entrenar el análisis de evidencia y la toma de decisiones.",
+      "uni": "En un curso de gestión, los estudiantes leen la situación real de una empresa que debe decidir si exporta, defienden posturas con los datos del caso y acuerdan una recomendación.",
+      "refs": ["christensen91", "herreid94"]
+    },
+    "retos": {
+      "pista": "Equipos que abordan un desafío social abierto junto a actores externos y llegan a implementar una solución.",
+      "why": "Cuando un proyecto se abre a un problema auténtico amplio, definido junto a actores externos, surge el aprendizaje basado en retos. Nichols y Cator lo formularon para Apple en 2008: de una gran idea se pasa a una pregunta esencial, a un reto concreto y a una solución que se implementa. Hoy lo usan universidades como el Tecnológico de Monterrey, pero la revisión de Leijon y colaboradores encontró pocos estudios (36 en once años) y escasa fundamentación teórica.",
+      "uni": "En Ingeniería Civil, los equipos trabajan un semestre con el municipio en el reto de reducir las inundaciones de un barrio y presentan un prototipo de drenaje a vecinos y autoridades.",
+      "refs": ["nichols08", "leijon22"]
+    },
+    "servicio": {
+      "pista": "Estudiantes que atienden una necesidad real de la comunidad como parte del curso y reflexionan sobre ello.",
+      "why": "Un proyecto situado en una necesidad real de la comunidad, y no en un encargo ficticio, da el aprendizaje-servicio. Bringle y Hatcher lo definen como una experiencia con créditos académicos en la que un servicio organizado responde a necesidades de la comunidad y se acompaña de reflexión para comprender mejor el curso. El metaanálisis de Celio, Durlak y Dymnicki (62 estudios) encontró mejoras en actitudes, compromiso cívico, habilidades sociales y rendimiento académico, mayores con reflexión y vínculo curricular.",
+      "uni": "Estudiantes de Contabilidad asesoran a microemprendedores del barrio en sus declaraciones de impuestos y luego escriben una reflexión que conecta lo vivido con las normas tributarias del curso.",
+      "refs": ["bringle95", "celio11"]
+    },
+    "jigsaw": {
+      "pista": "Cada integrante recibe solo una pieza del tema, y el equipo necesita a todos para armar el todo.",
+      "why": "Una estructura cooperativa que reparte el contenido en partes: cada integrante estudia una, la profundiza con quienes tienen la misma en un grupo de expertos y vuelve a enseñarla a su equipo. Aronson y colaboradores la crearon en los años setenta en escuelas recién desegregadas de Austin, Texas, para reducir la competencia y los prejuicios. La revisión sistemática de Vives y colaboradores (69 estudios) encontró efectos en general positivos, pero variables según la disciplina y el resultado medido.",
+      "uni": "En Farmacología, cada integrante estudia una familia de fármacos, la discute con quienes estudiaron la misma en otros equipos y luego la explica a su equipo antes de resolver un caso integrador.",
+      "refs": ["aronson78", "vives25"]
+    },
+    "tps": {
+      "pista": "Un minuto en silencio para cada uno, luego conversación en parejas y, al final, puesta en común.",
+      "why": "Es la forma más simple de unir aprendizaje activo y trabajo en grupo: una pregunta, un tiempo individual para pensar, una conversación en parejas y una puesta en común con todo el curso. Frank Lyman la propuso en 1981 para que participaran todos, no solo quienes responden más rápido. Smith y colaboradores mostraron, en un curso universitario de ciencias, que conversar con un compañero mejora la comprensión incluso cuando nadie en la pareja sabía antes la respuesta.",
+      "uni": "En Cálculo, el docente proyecta una gráfica, da un minuto para escribir qué representa la derivada en ese punto, luego dos minutos en parejas, y elige tres respuestas para comentar.",
+      "refs": ["lyman81", "smith09"]
+    },
+    "gamificacion": {
+      "pista": "Puntos, insignias, niveles y narrativa añadidos a un curso que, en sí mismo, no es un pasatiempo.",
+      "why": "Si la tecnología se usa para encender la motivación con puntos, insignias, niveles o narrativas, aparece la gamificación: Deterding y colaboradores la definen como el uso de elementos de diseño de juegos en contextos que no son juegos. El metaanálisis de Sailer y Homner encontró efectos positivos pequeños en resultados cognitivos, motivacionales y conductuales, que dependen del diseño. Ojo: puntos e insignias son recompensas externas y no garantizan, por sí solos, la motivación intrínseca.",
+      "uni": "En un curso de Programación, los estudiantes suben de nivel al resolver ejercicios en la plataforma y desbloquean desafíos opcionales, mientras el docente cuida que el ranking no desaliente a quienes van atrás.",
+      "refs": ["deterding11", "sailer20"]
+    },
+    "abj": {
+      "pista": "El contenido vive dentro de la partida: avanzar en ella exige entender la materia.",
+      "why": "Cuando los elementos de juego dejan de ser una capa sobre el curso y el contenido pasa a estar dentro del juego, hablamos de aprendizaje basado en juegos: avanzar exige comprender. Gee sostuvo que los buenos videojuegos aplican principios de aprendizaje sólidos. El metaanálisis de Wouters y colaboradores encontró que los juegos serios enseñan más que la instrucción convencional, aunque no resultaron más motivadores, y que rinden mejor combinados con otras actividades y en varias sesiones.",
+      "uni": "En Economía, el curso juega varias rondas de un juego de mercado donde los equipos fijan precios, y luego analiza los resultados con los modelos de oferta y demanda vistos en clase.",
+      "refs": ["gee03", "wouters13"]
+    },
+    "simulacion": {
+      "pista": "Practicar decisiones de alto riesgo en un escenario controlado, donde equivocarse no daña a nadie.",
+      "why": "La simulación recrea con tecnología una situación profesional para practicar donde equivocarse no tiene costo real: un maniquí clínico, un simulador de vuelo o un laboratorio virtual. Cook y colaboradores, con 609 estudios en ciencias de la salud, hallaron efectos grandes en conocimientos y habilidades frente a no recibir esa formación. Chernikova y colaboradores, en varias disciplinas universitarias, encontraron efectos grandes en habilidades complejas, potenciados por el andamiaje.",
+      "uni": "En Enfermería, el equipo atiende a un maniquí que entra en paro cardíaco y después el docente conduce un análisis guiado (debriefing) de cada decisión tomada.",
+      "refs": ["cook11", "chernikova20"]
+    },
+    "indagacion": {
+      "pista": "Los estudiantes investigan una pregunta como científicos, con apoyos que el docente ajusta y va retirando.",
+      "why": "Investigar un problema auténtico como lo haría la disciplina, pero con andamiaje: preguntas orientadoras, plantillas, pistas y retroalimentación. Es la respuesta de la investigación al descubrimiento puro: el metaanálisis de Alfieri y colaboradores mostró que el descubrimiento sin ayuda rinde menos que la instrucción explícita, mientras que el descubrimiento asistido rinde más. Lazonder y Harmsen confirmaron que la guía mejora las actividades, el desempeño y el aprendizaje en la indagación.",
+      "uni": "En Química, en vez de seguir una receta, los equipos diseñan cómo medir la velocidad de una reacción, apoyados por preguntas escalonadas y una revisión del docente antes de ejecutar.",
+      "refs": ["alfieri11", "lazonder16"]
+    },
+    "tutoria_pares": {
+      "pista": "Un estudiante algo más avanzado acompaña a otro, y ambos terminan entendiendo mejor la materia.",
+      "why": "Un compañero algo más avanzado puede trabajar justo en la zona de desarrollo próximo de otro, con un lenguaje cercano y sin la distancia de la jerarquía. Topping revisó la tutoría entre pares en educación superior y encontró evidencia en general favorable, con variaciones según el formato. Roscoe y Chi mostraron que el tutor también aprende, sobre todo cuando construye explicaciones y reflexiona, en lugar de solo repetir lo que sabe.",
+      "uni": "Estudiantes de tercer año que aprobaron Anatomía guían sesiones semanales para los de primer año, con formación previa y supervisión del equipo docente.",
+      "refs": ["topping96", "roscoe07"]
+    },
+    "practicas": {
+      "pista": "Un periodo prolongado trabajando en una organización real, acompañado por alguien del oficio y un docente.",
+      "why": "Las prácticas profesionales llevan el aprendizaje situado a un tiempo prolongado dentro de una organización real. Schön propuso el practicum reflexivo: aprender una profesión haciéndola, con la orientación de alguien con experiencia que ayuda a reflexionar sobre la acción. Lave y Wenger describen ese tránsito como participación periférica legítima: quien recién llega empieza con tareas acotadas y, con el tiempo, se integra plenamente a la comunidad de práctica.",
+      "uni": "Una estudiante de Trabajo Social pasa un semestre en un centro comunitario, lleva una bitácora reflexiva y se reúne cada dos semanas con su supervisora de terreno y su docente.",
+      "refs": ["schon87", "lave91"]
+    },
+    "aula_activa": {
+      "pista": "Mesas redondas, pizarras en todas las paredes y sin un frente fijo: el espacio invita a trabajar juntos.",
+      "why": "Cuando la pedagogía rediseña el espacio, la sala deja de mirar a un frente: mesas para equipos, pizarras en las paredes y pantallas compartidas. Beichner y colaboradores lo hicieron con el proyecto SCALE-UP para cursos introductorios masivos de física. Brooks comparó el mismo curso, con el mismo docente, en una sala tradicional y en una de aprendizaje activo, y en la segunda los estudiantes rindieron más. El espacio facilita, pero no reemplaza el diseño de la actividad.",
+      "uni": "En un curso de Física de 90 estudiantes, una sala con mesas redondas para nueve permite alternar explicaciones breves con problemas en equipos de tres mientras el docente circula entre las mesas.",
+      "refs": ["beichner07", "brooks11"]
+    },
+    "ubicuo": {
+      "pista": "Cualquier lugar y momento sirve para estudiar: la calle, el trabajo, el bus o la biblioteca.",
+      "why": "Si se suman un espacio y otro y otro más, el aprendizaje deja de tener un solo lugar. Burbules analiza el aprendizaje ubicuo, la posibilidad de aprender en cualquier lugar y momento, y lo que implica para enseñar: un aprendizaje más continuo, integrado a las actividades diarias, más situado y que mezcla lo formal con lo informal. Más que un método, es una condición del contexto actual que el docente puede aprovechar.",
+      "uni": "Estudiantes de Arquitectura fotografían edificios de su ciudad durante la semana, los suben a un muro colaborativo con un comentario técnico y el curso los analiza en la siguiente sesión.",
+      "refs": ["burbules12"]
+    },
+    "movil": {
+      "pista": "El celular en el bolsillo convertido en herramienta de estudio, que acompaña al estudiante de un lugar a otro.",
+      "why": "Cuando el aprendizaje ubicuo se apoya en dispositivos que caben en el bolsillo, se vuelve aprendizaje móvil. Sharples, Taylor y Vavoula insisten en que lo móvil no es solo el aparato sino el estudiante, que aprende a través de conversaciones en múltiples contextos. El metaanálisis de Sung, Chang y Liu (110 estudios) encontró un efecto moderado a favor de integrar dispositivos móviles en la enseñanza, aunque el efecto varía según la actividad y el contexto.",
+      "uni": "En Geología, durante una salida a terreno, los estudiantes registran afloramientos con el celular, los georreferencian y responden preguntas breves que el docente revisa esa misma tarde.",
+      "refs": ["sharples07", "sung16"]
+    },
+    "distancia": {
+      "pista": "La lejanía psicológica entre docente y estudiante, que depende del diseño del curso y no de los kilómetros.",
+      "why": "Pensar la educación en línea desde la pedagogía revela que la distancia que importa no es geográfica. Moore la llamó distancia transaccional: un espacio psicológico y de comunicación entre docente y estudiante, ligado a tres elementos, el diálogo, la estructura del curso y la autonomía del estudiante. Un curso muy estructurado y con poco diálogo se siente lejano aunque el docente esté en la misma ciudad; más diálogo la acorta.",
+      "uni": "Un curso en línea con módulos cerrados y sin foros se siente lejano; agregar retroalimentación semanal y un espacio para negociar el tema del trabajo final reduce esa distancia.",
+      "refs": ["moore93", "moore89"]
+    },
+    "remota_emergencia": {
+      "pista": "Lo que hicieron muchas universidades en marzo de 2020: trasladar de golpe todo a la videollamada.",
+      "why": "Llevar la clase expositiva tal cual a la sesión sincrónica, de un día para otro y por fuerza mayor, no es educación en línea. Hodges y colaboradores propusieron en 2020 el término enseñanza remota de emergencia para distinguir esa respuesta de crisis, pensada para dar acceso rápido y temporal, de un curso en línea bien diseñado, que requiere meses de planificación. Por eso advierten que no conviene juzgar la educación en línea por lo vivido en la pandemia.",
+      "q": { "t": "Un cambio temporal de la entrega de la enseñanza a un modo alternativo debido a circunstancias de crisis.", "a": "Hodges y colaboradores (2020), traducción propia" },
+      "uni": "Un curso de Historia que en 2020 pasó a dos horas diarias de videollamada con cámaras apagadas fue enseñanza remota de emergencia; rediseñarlo con lecturas, foros y encuentros breves ya es otra cosa.",
+      "refs": ["hodges20"]
+    },
+    "emoderacion": {
+      "pista": "Una escalera para cursos en línea: primero entrar y sentirse parte, al final construir conocimiento juntos.",
+      "why": "Una comunidad en línea no nace madura: necesita andamiaje por fases. Gilly Salmon, a partir de su experiencia en la Open University, propuso cinco etapas como una escalera: acceso y motivación, socialización en línea, intercambio de información, construcción de conocimiento y desarrollo. En cada peldaño cambia el rol del moderador, que diseña actividades adecuadas a ese momento. Moule advierte que no debe usarse como plantilla única para todo diseño en línea.",
+      "uni": "En un diplomado en línea, la primera semana solo pide entrar al aula virtual y presentarse con una foto del lugar de trabajo; el análisis de casos en foros llega en la cuarta.",
+      "refs": ["salmon00", "moule07"]
+    }
+  },
+  "notas": {
+    "estudiante+estudiante": "Dos estudiantes juntos ya forman un grupo, pero solo eso: reunirse no asegura aprender juntos si nadie estructura la tarea.",
+    "estudiante+pedagogia": "Cuando la pedagogía se pone al servicio de quien aprende, el estudiante deja de escuchar en silencio y pasa a hacer y a pensar sobre lo que hace.",
+    "atencion10+reflexiva": "Desarmar el mito de los diez minutos no lleva a hablar más rato, sino a otra conclusión: intercalar momentos en que el estudiante resuelve y discute sostiene mejor el compromiso.",
+    "grupo+pedagogia": "Un grupo se vuelve equipo cuando la pedagogía diseña la tarea: metas compartidas, roles, responsabilidad individual y tiempo para revisar cómo trabajaron.",
+    "contenido+situado": "El contenido puesto en su contexto real deja de ser un tema de manual y aparece como lo que la disciplina enfrenta: un problema abierto y desordenado.",
+    "grupo+problema": "Un problema abierto entregado a un grupo pequeño, antes de la teoría, obliga a poner en común lo que saben y a definir qué necesitan estudiar.",
+    "cooperativo+problema": "Si el equipo ya trabaja de forma cooperativa, el problema auténtico le da el motor: cada integrante investiga una parte de lo que falta saber y la trae de vuelta.",
+    "abp+tiempo": "Dale semanas a un problema y deja de resolverse en una sesión de tutoría: se convierte en un proyecto que termina en un producto concreto.",
+    "contenido+presencial": "Contenido y presencialidad, sin más ingredientes, dan la forma más antigua de enseñar en la universidad: alguien explica en la sala y el resto escucha.",
+    "contenido+grupo": "Entregar el mismo contenido a muchas personas a la vez es la razón de ser de la exposición: eficiente para cubrir materia, pero el grupo queda como audiencia.",
+    "activo+expositiva": "La exposición no se elimina: se interrumpe con preguntas conceptuales que cada estudiante vota, discute con su compañero y vuelve a votar.",
+    "grupo+respuesta_audiencia": "Los clickers o encuestas en vivo muestran al instante cómo se divide el curso; con eso, la conversación entre compañeros tiene un punto de partida concreto.",
+    "activo+capsula": "Si la explicación queda en una cápsula para ver antes, el tiempo de la sesión se libera para lo activo: problemas, casos y discusión con el docente cerca.",
+    "capsula+presencial": "La cápsula se lleva la parte expositiva fuera de la sala, y la presencialidad queda para lo que solo se puede hacer juntos y con el docente presente.",
+    "pensamiento_critico+problema": "Un problema auténtico narrado como situación concreta, más el hábito de evaluar evidencia y argumentos, da el caso: analizar, discutir y decidir con datos incompletos.",
+    "problema+proyectos": "Un proyecto que se abre a un problema real amplio, definido junto a actores externos, se vuelve un reto: la solución se pone a prueba fuera de la sala.",
+    "proyectos+situado": "Un proyecto situado en una necesidad real de la comunidad, con créditos y reflexión, es aprendizaje-servicio: se aprende la disciplina mientras se aporta algo concreto.",
+    "experiencial+proyectos": "El ciclo de vivir, reflexionar y conceptualizar, aplicado a un proyecto con la comunidad, es el núcleo del aprendizaje-servicio: sin reflexión sería solo voluntariado.",
+    "contenido+cooperativo": "Divide el contenido en piezas y entrega una a cada integrante del equipo cooperativo: nadie puede armar el tema completo sin lo que aportan los demás.",
+    "cooperativo+segmentacion": "Segmentar el material crea la interdependencia: cada segmento pasa por un grupo de expertos y vuelve al equipo base, donde se ensambla el todo.",
+    "activo+grupo": "La forma más breve de juntar actividad y grupo: pensar a solas, conversar en parejas y compartir con el curso, todo en pocos minutos.",
+    "motivacion+tecnologia": "Usar la tecnología para alimentar la motivación con puntos, niveles y narrativa da la gamificación; el riesgo es reemplazar el interés propio por premios externos.",
+    "contenido+gamificacion": "Cuando el contenido deja de estar debajo de los puntos y pasa a estar dentro del juego, ya no es gamificación: avanzar en la partida exige entender la materia.",
+    "situado+tecnologia": "La tecnología recrea el contexto profesional sin sus riesgos: el estudiante actúa en una situación realista que puede repetir cuantas veces necesite.",
+    "problema+tecnologia": "Un problema auténtico montado en un simulador deja de ser un enunciado: el estudiante toma decisiones, ve sus consecuencias y luego las analiza.",
+    "andamiaje+problema": "Un problema auténtico sin apoyo abruma; con andamiaje (preguntas guía, plantillas y retroalimentación), el estudiante investiga como en la disciplina sin perderse.",
+    "descubrimiento+reflexiva": "Examinar el mito del descubrimiento sin guía no lleva a descartar que el estudiante investigue: lleva a darle estructura, porque el descubrimiento asistido sí funciona.",
+    "grupo+zdp": "Dentro de un grupo hay quienes ya dominan lo que otros todavía no; un compañero algo más avanzado puede trabajar justo en la zona de desarrollo próximo del otro.",
+    "situado+tiempo": "El aprendizaje situado sostenido en el tiempo, semanas o meses dentro de una organización real, se convierte en prácticas profesionales.",
+    "comunidad_practica+situado": "Entrar a una comunidad de práctica real es empezar en la periferia con tareas acotadas y avanzar hacia la participación plena: eso ocurre en una pasantía bien acompañada.",
+    "espacio+tiempo": "Mismo lugar y mismo momento: cuando espacio y tiempo coinciden para todos, tienes la presencialidad, con su interacción inmediata y su exigencia de estar ahí.",
+    "espacio+tecnologia": "La tecnología crea un espacio que no depende de un edificio: plataforma, foros y materiales a los que se entra desde cualquier lugar.",
+    "tiempo+virtual": "Un entorno virtual con hora compartida da la sesión sincrónica: todos conectados a la vez, con respuesta inmediata, aunque cada uno esté en un lugar distinto.",
+    "ritmo+virtual": "Cuando el entorno virtual respeta el ritmo de cada estudiante, nadie necesita estar conectado a la misma hora: cada uno participa en su momento.",
+    "presencial+virtual": "Sumar presencialidad y entorno virtual no es duplicar el curso: es decidir qué rinde más en la sala y qué rinde más en línea.",
+    "blended+ritmo": "Si en un curso combinado el estudiante además elige su ritmo, cada sesión ofrece tres rutas equivalentes: en la sala, en línea en vivo o en diferido.",
+    "grupo+virtual": "Un grupo en línea se vuelve comunidad de indagación cuando hay presencia cognitiva, social y docente; sin ellas, el foro es solo un tablón de anuncios.",
+    "espacio+pedagogia": "Cuando la pedagogía diseña el espacio, la sala deja de mirar a un frente: mesas para equipos, pizarras en las paredes y un docente que circula.",
+    "activo+presencial": "El aprendizaje activo en la sala choca con bancos fijos mirando al frente; una sala pensada para equipos hace que trabajar juntos sea lo natural.",
+    "espacio+espacio": "Un espacio más otro y otro más: cuando cualquier lugar puede servir para estudiar, el aprendizaje deja de depender de la sala.",
+    "tecnologia+ubicuo": "El aprendizaje ubicuo necesita un medio que acompañe al estudiante; el teléfono en el bolsillo lo hace posible en terreno, en el transporte o en el trabajo.",
+    "situado+virtual": "Llevar el entorno virtual al lugar donde ocurre el fenómeno, una obra, un hospital o un río, permite aprender situado con el dispositivo en la mano.",
+    "pedagogia+virtual": "Mirar el entorno virtual con ojos pedagógicos muestra que la lejanía no es de kilómetros: depende de cuánto diálogo y cuánta estructura tenga el curso.",
+    "expositiva+sincronico": "Trasladar la exposición tal cual a la videollamada, de un día para otro, fue la respuesta de 2020: útil en la crisis, pero no es un curso en línea diseñado.",
+    "andamiaje+coi": "Para que una comunidad de indagación madure en línea necesita andamiaje por fases: primero acceso y confianza, después intercambio y, al final, construcción de conocimiento.",
+    "andamiaje+asincronico": "En foros asincrónicos, el andamiaje toma forma de escalera: actividades breves y estructuradas para cada fase, con un moderador que cambia su rol a medida que el grupo avanza."
+  }
+}

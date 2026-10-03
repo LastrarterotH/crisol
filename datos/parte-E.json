@@ -1,0 +1,179 @@
+{
+  "refs": {
+    "boud95": "Boud, D. (1995). _Enhancing learning through self assessment_. Kogan Page.",
+    "panadero17": "Panadero, E., Jonsson, A., & Botella, J. (2017). Effects of self-assessment on self-regulated learning and self-efficacy: Four meta-analyses. _Educational Research Review, 22_, 74–98.",
+    "topping98": "Topping, K. (1998). Peer assessment between students in colleges and universities. _Review of Educational Research, 68_(3), 249–276.",
+    "falchikov00": "Falchikov, N., & Goldfinch, J. (2000). Student peer assessment in higher education: A meta-analysis comparing peer and teacher marks. _Review of Educational Research, 70_(3), 287–322.",
+    "mccabe01": "McCabe, D. L., Treviño, L. K., & Butterfield, K. D. (2001). Cheating in academic institutions: A decade of research. _Ethics & Behavior, 11_(3), 219–232.",
+    "bretag16": "Bretag, T. (Ed.). (2016). _Handbook of academic integrity_. Springer.",
+    "carless18": "Carless, D., & Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. _Assessment & Evaluation in Higher Education, 43_(8), 1315–1325.",
+    "tai18": "Tai, J., Ajjawi, R., Boud, D., Dawson, P., & Panadero, E. (2018). Developing evaluative judgement: Enabling students to make decisions about the quality of work. _Higher Education, 76_(3), 467–481.",
+    "sadler89": "Sadler, D. R. (1989). Formative assessment and the design of instructional systems. _Instructional Science, 18_(2), 119–144.",
+    "paulson91": "Paulson, F. L., Paulson, P. R., & Meyer, C. A. (1991). What makes a portfolio a portfolio? _Educational Leadership, 48_(5), 60–63.",
+    "driessen07": "Driessen, E., van Tartwijk, J., van der Vleuten, C., & Wass, V. (2007). Portfolios in medical education: Why do they meet with mixed success? A systematic review. _Medical Education, 41_(12), 1224–1233.",
+    "angelo93": "Angelo, T. A., & Cross, K. P. (1993). _Classroom assessment techniques: A handbook for college teachers_ (2nd ed.). Jossey-Bass.",
+    "fives13": "Fives, H., & DiDonato-Barnes, N. (2013). Classroom test construction: The power of a table of specifications. _Practical Assessment, Research & Evaluation, 18_, artículo 3.",
+    "messick89": "Messick, S. (1989). Validity. En R. L. Linn (Ed.), _Educational measurement_ (3rd ed., pp. 13–103). American Council on Education; Macmillan.",
+    "aera14": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). _Standards for educational and psychological testing_. American Educational Research Association.",
+    "kelley39": "Kelley, T. L. (1939). The selection of upper and lower groups for the validation of test items. _Journal of Educational Psychology, 30_(1), 17–24.",
+    "haladyna13": "Haladyna, T. M., & Rodriguez, M. C. (2013). _Developing and validating test items_. Routledge.",
+    "glaser63": "Glaser, R. (1963). Instructional technology and the measurement of learning outcomes: Some questions. _American Psychologist, 18_(8), 519–521.",
+    "butler88": "Butler, R. (1988). Enhancing and undermining intrinsic motivation: The effects of task-involving and ego-involving evaluation on interest and performance. _British Journal of Educational Psychology, 58_(1), 1–14.",
+    "lipnevich09": "Lipnevich, A. A., & Smith, J. K. (2009). Effects of differential feedback on students' examination performance. _Journal of Experimental Psychology: Applied, 15_(4), 319–333.",
+    "boud00": "Boud, D. (2000). Sustainable assessment: Rethinking assessment for the learning society. _Studies in Continuing Education, 22_(2), 151–167.",
+    "snyder71": "Snyder, B. R. (1971). _The hidden curriculum_. Knopf."
+  },
+  "fichas": {
+    "evaluacion": {
+      "pista": "Poner frente a frente lo que el estudiante demuestra y lo que se buscaba lograr."
+    },
+    "diagnostica": {
+      "pista": "Averiguar qué sabe ya el curso antes de empezar a enseñar un tema."
+    },
+    "sumativa": {
+      "pista": "El juicio final que certifica cuánto se logró cuando el periodo ya terminó."
+    },
+    "retro": {
+      "pista": "Información que vuelve al estudiante y le dice dónde está y qué hacer después."
+    },
+    "formativa": {
+      "pista": "Revisar el avance mientras la enseñanza ocurre, para ajustar el rumbo a tiempo."
+    },
+    "recuperacion": {
+      "pista": "Intentar traer algo a la memoria sin mirar los apuntes, y así fijarlo mejor."
+    },
+    "rubrica": {
+      "pista": "Criterios y niveles de desempeño explícitos, compartidos con el estudiante antes de entregar."
+    },
+    "dominio": {
+      "pista": "Nadie pasa a la unidad siguiente hasta lograr la actual, con el tiempo que necesite."
+    },
+    "autentica": {
+      "pista": "Pedir tareas como las del mundo profesional, no preguntas que solo existen en un examen."
+    },
+    "autoevaluacion": {
+      "pista": "El estudiante juzga su propio trabajo con criterios, antes de que lo haga el docente.",
+      "why": "Si el estudiante aplica a su propio trabajo los criterios con que se evalúa, la evaluación se vuelve un ejercicio metacognitivo. Boud la entiende como identificar qué criterios aplican y juzgar en qué medida se cumplieron; su valor es formativo, no ponerse la nota. En cuatro metaanálisis, Panadero, Jonsson y Botella encontraron efectos positivos de la autoevaluación sobre las estrategias de autorregulación y la autoeficacia.",
+      "uni": "Antes de entregar el informe de laboratorio, cada estudiante marca en la rúbrica el nivel que cree haber alcanzado y justifica en una frase por qué.",
+      "refs": ["boud95", "panadero17"]
+    },
+    "coevaluacion": {
+      "pista": "Compañeros de curso revisan y juzgan el trabajo de otros con criterios comunes.",
+      "why": "Cuando el grupo asume parte de la evaluación, cada estudiante revisa el trabajo de sus compañeros con criterios compartidos. Topping revisó los estudios en educación superior y concluyó que la evaluación entre pares suele tener confiabilidad y validez adecuadas. El metaanálisis de Falchikov y Goldfinch mostró que las notas de los pares se parecen más a las del docente cuando se pide un juicio global con criterios bien comprendidos, en lugar de puntuar muchas dimensiones por separado.",
+      "uni": "En un curso de diseño, cada estudiante revisa con la rúbrica dos anteproyectos anónimos de compañeros y deja un comentario por criterio antes de la entrega final.",
+      "refs": ["topping98", "falchikov00"]
+    },
+    "integridad": {
+      "pista": "Honestidad, confianza y responsabilidad compartidas al estudiar, investigar y rendir pruebas.",
+      "why": "Cuando la evaluación se entiende como un asunto de toda la comunidad, y no solo del docente que vigila, aparece la integridad académica: el compromiso compartido con la honestidad, la confianza, la justicia, el respeto y la responsabilidad. McCabe, Treviño y Butterfield revisaron una década de investigación y concluyeron que el contexto, en especial lo que cada estudiante percibe que hacen sus compañeros, pesa más que los factores individuales. El manual editado por Bretag reúne el campo.",
+      "uni": "Al inicio del semestre, acordar con el curso qué usos de la IA se permiten en cada tarea y pedir que cada entrega declare cómo se usó.",
+      "refs": ["mccabe01", "bretag16"]
+    },
+    "alf_retro": {
+      "pista": "Saber entender, valorar y usar los comentarios que se reciben sobre el propio trabajo.",
+      "why": "Los comentarios solo sirven si el estudiante sabe qué hacer con ellos. Carless y Boud definen la alfabetización en retroalimentación como las comprensiones, capacidades y disposiciones necesarias para dar sentido a esa información y usarla para mejorar el trabajo o las estrategias de aprendizaje. Proponen cuatro rasgos: valorar la retroalimentación, formarse juicios sobre la calidad, manejar las emociones que provoca y pasar a la acción. No basta con dar mejores comentarios: hay que enseñar a usarlos.",
+      "uni": "Al devolver el primer borrador, cada estudiante resume en tres líneas qué entendió de los comentarios y qué cambiará en la versión final.",
+      "refs": ["carless18"]
+    },
+    "juicio": {
+      "pista": "Capacidad de distinguir la calidad de un trabajo, propio o ajeno, sin depender del docente.",
+      "why": "Reconocer la calidad del trabajo propio y ajeno es una capacidad que se puede entrenar: Tai y colaboradores la llaman juicio evaluativo y proponen desarrollarla de forma explícita en la universidad. La idea se apoya en Sadler, quien sostuvo que, para mejorar, el estudiante necesita una noción de calidad parecida a la del docente, poder comparar su trabajo con ella y estrategias para cerrar la brecha. Se cultiva con autoevaluación, evaluación entre pares, rúbricas y análisis de ejemplos.",
+      "uni": "Antes de escribir su ensayo, los estudiantes ordenan del mejor al peor tres ensayos anónimos de años anteriores y discuten qué criterios usaron para ordenarlos.",
+      "refs": ["tai18", "sadler89"]
+    },
+    "portafolio": {
+      "pista": "Colección de trabajos elegidos por el estudiante, con reflexiones que muestran cómo progresó.",
+      "why": "Paulson, Paulson y Meyer definen el portafolio como una colección intencionada de trabajos que muestra el esfuerzo, el progreso y los logros del estudiante, quien participa en elegir qué incluir y reflexiona sobre ello. Así la evaluación se extiende en el tiempo y pide reflexión, no solo productos. La evidencia es mixta: la revisión de Driessen y colaboradores en educación médica halló efectos más claros en pregrado y concluyó que el portafolio necesita integrarse de verdad al currículo y contar con apoyo de un tutor.",
+      "uni": "En un taller de arquitectura, cada estudiante selecciona tres láminas del semestre y escribe, para cada una, qué muestra de su avance y qué haría distinto hoy.",
+      "refs": ["paulson91", "driessen07"]
+    },
+    "cats": {
+      "pista": "Ejercicios de un minuto, sin calificación, para saber en plena clase qué se entendió.",
+      "why": "Angelo y Cross reunieron en un manual para docentes universitarios 50 técnicas breves, por lo general anónimas y sin nota, para averiguar durante el curso qué están aprendiendo los estudiantes. Dos de las más usadas son el papel de un minuto (¿qué fue lo más importante de hoy?, ¿qué pregunta te quedó?) y el punto más confuso. Son evaluación formativa en miniatura: lo que revelan sirve para ajustar la clase siguiente.",
+      "uni": "En una clase expositiva de microeconomía, los últimos tres minutos se usan para que cada estudiante anote el punto más confuso; la clase siguiente parte por ahí.",
+      "refs": ["angelo93"]
+    },
+    "tabla": {
+      "pista": "Plano de una prueba que cruza contenidos con niveles cognitivos y reparte el peso.",
+      "why": "Es el plano de una prueba: cruza los contenidos o resultados de aprendizaje con niveles cognitivos, por ejemplo los de la taxonomía revisada de Anderson y Krathwohl, e indica cuántos ítems o puntos corresponden a cada celda. Así la prueba refleja lo enseñado con el peso que tuvo. Fives y DiDonato-Barnes la presentan como una herramienta para que las pruebas hechas por el propio docente permitan conclusiones más válidas.",
+      "uni": "Para el examen parcial de bioquímica, el docente arma una matriz con las cuatro unidades en filas y recordar, aplicar y analizar en columnas, y reparte los puntos según el tiempo dedicado.",
+      "refs": ["fives13", "anderson01"]
+    },
+    "validez": {
+      "pista": "¿Mide lo que dice medir, y daría lo mismo con otro corrector u otro día?",
+      "why": "Toda evaluación es una inferencia sobre lo que el estudiante sabe, y esa inferencia puede fallar de dos maneras. La confiabilidad es la consistencia del resultado con otro corrector, otra versión u otro día. La validez, según Messick y los Estándares de AERA, APA y NCME, no es una propiedad del instrumento: es el grado en que la evidencia y la teoría respaldan las interpretaciones y usos de los puntajes. Una prueba puede ser muy confiable y aun así medir otra cosa.",
+      "uni": "Si un examen de estadística tiene enunciados tan largos que la nota refleja sobre todo comprensión lectora, el puntaje puede ser estable y aun así no decir cuánta estadística saben.",
+      "refs": ["messick89", "aera14"]
+    },
+    "analisis_items": {
+      "pista": "Revisar, pregunta por pregunta, cuántos acertaron y si distinguió a quienes sabían más.",
+      "why": "Después de una prueba, los resultados de cada pregunta también evalúan a la pregunta. Se calcula la dificultad (qué proporción acertó) y la discriminación (si acertaron más quienes tuvieron mejor puntaje total) y, en la opción múltiple, qué distractores se eligieron. Kelley mostró que comparar el 27 % superior con el 27 % inferior es óptimo para este fin; Haladyna y Rodriguez lo integran en la validación de ítems. Un ítem que discrimina al revés suele esconder un error de clave o de redacción.",
+      "uni": "Si en la pregunta 12 del examen final los estudiantes con mejores notas eligieron el distractor C más que los de notas bajas, revisa la clave y la redacción antes de publicar las notas.",
+      "refs": ["kelley39", "haladyna13"]
+    },
+    "criterial": {
+      "pista": "La nota depende de alcanzar un estándar fijado de antemano, no de cómo le fue al resto.",
+      "why": "Glaser distinguió en 1963 dos maneras de interpretar un puntaje: referido a la norma, comparándolo con el resto del grupo, o referido a criterio, comparándolo con un estándar de desempeño definido de antemano. En la segunda, todos pueden obtener la nota máxima si alcanzan el estándar. Biggs y Tang la defienden en la universidad porque es coherente con el alineamiento constructivo, a diferencia de calificar con curva normal.",
+      "uni": "En vez de reservar la nota máxima al 10 % mejor del curso, se publica la rúbrica y obtiene la nota máxima quien alcance el nivel más alto, sean tres estudiantes o treinta.",
+      "refs": ["glaser63", "biggs11"]
+    },
+    "comentarios": {
+      "pista": "Devolver el trabajo solo con observaciones escritas, dejando fuera la calificación.",
+      "why": "Cuando la nota y los comentarios llegan juntos, la nota suele acaparar la atención. En un estudio clásico con escolares, Butler encontró que el interés y el desempeño fueron más altos cuando se entregaron solo comentarios; la nota, sola o acompañada de comentarios, tendió a socavarlos. Con universitarios, Lipnevich y Smith observaron que la retroalimentación detallada funcionó mejor cuando llegaba sin nota ni elogio. No implica eliminar las notas, sino separar el momento de mejorar del momento de calificar.",
+      "uni": "En un curso de redacción académica, el primer borrador vuelve solo con comentarios y únicamente se califica la versión corregida.",
+      "refs": ["butler88", "lipnevich09"]
+    },
+    "sostenible": {
+      "pista": "Preparar al estudiante para juzgar su propio desempeño cuando ya no haya docente que lo califique.",
+      "why": "Boud propuso la evaluación sostenible: la que cumple las necesidades formativas y sumativas del curso y, a la vez, prepara al estudiante para atender sus propias necesidades de aprendizaje futuras. Después de egresar no habrá docente que califique; el profesional tendrá que valorar por sí mismo la calidad de su trabajo, lo que Tai y colaboradores llaman juicio evaluativo. Por eso privilegia tareas realistas, autoevaluación y diálogo sobre criterios más que la nota aislada.",
+      "uni": "En un curso de enfermería, cada entrega incluye una autoevaluación con los criterios del servicio clínico, que el docente compara con la suya para ir calibrando el juicio del estudiante.",
+      "refs": ["boud00", "tai18"]
+    },
+    "efecto_retroactivo": {
+      "pista": "Lo que entra en la prueba termina decidiendo qué y cómo estudian, y a veces qué se enseña.",
+      "why": "La evaluación no solo mide: orienta qué y cómo estudian los estudiantes, y a veces qué se enseña. Snyder mostró, con estudiantes del MIT y de Wellesley, que junto al currículo declarado existe uno oculto: aprender a descifrar qué se evalúa de verdad para obtener buenas notas. Biggs y Tang llaman backwash a este efecto y proponen aprovecharlo: si la evaluación está alineada con los resultados de aprendizaje, empuja hacia un aprendizaje profundo; si no, puede premiar la memorización superficial.",
+      "uni": "Si el examen final solo pide definiciones, aunque el programa prometa análisis de casos, los estudiantes estudiarán con tarjetas de memoria; si pide resolver un caso nuevo, practicarán con casos.",
+      "refs": ["snyder71", "biggs11"]
+    }
+  },
+  "notas": {
+    "estudiante+resultados": "Los resultados de aprendizaje dicen qué debería lograr el estudiante; ponerlos frente a lo que efectivamente muestra es el gesto básico de evaluar.",
+    "evaluacion+previos": "Evaluar antes de enseñar, apuntando a lo que el estudiante ya trae, convierte la evaluación en un mapa de partida en vez de un veredicto final.",
+    "evaluacion+tiempo": "Ubicar la evaluación al cierre del periodo cambia su función: ya no queda tiempo para corregir el rumbo, así que sirve para certificar lo logrado.",
+    "estudiante+evaluacion": "Si la información que produce la evaluación no se queda con el docente y vuelve al estudiante con pistas sobre qué hacer, se transforma en retroalimentación.",
+    "evaluacion+retro": "Una evaluación cuya información regresa al estudiante a tiempo para mejorar deja de juzgar el final y pasa a acompañar el proceso.",
+    "evaluacion+pedagogia": "Cuando el docente usa lo que revela la evaluación para decidir cómo sigue enseñando, evaluar pasa a ser parte de la pedagogía y no un trámite posterior.",
+    "activo+evaluacion": "Responder preguntas obliga a sacar la información de la memoria, algo mucho más activo que releer; así, una evaluación de bajo riesgo también enseña.",
+    "reflexiva+releer": "Reflexionar sobre por qué releer da sensación de saber sin mucho aprendizaje real lleva a cambiarlo por intentar recordar sin mirar el texto.",
+    "resultados+retro": "Si los resultados de aprendizaje se escriben como criterios y niveles, la retroalimentación puede señalar con precisión dónde está cada trabajo y qué le falta.",
+    "evaluacion+ritmo": "Respetar el ritmo de cada estudiante y evaluar cada etapa, con opción de reintentar, permite que la mayoría alcance el nivel esperado antes de avanzar.",
+    "detectores+reflexiva": "Pensar críticamente en los detectores de IA muestra que vigilar no basta; la salida más sólida es rediseñar tareas que exijan proceso, contexto y juicio propio.",
+    "evaluacion+problema": "Si la evaluación se construye en torno a un problema real de la profesión, deja de medir el recuerdo aislado y pide aplicar lo aprendido como un profesional.",
+    "evaluacion+situado": "Si el aprendizaje ocurre en contexto, evaluarlo fuera de contexto pierde sentido; la prueba se traslada al escenario donde ese saber se usa.",
+    "evaluacion+metacognicion": "La metacognición es monitorear el propio pensamiento; aplicada a la evaluación, se convierte en revisar el propio trabajo con criterios y reconocer qué está logrado y qué no.",
+    "estudiante+rubrica": "Una rúbrica en manos del estudiante, y no solo del docente, le permite ubicar su propio trabajo en cada nivel antes de entregarlo.",
+    "evaluacion+grupo": "Repartir la evaluación dentro del grupo hace que cada estudiante revise el trabajo de otros y reciba más miradas de las que un solo docente puede ofrecer.",
+    "grupo+rubrica": "Una rúbrica compartida le da al grupo un lenguaje común de calidad, para que los comentarios entre compañeros se basen en criterios y no en simpatías.",
+    "comunidad_practica+evaluacion": "Una comunidad de práctica comparte normas además de saberes; cuando esas normas abarcan cómo se evalúa y se produce con honestidad, surge una cultura de integridad.",
+    "metacognicion+retro": "Recibir comentarios no garantiza usarlos; el estudiante necesita reflexionar sobre lo que le dicen, manejar la emoción y planificar cambios, y eso se puede enseñar.",
+    "autoevaluacion+coevaluacion": "Juzgar una y otra vez el propio trabajo y el de otros va afinando una noción de calidad que el estudiante termina aplicando sin rúbrica ni docente.",
+    "metacognicion+rubrica": "Los criterios de una rúbrica, interiorizados al reflexionar sobre el propio pensamiento, se convierten en una vara de calidad que el estudiante lleva consigo.",
+    "evaluacion+reflexiva": "Una evaluación que incluye reflexión pide más que un producto final: reunir evidencias, explicar por qué se eligieron y qué muestran del propio avance.",
+    "autoevaluacion+tiempo": "Autoevaluarse varias veces a lo largo del semestre deja rastro; reunir esas piezas y compararlas permite ver el progreso, que es la lógica del portafolio.",
+    "expositiva+formativa": "En una clase expositiva el docente rara vez sabe qué se entendió; una técnica formativa breve al final le da esa información sin detener la clase.",
+    "activo+formativa": "Pequeñas tareas activas en clase, como escribir una pregunta o resumir una idea, producen a la vez aprendizaje y evidencia formativa sobre lo que el curso entendió.",
+    "bloom+evaluacion": "Usar la taxonomía de Bloom para planificar una prueba obliga a decidir qué nivel cognitivo pide cada pregunta; cruzar esos niveles con los contenidos da la tabla.",
+    "evaluacion+evidencia": "Una docencia que se apoya en evidencia también exige que sus evaluaciones produzcan datos consistentes y bien interpretados sobre lo que el estudiante sabe.",
+    "reflexiva+tabla": "Revisar con ojo crítico la tabla de especificaciones lleva a preguntarse si la prueba cubre lo enseñado en su justa proporción: una pregunta de validez de contenido.",
+    "analitica+sumativa": "Aplicar analítica a los resultados de un examen final, pregunta por pregunta, revela qué ítems fueron demasiado fáciles, demasiado difíciles o ambiguos.",
+    "sumativa+tabla": "Contrastar los resultados de la prueba con la tabla de especificaciones muestra qué contenidos o niveles cognitivos se lograron peor y si algún ítem falló como medida.",
+    "evaluacion+rubrica": "Una rúbrica fija de antemano qué desempeño corresponde a cada nivel, de modo que la nota depende de esos criterios y no de cómo le fue al resto del curso.",
+    "dominio+sumativa": "Si la meta es que todos alcancen el dominio, la evaluación final debe compararse con un estándar fijo; calificar con curva contradiría esa meta.",
+    "retro+sumativa": "Cuando la retroalimentación llega pegada a una nota final, el estudiante tiende a mirar solo el número; separar ambas cosas protege la función formativa de los comentarios.",
+    "formativa+motivacion": "Las notas pueden desplazar el interés hacia la comparación con otros; comentarios centrados en la tarea, sin calificación, sostienen las ganas de mejorar.",
+    "juicio+tiempo": "El juicio evaluativo proyectado en el tiempo apunta más allá del curso: que el egresado pueda valorar su propio trabajo cuando ya nadie lo califique.",
+    "autentica+autorregulado": "Tareas profesionales realistas, unidas a la capacidad de autorregularse, preparan al estudiante para evaluar y dirigir su aprendizaje durante toda la vida.",
+    "estudiante+sumativa": "Ante una evaluación sumativa con consecuencias, el estudiante ajusta qué y cómo estudia según lo que cree que le preguntarán; ese ajuste es el efecto retroactivo.",
+    "curriculo_oculto+evaluacion": "Lo que la evaluación premia de verdad enseña reglas paralelas al programa declarado; Snyder describió cómo los estudiantes aprenden a descifrarlas para obtener buenas notas."
+  }
+}

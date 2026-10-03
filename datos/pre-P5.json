@@ -1,0 +1,246 @@
+{
+  "recetas": [
+    {
+      "a": "ciencia_aprendizaje",
+      "b": "tiempo",
+      "r": "olvido",
+      "nota": "Cuando la ciencia del aprendizaje mide cuánto queda de lo aprendido a medida que pasan los días, aparece uno de sus hallazgos fundacionales: la curva del olvido de Ebbinghaus."
+    },
+    {
+      "a": "ciencia_aprendizaje",
+      "b": "releer",
+      "r": "recuperacion",
+      "nota": "Cuando se comparan con evidencia las técnicas de estudio, releer y subrayar salen poco útiles y responder preguntas de práctica sale entre las mejores: la ciencia cambia el hábito por la recuperación."
+    },
+    {
+      "a": "ciencia_aprendizaje",
+      "b": "descubrimiento",
+      "r": "ejemplos_resueltos",
+      "nota": "Los experimentos muestran que un novato aprende más estudiando soluciones completas que buscando la respuesta sin guía; por eso la ciencia del aprendizaje responde al descubrimiento puro con ejemplos resueltos."
+    },
+    {
+      "a": "intercalada",
+      "b": "metacognicion",
+      "r": "dificultades_deseables",
+      "nota": "Al intercalar, el estudiante siente que aprende menos que practicando por bloques, aunque en la prueba posterior rinde más. Darse cuenta de esa ilusión es entender por qué ciertas dificultades convienen."
+    },
+    {
+      "a": "motivacion",
+      "b": "addie",
+      "r": "arcs",
+      "nota": "Si aplicas a la motivación el proceso sistemático del diseño instruccional (analizar a la audiencia, diseñar tácticas, probarlas y ajustarlas), obtienes el modelo ARCS de Keller: atención, relevancia, confianza y satisfacción."
+    },
+    {
+      "a": "motivacion",
+      "b": "modelado",
+      "r": "autoeficacia",
+      "nota": "Ver a alguien resolver la tarea explicando cómo piensa es una experiencia vicaria, fuente de autoeficacia según Bandura: si viste cómo lo logró, confías más en que tú también puedes."
+    },
+    {
+      "a": "profundo",
+      "b": "evaluacion",
+      "r": "efecto_retroactivo",
+      "nota": "El estudiante estudia según lo que cree que le van a evaluar: una prueba que premia memorizar empuja al enfoque superficial; una que exige comprender y aplicar favorece el profundo."
+    },
+    {
+      "a": "transferencia",
+      "b": "perfil_egreso",
+      "r": "competencias",
+      "nota": "Un perfil de egreso que pide usar lo aprendido en situaciones profesionales nuevas exige competencias: saberes que el titulado moviliza y transfiere a contextos distintos, no que solo acumula."
+    },
+    {
+      "a": "pedagogia",
+      "b": "ia",
+      "r": "tutoria",
+      "nota": "Por sí sola, la IA generativa entrega respuestas; configurada con intención pedagógica, pregunta, da pistas graduadas y deja que el estudiante haga el trabajo de pensar. Eso la convierte en tutor."
+    },
+    {
+      "a": "pedagogia",
+      "b": "video",
+      "r": "capsula",
+      "nota": "Mirar la clase grabada con criterio pedagógico lleva a recortarla: piezas breves, una idea por video y una pregunta o tarea que obligue al estudiante a procesar lo que vio."
+    },
+    {
+      "a": "pedagogia",
+      "b": "portafolio",
+      "r": "portafolio_docente",
+      "nota": "Si aplicas la lógica del portafolio a tu propia pedagogía, reúnes evidencias de cómo enseñas, por qué lo haces así y qué aprenden tus estudiantes: un portafolio docente."
+    },
+    {
+      "a": "pedagogia",
+      "b": "constructivismo",
+      "r": "descubrimiento",
+      "nota": "El constructivismo explica cómo se aprende, no prescribe un método. Traducirlo en dejar descubrir sin guía es un error común: Mayer advierte que aprender activamente no exige enseñar sin orientación."
+    },
+    {
+      "a": "alineamiento",
+      "b": "evaluacion",
+      "r": "criterial",
+      "nota": "En un curso alineado, la evaluación juzga si cada estudiante alcanzó los resultados declarados, no cómo le fue frente al resto: Biggs pide evaluar por criterio, no por curva."
+    },
+    {
+      "a": "alineamiento",
+      "b": "sumativa",
+      "r": "tabla",
+      "nota": "Para que la prueba final quede alineada, cada ítem debe responder a un resultado y a un nivel cognitivo; la tabla de especificaciones planifica ese cruce antes de redactar las preguntas."
+    },
+    {
+      "a": "curriculo",
+      "b": "previos",
+      "r": "espiral",
+      "nota": "Un currículo que vuelve una y otra vez a las ideas centrales, apoyándose en lo que el estudiante ya sabe para profundizarlas, es el currículo en espiral que propuso Bruner."
+    },
+    {
+      "a": "inverso",
+      "b": "evaluacion",
+      "r": "autentica",
+      "nota": "En la segunda etapa del diseño inverso decides qué evidencia demostraría el logro; Wiggins y McTighe privilegian tareas de desempeño en contextos realistas, la base de la evaluación auténtica."
+    },
+    {
+      "a": "dominio",
+      "b": "tecnologia",
+      "r": "adaptativo",
+      "nota": "Un sistema digital puede hacer a escala lo que Bloom pedía al docente: estimar cuándo cada estudiante domina un tema y decidir si avanza o recibe más práctica."
+    },
+    {
+      "a": "dominio",
+      "b": "espaciada",
+      "r": "reaprendizaje",
+      "nota": "Alcanzar el criterio de dominio una sola vez no asegura que lo recuerdes; el reaprendizaje sucesivo pide volver a alcanzarlo en varias sesiones separadas en el tiempo."
+    },
+    {
+      "a": "recuperacion",
+      "b": "olvido",
+      "r": "reaprendizaje",
+      "nota": "Si dejas que el olvido avance un poco y vuelves a recuperar hasta acertar, cada sesión necesita menos intentos y el recuerdo dura más: eso es reaprender en forma sucesiva."
+    },
+    {
+      "a": "enfoques_ensenanza",
+      "b": "estudiante",
+      "r": "profundo",
+      "nota": "Trigwell, Prosser y Waterhouse hallaron que el enfoque transmisivo del docente se asocia a estudiantes que estudian en forma superficial; centrarse en cambiar su comprensión se asocia, más débilmente, al enfoque profundo."
+    },
+    {
+      "a": "problema",
+      "b": "tiempo",
+      "r": "proyectos",
+      "nota": "Cuando un problema auténtico se trabaja durante semanas y desemboca en un producto concreto, deja de ser un ejercicio de clase y se convierte en un proyecto."
+    },
+    {
+      "a": "asincronico",
+      "b": "grupo",
+      "r": "coi",
+      "nota": "Un grupo que discute por escrito en un foro asincrónico tiene tiempo para pensar antes de aportar; ese fue el escenario en que Garrison, Anderson y Archer propusieron la comunidad de indagación."
+    },
+    {
+      "a": "asincronico",
+      "b": "presencial",
+      "r": "blended",
+      "nota": "Sumar actividades asincrónicas en línea a las clases presenciales, decidiendo qué conviene hacer en cada espacio y no solo repartiendo horas, es la base del aprendizaje combinado."
+    },
+    {
+      "a": "asincronico",
+      "b": "blended",
+      "r": "hyflex",
+      "nota": "Si el curso combinado ofrece además una ruta asincrónica equivalente y cada estudiante elige, sesión a sesión, cómo participar, llegas al modelo HyFlex de Beatty."
+    },
+    {
+      "a": "brecha",
+      "b": "tecnologia",
+      "r": "mas_tecnologia",
+      "nota": "Dar equipos y conexión es necesario para cerrar la brecha, pero creer que eso basta para aprender más es el mito: sin cambiar la enseñanza, más dispositivos no mejoran el aprendizaje."
+    },
+    {
+      "a": "tck",
+      "b": "tpk",
+      "r": "tpack",
+      "nota": "En el diagrama de Mishra y Koehler, donde se cruzan el TCK y el TPK queda justo la zona central: tecnología, contenido y pedagogía a la vez."
+    }
+  ],
+  "sugerencias": [
+    {
+      "a": "ejemplos_resueltos",
+      "b": "metacognicion",
+      "concepto": "Efecto de autoexplicación",
+      "por_que": "Chi y colaboradores (1989) mostraron que quienes se explican a sí mismos cada paso de un ejemplo resuelto aprenden más que quienes solo lo leen; es la vía metacognitiva para aprovechar el ejemplo."
+    },
+    {
+      "a": "ejemplos_resueltos",
+      "b": "previos",
+      "concepto": "Efecto de reversión de la pericia",
+      "por_que": "Kalyuga, Ayres, Chandler y Sweller (2003): los ejemplos resueltos ayudan al novato, pero pueden dejar de ayudar o perjudicar a quien ya domina el tema; cuánto guiar depende de los conocimientos previos."
+    },
+    {
+      "a": "gamificacion",
+      "b": "motivacion",
+      "concepto": "Efecto de sobrejustificación (socavamiento de la motivación intrínseca)",
+      "por_que": "Lepper, Greene y Nisbett (1973) y el metaanálisis de Deci, Koestner y Ryan (1999): las recompensas tangibles y esperadas pueden debilitar la motivación intrínseca. Es un riesgo que se discute al gamificar con puntos e insignias."
+    },
+    {
+      "a": "transferencia",
+      "b": "metacognicion",
+      "concepto": "Transferencia por vía alta",
+      "por_que": "Salomon y Perkins (1989) distinguen la transferencia casi automática por práctica (vía baja) de la que exige abstraer conscientemente un principio para aplicarlo en otro contexto (vía alta), que es metacognitiva."
+    },
+    {
+      "a": "alineamiento",
+      "b": "curriculo",
+      "concepto": "Mapeo curricular",
+      "por_que": "Lleva el alineamiento del curso al plan de estudios completo: mapear qué asignaturas desarrollan y evalúan cada resultado del perfil (Harden, 2001, guía AMEE n.º 21)."
+    },
+    {
+      "a": "transposicion",
+      "b": "reflexiva",
+      "concepto": "Vigilancia epistemológica",
+      "por_que": "Chevallard (1985) pide al docente vigilar la distancia entre el saber sabio y el saber enseñado para que la transposición no deforme el concepto; es la reflexión aplicada a la propia transposición."
+    },
+    {
+      "a": "transposicion",
+      "b": "tecnologia",
+      "concepto": "Transposición informática",
+      "por_que": "Balacheff propuso esta noción para describir cómo el saber se transforma de nuevo al implementarse en un entorno digital, por las restricciones de la representación computacional. Se descartó como receta hacia tck porque iría hacia una ficha menos elaborada."
+    },
+    {
+      "a": "dominio",
+      "b": "ritmo",
+      "concepto": "Sistema personalizado de instrucción (Plan Keller)",
+      "por_que": "Keller (1968) llevó el dominio al ritmo propio: unidades escritas que cada estudiante aprueba cuando demuestra dominio, con apoyo de tutores pares y pocas clases expositivas; los metaanálisis de Kulik y colaboradores le dan resultados favorables."
+    },
+    {
+      "a": "recuperacion",
+      "b": "diagnostica",
+      "concepto": "Efecto de la preprueba",
+      "por_que": "Responder preguntas sobre un tema antes de estudiarlo, aunque se fallen, mejora el aprendizaje posterior de ese contenido (Richland, Kornell y Kao, 2009). Une la recuperación con el momento diagnóstico."
+    },
+    {
+      "a": "abj",
+      "b": "reflexiva",
+      "concepto": "Debriefing (reflexión guiada después del juego)",
+      "por_que": "En juegos y simulaciones, la conversación guiada posterior es donde la experiencia se convierte en aprendizaje; la literatura de simulación y juego la considera esencial (Crookall, 2010)."
+    },
+    {
+      "a": "abj",
+      "b": "evaluacion",
+      "concepto": "Evaluación invisible (stealth assessment)",
+      "por_que": "Shute (2011) propuso inferir competencias a partir de las acciones del jugador dentro del juego, sin interrumpirlo con pruebas aparte."
+    },
+    {
+      "a": "cerebro10",
+      "b": "hemisferios",
+      "concepto": "Neuromitos",
+      "por_que": "Ambas son creencias erróneas sobre el cerebro que circulan en educación. Dekker y colaboradores (2012) encontraron que muchos docentes las creen y que saber más sobre el cerebro no los protegía de ellas."
+    },
+    {
+      "a": "inteligencias",
+      "b": "estilos",
+      "concepto": "Hipótesis del ajuste (meshing)",
+      "por_que": "Ambos mitos comparten la idea de que enseñar ajustándose al perfil de cada estudiante mejora el aprendizaje; Pashler y colaboradores (2008) la llamaron hipótesis del ajuste y no encontraron evidencia que la respalde."
+    },
+    {
+      "a": "brecha",
+      "b": "competencia",
+      "concepto": "Brecha digital de segundo nivel",
+      "por_que": "Hargittai (2002) mostró que, aun con acceso, persisten diferencias en las habilidades para usar internet; la brecha no es solo de conexión, también de competencia."
+    }
+  ]
+}

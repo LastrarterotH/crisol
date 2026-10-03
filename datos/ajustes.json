@@ -1,0 +1,20 @@
+{
+ "fichas": {
+  "evidencia": {
+   "why": "Una docencia informada por evidencia contrasta las prácticas con investigación revisada por pares antes de adoptarlas, y pregunta de dónde viene cada cifra o receta que circula. Dunlosky y colaboradores, por ejemplo, evaluaron diez técnicas de estudio populares: releer y subrayar resultaron de utilidad baja, mientras que practicar la recuperación y espaciar el estudio resultaron de utilidad alta."
+  },
+  "competencia": {
+   "why": "La competencia digital no viene con el año de nacimiento: se aprende y se enseña. El marco europeo DigComp 2.2 la organiza en cinco áreas: información y datos, comunicación y colaboración, creación de contenido digital, seguridad y resolución de problemas."
+  },
+  "dua": {
+   "why": "En vez de etiquetar a cada estudiante con un estilo, el DUA diseña desde el inicio para la diversidad de todo el curso. CAST lo organiza en tres principios: proporcionar múltiples formas de implicación, de representación y de acción y expresión. Las opciones se ofrecen a todo el curso, sin clasificar a nadie."
+  }
+ },
+ "refs": {},
+ "recetasExtra": [],
+ "quitarRecetas": [
+  "contenido+significativo",
+  "multimedia+tiempo",
+  "metacognicion+practicas"
+ ]
+}
