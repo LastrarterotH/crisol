@@ -1,0 +1,1208 @@
+{
+  "fichas": {
+    "pertenencia": {
+      "n": "Sentido de pertenencia",
+      "e": "🏠",
+      "f": "apr",
+      "pista": "La certeza silenciosa de que en esta sala hay un lugar para ti y alguien notaría tu ausencia.",
+      "why": "Cuando una comunidad pasa a sentirse propia, aparece la percepción de ser aceptado y valorado en ella. Walton y Cohen mostraron que, en estudiantes de grupos con estereotipos negativos, una pequeña señal de exclusión bastaba para que dudaran de si encajaban en una carrera. Strayhorn la describe como una necesidad básica que pesa más en momentos de transición, como el primer año. Esa duda es frecuente, aunque cada estudiante suele vivirla como un veredicto sobre sí mismo.",
+      "uni": "En la segunda semana de Contabilidad, pide a cada estudiante que anote en un papel anónimo una duda sobre la carrera y muestra al curso cuántas se repiten.",
+      "refs": [
+        "walton07",
+        "strayhorn19"
+      ]
+    },
+    "amenaza_estereotipo": {
+      "n": "Amenaza del estereotipo",
+      "e": "📛",
+      "f": "apr",
+      "pista": "Rendir una prueba con el temor de confirmar lo que se dice de tu grupo.",
+      "why": "Si alguien duda de pertenecer y sabe que su grupo carga con un prejuicio sobre su capacidad, una evaluación puede sentirse como el momento de confirmarlo. Steele y Aronson observaron que estudiantes afroamericanos rendían peor en una prueba verbal difícil cuando se presentaba como medida de capacidad intelectual que cuando se presentaba como ejercicio de laboratorio. El fenómeno se ha replicado muchas veces, aunque un metaanálisis de 2019 encontró efectos más pequeños en condiciones parecidas a exámenes reales y señales de sesgo de publicación.",
+      "uni": "Antes del primer control de Física, preséntalo como una práctica para saber qué reforzar y recuerda al curso que la dificultad del tema es esperable para todos.",
+      "refs": [
+        "steele95",
+        "steele97",
+        "shewach19"
+      ]
+    },
+    "retro_sabia": {
+      "n": "Retroalimentación sabia",
+      "e": "📨",
+      "f": "eva",
+      "pista": "Comentarios duros que llegan con una nota aclarando que te exigen porque saben que puedes.",
+      "why": "Cuando la crítica cae sobre alguien que teme ser juzgado por su grupo, puede leerse como prejuicio y descartarse. Cohen, Steele y Ross encontraron que la crítica funcionaba mejor si quien corregía explicaba que aplicaba estándares altos y que confiaba en que el estudiante podía alcanzarlos. Yeager y colaboradores lo probaron con escolares de séptimo grado, con una nota breve adjunta a los comentarios de un ensayo, y los estudiantes afroamericanos que entregaron una versión corregida pasaron de 17 % a 72 %.",
+      "uni": "Al devolver un informe de laboratorio de Bioquímica lleno de correcciones, agrega una línea que diga que exiges ese nivel porque confías en que cada estudiante puede llegar a él.",
+      "refs": [
+        "cohen99",
+        "yeager14"
+      ]
+    },
+    "capital_cultural": {
+      "n": "Capital cultural",
+      "e": "🎻",
+      "f": "fund",
+      "pista": "Una herencia sin notario, hecha de libros en casa y modales que la escuela premia sin enseñarlos.",
+      "why": "Parte del saber que la universidad recompensa sin enseñarlo, como el registro académico o la soltura para hablar con un profesor, se aprende en casa antes que en clase. Bourdieu llamó capital cultural a los saberes y disposiciones que se heredan, junto con los títulos que los certifican. En Los herederos, él y Passeron mostraron que la universidad francesa trataba como talento personal lo que en buena parte era herencia familiar, y así estudiantes igual de capaces llegaban con ventajas desiguales.",
+      "uni": "En la primera clase de Derecho Romano, explica cómo se cita una sentencia y cómo se pide una reunión con el docente, sin suponer que el curso ya lo sabe.",
+      "refs": [
+        "bourdieu86",
+        "bourdieu03"
+      ]
+    },
+    "primera_generacion": {
+      "n": "Estudiantes de primera generación",
+      "e": "🐥",
+      "f": "fund",
+      "pista": "Nadie en su casa pisó antes un campus, así que el mapa lo dibujan sobre la marcha.",
+      "why": "Cuando el capital cultural que la universidad da por supuesto no viene de casa, quien llega sin padres universitarios debe aprender a la vez la materia y las reglas del lugar. Stephens y colaboradores mostraron que las universidades estadounidenses que enfatizan la independencia chocan con las normas más interdependientes que suelen traer estos estudiantes, y que ese desajuste afecta su rendimiento. Pascarella y colaboradores encontraron que participan menos en actividades extracurriculares y en la vida social del campus.",
+      "uni": "En Enfermería, dedica diez minutos de la primera semana a explicar qué significan convalidar, prerrequisito o examen extraordinario, y para qué sirve escribirle al docente.",
+      "refs": [
+        "stephens12",
+        "pascarella04"
+      ]
+    },
+    "tilt": {
+      "n": "Transparencia en las tareas",
+      "e": "🫙",
+      "f": "dis",
+      "pista": "Antes de empezar, el curso sabe para qué sirve el encargo y cómo se va a juzgar.",
+      "why": "Si el currículo oculto se cruza con una rúbrica, lo implícito queda por escrito. Winkelmes y su equipo propusieron explicitar en cada encargo su propósito y la tarea concreta, y mostrar los criterios de éxito con ejemplos. En un estudio en siete instituciones, bastaron dos tareas transparentes por curso para mejorar la confianza académica y el sentido de pertenencia, con beneficios algo mayores en estudiantes de primera generación o de bajos ingresos y en grupos subrepresentados.",
+      "uni": "Antes del informe de Microbiología, entrega una hoja que explique para qué sirve el informe en la profesión y comenta con el curso un ejemplo del año pasado según los criterios.",
+      "refs": [
+        "winkelmes16",
+        "winkelmes19"
+      ]
+    },
+    "reglas_vista": {
+      "n": "Reglas del juego a la vista",
+      "e": "📃",
+      "f": "sint",
+      "pista": "Lo que antes solo adivinaban los hijos de profesionales ahora viene escrito en el enunciado.",
+      "why": "Integra la transparencia en las tareas con lo que se sabe de los estudiantes de primera generación. Quien no trae de casa el capital cultural académico gasta tiempo y confianza adivinando qué se espera, y esa pérdida se confunde con falta de capacidad. Explicitar propósito y criterios, y conversar sobre las normas tácitas del curso, reduce esa desventaja sin cambiar la meta. Lo más medido son los efectos en confianza y pertenencia; sobre las notas hay menos estudios.",
+      "principios": [
+        "Escribe en cada encargo para qué sirve y qué pasos pide, y muestra los criterios con un ejemplo comentado (Winkelmes et al., 2016).",
+        "Enseña de forma explícita las normas que das por sabidas, como pedir una prórroga o citar una fuente, porque no todos las traen de casa (Stephens et al., 2012).",
+        "Invita a estudiantes avanzados de distintos orígenes a contar cómo aprendieron esas reglas, porque esa conversación mejoró las notas de estudiantes de primera generación (Stephens et al., 2014).",
+        "Revisa tu programa en busca de exigencias que nadie enseña, como exponer en público en un curso de Química, y decide si las enseñas o las sacas de la nota (Snyder, 1971)."
+      ],
+      "prueba": "Toma el próximo trabajo que vas a encargar y reescribe el enunciado en tres bloques (para qué sirve, qué hacer y cómo se evaluará). Agrega un ejemplo comentado y pregunta al curso qué parte todavía no se entiende.",
+      "refs": [
+        "winkelmes16",
+        "stephens12",
+        "stephens14",
+        "snyder71"
+      ]
+    },
+    "cap_inclusiva": {
+      "n": "Todas y todos aprenden",
+      "e": "👐",
+      "f": "sint",
+      "pista": "Un curso exigente donde las reglas están escritas y cada crítica llega con confianza en quien la recibe.",
+      "why": "Integra las reglas del juego a la vista, que ponen por escrito lo que antes se adivinaba, con la retroalimentación sabia, que une estándares altos y confianza en el estudiante. Ambas cuidan el sentido de pertenencia, que en el primer año y en grupos con estereotipos negativos se quiebra con facilidad. El curso mantiene su exigencia y reparte mejor las condiciones para cumplirla. Los efectos de las intervenciones breves varían mucho según el contexto, por eso conviene apoyarlas en cambios de diseño sostenidos.",
+      "principios": [
+        "Escribe en cada encargo su propósito y sus criterios, con un ejemplo comentado, porque así mejoran la confianza y la pertenencia de quienes no conocen las reglas tácitas (Winkelmes et al., 2016).",
+        "Al devolver trabajos con muchas correcciones, declara que aplicas un estándar alto y que confías en que cada estudiante puede alcanzarlo (Yeager et al., 2014).",
+        "Cuenta al curso, con testimonios de cursos superiores, que las dudas sobre si uno encaja son comunes al comienzo y suelen pasar (Walton y Cohen, 2011).",
+        "Pauta el trabajo de cada semana con práctica breve y calificada y con trabajo activo en clase, un diseño que mejoró a todo el curso y más a quienes llegaban en desventaja (Haak et al., 2011).",
+        "Revisa tus creencias sobre la capacidad, porque en los cursos de docentes que la creían fija las brechas raciales fueron mayores (Canning et al., 2019)."
+      ],
+      "prueba": "Toma la próxima tarea con nota de tu curso, reescribe el enunciado con su propósito y sus criterios y prepara la frase que acompañará tus correcciones. Después de devolverla, pregunta de forma anónima qué tan claro estaba lo que se pedía y compara con la tarea anterior.",
+      "refs": [
+        "winkelmes16",
+        "yeager14",
+        "walton11",
+        "haak11",
+        "canning19"
+      ]
+    },
+    "clima_aula": {
+      "n": "Clima de aula",
+      "e": "⛅",
+      "f": "fund",
+      "pista": "Se nota apenas entras a la sala, aunque no figure en el programa ni en la pizarra.",
+      "why": "Las emociones que circulan en una sala forman un ambiente que todos perciben y que decide lo que cada quien se atreve a decir. Ambrose y colaboradores describen el clima de un curso como un continuo entre lo que margina y lo que incluye, y muestran que depende tanto de lo que el docente dice como de lo que calla. Un chiste sobre un grupo, o un silencio ante una burla, basta para inclinarlo hacia la exclusión.",
+      "uni": "En la primera sesión de Estadística, acuerda con el curso dos normas para comentar respuestas equivocadas y vuelve a ellas la primera vez que alguien se ría de un error.",
+      "refs": [
+        "ambrose10"
+      ]
+    },
+    "intervencion_pertenencia": {
+      "n": "Intervención de pertenencia social",
+      "e": "🌒",
+      "f": "met",
+      "pista": "Leer que a los de cursos superiores también les costó al principio, y escribirlo para los que vienen.",
+      "why": "Si la duda de encajar se mira con el paso del tiempo, deja de parecer un veredicto. Walton y Cohen hicieron que estudiantes de primer año leyeran testimonios de cursos superiores sobre dudas iniciales que luego pasaron, y que escribieran sobre ello para los que vendrían. La actividad duró alrededor de una hora y, en los tres años siguientes, redujo a la mitad la brecha de notas de los estudiantes afroamericanos. Yeager y Walton advierten que estos efectos dependen del contexto y no son magia.",
+      "uni": "En la tercera semana de Ingeniería Comercial, comparte relatos breves de estudiantes de cuarto año sobre su primer semestre difícil y pide al curso escribir un consejo para la próxima generación.",
+      "refs": [
+        "walton11",
+        "yeager11"
+      ]
+    },
+    "afirmacion_valores": {
+      "n": "Afirmación de valores",
+      "e": "💜",
+      "f": "met",
+      "pista": "Escribir un rato sobre lo que más te importa en la vida antes de un examen que asusta.",
+      "why": "Escribir sobre los propios valores puede amortiguar la amenaza del estereotipo, porque recuerda que la identidad no se juega entera en una prueba. Miyake y colaboradores lo aplicaron en un curso universitario de física y la brecha de género en los exámenes se redujo. Una réplica escolar a gran escala no encontró efectos, y un nuevo análisis de los datos de Miyake mostró que el resultado dependía de decisiones de análisis, así que la evidencia es frágil.",
+      "uni": "Antes del primer parcial de Física, dedica quince minutos a escribir sobre valores personales, sin nota y sin que el docente lo lea, solo como complemento de un curso bien estructurado.",
+      "refs": [
+        "miyake10",
+        "hanselman17",
+        "serragarcia20"
+      ]
+    },
+    "participacion_equitativa": {
+      "n": "Participación equitativa",
+      "e": "🟰",
+      "f": "met",
+      "pista": "Que también hablen quienes nunca levantan la mano, y no siempre los mismos de la primera fila.",
+      "why": "Un clima incluyente se queda en buena intención si en la práctica solo hablan los mismos. Tanner reunió estrategias concretas para repartir la palabra, como esperar unos segundos antes de pedir respuestas o llamar al azar con nombres escritos en tarjetas. Dallimore y colaboradores encontraron que, en cursos con llamado frecuente al azar, más estudiantes participaron también de forma voluntaria y su comodidad para hablar aumentó.",
+      "uni": "En Cálculo, escribe los nombres del curso en tarjetas, saca una al azar para cada pregunta y avisa que se puede responder “aún no sé” y pedir ayuda a un compañero.",
+      "refs": [
+        "tanner13",
+        "dallimore13"
+      ]
+    },
+    "alta_estructura": {
+      "n": "Curso de alta estructura",
+      "e": "🛗",
+      "f": "dis",
+      "pista": "Cuestionario de lectura antes de cada clase, práctica semanal con nota y casi nada librado al último día.",
+      "why": "Une el aprendizaje activo con la práctica distribuida en un curso que pauta el trabajo de cada semana con tareas breves y calificadas. Haak y colaboradores aplicaron este diseño en biología introductoria y mejoró el rendimiento de todo el curso, con un aumento mayor en estudiantes en desventaja educativa. Eddy y Hogan lo replicaron en otra universidad con un nivel moderado de estructura, y la brecha se redujo a la mitad para estudiantes afroamericanos y se cerró para los de primera generación.",
+      "uni": "En Biología Celular, abre cada semana un cuestionario breve sobre la lectura, que cierra antes de la clase, y dedica la sesión a resolver problemas en grupos.",
+      "refs": [
+        "haak11",
+        "eddy14"
+      ]
+    },
+    "fondos_conocimiento": {
+      "n": "Fondos de conocimiento",
+      "e": "🍯",
+      "f": "apr",
+      "pista": "Saberes del taller familiar o de la feria del barrio, que también pueden entrar a clase.",
+      "why": "Los conocimientos previos de un estudiante incluyen los que circulan en su familia y su comunidad. Moll y colaboradores llamaron fondos de conocimiento a esos saberes acumulados en los hogares, como el comercio o la construcción, y propusieron que los docentes los investiguen y los usen como base de la enseñanza. Su trabajo se hizo en escuelas de Arizona con familias mexicanas y discute la mirada del déficit, que solo ve lo que el estudiante no trae.",
+      "uni": "En Química Orgánica, pide a cada estudiante que traiga un proceso de su casa o su barrio, como hacer jabón o curtir cuero, y analícenlo con la teoría del curso.",
+      "refs": [
+        "moll92"
+      ]
+    },
+    "pedagogia_relevante": {
+      "n": "Pedagogía culturalmente relevante",
+      "e": "🪗",
+      "f": "met",
+      "pista": "Exigir alto rendimiento sin pedirle al estudiante que deje su cultura en la puerta.",
+      "why": "Si los fondos de conocimiento entran a la planificación, la cultura del estudiante pasa a ser un punto de apoyo para la materia. Ladson-Billings propuso esta pedagogía tras estudiar a docentes exitosos con estudiantes afroamericanos y la definió con tres criterios: éxito académico, competencia cultural y conciencia crítica. En la universidad puede traducirse en casos y problemas del contexto de los estudiantes, resueltos con la misma exigencia.",
+      "uni": "En Derecho Agrario de una universidad andina, analiza casos de tierras comunitarias de la región con el mismo rigor que la jurisprudencia de la capital.",
+      "refs": [
+        "ladson95"
+      ]
+    },
+    "translenguaje": {
+      "n": "Translenguaje",
+      "e": "👄",
+      "f": "apr",
+      "pista": "Pensar el problema en quechua o en guaraní y escribir el informe en castellano, sin pedir permiso.",
+      "why": "Cuando la lengua de casa se mira como un fondo de conocimiento, también sirve para aprender la materia. García y Li Wei llaman translenguaje a usar todo el repertorio lingüístico de una persona para pensar y comunicar, sin separarlo en compartimentos estancos. En aulas con estudiantes indígenas o migrantes, discutir en la propia lengua y producir luego en la lengua académica puede ayudar a comprender, según estudios en su mayoría cualitativos.",
+      "uni": "En Introducción a la Economía, deja que los grupos discutan el caso en aymara o en castellano y pide la síntesis final en castellano académico.",
+      "refs": [
+        "garcia14"
+      ]
+    },
+    "modelo_social": {
+      "n": "Modelo social de la discapacidad",
+      "e": "🦽",
+      "f": "fund",
+      "pista": "Mira la escalera sin rampa y el video sin subtítulos, y ahí encontrarás la barrera.",
+      "why": "Mirar el aula con calma permite ver que muchas barreras están en el entorno y en las prácticas antes que en las personas. Oliver sistematizó el modelo social, que distingue la deficiencia de una persona de la discapacidad que produce un entorno que no la tiene en cuenta. La Convención de la ONU sobre los derechos de las personas con discapacidad adoptó esa mirada y obliga a los Estados a asegurar el acceso a la educación superior sin discriminación.",
+      "uni": "Antes de pensar que la estudiante con baja visión no sigue la clase de Anatomía, revisa el tamaño de letra de tus diapositivas y si describes en voz alta las imágenes.",
+      "refs": [
+        "oliver90",
+        "onu06"
+      ]
+    },
+    "ajustes_razonables": {
+      "n": "Ajustes razonables",
+      "e": "🪛",
+      "f": "dis",
+      "pista": "Más minutos en el examen o el texto digital, a la medida de una persona concreta.",
+      "why": "Llevar el modelo social a la evaluación obliga a revisar qué barreras pone cada prueba. La Convención de la ONU sobre los derechos de las personas con discapacidad define los ajustes razonables como modificaciones y adaptaciones necesarias y adecuadas para un caso particular, que no impongan una carga desproporcionada o indebida, y pide a los Estados asegurar que se hagan en la educación superior. Complementan al DUA, que anticipa la diversidad del curso, y en general no cambian los resultados de aprendizaje exigidos.",
+      "uni": "Un estudiante con dislexia de Ingeniería Civil rinde el examen con tiempo adicional y enunciados en letra grande, y se evalúa con la misma pauta que el resto.",
+      "refs": [
+        "onu06",
+        "cast18"
+      ]
+    },
+    "impostor": {
+      "n": "Fenómeno del impostor",
+      "e": "🫣",
+      "f": "apr",
+      "pista": "Sacaste buena nota, pero sientes que fue suerte y que pronto alguien descubrirá el engaño.",
+      "why": "Sumar logros reales a dudas de pertenencia puede dejar a alguien convencido de que no los merece. Clance e Imes describieron este fenómeno en mujeres de alto rendimiento que atribuían su éxito a la suerte o a haber engañado a los demás. La revisión sistemática de Bravata y colaboradores encontró prevalencias de entre 9 % y 82 % según el instrumento y el punto de corte, y asociaciones con ansiedad y depresión, aunque la calidad de la evidencia es desigual.",
+      "uni": "En un curso de quinto año de Medicina, cuenta un episodio propio de inseguridad durante tu formación y pide al curso comparar sus notas reales con lo que creía merecer.",
+      "refs": [
+        "clance78",
+        "bravata20"
+      ]
+    },
+    "mentalidad_docente": {
+      "n": "Mentalidad del docente",
+      "e": "👔",
+      "f": "fund",
+      "pista": "Lo que quien enseña cree sobre si el talento viene de nacimiento, y que su curso nota.",
+      "why": "La mentalidad de crecimiento también vive en quien enseña, y lo que el docente cree sobre la capacidad se filtra en su curso. Canning y colaboradores estudiaron a 150 profesores de ciencias de una universidad pública estadounidense y encontraron que, en los cursos de quienes creían que la capacidad es fija, la brecha racial en las notas era casi el doble. Es un estudio correlacional, aunque coincide con lo que relataban sus estudiantes sobre la motivación en esas clases.",
+      "uni": "El primer día de Química, cambia la frase “esta materia separa a los que pueden de los que no” por una explicación de qué estrategias hacen mejorar en él.",
+      "refs": [
+        "canning19"
+      ]
+    },
+    "incluir_bajar": {
+      "n": "Incluir es bajar la exigencia",
+      "e": "📉",
+      "f": "mito",
+      "pista": "Si el examen admite más formatos o más tiempo, alguien jura que el título vale menos.",
+      "belief": "Dar apoyos, opciones de formato o ajustes a parte del curso equivale a pedir menos, y termina rebajando el nivel de la carrera.",
+      "evidence": "En biología introductoria, Haak y colaboradores aumentaron la estructura y el apoyo del curso, y subieron las notas de todos mientras la brecha de los estudiantes en desventaja se achicaba casi a la mitad. El DUA mantiene firme la meta y flexibiliza los medios para alcanzarla y demostrarla. Yeager y colaboradores mostraron que la crítica rinde más cuando combina estándares altos con confianza explícita en el estudiante.",
+      "refs": [
+        "haak11",
+        "cast18",
+        "yeager14"
+      ]
+    },
+    "correccion_anonima": {
+      "n": "Corrección anónima",
+      "e": "🔏",
+      "f": "eva",
+      "pista": "El nombre queda tapado con una etiqueta antes de que el lápiz rojo toque la primera hoja.",
+      "why": "Si quien corrige sabe que sus expectativas pueden teñir la nota, puede ocultar la identidad de quien escribió. El metaanálisis de Malouff y Thorsteinsson encontró que, en experimentos, los correctores daban notas distintas a trabajos idénticos según información irrelevante sobre el estudiante, como su origen étnico o un mal desempeño previo. Corregir sin ver el nombre reduce esas fuentes de sesgo, aunque no arregla una pauta mal diseñada.",
+      "uni": "En el examen de Historia Económica, pide que cada estudiante escriba solo su número de matrícula en la portada y busca los nombres después de poner todas las notas.",
+      "refs": [
+        "malouff16"
+      ]
+    },
+    "educacion_diferencia": {
+      "n": "Educación sobre la diferencia",
+      "e": "🔈",
+      "f": "met",
+      "pista": "Un panel de estudiantes avanzados cuenta cómo su origen familiar les complicó o facilitó la carrera.",
+      "why": "Hablar de forma abierta sobre cómo el origen social afecta la vida universitaria convierte una desventaja silenciosa en algo que se puede enfrentar. Stephens, Hamedani y Destin organizaron paneles en que estudiantes de cursos superiores contaban cómo su clase social había influido en su experiencia, y al final del año la brecha de notas de los estudiantes de primera generación desapareció, en parte porque buscaron más recursos, como reunirse con sus profesores. El efecto se midió en una sola universidad estadounidense.",
+      "uni": "En la inducción de Psicología, invita a estudiantes de cuarto año de orígenes distintos a contar qué les costó y qué recursos usaron, y abre un rato de preguntas.",
+      "refs": [
+        "stephens14"
+      ]
+    },
+    "tiempo_espera": {
+      "n": "Tiempo de espera",
+      "e": "🕦",
+      "f": "met",
+      "pista": "Contar en silencio hasta cinco después de preguntar, aunque la sala parezca congelada.",
+      "why": "Una pregunta en plena exposición rinde poco si siempre la contesta el más rápido o el propio docente. Rowe observó que los profesores solían esperar menos de un segundo antes de dar la palabra o de responder ellos mismos, y que al alargar la pausa a unos tres segundos las respuestas se volvían más largas y quedaban menos preguntas sin respuesta. Sus estudios se hicieron en escuelas, y la práctica se recomienda también en la universidad.",
+      "uni": "En Farmacología, después de preguntar por el mecanismo de un fármaco, espera cinco segundos en silencio y luego pide a dos personas al azar que respondan.",
+      "refs": [
+        "rowe86",
+        "tanner13"
+      ]
+    },
+    "transicion": {
+      "n": "Transición a la universidad",
+      "e": "🚉",
+      "f": "fund",
+      "pista": "Bajar del bus en una ciudad nueva, con otro idioma académico y nadie que avise en qué andén.",
+      "why": "Entrar a la carrera trae un cambio que va más allá de la materia, porque cambian los horarios, la autonomía que se exige, el lenguaje y a veces la ciudad. Gale y Parker distinguen tres maneras de entender ese paso: como inducción a la institución, como desarrollo personal o como un devenir que no termina en el primer semestre. La tercera mirada, la menos extendida según los autores, recuerda que ese paso no se completa con una semana de inducción.",
+      "uni": "En la primera semana de Kinesiología, pide al curso dibujar un mapa de su semana real, con traslados y trabajo incluidos, y úsalo para fijar las fechas de entrega.",
+      "refs": [
+        "gale14"
+      ]
+    },
+    "integracion": {
+      "n": "Integración académica y social",
+      "e": "🪢",
+      "f": "fund",
+      "pista": "Tener a quién preguntarle el ejercicio y con quién almorzar, dos hilos que atan a la carrera.",
+      "why": "Si la transición ocurre dentro de una comunidad que acoge, el estudiante se engancha con la institución. Tinto explicó la permanencia por el grado de integración académica, en el rendimiento y el trato con docentes, y social, en las relaciones con pares, y vio el abandono como resultado de una integración débil. Su modelo fue criticado por cargar la adaptación sobre el estudiante, y en trabajos posteriores él mismo dio más peso a lo que la institución hace en el aula.",
+      "uni": "En Programación I, arma parejas fijas de laboratorio durante cuatro semanas y luego cámbialas, para que cada estudiante conozca a varias personas del curso.",
+      "refs": [
+        "tinto75",
+        "tinto93",
+        "tinto12"
+      ]
+    },
+    "pedagogia_transicion": {
+      "n": "Pedagogía de la transición",
+      "e": "🚡",
+      "f": "dis",
+      "pista": "Un primer año diseñado como puente, con el apoyo metido dentro de cada asignatura.",
+      "why": "Llevar la integración al currículo es la propuesta de Kift, porque el currículo es lo único que comparten todos los estudiantes de primer año, trabajen o no, vivan lejos o cerca. Kift, Nelson y Clarke la organizaron en seis principios: transición, diversidad, diseño, compromiso, evaluación, y evaluación y monitoreo. Su propuesta pide coordinar esos principios entre asignaturas y servicios, en vez de dejar el apoyo en programas voluntarios aparte.",
+      "uni": "Los docentes de primer año de Arquitectura acuerdan un calendario común de entregas y una primera tarea de bajo peso en la tercera semana en todas las asignaturas.",
+      "refs": [
+        "kift09",
+        "kift10"
+      ]
+    },
+    "eval_temprana": {
+      "n": "Evaluación temprana de bajo riesgo",
+      "e": "🐓",
+      "f": "eva",
+      "pista": "Una prueba corta en la tercera semana que casi no pesa en la nota y avisa mucho.",
+      "why": "En el primer año, la evaluación formativa sirve más si llega pronto. Kift y colaboradores incluyen entre los principios del primer año tareas de bajo peso en las primeras semanas, que entregan retroalimentación antes del primer examen importante. Nicol muestra que estas tareas, bien diseñadas, ayudan a que los estudiantes aprendan a regular su propio estudio. También dan a los docentes información a tiempo sobre quién necesita apoyo.",
+      "uni": "En la tercera semana de Contabilidad I, toma un ejercicio de asientos contables que vale 5 % de la nota y devuélvelo comentado en la clase siguiente.",
+      "refs": [
+        "kift10",
+        "nicol09"
+      ]
+    },
+    "alerta_temprana": {
+      "n": "Alerta temprana",
+      "e": "🚥",
+      "f": "tec",
+      "pista": "Un semáforo que se pone amarillo cuando faltas y repruebas el primer control, antes de que sea tarde.",
+      "why": "Cruzar las primeras evaluaciones con la analítica del aprendizaje permite detectar a tiempo a quien se queda atrás. En Purdue, el sistema Course Signals mostraba a cada estudiante un semáforo calculado con sus notas y su actividad en la plataforma, y el docente le enviaba mensajes y le sugería apoyos. Sus cifras de retención fueron criticadas, porque quien cursa más asignaturas tiene más probabilidades de pasar por una con semáforo y también de seguir estudiando.",
+      "uni": "En Física I, revisa en la semana cuatro quién faltó a dos laboratorios y reprobó el primer control, y escríbele un correo personal con los horarios de tutoría.",
+      "refs": [
+        "arnold12"
+      ]
+    },
+    "alerta_respuesta": {
+      "n": "Alerta con respuesta",
+      "e": "📢",
+      "f": "sint",
+      "pista": "El semáforo cambia de color y esa misma semana alguien del curso superior te invita a estudiar.",
+      "why": "Integra la alerta temprana con la tutoría entre pares para que una señal de riesgo se convierta en apoyo concreto. La alerta necesita datos tempranos, que salen de evaluaciones de bajo peso en las primeras semanas, y la tutoría ofrece una ayuda cercana que no exige pedir hora con el profesor. La evidencia sobre los sistemas de alerta todavía es limitada, y una alerta sin respuesta solo deja un registro. Por eso conviene diseñar el aviso y el apoyo al mismo tiempo.",
+      "principios": [
+        "Programa una evaluación breve y de bajo peso antes de la cuarta semana, para tener datos cuando aún hay tiempo de actuar (Kift et al., 2010).",
+        "Define de antemano qué indicadores activan una alerta y qué hace el docente con cada una, como en el sistema de semáforo de Purdue (Arnold y Pistilli, 2012).",
+        "Ofrece sesiones de estudio guiadas por estudiantes avanzados en las asignaturas con más reprobación, abiertas a todo el curso para que nadie quede marcado (Dawson et al., 2014).",
+        "Forma a los tutores pares para que pregunten y hagan explicar, porque el tutor que construye explicaciones también aprende (Roscoe y Chi, 2007).",
+        "Explica a los estudiantes qué datos se registran y para qué se usan, y limita el acceso a quienes van a ofrecer apoyo (Slade y Prinsloo, 2013)."
+      ],
+      "prueba": "Elige un indicador que ya tienes, como la asistencia o la nota del primer control, y fija un umbral. Escribe el mensaje personal que enviarás esa semana a quien lo cruce, con una invitación concreta a una sesión de tutoría.",
+      "refs": [
+        "kift10",
+        "arnold12",
+        "dawson14",
+        "roscoe07",
+        "slade13"
+      ]
+    },
+    "cap_primer_anio": {
+      "n": "Primer año que sostiene",
+      "e": "🫴",
+      "f": "sint",
+      "pista": "Los meses iniciales de la carrera, armados en equipo para que nadie se vaya sin que lo noten.",
+      "why": "Integra la alerta con respuesta y la pedagogía de la transición. La primera detecta a tiempo y ofrece apoyo, y la segunda lleva ese apoyo al currículo que todos comparten, por ejemplo con evaluaciones tempranas o con clases que enseñan a estudiar. Kift y Tinto coinciden en poner el foco en lo que la institución hace dentro del aula. Los efectos medidos de cada pieza por separado suelen ser modestos, y la propuesta es coordinarlas.",
+      "principios": [
+        "Coordina con los colegas del mismo semestre un calendario de entregas y una primera evaluación de bajo peso antes de la cuarta semana (Kift et al., 2010).",
+        "Diseña actividades que obliguen a conocer compañeros en las primeras semanas, porque la integración académica y social sostiene la permanencia (Tinto, 1993).",
+        "Enseña dentro de tu asignatura a estudiar con preguntas y repaso distribuido, porque la mayoría no aprendió su forma de estudiar con un profesor (Kornell y Bjork, 2007).",
+        "Ofrece sesiones guiadas por estudiantes avanzados en las asignaturas con más reprobación y ábrelas a todo el curso (Dawson et al., 2014).",
+        "Acompaña cada alerta con un mensaje personal del docente y una invitación concreta, como hacía el sistema de semáforo de Purdue (Arnold y Pistilli, 2012)."
+      ],
+      "prueba": "Reúnete con quienes enseñan al mismo grupo de primer año y acuerden la fecha de una primera tarea de bajo peso y el indicador que activará un contacto personal. Decidan también quién escribirá a cada estudiante y a qué sesión de apoyo lo invitará.",
+      "refs": [
+        "kift10",
+        "tinto93",
+        "kornell07",
+        "dawson14",
+        "arnold12"
+      ]
+    },
+    "abandono": {
+      "n": "Abandono en primer año",
+      "e": "🎈",
+      "f": "fund",
+      "pista": "La silla que se vacía en la sexta semana y que nadie nota hasta el examen final.",
+      "why": "Cuando la transición se alarga sin anclajes, el tiempo juega en contra y muchos se van antes de terminar el primer año. Tinto describe el abandono como un proceso que se acumula, en el que pesan la integración débil y las expectativas incumplidas, junto con razones económicas y familiares. El primer año suele concentrar la mayor proporción de las bajas, y sus primeras semanas son la mejor ventana para actuar.",
+      "uni": "En Administración, compara la lista de inscritos con la de quienes rindieron el primer control y llama a quienes faltaron antes de que pase un mes.",
+      "refs": [
+        "tinto75",
+        "tinto93"
+      ]
+    },
+    "oficio_estudiante": {
+      "n": "Oficio de estudiante",
+      "e": "🥢",
+      "f": "apr",
+      "pista": "Descifrar qué significa “leer para el jueves” en la carrera, como quien aprende a comer con palillos.",
+      "why": "El currículo oculto pesa más en la transición, porque el recién llegado debe aprender reglas que nadie explica. Coulon llamó afiliación a ese aprendizaje y describió tres tiempos en el ingreso: extrañamiento, aprendizaje y afiliación, cuando el estudiante ya interpreta las reglas institucionales e intelectuales y puede usarlas a su favor. Según Coulon, quien no logra afiliarse durante el primer año tiene más probabilidades de fracasar o de abandonar.",
+      "uni": "En Historia, muestra cómo lees tú un capítulo para el seminario, con notas al margen y preguntas, para que el curso vea qué hacer con cuarenta páginas.",
+      "refs": [
+        "coulon97"
+      ]
+    },
+    "estrategias_estudio": {
+      "n": "Estrategias de estudio",
+      "e": "🔖",
+      "f": "apr",
+      "pista": "Cambiar el marcador fosforescente por preguntas a uno mismo y un calendario con días de repaso.",
+      "why": "Un estudiante autorregulado que practica la recuperación tiene a mano técnicas con respaldo. Dunlosky y colaboradores calificaron como de alta utilidad la práctica de recuperación y la práctica espaciada. Hartwig y Dunlosky encontraron que los universitarios que se ponían a prueba al estudiar tenían mejores promedios. En la encuesta de Kornell y Bjork, el 80 % dijo que su forma de estudiar no venía de algo que le hubiera enseñado un profesor, así que conviene enseñarlo dentro de las asignaturas.",
+      "uni": "Antes del primer parcial de Anatomía, dedica veinte minutos a mostrar con datos por qué ponerse a prueba rinde más que releer, y arma con el curso un calendario de repaso.",
+      "refs": [
+        "dunlosky13",
+        "hartwig12",
+        "kornell07"
+      ]
+    },
+    "ilusion_competencia": {
+      "n": "Ilusión de competencia",
+      "e": "🫧",
+      "f": "apr",
+      "pista": "Después de la tercera relectura todo suena conocido, y sonar conocido se confunde con saberlo.",
+      "why": "Releer da fluidez, y una metacognición mal calibrada toma esa fluidez por dominio. Koriat y Bjork mostraron que, cuando la respuesta está presente mientras se estudia, se sobrestima cuánto se podrá recordar después sin ella. Por eso muchos estudiantes de primer año salen del examen convencidos de que les fue bien y se sorprenden con la nota. Ponerse a prueba sin apuntes es la forma más simple de chequear ese juicio.",
+      "uni": "Al final de una clase de Bioquímica, pide cerrar los apuntes y escribir todo lo que recuerdan, y luego comparar con lo que creían saber al releer.",
+      "refs": [
+        "koriat05",
+        "dunlosky13"
+      ]
+    },
+    "procrastinacion": {
+      "n": "Procrastinación académica",
+      "e": "🦥",
+      "f": "apr",
+      "pista": "Ordenar el escritorio y lavar los platos antes de abrir el informe que vence mañana.",
+      "why": "Si la autorregulación falla frente al tiempo, el estudio se posterga aunque se sepa que saldrá caro. Steel la definió como retrasar a voluntad una acción prevista pese a esperar que el retraso empeore las cosas, y recoge estimaciones según las cuales entre 80 % y 95 % de los universitarios procrastina, cerca de la mitad de forma constante y problemática. Se asocia con plazos lejanos, con tareas que resultan desagradables y con poca confianza en lograrlas.",
+      "uni": "En un curso de Ingeniería con proyecto semestral, divide la entrega en tres avances con fecha y retroalimentación, en vez de una sola entrega final.",
+      "refs": [
+        "steel07"
+      ]
+    },
+    "gestion_tiempo": {
+      "n": "Gestión del tiempo",
+      "e": "⌛",
+      "f": "apr",
+      "pista": "Una agenda donde el estudio para el examen aparece repartido en varios días, con hora de inicio.",
+      "why": "Repartir el estudio en varios días exige planificar contra la tendencia a dejarlo todo para después. Britton y Tesser encontraron que las prácticas de planificación de corto plazo de estudiantes de primer año predecían sus notas acumuladas cuatro años después, mejor que su puntaje de admisión. El metaanálisis de Aeon, Faber y Panaccio halló una relación moderada con el desempeño y algo más fuerte con el bienestar, así que enseñar a planificar también ayuda a vivir el semestre con menos angustia.",
+      "uni": "En la primera semana de Kinesiología, pide a cada estudiante reservar en su agenda tres sesiones semanales de estudio para tu curso y revisa el plan con cada uno en la semana cuatro.",
+      "refs": [
+        "britton91",
+        "aeon21"
+      ]
+    },
+    "instruccion_suplementaria": {
+      "n": "Instrucción suplementaria",
+      "e": "🐜",
+      "f": "met",
+      "pista": "Sesiones voluntarias guiadas por alguien que ya aprobó, pegadas a la asignatura que más reprueba.",
+      "why": "La tutoría entre pares se dirige aquí a las asignaturas con más reprobación y queda abierta a todo el curso, de modo que nadie queda marcado. El modelo nació en la Universidad de Missouri-Kansas City y lo guía un estudiante que ya aprobó el curso y asiste a sus clases. La revisión de Dawson y colaboradores encontró que participar se asocia con mejores notas y menos reprobación, aunque la mayoría de los estudios no descarta que quienes asisten ya estuvieran más motivados.",
+      "uni": "Para Cálculo I, contrata a una estudiante de tercer año que asista a las clases y guíe dos sesiones semanales de problemas, abiertas a todo el curso.",
+      "refs": [
+        "dawson14"
+      ]
+    },
+    "comunidad_aprendizaje": {
+      "n": "Comunidades de aprendizaje",
+      "e": "🍇",
+      "f": "met",
+      "pista": "El mismo grupo cursa juntas dos o tres asignaturas enlazadas, y sus profesores planifican de común acuerdo.",
+      "why": "Llevar la integración a un grupo estable produce cohortes que cursan juntas varias asignaturas coordinadas por un tema común. Zhao y Kuh analizaron datos de 365 instituciones y encontraron que participar en una comunidad de aprendizaje se asocia con más compromiso académico y con mayor satisfacción con la universidad. Kuh la incluye entre las prácticas de alto impacto, aunque los estudios disponibles son en su mayoría correlacionales.",
+      "uni": "En primer año de Trabajo Social, la misma sección cursa Psicología del Desarrollo y Metodología, y ambas asignaturas trabajan un mismo caso de barrio durante el semestre.",
+      "refs": [
+        "zhao04",
+        "kuh08"
+      ]
+    },
+    "seminario_primer_anio": {
+      "n": "Seminario de primer año",
+      "e": "🛄",
+      "f": "dis",
+      "pista": "Una asignatura entera dedicada a entender cómo funciona la carrera y cómo se estudia en ella.",
+      "why": "Convertir el oficio de estudiante en una asignatura con programa da lugar a cursos dedicados a la transición, como el University 101 de la Universidad de Carolina del Sur. Kuh los cuenta entre las prácticas de alto impacto. El metaanálisis de Permzadian y Credé encontró un efecto casi nulo sobre las notas del primer año y uno pequeño sobre la permanencia al año siguiente, con grandes diferencias según el tipo de seminario.",
+      "uni": "Una carrera de Contabilidad dedica una hora semanal del primer semestre a aprender a estudiar y a conversar con egresados, y la evalúa con un portafolio.",
+      "refs": [
+        "kuh08",
+        "permzadian16"
+      ]
+    },
+    "mentoria": {
+      "n": "Mentoría",
+      "e": "🧓",
+      "f": "met",
+      "pista": "Alguien con más camino recorrido que te acompaña también en lo que no sale en el programa.",
+      "why": "Cuando un docente acompaña la integración de un estudiante más allá de la clase, aparece una relación de mentoría. Crisp y Cruz revisaron la investigación sobre mentoría universitaria publicada entre 1990 y 2007 y encontraron tantas definiciones distintas que propusieron una nueva para ordenar el campo. Por eso, antes de lanzar un programa, conviene definir qué hace quien acompaña y con qué formación lo hace.",
+      "uni": "En Odontología, asigna a cada docente cuatro estudiantes de primer año para una conversación mensual de veinte minutos sobre cómo va su semestre.",
+      "refs": [
+        "crisp09"
+      ]
+    },
+    "correquisito": {
+      "n": "Apoyo correquisito",
+      "e": "🛞",
+      "f": "dis",
+      "pista": "Cursar ya la materia de verdad con un taller al lado, en lugar de un semestre de nivelación.",
+      "why": "Si el diagnóstico de ingreso muestra vacíos, el andamiaje puede darse dentro de la asignatura regular en vez de retrasar al estudiante con cursos remediales. Logue, Watanabe-Rose y Douglas asignaron al azar a estudiantes que debían tomar álgebra remedial y encontraron que quienes cursaron estadística de nivel universitario con un taller de apoyo aprobaron más (56 % frente a 39 %). El experimento se hizo en instituciones públicas de Nueva York y solo con matemática.",
+      "uni": "En lugar de un curso de nivelación en matemática, quienes tienen bajo diagnóstico en Ingeniería en Alimentos cursan Cálculo I con una sesión semanal extra de ejercicios guiados.",
+      "refs": [
+        "logue16"
+      ]
+    },
+    "reflexion_posexamen": {
+      "n": "Reflexión posexamen",
+      "e": "🌯",
+      "f": "eva",
+      "pista": "Una hoja que envuelve la prueba corregida y pregunta cómo estudiaste y qué cambiarás la próxima vez.",
+      "why": "Llevar la metacognición a una evaluación sumativa convierte la nota en información para estudiar distinto. Lovett llamó exam wrappers a hojas breves que el estudiante completa al recibir su prueba corregida, en las que analiza cómo se preparó y qué tipo de errores cometió para decidir qué ajustar. Soicher y Gurung no hallaron mejoras en notas ni en metacognición al usarlas en un solo curso, mientras que los resultados favorables previos venían de usarlas en varios cursos a la vez.",
+      "uni": "Al devolver el primer parcial de Estadística, entrega una hoja con preguntas sobre cómo estudiaste y en qué tipo de ejercicio fallaste, y retómala antes del segundo.",
+      "refs": [
+        "lovett13",
+        "soicher17"
+      ]
+    },
+    "horas_consulta": {
+      "n": "Horas de consulta",
+      "e": "🕖",
+      "f": "met",
+      "pista": "La puerta del profesor abierta los martes, que muchos creen reservada para quien va mal.",
+      "why": "El currículo oculto también rodea al docente, y por eso un recurso que casi todas las universidades ofrecen se usa poco. Smith y colaboradores encuestaron a 625 estudiantes y dos tercios nunca las usaban; en sus comentarios, muchos no sabían para qué servían o las reservaban para emergencias. Explicar su propósito y presentarlas como un espacio abierto a todo el curso son cambios simples que se recomiendan para aumentar su uso.",
+      "uni": "En el programa de Física, cambia “horario de atención” por “horas de estudio con el profesor” y explica en clase que sirven también para conversar sobre la carrera.",
+      "refs": [
+        "smith17"
+      ]
+    },
+    "asignaturas_filtro": {
+      "n": "Asignaturas filtro",
+      "e": "🥅",
+      "f": "fund",
+      "pista": "El curso de primer año que reprueba a medio auditorio y que algunos defienden como prueba de rigor.",
+      "why": "Cuando una evaluación sumativa concentra el abandono, la asignatura funciona como colador de la carrera. Seymour y Hewitt entrevistaron a estudiantes que dejaron carreras científicas en Estados Unidos, muchos de capacidad superior al promedio, y la mala docencia apareció entre sus quejas más frecuentes. Seymour y Hunter repitieron el estudio veinte años después y las clases filtro seguían detrás de buena parte de los cambios de carrera.",
+      "uni": "Si más del 40 % reprueba tu Química General, revisa con datos qué preguntas falla casi todo el curso y prueba más práctica guiada antes de concluir que el grupo no da.",
+      "refs": [
+        "seymour97",
+        "seymour19"
+      ]
+    },
+    "trasnochar": {
+      "n": "Trasnochar rinde antes del examen",
+      "e": "🌃",
+      "f": "mito",
+      "pista": "Café, apuntes y nada de cama la víspera del parcial, con la promesa de llegar fresco.",
+      "belief": "Pasar la noche en vela estudiando antes de una prueba permite llegar con la materia fresca y rendir mejor.",
+      "evidence": "Dormir después de estudiar ayuda a consolidar lo aprendido, como resume la revisión de Diekelmann y Born. Pilcher y Walters encontraron que universitarios privados de sueño rendían peor en una prueba de pensamiento crítico y, aun así, calificaban su desempeño más alto que quienes habían dormido. En la encuesta de Thacher, quienes habían pasado noches en vela tenían promedios más bajos, aunque ese dato es correlacional.",
+      "refs": [
+        "diekelmann10",
+        "pilcher97",
+        "thacher08"
+      ]
+    },
+    "sueno_memoria": {
+      "n": "Sueño y memoria",
+      "e": "🌚",
+      "f": "apr",
+      "pista": "Lo que estudiaste por la tarde se ordena mientras roncas, si le das las horas que necesita.",
+      "why": "Revisar con calma el mito de la noche en vela lleva a lo que el laboratorio sabe del dormir. Diekelmann y Born reunieron estudios que muestran que el sueño posterior al aprendizaje favorece la consolidación de los recuerdos, y que se recuerda más tras una noche de sueño que tras el mismo tiempo despierto. Okano y colaboradores midieron el sueño de estudiantes de química con pulseras de actividad y encontraron que dormir más y con regularidad durante el mes previo se asociaba con mejores notas.",
+      "uni": "En el calendario de Fisiología, evita fijar entregas a medianoche la víspera de un examen y explica al curso por qué dormir también es parte de estudiar.",
+      "refs": [
+        "diekelmann10",
+        "okano19"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "comunidad",
+      "b": "emocion",
+      "r": "pertenencia",
+      "nota": "Si a una comunidad le sumas emoción, aparece la certeza, o la duda, de que en ella hay un sitio para ti."
+    },
+    {
+      "a": "evaluacion",
+      "b": "pertenencia",
+      "r": "amenaza_estereotipo",
+      "nota": "Si dudas de pertenecer y te toca rendir una prueba, cada pregunta difícil parece decidir si tu grupo merecía estar ahí."
+    },
+    {
+      "a": "amenaza_estereotipo",
+      "b": "retro",
+      "r": "retro_sabia",
+      "nota": "A quien teme ser juzgado por su grupo, la crítica le llega mejor si viene con un estándar alto y confianza en que lo alcanzará."
+    },
+    {
+      "a": "curriculo_oculto",
+      "b": "saber",
+      "r": "capital_cultural",
+      "nota": "Lo que la universidad premia sin enseñarlo, como hablar en clase con soltura, algunos lo traen aprendido de la mesa familiar."
+    },
+    {
+      "a": "capital_cultural",
+      "b": "universidad",
+      "r": "primera_generacion",
+      "nota": "Cuando la herencia cultural de casa no incluye la universidad, quien llega debe aprender la carrera y además las reglas del lugar."
+    },
+    {
+      "a": "curriculo_oculto",
+      "b": "rubrica",
+      "r": "tilt",
+      "nota": "Lo que nadie decía en voz alta pasa a estar escrito en los criterios, junto con el propósito de la tarea."
+    },
+    {
+      "a": "primera_generacion",
+      "b": "tilt",
+      "r": "reglas_vista",
+      "nota": "Quien no tiene a nadie en casa que le explique el juego encuentra las reglas impresas en cada enunciado."
+    },
+    {
+      "a": "reglas_vista",
+      "b": "retro_sabia",
+      "r": "cap_inclusiva",
+      "nota": "Con reglas escritas para todos y críticas que llegan con confianza, el curso mantiene la vara alta y nadie tiene que saltarla a ciegas."
+    },
+    {
+      "a": "cambio",
+      "b": "universidad",
+      "r": "transicion",
+      "nota": "El cambio de llegar a la universidad trae horarios y exigencias nuevas, y a veces una ciudad desconocida."
+    },
+    {
+      "a": "comunidad",
+      "b": "transicion",
+      "r": "integracion",
+      "nota": "Si al cruzar ese umbral alguien te espera del otro lado, la carrera empieza a sentirse propia."
+    },
+    {
+      "a": "curriculo",
+      "b": "integracion",
+      "r": "pedagogia_transicion",
+      "nota": "El currículo es lo único que comparten todos los que llegan, así que la integración se diseña ahí, asignatura por asignatura."
+    },
+    {
+      "a": "formativa",
+      "b": "transicion",
+      "r": "eval_temprana",
+      "nota": "Evaluar para aprender justo al llegar significa una tarea corta en la tercera semana, que avisa a tiempo y casi no pesa."
+    },
+    {
+      "a": "analitica",
+      "b": "eval_temprana",
+      "r": "alerta_temprana",
+      "nota": "Los datos de esas primeras tareas, sumados a la asistencia, encienden un semáforo antes del primer examen grande."
+    },
+    {
+      "a": "alerta_temprana",
+      "b": "tutoria_pares",
+      "r": "alerta_respuesta",
+      "nota": "Un semáforo en rojo sirve de poco si nadie aparece; con un tutor par detrás, la señal se vuelve una invitación."
+    },
+    {
+      "a": "alerta_respuesta",
+      "b": "pedagogia_transicion",
+      "r": "cap_primer_anio",
+      "nota": "Avisos que llegan con ayuda, dentro de un primer año diseñado en conjunto, y nadie se pierde sin que alguien lo note."
+    },
+    {
+      "a": "emocion",
+      "b": "espacio",
+      "r": "clima_aula",
+      "nota": "Las emociones también ocupan la sala, y forman un ambiente que todos sienten aunque nadie lo nombre."
+    },
+    {
+      "a": "pertenencia",
+      "b": "tiempo",
+      "r": "intervencion_pertenencia",
+      "nota": "Con el paso del tiempo, la duda de no encajar se ve como algo pasajero que también vivieron los de cursos superiores."
+    },
+    {
+      "a": "amenaza_estereotipo",
+      "b": "escritura",
+      "r": "afirmacion_valores",
+      "nota": "Frente a la prueba que asusta, escribir sobre lo que más valoras recuerda que tu identidad no depende de una nota."
+    },
+    {
+      "a": "clima_aula",
+      "b": "tps",
+      "r": "participacion_equitativa",
+      "nota": "En un ambiente cuidado, pensar en silencio y luego conversar en parejas da voz a quien nunca levanta la mano."
+    },
+    {
+      "a": "activo",
+      "b": "espaciada",
+      "r": "alta_estructura",
+      "nota": "Trabajo activo en clase y práctica repartida cada semana, con nota, en vez de dos parciales enormes y nada entre medio."
+    },
+    {
+      "a": "reflexiva",
+      "b": "incluir_bajar",
+      "r": "alta_estructura",
+      "nota": "Al revisar los datos el mito se cae, porque el curso que más pautó y apoyó el trabajo subió las notas de todos y achicó la brecha."
+    },
+    {
+      "a": "comunidad",
+      "b": "previos",
+      "r": "fondos_conocimiento",
+      "nota": "La maleta que trae cada estudiante incluye lo aprendido en su barrio y en el oficio de su familia."
+    },
+    {
+      "a": "fondos_conocimiento",
+      "b": "pedagogia",
+      "r": "pedagogia_relevante",
+      "nota": "Cuando la planificación usa los saberes de las familias, la cultura del estudiante entra a clase sin rebajar la exigencia."
+    },
+    {
+      "a": "fondos_conocimiento",
+      "b": "lenguaje",
+      "r": "translenguaje",
+      "nota": "La lengua que se habla en casa también es un saber acumulado, y sirve para pensar la materia antes de escribirla."
+    },
+    {
+      "a": "espacio",
+      "b": "reflexion",
+      "r": "modelo_social",
+      "nota": "Mira el aula con calma y descubrirás que la barrera es la escalera sin rampa, y la persona solo llega hasta ella."
+    },
+    {
+      "a": "evaluacion",
+      "b": "modelo_social",
+      "r": "ajustes_razonables",
+      "nota": "Si la barrera está en el entorno, también se revisa la prueba, con más tiempo u otro formato y sin cambiar lo que se evalúa."
+    },
+    {
+      "a": "dua",
+      "b": "estudiante",
+      "r": "ajustes_razonables",
+      "nota": "El diseño para todos cubre casi todo, y lo que una persona concreta aún necesita se resuelve a su medida."
+    },
+    {
+      "a": "autoeficacia",
+      "b": "pertenencia",
+      "r": "impostor",
+      "nota": "Logras la tarea, pero dudas de pertenecer, y entonces el éxito parece un error que alguien pronto va a corregir."
+    },
+    {
+      "a": "docente",
+      "b": "mentalidad",
+      "r": "mentalidad_docente",
+      "nota": "La idea de que la capacidad crece también vive en quien enseña, y su curso la nota en cada comentario."
+    },
+    {
+      "a": "dua",
+      "b": "sumativa",
+      "r": "incluir_bajar",
+      "nota": "Al ver varias formas de rendir el examen final, alguien concluye que se pide menos, aunque la meta sea la misma."
+    },
+    {
+      "a": "mentalidad_docente",
+      "b": "sumativa",
+      "r": "correccion_anonima",
+      "nota": "Si sabes que tus expectativas pueden teñir la nota final, tapas el nombre antes de corregir."
+    },
+    {
+      "a": "dialogo",
+      "b": "primera_generacion",
+      "r": "educacion_diferencia",
+      "nota": "Conversar en público sobre cómo el origen familiar pesa en la carrera convierte una desventaja callada en algo que se puede enfrentar."
+    },
+    {
+      "a": "expositiva",
+      "b": "pregunta",
+      "r": "tiempo_espera",
+      "nota": "El expositor lanza una pregunta y, en lugar de contestarla él mismo al segundo, se queda callado unos cuantos más."
+    },
+    {
+      "a": "tiempo",
+      "b": "transicion",
+      "r": "abandono",
+      "nota": "Si la transición se alarga sin anclajes, las semanas juegan en contra y la silla se vacía antes de fin de año."
+    },
+    {
+      "a": "curriculo_oculto",
+      "b": "transicion",
+      "r": "oficio_estudiante",
+      "nota": "Al llegar, el currículo oculto se vuelve una lengua extranjera que hay que aprender para sentirse del lugar."
+    },
+    {
+      "a": "autorregulado",
+      "b": "recuperacion",
+      "r": "estrategias_estudio",
+      "nota": "El entrenador de su propio estudio elige ponerse a prueba en vez de releer, y arma su plan con técnicas que funcionan."
+    },
+    {
+      "a": "metacognicion",
+      "b": "releer",
+      "r": "ilusion_competencia",
+      "nota": "Mirarte pensar después de releer tres veces revela el engaño, porque reconocer un texto no garantiza poder recordarlo."
+    },
+    {
+      "a": "autorregulado",
+      "b": "tiempo",
+      "r": "procrastinacion",
+      "nota": "Cuando el autocontrol pierde contra el reloj, el estudio queda para mañana, y mañana para la noche anterior."
+    },
+    {
+      "a": "espaciada",
+      "b": "procrastinacion",
+      "r": "gestion_tiempo",
+      "nota": "Para repartir el estudio en varios días hay que ganarle a la postergación con una agenda que diga cuándo empezar."
+    },
+    {
+      "a": "asignaturas_filtro",
+      "b": "tutoria_pares",
+      "r": "instruccion_suplementaria",
+      "nota": "La ayuda de un compañero avanzado se instala justo en el curso que más reprueba, abierta a todo el que quiera ir."
+    },
+    {
+      "a": "grupo",
+      "b": "integracion",
+      "r": "comunidad_aprendizaje",
+      "nota": "Si el mismo grupo cursa junto varias asignaturas enlazadas, integrarse deja de depender de la suerte."
+    },
+    {
+      "a": "oficio_estudiante",
+      "b": "syllabus",
+      "r": "seminario_primer_anio",
+      "nota": "Aprender el oficio de estudiante pasa a tener programa y créditos propios en el primer semestre."
+    },
+    {
+      "a": "docente",
+      "b": "integracion",
+      "r": "mentoria",
+      "nota": "Un docente que conversa con el recién llegado fuera de clase le abre la puerta a la vida académica."
+    },
+    {
+      "a": "andamiaje",
+      "b": "diagnostica",
+      "r": "correquisito",
+      "nota": "El diagnóstico muestra vacíos, y en vez de un semestre de nivelación el apoyo se monta al lado del curso real."
+    },
+    {
+      "a": "metacognicion",
+      "b": "sumativa",
+      "r": "reflexion_posexamen",
+      "nota": "Mirar cómo estudiaste justo cuando recibes la nota final del parcial convierte el número en un plan para el siguiente."
+    },
+    {
+      "a": "curriculo_oculto",
+      "b": "docente",
+      "r": "horas_consulta",
+      "nota": "Nadie explica para qué sirve la puerta abierta del profesor, y muchos creen que solo se cruza cuando algo va mal."
+    },
+    {
+      "a": "abandono",
+      "b": "sumativa",
+      "r": "asignaturas_filtro",
+      "nota": "Cuando un examen final concentra las bajas, la asignatura empieza a funcionar como colador de la carrera."
+    },
+    {
+      "a": "procrastinacion",
+      "b": "sumativa",
+      "r": "trasnochar",
+      "nota": "Quien posterga hasta la víspera del examen termina estudiando toda la noche, y encima lo cuenta como hazaña."
+    },
+    {
+      "a": "reflexiva",
+      "b": "trasnochar",
+      "r": "sueno_memoria",
+      "nota": "Al revisar por qué la noche en vela falla, aparece lo que el laboratorio sabe del dormir y el recordar."
+    },
+    {
+      "a": "espacio",
+      "b": "pertenencia",
+      "r": "clima_aula",
+      "nota": "Cuando cada quien siente que tiene lugar, la sala entera cambia de temperatura."
+    },
+    {
+      "a": "mentalidad",
+      "b": "pertenencia",
+      "r": "intervencion_pertenencia",
+      "nota": "Igual que la mentalidad de crecimiento, la intervención de pertenencia cambia cómo el estudiante interpreta sus primeras dificultades."
+    },
+    {
+      "a": "aula_activa",
+      "b": "clima_aula",
+      "r": "participacion_equitativa",
+      "nota": "Mesas redondas en un ambiente cuidado permiten repartir la palabra entre todos los grupos de la sala."
+    },
+    {
+      "a": "casos",
+      "b": "fondos_conocimiento",
+      "r": "pedagogia_relevante",
+      "nota": "Casos sacados de la vida de las familias del curso, analizados con el mismo rigor que los del manual."
+    },
+    {
+      "a": "participacion_equitativa",
+      "b": "pregunta",
+      "r": "tiempo_espera",
+      "nota": "Para que responda alguien más que el rápido de siempre, basta con callar unos segundos después de preguntar."
+    },
+    {
+      "a": "ajustes_razonables",
+      "b": "sumativa",
+      "r": "incluir_bajar",
+      "nota": "Alguien ve tiempo extra en el examen final de un compañero y piensa que le regalan la nota."
+    },
+    {
+      "a": "autoeficacia",
+      "b": "primera_generacion",
+      "r": "impostor",
+      "nota": "Primera de su familia en llegar y con buenas notas, siente que en cualquier momento alguien notará que no debía estar ahí."
+    },
+    {
+      "a": "modelo_social",
+      "b": "tecnologia",
+      "r": "accesibilidad",
+      "nota": "Si la barrera está en el entorno, la tecnología también debe quitarla: subtítulos, texto legible y navegación por teclado."
+    },
+    {
+      "a": "asincronico",
+      "b": "pertenencia",
+      "r": "emoderacion",
+      "nota": "En un foro a distancia, la pertenencia se construye en una etapa propia de presentaciones antes de entrar al contenido."
+    },
+    {
+      "a": "cooperativo",
+      "b": "pertenencia",
+      "r": "jigsaw",
+      "nota": "Aronson creó el rompecabezas para que estudiantes de distintos grupos se necesitaran entre sí y se vieran como parte del mismo equipo."
+    },
+    {
+      "a": "correccion_anonima",
+      "b": "rubrica",
+      "r": "validez",
+      "nota": "Tapar el nombre y corregir con criterios explícitos son dos defensas para que la nota mida lo que dice medir."
+    },
+    {
+      "a": "alta_estructura",
+      "b": "capsula",
+      "r": "invertida",
+      "nota": "Si la preparación semanal llega en videos breves con cuestionario, la clase queda libre para trabajar problemas."
+    },
+    {
+      "a": "participacion_equitativa",
+      "b": "respuesta_audiencia",
+      "r": "peer",
+      "nota": "Si todos votan desde su teléfono y luego discuten con el de al lado, nadie queda fuera de la conversación."
+    },
+    {
+      "a": "curriculo_oculto",
+      "b": "primera_generacion",
+      "r": "oficio_estudiante",
+      "nota": "Las reglas que nadie explica pesan más sobre quien no tiene en casa a nadie que ya las aprendió."
+    },
+    {
+      "a": "alfabetizacion_academica",
+      "b": "transicion",
+      "r": "oficio_estudiante",
+      "nota": "Aprender a leer y escribir como pide la carrera es parte de afiliarse a ella durante el primer año."
+    },
+    {
+      "a": "ilusion_competencia",
+      "b": "recuperacion",
+      "r": "estrategias_estudio",
+      "nota": "Para romper la ilusión de saber, nada como cerrar los apuntes y tratar de recordar, y eso se vuelve método."
+    },
+    {
+      "a": "metacognicion",
+      "b": "seminario_primer_anio",
+      "r": "estrategias_estudio",
+      "nota": "Un seminario de primer año que enseña a mirarse pensar termina enseñando a estudiar mejor."
+    },
+    {
+      "a": "espaciada",
+      "b": "estrategias_estudio",
+      "r": "reaprendizaje",
+      "nota": "Con técnicas que funcionan y repasos separados por días, el estudio se vuelve recuperar hasta acertar en varias sesiones."
+    },
+    {
+      "a": "releer",
+      "b": "transicion",
+      "r": "ilusion_competencia",
+      "nota": "La costumbre del colegio de releer llega intacta a la universidad, y con ella la falsa sensación de dominar la materia."
+    },
+    {
+      "a": "metacognicion",
+      "b": "trasnochar",
+      "r": "ilusion_competencia",
+      "nota": "Tras la noche en vela, el estudiante cree que le fue mejor de lo que le fue, porque el sueño perdido también engaña al juicio."
+    },
+    {
+      "a": "carga_trabajo",
+      "b": "procrastinacion",
+      "r": "gestion_tiempo",
+      "nota": "Cuando la carga real del semestre se acumula, postergar sale caro y aprender a planificar se vuelve urgente."
+    },
+    {
+      "a": "abandono",
+      "b": "tutoria_pares",
+      "r": "instruccion_suplementaria",
+      "nota": "En vez de esperar a que alguien se vaya, se ponen tutores pares justo en los cursos donde más se abandona."
+    },
+    {
+      "a": "cooperativo",
+      "b": "transicion",
+      "r": "comunidad_aprendizaje",
+      "nota": "Llegar a la carrera trabajando siempre con el mismo equipo en varias asignaturas convierte al grupo en cohorte."
+    },
+    {
+      "a": "transicion",
+      "b": "tutoria_pares",
+      "r": "mentoria",
+      "nota": "Un estudiante de segundo año acompaña al recién llegado en lo académico y en lo que no sale en el programa."
+    },
+    {
+      "a": "eval_temprana",
+      "b": "metacognicion",
+      "r": "reflexion_posexamen",
+      "nota": "Al devolver la primera tarea de bajo peso, una hoja de preguntas obliga a mirar cómo se estudió."
+    },
+    {
+      "a": "previos",
+      "b": "transicion",
+      "r": "diagnostica",
+      "nota": "Al llegar, cada estudiante trae una maleta distinta, y conviene revisarla antes de la primera unidad."
+    },
+    {
+      "a": "carga_trabajo",
+      "b": "transicion",
+      "r": "abandono",
+      "nota": "Si la carga real dobla lo que se esperaba justo al llegar, muchos se bajan del barco antes de fin de año."
+    },
+    {
+      "a": "dialogo",
+      "b": "transicion",
+      "r": "educacion_diferencia",
+      "nota": "Conversar sobre cómo cada origen vive el ingreso ayuda a los recién llegados a ver que sus tropiezos tienen explicación."
+    },
+    {
+      "a": "pertenencia",
+      "b": "transicion",
+      "r": "intervencion_pertenencia",
+      "nota": "Justo en la transición, leer que la duda de no encajar es común y pasa le quita peso de veredicto."
+    },
+    {
+      "a": "andamiaje",
+      "b": "asignaturas_filtro",
+      "r": "alta_estructura",
+      "nota": "Si el curso que más reprueba pauta cada semana con práctica guiada y calificada, deja de filtrar a ciegas."
+    },
+    {
+      "a": "olvido",
+      "b": "sueno_memoria",
+      "r": "espaciada",
+      "nota": "Si lo aprendido se borra rápido y el sueño lo asienta, conviene repartir el estudio en varias noches."
+    },
+    {
+      "a": "gestion_tiempo",
+      "b": "syllabus",
+      "r": "carga_trabajo",
+      "nota": "Al pasar a la agenda cada lectura y entrega del programa, aparecen las horas reales que pide el curso."
+    },
+    {
+      "a": "autoevaluacion",
+      "b": "ilusion_competencia",
+      "r": "autorregulado",
+      "nota": "Predecir tu nota y compararla con la real calibra el juicio que la relectura había inflado."
+    },
+    {
+      "a": "analisis_items",
+      "b": "asignaturas_filtro",
+      "r": "validez",
+      "nota": "Cuando media sala reprueba, conviene revisar pregunta por pregunta si la prueba mide lo que dice medir."
+    },
+    {
+      "a": "primera_generacion",
+      "b": "tutoria_pares",
+      "r": "mentoria",
+      "nota": "Un tutor par que también fue el primero de su familia en llegar acompaña más allá de la materia."
+    }
+  ],
+  "refs": {
+    "walton07": "Walton, G. M., & Cohen, G. L. (2007). A question of belonging: Race, social fit, and achievement. _Journal of Personality and Social Psychology, 92_(1), 82–96.",
+    "walton11": "Walton, G. M., & Cohen, G. L. (2011). A brief social-belonging intervention improves academic and health outcomes of minority students. _Science, 331_(6023), 1447–1451.",
+    "strayhorn19": "Strayhorn, T. L. (2019). _College students' sense of belonging: A key to educational success for all students_ (2nd ed.). Routledge.",
+    "steele95": "Steele, C. M., & Aronson, J. (1995). Stereotype threat and the intellectual test performance of African Americans. _Journal of Personality and Social Psychology, 69_(5), 797–811.",
+    "steele97": "Steele, C. M. (1997). A threat in the air: How stereotypes shape intellectual identity and performance. _American Psychologist, 52_(6), 613–629.",
+    "shewach19": "Shewach, O. R., Sackett, P. R., & Quint, S. (2019). Stereotype threat effects in settings with features likely versus unlikely in operational test settings: A meta-analysis. _Journal of Applied Psychology, 104_(12), 1514–1534.",
+    "cohen99": "Cohen, G. L., Steele, C. M., & Ross, L. D. (1999). The mentor's dilemma: Providing critical feedback across the racial divide. _Personality and Social Psychology Bulletin, 25_(10), 1302–1318.",
+    "yeager14": "Yeager, D. S., Purdie-Vaughns, V., Garcia, J., Apfel, N., Brzustoski, P., Master, A., Hessert, W. T., Williams, M. E., & Cohen, G. L. (2014). Breaking the cycle of mistrust: Wise interventions to provide critical feedback across the racial divide. _Journal of Experimental Psychology: General, 143_(2), 804–824.",
+    "yeager11": "Yeager, D. S., & Walton, G. M. (2011). Social-psychological interventions in education: They're not magic. _Review of Educational Research, 81_(2), 267–301.",
+    "bourdieu86": "Bourdieu, P. (1986). The forms of capital. En J. G. Richardson (Ed.), _Handbook of theory and research for the sociology of education_ (pp. 241–258). Greenwood.",
+    "bourdieu03": "Bourdieu, P., & Passeron, J.-C. (2003). _Los herederos: Los estudiantes y la cultura_. Siglo XXI Editores. (Obra original publicada en 1964)",
+    "stephens12": "Stephens, N. M., Fryberg, S. A., Markus, H. R., Johnson, C. S., & Covarrubias, R. (2012). Unseen disadvantage: How American universities' focus on independence undermines the academic performance of first-generation college students. _Journal of Personality and Social Psychology, 102_(6), 1178–1197.",
+    "stephens14": "Stephens, N. M., Hamedani, M. G., & Destin, M. (2014). Closing the social-class achievement gap: A difference-education intervention improves first-generation students' academic performance and all students' college transition. _Psychological Science, 25_(4), 943–953.",
+    "pascarella04": "Pascarella, E. T., Pierson, C. T., Wolniak, G. C., & Terenzini, P. T. (2004). First-generation college students: Additional evidence on college experiences and outcomes. _The Journal of Higher Education, 75_(3), 249–284.",
+    "winkelmes16": "Winkelmes, M.-A., Bernacki, M., Butler, J., Zochowski, M., Golanics, J., & Harriss Weavil, K. (2016). A teaching intervention that increases underserved college students' success. _Peer Review, 18_(1/2).",
+    "winkelmes19": "Winkelmes, M.-A., Boye, A., & Tapp, S. (Eds.). (2019). _Transparent design in higher education teaching and leadership: A guide to implementing the transparency framework institution-wide to improve learning and retention_. Stylus.",
+    "ambrose10": "Ambrose, S. A., Bridges, M. W., DiPietro, M., Lovett, M. C., & Norman, M. K. (2010). _How learning works: Seven research-based principles for smart teaching_. Jossey-Bass.",
+    "miyake10": "Miyake, A., Kost-Smith, L. E., Finkelstein, N. D., Pollock, S. J., Cohen, G. L., & Ito, T. A. (2010). Reducing the gender achievement gap in college science: A classroom study of values affirmation. _Science, 330_(6008), 1234–1237.",
+    "serragarcia20": "Serra-Garcia, M., Hansen, K. T., & Gneezy, U. (2020). Can short psychological interventions affect educational performance? Revisiting the effect of self-affirmation interventions. _Psychological Science, 31_(7), 865–872.",
+    "hanselman17": "Hanselman, P., Rozek, C. S., Grigg, J., & Borman, G. D. (2017). New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications. _Journal of Educational Psychology, 109_(3), 405–424.",
+    "tanner13": "Tanner, K. D. (2013). Structure matters: Twenty-one teaching strategies to promote student engagement and cultivate classroom equity. _CBE-Life Sciences Education, 12_(3), 322–331.",
+    "dallimore13": "Dallimore, E. J., Hertenstein, J. H., & Platt, M. B. (2013). Impact of cold-calling on student voluntary participation. _Journal of Management Education, 37_(3), 305–341.",
+    "haak11": "Haak, D. C., HilleRisLambers, J., Pitre, E., & Freeman, S. (2011). Increased structure and active learning reduce the achievement gap in introductory biology. _Science, 332_(6034), 1213–1216.",
+    "eddy14": "Eddy, S. L., & Hogan, K. A. (2014). Getting under the hood: How and for whom does increasing course structure work? _CBE-Life Sciences Education, 13_(3), 453–468.",
+    "moll92": "Moll, L. C., Amanti, C., Neff, D., & Gonzalez, N. (1992). Funds of knowledge for teaching: Using a qualitative approach to connect homes and classrooms. _Theory Into Practice, 31_(2), 132–141.",
+    "ladson95": "Ladson-Billings, G. (1995). Toward a theory of culturally relevant pedagogy. _American Educational Research Journal, 32_(3), 465–491.",
+    "garcia14": "García, O., & Li Wei. (2014). _Translanguaging: Language, bilingualism and education_. Palgrave Macmillan.",
+    "oliver90": "Oliver, M. (1990). _The politics of disablement_. Macmillan.",
+    "onu06": "Naciones Unidas. (2006). _Convención sobre los derechos de las personas con discapacidad_.",
+    "clance78": "Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention. _Psychotherapy: Theory, Research & Practice, 15_(3), 241–247.",
+    "bravata20": "Bravata, D. M., Watts, S. A., Keefer, A. L., Madhusudhan, D. K., Taylor, K. T., Clark, D. M., Nelson, R. S., Cokley, K. O., & Hagg, H. K. (2020). Prevalence, predictors, and treatment of impostor syndrome: A systematic review. _Journal of General Internal Medicine, 35_(4), 1252–1275.",
+    "canning19": "Canning, E. A., Muenks, K., Green, D. J., & Murphy, M. C. (2019). STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes. _Science Advances, 5_(2), eaau4734.",
+    "malouff16": "Malouff, J. M., & Thorsteinsson, E. B. (2016). Bias in grading: A meta-analysis of experimental research findings. _Australian Journal of Education, 60_(3), 245–256.",
+    "rowe86": "Rowe, M. B. (1986). Wait time: Slowing down may be a way of speeding up! _Journal of Teacher Education, 37_(1), 43–50.",
+    "gale14": "Gale, T., & Parker, S. (2014). Navigating change: A typology of student transition in higher education. _Studies in Higher Education, 39_(5), 734–753.",
+    "tinto75": "Tinto, V. (1975). Dropout from higher education: A theoretical synthesis of recent research. _Review of Educational Research, 45_(1), 89–125.",
+    "tinto12": "Tinto, V. (2012). _Completing college: Rethinking institutional action_. University of Chicago Press.",
+    "kift09": "Kift, S. (2009). _Articulating a transition pedagogy to scaffold and to enhance the first year student learning experience in Australian higher education: Final report for ALTC Senior Fellowship Program_. Australian Learning and Teaching Council.",
+    "kift10": "Kift, S., Nelson, K., & Clarke, J. (2010). Transition pedagogy: A third generation approach to FYE. A case study of policy and practice for the higher education sector. _The International Journal of the First Year in Higher Education, 1_(1), 1–20.",
+    "nicol09": "Nicol, D. (2009). Assessment for learner self-regulation: Enhancing achievement in the first year using learning technologies. _Assessment & Evaluation in Higher Education, 34_(3), 335–352.",
+    "arnold12": "Arnold, K. E., & Pistilli, M. D. (2012). Course Signals at Purdue: Using learning analytics to increase student success. En _Proceedings of the 2nd International Conference on Learning Analytics and Knowledge_ (pp. 267–270). ACM.",
+    "dawson14": "Dawson, P., van der Meer, J., Skalicky, J., & Cowley, K. (2014). On the effectiveness of supplemental instruction: A systematic review of supplemental instruction and peer-assisted study sessions literature between 2001 and 2010. _Review of Educational Research, 84_(4), 609–639.",
+    "coulon97": "Coulon, A. (1997). _Le métier d'étudiant: L'entrée dans la vie universitaire_. Presses Universitaires de France.",
+    "hartwig12": "Hartwig, M. K., & Dunlosky, J. (2012). Study strategies of college students: Are self-testing and scheduling related to achievement? _Psychonomic Bulletin & Review, 19_(1), 126–134.",
+    "kornell07": "Kornell, N., & Bjork, R. A. (2007). The promise and perils of self-regulated study. _Psychonomic Bulletin & Review, 14_(2), 219–224.",
+    "koriat05": "Koriat, A., & Bjork, R. A. (2005). Illusions of competence in monitoring one's knowledge during study. _Journal of Experimental Psychology: Learning, Memory, and Cognition, 31_(2), 187–194.",
+    "steel07": "Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. _Psychological Bulletin, 133_(1), 65–94.",
+    "britton91": "Britton, B. K., & Tesser, A. (1991). Effects of time-management practices on college grades. _Journal of Educational Psychology, 83_(3), 405–410.",
+    "aeon21": "Aeon, B., Faber, A., & Panaccio, A. (2021). Does time management work? A meta-analysis. _PLOS ONE, 16_(1), e0245066.",
+    "zhao04": "Zhao, C.-M., & Kuh, G. D. (2004). Adding value: Learning communities and student engagement. _Research in Higher Education, 45_(2), 115–138.",
+    "kuh08": "Kuh, G. D. (2008). _High-impact educational practices: What they are, who has access to them, and why they matter_. Association of American Colleges and Universities.",
+    "permzadian16": "Permzadian, V., & Credé, M. (2016). Do first-year seminars improve college grades and retention? A quantitative review of their overall effectiveness and an examination of moderators of effectiveness. _Review of Educational Research, 86_(1), 277–316.",
+    "crisp09": "Crisp, G., & Cruz, I. (2009). Mentoring college students: A critical review of the literature between 1990 and 2007. _Research in Higher Education, 50_(6), 525–545.",
+    "logue16": "Logue, A. W., Watanabe-Rose, M., & Douglas, D. (2016). Should students assessed as needing remedial mathematics take college-level quantitative courses instead? A randomized controlled trial. _Educational Evaluation and Policy Analysis, 38_(3), 578–598.",
+    "lovett13": "Lovett, M. C. (2013). Make exams worth more than the grade: Using exam wrappers to promote metacognition. En M. Kaplan, N. Silver, D. LaVaque-Manty y D. Meizlish (Eds.), _Using reflection and metacognition to improve student learning: Across the disciplines, across the academy_ (pp. 18–52). Stylus.",
+    "smith17": "Smith, M., Chen, Y., Berndtson, R., Burson, K. M., & Griffin, W. (2017). \"Office hours are kind of weird\": Reclaiming a resource to foster student-faculty interaction. _InSight: A Journal of Scholarly Teaching, 12_, 14–29.",
+    "seymour97": "Seymour, E., & Hewitt, N. M. (1997). _Talking about leaving: Why undergraduates leave the sciences_. Westview Press.",
+    "seymour19": "Seymour, E., & Hunter, A.-B. (Eds.). (2019). _Talking about leaving revisited: Persistence, relocation, and loss in undergraduate STEM education_. Springer.",
+    "soicher17": "Soicher, R. N., & Gurung, R. A. R. (2017). Do exam wrappers increase metacognition and performance? A single course intervention. _Psychology Learning & Teaching, 16_(1), 64–73.",
+    "diekelmann10": "Diekelmann, S., & Born, J. (2010). The memory function of sleep. _Nature Reviews Neuroscience, 11_(2), 114–126.",
+    "pilcher97": "Pilcher, J. J., & Walters, A. S. (1997). How sleep deprivation affects psychological variables related to college students' cognitive performance. _Journal of American College Health, 46_(3), 121–126.",
+    "thacher08": "Thacher, P. V. (2008). University students and \"the all nighter\": Correlates and patterns of students' engagement in a single night of total sleep deprivation. _Behavioral Sleep Medicine, 6_(1), 16–31.",
+    "okano19": "Okano, K., Kaczmarzyk, J. R., Dave, N., Gabrieli, J. D. E., & Grossman, J. C. (2019). Sleep quality, duration, and consistency are associated with better academic performance in college students. _npj Science of Learning, 4_, 16."
+  },
+  "misiones": [
+    {
+      "id": "inclusiva",
+      "n": "Todas y todos aprenden",
+      "e": "👐",
+      "meta": "cap_inclusiva",
+      "hitos": [
+        "pertenencia",
+        "tilt",
+        "retro_sabia"
+      ],
+      "encargo": "Te escribe Citlali Hernández, que enseña Fisiología Vegetal en segundo semestre de Agronomía en una universidad pública de Oaxaca. Más de la mitad de su grupo es la primera generación de su familia en la universidad, y varios estudiantes hablan zapoteco o mixe en casa. En las sesiones casi solo participan quienes estudiaron en preparatorias privadas de la ciudad. En el primer examen, un caso de un maizal con sequía pedía discutir los resultados de un ensayo y muchos entregaron un resumen del libro. Una estudiante le confesó que siente que ocupa un lugar que no le corresponde. Citlali quiere un curso igual de exigente en que todo el grupo tenga posibilidades reales de lograrlo.",
+      "objetivo": "Llega a 👐 Todas y todos aprenden para ayudar a Citlali a mantener la exigencia de Fisiología Vegetal y a poner las reglas del curso al alcance de todo su grupo.",
+      "reflexiones": {
+        "pertenencia": "La estudiante de Citlali siente que ocupa un lugar ajeno. ¿En qué semana de tu curso podría aparecer esa misma duda, y qué contarías en clase para mostrar que es común y suele pasar?",
+        "tilt": "El caso del maizal de Citlali pedía “discutir” y recibió resúmenes. Elige una consigna de tu curso con un verbo así y reescríbela para que diga qué se espera y cómo se evaluará.",
+        "retro_sabia": "Piensa en el último trabajo que devolviste lleno de correcciones. ¿Qué frase agregarías, como hará Citlali con sus informes de ensayo, para que tu estudiante lea la crítica como confianza en lo que puede lograr?"
+      },
+      "cierre": "Citlali ya puede devolver cada informe de ensayo con criterios escritos y un ejemplo comentado, junto con una frase que declara su estándar y su confianza en el grupo. En la tercera semana contará que las dudas de pertenencia son comunes y pasan. El examen sigue igual de exigente, y ahora quienes estudiaron en preparatorias públicas o hablan zapoteco en casa saben qué significa discutir los resultados de un ensayo de campo."
+    },
+    {
+      "id": "primer_anio",
+      "n": "Primer año que sostiene",
+      "e": "🫴",
+      "meta": "cap_primer_anio",
+      "hitos": [
+        "integracion",
+        "eval_temprana",
+        "pedagogia_transicion"
+      ],
+      "encargo": "Te escribe Marco Vargas, que enseña Programación I y coordina el primer año de Ingeniería de Sistemas en una universidad de Tegucigalpa. Cada año, cerca de un tercio de quienes ingresan no se reinscribe al segundo semestre, y casi siempre él se entera cuando no aparecen al examen final. En una encuesta, los que siguieron contaron que nadie les explicó cómo estudiar para una prueba universitaria y que el primer mes no conocían a nadie. Muchos trabajan por las tardes. Marco y sus colegas de Cálculo y Física quieren rediseñar el primer semestre para que ningún estudiante se vaya sin que alguien lo note.",
+      "objetivo": "Llega a 🫴 Primer año que sostiene para diseñar con Marco un primer semestre que detecte a tiempo a quien se queda atrás y le ofrezca un apoyo concreto.",
+      "reflexiones": {
+        "integracion": "Los estudiantes de Marco pasaban el primer mes sin conocer a nadie. ¿Qué actividad de tus primeras tres semanas haría que cada estudiante trabaje con al menos dos compañeros distintos?",
+        "eval_temprana": "Marco se enteraba de las bajas en el examen final. ¿Qué tarea breve y de poco peso pondrías en tu tercera semana para saber quién necesita ayuda, y cuándo la devolverías comentada?",
+        "pedagogia_transicion": "Marco coordina con Cálculo y Física. ¿Qué acordarías con quienes enseñan al mismo grupo que tú, por ejemplo un calendario de entregas común o la misma semana para la primera evaluación?"
+      },
+      "cierre": "Marco y sus colegas tienen ahora un primer semestre coordinado, con parejas de laboratorio que rotan durante el primer mes. En la tercera semana toman una tarea de bajo peso y en la cuarta revisan quién se está quedando atrás. Cada alerta dispara un correo personal y una invitación a las sesiones que guía una estudiante de tercer año. Si alguien falta a dos laboratorios al comienzo del semestre, Marco lo sabrá esa misma semana."
+    }
+  ]
+}

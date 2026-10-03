@@ -1,0 +1,1224 @@
+{
+ "fichas": {
+  "autodeterminacion": {
+   "n": "Teoría de la autodeterminación",
+   "e": "🌻",
+   "f": "apr",
+   "pista": "Una planta psicológica que crece si puedes decidir, te sientes capaz y alguien te acompaña.",
+   "why": "Si a la motivación intrínseca le sumas a los otros, es decir, el ambiente que la rodea, aparece la teoría de la autodeterminación de Deci y Ryan. Propone tres necesidades psicológicas básicas (autonomía, competencia y relación con otros) y sostiene que un contexto que las satisface mantiene la motivación intrínseca y ayuda a que las razones externas se vuelvan propias. El metaanálisis de Howard y colaboradores, con más de 200 000 estudiantes, asoció las formas más autónomas de motivación con mejor rendimiento, bienestar y persistencia.",
+   "uni": "En Contabilidad, deja que cada equipo elija la empresa que analizará y mantén los mismos equipos todo el semestre, para atender a la vez la autonomía y la relación.",
+   "refs": [
+    "deci85",
+    "ryan00",
+    "howard21"
+   ]
+  },
+  "motivacion_autonoma": {
+   "n": "Motivación autónoma",
+   "e": "🚵",
+   "f": "apr",
+   "pista": "Estudias algo aburrido sin que nadie te vigile, porque entiendes para qué te servirá.",
+   "why": "Al unir la teoría de la autodeterminación con un propósito que el estudiante hace suyo, aparece la motivación autónoma. Ryan y Deci ordenan las razones para estudiar en un continuo: por premios o castigos (regulación externa), por culpa u orgullo (introyectada), porque se valora lo aprendido (identificada) o por gusto (intrínseca). En un curso obligatorio con más de mil estudiantes de Quebec, Vallerand y Bissonnette encontraron que quienes persistieron habían declarado al inicio más motivación intrínseca e identificada que quienes abandonaron.",
+   "uni": "En Derecho Procesal, antes de un ejercicio árido sobre plazos, explica qué error profesional evita dominarlos y pide al curso que agregue un ejemplo propio.",
+   "refs": [
+    "ryan00b",
+    "vallerand92",
+    "howard21"
+   ]
+  },
+  "apoyo_autonomia": {
+   "n": "Apoyo a la autonomía",
+   "e": "🪽",
+   "f": "fund",
+   "pista": "Cambiar el “tienes que” por una invitación con razones, y escuchar la queja del curso sin castigarla.",
+   "why": "Cuando la teoría de la autodeterminación entra al trabajo del docente, se vuelve un estilo de enseñanza. Reeve lo describe con conductas concretas, como tomar la perspectiva del estudiante, dar razones, usar lenguaje no controlador y aceptar el malestar del curso. En un estudio con futuros profesores, Reeve y Jang hallaron que escuchar y dejar trabajar a cada uno a su manera se asociaban con más autonomía percibida, y dar órdenes, con menos. Su y Reeve mostraron en un metaanálisis que este estilo se aprende.",
+   "uni": "En Programación, en vez de exigir “código comentado”, explica que los comentarios ahorran horas a quien mantenga el programa y acepta que al curso le parezca tedioso.",
+   "refs": [
+    "reeve09",
+    "reeve06",
+    "su11"
+   ]
+  },
+  "estilo_controlador": {
+   "n": "Estilo docente controlador",
+   "e": "👉",
+   "f": "fund",
+   "pista": "Plazos, amenazas de nota y “deberían” a cada rato, para que el curso haga lo que se espera.",
+   "why": "Si la teoría de la autodeterminación se cruza con una evaluación sumativa que pesa sobre todo lo demás, es fácil caer en el estilo opuesto al apoyo a la autonomía, que presiona al curso para que actúe de una manera determinada. Reeve explica que es frecuente porque al docente lo empujan exigencias institucionales, la pasividad de algunos estudiantes y la creencia de que controlar equivale a enseñar con firmeza. Lo asocia con menos compromiso y peores resultados de aprendizaje.",
+   "uni": "Revisa los correos que enviaste este mes a tu curso de Enfermería, cuenta cuántas frases empiezan con “deben” o “es obligatorio” y reescribe dos con su razón.",
+   "refs": [
+    "reeve09",
+    "reeve06"
+   ]
+  },
+  "razon_explicativa": {
+   "n": "Razón explicativa",
+   "e": "🤌",
+   "f": "dis",
+   "pista": "La respuesta honesta que das cuando el curso pregunta “¿y esto para qué?” antes de empezar.",
+   "why": "Cuando el apoyo a la autonomía se encuentra con la pregunta del curso sobre el sentido de una tarea, la respuesta es una razón explicativa, que dice con franqueza por qué vale la pena algo que quizás no entretenga. En un experimento con una tarea aburrida, Deci y colaboradores encontraron que dar una razón con sentido, reconocer el fastidio y ofrecer margen de elección favorecían que la regulación se volviera propia. Reeve y colaboradores mostraron que la razón funciona mejor cuando se ofrece sin presión.",
+   "uni": "Antes del repaso de fórmulas en Estadística, admite que es tedioso, explica que sin él los análisis del proyecto saldrán mal y deja que cada uno elija el orden de los ejercicios.",
+   "refs": [
+    "deci94",
+    "reeve02"
+   ]
+  },
+  "ofrecer_opciones": {
+   "n": "Ofrecer opciones",
+   "e": "🍨",
+   "f": "dis",
+   "pista": "Dos o tres caminos válidos hacia la misma meta, y el estudiante decide cuál recorre.",
+   "why": "El apoyo a la autonomía y el Diseño Universal para el Aprendizaje coinciden en dar opciones reales sobre cómo aprender o mostrar lo aprendido. El metaanálisis de Patall, Cooper y Robinson encontró que elegir aumenta la motivación intrínseca, el esfuerzo y la competencia percibida, con efectos más fuertes cuando se daban entre dos y cuatro elecciones sucesivas y más débiles en adultos que en niños. En la universidad conviene ofrecer pocas opciones y que todas apunten al mismo resultado de aprendizaje.",
+   "uni": "En Historia del Arte, permite entregar el análisis final como ensayo o como guion de visita guiada al museo, y evalúa ambos formatos con la misma rúbrica.",
+   "refs": [
+    "patall08",
+    "cast18"
+   ]
+  },
+  "expectativa_valor": {
+   "n": "Teoría de expectativa y valor",
+   "e": "🎳",
+   "f": "apr",
+   "pista": "Dos preguntas que el estudiante se hace antes de esforzarse: si podrá lograrlo y si le importa.",
+   "why": "Juntar la autoeficacia (creer que puedes) con el propósito (saber para qué) lleva a la teoría de expectativa y valor de Eccles y Wigfield. Propone que la elección, el esfuerzo y la persistencia dependen de cuánto espera lograr el estudiante y de cuánto vale para él la tarea, un valor con varias caras: interés, importancia para su identidad, utilidad y costo. En 2020 la llamaron teoría situada, para destacar que ambas creencias dependen del contexto.",
+   "uni": "En la primera semana de Cálculo, pide al curso que anote del 1 al 5 cuánto cree que aprobará y cuánto le importa la materia, y cruza ambas respuestas para planificar apoyos.",
+   "refs": [
+    "wigfield00",
+    "eccles20"
+   ]
+  },
+  "valor_utilidad": {
+   "n": "Valor de utilidad",
+   "e": "🔧",
+   "f": "apr",
+   "pista": "Lo que gana una tarea cuando ves que te servirá para algo que ya quieres hacer.",
+   "why": "Si la teoría de expectativa y valor se pone frente a un problema real de la profesión, destaca una de las caras del valor, la utilidad, que es cuánto sirve la tarea para las metas presentes o futuras de quien estudia. A diferencia del interés, no exige que la tarea guste. Hulleman y colaboradores mostraron que, cuando el estudiante percibe más utilidad, aumenta su interés por el tema, y que ese aumento fue mayor en quienes esperaban rendir poco.",
+   "uni": "En Química Orgánica para Agronomía, dedica cinco minutos a mostrar cómo una reacción del tema explica la degradación de un herbicida en el suelo.",
+   "refs": [
+    "wigfield00",
+    "hulleman10"
+   ]
+  },
+  "intervencion_utilidad": {
+   "n": "Intervención de valor de utilidad",
+   "e": "📩",
+   "f": "met",
+   "pista": "Un breve texto en que el estudiante explica, con sus palabras, cómo el tema toca su vida.",
+   "why": "Combinar el valor de utilidad con escribir para aprender da una intervención concreta, que consiste en pedir al estudiante que escriba cómo el contenido se relaciona con su vida. En un curso de Biología introductoria con más de mil estudiantes, Harackiewicz y colaboradores la asignaron al azar y redujeron en un 61 % la brecha de notas de los estudiantes de primera generación de minorías subrepresentadas. Canning y colaboradores observaron después más inscripción en el curso siguiente y menos abandono de las carreras científicas.",
+   "uni": "Tras la unidad de metabolismo en Nutrición, pide un párrafo sin nota sobre cómo ese proceso aparece en la dieta de alguien que conoces, y léelo sin corregirlo.",
+   "refs": [
+    "hulleman10",
+    "harackiewicz16",
+    "canning18"
+   ]
+  },
+  "costo_percibido": {
+   "n": "Costo percibido",
+   "e": "💵",
+   "f": "apr",
+   "pista": "Lo que el estudiante siente que pierde al dedicarle horas a tu curso: descanso, trabajo, otra materia, calma.",
+   "why": "Cuando la teoría de expectativa y valor se mide contra la carga de trabajo real, aparece el costo, la cara del valor que resta. Flake y colaboradores propusieron una escala con cuatro dimensiones: el esfuerzo que exige la tarea, el esfuerzo que quita a otras obligaciones, las alternativas valiosas que se pierden y el costo emocional. Según la teoría, un costo alto puede restar valor a una tarea aunque sea útil e interesante.",
+   "uni": "En Arquitectura, si el taller exige noches enteras, publica una estimación de horas por entrega y pregunta a mitad de semestre cuánto tiempo le está costando al curso.",
+   "refs": [
+    "flake15",
+    "wigfield00"
+   ]
+  },
+  "interes_situacional": {
+   "n": "Interés situacional",
+   "e": "🎪",
+   "f": "apr",
+   "pista": "La chispa que enciende una demostración sorprendente en clase y que puede apagarse al salir de la sala.",
+   "why": "Si una clase expositiva abre con algo que despierta curiosidad, aparece el interés situacional, la atención y el afecto que provoca el ambiente en ese momento. Hidi y Renninger lo ubican en las dos primeras fases de su modelo, primero activado y luego mantenido, antes de que pueda convertirse en interés individual. Mitchell distinguió entre lo que capta el interés, como un rompecabezas, y lo que lo sostiene, como la sensación de que la tarea tiene sentido.",
+   "uni": "Abre la clase de Termodinámica con una lata que se aplasta al enfriarse y dedica el resto de la sesión a que el curso explique por qué ocurrió.",
+   "refs": [
+    "hidi06",
+    "mitchell93"
+   ]
+  },
+  "interes_individual": {
+   "n": "Interés individual",
+   "e": "🎷",
+   "f": "apr",
+   "pista": "Una afición por un tema que creció con el tiempo y ahora buscas sin que nadie te empuje.",
+   "why": "Con tiempo y nuevas experiencias, el interés situacional puede volverse interés individual, una disposición estable a volver a un tema, acompañada de conocimiento y de valor personal. En el modelo de Hidi y Renninger corresponde a las dos últimas fases, emergente y bien desarrollado, y el entorno sigue influyendo en ambas. Por eso el docente puede ayudar a que crezca, ofreciendo oportunidades de profundizar y de ver el tema conectado con lo que al estudiante le importa.",
+   "uni": "En Literatura, ofrece a quien se entusiasmó con un autor una lectura opcional más difícil y cinco minutos para presentarla al curso.",
+   "refs": [
+    "hidi06"
+   ]
+  },
+  "detalles_seductores": {
+   "n": "Detalles seductores",
+   "e": "🍬",
+   "f": "apr",
+   "pista": "La anécdota graciosa de la diapositiva que todos recuerdan, aunque nadie recuerde la idea que acompañaba.",
+   "why": "Si para despertar interés situacional se agregan a una presentación multimedia datos curiosos pero ajenos al objetivo, el aprendizaje suele empeorar. Harp y Mayer mostraron que esos detalles seductores reducen el recuerdo de las ideas principales y la resolución de problemas nuevos, porque desvían la atención y llevan a organizar el material en torno a la anécdota. Los metaanálisis de Rey y de Sundararajan y Adesope confirman un efecto negativo, de tamaño pequeño a moderado.",
+   "uni": "En Microbiología, conserva la foto impactante del brote solo si explica el mecanismo de contagio que estás enseñando; si no lo explica, quítala.",
+   "refs": [
+    "harp98",
+    "rey12",
+    "sundararajan20"
+   ]
+  },
+  "metas_logro": {
+   "n": "Metas de logro",
+   "e": "🥇",
+   "f": "apr",
+   "pista": "Ante la misma prueba, uno quiere entender el tema y otro quiere parecer el mejor de la sala.",
+   "why": "Cuando la mentalidad de crecimiento se encuentra con la evaluación, cada estudiante adopta una meta según lo que busca, aprender o demostrar. La teoría de metas de logro distingue metas de dominio (comprender, mejorar) y de desempeño (superar a otros, no quedar mal), y Elliot y McGregor cruzaron esa distinción con la de acercarse al éxito o evitar el fracaso. Las metas de evitar parecer incompetente suelen asociarse con peores resultados.",
+   "uni": "En Física, devuelve las pruebas mostrando a cada estudiante su avance respecto de su propio parcial anterior, sin publicar rankings del curso.",
+   "refs": [
+    "ames92",
+    "elliot01"
+   ]
+  },
+  "estructura_metas": {
+   "n": "Estructura de metas de la clase",
+   "e": "🎽",
+   "f": "dis",
+   "pista": "Lo que el aula premia en silencio: mejorar respecto de ti mismo o ganarle al compañero.",
+   "why": "El aula también moldea las metas de logro de cada estudiante. Ames describió cómo el diseño de las tareas, la autoridad que se comparte con el curso, la forma de reconocer los logros y la de evaluar hacen más visible una meta de dominio o una de desempeño. Un curso que reconoce el progreso individual, permite rehacer y evalúa en privado favorece las metas de dominio, mientras que las tablas públicas de posiciones empujan a compararse.",
+   "uni": "En el taller de Diseño, reemplaza la exposición de los mejores trabajos por una muestra de la primera y la última versión de cada estudiante.",
+   "refs": [
+    "ames92"
+   ]
+  },
+  "sobrejustificacion": {
+   "n": "Efecto de sobrejustificación",
+   "e": "🎁",
+   "f": "apr",
+   "pista": "Le pagas a alguien por hacer lo que ya disfrutaba, y cuando dejas de pagar, deja de hacerlo.",
+   "why": "Si la teoría de la autodeterminación se aplica a una gamificación hecha solo de premios, aparece un riesgo conocido, que la recompensa esperada desplace el gusto propio por la tarea. Lepper, Greene y Nisbett lo observaron en niños que dibujaban menos por su cuenta después de recibir un premio anunciado. El metaanálisis de Deci, Koestner y Ryan confirmó que las recompensas tangibles y esperadas reducen la motivación intrínseca, con efectos algo menores en universitarios, y que la retroalimentación positiva la aumenta.",
+   "uni": "Si das puntos extra en Anatomía, que sean un reconocimiento ocasional e inesperado, acompañado de un comentario sobre lo que cada estudiante aportó.",
+   "refs": [
+    "lepper73",
+    "deci99"
+   ]
+  },
+  "atribuciones": {
+   "n": "Atribuciones causales",
+   "e": "🤕",
+   "f": "apr",
+   "pista": "Tras reprobar, la explicación que te das decide si vuelves a intentarlo o si dejas la materia.",
+   "why": "Un error vivido con emociones de logro intensas pide una explicación. Weiner clasificó esas explicaciones según tres dimensiones, que indican si la causa es interna o externa, estable o pasajera, y controlable o no. Atribuir un fracaso a una causa estable e incontrolable, como la falta de capacidad, baja la expectativa de éxito y aumenta la vergüenza, mientras que atribuirlo al esfuerzo o a la estrategia deja abierta la mejora.",
+   "uni": "Al devolver el primer parcial de Álgebra, pide a cada estudiante que escriba qué parte de su resultado dependió de cómo estudió y qué cambiará para el siguiente.",
+   "refs": [
+    "weiner85"
+   ]
+  },
+  "reentrenamiento_atribucional": {
+   "n": "Reentrenamiento atribucional",
+   "e": "🛟",
+   "f": "met",
+   "pista": "Estudiantes avanzados cuentan que también tropezaron en primer año y mejoraron, y los novatos reinterpretan su mala nota.",
+   "why": "Si las atribuciones causales se trabajan con ayuda de compañeros más avanzados, el estudiante aprende a leer un mal resultado como algo pasajero y modificable. En el estudio de Wilson y Linville, universitarios de primer año preocupados por sus notas vieron datos y entrevistas de estudiantes mayores cuyo promedio había mejorado, y abandonaron menos y subieron más su promedio al año siguiente que quienes no los vieron. Perry y colaboradores desarrollaron este enfoque como intervención para estudiantes universitarios.",
+   "uni": "Tras el primer parcial de Contabilidad, invita a dos estudiantes de cuarto año a contar durante diez minutos qué cambiaron en su forma de estudiar después de un mal comienzo.",
+   "refs": [
+    "wilson82",
+    "perry93",
+    "weiner85"
+   ]
+  },
+  "compromiso_agentico": {
+   "n": "Compromiso agéntico",
+   "e": "🤚",
+   "f": "apr",
+   "pista": "El estudiante que levanta la mano para proponer un cambio en la actividad, además de responder.",
+   "why": "Cuando un docente apoya la autonomía, algunos estudiantes empiezan a influir en la clase, por ejemplo preguntando o sugiriendo cambios. Reeve y Tseng propusieron llamar compromiso agéntico a esta contribución, como cuarta dimensión junto al compromiso conductual, emocional y cognitivo que describieron Fredricks y colaboradores. En un estudio con escolares, Reeve encontró que este compromiso predecía aumentos posteriores en el apoyo a la autonomía que el curso percibía.",
+   "uni": "En Sociología, reserva cinco minutos al cierre de cada unidad para que el curso proponga un ajuste a la siguiente, y aplica al menos uno.",
+   "refs": [
+    "reeve11",
+    "reeve13",
+    "fredricks04"
+   ]
+  },
+  "flujo": {
+   "n": "Flujo",
+   "e": "🏂",
+   "f": "apr",
+   "pista": "Tan metido en el problema que el reloj desaparece, porque el reto calza con lo que sabes.",
+   "why": "Cuando una tarea cae en la zona de desarrollo próximo de alguien que ya la disfruta, puede aparecer el flujo. Csikszentmihalyi describió este estado de concentración total, en que se pierde la noción del tiempo, y lo asoció con desafíos altos que coinciden con habilidades altas, metas claras y retroalimentación inmediata. Si el reto supera mucho la habilidad aparece la ansiedad, y si queda muy por debajo, el aburrimiento.",
+   "uni": "En un laboratorio de Electrónica, ofrece circuitos en tres niveles de dificultad y deja que cada pareja suba de nivel cuando el anterior le resulte fácil.",
+   "refs": [
+    "csikszentmihalyi90"
+   ]
+  },
+  "garra": {
+   "n": "La garra es el secreto del éxito académico",
+   "e": "🐃",
+   "f": "mito",
+   "pista": "Pasión y perseverancia elevadas a fórmula mágica, capaz de explicar quién termina la carrera y quién no.",
+   "belief": "La pasión y la perseverancia por metas de largo plazo predicen el éxito universitario mejor que cualquier otro factor, y un taller que las entrene reduciría la deserción.",
+   "evidence": "Duckworth y colaboradores presentaron la garra como un rasgo que predecía logros más allá de la inteligencia, como la permanencia en una academia militar. El metaanálisis de Credé, Tynan y Harms, con 88 muestras y más de 66 000 personas, halló correlaciones solo moderadas con el rendimiento y la permanencia, y una relación muy fuerte con la responsabilidad, un rasgo de personalidad ya conocido. Los autores concluyen que intervenir para aumentar la garra probablemente tendría efectos débiles en el rendimiento.",
+   "refs": [
+    "duckworth07",
+    "crede17"
+   ]
+  },
+  "cap_autonomia_estructura": {
+   "n": "Autonomía con estructura",
+   "e": "🦮",
+   "f": "sint",
+   "pista": "Libertad para decidir cómo avanzar, con instrucciones claras y una mano cerca cuando hace falta.",
+   "why": "Une el apoyo a la autonomía con el andamiaje. La libertad ayuda a quien ya se siente capaz, y a quien todavía no lo está le hacen falta criterios claros y ayudas que se retiran a tiempo. Jang, Reeve y Deci observaron 133 aulas de secundaria y hallaron que el apoyo a la autonomía y la estructura, es decir, expectativas claras, orientación y retroalimentación, no se oponen, porque ambos predijeron el compromiso conductual que se observó en el curso.",
+   "principios": [
+    "Explica el porqué de cada tarea poco atractiva y reconoce que puede resultar tediosa, porque una razón dada sin presión ayuda a que el curso la haga suya (Reeve et al., 2002).",
+    "Ofrece pocas opciones reales sobre el tema o el formato, todas ligadas al mismo resultado de aprendizaje, porque elegir aumenta la motivación intrínseca y el esfuerzo (Patall et al., 2008).",
+    "Acompaña esa libertad con criterios explícitos, ejemplos y retroalimentación frecuente, porque autonomía y estructura se complementan (Jang et al., 2010).",
+    "Cambia órdenes como “tienen que” por invitaciones con razones, y escucha las quejas del curso sin castigarlas (Reeve, 2009).",
+    "Si este estilo no te sale natural, busca formación, porque los programas para aprender a apoyar la autonomía mostraron resultados (Su y Reeve, 2011)."
+   ],
+   "prueba": "Elige una tarea de la próxima semana que tu curso considere aburrida. Al presentarla, di en una frase por qué importa, reconoce que es tediosa y ofrece dos maneras de hacerla con la misma rúbrica. Anota cuántos la entregan completa y compáralo con una tarea parecida anterior.",
+   "refs": [
+    "jang10",
+    "reeve09",
+    "reeve02",
+    "patall08",
+    "su11"
+   ]
+  },
+  "cap_interes_raices": {
+   "n": "Interés que echa raíces",
+   "e": "🌿",
+   "f": "sint",
+   "pista": "Una chispa de clase que, con un par de textos sobre tu propia vida, se vuelve afición duradera.",
+   "why": "Une la intervención de valor de utilidad con el interés situacional. La chispa de una buena clase dura poco si el estudiante no ve qué tiene que ver el tema con él, y escribir sobre esa conexión tiene respaldo experimental. Hulleman y colaboradores encontraron que esa escritura aumentó el interés mantenido, sobre todo en quienes esperaban rendir poco, y en el modelo de Hidi y Renninger ese interés mantenido es el paso previo a un interés individual más estable.",
+   "principios": [
+    "Abre los temas difíciles con algo que capte la atención y lleve directo a la idea central, porque los detalles llamativos sin relación con ella empeoran el aprendizaje (Harp y Mayer, 1998).",
+    "Para sostener el interés, apuesta por el sentido de la tarea y la participación activa más que por la novedad (Mitchell, 1993).",
+    "Pide al curso, más de una vez en el semestre, un texto breve que conecte el contenido con su vida o su futura profesión (Hulleman et al., 2010).",
+    "Ofrece esa escritura a todo el curso, porque en Biología introductoria benefició a todos los grupos y redujo brechas de rendimiento (Harackiewicz et al., 2016).",
+    "Da a quienes ya muestran interés oportunidades de profundizar, porque el interés individual se sigue nutriendo del entorno (Hidi y Renninger, 2006)."
+   ],
+   "prueba": "Al terminar la próxima unidad, pide un párrafo sin nota que responda cómo se relaciona lo visto con tu vida o tu futuro trabajo. Lee una muestra, comparte dos ejemplos anónimos con el curso y repite la consigna en la unidad siguiente.",
+   "refs": [
+    "hulleman10",
+    "hidi06",
+    "harackiewicz16",
+    "harp98",
+    "mitchell93"
+   ]
+  },
+  "cap_motivacion": {
+   "n": "Motivación que dura",
+   "e": "🪔",
+   "f": "sint",
+   "pista": "Ganas que sobreviven al último punto extra, porque el curso entiende para qué estudia y puede decidir.",
+   "why": "Integra la autonomía con estructura y el interés que echa raíces, para que el estudiante encuentre valor personal en la materia y tenga margen para decidir con apoyo suficiente. En el metaanálisis de Howard y colaboradores, valorar personalmente lo que se estudia estuvo entre las formas de motivación más ligadas a la persistencia, y estudiar solo por premios o castigos no se asoció con ella. Vansteenkiste y colaboradores mostraron que presentar una tarea con metas valiosas y sin presión mejoró la persistencia.",
+   "principios": [
+    "Reemplaza los premios fijos por asistir o entregar con comentarios sobre lo que cada estudiante logró, porque las recompensas esperadas reducen la motivación intrínseca y la retroalimentación positiva la aumenta (Deci et al., 1999).",
+    "Explica para qué sirve cada unidad y pide al curso que lo escriba con sus palabras, porque valorar lo que se estudia es de lo que más se asocia con persistir (Howard et al., 2021).",
+    "Presenta las tareas ligadas a metas que el curso valora y sin lenguaje de presión, porque ambas condiciones mejoraron la persistencia en experimentos con estudiantes (Vansteenkiste et al., 2004).",
+    "Revisa cuánto cuesta tu curso en horas y en estrés, porque un curso útil puede perder estudiantes si el costo percibido es alto (Flake et al., 2015).",
+    "Reconoce el progreso de cada estudiante respecto de sí mismo y evita los rankings públicos, para orientar al curso hacia metas de dominio (Ames, 1992)."
+   ],
+   "prueba": "Esta semana, retira un incentivo externo de tu curso, como un punto extra fijo, y reemplázalo por una explicación de por qué importa esa actividad y una consigna breve de conexión personal. Compara la asistencia o las entregas de las tres semanas siguientes con las de las tres anteriores.",
+   "refs": [
+    "howard21",
+    "vansteenkiste04",
+    "deci99",
+    "flake15",
+    "ames92"
+   ]
+  },
+  "pregunta_indagacion": {
+   "n": "Pregunta de indagación docente",
+   "e": "🎣",
+   "f": "fund",
+   "pista": "Un anzuelo bien formulado sobre lo que pasa en tu aula, que se puede responder con datos.",
+   "why": "Al combinar la investigación sobre la propia docencia con una pregunta concreta nace el primer paso de cualquier estudio en el aula. Hutchings ordenó las preguntas del SoTL en tipos, entre ellos qué funciona, qué ocurre en realidad cuando los estudiantes aprenden y qué sería posible lograr. Felten pide que la indagación se centre en el aprendizaje de los estudiantes y esté anclada en el contexto del curso.",
+   "uni": "Formula tu duda sobre los casos clínicos de Fisiopatología como algo observable, por ejemplo qué errores de razonamiento aparecen antes y después de trabajarlos.",
+   "refs": [
+    "hutchings00",
+    "felten13"
+   ]
+  },
+  "observacion_pares": {
+   "n": "Observación entre pares",
+   "e": "👯",
+   "f": "fund",
+   "pista": "Un colega se sienta al fondo de tu sala y después conversan; la semana siguiente, cambian de lugar.",
+   "why": "Una comunidad de práctica que entra al aula de uno de sus miembros da lugar a la observación entre pares. Gosling distinguió tres modelos según su propósito, que son evaluar, desarrollar al docente y revisar entre iguales para aprender juntos. En un estudio con docentes universitarios en formación, Hendry y Oliver encontraron que observar a un colega fue tan valioso como recibir comentarios, porque permitió conocer estrategias nuevas y ganar confianza para probarlas.",
+   "uni": "Pide a una colega de Anatomía que observe veinte minutos tu clase de Microbiología con una sola pregunta, qué hacen los estudiantes mientras explicas, y devuélvele la visita.",
+   "refs": [
+    "gosling02",
+    "hendry12",
+    "bell01"
+   ]
+  },
+  "opinion_estudiantil": {
+   "n": "Opinión estudiantil sobre la docencia",
+   "e": "🔉",
+   "f": "eva",
+   "pista": "El cuestionario de fin de semestre en que el curso califica tu clase, a veces entre bostezos.",
+   "why": "La evaluación formativa también corre en sentido inverso cuando el estudiante informa al docente cómo vive el curso. Las encuestas de opinión estudiantil recogen esa experiencia y son una de las fuentes de evidencia docente más usadas. La revisión de Spooren, Brockx y Mortelmans concluye que su validez sigue en discusión, y Deslauriers y colaboradores mostraron que la sensación de aprender puede alejarse del aprendizaje medido, por lo que conviene leerlas como información sobre la experiencia del curso.",
+   "uni": "Agrega a la encuesta de tu curso de Economía dos preguntas abiertas propias, qué te ayudó a aprender y qué te lo dificultó, y léelas antes que los promedios.",
+   "refs": [
+    "spooren13",
+    "deslauriers19",
+    "berk05"
+   ]
+  },
+  "triangulacion": {
+   "n": "Triangulación",
+   "e": "⛰️",
+   "f": "fund",
+   "pista": "Mirar la misma clase desde tres puntos distintos para que lo que uno no ve lo muestre otro.",
+   "why": "Juntar lo que ve un colega en la observación entre pares con lo que reporta el curso en sus encuestas es un ejemplo de triangulación. Denzin la describió como combinar fuentes de datos, observadores, teorías o métodos para estudiar un mismo fenómeno, de modo que los sesgos de cada uno se compensen. En docencia, Berk recomienda cruzar varias fuentes porque ninguna basta por sí sola para juzgar la enseñanza.",
+   "uni": "Para saber si funcionó el nuevo laboratorio de Química, compara las notas de los informes, los comentarios abiertos del curso y lo que anotó una colega que observó dos sesiones.",
+   "refs": [
+    "denzin78",
+    "berk05"
+   ]
+  },
+  "consentimiento": {
+   "n": "Consentimiento informado",
+   "e": "📄",
+   "f": "fund",
+   "pista": "Tu curso sabe qué harás con sus trabajos en tu estudio y puede negarse sin pagar ningún costo.",
+   "why": "Cuando la privacidad de los datos se cruza con la investigación aparece el consentimiento informado, que el Informe Belmont deriva del respeto por las personas: quien participa debe recibir información, entenderla y decidir con libertad. Los textos sobre ética del SoTL reunidos por Hutchings advierten que un estudiante puede sentirse obligado a aceptar porque quien investiga es quien lo califica. Por eso es habitual que un tercero recoja las autorizaciones y que el docente solo las conozca después de cerrar las notas.",
+   "uni": "Si quieres analizar los informes de laboratorio de Microbiología, pide a un colega que presente el estudio y guarde las autorizaciones en un sobre hasta publicar las notas finales.",
+   "refs": [
+    "belmont79",
+    "hutchings02"
+   ]
+  },
+  "doble_rol": {
+   "n": "Doble rol de docente e investigador",
+   "e": "👑",
+   "f": "fund",
+   "pista": "Quien pone tu nota te invita a participar en su estudio, y decir que no incomoda.",
+   "why": "El consentimiento informado se complica cuando quien lo pide también evalúa. Ese doble rol crea una asimetría de poder, porque el estudiante puede temer que negarse afecte su nota o participar para quedar bien, y el docente puede leer los datos deseando confirmar que su cambio funcionó. Hutchings reunió textos que discuten estos dilemas, y Felten propone investigar en colaboración con los estudiantes. Separar en el tiempo la evaluación y el análisis de los datos reduce la presión.",
+   "uni": "Anuncia el estudio de tu curso de Contabilidad la primera semana, aclara por escrito que participar no da ni quita puntos y analiza los datos solo después del cierre de actas.",
+   "refs": [
+    "hutchings02",
+    "felten13"
+   ]
+  },
+  "evidencia_directa": {
+   "n": "Evidencia directa e indirecta",
+   "e": "🐾",
+   "f": "eva",
+   "pista": "Lo que el curso dice haber aprendido, frente a lo que muestra cuando resuelve un problema.",
+   "why": "Un portafolio de aprendizaje y una encuesta de opinión estudiantil hablan del aprendizaje de maneras distintas. Suskie llama evidencia directa a la que muestra lo que el estudiante sabe hacer, como un examen, un informe o una presentación, e indirecta a la que solo sugiere que aprendió, como las autoevaluaciones y las encuestas. Ambas sirven, pero para afirmar que un cambio mejoró el aprendizaje hace falta evidencia directa.",
+   "uni": "Para estudiar tu nuevo enfoque en Derecho Penal, reúne los puntajes de la pregunta de caso del examen y lo que el curso declara en la encuesta sobre su capacidad de argumentar.",
+   "refs": [
+    "suskie18"
+   ]
+  },
+  "lentes_brookfield": {
+   "n": "Los cuatro lentes de Brookfield",
+   "e": "🪬",
+   "f": "fund",
+   "pista": "Mirar tu clase con los ojos del curso, de tus colegas, de tu biografía y de los estudios.",
+   "why": "La práctica reflexiva, cuando se hace con triangulación, se parece a lo que propone Brookfield. Para volverse un docente críticamente reflexivo, sugiere examinar los supuestos de la propia enseñanza a través de cuatro lentes: la experiencia personal, los ojos de los estudiantes, las percepciones de los colegas y la teoría e investigación. Brookfield sostiene que cada lente revela supuestos que los otros dejan ocultos.",
+   "uni": "Antes de cambiar tu forma de evaluar en Psicología, anota qué viviste tú como estudiante con ese tipo de prueba, pregunta al curso, conversa con un colega y busca un estudio sobre el tema.",
+   "refs": [
+    "brookfield17"
+   ]
+  },
+  "incidentes_criticos": {
+   "n": "Cuestionario de incidentes críticos",
+   "e": "📍",
+   "f": "eva",
+   "pista": "Cinco preguntas anónimas al cerrar la semana: cuándo te sentiste más involucrado, cuándo más lejos, qué te sorprendió.",
+   "why": "Uno de los lentes de Brookfield, los ojos de los estudiantes, se vuelve técnica de evaluación en el aula con el cuestionario de incidentes críticos. Al final de la última clase de la semana, cada estudiante responde de forma anónima en qué momento estuvo más involucrado y en cuál más distante, qué acción le resultó más útil, cuál más confusa y qué le sorprendió. El docente resume las respuestas y las comenta al inicio de la clase siguiente.",
+   "uni": "Al cerrar la semana en Trabajo Social, reparte las cinco preguntas en media hoja sin nombre y dedica cinco minutos del lunes a contar qué respondió el curso.",
+   "refs": [
+    "brookfield17"
+   ]
+  },
+  "diario_docente": {
+   "n": "Diario de enseñanza",
+   "e": "📗",
+   "f": "fund",
+   "pista": "Un cuaderno donde anotas lo que pasó en cada clase antes de que la memoria lo arregle.",
+   "why": "Escribir para aprender, aplicado a la práctica reflexiva, se convierte en un diario de enseñanza. Registrar poco después de cada sesión qué ocurrió, qué sorprendió y qué se cambiaría da al docente datos sobre su propia experiencia, que es uno de los lentes de Brookfield. Schön llamó reflexión sobre la acción a ese volver sobre lo hecho, y el diario la deja por escrito para compararla semanas después.",
+   "uni": "Durante un mes de Cálculo, escribe cinco minutos después de cada clase el momento en que más estudiantes se perdieron, y al final busca patrones en esas notas.",
+   "refs": [
+    "schon83",
+    "brookfield17"
+   ]
+  },
+  "copus": {
+   "n": "Protocolo de observación COPUS",
+   "e": "🕓",
+   "f": "fund",
+   "pista": "Cada dos minutos, una colega marca casillas con lo que hacen el curso y el docente, sin juzgar.",
+   "why": "La observación entre pares se vuelve un dato comparable cuando se registra con un protocolo. Smith y colaboradores diseñaron COPUS para clases universitarias de ciencias, ingeniería y matemática, en el que cada dos minutos se marca qué hacen los estudiantes y qué hace el docente entre 25 códigos posibles, sin juicios sobre la calidad. Con una hora y media de entrenamiento, docentes de esas disciplinas lograron registros confiables.",
+   "uni": "Pide a un colega que registre tu clase de Física con COPUS antes y después de introducir preguntas en parejas, y compara la proporción de intervalos en que el curso solo escucha.",
+   "refs": [
+    "smith13"
+   ]
+  },
+  "estudio_clases": {
+   "n": "Estudio de clases",
+   "e": "🗾",
+   "f": "fund",
+   "pista": "Un equipo planifica una sola sesión durante semanas, la ve en vivo mirando al curso y la rediseña.",
+   "why": "Cuando la observación entre pares ocurre dentro de una comunidad de aprendizaje docente, puede tomar la forma del estudio de clases, nacido en las escuelas de Japón. Un equipo define una meta de aprendizaje y diseña en conjunto una clase de investigación; uno la imparte mientras los demás observan cómo aprenden los estudiantes, y luego la revisan juntos. Fernandez y Yoshida lo describieron en la matemática escolar, y Cerbin y Kopp lo adaptaron a la universidad.",
+   "uni": "Con dos colegas de Estadística, diseñen juntos la clase sobre intervalos de confianza; uno la imparte, los otros anotan dónde se traban los estudiantes y la corrigen para otra sección.",
+   "refs": [
+    "fernandez04",
+    "cerbin06"
+   ]
+  },
+  "comunidad_docente": {
+   "n": "Comunidad de aprendizaje docente",
+   "e": "☕",
+   "f": "fund",
+   "pista": "Un grupo de profesores de distintas carreras que se reúne todo el año a estudiar su propia enseñanza.",
+   "why": "Una comunidad de práctica dedicada a investigar la docencia toma la forma que Cox llamó comunidad de aprendizaje docente, un grupo interdisciplinario, idealmente de ocho a doce personas, que durante un año académico se reúne con frecuencia para estudiar y mejorar la enseñanza. Cox la propuso para sacar a los profesores del aislamiento en que suelen trabajar y para sostener a quienes se interesan por problemas pedagógicos.",
+   "uni": "Propón a la unidad de docencia de tu facultad un grupo de ocho colegas que se reúna cada quince días a revisar datos de sus cursos y planificar un pequeño estudio común.",
+   "refs": [
+    "cox04"
+   ]
+  },
+  "inventario_conceptual": {
+   "n": "Inventario conceptual",
+   "e": "🔘",
+   "f": "eva",
+   "pista": "Preguntas de alternativas cuyas opciones incorrectas son las ideas intuitivas que el curso trae de casa.",
+   "why": "Una evaluación diagnóstica diseñada para detectar dónde hace falta un cambio conceptual da lugar a un inventario conceptual. El más conocido, el Force Concept Inventory de Hestenes, Wells y Swackhamer, usa preguntas sobre fuerza y movimiento cuyas alternativas erróneas reproducen creencias de sentido común como las que documentaron Halloun y Hestenes. Como no premia el cálculo mecánico, permite comparar la comprensión antes y después de un curso.",
+   "uni": "En Física I, aplica el Force Concept Inventory la primera semana y repítelo al cierre del semestre para ver qué ideas intuitivas sobrevivieron a tus clases.",
+   "refs": [
+    "hestenes92",
+    "halloun85"
+   ]
+  },
+  "pretest_postest": {
+   "n": "Pretest y postest",
+   "e": "🌓",
+   "f": "eva",
+   "pista": "La misma prueba al empezar y al terminar, para ver cuánto se movió el curso en el camino.",
+   "why": "Si una evaluación diagnóstica se repite como evaluación sumativa, se obtiene un diseño de pretest y postest, la forma más simple de estimar cuánto cambió un grupo. Shadish, Cook y Campbell advierten que, sin grupo de comparación, la diferencia puede deberse a otras causas, como la maduración del curso, otras asignaturas o la práctica con la misma prueba. Sirve para describir un avance, pero no basta para atribuirlo a tu intervención.",
+   "uni": "En Bioquímica, aplica diez preguntas conceptuales la primera y la última semana, sin nota, y guarda las respuestas individuales para comparar el avance de cada estudiante.",
+   "refs": [
+    "shadish02"
+   ]
+  },
+  "ganancia_normalizada": {
+   "n": "Ganancia normalizada",
+   "e": "🔝",
+   "f": "eva",
+   "pista": "Cuánto subió el curso respecto de todo lo que le quedaba por subir.",
+   "why": "Combinar el pretest y postest con un inventario conceptual permite calcular la ganancia normalizada de Hake, definida como lo que el curso mejoró dividido por lo que podía mejorar. Con datos de 62 cursos de física y más de 6000 estudiantes, Hake encontró una ganancia media de 0,48 en los cursos con participación activa y de 0,23 en los tradicionales. La medida ayuda a comparar grupos que parten de niveles distintos.",
+   "uni": "Si en Física tu curso obtuvo 40 % en el pretest y 70 % en el postest, la ganancia normalizada es 0,5, es decir, logró la mitad de lo que le faltaba.",
+   "refs": [
+    "hake98"
+   ]
+  },
+  "cuasiexperimento": {
+   "n": "Cuasiexperimento en el aula",
+   "e": "🍐",
+   "f": "fund",
+   "pista": "Comparar tu sección con otra sin sortear quién va a cada una, cuidando no mezclar peras con manzanas.",
+   "why": "Cuando un pretest y postest se aplica también a un grupo que no recibió el cambio, el diseño se vuelve cuasiexperimental. Shadish, Cook y Campbell lo definen como un experimento sin asignación al azar, algo habitual en docencia porque las secciones ya vienen formadas. Esas secciones pueden diferir en horario, nivel previo o docente, así que conviene medir el punto de partida y tener en cuenta las diferencias al interpretar los resultados.",
+   "uni": "Si pruebas casos clínicos en tu sección de Microbiología de la mañana, aplica el mismo pretest y postest a la sección de la tarde, que sigue con clases tradicionales, y compara las ganancias.",
+   "refs": [
+    "shadish02"
+   ]
+  },
+  "tamano_efecto": {
+   "n": "Tamaño del efecto",
+   "e": "🐘",
+   "f": "fund",
+   "pista": "Después de saber que hubo diferencia, preguntas cuán grande fue, en unidades que otros puedan comparar.",
+   "why": "Un cuasiexperimento informa mejor sus datos si reporta el tamaño del efecto, por ejemplo la diferencia entre grupos medida en desviaciones estándar. Cohen propuso tomar 0,2, 0,5 y 0,8 como efectos pequeños, medianos y grandes, pero Kraft mostró que en intervenciones educativas reales los efectos suelen ser menores, de modo que un efecto pequeño según Cohen puede ser importante en un aula. Por eso conviene informarlo junto con la significación estadística.",
+   "uni": "Al comparar dos secciones de Estadística, reporta la diferencia de medias dividida por la desviación estándar y compárala con lo que suelen lograr otras intervenciones educativas.",
+   "refs": [
+    "cohen88",
+    "kraft20"
+   ]
+  },
+  "sesgos_encuestas": {
+   "n": "Sesgos en las encuestas docentes",
+   "e": "🫤",
+   "f": "eva",
+   "pista": "Factores ajenos a la enseñanza que mueven la nota que el curso le pone al profesor.",
+   "why": "Cuando la opinión estudiantil se examina con la lupa de la validez, aparecen sesgos. Greenwald y Gillmore mostraron que los estudiantes valoran mejor a quien esperan que les ponga buenas notas. Mengel, Sauermann y Zölitz, con estudiantes asignados al azar a sus docentes en una universidad de los Países Bajos, hallaron que las profesoras recibían peores evaluaciones que sus colegas hombres, aunque las notas y las horas de estudio de sus estudiantes no diferían.",
+   "uni": "Antes de presentar tus encuestas de Administración a una comisión, agrega la nota que el curso esperaba obtener y compáralas con las de colegas de asignaturas parecidas.",
+   "refs": [
+    "greenwald97",
+    "mengel19",
+    "boring16"
+   ]
+  },
+  "consulta_medio_semestre": {
+   "n": "Consulta de medio semestre",
+   "e": "🕛",
+   "f": "eva",
+   "pista": "A mitad de camino, el curso dice en grupos qué le ayuda y qué le estorba.",
+   "why": "Recoger la opinión estudiantil en grupos y a mitad del semestre deja tiempo para actuar con ella. En el diagnóstico en grupos pequeños, un facilitador externo pide a equipos del curso que acuerden qué ayuda a su aprendizaje, qué lo dificulta y qué sugieren, y luego informa al docente. El metaanálisis de Cohen halló que la retroalimentación de encuestas a mitad de curso mejoró la enseñanza de forma modesta, y Penny y Coe, que el efecto depende de la asesoría que la acompaña.",
+   "uni": "En la semana ocho de Microeconomía, pide a un colega que dirija veinte minutos de conversación en grupos sin ti en la sala, y cuenta en la clase siguiente qué cambiarás.",
+   "refs": [
+    "cohen80",
+    "penny04"
+   ]
+  },
+  "analisis_tematico": {
+   "n": "Análisis temático",
+   "e": "🪣",
+   "f": "fund",
+   "pista": "Leer doscientos comentarios abiertos, ponerles etiquetas y agruparlas hasta que aparecen unas pocas ideas que se repiten.",
+   "why": "Organizar en un mapa los comentarios abiertos de la opinión estudiantil es, con método, un análisis temático. Braun y Clarke lo describieron en seis fases: familiarizarse con los datos, generar códigos iniciales, buscar temas, revisarlos, definirlos y nombrarlos, y escribir el informe. Permite tratar con rigor lo que el curso escribe con sus propias palabras y complementa los promedios de la encuesta.",
+   "uni": "Copia los comentarios abiertos de tus encuestas de Odontología en una hoja de cálculo, asigna a cada uno una etiqueta breve y agrupa las etiquetas en tres o cuatro temas.",
+   "refs": [
+    "braun06"
+   ]
+  },
+  "estudiantes_socios": {
+   "n": "Estudiantes como socios",
+   "e": "🛶",
+   "f": "fund",
+   "pista": "Alguien de tu curso diseña contigo el estudio de tu clase y ayuda a interpretar sus resultados.",
+   "why": "La investigación sobre la propia docencia abierta a la mirada del estudiante lleva a trabajar con estudiantes como socios. Cook-Sather, Bovill y Felten la definen como un proceso recíproco en que todos pueden aportar por igual, aunque no de la misma forma, a pensar, decidir, aplicar, investigar o analizar la enseñanza. Felten la incluye entre los principios de buena práctica del SoTL.",
+   "uni": "Invita a dos estudiantes que ya aprobaron Microbiología a revisar contigo las preguntas de tu encuesta y a interpretar los comentarios del curso actual.",
+   "refs": [
+    "cooksather14",
+    "felten13"
+   ]
+  },
+  "cap_tres_miradas": {
+   "n": "Pregunta con tres miradas",
+   "e": "👪",
+   "f": "sint",
+   "pista": "Una duda sobre tu curso que respondes cruzando sus trabajos, su opinión y lo que vio un colega.",
+   "why": "Une la pregunta de indagación docente con la triangulación. Una pregunta acotada indica qué datos hacen falta, y la triangulación evita responderla con una sola fuente sesgada. En la práctica significa reunir evidencia directa del aprendizaje, la voz del curso y la observación de un colega, y buscar dónde coinciden y dónde no. Felten pide además que la indagación sea metodológicamente sólida y esté anclada en el contexto, algo difícil de lograr con una encuesta aislada.",
+   "principios": [
+    "Formula una pregunta sobre el aprendizaje de tus estudiantes que puedas responder en un semestre, del tipo qué funciona o qué ocurre en realidad (Hutchings, 2000).",
+    "Incluye al menos una fuente de evidencia directa, como un inventario conceptual o trabajos corregidos con rúbrica, porque las encuestas solo informan la experiencia del curso (Suskie, 2018).",
+    "Cruza fuentes con sesgos distintos, como la opinión del curso, la observación de un colega y los trabajos, para que una compense a la otra (Denzin, 1978).",
+    "Si comparas secciones, mide el punto de partida de cada una, porque sin asignación al azar las diferencias previas pueden explicar el resultado (Shadish et al., 2002).",
+    "Informa cuánto cambió el aprendizaje con una medida comparable, como la ganancia normalizada, además de si hubo diferencia (Hake, 1998)."
+   ],
+   "prueba": "Escribe en una línea una pregunta sobre tu curso actual y, al lado, tres fuentes con que podrías responderla, por ejemplo un trabajo de los estudiantes, una pregunta abierta para el curso y veinte minutos de observación de un colega. Pide esa observación esta misma semana.",
+   "refs": [
+    "hutchings00",
+    "denzin78",
+    "suskie18",
+    "shadish02",
+    "hake98"
+   ]
+  },
+  "cap_investigar": {
+   "n": "Investigar tu propia docencia",
+   "e": "🌗",
+   "f": "sint",
+   "pista": "Tu curso como objeto de estudio, con evidencia cruzada, permiso de quienes participan y colegas que puedan rebatir.",
+   "why": "Integra la pregunta con tres miradas y el consentimiento informado. La primera da método a la curiosidad del docente sobre su curso, y el consentimiento protege a estudiantes que además dependen de la nota de quien investiga. Boyer propuso reconocer la enseñanza como trabajo académico, y Felten resume las buenas prácticas del SoTL en cinco principios, que piden centrarse en el aprendizaje, situarse en el contexto, usar métodos sólidos, trabajar con los estudiantes y hacer público el resultado.",
+   "principios": [
+    "Centra el estudio en el aprendizaje de tus estudiantes y en el contexto de tu curso, más que en tu desempeño como expositor (Felten, 2013).",
+    "Pide consentimiento con información clara y libertad real para negarse, porque un estudiante puede sentirse obligado ante quien lo califica (Hutchings, 2002).",
+    "Busca colegas que observen tu clase y discutan tu estudio, porque la observación entre pares también enseña a quien observa (Hendry y Oliver, 2012).",
+    "Haz público lo que encuentres, aunque sea en una jornada interna, para que otros puedan revisarlo y construir sobre él (Hutchings y Shulman, 1999).",
+    "Presenta el estudio como parte de tu labor académica, ya que la enseñanza es una de las cuatro formas de trabajo académico que Boyer propuso valorar (Boyer, 1990)."
+   ],
+   "prueba": "Redacta un párrafo para invitar a tu curso a un estudio breve sobre una actividad de tu clase, con qué harás, qué datos usarás, quién guardará las autorizaciones y por qué negarse no afecta la nota. Muéstraselo a un colega antes de usarlo.",
+   "refs": [
+    "boyer90",
+    "felten13",
+    "hutchings02",
+    "hutchings99",
+    "hendry12"
+   ]
+  }
+ },
+ "recetas": [
+  {
+   "a": "motivacion",
+   "b": "otros",
+   "r": "autodeterminacion",
+   "nota": "Las ganas propias crecen o se marchitan según el trato que reciben de los demás. Deci y Ryan estudiaron qué necesita ese entorno para nutrirlas."
+  },
+  {
+   "a": "autodeterminacion",
+   "b": "docente",
+   "r": "apoyo_autonomia",
+   "nota": "Un docente que conoce las necesidades psicológicas de su curso empieza a pedir las cosas con razones y a escuchar las quejas sin castigarlas."
+  },
+  {
+   "a": "apoyo_autonomia",
+   "b": "andamiaje",
+   "r": "cap_autonomia_estructura",
+   "nota": "Dar libertad a quien todavía no puede solo lo deja a la deriva; sumarle apoyos que se retiran a tiempo convierte esa libertad en aprendizaje."
+  },
+  {
+   "a": "autoeficacia",
+   "b": "proposito",
+   "r": "expectativa_valor",
+   "nota": "Antes de esforzarse, cada estudiante se pregunta si puede lograrlo y para qué le sirve. Eccles reunió ambas preguntas en una sola teoría."
+  },
+  {
+   "a": "expectativa_valor",
+   "b": "problema",
+   "r": "valor_utilidad",
+   "nota": "Frente a un problema real de la profesión, la teoría del curso muestra para qué sirve, y la tarea gana valor aunque no sea divertida."
+  },
+  {
+   "a": "valor_utilidad",
+   "b": "escribir",
+   "r": "intervencion_utilidad",
+   "nota": "Si el estudiante escribe con sus palabras para qué le sirve un tema, es él quien busca y encuentra la conexión con su vida."
+  },
+  {
+   "a": "curiosidad",
+   "b": "expositiva",
+   "r": "interes_situacional",
+   "nota": "Una exposición que abre con un enigma enciende la curiosidad de toda la sala, aunque esa chispa necesite combustible para durar."
+  },
+  {
+   "a": "intervencion_utilidad",
+   "b": "interes_situacional",
+   "r": "cap_interes_raices",
+   "nota": "La chispa de una buena clase dura más cuando el estudiante escribe qué tiene que ver ese tema con su propia vida."
+  },
+  {
+   "a": "cap_autonomia_estructura",
+   "b": "cap_interes_raices",
+   "r": "cap_motivacion",
+   "nota": "Un curso que da margen para decidir, con apoyo suficiente, y que ayuda a ver el valor de la materia sostiene las ganas cuando se acaban los premios."
+  },
+  {
+   "a": "autodeterminacion",
+   "b": "proposito",
+   "r": "motivacion_autonoma",
+   "nota": "Cuando una tarea poco atractiva se conecta con un propósito que el estudiante reconoce como suyo, la hace por convicción aunque no le divierta."
+  },
+  {
+   "a": "interes_situacional",
+   "b": "tiempo",
+   "r": "interes_individual",
+   "nota": "Con semanas de contacto y buenas experiencias, la chispa de una clase puede volverse una afición que el estudiante busca por su cuenta."
+  },
+  {
+   "a": "autodeterminacion",
+   "b": "sumativa",
+   "r": "estilo_controlador",
+   "nota": "Cuando la nota final pesa sobre todo, es fácil llenar la clase de “tienen que” y amenazas, el estilo que la teoría asocia con menos compromiso."
+  },
+  {
+   "a": "apoyo_autonomia",
+   "b": "pregunta",
+   "r": "razon_explicativa",
+   "nota": "Ante el “¿y esto para qué?” del curso, un docente que apoya la autonomía responde con una razón honesta y breve."
+  },
+  {
+   "a": "apoyo_autonomia",
+   "b": "dua",
+   "r": "ofrecer_opciones",
+   "nota": "El DUA pide varias formas de mostrar lo aprendido y el apoyo a la autonomía pide margen para decidir. Juntos se traducen en opciones reales."
+  },
+  {
+   "a": "expectativa_valor",
+   "b": "carga_trabajo",
+   "r": "costo_percibido",
+   "nota": "Cuando una tarea útil exige más horas de las que el estudiante tiene, la teoría de Eccles cuenta esa pérdida como costo, la cara del valor que resta."
+  },
+  {
+   "a": "interes_situacional",
+   "b": "multimedia",
+   "r": "detalles_seductores",
+   "nota": "Para despertar interés, la diapositiva se llena de datos curiosos sin relación con el tema, y el curso recuerda la anécdota en vez de la idea."
+  },
+  {
+   "a": "mentalidad",
+   "b": "evaluacion",
+   "r": "metas_logro",
+   "nota": "Frente a una prueba, quien cree que la capacidad crece busca aprender, y quien teme mostrar sus límites busca parecer capaz."
+  },
+  {
+   "a": "metas_logro",
+   "b": "espacio",
+   "r": "estructura_metas",
+   "nota": "Lo que el aula premia, el progreso propio o ganarle al compañero, inclina al curso hacia un tipo de meta u otro."
+  },
+  {
+   "a": "autodeterminacion",
+   "b": "gamificacion",
+   "r": "sobrejustificacion",
+   "nota": "Si los puntos y las insignias se vuelven la razón para estudiar, el gusto propio puede retirarse cuando dejan de repartirse."
+  },
+  {
+   "a": "error",
+   "b": "emociones",
+   "r": "atribuciones",
+   "nota": "Después de un tropiezo que duele, cada estudiante se explica por qué ocurrió, y esa explicación pesa en su próximo intento."
+  },
+  {
+   "a": "atribuciones",
+   "b": "tutoria_pares",
+   "r": "reentrenamiento_atribucional",
+   "nota": "Escuchar a un estudiante mayor contar que también reprobó al principio y mejoró cambia la explicación que un novato se da de su mala nota."
+  },
+  {
+   "a": "apoyo_autonomia",
+   "b": "estudiante",
+   "r": "compromiso_agentico",
+   "nota": "Con espacio para opinar, el estudiante deja de limitarse a responder y empieza a proponer cambios en la clase."
+  },
+  {
+   "a": "zdp",
+   "b": "motivacion",
+   "r": "flujo",
+   "nota": "Un reto justo por encima de lo que dominas, en algo que te gusta, te absorbe tanto que pierdes la noción del tiempo."
+  },
+  {
+   "a": "motivacion",
+   "b": "practica_deliberada",
+   "r": "garra",
+   "nota": "Pasión y práctica tenaz suenan a la receta completa del éxito, y de ahí nace la idea de que un solo rasgo lo explica todo."
+  },
+  {
+   "a": "reflexiva",
+   "b": "garra",
+   "r": "motivacion_autonoma",
+   "nota": "Revisada la evidencia, la persistencia en un curso se explica mejor por valorar la tarea como propia que por un rasgo heroico de carácter."
+  },
+  {
+   "a": "sotl",
+   "b": "pregunta",
+   "r": "pregunta_indagacion",
+   "nota": "Investigar la propia docencia empieza por una duda concreta sobre lo que aprenden tus estudiantes, formulada para que los datos puedan responderla."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "espacio",
+   "r": "observacion_pares",
+   "nota": "Cuando alguien de tu comunidad de práctica entra a tu sala a mirar, y luego tú entras a la suya, ambos aprenden del oficio del otro."
+  },
+  {
+   "a": "estudiante",
+   "b": "formativa",
+   "r": "opinion_estudiantil",
+   "nota": "La evaluación formativa también puede ir al revés, cuando el estudiante le cuenta al docente cómo está viviendo el curso."
+  },
+  {
+   "a": "observacion_pares",
+   "b": "opinion_estudiantil",
+   "r": "triangulacion",
+   "nota": "Lo que ve un colega desde el fondo y lo que dice el curso en la encuesta, puestos lado a lado, corrigen los puntos ciegos de cada uno."
+  },
+  {
+   "a": "pregunta_indagacion",
+   "b": "triangulacion",
+   "r": "cap_tres_miradas",
+   "nota": "Una pregunta precisa sobre tu clase, respondida con fuentes que se vigilan entre sí, deja de depender de tu impresión."
+  },
+  {
+   "a": "privacidad",
+   "b": "investigacion",
+   "r": "consentimiento",
+   "nota": "Si vas a investigar con datos de tu curso, la ética de los datos exige preguntar primero y aceptar un no como respuesta."
+  },
+  {
+   "a": "cap_tres_miradas",
+   "b": "consentimiento",
+   "r": "cap_investigar",
+   "nota": "Una pregunta bien respondida sobre tu clase, con permiso de quienes participan, es investigación docente que puedes mostrar a tus colegas."
+  },
+  {
+   "a": "consentimiento",
+   "b": "evaluacion",
+   "r": "doble_rol",
+   "nota": "Quien pide permiso para estudiar al curso es también quien lo califica, y esa doble posición complica decir que no."
+  },
+  {
+   "a": "portafolio",
+   "b": "opinion_estudiantil",
+   "r": "evidencia_directa",
+   "nota": "Los trabajos del portafolio muestran lo que el estudiante hace, y la encuesta, lo que dice haber aprendido, dos pruebas de distinto peso."
+  },
+  {
+   "a": "reflexiva",
+   "b": "triangulacion",
+   "r": "lentes_brookfield",
+   "nota": "Reflexionar con varias fuentes a la vez se parece al método de Brookfield, que mira la propia clase desde cuatro ángulos."
+  },
+  {
+   "a": "lentes_brookfield",
+   "b": "cats",
+   "r": "incidentes_criticos",
+   "nota": "El lente de los estudiantes, convertido en técnica breve, da un cuestionario anónimo de cinco preguntas para cerrar la semana."
+  },
+  {
+   "a": "escribir",
+   "b": "reflexiva",
+   "r": "diario_docente",
+   "nota": "Escribir para entender, aplicado a tus propias clases, deja un registro que la memoria no puede retocar después."
+  },
+  {
+   "a": "observacion_pares",
+   "b": "datos",
+   "r": "copus",
+   "nota": "Si la observación de un colega se anota con casillas cada dos minutos, se vuelve un dato que se puede comparar entre clases."
+  },
+  {
+   "a": "comunidad_practica",
+   "b": "sotl",
+   "r": "comunidad_docente",
+   "nota": "Una comunidad de práctica que se propone investigar su docencia necesita reunirse con frecuencia y durante un año entero."
+  },
+  {
+   "a": "observacion_pares",
+   "b": "comunidad_docente",
+   "r": "estudio_clases",
+   "nota": "Un grupo de colegas que planifica una clase y la observa en conjunto, mirando a los estudiantes, practica el estudio de clases japonés."
+  },
+  {
+   "a": "diagnostica",
+   "b": "cambio_conceptual",
+   "r": "inventario_conceptual",
+   "nota": "Para saber qué ideas intuitivas trae el curso antes de cambiarlas, hace falta una prueba diseñada con esas ideas como trampas."
+  },
+  {
+   "a": "diagnostica",
+   "b": "sumativa",
+   "r": "pretest_postest",
+   "nota": "La misma prueba al inicio y al cierre muestra cuánto se movió el curso entre ambos momentos."
+  },
+  {
+   "a": "pretest_postest",
+   "b": "inventario_conceptual",
+   "r": "ganancia_normalizada",
+   "nota": "Con un inventario aplicado antes y después, Hake calculó cuánto avanzó cada curso respecto de lo que le faltaba por avanzar."
+  },
+  {
+   "a": "pretest_postest",
+   "b": "grupo",
+   "r": "cuasiexperimento",
+   "nota": "Medir antes y después también en otro grupo que no recibió el cambio permite comparar, aunque nadie haya sorteado quién va a cada sección."
+  },
+  {
+   "a": "cuasiexperimento",
+   "b": "datos",
+   "r": "tamano_efecto",
+   "nota": "Al comparar dos secciones, saber si difieren deja la pregunta a medias; los datos permiten estimar cuánto, en una escala que otros entienden."
+  },
+  {
+   "a": "opinion_estudiantil",
+   "b": "validez",
+   "r": "sesgos_encuestas",
+   "nota": "Si preguntas si la encuesta mide lo que dice medir, aparecen factores ajenos a la enseñanza, como la nota esperada o el género del docente."
+  },
+  {
+   "a": "opinion_estudiantil",
+   "b": "grupo",
+   "r": "consulta_medio_semestre",
+   "nota": "Escuchar al curso en grupos pequeños a mitad del semestre da tiempo para cambiar antes de la encuesta final."
+  },
+  {
+   "a": "opinion_estudiantil",
+   "b": "mapa",
+   "r": "analisis_tematico",
+   "nota": "Cientos de comentarios abiertos se vuelven legibles cuando los etiquetas y agrupas en un mapa de temas que se repiten."
+  },
+  {
+   "a": "sotl",
+   "b": "estudiante",
+   "r": "estudiantes_socios",
+   "nota": "Un estudiante invitado a diseñar e interpretar la investigación sobre su propio curso se convierte en socio del docente."
+  },
+  {
+   "a": "sobrejustificacion",
+   "b": "retro",
+   "r": "motivacion",
+   "nota": "Si los premios esperados apagan el gusto, la retroalimentación que informa sobre el progreso tiende a avivarlo, según el metaanálisis de Deci."
+  },
+  {
+   "a": "estilo_controlador",
+   "b": "gamificacion",
+   "r": "sobrejustificacion",
+   "nota": "Puntos usados para obligar terminan siendo la única razón para cumplir, y cuando se acaban, la tarea se abandona."
+  },
+  {
+   "a": "razon_explicativa",
+   "b": "resultados",
+   "r": "syllabus",
+   "nota": "Si cada resultado de aprendizaje viene con su porqué, el programa del curso se lee como una carta dirigida al estudiante."
+  },
+  {
+   "a": "ofrecer_opciones",
+   "b": "rubrica",
+   "r": "dua",
+   "nota": "Varias formas de entregar evaluadas con un mismo criterio de calidad dan al curso puertas distintas sin bajar la exigencia."
+  },
+  {
+   "a": "ofrecer_opciones",
+   "b": "proyectos",
+   "r": "motivacion",
+   "nota": "Elegir el tema del propio proyecto atiende la necesidad de autonomía, y con ella aparecen ganas de seguir aunque nadie lo pida."
+  },
+  {
+   "a": "detalles_seductores",
+   "b": "carga_cognitiva",
+   "r": "multimedia",
+   "nota": "Quitar la anécdota que distrae libera memoria de trabajo. Mayer lo incluye como principio de coherencia del aprendizaje multimedia."
+  },
+  {
+   "a": "interes_situacional",
+   "b": "proyectos",
+   "r": "interes_individual",
+   "nota": "Semanas trabajando en un proyecto que le importa pueden convertir la chispa inicial del estudiante en una afición duradera."
+  },
+  {
+   "a": "valor_utilidad",
+   "b": "casos",
+   "r": "transferencia",
+   "nota": "Un caso de la profesión muestra para qué sirve la teoría y entrena a reconocerla cuando reaparece fuera del aula con otra cara."
+  },
+  {
+   "a": "expectativa_valor",
+   "b": "gagne",
+   "r": "arcs",
+   "nota": "Keller partió de la expectativa y el valor para planificar la motivación paso a paso dentro de una lección."
+  },
+  {
+   "a": "expectativa_valor",
+   "b": "emociones",
+   "r": "costo_percibido",
+   "nota": "La ansiedad que provoca un curso también le resta valor a estudiarlo, y Flake la cuenta como costo emocional."
+  },
+  {
+   "a": "estructura_metas",
+   "b": "sumativa",
+   "r": "criterial",
+   "nota": "En un aula orientada a dominar la materia, la nota final se compara con un estándar fijo y deja de enfrentar a compañeros."
+  },
+  {
+   "a": "estructura_metas",
+   "b": "gamificacion",
+   "r": "metas_logro",
+   "nota": "Una tabla pública de posiciones convierte el curso en carrera, y muchos pasan de querer aprender a querer no quedar abajo."
+  },
+  {
+   "a": "atribuciones",
+   "b": "autoeficacia",
+   "r": "mentalidad",
+   "nota": "Explicar el tropiezo con algo que puedes cambiar, sumado a experiencias previas de logro, refuerza la idea de que la capacidad crece."
+  },
+  {
+   "a": "compromiso_agentico",
+   "b": "investigacion_accion",
+   "r": "estudiantes_socios",
+   "nota": "Si el curso ya propone cambios y el docente investiga su práctica en ciclos, lo natural es invitar a algunos estudiantes a investigar con él."
+  },
+  {
+   "a": "flujo",
+   "b": "juego",
+   "r": "abj",
+   "nota": "Un buen juego mantiene el reto apenas por delante de tu habilidad, y si además exige la materia, esa absorción trabaja para el curso."
+  },
+  {
+   "a": "motivacion_autonoma",
+   "b": "significativo",
+   "r": "profundo",
+   "nota": "Quien estudia por razones propias y conecta lo nuevo con lo que sabe tiende a procesar el material en profundidad, como mostró Vansteenkiste."
+  },
+  {
+   "a": "expectativa_valor",
+   "b": "evaluacion",
+   "r": "emociones",
+   "nota": "Ante una prueba, cuánto control siente el estudiante y cuánto le importa el resultado deciden si aparece ansiedad o disfrute, según Pekrun."
+  },
+  {
+   "a": "metas_logro",
+   "b": "retro",
+   "r": "comentarios",
+   "nota": "Butler mostró que comentar el trabajo sin ponerle nota orienta al estudiante a mejorar la tarea más que a compararse con otros."
+  },
+  {
+   "a": "observacion_pares",
+   "b": "retro",
+   "r": "reflexiva",
+   "nota": "Cuando el colega que observó te devuelve lo que vio y lo conversan, la observación se vuelve práctica reflexiva acompañada."
+  },
+  {
+   "a": "observacion_pares",
+   "b": "portafolio_docente",
+   "r": "eval_docencia",
+   "nota": "Sumar observaciones de colegas a un portafolio docente da a una comisión más de una fuente para juzgar la enseñanza."
+  },
+  {
+   "a": "opinion_estudiantil",
+   "b": "encuestas",
+   "r": "sesgos_encuestas",
+   "nota": "Al poner la fe en las encuestas frente a los estudios, aparecen los factores que inclinan sus resultados."
+  },
+  {
+   "a": "opinion_estudiantil",
+   "b": "cats",
+   "r": "consulta_medio_semestre",
+   "nota": "Preguntar al curso cómo va, con una técnica breve y a mitad de camino, deja tiempo para corregir antes del final."
+  },
+  {
+   "a": "inventario_conceptual",
+   "b": "peer",
+   "r": "evidencia",
+   "nota": "Mazur comprobó con un inventario conceptual que su curso entendía más, y así la instrucción entre pares llegó al aula con respaldo."
+  },
+  {
+   "a": "inventario_conceptual",
+   "b": "previos",
+   "r": "diagnostica",
+   "nota": "Un inventario conceptual aplicado el primer día revela qué ideas intuitivas viajan en la maleta de cada estudiante."
+  },
+  {
+   "a": "cuasiexperimento",
+   "b": "evidencia",
+   "r": "sotl",
+   "nota": "Comparar dos secciones con método y llevar el resultado a colegas que puedan rebatirlo es investigación sobre la propia docencia."
+  },
+  {
+   "a": "sesgos_encuestas",
+   "b": "reflexiva",
+   "r": "eval_docencia",
+   "nota": "Si las encuestas se inclinan por factores ajenos a la enseñanza, lo sensato es sumar otras fuentes antes de juzgar a un docente."
+  },
+  {
+   "a": "diario_docente",
+   "b": "portafolio",
+   "r": "portafolio_docente",
+   "nota": "Entradas del diario elegidas y comentadas junto a otras evidencias son la materia prima de un portafolio docente."
+  },
+  {
+   "a": "comunidad_docente",
+   "b": "investigacion_accion",
+   "r": "sotl",
+   "nota": "Un grupo de colegas que investiga sus cursos en ciclos y comparte lo que encuentra hace público el trabajo académico de enseñar."
+  },
+  {
+   "a": "incidentes_criticos",
+   "b": "mapa",
+   "r": "analisis_tematico",
+   "nota": "Las respuestas de varias semanas al cuestionario de Brookfield, agrupadas por temas, muestran patrones que una lectura suelta no ve."
+  },
+  {
+   "a": "consentimiento",
+   "b": "analitica",
+   "r": "privacidad",
+   "nota": "Pedir permiso para usar los rastros que deja el curso en la plataforma es parte de la ética de los datos."
+  },
+  {
+   "a": "evidencia_directa",
+   "b": "rubrica",
+   "r": "validez",
+   "nota": "Para que un trabajo cuente como evidencia directa, la rúbrica tiene que medir lo que dice medir y dar lo mismo con distintos correctores."
+  },
+  {
+   "a": "copus",
+   "b": "expositiva",
+   "r": "activo",
+   "nota": "Ver en el registro cuántos intervalos pasó el curso solo escuchando empuja a cortar la exposición con tareas para pensar."
+  },
+  {
+   "a": "pregunta_indagacion",
+   "b": "cats",
+   "r": "investigacion_accion",
+   "nota": "Una pregunta sobre tu clase y técnicas de un minuto para recoger datos cada semana arman el ciclo de la investigación-acción."
+  }
+ ],
+ "refs": {
+  "deci85": "Deci, E. L., & Ryan, R. M. (1985). _Intrinsic motivation and self-determination in human behavior_. Plenum.",
+  "deci94": "Deci, E. L., Eghrari, H., Patrick, B. C., & Leone, D. R. (1994). Facilitating internalization: The self-determination theory perspective. _Journal of Personality, 62_(1), 119–142.",
+  "howard21": "Howard, J. L., Bureau, J., Guay, F., Chong, J. X. Y., & Ryan, R. M. (2021). Student motivation and associated outcomes: A meta-analysis from self-determination theory. _Perspectives on Psychological Science, 16_(6), 1300–1323.",
+  "vallerand92": "Vallerand, R. J., & Bissonnette, R. (1992). Intrinsic, extrinsic, and amotivational styles as predictors of behavior: A prospective study. _Journal of Personality, 60_(3), 599–620.",
+  "vansteenkiste04": "Vansteenkiste, M., Simons, J., Lens, W., Sheldon, K. M., & Deci, E. L. (2004). Motivating learning, performance, and persistence: The synergistic effects of intrinsic goal contents and autonomy-supportive contexts. _Journal of Personality and Social Psychology, 87_(2), 246–260.",
+  "reeve09": "Reeve, J. (2009). Why teachers adopt a controlling motivating style toward students and how they can become more autonomy supportive. _Educational Psychologist, 44_(3), 159–175.",
+  "reeve06": "Reeve, J., & Jang, H. (2006). What teachers say and do to support students' autonomy during a learning activity. _Journal of Educational Psychology, 98_(1), 209–218.",
+  "su11": "Su, Y.-L., & Reeve, J. (2011). A meta-analysis of the effectiveness of intervention programs designed to support autonomy. _Educational Psychology Review, 23_(1), 159–188.",
+  "jang10": "Jang, H., Reeve, J., & Deci, E. L. (2010). Engaging students in learning activities: It is not autonomy support or structure but autonomy support and structure. _Journal of Educational Psychology, 102_(3), 588–600.",
+  "reeve02": "Reeve, J., Jang, H., Hardre, P., & Omura, M. (2002). Providing a rationale in an autonomy-supportive way as a strategy to motivate others during an uninteresting activity. _Motivation and Emotion, 26_(3), 183–207.",
+  "patall08": "Patall, E. A., Cooper, H., & Robinson, J. C. (2008). The effects of choice on intrinsic motivation and related outcomes: A meta-analysis of research findings. _Psychological Bulletin, 134_(2), 270–300.",
+  "wigfield00": "Wigfield, A., & Eccles, J. S. (2000). Expectancy-value theory of achievement motivation. _Contemporary Educational Psychology, 25_(1), 68–81.",
+  "eccles20": "Eccles, J. S., & Wigfield, A. (2020). From expectancy-value theory to situated expectancy-value theory: A developmental, social cognitive, and sociocultural perspective on motivation. _Contemporary Educational Psychology, 61_, artículo 101859.",
+  "flake15": "Flake, J. K., Barron, K. E., Hulleman, C., McCoach, B. D., & Welsh, M. E. (2015). Measuring cost: The forgotten component of expectancy-value theory. _Contemporary Educational Psychology, 41_, 232–244.",
+  "hulleman10": "Hulleman, C. S., Godes, O., Hendricks, B. L., & Harackiewicz, J. M. (2010). Enhancing interest and performance with a utility value intervention. _Journal of Educational Psychology, 102_(4), 880–895.",
+  "harackiewicz16": "Harackiewicz, J. M., Canning, E. A., Tibbetts, Y., Priniski, S. J., & Hyde, J. S. (2016). Closing achievement gaps with a utility-value intervention: Disentangling race and social class. _Journal of Personality and Social Psychology, 111_(5), 745–765.",
+  "canning18": "Canning, E. A., Harackiewicz, J. M., Priniski, S. J., Hecht, C. A., Tibbetts, Y., & Hyde, J. S. (2018). Improving performance and retention in introductory biology with a utility-value intervention. _Journal of Educational Psychology, 110_(6), 834–849.",
+  "hidi06": "Hidi, S., & Renninger, K. A. (2006). The four-phase model of interest development. _Educational Psychologist, 41_(2), 111–127.",
+  "mitchell93": "Mitchell, M. (1993). Situational interest: Its multifaceted structure in the secondary school mathematics classroom. _Journal of Educational Psychology, 85_(3), 424–436.",
+  "harp98": "Harp, S. F., & Mayer, R. E. (1998). How seductive details do their damage: A theory of cognitive interest in science learning. _Journal of Educational Psychology, 90_(3), 414–434.",
+  "rey12": "Rey, G. D. (2012). A review of research and a meta-analysis of the seductive detail effect. _Educational Research Review, 7_(3), 216–237.",
+  "sundararajan20": "Sundararajan, N., & Adesope, O. (2020). Keep it coherent: A meta-analysis of the seductive details effect. _Educational Psychology Review, 32_(3), 707–734.",
+  "ames92": "Ames, C. (1992). Classrooms: Goals, structures, and student motivation. _Journal of Educational Psychology, 84_(3), 261–271.",
+  "elliot01": "Elliot, A. J., & McGregor, H. A. (2001). A 2 × 2 achievement goal framework. _Journal of Personality and Social Psychology, 80_(3), 501–519.",
+  "deci99": "Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. _Psychological Bulletin, 125_(6), 627–668.",
+  "lepper73": "Lepper, M. R., Greene, D., & Nisbett, R. E. (1973). Undermining children's intrinsic interest with extrinsic reward: A test of the \"overjustification\" hypothesis. _Journal of Personality and Social Psychology, 28_(1), 129–137.",
+  "weiner85": "Weiner, B. (1985). An attributional theory of achievement motivation and emotion. _Psychological Review, 92_(4), 548–573.",
+  "wilson82": "Wilson, T. D., & Linville, P. W. (1982). Improving the academic performance of college freshmen: Attribution therapy revisited. _Journal of Personality and Social Psychology, 42_(2), 367–376.",
+  "perry93": "Perry, R. P., Hechter, F. J., Menec, V. H., & Weinberg, L. E. (1993). Enhancing achievement motivation and performance in college students: An attributional retraining perspective. _Research in Higher Education, 34_(6), 687–723.",
+  "reeve13": "Reeve, J. (2013). How students create motivationally supportive learning environments for themselves: The concept of agentic engagement. _Journal of Educational Psychology, 105_(3), 579–595.",
+  "reeve11": "Reeve, J., & Tseng, C.-M. (2011). Agency as a fourth aspect of students' engagement during learning activities. _Contemporary Educational Psychology, 36_(4), 257–267.",
+  "fredricks04": "Fredricks, J. A., Blumenfeld, P. C., & Paris, A. H. (2004). School engagement: Potential of the concept, state of the evidence. _Review of Educational Research, 74_(1), 59–109.",
+  "csikszentmihalyi90": "Csikszentmihalyi, M. (1990). _Flow: The psychology of optimal experience_. Harper & Row.",
+  "crede17": "Credé, M., Tynan, M. C., & Harms, P. D. (2017). Much ado about grit: A meta-analytic synthesis of the grit literature. _Journal of Personality and Social Psychology, 113_(3), 492–511.",
+  "duckworth07": "Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. _Journal of Personality and Social Psychology, 92_(6), 1087–1101.",
+  "hutchings00": "Hutchings, P. (Ed.). (2000). _Opening lines: Approaches to the scholarship of teaching and learning_. Carnegie Foundation for the Advancement of Teaching.",
+  "hutchings02": "Hutchings, P. (Ed.). (2002). _Ethics of inquiry: Issues in the scholarship of teaching and learning_. Carnegie Foundation for the Advancement of Teaching.",
+  "felten13": "Felten, P. (2013). Principles of good practice in SoTL. _Teaching & Learning Inquiry, 1_(1), 121–125.",
+  "gosling02": "Gosling, D. (2002). _Models of peer observation of teaching_. LTSN Generic Centre.",
+  "hendry12": "Hendry, G., & Oliver, G. (2012). Seeing is believing: The benefits of peer observation. _Journal of University Teaching and Learning Practice, 9_(1), artículo 7.",
+  "bell01": "Bell, M. (2001). Supported reflective practice: A programme of peer observation and feedback for academic teaching development. _International Journal for Academic Development, 6_(1), 29–39.",
+  "smith13": "Smith, M. K., Jones, F. H. M., Gilbert, S. L., & Wieman, C. E. (2013). The Classroom Observation Protocol for Undergraduate STEM (COPUS): A new instrument to characterize university STEM classroom practices. _CBE-Life Sciences Education, 12_(4), 618–627.",
+  "cerbin06": "Cerbin, W., & Kopp, B. (2006). Lesson study as a model for building pedagogical knowledge and improving teaching. _International Journal of Teaching and Learning in Higher Education, 18_(3), 250–257.",
+  "fernandez04": "Fernandez, C., & Yoshida, M. (2004). _Lesson study: A Japanese approach to improving mathematics teaching and learning_. Lawrence Erlbaum Associates.",
+  "brookfield17": "Brookfield, S. D. (2017). _Becoming a critically reflective teacher_ (2nd ed.). Jossey-Bass.",
+  "denzin78": "Denzin, N. K. (1978). _The research act: A theoretical introduction to sociological methods_ (2nd ed.). McGraw-Hill.",
+  "hestenes92": "Hestenes, D., Wells, M., & Swackhamer, G. (1992). Force concept inventory. _The Physics Teacher, 30_(3), 141–158.",
+  "hake98": "Hake, R. R. (1998). Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses. _American Journal of Physics, 66_(1), 64–74.",
+  "shadish02": "Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). _Experimental and quasi-experimental designs for generalized causal inference_. Houghton Mifflin.",
+  "cohen88": "Cohen, J. (1988). _Statistical power analysis for the behavioral sciences_ (2nd ed.). Lawrence Erlbaum Associates.",
+  "kraft20": "Kraft, M. A. (2020). Interpreting effect sizes of education interventions. _Educational Researcher, 49_(4), 241–253.",
+  "belmont79": "National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. (1979). _The Belmont report: Ethical principles and guidelines for the protection of human subjects of research_. U.S. Department of Health, Education, and Welfare.",
+  "greenwald97": "Greenwald, A. G., & Gillmore, G. M. (1997). Grading leniency is a removable contaminant of student ratings. _American Psychologist, 52_(11), 1209–1217.",
+  "mengel19": "Mengel, F., Sauermann, J., & Zölitz, U. (2019). Gender bias in teaching evaluations. _Journal of the European Economic Association, 17_(2), 535–566.",
+  "spooren13": "Spooren, P., Brockx, B., & Mortelmans, D. (2013). On the validity of student evaluation of teaching: The state of the art. _Review of Educational Research, 83_(4), 598–642.",
+  "cohen80": "Cohen, P. A. (1980). Effectiveness of student-rating feedback for improving college instruction: A meta-analysis of findings. _Research in Higher Education, 13_(4), 321–341.",
+  "penny04": "Penny, A. R., & Coe, R. (2004). Effectiveness of consultation on student ratings feedback: A meta-analysis. _Review of Educational Research, 74_(2), 215–253.",
+  "suskie18": "Suskie, L. (2018). _Assessing student learning: A common sense guide_ (3rd ed.). Jossey-Bass.",
+  "braun06": "Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. _Qualitative Research in Psychology, 3_(2), 77–101.",
+  "cox04": "Cox, M. D. (2004). Introduction to faculty learning communities. _New Directions for Teaching and Learning, 2004_(97), 5–23.",
+  "cooksather14": "Cook-Sather, A., Bovill, C., & Felten, P. (2014). _Engaging students as partners in learning and teaching: A guide for faculty_. Jossey-Bass."
+ },
+ "misiones": [
+  {
+   "id": "motivacion_dura",
+   "n": "Motivación que dura",
+   "e": "🪔",
+   "meta": "cap_motivacion",
+   "hitos": [
+    "apoyo_autonomia",
+    "expectativa_valor",
+    "intervencion_utilidad"
+   ],
+   "encargo": "Te escribe Marcelo Quiroga, que enseña Bioestadística en segundo año de Odontología en una universidad de Arequipa. Cada semestre oye la misma queja: de qué le sirve una prueba de hipótesis a quien va a tratar caries y conductos. La asistencia cae después del primer parcial y el foro del curso queda vacío. Probó con puntos extra por asistir y por responder cuestionarios, y durante dos semanas la sala se llenó, pero cuando dejó de darlos volvió a vaciarse. Quiere que su curso estudie con ganas propias y que esas ganas lleguen al final del semestre.",
+   "objetivo": "Llega a 🪔 Motivación que dura para ayudar a Marcelo a rediseñar su curso de modo que el interés por la Bioestadística no dependa de los puntos extra.",
+   "reflexiones": {
+    "apoyo_autonomia": "Marcelo suele avisar “tienen que leer el capítulo para el lunes”. Elige una instrucción habitual de tu curso y reescríbela con su razón y con algún margen de decisión para el estudiante.",
+    "expectativa_valor": "Si hoy preguntaras a tu curso cuánto cree que puede lograr y cuánto le importa tu materia, ¿cuál de las dos respuestas te preocuparía más? Piensa en quienes dejan de ir a la clase de Marcelo tras el primer parcial.",
+    "intervencion_utilidad": "¿Qué tema de tu curso despierta un “¿y esto para qué?”, como las pruebas de hipótesis en el de Marcelo? Escribe la consigna breve con que pedirías conectarlo con la vida o la futura profesión de cada estudiante."
+   },
+   "cierre": "Marcelo dejó de repartir puntos por asistir. Ahora explica por qué cada unidad importa para leer un ensayo clínico, permite elegir el conjunto de datos de cada trabajo con una rúbrica común y, tras el primer parcial, pide un párrafo sobre cómo una prueba de hipótesis decide qué tratamiento llega a una consulta dental. Con razones a la vista y margen para decidir, es más probable que su curso siga estudiando cuando ya no haya premio."
+  },
+  {
+   "id": "investigar_docencia",
+   "n": "Investigar tu propia docencia",
+   "e": "🌗",
+   "meta": "cap_investigar",
+   "hitos": [
+    "observacion_pares",
+    "triangulacion",
+    "consentimiento"
+   ],
+   "encargo": "Te escribe Rafael Almonte, que enseña Microbiología en segundo año de Medicina en una universidad de Santo Domingo. El semestre pasado cambió buena parte de sus clases expositivas por casos clínicos y preguntas en parejas. Las notas del examen final subieron un poco, pero la encuesta docente bajó casi un punto y la coordinación le pidió explicaciones. Rafael sospecha que su curso aprendió más, aunque no sabe cómo demostrarlo ni si puede usar las respuestas de sus estudiantes para averiguarlo. Quiere estudiar su curso este semestre con datos confiables y presentar lo que encuentre en las jornadas de docencia de su facultad.",
+   "objetivo": "Llega a 🌗 Investigar tu propia docencia para diseñar con Rafael un estudio de su curso que combine varias fuentes de evidencia y respete a sus estudiantes.",
+   "reflexiones": {
+    "observacion_pares": "Si invitaras a un colega a tu clase, como podría hacer Rafael con alguien de Anatomía, ¿en qué momento de la sesión le pedirías que mirara a los estudiantes y qué querrías que anotara?",
+    "triangulacion": "La encuesta de Rafael dice una cosa y las notas otra. Para saber si un cambio funcionó en tu curso, ¿qué tres fuentes distintas reunirías y qué punto ciego cubre cada una?",
+    "consentimiento": "Rafael pone la nota final a quienes participarían en su estudio. ¿Cómo pedirías permiso para usar trabajos de tu curso sin que nadie sienta que negarse le costará puntos?"
+   },
+   "cierre": "Rafael ya tiene una pregunta acotada sobre los casos en parejas, un inventario conceptual al inicio y al cierre del semestre, dos visitas de una colega con un protocolo de observación y una lectura de la encuesta que considera sus sesgos. Un colega guardará los consentimientos hasta que cierren las notas. Con eso podrá mostrar a la coordinación, y a las jornadas de su facultad, qué cambió en el aprendizaje de su curso."
+  }
+ ]
+}

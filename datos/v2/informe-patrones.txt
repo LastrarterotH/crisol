@@ -18,6 +18,16 @@ A10  arcs.pista  Planificar las ganas de estudiar: captar la atención, mostrar 
 A10  arcs.uni  En Estadística para Psicología: abrir con un estudio viral mal interpretado, ligarlo a la práctica clínica, partir con ejercicios alcanzables y mostrar a cada e
 C  releer.belief  Releer los apuntes varias veces y subrayar lo importante con marcador es la mejor forma de prepararse para una prueba.
 C  releer.evidence  Dunlosky y colaboradores evaluaron diez técnicas de estudio y calificaron releer y subrayar como de baja utilidad, frente a la práctica de recuperación y la prá
+A10  ifat.why  Retroalimentación con forma de juego: una hoja de respuestas en que el estudiante raspa la opción que elige, ve al instante si acertó y, si no, vuelve a intenta
+A10  guiones_colaboracion.why  Son andamiaje para la cooperación: instrucciones que reparten roles y ordenan la actividad del equipo, por ejemplo argumentar y luego contraargumentar, y que se
+A10  paciente_estandarizado.why  Lleva el juego de roles a la simulación profesional: una persona entrenada representa un caso de forma consistente y puede contar cómo se sintió atendida. Barro
+A10  laboratorio_virtual.why  Indagación guiada con simulación: experimentos en pantalla que permiten manipular variables, repetir sin costo y ver lo que en un laboratorio real es invisible.
+A10  microensenanza.why  Juego de roles aplicado a la docencia: quien se forma como profesor enseña una lección breve a un grupo pequeño de pares, recibe retroalimentación, a menudo apo
+A10  mini_cex.why  Evaluación dentro de las prácticas profesionales: un docente observa una atención breve y real, la califica con una escala corta y da retroalimentación en el mo
+A10  expectativa_valor.pista  Dos preguntas que el estudiante se hace antes de esforzarse: si podrá lograrlo y si le importa.
+A10  costo_percibido.pista  Lo que el estudiante siente que pierde al dedicarle horas a tu curso: descanso, trabajo, otra materia, calma.
+A10  estructura_metas.pista  Lo que el aula premia en silencio: mejorar respecto de ti mismo o ganarle al compañero.
+A10  incidentes_criticos.pista  Cinco preguntas anónimas al cerrar la semana: cuándo te sentiste más involucrado, cuándo más lejos, qué te sorprendió.
 A10  nota pedagogia+tecnologia  Cuando cruzas cómo enseñas con lo que una herramienta permite, surgen preguntas nuevas: qué participación facilita un foro y qué se gana o se pierde frente a la
 A10  nota grupo+pedagogia  Un grupo se vuelve equipo cuando la pedagogía diseña la tarea: metas compartidas, roles, responsabilidad individual y tiempo para revisar cómo trabajaron.
 A10  nota sustitucion+pedagogia  Al darle intención pedagógica a la sustitución, la herramienta empieza a aportar algo: por ejemplo, un cuestionario en línea que da retroalimentación inmediata 
@@ -29,6 +39,7 @@ A10  nota contenido+bloom  La tabla de especificaciones cruza dos ejes: qué con
 A10  nota tecnologia+dominio  Los sistemas adaptativos automatizan el aprendizaje para el dominio: estiman si cada estudiante ya domina una habilidad y solo entonces le proponen la siguiente
 A10  nota constructivismo+resultados  Biggs puso ambas ideas en el nombre: el estudiante construye significado con lo que hace, y el docente alinea actividades y evaluación con los resultados de apr
 C  nota ciencia_aprendizaje+releer  Cuando la ciencia compara técnicas de estudio, releer y subrayar salen poco útiles y las preguntas de práctica, entre las mejores; conviene cambiar el hábito po
+A10  nota modelo_social+tecnologia  Si la barrera está en el entorno, la tecnología también debe quitarla: subtítulos, texto legible y navegación por teclado.
 C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar. Se siente seguro porque el texto le resulta familiar, pero la evidencia muestra poco beneficio.
 A1  nota juego+mundo  Llevar puntos e insignias del juego a contextos que no son juegos, como un curso, es gamificación según la definición de Deterding y colegas.
 A10  nota previos+proposito  Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje s

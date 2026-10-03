@@ -1,0 +1,618 @@
+{
+  "fichas": {
+    "bajo_riesgo": {
+      "n": "Escritura de bajo riesgo",
+      "e": "🎾",
+      "f": "met",
+      "pista": "Peloteo antes del partido, con textos breves, casi sin nota, para pensar sin miedo a equivocarse.",
+      "why": "Si escribes para aprender y equivocarte no cuesta puntos, aparece la escritura de bajo riesgo. Elbow separó las tareas de alto riesgo, que se califican con cuidado, de las de bajo riesgo, textos breves y frecuentes que casi no se califican y sirven para pensar el contenido. Según su argumento, sin la presión de la nota el estudiante se anima a escribir lo que aún no tiene claro, y el docente ve a tiempo dónde está la confusión.",
+      "uni": "En Anatomía, abre la clase con cinco minutos para explicar por escrito a un paciente qué hace el diafragma al respirar, y devuelve los textos solo con un visto bueno.",
+      "refs": ["elbow97"]
+    },
+    "borrador": {
+      "n": "Borrador",
+      "e": "🐣",
+      "f": "cot",
+      "pista": "Primera versión de un texto, hecha para cambiarse, que nadie debería calificar como si fuera la última.",
+      "why": "Cuando la escritura deja lugar al error, aparece el borrador, una versión pensada para cambiar. Flower y Hayes mostraron que quien escribe vuelve a planificar y a revisar mientras redacta, y Sommers observó que los escritores con experiencia usan los borradores para descubrir qué quieren decir. Pedir uno antes de la entrega final abre un tiempo para recibir comentarios y usarlos.",
+      "uni": "En Ingeniería Industrial, pide el borrador de un informe de mejora en la semana seis y la versión final en la nueve, para que haya tiempo de reescribirlo.",
+      "refs": ["flower81", "sommers80"]
+    },
+    "retro_borradores": {
+      "n": "Comentarios al borrador",
+      "e": "📎",
+      "f": "eva",
+      "pista": "Notas en el margen que llegan mientras el texto aún puede cambiar y preguntan más que corrigen.",
+      "why": "La retroalimentación sobre un borrador llega cuando el texto todavía puede cambiar. Sommers analizó comentarios de docentes y encontró que muchos eran tan genéricos que servían para cualquier trabajo, y que a menudo reescribían el texto según las ideas del profesor. Cho y MacArthur observaron que los comentarios no directivos, que no dictan el cambio exacto, se asociaron con revisiones más complejas, y estas con textos de mejor calidad.",
+      "uni": "En Enfermería, devuelve el borrador de un plan de cuidados con dos preguntas al margen y una sola prioridad de cambio, sin nota, una semana antes de la entrega.",
+      "refs": ["sommers82", "cho10"]
+    },
+    "revision_pares": {
+      "n": "Revisión entre pares de textos",
+      "e": "👬",
+      "f": "eva",
+      "pista": "Tu compañero lee tu borrador con criterios, te deja comentarios y, de paso, aprende a escribir mejor.",
+      "why": "Si los comentarios sobre borradores vienen de compañeros que leen con criterios compartidos, aparece la revisión entre pares de textos. Se diferencia de la evaluación entre pares porque busca mejorar el texto antes de la entrega, sin poner nota. El metaanálisis de Huisman y colaboradores, con estudiantes universitarios, encontró mejoras en la escritura frente a no recibir comentarios y frente a la autoevaluación, y resultados similares a los de la retroalimentación docente.",
+      "uni": "En Psicología, cada estudiante lee dos informes anónimos de compañeros con la rúbrica y deja un comentario sobre el argumento y otro sobre la evidencia antes de reescribir el propio.",
+      "refs": ["huisman19", "cho10"]
+    },
+    "aprender_revisando": {
+      "n": "Aprender al revisar",
+      "e": "🤨",
+      "f": "apr",
+      "pista": "Quien comenta el trabajo ajeno termina escribiendo mejor el propio, aunque no reciba ningún comentario.",
+      "why": "Cuando comentar el texto de un compañero sirve para afinar el propio juicio, aparece el aprendizaje al revisar. Cho y MacArthur asignaron al azar a universitarios a revisar textos de pares o solo a leerlos, y quienes revisaron escribieron después mejores informes; Lundstrom y Baker vieron algo parecido en cursos de inglés como segunda lengua. Según Nicol y colaboradores, redactar comentarios obliga a aplicar criterios y a comparar el trabajo ajeno con el propio.",
+      "uni": "En Arquitectura, antes de entregar su memoria de proyecto, cada estudiante comenta por escrito dos memorias ajenas y anota qué cambiaría de la suya después de hacerlo.",
+      "refs": ["cho11", "lundstrom09", "nicol14"]
+    },
+    "borradores_ida_vuelta": {
+      "n": "Borradores de ida y vuelta",
+      "e": "✉️",
+      "f": "sint",
+      "pista": "Textos breves sin nota que pasan por manos de un compañero y regresan reescritos antes de calificarse.",
+      "why": "Une la escritura de bajo riesgo de Elbow con la revisión entre pares. El estudiante escribe primero sin la presión de la nota, un compañero comenta con criterios y el texto vuelve a su autor para reescribirse antes de la versión calificada. Hay respaldo para las dos mitades del ciclo, porque recibir comentarios de pares mejora la escritura universitaria y quien comenta también aprende al juzgar con criterios que luego aplica a su propio texto.",
+      "principios": [
+        "Separa las tareas que solo sirven para pensar, que casi no llevan nota, de las que calificas con cuidado, y avísale al curso cuál es cuál (Elbow, 1997).",
+        "Comenta el borrador cuando todavía se puede cambiar, con observaciones propias de ese texto en vez de frases que servirían para cualquier trabajo (Sommers, 1982).",
+        "Organiza la revisión con criterios explícitos y más de un lector por texto, porque los comentarios de varios pares se asociaron con revisiones más profundas que los de un solo experto (Cho y MacArthur, 2010).",
+        "Haz que todo el curso comente, aunque ese día no reciba comentarios, porque redactar la revisión de otro mejora la escritura propia (Cho y MacArthur, 2011).",
+        "No necesitas comentar tú cada borrador, ya que las mejoras con comentarios de pares fueron comparables a las logradas con comentarios del docente (Huisman et al., 2019)."
+      ],
+      "prueba": "Elige una tarea escrita de tu curso y divídela en dos entregas. Pide un borrador sin nota, organiza una ronda en que cada estudiante comente dos textos ajenos con preguntas tomadas de tu rúbrica y califica solo la versión reescrita. Cuenta cuántos estudiantes cambiaron algo de fondo entre una versión y otra.",
+      "refs": ["elbow97", "sommers82", "cho10", "cho11", "huisman19"]
+    },
+    "generos": {
+      "n": "Géneros disciplinares",
+      "e": "📰",
+      "f": "apr",
+      "pista": "El informe de laboratorio y el fallo judicial siguen reglas propias que casi nadie enseña.",
+      "why": "Si la alfabetización académica se mira desde una comunidad profesional concreta, aparecen los géneros disciplinares, tipos de texto con propósitos y estructuras reconocibles en cada campo. Swales los definió por los propósitos comunicativos que comparte una comunidad. Gardner y Nesi clasificaron casi tres mil textos evaluados de estudiantes universitarios en Inglaterra y hallaron trece familias de géneros, con grandes diferencias entre disciplinas, así que saber escribir un ensayo no asegura saber escribir un informe de caso.",
+      "uni": "En Kinesiología, antes de pedir un informe de caso, entrega uno publicado y pide al curso marcar qué hace cada sección y qué la diferencia de un ensayo.",
+      "refs": ["swales90", "gardner13"]
+    },
+    "wac": {
+      "n": "Escritura a través del currículo",
+      "e": "🚇",
+      "f": "dis",
+      "pista": "Que en Química y en Contabilidad también se redacte, y cada asignatura enseñe sus propios textos.",
+      "why": "Si la escritura para pensar se suma a los géneros de cada disciplina, aparece la escritura a través del currículo. Este movimiento nació en Estados Unidos y el Reino Unido en los años setenta y sostiene que escribir se aprende, y sirve para aprender, en todas las asignaturas de una carrera. Carlino lo dio a conocer en la bibliografía en español y advirtió que un taller aislado tiene límites frente a la escritura enseñada dentro de cada materia.",
+      "uni": "Acuerda con los docentes de tercer año de Agronomía que cada asignatura pida un género distinto, como el informe de ensayo de campo o la recomendación técnica, con criterios comunes.",
+      "refs": ["russell91", "carlino13"]
+    },
+    "cap_escritura": {
+      "n": "Escribir para pensar",
+      "e": "🪶",
+      "f": "sint",
+      "pista": "Cada asignatura pide textos breves para razonar y borradores comentados para dominar los géneros de su campo.",
+      "why": "Une los borradores de ida y vuelta con la escritura a través del currículo. Cada curso combina textos breves y casi sin nota, que obligan a poner en palabras lo que se entiende, con uno o dos géneros de la disciplina que pasan por borrador, revisión de pares y reescritura. Un estudio correlacional de Anderson y colaboradores asoció con un aprendizaje más profundo tres rasgos de las tareas de escritura: pedir construir significado, dejar claras las expectativas e incluir intercambio sobre los borradores.",
+      "principios": [
+        "Usa con frecuencia textos breves que casi no cuenten para la nota, para que el curso piense el contenido por escrito, y reserva la calificación cuidadosa para pocas tareas (Elbow, 1997).",
+        "Enseña dentro de tu materia el género que pides, con ejemplos reales del campo, en vez de suponer que el curso lo aprendió antes (Carlino, 2013).",
+        "Diseña consignas que pidan analizar, aplicar o argumentar, y explica qué esperas antes de que el curso empiece a escribir (Anderson et al., 2015).",
+        "Incluye al menos un ciclo de borrador, revisión de pares y reescritura por semestre, porque los comentarios de pares mejoran la escritura universitaria (Huisman et al., 2019).",
+        "Muestra cómo está armado un texto del campo antes de pedirlo, señalando qué función cumple cada parte (Swales, 1990)."
+      ],
+      "prueba": "Elige una unidad de tu curso y agrega dos minutos de escritura sin nota al cierre de cada clase. Al final de la unidad pide un texto del género de tu campo, con un borrador comentado por un par y una versión final. Compara esos textos con los que recibiste el semestre anterior en la misma unidad.",
+      "refs": ["elbow97", "carlino13", "anderson15", "huisman19", "swales90"]
+    },
+    "escritura_libre": {
+      "n": "Escritura libre",
+      "e": "🏄",
+      "f": "met",
+      "pista": "Diez minutos con el lápiz en movimiento, sin tachar ni releer, para que salgan las ideas.",
+      "why": "Si la escritura de bajo riesgo se hace contra el reloj, aparece la escritura libre. Elbow la propuso como ejercicio de unos diez minutos sin detenerse a corregir, para separar el momento de generar ideas del momento de juzgarlas. Su respaldo viene sobre todo de la práctica en talleres de escritura, con pocos experimentos controlados, así que conviene usarla para arrancar un texto sin tomarla como evidencia de aprendizaje.",
+      "uni": "En Sociología, antes de discutir una lectura sobre migración, pide diez minutos de escritura libre sobre lo que les hizo pensar, y que cada estudiante marque su mejor frase para llevarla a la discusión.",
+      "refs": ["elbow98"]
+    },
+    "diario": {
+      "n": "Diario de aprendizaje",
+      "e": "📘",
+      "f": "met",
+      "pista": "Cuaderno semanal donde anotas lo que entendiste y lo que todavía te confunde del curso.",
+      "why": "Si la escritura de bajo riesgo se vuelve hacia el propio pensamiento, aparece el diario de aprendizaje, un registro periódico en que el estudiante escribe sobre lo que estudia y sobre cómo lo está aprendiendo. McCrindle y Christensen asignaron al azar a cuarenta estudiantes de un curso de Biología de primer año a escribir un diario o informes científicos, y quienes escribieron el diario usaron más estrategias metacognitivas y estrategias cognitivas más elaboradas.",
+      "uni": "En Contabilidad de Costos, pide cada viernes un párrafo sobre el ejercicio que más costó en la semana y qué harían distinto la próxima vez, y lee una muestra de diez.",
+      "refs": ["mccrindle95"]
+    },
+    "microtema": {
+      "n": "Microtema",
+      "e": "🎫",
+      "f": "met",
+      "pista": "Un ensayo tan corto que cabe en una ficha bibliográfica y obliga a elegir cada palabra.",
+      "why": "Si la escritura de bajo riesgo se pone al servicio de un problema concreto, aparece el microtema. Bean, Drenk y Lee lo propusieron como un ensayo que cabe en una tarjeta, con consignas que piden, por ejemplo, resumir un artículo o sacar conclusiones de un conjunto de datos entregados. Su brevedad permite pedirlos a menudo y comentarlos rápido; el respaldo proviene sobre todo de experiencias docentes, con pocos ensayos controlados.",
+      "uni": "En Economía, entrega una tabla con el precio del arroz en dos años distintos y pide en una tarjeta una tesis sobre qué pasó, apoyada solo en esos datos.",
+      "refs": ["bean82", "bean11"]
+    },
+    "escritura_proceso": {
+      "n": "Escritura como proceso",
+      "e": "🎠",
+      "f": "apr",
+      "pista": "Quien redacta planifica a mitad de frase y revisa antes de terminar, dando vueltas igual que un carrusel.",
+      "why": "Si el borrador se mira con metacognición, aparece la escritura como proceso. Flower y Hayes estudiaron a personas que escribían pensando en voz alta y propusieron que escribir es resolver un problema retórico, con procesos de planificación, textualización y revisión que se alternan y se repiten, guiados por metas que el escritor ajusta sobre la marcha. Enseñarla así implica dar tiempo y apoyo a cada momento, en vez de calificar solo el producto final.",
+      "uni": "En Historia del Arte, pide entregar junto al ensayo el plan inicial y una nota breve que diga qué cambió entre ese plan y el texto final, y por qué.",
+      "refs": ["flower81"]
+    },
+    "revision_profunda": {
+      "n": "Revisión profunda",
+      "e": "🤿",
+      "f": "apr",
+      "pista": "Volver al texto para cambiar el argumento y el orden de las ideas, más allá de las comas.",
+      "why": "Si a un borrador le sumas reflexión, aparece la revisión profunda. Sommers comparó a estudiantes de primer año con escritores adultos con experiencia. Los estudiantes revisaban sobre todo palabras, mientras que los escritores expertos reorganizaban el argumento y usaban la revisión para descubrir qué querían decir, a lo largo de toda la escritura y sin reservarla para una etapa final.",
+      "uni": "En Ingeniería Civil, pide que la segunda versión de un informe técnico venga con un esquema de una línea por párrafo y que el estudiante marque qué párrafos movió, fusionó o eliminó.",
+      "refs": ["sommers80"]
+    },
+    "centro_escritura": {
+      "n": "Centro de escritura",
+      "e": "🏢",
+      "f": "met",
+      "pista": "Una oficina del campus donde un tutor lee tu borrador contigo, sin corregírtelo.",
+      "why": "Si la tutoría entre pares se dedica a los borradores, aparece el centro de escritura, un servicio donde tutores formados, a menudo estudiantes avanzados, conversan con quien escribe sobre su texto. North sostuvo que su tarea es formar mejores escritores, más que entregar textos corregidos, y lamentó que muchos profesores lo vieran como un taller de reparaciones. Hoy existen centros así en varias universidades latinoamericanas.",
+      "uni": "En Medicina Veterinaria, antes de la entrega del informe de necropsia, coordina con el centro de escritura una sesión breve para el curso sobre cómo organizar la discusión.",
+      "refs": ["north84"]
+    },
+    "movidas": {
+      "n": "Movidas retóricas",
+      "e": "🤺",
+      "f": "apr",
+      "pista": "Pasos de esgrima de un texto académico, como mostrar el hueco que nadie ha investigado.",
+      "why": "Si los géneros se cruzan con la investigación, aparecen las movidas retóricas, unidades de un texto que cumplen una función comunicativa. Swales analizó introducciones de artículos de investigación y propuso el modelo CARS (crear un espacio de investigación), con tres movidas: establecer un territorio, señalar un vacío y ocupar ese vacío. Mostrarlas en artículos reales da al estudiante un mapa de lo que se espera en cada parte de su propio texto.",
+      "uni": "En Biología, entrega tres introducciones de artículos y pide al curso marcar con colores dónde se establece el territorio, dónde aparece el vacío y dónde se anuncia el estudio.",
+      "refs": ["swales90"]
+    },
+    "pedagogia_generos": {
+      "n": "Pedagogía de géneros",
+      "e": "🍱",
+      "f": "met",
+      "pista": "Desarmar juntos un texto modelo, escribir otro entre todos en la pizarra y recién entonces escribir solo.",
+      "why": "Si los géneros disciplinares se enseñan con modelado, aparece la pedagogía de géneros de la llamada Escuela de Sídney. Rose y Martin describen un ciclo que parte de deconstruir un texto modelo con el curso, sigue con una construcción conjunta guiada por el docente y termina en la escritura independiente. Nació en escuelas australianas y luego se adaptó a cursos universitarios.",
+      "uni": "En Trabajo Social, analiza con el curso un informe social real, redacta otro entre todos proyectado en la pantalla y solo después pide uno individual.",
+      "refs": ["rose12"]
+    },
+    "consigna": {
+      "n": "Consigna de escritura que hace pensar",
+      "e": "🚩",
+      "f": "dis",
+      "pista": "Instrucciones que piden analizar o argumentar, dicen a quién va dirigido el texto y qué se evaluará.",
+      "why": "Si escribir para aprender se ata a resultados de aprendizaje, aparece la consigna de escritura que hace pensar. Anderson y colaboradores encuestaron a más de setenta mil estudiantes y encontraron que las tareas que piden construir significado, como analizar o aplicar, y las expectativas explicadas con claridad se asociaban con enfoques más profundos de aprendizaje, con efectos mayores que la cantidad de páginas escritas. Bean recomienda plantear la consigna como un problema que el texto debe resolver para un lector concreto.",
+      "uni": "En Farmacología, en vez de pedir un trabajo sobre antibióticos, pide una carta a un médico rural que explique por qué no conviene recetar amoxicilina para un resfriado común.",
+      "refs": ["anderson15", "bean11"]
+    },
+    "sintesis_fuentes": {
+      "n": "Síntesis de fuentes",
+      "e": "🥘",
+      "f": "apr",
+      "pista": "Tomar ideas de varios autores, ordenarlas y cocinar con ellas un texto que no es de ninguno.",
+      "why": "Si escribir para aprender se alimenta de la investigación ajena, aparece la síntesis de fuentes. Spivey describió la escritura a partir de fuentes como una construcción en que quien escribe selecciona, organiza y conecta contenidos de varios textos con lo que ya sabe. Howard, Serviss y Rodrigue analizaron dieciocho trabajos de investigación de estudiantes universitarios y ninguno incluía un resumen de una fuente; en su lugar, los estudiantes trabajaban con oraciones sueltas, copiadas, parafraseadas o armadas en mosaico.",
+      "uni": "En Ciencia Política, antes del ensayo, pide una tabla que cruce tres autores con dos preguntas y un párrafo final que diga dónde coinciden y dónde no.",
+      "refs": ["spivey90", "howard10"]
+    },
+    "mosaico": {
+      "n": "Escritura en mosaico",
+      "e": "🩹",
+      "f": "eva",
+      "pista": "Copiar una frase ajena, cambiar algunas palabras por sinónimos y creer que con eso ya es propia.",
+      "why": "Si la síntesis de fuentes se mira desde la integridad académica, aparece la escritura en mosaico (patchwriting), que consiste en copiar un texto fuente y modificarlo borrando palabras, cambiando la sintaxis o reemplazando términos por sinónimos. Howard propuso tratarla como una etapa del aprendiz que aún no domina el lenguaje del campo, y Pecorari la encontró en textos de posgrado escritos en segunda lengua sin intención de engañar. Por eso conviene enseñar la paráfrasis y la cita antes de sancionar de forma automática.",
+      "uni": "En Nutrición, entrega un párrafo de un artículo y tres reescrituras de estudiantes, y pide al curso decidir cuál es paráfrasis, cuál es mosaico y cuál es copia.",
+      "refs": ["howard95", "pecorari03"]
+    },
+    "identidad_autoral": {
+      "n": "Identidad de autor",
+      "e": "🥸",
+      "f": "apr",
+      "pista": "Atreverse a decir “yo sostengo” en un texto académico, como alguien que ya pertenece al campo.",
+      "why": "Si el estudiante se apropia de los géneros de su disciplina, aparece su identidad de autor. Ivanič mostró que escribir en la universidad implica construir una imagen de uno mismo como escritor, que se negocia con las convenciones del campo y con la propia historia. En Chile, Ávila Reyes, Navarro y Tapia-Ladino entrevistaron a estudiantes de un programa de admisión equitativa y vieron que poder plantear una perspectiva propia en sus textos aparecía entre los factores que sostenían su permanencia.",
+      "uni": "En Antropología, pide que la introducción del informe de campo incluya un párrafo en primera persona sobre la postura del autor frente al tema y cómo piensa sostenerla.",
+      "refs": ["ivanic98", "avila20"]
+    },
+    "ya_saben_escribir": {
+      "n": "Ya deberían llegar sabiendo escribir",
+      "e": "💉",
+      "f": "mito",
+      "pista": "Una sola dosis de redacción en el colegio, o en primer año, y quedarían inmunizados para siempre.",
+      "belief": "Escribir es una habilidad general que se aprende antes de la universidad o en un taller de primer año, y que después sirve igual en cualquier asignatura.",
+      "evidence": "Rose llamó mito de la transitoriedad a la idea de que los problemas de escritura son pasajeros y desaparecerán cuando la escuela haga bien su trabajo. Los géneros cambian mucho entre disciplinas, como mostraron Gardner y Nesi al clasificar miles de textos de estudiantes universitarios. El estudio longitudinal de Sommers y Saltz en Harvard encontró que la escritura sigue desarrollándose durante la carrera y que progresaron más quienes aceptaron empezar como novatos.",
+      "refs": ["rose85", "gardner13", "sommers04"]
+    },
+    "comunidad_discursiva": {
+      "n": "Comunidad discursiva",
+      "e": "🐧",
+      "f": "apr",
+      "pista": "Grupo con metas compartidas que se reconoce por sus formatos de texto y su jerga.",
+      "why": "Si los géneros se miran desde la comunidad que los usa, aparece la comunidad discursiva. Swales la definió como un grupo con metas públicas comunes, mecanismos de comunicación entre sus miembros, géneros propios y un vocabulario especializado, en el que los recién llegados aprenden a participar de a poco junto a miembros con experiencia. La idea ayuda a entender por qué el mismo estudiante escribe bien un informe para Química y le cuesta un ensayo para Filosofía.",
+      "uni": "En Odontología, muestra al curso cómo cambia la descripción de una misma caries entre la ficha clínica y la explicación que recibe el paciente.",
+      "refs": ["swales90"]
+    },
+    "experto_novato": {
+      "n": "Experto y novato",
+      "e": "🎴",
+      "f": "apr",
+      "pista": "Frente a los mismos problemas, unos ven poleas y planos inclinados, y otros ven conservación de la energía.",
+      "why": "Si años de práctica deliberada organizan el saber como un mapa conectado, aparece la diferencia entre experto y novato. Chi, Feltovich y Glaser pidieron a expertos y principiantes en física clasificar problemas de mecánica. Los expertos los agruparon según el principio que los resuelve, y los novatos según rasgos de superficie, como la presencia de un plano inclinado. La síntesis de Bransford y colaboradores concluye que los expertos notan patrones que el novato no ve y organizan su conocimiento en torno a grandes ideas.",
+      "uni": "En Contabilidad, pide al curso agrupar diez transacciones en categorías propias, compara sus grupos con los que haría un auditor y conversa con ellos qué criterio usó cada uno.",
+      "refs": ["chi81", "bransford00"]
+    },
+    "punto_ciego": {
+      "n": "Punto ciego del experto",
+      "e": "🫥",
+      "f": "fund",
+      "pista": "Saber tanto de tu materia que ya no ves los pasos que das sin pensar.",
+      "why": "Si el experto se pone a enseñar, aparece su punto ciego. Nathan y Petrosino encontraron que los futuros profesores con más formación matemática tendían a creer que las ecuaciones simbólicas son más fáciles que los problemas verbales, lo contrario de lo que muestra el desempeño real de los estudiantes de álgebra. Ambrose y colaboradores usan la idea para explicar por qué un docente salta pasos que para él son automáticos y para el novato no lo son.",
+      "uni": "En Estadística, antes de explicar un ejercicio, escribe todos los pasos que darías, incluidos los obvios, y pide a un estudiante que marque los que nunca dices en voz alta.",
+      "refs": ["nathan03", "ambrose10"]
+    },
+    "tacito": {
+      "n": "Conocimiento tácito",
+      "e": "🚲",
+      "f": "fund",
+      "pista": "Sabes andar en bicicleta, pero si te piden explicarlo con palabras, te quedas a medio camino.",
+      "why": "Si la pericia intenta pasar al lenguaje, aparece el conocimiento tácito, lo que el experto sabe hacer pero no logra decir. Polanyi lo resumió en la idea de que sabemos más de lo que podemos contar, con ejemplos como reconocer un rostro entre miles. En una carrera universitaria, buena parte del oficio, como juzgar si un dato es confiable, queda en ese terreno, y el estudiante tiene que adivinarlo si nadie lo hace explícito.",
+      "uni": "En Diseño Gráfico, al corregir un afiche, en lugar de decir “no funciona”, nombra la regla que estás aplicando, como el contraste entre título y fondo, y escríbela en la pizarra.",
+      "refs": ["polanyi66"]
+    },
+    "cuello_botella": {
+      "n": "Cuello de botella del aprendizaje",
+      "e": "🍾",
+      "f": "apr",
+      "pista": "El punto exacto del curso donde muchos estudiantes se atascan año tras año, aunque el resto fluya.",
+      "why": "Si el punto ciego del experto se cruza con el estudiante real, aparece el cuello de botella, el lugar del curso donde muchos se atascan. Middendorf y Pace lo usan como primer paso de su modelo, que pide identificar una tarea concreta que bloquea a muchos estudiantes en vez de un tema amplio. El mismo grupo describió después cuellos de botella emocionales, en que lo que traba es una creencia o una emoción frente a la materia.",
+      "uni": "En Química Orgánica, revisa las pruebas de los últimos dos años y busca el paso concreto donde más se repite el error, antes de planificar la unidad.",
+      "refs": ["middendorf04", "middendorf15"]
+    },
+    "decodificar": {
+      "n": "Decodificar las disciplinas",
+      "e": "📟",
+      "f": "dis",
+      "pista": "Siete pasos que parten donde el curso se atasca y terminan compartiendo lo aprendido con colegas.",
+      "why": "Si el cuello de botella se ataca haciendo explícito el conocimiento tácito, aparece el modelo Decodificar las disciplinas. Middendorf y Pace lo crearon en la Universidad de Indiana con siete pasos: identificar el cuello de botella, averiguar cómo lo resuelve un experto, modelar esos pasos, dar práctica con retroalimentación, atender la motivación, evaluar el dominio y compartir lo aprendido. Trabajar con colegas de otras disciplinas ayuda, porque preguntan al experto hasta que salen los pasos que él da por obvios.",
+      "uni": "En Auditoría, pide a un colega de Historia que te entreviste mientras revisas una factura sospechosa, y anota cada pregunta que te obliga a explicar un paso.",
+      "refs": ["middendorf04", "pace17"]
+    },
+    "aprendiz_cognitivo": {
+      "n": "Aprendiz cognitivo",
+      "e": "🎸",
+      "f": "met",
+      "pista": "Igual que en el taller del luthier, pero lo que el maestro muestra es su manera de pensar.",
+      "why": "Si el modelado cognitivo se usa para hacer visible el conocimiento tácito, aparece el aprendiz cognitivo. Collins, Brown y Newman adaptaron el aprendizaje de oficios, donde el aprendiz ve trabajar al maestro, a tareas mentales como leer, escribir o resolver problemas matemáticos. Su secuencia combina modelado, acompañamiento (coaching) y andamiaje que se retira de a poco, y agrega articulación, reflexión y exploración para que el estudiante explique su razonamiento y termine trabajando solo.",
+      "uni": "En Programación, depura un error de código en vivo diciendo qué sospechas, luego acompaña a parejas que depuran otro y en la tercera semana deja que lo hagan solas.",
+      "refs": ["collins89"]
+    },
+    "pensamiento_visible": {
+      "n": "Pensamiento experto a la vista",
+      "e": "🔆",
+      "f": "sint",
+      "pista": "El docente averigua dónde se atasca el curso, resuelve en voz alta y luego retira la ayuda.",
+      "why": "Une Decodificar las disciplinas con el aprendiz cognitivo. Decodificar localiza el cuello de botella y reconstruye los pasos que el experto da sin notarlo; el aprendiz cognitivo convierte esos pasos en una secuencia de modelado en voz alta, práctica acompañada y apoyos que se retiran a medida que el estudiante puede solo. La combinación ataca el punto ciego que Nathan y Petrosino documentaron en futuros profesores con mucha formación disciplinar.",
+      "principios": [
+        "Elige un cuello de botella concreto, una tarea donde muchos fallan, en vez de un tema completo (Middendorf y Pace, 2004).",
+        "Pide a un colega de otra disciplina que te pregunte mientras resuelves esa tarea, para que salgan a la luz los pasos que das por obvios (Pace, 2017).",
+        "Resuelve frente al curso diciendo en voz alta por qué eliges cada paso y cómo compruebas el resultado (Collins et al., 1989).",
+        "Retira el apoyo de a poco y pide al estudiante que se explique cada paso, porque generar esas explicaciones mejora la comprensión (Chi et al., 1994).",
+        "Desconfía de tu intuición sobre qué es fácil, porque la pericia en la materia puede llevar a ordenar mal la dificultad de las tareas (Nathan y Petrosino, 2003)."
+      ],
+      "prueba": "Elige la tarea en que más se equivocó tu curso en la última prueba. Grábate cinco minutos resolviéndola en voz alta, anota cada paso que nunca habías explicado y enséñalo en la próxima clase con un ejercicio guiado y otro sin ayuda. Compara los resultados con los de la prueba anterior.",
+      "refs": ["middendorf04", "pace17", "collins89", "chi94", "nathan03"]
+    },
+    "formas_pensar": {
+      "n": "Formas de pensar y practicar",
+      "e": "🥼",
+      "f": "apr",
+      "pista": "Lo que una bióloga hace con un dato extraño, y que un abogado haría distinto.",
+      "why": "Si los conceptos umbral se viven dentro de una comunidad de práctica, aparecen las formas de pensar y practicar de una disciplina. McCune y Hounsell usaron esta expresión en un estudio de cursos de Biología de último año, donde abarcaba el trato con la literatura científica y los datos experimentales y el dominio de las convenciones del campo para escribir y exponer. Para Meyer y Land, cruzar un concepto umbral cambia la manera de ver la materia, y con ella esas formas de pensar.",
+      "uni": "En Geología, en la salida a terreno, pide al curso describir un corte de roca como lo haría un geólogo antes de explicar nada, y luego muestra tu propia libreta.",
+      "refs": ["mccune05", "meyer05"]
+    },
+    "critico_disciplinar": {
+      "n": "Pensamiento crítico disciplinar",
+      "e": "🦊",
+      "f": "apr",
+      "pista": "Dudar con las reglas del oficio, porque una abogada y un químico desconfían de cosas distintas.",
+      "why": "Si el pensamiento crítico se ejerce con las formas de pensar de un campo, aparece el pensamiento crítico disciplinar. Willingham revisó la investigación cognitiva y concluyó que pensar críticamente depende del conocimiento y de la práctica en un dominio, por lo que cuesta transferirlo de una materia a otra. Abrami y colaboradores encontraron que la enseñanza lo mejora, sobre todo con diálogo, problemas auténticos de la materia y acompañamiento de un mentor.",
+      "uni": "En Medicina, entrega el resumen de un ensayo clínico con un error de diseño y pide al curso encontrarlo usando las preguntas que se hace un revisor de la especialidad.",
+      "refs": ["willingham08", "abrami15"]
+    },
+    "cap_disciplina": {
+      "n": "Pensar como la disciplina",
+      "e": "🦅",
+      "f": "sint",
+      "pista": "Un curso donde el estudiante ve dudar y decidir a un experto del campo, y aprende a hacerlo.",
+      "why": "Une el pensamiento experto a la vista con el pensamiento crítico disciplinar. El docente localiza los cuellos de botella, hace visibles en voz alta los pasos tácitos de su campo y retira el apoyo de a poco, mientras el curso practica las preguntas propias de la disciplina sobre problemas reales. La meta es que el estudiante juzgue con los criterios del campo; Willingham muestra que ese juicio depende del dominio, y Abrami y colaboradores, que mejora con diálogo y problemas auténticos.",
+      "principios": [
+        "Nombra en voz alta las preguntas que tu disciplina se hace frente a un problema, porque el pensamiento crítico depende del conocimiento del dominio (Willingham, 2008).",
+        "Identifica los conceptos umbral de tu curso y dales más tiempo y más ejemplos, sabiendo que antes de cruzarlos el curso pasa por una etapa de confusión (Meyer y Land, 2005).",
+        "Haz visible tu razonamiento de experto con el modelado y retíralo de a poco a medida que el curso gana autonomía (Collins et al., 1989).",
+        "Entrega problemas auténticos de tu campo y abre espacio para discutirlos, porque el diálogo y los problemas reales mejoran el pensamiento crítico (Abrami et al., 2015).",
+        "Pide leer las fuentes de tu campo con las preguntas de un experto, como quién escribió el documento y con qué propósito (Wineburg, 1991)."
+      ],
+      "prueba": "Escribe las cinco preguntas que te haces cuando enfrentas un problema nuevo de tu campo. Entrégalas al curso junto con un caso real, pide que las usen en parejas y, al final, que agreguen la pregunta que les faltó. Repite la lista en dos clases más y observa si empiezan a usarla sin que se la pidas.",
+      "refs": ["willingham08", "meyer05", "collins89", "abrami15", "wineburg91"]
+    },
+    "liminal": {
+      "n": "Estado liminal",
+      "e": "🌘",
+      "f": "apr",
+      "pista": "Esa etapa incómoda de entender a medias y repetir el vocabulario antes de cruzar la puerta.",
+      "why": "Si un concepto umbral se encuentra con la emoción de no entender, aparece el estado liminal. Meyer y Land lo describen como un espacio de transición, a veces largo e incómodo, en que el estudiante oscila entre la comprensión anterior y la nueva, y puede imitar el lenguaje de la disciplina sin entenderlo todavía. Reconocerlo ayuda al docente a leer esa confusión como parte del aprendizaje y a ofrecer tiempo y ejemplos variados en lugar de repetir la misma explicación.",
+      "uni": "En Economía, cuando el curso usa “costo de oportunidad” sin aplicarlo, pide explicar con ese concepto una decisión cotidiana, como elegir entre trabajar o estudiar un sábado.",
+      "refs": ["meyer05", "meyer06"]
+    },
+    "problematico": {
+      "n": "Conocimiento problemático",
+      "e": "🪤",
+      "f": "apr",
+      "pista": "La idea que choca con tu intuición de siempre y por eso se resiste a entrar.",
+      "why": "Si un concepto umbral choca con los conocimientos previos, aparece el conocimiento problemático. Perkins lo describió como saber que resulta contraintuitivo, ajeno, inerte o ritual, y Meyer y Land lo tomaron como rasgo frecuente de los conceptos umbral. El estudiante puede aprobar repitiendo la definición mientras sigue razonando con su idea anterior, por eso conviene evaluar la aplicación en situaciones nuevas.",
+      "uni": "En Física, antes de enseñar inercia, pide predecir por escrito qué le pasa a una pelota que se suelta dentro de un bus en movimiento, y vuelve a esas predicciones al final.",
+      "refs": ["meyer06", "meyer05"]
+    },
+    "toulmin": {
+      "n": "Modelo de Toulmin",
+      "e": "🔩",
+      "f": "apr",
+      "pista": "El perno que une los datos con la conclusión, y que cada campo fabrica a su manera.",
+      "why": "Si el pensamiento crítico disciplinar se pone en palabras, aparece el modelo de Toulmin. Toulmin describió los argumentos prácticos con seis elementos: afirmación, datos, garantía que autoriza el paso de los datos a la afirmación, respaldo de esa garantía, calificador y refutación. Sostuvo además que los respaldos dependen del campo, porque un tribunal y un laboratorio aceptan pruebas distintas, y por eso el modelo sirve para enseñar a argumentar dentro de cada disciplina.",
+      "uni": "En Salud Pública, pide descomponer una recomendación oficial de vacunación en afirmación, datos y garantía, y señalar qué refutación posible no se consideró.",
+      "refs": ["toulmin03"]
+    },
+    "mapa_argumentos": {
+      "n": "Mapeo de argumentos",
+      "e": "🌲",
+      "f": "met",
+      "pista": "Dibujar un razonamiento como árbol, con la conclusión arriba y las razones y objeciones como ramas.",
+      "why": "Si el modelo de Toulmin se dibuja, aparece el mapeo de argumentos, un diagrama de cajas y flechas que separa conclusión, razones, objeciones y respaldos. Van Gelder propuso usarlo para entrenar el pensamiento crítico, y Twardy informó que en cursos de filosofía con mapeo por computador las ganancias en una prueba estandarizada de pensamiento crítico fueron mucho mayores que con otros métodos. La evidencia viene sobre todo de un mismo grupo y de comparaciones sin asignación al azar.",
+      "uni": "En Filosofía Moral, entrega una columna de opinión y pide en parejas un mapa con la conclusión, dos razones y la objeción más fuerte, antes de discutirla.",
+      "refs": ["vangelder05", "twardy04"]
+    },
+    "lectura_disciplinar": {
+      "n": "Lectura disciplinar",
+      "e": "📷",
+      "f": "apr",
+      "pista": "Antes de creerle a un documento, el experto pregunta quién lo escribió y con qué intención.",
+      "why": "Si la mirada del experto se aplica a los textos, aparece la lectura disciplinar. Wineburg pidió a historiadores y a estudiantes de último año de secundaria que pensaran en voz alta mientras leían documentos sobre la batalla de Lexington. Los historiadores revisaban la fuente, la contrastaban con otros documentos y la situaban en su contexto, y los estudiantes tendían a tomarla como información sin autor. Shanahan y Shanahan vieron que expertos en matemática, química e historia leen sus textos de maneras muy distintas.",
+      "uni": "En Historia de América, entrega dos relatos de la misma batalla escritos por bandos distintos y pide anotar al margen quién escribe, cuándo y qué ganaba con su versión.",
+      "refs": ["wineburg91", "shanahan08"]
+    },
+    "perry": {
+      "n": "Desarrollo epistemológico",
+      "e": "🦓",
+      "f": "apr",
+      "pista": "Del “el profesor tiene la respuesta correcta” al “depende de la evidencia, y esta es mi postura”.",
+      "why": "Si el pensamiento crítico se mira desde la historia del propio estudiante, aparece el desarrollo epistemológico, el cambio en lo que cada uno cree que es el conocimiento. Perry entrevistó a estudiantes de Harvard durante su carrera y describió un recorrido que parte del dualismo, donde todo es correcto o incorrecto, pasa por la multiplicidad de opiniones y llega al relativismo, en que las ideas se juzgan con evidencia y contexto. Su muestra fue casi solo masculina y estudios posteriores ampliaron el modelo.",
+      "uni": "En Psicología, cuando alguien pregunte “¿pero cuál es la teoría correcta?”, presenta dos estudios que se contradicen y pide decidir qué evidencia pesaría más y por qué.",
+      "refs": ["perry70"]
+    },
+    "juicio_reflexivo": {
+      "n": "Juicio reflexivo",
+      "e": "🌁",
+      "f": "apr",
+      "pista": "Decidir en la niebla, cuando el problema no tiene una única respuesta y aun así hay que razonar.",
+      "why": "Si el desarrollo epistemológico se pone a prueba con problemas reales, aparece el juicio reflexivo. King y Kitchener lo estudiaron con entrevistas sobre problemas mal estructurados, aquellos que no tienen una solución única, y describieron siete etapas en los supuestos sobre el conocimiento. En las primeras se acepta la palabra de una autoridad, y en las últimas se construyen juicios razonados que pueden revisarse ante nueva evidencia. Sus estudios longitudinales muestran avances durante la educación superior, con trayectorias variables.",
+      "uni": "En Ingeniería Ambiental, plantea si conviene construir una represa en un río con comunidades aguas abajo y evalúa cómo justifican la decisión, más que cuál eligen.",
+      "refs": ["king04"]
+    },
+    "autoexplicacion": {
+      "n": "Autoexplicación",
+      "e": "👂",
+      "f": "apr",
+      "pista": "Detenerte en cada paso de un ejercicio resuelto y contarte a ti mismo por qué se hizo así.",
+      "why": "Si un ejemplo resuelto se estudia con reflexión, aparece la autoexplicación. Chi y colaboradores observaron que quienes mejor resolvían problemas de mecánica eran los que, al estudiar ejemplos, se explicaban cada paso y lo conectaban con los principios. Más tarde, escolares a quienes se pidió autoexplicarse tras cada línea de un texto sobre el sistema circulatorio comprendieron más que quienes lo leyeron dos veces. Dunlosky y colaboradores le asignan una utilidad moderada.",
+      "uni": "En Cálculo, entrega un ejercicio resuelto sin comentarios y pide escribir al margen, en cada línea, qué regla se aplicó y por qué en ese momento.",
+      "refs": ["chi89", "chi94", "dunlosky13"]
+    },
+    "articulacion": {
+      "n": "Articulación",
+      "e": "🔊",
+      "f": "met",
+      "pista": "Pedir al estudiante que diga en voz alta cómo razonó, para que el docente vea lo que piensa.",
+      "why": "Si el aprendiz cognitivo se abre al diálogo, aparece la articulación, uno de los métodos que Collins, Brown y Newman sumaron al modelado y al acompañamiento. Consiste en que el estudiante explique su conocimiento, su razonamiento o su manera de resolver, por ejemplo respondiendo preguntas del docente o haciendo de crítico de un compañero. Así el pensamiento del aprendiz se vuelve visible y el docente puede corregirlo a tiempo.",
+      "uni": "En Contabilidad, después de cada asiento en la pizarra, pide a un estudiante al azar que explique por qué esa cuenta va al debe, y a otro que diga si está de acuerdo.",
+      "refs": ["collins89"]
+    },
+    "tapps": {
+      "n": "Resolución en parejas en voz alta",
+      "e": "📻",
+      "f": "met",
+      "pista": "Uno resuelve narrando cada paso y el otro, que solo escucha, lo frena cuando se salta algo.",
+      "why": "Si la autoexplicación se hace frente a otra persona, aparece la resolución en parejas en voz alta, que Lochhead y Whimbey llamaron TAPPS. Un estudiante resuelve diciendo todo lo que piensa y el otro escucha, verifica cada paso y pide aclarar lo que no se entiende, sin dar la solución; luego intercambian los papeles. Se usa bastante en cursos de resolución de problemas, aunque su respaldo experimental es limitado.",
+      "uni": "En Estadística, entrega cuatro problemas de probabilidad y pide que la pareja cambie de papel en cada uno, de modo que ambos resuelvan y ambos escuchen.",
+      "refs": ["lochhead87"]
+    },
+    "pedagogias_distintivas": {
+      "n": "Pedagogías distintivas",
+      "e": "💮",
+      "f": "dis",
+      "pista": "La ronda junto a la cama del paciente en Medicina o el diálogo sobre un fallo en Derecho.",
+      "why": "Si las formas de pensar de un campo se vuelven pedagogía, aparecen las pedagogías distintivas. Shulman llamó así a los modos característicos con que cada profesión forma a sus novatos, como el diálogo de casos en las facultades de Derecho o las rondas clínicas en Medicina. Señaló que cada una entrena unas dimensiones del oficio más que otras, y puso como ejemplo que Derecho cultiva sobre todo pensar como abogado y Medicina dedica años a actuar como médico, con menos atención a la integridad profesional.",
+      "uni": "En Arquitectura, revisa qué aprende el curso de la crítica pública de proyectos además del diseño, como defender una decisión frente a un jurado, y hazlo explícito en el programa.",
+      "refs": ["shulman05"]
+    },
+    "experto_ensena": {
+      "n": "Quien domina la materia sabe enseñarla",
+      "e": "🧞",
+      "f": "mito",
+      "pista": "Basta contratar al investigador que más publica para que el curso aprenda, como por arte de magia.",
+      "belief": "Si un profesor sabe mucho de su disciplina o investiga en ella con éxito, enseñará bien sin necesidad de formación pedagógica.",
+      "evidence": "El metaanálisis de Hattie y Marsh sobre la relación entre productividad en investigación y calidad docente en universidades encontró una relación prácticamente nula. Nathan y Petrosino mostraron que más formación disciplinar puede incluso empeorar el juicio sobre qué les cuesta a los estudiantes, el llamado punto ciego del experto. Shulman ya había descrito un saber propio de la docencia, el conocimiento pedagógico del contenido, que se suma al dominio de la materia.",
+      "refs": ["hattie96", "nathan03", "shulman86"]
+    },
+    "create": {
+      "n": "Método CREATE",
+      "e": "🐀",
+      "f": "met",
+      "pista": "Leer un artículo científico original como detective, figura por figura, y proponer el próximo experimento.",
+      "why": "Si la lectura disciplinar se aplica a la investigación original, aparece el método CREATE, sigla en inglés de considerar, leer, elucidar hipótesis, analizar e interpretar datos y pensar el siguiente experimento. Hoskins, Stevens y Nehm lo diseñaron para que estudiantes de Biología analizaran una serie de artículos de un mismo laboratorio, con foco en descifrar las figuras. Las evaluaciones de sus autores mostraron avances en el análisis crítico de datos y una visión más humana de quienes investigan.",
+      "uni": "En Microbiología, entrega solo la figura principal de un artículo reciente, pide al curso dibujar el experimento que la produjo y recién después lee con ellos el resumen.",
+      "refs": ["hoskins07"]
+    }
+  },
+  "recetas": [
+    { "a": "escribir", "b": "error", "r": "bajo_riesgo", "nota": "Si escribir para aprender deja lugar al error sin costo en la nota, el curso se anima a poner por escrito lo que todavía no entiende." },
+    { "a": "escritura", "b": "error", "r": "borrador", "nota": "Un texto que todavía admite errores y tachones es un borrador, la versión hecha para mejorarse antes de entregarla." },
+    { "a": "borrador", "b": "retro", "r": "retro_borradores", "nota": "Cuando la retroalimentación llega mientras el texto es borrador, el estudiante todavía puede usarla para cambiarlo antes de la nota." },
+    { "a": "retro_borradores", "b": "coevaluacion", "r": "revision_pares", "nota": "Si los comentarios al borrador los escribe un compañero con criterios compartidos, la evaluación entre pares se convierte en revisión para mejorar el texto." },
+    { "a": "revision_pares", "b": "bajo_riesgo", "r": "borradores_ida_vuelta", "nota": "Cuando los textos breves sin nota pasan por un compañero antes de reescribirse, la escritura para pensar y la revisión entre pares forman un solo ciclo." },
+    { "a": "alfabetizacion_academica", "b": "comunidad_practica", "r": "generos", "nota": "Cada comunidad de práctica escribe sus propios textos, y aprender a leerlos y escribirlos es entrar a los géneros de esa disciplina." },
+    { "a": "bajo_riesgo", "b": "generos", "r": "wac", "nota": "Escribir para pensar y aprender los géneros de cada campo son las dos ramas de un movimiento que lleva la escritura a todas las asignaturas." },
+    { "a": "borradores_ida_vuelta", "b": "wac", "r": "cap_escritura", "nota": "Si el ciclo de borradores comentados se instala en cada asignatura de la carrera, la escritura pasa a ser una herramienta para pensar la materia." },
+
+    { "a": "bajo_riesgo", "b": "tiempo", "r": "escritura_libre", "nota": "Pon un reloj de diez minutos a la escritura sin nota, prohíbe tachar y tendrás la escritura libre que propuso Elbow." },
+    { "a": "escribir", "b": "tiempo", "r": "escritura_libre", "nota": "Escribir para aprender contra el reloj, sin detenerse a corregir, es el ejercicio que Elbow propuso para destrabar las ideas." },
+    { "a": "bajo_riesgo", "b": "metacognicion", "r": "diario", "nota": "Si la escritura sin nota se usa para mirar cómo estás aprendiendo, el cuaderno semanal se vuelve un diario de aprendizaje." },
+    { "a": "bajo_riesgo", "b": "problema", "r": "microtema", "nota": "Bean propuso responder un problema concreto de la disciplina en un texto que cabe en una tarjeta y casi no cuenta para la nota." },
+    { "a": "borrador", "b": "metacognicion", "r": "escritura_proceso", "nota": "Mirar cómo nace un borrador muestra que nadie escribe de corrido, porque quien escribe vuelve a planificar y a revisar mientras redacta." },
+    { "a": "escribir", "b": "problema", "r": "escritura_proceso", "nota": "Flower y Hayes trataron la escritura como la resolución de un problema retórico, con metas que el escritor ajusta mientras avanza." },
+    { "a": "borrador", "b": "reflexion", "r": "revision_profunda", "nota": "Volver con calma sobre un borrador lleva a cambiar el argumento entero, como hacen los escritores con experiencia, más allá de algunas palabras." },
+    { "a": "escritura_proceso", "b": "retro", "r": "revision_profunda", "nota": "Cho y MacArthur vieron que los comentarios que no dictan el cambio exacto se asociaron con reorganizar el texto, y eso con mejor calidad." },
+    { "a": "revision_pares", "b": "juicio", "r": "aprender_revisando", "nota": "Quien revisa textos de compañeros con juicio evaluativo aplica después esos mismos criterios a su propio texto, y escribe mejor." },
+    { "a": "borrador", "b": "tutoria_pares", "r": "centro_escritura", "nota": "Si la tutoría entre pares se especializa en borradores y consigue una sala con horario, nace un centro de escritura." },
+    { "a": "generos", "b": "investigacion", "r": "movidas", "nota": "Al desarmar los textos de investigación de un campo aparecen las movidas retóricas, como mostrar el vacío que un estudio viene a llenar." },
+    { "a": "generos", "b": "modelado", "r": "pedagogia_generos", "nota": "Si el docente modela cómo se arma un género, desarmando un texto y escribiendo otro con el curso, aplica la pedagogía de géneros." },
+    { "a": "movidas", "b": "modelado", "r": "pedagogia_generos", "nota": "Mostrar en voz alta las movidas de un texto modelo y luego escribir otro con el curso es el centro del ciclo de la Escuela de Sídney." },
+    { "a": "escribir", "b": "resultados", "r": "consigna", "nota": "Si escribir para aprender se ata a un resultado de aprendizaje, la consigna deja claro qué operación mental pide y cómo se evaluará." },
+    { "a": "escribir", "b": "investigacion", "r": "sintesis_fuentes", "nota": "Escribir a partir de investigaciones ajenas obliga a elegir y conectar ideas de varios autores, y eso es sintetizar fuentes." },
+    { "a": "sintesis_fuentes", "b": "integridad", "r": "mosaico", "nota": "Cuando la síntesis de fuentes falla sin mala intención, sale un texto cosido con frases ajenas. La integridad pide distinguir ese tropiezo de la copia." },
+    { "a": "generos", "b": "estudiante", "r": "identidad_autoral", "nota": "El estudiante que empieza a dominar los géneros de su campo se ve a sí mismo como autor, con una voz capaz de sostener ideas." },
+    { "a": "mosaico", "b": "tiempo", "r": "identidad_autoral", "nota": "Howard ve la escritura en mosaico como una etapa. Con tiempo y enseñanza, el aprendiz deja de coser frases ajenas y encuentra su voz." },
+    { "a": "generos", "b": "previos", "r": "ya_saben_escribir", "nota": "Suponer que los géneros de la disciplina ya vienen en la maleta de conocimientos previos lleva al mito de que deberían llegar sabiendo escribir." },
+    { "a": "reflexiva", "b": "ya_saben_escribir", "r": "alfabetizacion_academica", "nota": "Revisado con calma, el mito cede ante la alfabetización académica, que pide enseñar a leer y escribir dentro de cada asignatura." },
+    { "a": "generos", "b": "comunidad", "r": "comunidad_discursiva", "nota": "Detrás de cada género hay una comunidad que lo usa para lograr sus metas. Swales la llamó comunidad discursiva." },
+    { "a": "identidad_autoral", "b": "comunidad_practica", "r": "comunidad_discursiva", "nota": "Quien se siente autor dentro de una comunidad de práctica empieza a participar en sus conversaciones escritas, las de una comunidad discursiva." },
+
+    { "a": "practica_deliberada", "b": "mapa", "r": "experto_novato", "nota": "Años de práctica deliberada organizan el saber como un mapa conectado, y esa organización separa al experto del novato." },
+    { "a": "experto_novato", "b": "docente", "r": "punto_ciego", "nota": "Cuando el experto se vuelve docente, los pasos que ya da sin pensar se le hacen invisibles, aunque el novato los necesite." },
+    { "a": "punto_ciego", "b": "estudiante", "r": "cuello_botella", "nota": "El paso que el docente ya no ve es justo donde el estudiante se atasca, y ese lugar es el cuello de botella del curso." },
+    { "a": "experto_novato", "b": "lenguaje", "r": "tacito", "nota": "El experto intenta poner en palabras lo que hace y descubre que sabe más de lo que puede decir, como notó Polanyi." },
+    { "a": "cuello_botella", "b": "tacito", "r": "decodificar", "nota": "Para destrabar el cuello de botella hay que hacer explícito lo tácito, y eso propone el modelo Decodificar las disciplinas." },
+    { "a": "modelado", "b": "tacito", "r": "aprendiz_cognitivo", "nota": "El modelado en voz alta saca a la luz el saber tácito del oficio, y con práctica guiada se arma el aprendiz cognitivo." },
+    { "a": "decodificar", "b": "aprendiz_cognitivo", "r": "pensamiento_visible", "nota": "Decodificar las disciplinas encuentra los pasos ocultos, y el aprendiz cognitivo los enseña con modelado y práctica hasta que el curso puede solo." },
+    { "a": "conceptos_umbral", "b": "comunidad_practica", "r": "formas_pensar", "nota": "Los conceptos umbral se cruzan dentro de una comunidad de práctica, y al otro lado esperan sus formas de pensar y de trabajar." },
+    { "a": "formas_pensar", "b": "pensamiento_critico", "r": "critico_disciplinar", "nota": "El pensamiento crítico toma forma propia cuando usa las preguntas de un campo, como el historiador que pregunta quién escribió un documento." },
+    { "a": "pensamiento_visible", "b": "critico_disciplinar", "r": "cap_disciplina", "nota": "Con el pensamiento experto a la vista y las preguntas críticas de cada campo, el estudiante aprende a razonar como alguien del oficio." },
+
+    { "a": "conceptos_umbral", "b": "emocion", "r": "liminal", "nota": "Antes de cruzar un concepto umbral hay un tiempo de confusión e incomodidad que Meyer y Land llamaron estado liminal." },
+    { "a": "problematico", "b": "tiempo", "r": "liminal", "nota": "El conocimiento problemático tarda en asentarse, y mientras tanto el estudiante oscila entre su idea vieja y la nueva." },
+    { "a": "conceptos_umbral", "b": "previos", "r": "problematico", "nota": "Cuando un concepto umbral choca con las ideas que el estudiante ya traía, se vuelve conocimiento problemático, contraintuitivo y difícil de aceptar." },
+    { "a": "critico_disciplinar", "b": "lenguaje", "r": "toulmin", "nota": "Para poner en palabras cómo argumenta cada disciplina, Toulmin separó afirmación, datos y garantía, y mostró que los respaldos cambian de un campo a otro." },
+    { "a": "toulmin", "b": "mapa", "r": "mapa_argumentos", "nota": "Si las piezas de Toulmin se dibujan con cajas y flechas, igual que un mapa conceptual, el argumento se vuelve un árbol que se puede revisar." },
+    { "a": "experto_novato", "b": "escritura", "r": "lectura_disciplinar", "nota": "Un experto y un novato leen el mismo documento y ven cosas distintas, porque el experto lee con las preguntas de su disciplina." },
+    { "a": "estudiante", "b": "pensamiento_critico", "r": "perry", "nota": "Cuando un estudiante empieza a dudar de las respuestas únicas, cambia su idea de qué es el conocimiento, como describió Perry." },
+    { "a": "perry", "b": "problema", "r": "juicio_reflexivo", "nota": "Un problema real sin solución única pone a prueba la idea de conocimiento de cada estudiante. King y Kitchener llamaron a eso juicio reflexivo." },
+    { "a": "ejemplos_resueltos", "b": "reflexion", "r": "autoexplicacion", "nota": "Leer un ejemplo resuelto deteniéndote a explicarte cada paso es autoexplicación, la estrategia que Chi encontró en los mejores estudiantes." },
+    { "a": "aprendiz_cognitivo", "b": "dialogo", "r": "articulacion", "nota": "Dentro del aprendiz cognitivo, el diálogo sirve para que el estudiante diga cómo razonó y el docente vea su pensamiento." },
+    { "a": "autoexplicacion", "b": "otros", "r": "tapps", "nota": "Explicarte los pasos frente a un compañero que escucha y pregunta convierte la autoexplicación en resolución en parejas en voz alta." },
+    { "a": "formas_pensar", "b": "pedagogia", "r": "pedagogias_distintivas", "nota": "Cuando las formas de pensar de una profesión moldean su manera de enseñar, nacen las pedagogías distintivas, como las rondas clínicas en Medicina." },
+    { "a": "experto_novato", "b": "universidad", "r": "experto_ensena", "nota": "Si la universidad contrata a los mejores expertos, parece lógico que serán los mejores profesores. Esa conclusión sin evidencia es el mito." },
+    { "a": "reflexiva", "b": "experto_ensena", "r": "cpc", "nota": "Revisado con calma, el mito deja ver lo que falta además de la materia, el conocimiento pedagógico del contenido que describió Shulman." },
+    { "a": "lectura_disciplinar", "b": "investigacion", "r": "create", "nota": "Leer como experto los artículos de investigación originales, figura por figura, es lo que propone el método CREATE en Biología." },
+
+    { "a": "bajo_riesgo", "b": "cats", "r": "formativa", "nota": "Una escritura breve sin nota al final de la clase funciona como técnica de evaluación en el aula y te dice a tiempo qué ajustar." },
+    { "a": "borrador", "b": "sumativa", "r": "comentarios", "nota": "Si el borrador vuelve con observaciones y la nota sumativa se reserva para la versión final, aparecen los comentarios sin nota." },
+    { "a": "aprender_revisando", "b": "autoevaluacion", "r": "juicio", "nota": "Revisar textos ajenos y después el propio con los mismos criterios entrena el juicio evaluativo que describieron Nicol y colaboradores." },
+    { "a": "revision_profunda", "b": "retro", "r": "alf_retro", "nota": "Quien sabe convertir un comentario en una reescritura de fondo muestra alfabetización en retroalimentación, más allá de corregir lo marcado." },
+    { "a": "diario", "b": "autorregulado", "r": "metacognicion", "nota": "Escribir cada semana cómo estudiaste y qué cambiarías es una forma de mirarte pensar, el núcleo de la metacognición." },
+    { "a": "diario", "b": "docente", "r": "reflexiva", "nota": "Un docente que lleva un diario de sus clases mira en frío lo que hizo en caliente, como pide Schön." },
+    { "a": "diario", "b": "evaluacion", "r": "portafolio", "nota": "Si el diario de aprendizaje se evalúa, el estudiante elige sus mejores entradas, las comenta y arma con ellas un portafolio de su progreso." },
+    { "a": "generos", "b": "autentica", "r": "consigna", "nota": "Una evaluación auténtica que pide un género real del oficio, como un peritaje, da a la consigna un lector y un propósito concretos." },
+    { "a": "generos", "b": "evaluacion", "r": "autentica", "nota": "Evaluar con los textos que de verdad escribe la profesión, como un plan de cuidados, acerca la prueba al trabajo real." },
+    { "a": "mosaico", "b": "retro", "r": "sintesis_fuentes", "nota": "Si alguien te muestra dónde tu texto cose frases ajenas, puedes reescribirlo integrando las ideas de los autores con tus palabras." },
+    { "a": "wac", "b": "rubrica", "r": "consigna", "nota": "Cuando una carrera escribe en todas sus asignaturas, una rúbrica compartida ayuda a que cada consigna diga con claridad qué se espera." },
+    { "a": "consigna", "b": "aprendizaje", "r": "profundo", "nota": "Anderson y colaboradores asociaron las consignas que piden construir significado con un enfoque más profundo de aprendizaje." },
+    { "a": "escritura_libre", "b": "reflexiva", "r": "diario", "nota": "Escribir sin parar sobre lo que pasó en clase, cada semana, se vuelve un diario donde se ve cómo cambia tu manera de aprender." },
+    { "a": "revision_pares", "b": "rubrica", "r": "aprender_revisando", "nota": "Revisar textos ajenos con una rúbrica obliga a usar criterios de calidad, y esos criterios vuelven después a tu propio texto." },
+    { "a": "toulmin", "b": "pensamiento_critico", "r": "mapa_argumentos", "nota": "Van Gelder propuso entrenar el pensamiento crítico dibujando argumentos con su estructura completa, razones y objeciones incluidas." },
+    { "a": "perry", "b": "casos", "r": "juicio_reflexivo", "nota": "Un caso con dilema obliga a decidir sin la respuesta del libro, justo el terreno donde King y Kitchener estudiaron el juicio reflexivo." },
+    { "a": "autoexplicacion", "b": "modelado", "r": "articulacion", "nota": "Después de que el docente modela en voz alta, el estudiante se explica también en voz alta, y ese cambio de turno es la articulación." },
+    { "a": "autoexplicacion", "b": "tps", "r": "tapps", "nota": "Piensa, discute, comparte ya junta parejas; si uno resuelve narrando y el otro verifica cada paso, la conversación se vuelve TAPPS." },
+    { "a": "casos", "b": "formas_pensar", "r": "pedagogias_distintivas", "nota": "El diálogo de casos de las facultades de Derecho es el ejemplo que usó Shulman para hablar de pedagogías distintivas." },
+    { "a": "create", "b": "pregunta", "r": "indagacion", "nota": "Después de descifrar un artículo, CREATE pide pensar el siguiente experimento, y esa pregunta abre la puerta a la indagación guiada." },
+    { "a": "punto_ciego", "b": "ejemplos_resueltos", "r": "modelado", "nota": "Un ejemplo resuelto impreso se salta los pasos que el experto ya no ve. Resolverlo en voz alta los recupera, y eso es modelado." },
+    { "a": "punto_ciego", "b": "pedagogia", "r": "cpc", "nota": "Saber dónde tropezará el novato, aunque tú ya no tropieces, es parte del conocimiento pedagógico del contenido." },
+    { "a": "cuello_botella", "b": "cats", "r": "formativa", "nota": "Una técnica rápida, como preguntar por el punto más confuso del día, muestra el cuello de botella cuando todavía hay tiempo de ajustar." },
+    { "a": "decodificar", "b": "investigacion_accion", "r": "sotl", "nota": "El último paso de Decodificar las disciplinas es compartir lo aprendido con colegas, y así un ciclo de mejora se vuelve investigación sobre la docencia." },
+    { "a": "formas_pensar", "b": "perfil_egreso", "r": "competencias", "nota": "Un perfil de egreso que nombra las formas de pensar y practicar de la profesión se traduce en competencias que se pueden enseñar." },
+    { "a": "experto_novato", "b": "carga_cognitiva", "r": "ejemplos_resueltos", "nota": "Al novato, que aún no tiene esquemas, la carga cognitiva lo desborda, y por eso aprende más estudiando ejemplos resueltos que resolviendo solo." },
+    { "a": "tacito", "b": "curriculo", "r": "curriculo_oculto", "nota": "Lo tácito del oficio que nadie escribe en el programa termina enseñándose igual, sin plan, como currículo oculto." },
+    { "a": "aprendiz_cognitivo", "b": "comunidad_practica", "r": "situado", "nota": "Brown, Collins y Duguid sostuvieron que el saber se aprende dentro de la cultura que lo usa, como el aprendiz dentro de su comunidad." }
+  ],
+  "refs": {
+    "elbow97": "Elbow, P. (1997). High stakes and low stakes in assigning and responding to writing. _New Directions for Teaching and Learning, 1997_(69), 5–13.",
+    "elbow98": "Elbow, P. (1998). _Writing without teachers_ (2nd ed.). Oxford University Press. (Obra original publicada en 1973)",
+    "mccrindle95": "McCrindle, A. R., & Christensen, C. A. (1995). The impact of learning journals on metacognitive and cognitive processes and learning performance. _Learning and Instruction, 5_(2), 167–185.",
+    "bean82": "Bean, J. C., Drenk, D., & Lee, F. D. (1982). Microtheme strategies for developing cognitive skills. _New Directions for Teaching and Learning, 1982_(12), 27–38.",
+    "bean11": "Bean, J. C. (2011). _Engaging ideas: The professor's guide to integrating writing, critical thinking, and active learning in the classroom_ (2nd ed.). Jossey-Bass.",
+    "flower81": "Flower, L., & Hayes, J. R. (1981). A cognitive process theory of writing. _College Composition and Communication, 32_(4), 365–387.",
+    "sommers80": "Sommers, N. (1980). Revision strategies of student writers and experienced adult writers. _College Composition and Communication, 31_(4), 378–388.",
+    "sommers82": "Sommers, N. (1982). Responding to student writing. _College Composition and Communication, 33_(2), 148–156.",
+    "cho10": "Cho, K., & MacArthur, C. (2010). Student revision with peer and expert reviewing. _Learning and Instruction, 20_(4), 328–338.",
+    "cho11": "Cho, K., & MacArthur, C. (2011). Learning by reviewing. _Journal of Educational Psychology, 103_(1), 73–84.",
+    "huisman19": "Huisman, B., Saab, N., van den Broek, P., & van Driel, J. (2019). The impact of formative peer feedback on higher education students' academic writing: A meta-analysis. _Assessment & Evaluation in Higher Education, 44_(6), 863–880.",
+    "lundstrom09": "Lundstrom, K., & Baker, W. (2009). To give is better than to receive: The benefits of peer review to the reviewer's own writing. _Journal of Second Language Writing, 18_(1), 30–43.",
+    "nicol14": "Nicol, D., Thomson, A., & Breslin, C. (2014). Rethinking feedback practices in higher education: A peer review perspective. _Assessment & Evaluation in Higher Education, 39_(1), 102–122.",
+    "swales90": "Swales, J. M. (1990). _Genre analysis: English in academic and research settings_. Cambridge University Press.",
+    "gardner13": "Gardner, S., & Nesi, H. (2013). A classification of genre families in university student writing. _Applied Linguistics, 34_(1), 25–52.",
+    "rose12": "Rose, D., & Martin, J. R. (2012). _Learning to write, reading to learn: Genre, knowledge and pedagogy in the Sydney School_. Equinox.",
+    "anderson15": "Anderson, P., Anson, C. M., Gonyea, R. M., & Paine, C. (2015). The contributions of writing to learning and development: Results from a large-scale multi-institutional study. _Research in the Teaching of English, 50_(2), 199–235.",
+    "russell91": "Russell, D. R. (1991). _Writing in the academic disciplines, 1870–1990: A curricular history_. Southern Illinois University Press.",
+    "carlino13": "Carlino, P. (2013). Alfabetización académica diez años después. _Revista Mexicana de Investigación Educativa, 18_(57).",
+    "north84": "North, S. M. (1984). The idea of a writing center. _College English, 46_(5), 433–446.",
+    "spivey90": "Spivey, N. N. (1990). Transforming texts: Constructive processes in reading and writing. _Written Communication, 7_(2), 256–287.",
+    "howard10": "Howard, R. M., Serviss, T., & Rodrigue, T. K. (2010). Writing from sources, writing from sentences. _Writing & Pedagogy, 2_(2), 177–192.",
+    "howard95": "Howard, R. M. (1995). Plagiarisms, authorships, and the academic death penalty. _College English, 57_(7), 788–806.",
+    "pecorari03": "Pecorari, D. (2003). Good and original: Plagiarism and patchwriting in academic second-language writing. _Journal of Second Language Writing, 12_(4), 317–345.",
+    "ivanic98": "Ivanič, R. (1998). _Writing and identity: The discoursal construction of identity in academic writing_. John Benjamins.",
+    "avila20": "Ávila Reyes, N., Navarro, F., & Tapia-Ladino, M. (2020). Identidad, voz y agencia: Claves para una enseñanza inclusiva de la escritura en la universidad. _Archivos Analíticos de Políticas Educativas, 28_, artículo 98.",
+    "rose85": "Rose, M. (1985). The language of exclusion: Writing instruction at the university. _College English, 47_(4), 341–359.",
+    "sommers04": "Sommers, N., & Saltz, L. (2004). The novice as expert: Writing the freshman year. _College Composition and Communication, 56_(1), 124–149.",
+    "chi81": "Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. _Cognitive Science, 5_(2), 121–152.",
+    "nathan03": "Nathan, M. J., & Petrosino, A. (2003). Expert blind spot among preservice teachers. _American Educational Research Journal, 40_(4), 905–928.",
+    "ambrose10": "Ambrose, S. A., Bridges, M. W., DiPietro, M., Lovett, M. C., & Norman, M. K. (2010). _How learning works: Seven research-based principles for smart teaching_. Jossey-Bass.",
+    "polanyi66": "Polanyi, M. (1966). _The tacit dimension_. Doubleday.",
+    "middendorf04": "Middendorf, J., & Pace, D. (2004). Decoding the disciplines: A model for helping students learn disciplinary ways of thinking. _New Directions for Teaching and Learning, 2004_(98), 1–12.",
+    "middendorf15": "Middendorf, J., Mickutė, J., Saunders, T., Najar, J., Clark-Huckstep, A. E., & Pace, D. (2015). What's feeling got to do with it? Decoding emotional bottlenecks in the history classroom. _Arts and Humanities in Higher Education, 14_(2), 166–180.",
+    "pace17": "Pace, D. (2017). _The decoding the disciplines paradigm: Seven steps to increased student learning_. Indiana University Press.",
+    "mccune05": "McCune, V., & Hounsell, D. (2005). The development of students' ways of thinking and practising in three final-year biology courses. _Higher Education, 49_(3), 255–289.",
+    "willingham08": "Willingham, D. T. (2008). Critical thinking: Why is it so hard to teach? _Arts Education Policy Review, 109_(4), 21–32.",
+    "toulmin03": "Toulmin, S. E. (2003). _The uses of argument_ (Updated ed.). Cambridge University Press. (Obra original publicada en 1958)",
+    "vangelder05": "van Gelder, T. (2005). Teaching critical thinking: Some lessons from cognitive science. _College Teaching, 53_(1), 41–48.",
+    "twardy04": "Twardy, C. R. (2004). Argument maps improve critical thinking. _Teaching Philosophy, 27_(2), 95–116.",
+    "wineburg91": "Wineburg, S. S. (1991). Historical problem solving: A study of the cognitive processes used in the evaluation of documentary and pictorial evidence. _Journal of Educational Psychology, 83_(1), 73–87.",
+    "shanahan08": "Shanahan, T., & Shanahan, C. (2008). Teaching disciplinary literacy to adolescents: Rethinking content-area literacy. _Harvard Educational Review, 78_(1), 40–59.",
+    "perry70": "Perry, W. G., Jr. (1970). _Forms of intellectual and ethical development in the college years: A scheme_. Holt, Rinehart and Winston.",
+    "king04": "King, P. M., & Kitchener, K. S. (2004). Reflective judgment: Theory and research on the development of epistemic assumptions through adulthood. _Educational Psychologist, 39_(1), 5–18.",
+    "chi89": "Chi, M. T. H., Bassok, M., Lewis, M. W., Reimann, P., & Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. _Cognitive Science, 13_(2), 145–182.",
+    "chi94": "Chi, M. T. H., de Leeuw, N., Chiu, M.-H., & LaVancher, C. (1994). Eliciting self-explanations improves understanding. _Cognitive Science, 18_(3), 439–477.",
+    "lochhead87": "Lochhead, J., & Whimbey, A. (1987). Teaching analytical reasoning through thinking aloud pair problem solving. _New Directions for Teaching and Learning, 1987_(30), 73–92.",
+    "shulman05": "Shulman, L. S. (2005). Signature pedagogies in the professions. _Daedalus, 134_(3), 52–59.",
+    "hoskins07": "Hoskins, S. G., Stevens, L. M., & Nehm, R. H. (2007). Selective use of the primary literature transforms the classroom into a virtual laboratory. _Genetics, 176_(3), 1381–1389."
+  },
+  "misiones": [
+    {
+      "id": "escritura",
+      "n": "Escribir para pensar",
+      "e": "🪶",
+      "meta": "cap_escritura",
+      "hitos": ["bajo_riesgo", "revision_pares", "generos"],
+      "encargo": "Te escribe Rodrigo Salazar, que enseña Bioquímica a sesenta estudiantes de segundo año de Nutrición en una universidad de Ciudad de Panamá. Su curso resuelve bien los ejercicios de rutas metabólicas, pero cuando pide un informe sobre un caso clínico recibe párrafos del manual con algunas palabras cambiadas, y casi nadie logra explicar por qué una dieta altera la glucemia. Rodrigo siempre pensó que enseñar a escribir le tocaba al taller de redacción del primer semestre. Ahora quiere usar la escritura para que su curso piense la bioquímica y aprenda a escribir como nutricionista.",
+      "objetivo": "Llega a 🪶 Escribir para pensar para que en el curso de Rodrigo se escriba cada semana sobre bioquímica y se aprendan los textos propios de la nutrición.",
+      "reflexiones": {
+        "bajo_riesgo": "Rodrigo cerrará cada clase con tres minutos para explicar por escrito, sin nota, qué le pasa a la glucemia después de una comida. ¿Qué pregunta de ese tipo dejarías tú al final de tu próxima clase?",
+        "revision_pares": "Piensa en el próximo trabajo escrito de tu curso. ¿Qué dos preguntas le darías a cada estudiante para comentar el borrador de un compañero, como las que Rodrigo usará para revisar los informes de casos clínicos?",
+        "generos": "Rodrigo quiere que su curso escriba como nutricionista. ¿Cuál es el texto que más escribe un profesional de tu campo, como la nota de evolución nutricional en el suyo, y en qué clase podrías mostrar uno real y desarmarlo con tu curso?"
+      },
+      "cierre": "Rodrigo ya tiene un plan para su semestre. Cada clase de Bioquímica termina con unos minutos de escritura sin nota que le muestran a tiempo quién entiende la glucemia, y el informe de caso clínico pasa por un borrador que dos compañeros comentan antes de la versión calificada. Una clase entera se dedica a desarmar una nota de evolución real, para que su curso empiece a escribir como lo hará en un hospital."
+    },
+    {
+      "id": "disciplina",
+      "n": "Pensar como la disciplina",
+      "e": "🦅",
+      "meta": "cap_disciplina",
+      "hitos": ["punto_ciego", "decodificar", "aprendiz_cognitivo"],
+      "encargo": "Te escribe Daniela Andrade, que enseña Auditoría Financiera en cuarto año de Contabilidad en una universidad de La Paz. Sus estudiantes recitan las normas internacionales de auditoría sin un error, pero frente a un caso real revisan todas las facturas con la misma atención y no detectan la que debería despertar sospechas. Daniela lleva quince años auditando empresas y reconoce que le cuesta explicar cómo sabe dónde mirar, porque para ella es evidente. Quiere que su curso empiece a pensar como auditor antes de llegar a la práctica profesional.",
+      "objetivo": "Llega a 🦅 Pensar como la disciplina para que Daniela haga visible su criterio de auditora y su curso aprenda a dudar de los documentos como lo hace ella.",
+      "reflexiones": {
+        "punto_ciego": "Daniela sabe dónde mirar en una auditoría sin pensarlo. ¿Qué paso de tu materia das de forma tan automática que nunca lo explicas? Escríbelo como si se lo contaras a alguien que recién empieza.",
+        "decodificar": "Elige la tarea en que más se atasca tu curso, como detectar la factura sospechosa en el de Daniela. ¿A qué colega de otra disciplina le pedirías que te entreviste mientras la resuelves, y qué crees que te preguntaría?",
+        "aprendiz_cognitivo": "Daniela revisará un expediente en voz alta frente al curso. ¿Qué problema de tu materia resolverías así en tu próxima clase, y qué parte dejarías después para que el curso la haga sin tu ayuda?"
+      },
+      "cierre": "Entrevistada por un colega de Historia, Daniela descubrió que antes de abrir una factura revisa quién la emitió y si el monto es coherente con la actividad del proveedor. Ahora resuelve expedientes en voz alta, entrega esas preguntas por escrito a su curso y va retirando su ayuda en cada auditoría simulada. La meta es que, para la tercera, sus estudiantes separen solos las facturas que merecen sospecha."
+    }
+  ]
+}

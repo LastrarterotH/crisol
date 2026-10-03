@@ -1,0 +1,1222 @@
+{
+  "fichas": {
+    "interdependencia": {
+      "n": "Interdependencia positiva",
+      "e": "🚤",
+      "f": "apr",
+      "pista": "Todos van en el mismo bote, y si uno deja de remar nadie llega a la otra orilla.",
+      "why": "Si al aprendizaje cooperativo le sumas el reparto del rompecabezas, cada integrante tiene algo que el resto necesita. Deutsch la describió en 1949 y Johnson y Johnson la pusieron como primer elemento del trabajo cooperativo, la percepción de que el equipo solo logra su meta si cada integrante logra la suya. En sus revisiones, la cooperación con interdependencia y responsabilidad individual supera de forma consistente al trabajo competitivo e individual.",
+      "uni": "En Bioquímica, entrega a cada integrante los datos de un solo órgano y pide al equipo un diagnóstico metabólico que no se puede resolver sin juntar los cuatro.",
+      "refs": [
+        "deutsch49",
+        "johnson09"
+      ]
+    },
+    "responsabilidad_individual": {
+      "n": "Responsabilidad individual",
+      "e": "🪪",
+      "f": "eva",
+      "pista": "Aunque el trabajo sea de todos, cualquiera puede tener que explicarlo a solas y sin apuntes.",
+      "why": "Une el trabajo cooperativo con una pregunta que cualquier integrante puede tener que responder solo. Es el segundo elemento de Johnson y Johnson, y Slavin concluyó que los métodos cooperativos que más mejoran el logro combinan metas de grupo con una forma de comprobar lo que aprendió cada integrante. Sin ella, un equipo puede entregar un buen producto aunque algunos no hayan aprendido casi nada.",
+      "uni": "En Contabilidad, al cerrar cada taller en equipo elige al azar a un integrante para que explique un asiento del ejercicio, y suma esa respuesta a la nota del grupo.",
+      "refs": [
+        "johnson09",
+        "slavin96"
+      ]
+    },
+    "rat": {
+      "n": "Prueba de preparación (RAT)",
+      "e": "🥾",
+      "f": "eva",
+      "pista": "Las mismas preguntas sobre la lectura, primero a solas y enseguida discutidas con tu equipo.",
+      "why": "Pon la responsabilidad individual al servicio de la práctica de recuperación y obtienes la apertura de cada unidad del aprendizaje basado en equipos. Cada estudiante responde una prueba breve sobre la lectura previa, luego el equipo responde la misma prueba con retroalimentación inmediata, puede apelar con argumentos escritos y el docente aclara solo lo que siguió confuso. Michaelsen la diseñó para asegurar que la lectura se haga y para dedicar la clase a aplicar.",
+      "uni": "En Derecho Civil, abre la unidad de contratos con diez preguntas de alternativas sobre la lectura, primero individuales y luego en equipo, y explica solo las dos que más fallaron.",
+      "refs": [
+        "michaelsen08",
+        "michaelsen04"
+      ]
+    },
+    "ifat": {
+      "n": "Tarjeta de raspar (IF-AT)",
+      "e": "🎰",
+      "f": "eva",
+      "pista": "Rascas la alternativa elegida como en la lotería, y una estrella escondida te dice si acertaste.",
+      "why": "Retroalimentación con forma de juego: una hoja de respuestas en que el estudiante raspa la opción que elige, ve al instante si acertó y, si no, vuelve a intentar por menos puntos. Epstein y colaboradores encontraron que quienes se equivocaban al primer intento con este formato corregían la respuesta y la recordaban mejor en una prueba posterior que con hojas tradicionales. En el aprendizaje basado en equipos es la herramienta habitual de la prueba en equipo.",
+      "uni": "En Fisiología, usa tarjetas de raspar en la prueba de equipo y da puntaje parcial al segundo intento, para que cada error abra una discusión antes de raspar otra casilla.",
+      "refs": [
+        "epstein02",
+        "michaelsen08"
+      ]
+    },
+    "tareas_4s": {
+      "n": "Tareas 4S",
+      "e": "🎏",
+      "f": "met",
+      "pista": "Todos los equipos frente al mismo dilema, obligados a elegir una opción y a mostrarla a la vez.",
+      "why": "Lleva el método de casos al trabajo interdependiente. Michaelsen y Sweet piden que las tareas de aplicación cumplan cuatro condiciones, que en inglés empiezan con S: un problema significativo, el mismo para todos los equipos, una elección específica y un reporte simultáneo. Cada equipo tiene que llegar a un acuerdo y defenderlo frente a los demás, y la discusión entre equipos surge de comparar las elecciones.",
+      "uni": "En Ingeniería Civil, muestra cuatro diseños de viga para el mismo puente y pide que cada equipo levante a la vez la tarjeta con el que elegiría y defienda por qué.",
+      "refs": [
+        "michaelsen08"
+      ]
+    },
+    "tbl": {
+      "n": "Aprendizaje basado en equipos (TBL)",
+      "e": "🏏",
+      "f": "met",
+      "pista": "Los mismos compañeros todo el semestre, que llegan con la lectura comprobada a resolver casos juntos.",
+      "why": "Junta la prueba de preparación con las tareas 4S en una secuencia que se repite en cada unidad. Larry Michaelsen la creó en 1979, cuando su curso en la Universidad de Oklahoma pasó de 40 a 120 estudiantes, con equipos formados por el docente que se mantienen todo el semestre. El metaanálisis de Swanson y colaboradores, con 17 estudios, halló un efecto de 0,55 sobre el conocimiento del contenido, y el de Liu y Beaujean, uno algo menor, con mucha variación entre estudios.",
+      "uni": "En Farmacología, divide la unidad en una lectura previa, la prueba individual y en equipo, y dos sesiones de casos donde cada equipo decide qué fármaco indicaría.",
+      "refs": [
+        "michaelsen08",
+        "swanson19",
+        "liu17"
+      ]
+    },
+    "eval_contribucion": {
+      "n": "Evaluación de la contribución",
+      "e": "👣",
+      "f": "eva",
+      "pista": "Cada integrante califica cuánto y cómo aportó cada compañero al proyecto, y también se califica a sí mismo.",
+      "why": "Combina la responsabilidad individual con la evaluación entre pares, aplicada al modo en que cada integrante trabajó en el equipo. Instrumentos como CATME, desarrollado por Ohland y colaboradores, piden juzgar a cada compañero en cinco dimensiones descritas con conductas observables, por ejemplo contribuir al trabajo o mantener al equipo encaminado. Oakley y colaboradores sugieren una ronda de práctica a mitad del curso, para que quien sale mal evaluado tenga tiempo de corregir.",
+      "uni": "En Arquitectura, aplica una evaluación de la contribución en la semana seis del taller, devuelve a cada estudiante el promedio de lo que dijeron sus pares y conversa con quienes quedaron más abajo.",
+      "refs": [
+        "ohland12",
+        "oakley04"
+      ]
+    },
+    "acuerdo_equipo": {
+      "n": "Acuerdo de equipo",
+      "e": "🤜",
+      "f": "dis",
+      "pista": "Lo que los compañeros prometen por escrito la primera semana, antes de que alguien falte a una reunión.",
+      "why": "Surge cuando la interdependencia se conversa. El equipo deja por escrito sus normas, por ejemplo en cuánto tiempo responde cada quien un mensaje y qué pasa si alguien no entrega. Oakley y colaboradores recomiendan este acuerdo de expectativas en cursos de ingeniería. Mathieu y Rapp siguieron a 32 equipos de estudiantes de MBA en una simulación de negocios, y los que combinaban un acuerdo de buena calidad con buenas estrategias de trabajo sostuvieron el mejor desempeño.",
+      "uni": "En Ingeniería Comercial, dedica veinte minutos de la primera sesión a que cada equipo redacte su acuerdo, con plazos para responder mensajes y una regla para cuando alguien no entrega.",
+      "refs": [
+        "oakley04",
+        "mathieu09"
+      ]
+    },
+    "equipo_cuentas": {
+      "n": "Equipo que rinde cuentas",
+      "e": "⚓",
+      "f": "sint",
+      "pista": "Normas firmadas la primera semana y revisadas con el juicio de los compañeros antes de que sea tarde.",
+      "why": "Integra el acuerdo de equipo con la evaluación de la contribución. El acuerdo fija qué se espera de cada integrante y la evaluación entre pares comprueba, a mitad de camino y al final, si se cumplió. Así el polizón se detecta cuando todavía se puede conversar con él, y la nota de cada estudiante puede reflejar su aporte real.",
+      "principios": [
+        "Pide que cada equipo escriba su acuerdo en la primera semana, con normas concretas para comunicarse y para cuando alguien no cumple (Oakley et al., 2004).",
+        "Dedica tiempo a la calidad del acuerdo y del plan de trabajo, porque en equipos de estudiantes de MBA la combinación de ambos sostuvo el mejor desempeño (Mathieu y Rapp, 2009).",
+        "Usa un instrumento con conductas descritas en lugar de una nota libre, para que el juicio entre pares sea comparable entre equipos (Ohland et al., 2012).",
+        "Haz identificable el aporte de cada integrante, porque la holgazanería social baja cuando el aporte individual se puede ver y evaluar (Karau y Williams, 1993).",
+        "Si ajustas la nota grupal con el juicio de los pares, pon un tope al factor de ajuste para limitar la inflación (Oakley et al., 2004)."
+      ],
+      "prueba": "Esta semana, pide a los equipos de tu curso que redacten su acuerdo en una plantilla de media página. Dentro de un mes, aplica una evaluación de la contribución breve basada en ese acuerdo y conversa los resultados con cada equipo.",
+      "refs": [
+        "oakley04",
+        "mathieu09",
+        "ohland12",
+        "karau93"
+      ]
+    },
+    "cap_equipos": {
+      "n": "Equipos que funcionan",
+      "e": "🪿",
+      "f": "sint",
+      "pista": "Grupos que llegan con la lectura hecha a decidir juntos, y donde se sabe cuánto aportó cada uno.",
+      "why": "Integra el aprendizaje basado en equipos con un equipo que rinde cuentas. La estructura de Michaelsen asegura que cada integrante llegue preparado y que el equipo tenga decisiones reales que tomar, mientras el acuerdo escrito y la evaluación de la contribución hacen visible quién aporta. Juntas responden a dos quejas frecuentes del trabajo grupal, el polizón y la tarea que se reparte en partes sin que nadie entienda el conjunto.",
+      "principios": [
+        "Forma tú los equipos en clase, a la vista del curso, con perfiles mezclados, y mantenlos estables todo el semestre (Michaelsen y Sweet, 2008).",
+        "Abre cada unidad con una prueba individual seguida de la misma prueba en equipo con retroalimentación inmediata (Michaelsen y Sweet, 2008).",
+        "Diseña tareas en que todos los equipos resuelvan el mismo problema y muestren a la vez una decisión específica (Michaelsen y Sweet, 2008).",
+        "Combina metas de equipo con una forma de comprobar lo que aprendió cada integrante (Slavin, 1996).",
+        "Haz visible el aporte de cada integrante con una evaluación entre pares a mitad de camino y al cierre (Ohland et al., 2012)."
+      ],
+      "prueba": "En tu próxima unidad, arma tú los equipos, abre con una prueba de cinco preguntas sobre la lectura, primero individual y luego en equipo, y cierra con un caso en que cada equipo muestre su decisión al mismo tiempo. Anota cuántas discusiones entre equipos surgieron.",
+      "refs": [
+        "michaelsen08",
+        "slavin96",
+        "ohland12"
+      ]
+    },
+    "holgazaneria": {
+      "n": "Holgazanería social",
+      "e": "🥱",
+      "f": "apr",
+      "pista": "Cuantas más manos tiran de la cuerda, menos fuerza pone cada una, sobre todo si nadie mira.",
+      "why": "Si a un grupo le das mucho trabajo y nadie puede ver lo que aporta cada uno, el esfuerzo individual baja. Latané, Williams y Harkins lo midieron pidiendo a estudiantes que aplaudieran y gritaran, solos o en grupo, y en grupo cada persona producía menos sonido. El metaanálisis de Karau y Williams, con 78 estudios, mostró que el efecto disminuye si el aporte de cada persona se puede identificar y evaluar, y también si la tarea o el grupo le importan a quien trabaja.",
+      "uni": "En el informe grupal de Sociología, pide que cada sección lleve el nombre de quien la redactó y de quien la revisó, y pregunta en la defensa oral por secciones ajenas.",
+      "refs": [
+        "latane79",
+        "karau93"
+      ]
+    },
+    "formacion_equipos": {
+      "n": "Formación de equipos",
+      "e": "♟️",
+      "f": "dis",
+      "pista": "Repartir al curso con criterio, en vez de dejar que los amigos de siempre se junten al fondo.",
+      "why": "Une el aprendizaje cooperativo con lo que la evaluación diagnóstica te dice del curso. Oakley y colaboradores recomiendan que el docente forme equipos de tres o cuatro, mezcle niveles de desempeño, busque horarios comunes y, en los primeros años, evite dejar aislada a una persona de un grupo subrepresentado, como una sola mujer entre hombres. Michaelsen y Sweet sugieren armar los equipos en clase, a la vista del curso, para despejar sospechas.",
+      "uni": "En Química Analítica, aplica una encuesta breve sobre experiencia previa en laboratorio y horarios libres, y arma equipos de cuatro que combinen perfiles distintos.",
+      "refs": [
+        "oakley04",
+        "michaelsen08"
+      ]
+    },
+    "roles_equipo": {
+      "n": "Roles rotativos",
+      "e": "🎡",
+      "f": "met",
+      "pista": "Esta semana coordinas tú; la próxima, te toca verificar que todo el equipo entendió.",
+      "why": "Cuando la interdependencia se reparte en el tiempo, cada integrante asume un papel distinto en cada sesión, como coordinar o comprobar que todos entendieron. Los roles hacen explícitas tareas que en un grupo espontáneo suelen recaer en la misma persona, y rotarlos evita que alguien se dedique solo a tomar notas. Oakley y colaboradores los recomiendan en ingeniería, y Johnson y Johnson cuentan la asignación de roles entre las formas de crear interdependencia.",
+      "uni": "En Estadística, entrega cada semana tarjetas de rol al equipo de laboratorio y pide que quien verifica explique el resultado al final sin mirar los apuntes.",
+      "refs": [
+        "oakley04",
+        "johnson09"
+      ]
+    },
+    "nota_ajustada": {
+      "n": "Nota grupal ajustada por pares",
+      "e": "🍞",
+      "f": "eva",
+      "pista": "El equipo recibe una calificación, y cada integrante se lleva la parte que sus compañeros dicen que aportó.",
+      "why": "Si la evaluación de la contribución entra en la calificación sumativa, la nota del producto se multiplica por un factor que refleja cómo calificaron los pares a cada integrante. Kaufman, Felder y Fuller lo aplicaron en dos cursos de ingeniería química y concluyeron que, por regla general, funcionaba muy bien, aunque no pudieron descartar del todo sesgos entre compañeros. Oakley y colaboradores ponen un tope de 1,05 al factor para limitar la inflación.",
+      "uni": "En el proyecto final de Ingeniería de Software, multiplica la nota del equipo por el factor de pares de cada integrante, con un máximo de 1,05, y publica la fórmula en el programa.",
+      "refs": [
+        "kaufman00",
+        "oakley04"
+      ]
+    },
+    "procesamiento_grupal": {
+      "n": "Procesamiento grupal",
+      "e": "🔋",
+      "f": "met",
+      "pista": "Los últimos minutos de la sesión, el equipo conversa qué le ayudó a trabajar y qué cambiará.",
+      "why": "Es la práctica reflexiva aplicada al propio equipo. Los integrantes revisan qué acciones ayudaron o estorbaron y deciden qué mantener o cambiar. Johnson y Johnson lo cuentan entre los cinco elementos del aprendizaje cooperativo, junto con las habilidades sociales que se enseñan de manera explícita, y le da al equipo un momento previsto para corregir el rumbo antes de la entrega.",
+      "uni": "En Kinesiología, cierra cada taller con dos preguntas por equipo, qué hicimos que nos ayudó y qué haremos distinto la próxima vez, y revisa las respuestas al iniciar la sesión siguiente.",
+      "refs": [
+        "johnson09"
+      ]
+    },
+    "conflicto_tarea": {
+      "n": "Conflicto de tarea y de relación",
+      "e": "🌋",
+      "f": "apr",
+      "pista": "Discutir si conviene acero u hormigón no se parece a discutir porque el otro siempre llega tarde.",
+      "why": "Cuando las personas dependen unas de otras y les importa el resultado aparecen desacuerdos, unos sobre la tarea y otros personales. El metaanálisis de De Dreu y Weingart encontró que ambos tipos se asociaban con peor desempeño y menor satisfacción del equipo. Una revisión posterior de de Wit, Greer y Jehn mostró que el conflicto de tarea no siempre perjudica, sobre todo cuando no se mezcla con el conflicto personal.",
+      "uni": "Antes del primer proyecto de Ingeniería Industrial, muestra dos ejemplos de discusión, uno sobre el método y otro personal, y pide que el acuerdo de equipo diga cómo tratarán cada uno.",
+      "refs": [
+        "dedreu03",
+        "dewit12"
+      ]
+    },
+    "controversia": {
+      "n": "Controversia constructiva",
+      "e": "🏓",
+      "f": "met",
+      "pista": "Defiendes una postura, escuchas la contraria, cambias de bando y al final escriben juntos una síntesis.",
+      "why": "Convierte el conflicto de tarea en método, con el pensamiento crítico como herramienta. Johnson, Johnson y Smith la ordenan en pasos: dos parejas preparan posturas opuestas, las presentan, las rebaten, intercambian posiciones y redactan una síntesis común. En su revisión de 39 estudios, la controversia rindió más en dominio y retención del contenido que la búsqueda de consenso (efecto de 0,70), el debate (0,62) y el trabajo individual (0,76).",
+      "uni": "En Bioética, entrega a dos parejas de cada equipo argumentos opuestos sobre una política de donación de órganos, haz que cambien de lado a mitad de clase y pide un informe conjunto.",
+      "refs": [
+        "johnson00",
+        "johnson09b"
+      ]
+    },
+    "conflicto_sociocognitivo": {
+      "n": "Conflicto sociocognitivo",
+      "e": "🤼",
+      "f": "apr",
+      "pista": "Tu compañero resolvió el mismo ejercicio de otra manera, y ese choque te obliga a pensar de nuevo.",
+      "why": "Es el cambio conceptual cuando ocurre frente a otros. Doise y Mugny, desde una psicología social de raíz piagetiana, propusieron que confrontar respuestas distintas con un compañero obliga a coordinar puntos de vista y puede hacer avanzar el razonamiento de ambos. En Genética universitaria, Smith y colaboradores observaron que la discusión entre pares mejoraba las respuestas incluso en grupos donde nadie sabía la correcta al principio.",
+      "uni": "En Física I, cuando una pregunta divida al curso en dos respuestas, junta a estudiantes que votaron distinto y pídeles que intenten convencer al otro con un argumento.",
+      "refs": [
+        "doise84",
+        "smith09"
+      ]
+    },
+    "mito_lluvia": {
+      "n": "La lluvia de ideas en grupo da más ideas",
+      "e": "☂️",
+      "f": "mito",
+      "pista": "Doce personas lanzando ocurrencias frente a una pizarra seguro sacan más que esas doce pensando a solas.",
+      "belief": "Juntar al equipo a decir ideas en voz alta, sin críticas, produce más y mejores ideas que pedir a cada integrante que las piense por su cuenta. Alex Osborn, el publicista que popularizó la técnica en los años cincuenta, sostuvo que una persona promedio produce el doble de ideas en grupo que a solas.",
+      "evidence": "El metaanálisis de Mullen, Johnson y Salas mostró que los grupos que hacen lluvia de ideas producen menos ideas que la misma cantidad de personas trabajando por separado, y no de mejor calidad. Diehl y Stroebe identificaron como causa principal el bloqueo de producción, porque mientras otro habla tú esperas tu turno y olvidas o descartas tu idea. Aun así, quienes trabajan en grupo suelen creer que rindieron más, lo que Paulus y colaboradores llamaron ilusión de productividad grupal.",
+      "refs": [
+        "mullen91",
+        "diehl87",
+        "paulus93"
+      ]
+    },
+    "grupo_nominal": {
+      "n": "Técnica de grupo nominal",
+      "e": "🔇",
+      "f": "met",
+      "pista": "Cada uno anota en silencio antes de que alguien abra la boca, y al final se vota.",
+      "why": "Si miras el mito de la lluvia de ideas con práctica reflexiva, aparece una alternativa con respaldo, que consiste en generar ideas a solas y discutirlas después. Delbecq, Van de Ven y Gustafson la describieron con generación silenciosa por escrito, registro por turnos de una idea por persona, aclaración en grupo y votación individual. Evita el bloqueo de producción y reduce el peso de quien habla más fuerte.",
+      "uni": "En Diseño Industrial, da siete minutos para que cada integrante anote ideas de producto en papelitos, léelas por turnos sin comentarios y pide que cada quien vote sus tres favoritas.",
+      "refs": [
+        "delbecq75",
+        "mullen91"
+      ]
+    },
+    "guiones_colaboracion": {
+      "n": "Guiones de colaboración",
+      "e": "🎵",
+      "f": "dis",
+      "pista": "Una partitura para discutir en equipo, que indica quién plantea y quién objeta, hasta que sobra.",
+      "why": "Son andamiaje para la cooperación: instrucciones que reparten roles y ordenan la actividad del equipo, por ejemplo argumentar y luego contraargumentar, y que se retiran a medida que el equipo aprende a hacerlo solo. El metaanálisis de Vogel y colaboradores, sobre guiones en entornos digitales, encontró un efecto pequeño sobre el aprendizaje del contenido y uno grande sobre las habilidades de colaboración.",
+      "uni": "En el foro de Historia del Derecho, pide que cada aporte siga la secuencia afirmación, evidencia y objeción a un compañero, y retira la plantilla después de la tercera semana.",
+      "refs": [
+        "vogel17"
+      ]
+    },
+    "memoria_transactiva": {
+      "n": "Memoria transactiva",
+      "e": "📇",
+      "f": "apr",
+      "pista": "Nadie del equipo recuerda todo, pero cada uno sabe a quién preguntarle cada cosa.",
+      "why": "Une la interdependencia con la memoria. Wegner la describió como un sistema compartido en que cada integrante guarda parte de la información y sabe qué saben los demás. Liang, Moreland y Argote mostraron que los grupos entrenados juntos para armar radios recordaban más del procedimiento y armaban mejores radios que los grupos cuyos integrantes se habían entrenado por separado, un argumento a favor de mantener los equipos estables.",
+      "uni": "En el taller de Electrónica, pide a cada equipo un mapa de quién domina qué parte del circuito, y no cambies la composición de los equipos hasta el final del semestre.",
+      "refs": [
+        "wegner87",
+        "liang95"
+      ]
+    },
+    "seguridad_psicologica": {
+      "n": "Seguridad psicológica",
+      "e": "🛖",
+      "f": "fund",
+      "pista": "Confiar en que puedes decir “me equivoqué” o “no entiendo” sin que el equipo te lo cobre.",
+      "why": "Cuando el trabajo cooperativo se cruza con el error, importa si equivocarse se puede decir en voz alta. Edmondson la definió como la creencia compartida de que el equipo es un lugar seguro para asumir riesgos interpersonales, y en 51 equipos de una empresa manufacturera encontró que predecía conductas de aprendizaje, como pedir ayuda o comentar errores, y a través de ellas el desempeño. En simulación clínica orienta el diseño de la sesión previa y del debriefing.",
+      "uni": "En el primer laboratorio de Microbiología, cuenta un error tuyo de cuando eras estudiante y qué aprendiste de él, y luego pide al curso que reporte sus propios fallos sin descuento de nota.",
+      "refs": [
+        "edmondson99",
+        "rudolph14"
+      ]
+    },
+    "entrenamiento_equipos": {
+      "n": "Entrenamiento de equipos (CRM)",
+      "e": "🚀",
+      "f": "met",
+      "pista": "Nació en cabinas de avión y hoy enseña a un turno de urgencias a hablar claro bajo presión.",
+      "why": "Pone la simulación al servicio de la interdependencia, entrenando al equipo completo a comunicarse y coordinarse. La gestión de recursos de tripulación (CRM) surgió en la aviación comercial a fines de los setenta, tras accidentes atribuidos a fallas de comunicación en cabina, y luego pasó a quirófanos y servicios de urgencia. Los metaanálisis de Salas y colaboradores y de Hughes y colaboradores, este último en salud, encontraron efectos positivos sobre el desempeño del equipo.",
+      "uni": "En Obstetricia, simula una hemorragia posparto con estudiantes de Medicina y de Obstetricia juntos, y analiza después si cada indicación se dijo en voz alta y fue confirmada.",
+      "refs": [
+        "helmreich99",
+        "salas08",
+        "hughes16"
+      ]
+    },
+    "escenario": {
+      "n": "Escenario de simulación",
+      "e": "🎦",
+      "f": "dis",
+      "pista": "El guion de un caso en tiempo real, con metas, punto de partida y señales de cambio.",
+      "why": "Une la simulación con los resultados de aprendizaje. Cada escenario parte de lo que el estudiante debe lograr, y desde ahí se define el caso y las señales que lo harán cambiar. Los estándares de buenas prácticas de INACSL piden que el diseño empiece por una evaluación de necesidades y por objetivos medibles, y sin esos objetivos el debriefing no tiene contra qué comparar lo ocurrido.",
+      "uni": "En Ingeniería Eléctrica, escribe un escenario de falla en una subestación con dos objetivos observables y una tabla de qué cambia en el tablero si el equipo no aísla el circuito en tres minutos.",
+      "refs": [
+        "inacsl16",
+        "issenberg05"
+      ]
+    },
+    "rcdp": {
+      "n": "Práctica deliberada en ciclos rápidos",
+      "e": "🛼",
+      "f": "met",
+      "pista": "La escena se detiene al primer error, alguien corrige en segundos y el equipo repite ese tramo.",
+      "why": "Aplica la práctica deliberada a un escenario. En vez de dejarlo correr hasta el final y conversar después, el instructor lo interrumpe ante un error, da una corrección breve y el equipo rebobina y repite hasta hacerlo bien, con desafíos que aumentan. En un estudio antes y después con residentes de pediatría, Hunt y colaboradores vieron que tras el entrenamiento era más probable iniciar las compresiones en el primer minuto, y la pausa antes de la descarga bajó de 84 a 8 segundos.",
+      "uni": "En Enfermería, repite el escenario de shock anafiláctico deteniéndolo cada vez que se omite un paso, hasta que el equipo administre la adrenalina a tiempo tres veces seguidas.",
+      "refs": [
+        "hunt14",
+        "ericsson04"
+      ]
+    },
+    "dominio_simulado": {
+      "n": "Dominio con simulación",
+      "e": "💯",
+      "f": "eva",
+      "pista": "Nadie pasa al paciente real sin superar en el maniquí un estándar fijado de antemano.",
+      "why": "Lleva el aprendizaje para el dominio a la simulación, con práctica deliberada hasta que cada estudiante alcanza un estándar mínimo fijo, aunque algunos necesiten más sesiones. El metaanálisis de McGaghie y colaboradores, con 14 estudios, halló que la simulación con práctica deliberada superó a la formación clínica tradicional, con un efecto de 0,71. Tras entrenar así a residentes en catéteres venosos centrales, Barsuk y colaboradores vieron bajar las infecciones de 3,2 a 0,5 por mil días de catéter en una unidad de cuidados intensivos.",
+      "uni": "En Medicina, exige que cada estudiante logre la punción lumbar en el simulador según una lista de cotejo con puntaje mínimo antes de su primera vez en sala, sin límite de intentos.",
+      "refs": [
+        "mcgaghie11",
+        "barsuk09",
+        "mcgaghie14"
+      ]
+    },
+    "contrato_ficcion": {
+      "n": "Contrato de ficción",
+      "e": "🧸",
+      "f": "fund",
+      "pista": "Todos saben que el paciente es de plástico y aceptan tratarlo como si respirara de verdad.",
+      "why": "La simulación, como el juego, funciona solo si todos aceptan un “como si”. Dieckmann, Gaba y Rall la analizaron como una práctica social sostenida por ese acuerdo y advirtieron que más realismo físico no siempre mejora el aprendizaje. Rudolph, Raemer y Simon llaman contrato de ficción al pacto explícito de la sesión previa, en que el instructor reconoce los límites del simulador y los participantes se comprometen a tratar la escena como real.",
+      "uni": "En la primera audiencia simulada de Derecho Procesal Penal, explica qué es real y qué no en la sala, y pide al curso que trate al testigo actor como a un testigo verdadero.",
+      "refs": [
+        "dieckmann07",
+        "rudolph14"
+      ]
+    },
+    "prebriefing": {
+      "n": "Sesión previa (prebriefing)",
+      "e": "👋",
+      "f": "dis",
+      "pista": "Antes de la escena, se pacta la ficción y se explica qué se espera de cada uno.",
+      "why": "Junta el contrato de ficción con la seguridad psicológica. Rudolph, Raemer y Simon la describen como la base de un contenedor seguro para aprender, con cuatro tareas: aclarar expectativas, pactar la ficción, atender la logística y comprometerse, de palabra y en los hechos, con el respeto y la seguridad psicológica de los participantes. Los estándares internacionales de buenas prácticas en simulación le dedican un estándar propio.",
+      "uni": "Antes de la entrevista clínica simulada de Psicología, explica en cinco minutos qué se observará, que los errores no restan nota y cómo pedir una pausa si alguien se bloquea.",
+      "refs": [
+        "rudolph14",
+        "mcdermott21"
+      ]
+    },
+    "debriefing": {
+      "n": "Debriefing",
+      "e": "🧉",
+      "f": "met",
+      "pista": "La conversación guiada después de la escena, cuando el equipo revisa qué pasó y por qué decidió así.",
+      "why": "El debriefing es la conversación facilitada que sigue al escenario, para analizar lo ocurrido y sacar conclusiones. Muchos modelos siguen tres fases: reacciones, análisis y resumen. La revisión de Issenberg y colaboradores encontró que la retroalimentación era el rasgo más citado en los estudios de simulación eficaz (47 %), y el metaanálisis de Cheng y colaboradores, con 177 estudios, confirmó que la simulación con debriefing mejora los resultados frente a no recibir formación, aunque hay pocas comparaciones entre estilos de debriefing.",
+      "uni": "En Nutrición, después de una consulta simulada, dedica el doble de tiempo al debriefing que a la escena y empieza preguntando cómo se sintieron antes de analizar decisiones.",
+      "refs": [
+        "fanning07",
+        "cheng14",
+        "issenberg05"
+      ]
+    },
+    "buen_juicio": {
+      "n": "Debriefing con buen juicio",
+      "e": "👓",
+      "f": "met",
+      "pista": "Dices sin rodeos lo que viste y preguntas, con curiosidad sincera, qué estaba pensando quien lo hizo.",
+      "why": "Agrega curiosidad al debriefing. Rudolph y colaboradores proponen combinar defensa e indagación: el instructor comparte su observación y su juicio, por ejemplo “vi que la dosis se dio sin confirmar el peso y me preocupa”, y luego pregunta por el razonamiento detrás de la acción. Busca descubrir los marcos mentales que llevaron a la decisión, porque corregir solo la conducta deja intacto el razonamiento que la produjo.",
+      "uni": "En Odontología, después de una extracción simulada, di qué observaste en la técnica de anestesia y pregunta qué estaba considerando el estudiante antes de corregirlo.",
+      "refs": [
+        "rudolph06",
+        "rudolph08"
+      ]
+    },
+    "plus_delta": {
+      "n": "Plus-delta",
+      "e": "👏",
+      "f": "eva",
+      "pista": "Dos columnas en la pizarra, lo que salió bien y lo que cambiarías la próxima vez.",
+      "why": "Une el debriefing con la autoevaluación. Los participantes nombran primero lo que funcionó y luego lo que cambiarían, antes de escuchar al instructor. Eppich y Cheng lo incluyen en el modelo PEARLS como una de tres estrategias de análisis, junto con la discusión focalizada y la retroalimentación o enseñanza directiva.",
+      "uni": "En Bibliotecología, tras una simulación de atención a un usuario difícil, pide al equipo dos columnas en la pizarra antes de dar tu opinión, y parte el análisis por el punto que nadie anotó.",
+      "refs": [
+        "eppich15"
+      ]
+    },
+    "contenedor_seguro": {
+      "n": "Contenedor seguro",
+      "e": "🥡",
+      "f": "sint",
+      "pista": "Antes de la escena se pacta la ficción y después se pregunta antes de juzgar.",
+      "why": "Integra la sesión previa con el debriefing con buen juicio. La sesión previa crea las condiciones para que equivocarse se pueda decir, y el debriefing aprovecha esa confianza para analizar errores reales con franqueza. Rudolph, Raemer y Simon llaman contenedor seguro a ese espacio, que se empieza a construir antes de que comience el escenario.",
+      "principios": [
+        "Abre cada sesión aclarando objetivos, qué es ficción y qué no, y cómo se usará lo que ocurra en el escenario (Rudolph et al., 2014).",
+        "Reconoce en voz alta los límites del simulador antes de pedir al grupo que actúe como si la situación fuera real (Dieckmann et al., 2007).",
+        "Explica que el objetivo es aprender del error, porque la seguridad psicológica favorece que un equipo comente sus fallos y pida ayuda (Edmondson, 1999).",
+        "En el debriefing, di lo que observaste y pregunta por el razonamiento, en vez de corregir solo la conducta (Rudolph et al., 2006).",
+        "Reserva tiempo para el debriefing, porque la retroalimentación fue el rasgo más citado en los estudios de simulación eficaz (Issenberg et al., 2005)."
+      ],
+      "prueba": "En tu próxima práctica o simulación, dedica cinco minutos al inicio a explicar objetivos y reglas de la ficción, y al final abre el debriefing con una observación concreta seguida de la pregunta “¿qué estabas pensando en ese momento?”. Anota cuántos errores menciona el propio grupo.",
+      "refs": [
+        "rudolph14",
+        "dieckmann07",
+        "edmondson99",
+        "rudolph06",
+        "issenberg05"
+      ]
+    },
+    "cap_simular": {
+      "n": "Simular antes de la práctica",
+      "e": "🐤",
+      "f": "sint",
+      "pista": "Equivocarte con red y con alguien que pregunta por qué, cuando el error todavía no daña a nadie.",
+      "why": "Integra el contenedor seguro con la práctica deliberada en ciclos rápidos. El escenario parte de objetivos claros y la sesión previa protege a quien se equivoca. Durante la escena, la repetición corrige en el momento, y al final el debriefing busca el razonamiento detrás de cada decisión. Los metaanálisis de Cook y colaboradores, en salud, y de Chernikova y colaboradores, en varias disciplinas, encuentran efectos grandes de la simulación sobre habilidades complejas.",
+      "principios": [
+        "Diseña cada escenario a partir de objetivos observables y decide de antemano qué señales cambiarán el caso (INACSL Standards Committee, 2016).",
+        "Prioriza que la tarea exija las mismas decisiones que la real aunque el simulador sea sencillo, porque más realismo físico no asegura más transferencia (Norman et al., 2012).",
+        "Detén y repite el tramo que falló hasta lograrlo, en lugar de esperar al final para comentarlo (Hunt et al., 2014).",
+        "Fija un estándar mínimo y deja que cada estudiante practique hasta alcanzarlo (McGaghie et al., 2011).",
+        "Cierra con un debriefing que combine tu juicio con preguntas genuinas sobre el razonamiento (Rudolph et al., 2006)."
+      ],
+      "prueba": "Elige una situación de tu disciplina que hoy los estudiantes enfrentan por primera vez con una persona real, como una entrevista o una audiencia. Simúlala con compañeros en los roles, detén la escena ante el primer error importante, haz repetir ese tramo y termina con un debriefing de diez minutos.",
+      "refs": [
+        "cook11",
+        "chernikova20",
+        "norman12",
+        "hunt14",
+        "mcgaghie11"
+      ]
+    },
+    "fidelidad": {
+      "n": "Fidelidad de la simulación",
+      "e": "🩻",
+      "f": "dis",
+      "pista": "Cuánto se parece el ensayo a lo real, por fuera y en las decisiones que exige.",
+      "why": "La fidelidad es el grado en que un escenario de simulación reproduce el mundo real. Hays y Singer distinguieron la fidelidad física, lo que se ve y se toca, de la funcional, lo que la tarea exige hacer y decidir. Hamstra y colaboradores propusieron reemplazar el término por parecido físico y alineamiento funcional de la tarea, y poner el foco en lo segundo y en el compromiso de quien aprende.",
+      "uni": "En Contabilidad de Costos, simula el cierre mensual con planillas sencillas pero con los mismos plazos, documentos incompletos y aprobaciones que en una empresa real.",
+      "refs": [
+        "hays89",
+        "hamstra14"
+      ]
+    },
+    "mito_realismo": {
+      "n": "Cuanto más realista el simulador, más se aprende",
+      "e": "🤩",
+      "f": "mito",
+      "pista": "El maniquí que respira y parpadea tiene que enseñar más que un brazo de goma para inyectar.",
+      "belief": "Mientras más se parezca la simulación a la realidad, con maniquíes de alta tecnología o realidad virtual inmersiva, más aprenderán los estudiantes y mejor llevarán lo aprendido al trabajo real.",
+      "evidence": "Norman, Dore y Grierson revisaron 24 estudios que comparaban simuladores de alta y baja fidelidad en habilidades clínicas, y en casi ninguno los más realistas mostraron una ventaja significativa en la transferencia, con diferencias promedio de 1 a 2 %. Makransky y colaboradores observaron que agregar realidad virtual inmersiva a un laboratorio simulado aumentó la sensación de presencia y redujo el aprendizaje. Pesa más que la tarea exija decisiones reales y que haya práctica con retroalimentación.",
+      "refs": [
+        "norman12",
+        "makransky19",
+        "hamstra14"
+      ]
+    },
+    "juego_roles": {
+      "n": "Juego de roles",
+      "e": "🦸",
+      "f": "met",
+      "pista": "Hoy eres la abogada defensora y tu compañera hace de clienta que oculta algo importante.",
+      "why": "En el juego de roles, los estudiantes asumen papeles en una situación profesional y conversan desde ellos. Es la forma más barata de simulación y sirve para ensayar entrevistas o negociaciones. En comunicación clínica, Bosse y colaboradores compararon en un ensayo aleatorizado el juego de roles entre compañeros con pacientes estandarizados, y ambos mejoraron frente a un grupo control, con una ventaja del juego de roles en comprender la perspectiva de los padres.",
+      "uni": "En Trabajo Social, pide a tríos que roten entre profesional, usuario y observador en una primera entrevista, con una ficha de antecedentes distinta en cada ronda.",
+      "refs": [
+        "bosse12",
+        "lane07"
+      ]
+    },
+    "paciente_estandarizado": {
+      "n": "Paciente estandarizado",
+      "e": "🤒",
+      "f": "met",
+      "pista": "Una actriz entrenada para tener la misma tos y las mismas dudas con cada estudiante que la atiende.",
+      "why": "Lleva el juego de roles a la simulación profesional: una persona entrenada representa un caso de forma consistente y puede contar cómo se sintió atendida. Barrows lo introdujo a comienzos de los años sesenta en la Universidad del Sur de California, cuando entrenó a un modelo de la escuela de arte para simular un paciente neurológico. Hoy se usa en la enseñanza y en exámenes como la ECOE, y en Derecho existen clientes estandarizados.",
+      "uni": "En Fonoaudiología, entrena a un estudiante de teatro para representar a un adulto con disfagia y pídele que, al final, cuente cómo se sintió atendido.",
+      "refs": [
+        "barrows93",
+        "barton06"
+      ]
+    },
+    "simulador_tareas": {
+      "n": "Simulador de tareas parciales",
+      "e": "🦴",
+      "f": "tec",
+      "pista": "Un brazo de silicona que existe solo para puncionar venas, sin paciente completo alrededor.",
+      "why": "Una herramienta que simula una sola destreza, como un brazo para canalizar vías o una caja para practicar laparoscopía. Permite muchas repeticiones baratas de un paso técnico antes de integrarlo en un escenario completo, y para un novato reduce la carga cognitiva al aislar el movimiento que debe dominar. En la revisión de Norman y colaboradores, los simuladores de baja fidelidad lograron casi la misma transferencia que los de alta fidelidad.",
+      "uni": "En Medicina Veterinaria, antes de la primera sutura en cirugía, pide veinte repeticiones del punto simple en almohadillas de silicona, con un compañero que revisa usando una pauta.",
+      "refs": [
+        "norman12",
+        "cook11"
+      ]
+    },
+    "paciente_virtual": {
+      "n": "Paciente virtual",
+      "e": "👾",
+      "f": "tec",
+      "pista": "Un caso en pantalla que contesta tus preguntas y empeora si tardas en decidir.",
+      "why": "Un paciente virtual es un programa con un caso interactivo en que el estudiante interroga, pide exámenes y toma decisiones que cambian la evolución. El metaanálisis de Cook, Erwin y Triola encontró efectos grandes frente a no recibir formación y efectos pequeños frente a otras formas de enseñanza, así que su valor está en sumar práctica de razonamiento clínico más que en reemplazar otras actividades.",
+      "uni": "En Medicina Interna, asigna dos pacientes virtuales por semana como práctica de diagnóstico diferencial y discute en clase las decisiones en que más se equivocó el curso.",
+      "refs": [
+        "cook10"
+      ]
+    },
+    "laboratorio_virtual": {
+      "n": "Laboratorio virtual",
+      "e": "💽",
+      "f": "tec",
+      "pista": "Variar temperaturas, ver moléculas chocar y repetir el experimento cien veces sin gastar un reactivo.",
+      "why": "Indagación guiada con simulación: experimentos en pantalla que permiten manipular variables, repetir sin costo y ver lo que en un laboratorio real es invisible. De Jong, Linn y Zacharia revisaron la investigación que compara laboratorios físicos y virtuales, y recomiendan combinarlos para aprovechar lo que cada uno ofrece.",
+      "uni": "En Ingeniería Química, pide que cada equipo pruebe en un simulador cinco temperaturas de reacción antes de ir al laboratorio y que lleve una predicción escrita para la única corrida real.",
+      "refs": [
+        "dejong13"
+      ]
+    },
+    "microensenanza": {
+      "n": "Microenseñanza",
+      "e": "📸",
+      "f": "met",
+      "pista": "Una clase de diez minutos ante cinco compañeros que luego se comenta y se vuelve a dar.",
+      "why": "Juego de roles aplicado a la docencia: quien se forma como profesor enseña una lección breve a un grupo pequeño de pares, recibe retroalimentación, a menudo apoyada en una grabación, y vuelve a enseñarla mejorada. Se desarrolló en la Universidad de Stanford en los años sesenta. Hattie le asignó un tamaño de efecto de 0,88, de los más altos de su síntesis, aunque esa cifra mezcla estudios antiguos y de calidad dispar.",
+      "uni": "En Pedagogía en Historia, pide a cada estudiante una explicación de ocho minutos ante cuatro compañeros, comentada con una pauta, y que la repita al día siguiente con los cambios.",
+      "refs": [
+        "allen69",
+        "hattie09"
+      ]
+    },
+    "osce": {
+      "n": "ECOE (examen clínico objetivo estructurado)",
+      "e": "🚈",
+      "f": "eva",
+      "pista": "Un circuito de estaciones cronometradas, con un caso distinto y alguien con una pauta en cada parada.",
+      "why": "En el examen clínico objetivo estructurado, el estudiante rota por varias estaciones breves y en cada una realiza una tarea observada con criterios definidos de antemano. Harden y colaboradores lo presentaron en 1975 para dar más objetividad al examen clínico tradicional, cuyo resultado dependía mucho del paciente y del examinador que le tocaran a cada estudiante. Hoy se usa en muchas carreras de la salud.",
+      "uni": "En Kinesiología, arma una ECOE de seis estaciones de cinco minutos, con pacientes simulados y una pauta por estación, y entrega a cada estudiante su perfil por estación.",
+      "refs": [
+        "harden75"
+      ]
+    },
+    "lista_cotejo": {
+      "n": "Lista de cotejo y escala global",
+      "e": "🔹",
+      "f": "eva",
+      "pista": "Marcar paso por paso si se hizo, o juzgar de una vez qué tan bien se hizo todo.",
+      "why": "En una ECOE puedes puntuar con una lista de cotejo, que registra si se realizó cada paso, o con una escala global, que juzga el desempeño completo. La revisión de Ilgen y colaboradores encontró una confiabilidad entre evaluadores parecida en ambas y una mayor confiabilidad entre estaciones con las escalas globales, que además captan mejor la pericia, porque un experto puede saltarse pasos y aun así hacerlo bien.",
+      "uni": "En tu próxima estación evaluada, usa una lista de cotejo breve para los pasos críticos de seguridad y una escala global de cinco niveles para el desempeño completo.",
+      "refs": [
+        "ilgen15"
+      ]
+    },
+    "miller": {
+      "n": "Pirámide de Miller",
+      "e": "🗼",
+      "f": "eva",
+      "pista": "Cuatro escalones, de saber a hacer, para no confundir aprobar el examen con atender bien a alguien.",
+      "why": "Una escalera parecida a la de Bloom, pensada para evaluar competencias profesionales. Miller propuso cuatro niveles: sabe, sabe cómo, demuestra cómo y hace. Una prueba de alternativas llega a lo sumo al segundo; para el tercero necesitas que el estudiante lo muestre en una simulación o una ECOE, y para el cuarto, observarlo en el trabajo real. Sirve para elegir el instrumento según lo que quieras inferir.",
+      "uni": "Revisa las evaluaciones de tu asignatura y marca en qué nivel de Miller queda cada una; si todas quedan en sabe y sabe cómo, agrega una estación simulada.",
+      "refs": [
+        "miller90"
+      ]
+    },
+    "especificidad_caso": {
+      "n": "Especificidad de caso",
+      "e": "🍊",
+      "f": "eva",
+      "pista": "Resolver bien un caso de neumonía dice poco de cómo resolverás uno de apendicitis.",
+      "why": "Al estudiar la confiabilidad de una ECOE se ve que el desempeño en un caso predice poco el desempeño en otro, aunque evalúen la misma competencia. Elstein, Shulman y Sprafka lo describieron en el razonamiento médico, y van der Vleuten y Schuwirth concluyeron que la confiabilidad depende del muestreo de casos y evaluadores más que de la estandarización del instrumento. Por eso una ECOE confiable necesita muchas estaciones.",
+      "uni": "Si tu examen práctico de Derecho Laboral tiene un solo caso, divídelo en cuatro casos breves de distinto tipo y compara cómo cambia el orden de los estudiantes.",
+      "refs": [
+        "vandervleuten05",
+        "elstein78"
+      ]
+    },
+    "simulacion_in_situ": {
+      "n": "Simulación in situ",
+      "e": "🏣",
+      "f": "mod",
+      "pista": "El escenario se arma en el propio servicio, con los equipos y el personal de un turno cualquiera.",
+      "why": "En la simulación in situ, el escenario ocurre en el lugar real de trabajo, con su equipamiento y su personal. Sirve para entrenar y también para descubrir amenazas latentes, como un carro de paro incompleto o una alarma que nadie escucha. En un año de simulaciones en un servicio de urgencias pediátricas, Patterson y colaboradores detectaron 73 amenazas latentes en 90 sesiones.",
+      "uni": "En Química Farmacéutica, simula un derrame de solvente en el propio laboratorio docente y anota con el curso qué faltó o estorbó en la respuesta.",
+      "refs": [
+        "patterson13"
+      ]
+    },
+    "rol_observador": {
+      "n": "Rol de observador",
+      "e": "🧍",
+      "f": "met",
+      "pista": "Cuatro actúan en el escenario y el resto mira con una pauta en la mano, buscando algo concreto.",
+      "why": "Cuando el curso es grande, solo unos pocos actúan en la simulación y el resto observa. La revisión de O'Regan y colaboradores encontró que los observadores también aprenden, sobre todo cuando reciben una pauta de observación con un foco definido y participan del debriefing.",
+      "uni": "En Derecho Procesal, mientras cuatro estudiantes hacen la audiencia simulada, asigna a cada observador un solo aspecto, como las objeciones, y pídele dos ejemplos en el debriefing.",
+      "refs": [
+        "oregan16"
+      ]
+    },
+    "mini_cex": {
+      "n": "Observación directa en la práctica (mini-CEX)",
+      "e": "👵",
+      "f": "eva",
+      "pista": "Unos quince minutos mirando cómo atiendes a un paciente real, seguidos de comentarios inmediatos.",
+      "why": "Evaluación dentro de las prácticas profesionales: un docente observa una atención breve y real, la califica con una escala corta y da retroalimentación en el momento. Norcini y colaboradores la estudiaron en 21 programas de residencia de medicina interna, con más de 1200 encuentros, y obtuvieron puntajes confiables al repetirla con distintos pacientes y evaluadores. Llega al nivel más alto de la pirámide de Miller, el hacer.",
+      "uni": "En el internado de Enfermería, pide cuatro observaciones breves por rotación con distintos tutores, cada una cerrada con un comentario sobre qué mantener y qué cambiar.",
+      "refs": [
+        "norcini03"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "jigsaw",
+      "b": "cooperativo",
+      "r": "interdependencia",
+      "nota": "Si en un equipo cooperativo cada integrante tiene una pieza distinta del rompecabezas, nadie puede terminar sin los demás, y todos lo saben desde el primer minuto."
+    },
+    {
+      "a": "cooperativo",
+      "b": "pregunta",
+      "r": "responsabilidad_individual",
+      "nota": "En un equipo cualquiera puede esconderse detrás del resto, salvo que la pregunta final pueda caerle a cualquiera y deba responderla sin ayuda."
+    },
+    {
+      "a": "responsabilidad_individual",
+      "b": "recuperacion",
+      "r": "rat",
+      "nota": "Cada estudiante responde de memoria sobre la lectura antes de reunirse con su equipo, así que nadie llega a la discusión con las manos vacías."
+    },
+    {
+      "a": "casos",
+      "b": "interdependencia",
+      "r": "tareas_4s",
+      "nota": "Un caso que todos los equipos resuelven a la vez, con una decisión que deben mostrar juntos, obliga a cada equipo a ponerse de acuerdo de verdad."
+    },
+    {
+      "a": "rat",
+      "b": "tareas_4s",
+      "r": "tbl",
+      "nota": "Michaelsen armó su método repitiendo en cada unidad dos piezas, la prueba de preparación al inicio y los casos con decisión simultánea después."
+    },
+    {
+      "a": "responsabilidad_individual",
+      "b": "coevaluacion",
+      "r": "eval_contribucion",
+      "nota": "Los compañeros saben mejor que nadie quién trabajó, y con criterios claros su juicio convierte el aporte de cada uno en un dato visible."
+    },
+    {
+      "a": "interdependencia",
+      "b": "dialogo",
+      "r": "acuerdo_equipo",
+      "nota": "Si van a depender unos de otros todo el semestre, conviene conversar las reglas antes del primer plazo y dejarlas por escrito."
+    },
+    {
+      "a": "acuerdo_equipo",
+      "b": "eval_contribucion",
+      "r": "equipo_cuentas",
+      "nota": "El acuerdo dice qué se prometió y la evaluación entre pares muestra si se cumplió, a tiempo para corregir antes de la entrega final."
+    },
+    {
+      "a": "tbl",
+      "b": "equipo_cuentas",
+      "r": "cap_equipos",
+      "nota": "Equipos que llegan preparados y deciden juntos, con acuerdos que se revisan usando el juicio de los pares, le dejan poco espacio al polizón."
+    },
+    {
+      "a": "grupo",
+      "b": "carga_trabajo",
+      "r": "holgazaneria",
+      "nota": "Reparte una tarea pesada entre muchos sin que se vea el aporte de cada uno, y alguien bajará el ritmo confiando en que los demás empujan."
+    },
+    {
+      "a": "holgazaneria",
+      "b": "responsabilidad_individual",
+      "r": "eval_contribucion",
+      "nota": "El remedio contra quien afloja en el grupo es que su aporte se vea, y sus compañeros son quienes mejor pueden mostrarlo."
+    },
+    {
+      "a": "cooperativo",
+      "b": "diagnostica",
+      "r": "formacion_equipos",
+      "nota": "Con lo que la evaluación diagnóstica te cuenta del curso puedes armar equipos equilibrados, en lugar de dejar que se agrupen por amistad."
+    },
+    {
+      "a": "interdependencia",
+      "b": "tiempo",
+      "r": "roles_equipo",
+      "nota": "Si el equipo necesita varios papeles y el semestre es largo, cada integrante puede pasar por todos en vez de quedarse siempre con el mismo."
+    },
+    {
+      "a": "eval_contribucion",
+      "b": "sumativa",
+      "r": "nota_ajustada",
+      "nota": "Cuando el juicio de los pares sobre cada aporte entra en la calificación final, la nota del equipo se reparte según lo que puso cada uno."
+    },
+    {
+      "a": "retro",
+      "b": "juego",
+      "r": "ifat",
+      "nota": "Retroalimentación instantánea con aire de lotería. Raspas una opción y la tarjeta te dice en el acto si acertaste o si debes intentar otra."
+    },
+    {
+      "a": "cooperativo",
+      "b": "reflexiva",
+      "r": "procesamiento_grupal",
+      "nota": "La práctica reflexiva aplicada al propio equipo se convierte en una pausa para revisar cómo están trabajando juntos y qué conviene ajustar."
+    },
+    {
+      "a": "interdependencia",
+      "b": "emocion",
+      "r": "conflicto_tarea",
+      "nota": "Cuando dependes de otros y te importa el resultado, los desacuerdos llegan con carga emocional, a veces sobre la tarea y a veces sobre las personas."
+    },
+    {
+      "a": "conflicto_tarea",
+      "b": "pensamiento_critico",
+      "r": "controversia",
+      "nota": "El desacuerdo sobre la tarea, ordenado con las reglas del pensamiento crítico, se vuelve un método para aprender en lugar de una pelea."
+    },
+    {
+      "a": "cambio_conceptual",
+      "b": "otros",
+      "r": "conflicto_sociocognitivo",
+      "nota": "Una idea cambia con más facilidad cuando choca con la respuesta distinta de un compañero, que te obliga a justificar la tuya en voz alta."
+    },
+    {
+      "a": "grupo",
+      "b": "emocion",
+      "r": "mito_lluvia",
+      "nota": "La energía de un grupo que lanza ideas en voz alta se siente muy productiva, y esa sensación alimenta la creencia de que juntos se piensa más."
+    },
+    {
+      "a": "reflexiva",
+      "b": "mito_lluvia",
+      "r": "grupo_nominal",
+      "nota": "Si revisas con calma lo que pasa en una lluvia de ideas, descubres que pensar primero a solas y discutir después produce más ideas."
+    },
+    {
+      "a": "andamiaje",
+      "b": "cooperativo",
+      "r": "guiones_colaboracion",
+      "nota": "Un andamio para el trabajo en equipo, con turnos y pasos indicados, que se retira cuando el equipo ya sabe colaborar sin ayuda."
+    },
+    {
+      "a": "interdependencia",
+      "b": "memoria",
+      "r": "memoria_transactiva",
+      "nota": "Cuando el equipo se reparte el trabajo también se reparte lo que recuerda, y lo útil pasa a ser saber quién guarda cada cosa."
+    },
+    {
+      "a": "cooperativo",
+      "b": "error",
+      "r": "seguridad_psicologica",
+      "nota": "En un equipo que trabaja de verdad junto los errores salen a la luz, y el clima del grupo decide si se dicen o se esconden."
+    },
+    {
+      "a": "simulacion",
+      "b": "interdependencia",
+      "r": "entrenamiento_equipos",
+      "nota": "Si en la tarea real nadie puede trabajar solo, la simulación tiene que entrenar al equipo completo, con su manera de comunicarse y coordinarse."
+    },
+    {
+      "a": "simulacion",
+      "b": "resultados",
+      "r": "escenario",
+      "nota": "Si partes de los resultados de aprendizaje, cada detalle de la simulación queda al servicio de una meta, incluida la forma en que cambia el caso."
+    },
+    {
+      "a": "escenario",
+      "b": "practica_deliberada",
+      "r": "rcdp",
+      "nota": "Un escenario que se detiene cada vez que algo sale mal, para corregir y repetir ese tramo, convierte la escena en práctica deliberada."
+    },
+    {
+      "a": "simulacion",
+      "b": "juego",
+      "r": "contrato_ficcion",
+      "nota": "Como en todo juego, la simulación funciona si cada participante acepta las reglas del “hagamos como si”, y conviene pactarlas antes de empezar."
+    },
+    {
+      "a": "contrato_ficcion",
+      "b": "seguridad_psicologica",
+      "r": "prebriefing",
+      "nota": "Pactar la ficción y dejar claro que equivocarse está permitido son las dos tareas de los minutos previos al escenario."
+    },
+    {
+      "a": "simulacion",
+      "b": "dialogo",
+      "r": "debriefing",
+      "nota": "Lo vivido en el escenario se vuelve aprendizaje cuando el grupo lo conversa después, con alguien que guía las preguntas."
+    },
+    {
+      "a": "debriefing",
+      "b": "curiosidad",
+      "r": "buen_juicio",
+      "nota": "Si el instructor dice lo que vio y luego pregunta con curiosidad genuina qué pensaba el estudiante, descubre el razonamiento que llevó al error."
+    },
+    {
+      "a": "prebriefing",
+      "b": "buen_juicio",
+      "r": "contenedor_seguro",
+      "nota": "La sesión previa abre la confianza y el debriefing con buen juicio la aprovecha, de modo que el error se analiza a fondo sin humillar a nadie."
+    },
+    {
+      "a": "contenedor_seguro",
+      "b": "rcdp",
+      "r": "cap_simular",
+      "nota": "Con un espacio seguro para equivocarse y repeticiones que corrigen en el momento, la simulación prepara de verdad para el primer encuentro real."
+    },
+    {
+      "a": "dominio",
+      "b": "simulacion",
+      "r": "dominio_simulado",
+      "nota": "El aprendizaje para el dominio exige practicar hasta llegar al estándar, y la simulación ofrece todas las repeticiones necesarias sin riesgo para nadie."
+    },
+    {
+      "a": "rcdp",
+      "b": "dominio",
+      "r": "dominio_simulado",
+      "nota": "Repetir cada tramo hasta hacerlo bien, con una meta fija que todos deben alcanzar, lleva la práctica en ciclos rápidos al dominio."
+    },
+    {
+      "a": "escenario",
+      "b": "mundo",
+      "r": "fidelidad",
+      "nota": "Todo escenario se parece al mundo en algo, y la pregunta útil es en qué, si en la apariencia o en las decisiones que exige."
+    },
+    {
+      "a": "simulacion",
+      "b": "rv",
+      "r": "mito_realismo",
+      "nota": "Con un visor de realidad virtual la escena impresiona tanto que parece obvio que enseña más, y de esa impresión nace la creencia."
+    },
+    {
+      "a": "reflexiva",
+      "b": "mito_realismo",
+      "r": "fidelidad",
+      "nota": "Al revisar el mito con calma separas el parecido físico de lo que la tarea exige decidir, y descubres que lo segundo pesa más para aprender."
+    },
+    {
+      "a": "juego",
+      "b": "dialogo",
+      "r": "juego_roles",
+      "nota": "Un juego en que cada quien habla desde un papel asignado, como cliente o testigo, permite ensayar conversaciones difíciles sin consecuencias."
+    },
+    {
+      "a": "juego_roles",
+      "b": "simulacion",
+      "r": "paciente_estandarizado",
+      "nota": "Cuando el papel de paciente lo hace una persona entrenada para repetirlo igual con cada estudiante, el juego de roles se vuelve simulación profesional."
+    },
+    {
+      "a": "simulacion",
+      "b": "herramienta",
+      "r": "simulador_tareas",
+      "nota": "Una herramienta que imita solo una parte del cuerpo o del equipo permite repetir una destreza muchas veces sin montar un escenario completo."
+    },
+    {
+      "a": "simulacion",
+      "b": "computador",
+      "r": "paciente_virtual",
+      "nota": "El computador permite que el caso responda a cada pregunta y cambie según tus decisiones, como lo haría una persona enferma."
+    },
+    {
+      "a": "indagacion",
+      "b": "simulacion",
+      "r": "laboratorio_virtual",
+      "nota": "La indagación necesita experimentar, y una simulación en pantalla deja variar condiciones y repetir sin gastar reactivos ni romper equipos."
+    },
+    {
+      "a": "juego_roles",
+      "b": "docente",
+      "r": "microensenanza",
+      "nota": "Si el papel que ensayas es el de docente y tus compañeros hacen de curso, el juego de roles se convierte en microenseñanza."
+    },
+    {
+      "a": "paciente_estandarizado",
+      "b": "evaluacion",
+      "r": "osce",
+      "nota": "Varios pacientes estandarizados, cada uno en su estación y con una pauta de evaluación, permiten observar a todo el curso en las mismas condiciones."
+    },
+    {
+      "a": "osce",
+      "b": "rubrica",
+      "r": "lista_cotejo",
+      "nota": "Para puntuar una estación puedes marcar paso por paso o juzgar el desempeño completo, y cada forma de hacerlo mide algo distinto."
+    },
+    {
+      "a": "bloom",
+      "b": "competencias",
+      "r": "miller",
+      "nota": "Una escalera parecida a la de Bloom, pensada para competencias profesionales, separa lo que alguien sabe de lo que hace frente a un paciente real."
+    },
+    {
+      "a": "osce",
+      "b": "validez",
+      "r": "especificidad_caso",
+      "nota": "Al analizar la confiabilidad de una ECOE se nota que el desempeño cambia mucho de un caso a otro, y por eso hacen falta muchas estaciones."
+    },
+    {
+      "a": "situado",
+      "b": "simulacion",
+      "r": "simulacion_in_situ",
+      "nota": "Si el saber queda pegado al lugar donde se usa, conviene llevar la simulación al servicio real, con su equipamiento y su personal."
+    },
+    {
+      "a": "grupo",
+      "b": "simulacion",
+      "r": "rol_observador",
+      "nota": "Si el grupo es grande y el escenario admite a pocos, el resto puede aprender observando, siempre que tenga una tarea concreta."
+    },
+    {
+      "a": "practicas",
+      "b": "evaluacion",
+      "r": "mini_cex",
+      "nota": "En las prácticas hay pacientes reales todos los días, y observar una atención breve para comentarla en el momento la convierte en evaluación."
+    },
+    {
+      "a": "debriefing",
+      "b": "autoevaluacion",
+      "r": "plus_delta",
+      "nota": "Antes de escuchar al instructor, el equipo se evalúa a sí mismo en dos columnas, lo que funcionó y lo que cambiaría."
+    },
+    {
+      "a": "holgazaneria",
+      "b": "jigsaw",
+      "r": "interdependencia",
+      "nota": "Contra la tentación de aflojar, el rompecabezas da a cada uno una pieza que nadie más tiene, y el equipo ya no avanza sin todos."
+    },
+    {
+      "a": "holgazaneria",
+      "b": "coevaluacion",
+      "r": "eval_contribucion",
+      "nota": "Quien afloja en el grupo suele pasar inadvertido para el docente, pero no para sus compañeros, y el juicio de ellos lo hace visible."
+    },
+    {
+      "a": "holgazaneria",
+      "b": "proyectos",
+      "r": "acuerdo_equipo",
+      "nota": "En un proyecto de varias semanas el polizón aparece tarde o temprano, y un acuerdo escrito al inicio dice qué hacer cuando llegue."
+    },
+    {
+      "a": "interdependencia",
+      "b": "proyectos",
+      "r": "roles_equipo",
+      "nota": "Un proyecto largo tiene tareas distintas que todos necesitan, y repartirlas como roles que rotan evita que cada quien se encierre en lo suyo."
+    },
+    {
+      "a": "responsabilidad_individual",
+      "b": "peer",
+      "r": "clase_interactiva",
+      "nota": "El voto a solas antes de conversar con el compañero es responsabilidad individual, y con él la instrucción entre pares se vuelve clase interactiva."
+    },
+    {
+      "a": "rat",
+      "b": "retro",
+      "r": "ifat",
+      "nota": "La prueba de preparación en equipo necesita saber al instante si acertó, y la tarjeta de raspar entrega esa respuesta sin esperar al docente."
+    },
+    {
+      "a": "rat",
+      "b": "diagnostica",
+      "r": "formativa",
+      "nota": "La prueba de preparación te muestra qué entendió el curso de la lectura antes de aplicarla, y puedes ajustar la clase según esos resultados."
+    },
+    {
+      "a": "eval_contribucion",
+      "b": "autoevaluacion",
+      "r": "juicio",
+      "nota": "Comparar cómo te calificaste con cómo te vieron tus compañeros entrena la capacidad de juzgar la calidad de tu propio trabajo."
+    },
+    {
+      "a": "tbl",
+      "b": "capsula",
+      "r": "invertida",
+      "nota": "Cambia la lectura previa del aprendizaje basado en equipos por una cápsula de video y obtienes un aula invertida con equipos estables."
+    },
+    {
+      "a": "conflicto_tarea",
+      "b": "casos",
+      "r": "controversia",
+      "nota": "Un caso con dos respuestas defendibles convierte el desacuerdo del equipo en una controversia ordenada, con turnos para defender y para cambiar de lado."
+    },
+    {
+      "a": "conflicto_tarea",
+      "b": "cambio_conceptual",
+      "r": "conflicto_sociocognitivo",
+      "nota": "Cuando el desacuerdo del equipo es sobre ideas, puede empujar a alguien a abandonar su concepción previa y adoptar una más útil."
+    },
+    {
+      "a": "procesamiento_grupal",
+      "b": "error",
+      "r": "seguridad_psicologica",
+      "nota": "Un equipo que revisa con calma cómo trabajó aprende a hablar de sus errores sin salir a buscar culpables."
+    },
+    {
+      "a": "roles_equipo",
+      "b": "andamiaje",
+      "r": "guiones_colaboracion",
+      "nota": "Roles definidos más instrucciones paso a paso, que luego se retiran, forman un guion para aprender a colaborar."
+    },
+    {
+      "a": "mito_lluvia",
+      "b": "evidencia",
+      "r": "grupo_nominal",
+      "nota": "La evidencia sobre la lluvia de ideas favorece a quienes piensan a solas primero, y la técnica de grupo nominal ordena justamente eso."
+    },
+    {
+      "a": "mito_lluvia",
+      "b": "tps",
+      "r": "grupo_nominal",
+      "nota": "Si a la lluvia de ideas le agregas el minuto en silencio de piensa, discute, comparte, te acercas a la técnica de grupo nominal."
+    },
+    {
+      "a": "fidelidad",
+      "b": "carga_cognitiva",
+      "r": "simulador_tareas",
+      "nota": "Para un novato, un escenario muy realista llena la memoria de trabajo, y un simulador de una sola tarea le deja espacio para aprender el movimiento."
+    },
+    {
+      "a": "fidelidad",
+      "b": "rv",
+      "r": "mito_realismo",
+      "nota": "Si confundes fidelidad con apariencia, la realidad virtual parece la respuesta a todo, y así se instala el mito."
+    },
+    {
+      "a": "mito_realismo",
+      "b": "evidencia",
+      "r": "fidelidad",
+      "nota": "Los estudios que comparan simuladores caros y sencillos obligan a separar el parecido físico de lo que la tarea exige, que es lo que más pesa."
+    },
+    {
+      "a": "paciente_estandarizado",
+      "b": "autentica",
+      "r": "osce",
+      "nota": "Una evaluación auténtica de la atención clínica necesita pacientes, y los estandarizados permiten examinar a todo el curso con el mismo caso."
+    },
+    {
+      "a": "miller",
+      "b": "autentica",
+      "r": "mini_cex",
+      "nota": "El escalón más alto de Miller es lo que haces en el trabajo real, y para evaluarlo alguien tiene que observarte allí."
+    },
+    {
+      "a": "miller",
+      "b": "competencias",
+      "r": "autentica",
+      "nota": "Si una competencia se demuestra haciendo, la pirámide de Miller te empuja a evaluarla con tareas parecidas al trabajo real."
+    },
+    {
+      "a": "juego_roles",
+      "b": "casos",
+      "r": "simulacion",
+      "nota": "Un caso que se actúa con papeles asignados, en lugar de solo discutirse, ya es una simulación de baja tecnología."
+    },
+    {
+      "a": "docente",
+      "b": "simulacion",
+      "r": "microensenanza",
+      "nota": "Un docente en formación también puede ensayar antes del aula real, y la clase breve simulada ante compañeros es la forma clásica de hacerlo."
+    },
+    {
+      "a": "osce",
+      "b": "criterial",
+      "r": "dominio_simulado",
+      "nota": "Si cada estación tiene un estándar fijo que todos deben alcanzar, practicando cuantas veces haga falta, estás ante el dominio con simulación."
+    },
+    {
+      "a": "simulador_tareas",
+      "b": "practica_deliberada",
+      "r": "dominio_simulado",
+      "nota": "Un simulador de una sola destreza y práctica deliberada hasta cumplir un estándar fijo son la base de los programas de dominio con simulación."
+    },
+    {
+      "a": "rol_observador",
+      "b": "coevaluacion",
+      "r": "lista_cotejo",
+      "nota": "Quien observa un escenario aprende más con una pauta de pasos en la mano, y con ella puede evaluar a sus compañeros."
+    },
+    {
+      "a": "rol_observador",
+      "b": "modelado",
+      "r": "autoeficacia",
+      "nota": "Ver a un compañero parecido a ti resolver el escenario es, según Bandura, una de las fuentes de confianza en tu propia capacidad."
+    },
+    {
+      "a": "entrenamiento_equipos",
+      "b": "error",
+      "r": "seguridad_psicologica",
+      "nota": "El entrenamiento de equipos enseña a decir “creo que hay un error” aunque lo haya cometido alguien de más jerarquía, y ese hábito da seguridad al equipo."
+    },
+    {
+      "a": "responsabilidad_individual",
+      "b": "jigsaw",
+      "r": "tutoria_pares",
+      "nota": "En el rompecabezas cada integrante responde por enseñar bien su pieza, así que todos pasan un rato como tutores de sus compañeros."
+    },
+    {
+      "a": "debriefing",
+      "b": "video",
+      "r": "mas_tecnologia",
+      "nota": "Proyectar la grabación del escenario durante el debriefing parece una mejora segura, aunque los estudios no muestran una ventaja clara sobre conversar sin video."
+    }
+  ],
+  "refs": {
+    "deutsch49": "Deutsch, M. (1949). A theory of co-operation and competition. _Human Relations, 2_(2), 129–152.",
+    "slavin96": "Slavin, R. E. (1996). Research on cooperative learning and achievement: What we know, what we need to know. _Contemporary Educational Psychology, 21_(1), 43–69.",
+    "michaelsen04": "Michaelsen, L. K., Knight, A. B., & Fink, L. D. (Eds.). (2004). _Team-based learning: A transformative use of small groups in college teaching_. Stylus.",
+    "michaelsen08": "Michaelsen, L. K., & Sweet, M. (2008). The essential elements of team-based learning. _New Directions for Teaching and Learning, 2008_(116), 7–27.",
+    "swanson19": "Swanson, E., McCulley, L. V., Osman, D. J., Scammacca Lewis, N., & Solis, M. (2019). The effect of team-based learning on content knowledge: A meta-analysis. _Active Learning in Higher Education, 20_(1), 39–50.",
+    "liu17": "Liu, S.-N. C., & Beaujean, A. A. (2017). The effectiveness of team-based learning on academic outcomes: A meta-analysis. _Scholarship of Teaching and Learning in Psychology, 3_(1), 1–14.",
+    "epstein02": "Epstein, M. L., Lazarus, A. D., Calvano, T. B., Matthews, K. A., Hendel, R. A., Epstein, B. B., & Brosvic, G. M. (2002). Immediate feedback assessment technique promotes learning and corrects inaccurate first responses. _The Psychological Record, 52_(2), 187–201.",
+    "oakley04": "Oakley, B., Felder, R. M., Brent, R., & Elhajj, I. (2004). Turning student groups into effective teams. _Journal of Student Centered Learning, 2_(1), 9–34.",
+    "ohland12": "Ohland, M. W., Loughry, M. L., Woehr, D. J., Bullard, L. G., Felder, R. M., Finelli, C. J., Layton, R. A., Pomeranz, H. R., & Schmucker, D. G. (2012). The comprehensive assessment of team member effectiveness: Development of a behaviorally anchored rating scale for self- and peer evaluation. _Academy of Management Learning & Education, 11_(4), 609–630.",
+    "kaufman00": "Kaufman, D. B., Felder, R. M., & Fuller, H. (2000). Accounting for individual effort in cooperative learning teams. _Journal of Engineering Education, 89_(2), 133–140.",
+    "mathieu09": "Mathieu, J. E., & Rapp, T. L. (2009). Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies. _Journal of Applied Psychology, 94_(1), 90–103.",
+    "latane79": "Latané, B., Williams, K., & Harkins, S. (1979). Many hands make light the work: The causes and consequences of social loafing. _Journal of Personality and Social Psychology, 37_(6), 822–832.",
+    "karau93": "Karau, S. J., & Williams, K. D. (1993). Social loafing: A meta-analytic review and theoretical integration. _Journal of Personality and Social Psychology, 65_(4), 681–706.",
+    "edmondson99": "Edmondson, A. (1999). Psychological safety and learning behavior in work teams. _Administrative Science Quarterly, 44_(2), 350–383.",
+    "johnson00": "Johnson, D. W., Johnson, R. T., & Smith, K. A. (2000). Constructive controversy: The educative power of intellectual conflict. _Change: The Magazine of Higher Learning, 32_(1), 28–37.",
+    "johnson09b": "Johnson, D. W., & Johnson, R. T. (2009). Energizing learning: The instructional power of conflict. _Educational Researcher, 38_(1), 37–51.",
+    "dedreu03": "De Dreu, C. K. W., & Weingart, L. R. (2003). Task versus relationship conflict, team performance, and team member satisfaction: A meta-analysis. _Journal of Applied Psychology, 88_(4), 741–749.",
+    "dewit12": "de Wit, F. R. C., Greer, L. L., & Jehn, K. A. (2012). The paradox of intragroup conflict: A meta-analysis. _Journal of Applied Psychology, 97_(2), 360–390.",
+    "doise84": "Doise, W., & Mugny, G. (1984). _The social development of the intellect_ (A. St. James-Emler y N. Emler, Trads.). Pergamon Press.",
+    "diehl87": "Diehl, M., & Stroebe, W. (1987). Productivity loss in brainstorming groups: Toward the solution of a riddle. _Journal of Personality and Social Psychology, 53_(3), 497–509.",
+    "mullen91": "Mullen, B., Johnson, C., & Salas, E. (1991). Productivity loss in brainstorming groups: A meta-analytic integration. _Basic and Applied Social Psychology, 12_(1), 3–23.",
+    "paulus93": "Paulus, P. B., Dzindolet, M. T., Poletes, G., & Camacho, L. M. (1993). Perception of performance in group brainstorming: The illusion of group productivity. _Personality and Social Psychology Bulletin, 19_(1), 78–89.",
+    "delbecq75": "Delbecq, A. L., Van de Ven, A. H., & Gustafson, D. H. (1975). _Group techniques for program planning: A guide to nominal group and Delphi processes_. Scott, Foresman.",
+    "helmreich99": "Helmreich, R. L., Merritt, A. C., & Wilhelm, J. A. (1999). The evolution of crew resource management training in commercial aviation. _The International Journal of Aviation Psychology, 9_(1), 19–32.",
+    "vogel17": "Vogel, F., Wecker, C., Kollar, I., & Fischer, F. (2017). Socio-cognitive scaffolding with computer-supported collaboration scripts: A meta-analysis. _Educational Psychology Review, 29_(3), 477–511.",
+    "wegner87": "Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. En B. Mullen y G. R. Goethals (Eds.), _Theories of group behavior_ (pp. 185–208). Springer.",
+    "liang95": "Liang, D. W., Moreland, R., & Argote, L. (1995). Group versus individual training and group performance: The mediating role of transactive memory. _Personality and Social Psychology Bulletin, 21_(4), 384–393.",
+    "salas08": "Salas, E., DiazGranados, D., Klein, C., Burke, C. S., Stagl, K. C., Goodwin, G. F., & Halpin, S. M. (2008). Does team training improve team performance? A meta-analysis. _Human Factors, 50_(6), 903–933.",
+    "hughes16": "Hughes, A. M., Gregory, M. E., Joseph, D. L., Sonesh, S. C., Marlow, S. L., Lacerenza, C. N., Benishek, L. E., King, H. B., & Salas, E. (2016). Saving lives: A meta-analysis of team training in healthcare. _Journal of Applied Psychology, 101_(9), 1266–1304.",
+    "inacsl16": "INACSL Standards Committee. (2016). INACSL standards of best practice: Simulation℠ Simulation design. _Clinical Simulation in Nursing, 12_(Suppl.), S5–S12.",
+    "issenberg05": "Issenberg, S. B., McGaghie, W. C., Petrusa, E. R., Gordon, D. L., & Scalese, R. J. (2005). Features and uses of high-fidelity medical simulations that lead to effective learning: A BEME systematic review. _Medical Teacher, 27_(1), 10–28.",
+    "hunt14": "Hunt, E. A., Duval-Arnould, J. M., Nelson-McMillan, K. L., Bradshaw, J. H., Diener-West, M., Perretta, J. S., & Shilkofski, N. A. (2014). Pediatric resident resuscitation skills improve after “rapid cycle deliberate practice” training. _Resuscitation, 85_(7), 945–951.",
+    "ericsson04": "Ericsson, K. A. (2004). Deliberate practice and the acquisition and maintenance of expert performance in medicine and related domains. _Academic Medicine, 79_(10 Suppl.), S70–S81.",
+    "mcgaghie11": "McGaghie, W. C., Issenberg, S. B., Cohen, E. R., Barsuk, J. H., & Wayne, D. B. (2011). Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? A meta-analytic comparative review of the evidence. _Academic Medicine, 86_(6), 706–711.",
+    "mcgaghie14": "McGaghie, W. C., Issenberg, S. B., Barsuk, J. H., & Wayne, D. B. (2014). A critical review of simulation-based mastery learning with translational outcomes. _Medical Education, 48_(4), 375–385.",
+    "barsuk09": "Barsuk, J. H., Cohen, E. R., Feinglass, J., McGaghie, W. C., & Wayne, D. B. (2009). Use of simulation-based education to reduce catheter-related bloodstream infections. _Archives of Internal Medicine, 169_(15), 1420–1423.",
+    "mcdermott21": "McDermott, D. S., Ludlow, J., Horsley, E., & Meakim, C. (2021). Healthcare Simulation Standards of Best Practice™ Prebriefing: Preparation and briefing. _Clinical Simulation in Nursing, 58_, 9–13.",
+    "dieckmann07": "Dieckmann, P., Gaba, D., & Rall, M. (2007). Deepening the theoretical foundations of patient simulation as social practice. _Simulation in Healthcare, 2_(3), 183–193.",
+    "rudolph14": "Rudolph, J. W., Raemer, D. B., & Simon, R. (2014). Establishing a safe container for learning in simulation: The role of the presimulation briefing. _Simulation in Healthcare, 9_(6), 339–349.",
+    "fanning07": "Fanning, R. M., & Gaba, D. M. (2007). The role of debriefing in simulation-based learning. _Simulation in Healthcare, 2_(2), 115–125.",
+    "cheng14": "Cheng, A., Eppich, W., Grant, V., Sherbino, J., Zendejas, B., & Cook, D. A. (2014). Debriefing for technology-enhanced simulation: A systematic review and meta-analysis. _Medical Education, 48_(7), 657–666.",
+    "rudolph06": "Rudolph, J. W., Simon, R., Dufresne, R. L., & Raemer, D. B. (2006). There's no such thing as “nonjudgmental” debriefing: A theory and method for debriefing with good judgment. _Simulation in Healthcare, 1_(1), 49–55.",
+    "rudolph08": "Rudolph, J. W., Simon, R., Raemer, D. B., & Eppich, W. J. (2008). Debriefing as formative assessment: Closing performance gaps in medical education. _Academic Emergency Medicine, 15_(11), 1010–1016.",
+    "eppich15": "Eppich, W., & Cheng, A. (2015). Promoting Excellence and Reflective Learning in Simulation (PEARLS): Development and rationale for a blended approach to health care simulation debriefing. _Simulation in Healthcare, 10_(2), 106–115.",
+    "hays89": "Hays, R. T., & Singer, M. J. (1989). _Simulation fidelity in training system design: Bridging the gap between reality and training_. Springer-Verlag.",
+    "hamstra14": "Hamstra, S. J., Brydges, R., Hatala, R., Zendejas, B., & Cook, D. A. (2014). Reconsidering fidelity in simulation-based training. _Academic Medicine, 89_(3), 387–392.",
+    "norman12": "Norman, G., Dore, K., & Grierson, L. (2012). The minimal relationship between simulation fidelity and transfer of learning. _Medical Education, 46_(7), 636–647.",
+    "bosse12": "Bosse, H. M., Schultz, J.-H., Nickel, M., Lutz, T., Möltner, A., Jünger, J., Huwendiek, S., & Nikendei, C. (2012). The effect of using standardized patients or peer role play on ratings of undergraduate communication training: A randomized controlled trial. _Patient Education and Counseling, 87_(3), 300–306.",
+    "lane07": "Lane, C., & Rollnick, S. (2007). The use of simulated patients and role-play in communication skills training: A review of the literature to August 2005. _Patient Education and Counseling, 67_(1–2), 13–20.",
+    "barrows93": "Barrows, H. S. (1993). An overview of the uses of standardized patients for teaching and evaluating clinical skills. _Academic Medicine, 68_(6), 443–451.",
+    "barton06": "Barton, K., Cunningham, C. D., Jones, G. T., & Maharg, P. (2006). Valuing what clients think: Standardized clients and the assessment of communicative competence. _Clinical Law Review, 13_(1), 1–65.",
+    "cook10": "Cook, D. A., Erwin, P. J., & Triola, M. M. (2010). Computerized virtual patients in health professions education: A systematic review and meta-analysis. _Academic Medicine, 85_(10), 1589–1602.",
+    "dejong13": "de Jong, T., Linn, M. C., & Zacharia, Z. C. (2013). Physical and virtual laboratories in science and engineering education. _Science, 340_(6130), 305–308.",
+    "allen69": "Allen, D. W., & Ryan, K. (1969). _Microteaching_. Addison-Wesley.",
+    "hattie09": "Hattie, J. (2009). _Visible learning: A synthesis of over 800 meta-analyses relating to achievement_. Routledge.",
+    "harden75": "Harden, R. M., Stevenson, M., Downie, W. W., & Wilson, G. M. (1975). Assessment of clinical competence using objective structured examination. _British Medical Journal, 1_(5955), 447–451.",
+    "ilgen15": "Ilgen, J. S., Ma, I. W. Y., Hatala, R., & Cook, D. A. (2015). A systematic review of validity evidence for checklists versus global rating scales in simulation-based assessment. _Medical Education, 49_(2), 161–173.",
+    "miller90": "Miller, G. E. (1990). The assessment of clinical skills/competence/performance. _Academic Medicine, 65_(9 Suppl.), S63–S67.",
+    "vandervleuten05": "van der Vleuten, C. P. M., & Schuwirth, L. W. T. (2005). Assessing professional competence: From methods to programmes. _Medical Education, 39_(3), 309–317.",
+    "elstein78": "Elstein, A. S., Shulman, L. S., & Sprafka, S. A. (1978). _Medical problem solving: An analysis of clinical reasoning_. Harvard University Press.",
+    "patterson13": "Patterson, M. D., Geis, G. L., Falcone, R. A., LeMaster, T., & Wears, R. L. (2013). In situ simulation: Detection of safety threats and teamwork training in a high risk emergency department. _BMJ Quality & Safety, 22_(6), 468–477.",
+    "oregan16": "O'Regan, S., Molloy, E., Watterson, L., & Nestel, D. (2016). Observer roles that optimise learning in healthcare simulation education: A systematic review. _Advances in Simulation, 1_, artículo 4.",
+    "norcini03": "Norcini, J. J., Blank, L. L., Duffy, F. D., & Fortna, G. S. (2003). The mini-CEX: A method for assessing clinical skills. _Annals of Internal Medicine, 138_(6), 476–481."
+  },
+  "misiones": [
+    {
+      "id": "equipos",
+      "n": "Equipos que funcionan",
+      "e": "🪿",
+      "meta": "cap_equipos",
+      "hitos": [
+        "interdependencia",
+        "tbl",
+        "equipo_cuentas"
+      ],
+      "encargo": "Te escribe Andrea Polo, que enseña Gestión de Proyectos de Construcción en cuarto año de Ingeniería Civil en una universidad de Barranquilla. Su curso gira en torno a un proyecto semestral en equipos de cinco que los estudiantes arman por afinidad. Al cierre del último semestre recibió tres correos de estudiantes que hicieron casi todo el trabajo y la queja de un equipo que se disolvió en la semana diez, mientras todos los integrantes recibieron la misma nota. Quiere que el trabajo en equipo deje aprendizaje en cada integrante y que el aporte de cada uno se vea antes del final.",
+      "objetivo": "Llega a 🪿 Equipos que funcionan para rediseñar con Andrea el trabajo en equipo de su curso, de modo que cada integrante aprenda y su aporte se vea a tiempo.",
+      "reflexiones": {
+        "interdependencia": "Si un integrante de los equipos de Andrea desapareciera en la semana diez, el resto podría terminar el proyecto igual. ¿Qué tarea de tu curso rediseñarías para que el equipo necesite de verdad a cada persona?",
+        "tbl": "Andrea podría abrir cada unidad con una prueba breve sobre la lectura, primero individual y luego en equipo. ¿Qué lectura de tu curso pondrías a prueba así, y qué decisión concreta tendría que tomar cada equipo después?",
+        "equipo_cuentas": "Las quejas le llegaron a Andrea cuando ya no había nada que hacer. ¿Qué normas le pedirías escribir a un equipo de tu curso en la primera semana, y en qué semana harías la primera evaluación de la contribución entre pares?"
+      },
+      "cierre": "Andrea ya puede formar ella misma los equipos y abrir cada unidad con una prueba individual seguida de la misma prueba en equipo. En la primera semana, cada equipo escribirá su acuerdo, y la evaluación de la contribución de la semana seis le mostrará quién se está quedando fuera cuando todavía hay tiempo de conversarlo. La nota final de cada integrante reflejará su aporte, y un equipo en crisis dará señales mucho antes de la semana diez."
+    },
+    {
+      "id": "simular",
+      "n": "Simular antes de la práctica",
+      "e": "🐤",
+      "meta": "cap_simular",
+      "hitos": [
+        "seguridad_psicologica",
+        "debriefing",
+        "contenedor_seguro"
+      ],
+      "encargo": "Te escribe Mariela Rojas, que coordina el centro de simulación de la carrera de Medicina en una universidad de Cochabamba. Hace dos años la facultad compró un maniquí de alta fidelidad que respira y tiene pulso, pero hoy se usa para demostraciones. Doce estudiantes miran cómo cuatro compañeros atienden un paro cardíaco y después el docente corrige los errores frente a todos. Los internos cuentan que en la sala de simulación se quedan paralizados y que llegan a su primera urgencia en el hospital sin haber practicado. Mariela quiere que el centro sirva para equivocarse y volver a intentar antes del internado.",
+      "objetivo": "Llega a 🐤 Simular antes de la práctica para rediseñar con Mariela las sesiones del centro, de modo que equivocarse ahí sirva para aprender antes del internado.",
+      "reflexiones": {
+        "seguridad_psicologica": "En el centro de Mariela el docente corrige los errores frente a todos y nadie quiere pasar al maniquí. ¿Qué dirías en los primeros minutos de una práctica de tu curso para que un error se pueda reconocer en voz alta?",
+        "debriefing": "Si condujeras el debriefing del paro cardíaco simulado, ¿con qué pregunta abrirías la conversación? Piensa en qué actividad práctica de tu materia podrías cerrar con una conversación así.",
+        "contenedor_seguro": "Mariela quiere que los internos lleguen al hospital habiendo fallado ya en la sala de simulación. ¿Qué le prometerías a tu curso antes de una práctica difícil, y cómo cumplirías esa promesa en el debriefing?"
+      },
+      "cierre": "Mariela ya puede abrir cada sesión pactando la ficción y aclarando que los errores no restan nota. Durante el paro simulado detendrá la escena cada vez que falle un paso para que el equipo lo repita, y al final preguntará qué pensaban antes de corregir. Los doce que antes solo miraban observarán con una pauta, y los internos llegarán al hospital habiendo ensayado varias veces sus primeras urgencias."
+    }
+  ]
+}
