@@ -325,11 +325,11 @@ export function abrirPlan() {
 
 /* ---------- Misiones ---------- */
 export function abrirMisiones() {
-  let h = '<h2>📜 Misiones</h2><p class="intro">Cada misión es un encargo real de docencia universitaria. Cada una trae un plano de piezas que se arma mezclando desde los cuatro primigenios hasta la meta. Las piezas que logres sirven para las demás misiones.</p><div class="misiones-grid">';
+  let h = '<h2>📜 Misiones</h2><p class="intro">Cada misión es un encargo real de docencia universitaria. Cada una trae un plano de piezas que se arma mezclando desde los cuatro primigenios hasta la meta. Las piezas que logres sirven para las demás misiones. La etiqueta de cada tarjeta indica su dificultad, según cuántas piezas tiene su plano.</p><div class="misiones-grid">';
   const orden = [...D.misiones].sort((a, b) => (b.tutorial ? 1 : 0) - (a.tutorial ? 1 : 0) || construibles(a).length - construibles(b).length);
   orden.forEach(m => {
     const n = piezasLogradas(m), st = E.misiones[m.id], tot = construibles(m).length;
-    const nivel = m.tutorial ? "Tutorial" : tot < 12 ? "Básica" : tot < 30 ? "Intermedia" : "Avanzada";
+    const nivel = m.tutorial ? "Tutorial" : "Dificultad " + (tot < 12 ? "básica" : tot < 30 ? "intermedia" : "avanzada");
     h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
       (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad de la misión según cuántas piezas tiene su plano">' + nivel + "</span></div></button>";
   });
