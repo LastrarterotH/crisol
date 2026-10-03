@@ -112,15 +112,13 @@ function pedirReflexion(m, id) {
     '<p class="etiqueta">★ Pieza clave de la misión · ' + esc(f.e + " " + f.n) + '</p><h2>Llévalo a tu curso</h2><p class="intro">Una pausa breve para pensar cómo usarías esta idea en una clase tuya. Lo que escribas queda en Mi plan, que puedes descargar y llevarte.</p>' +
     '<label class="campo" for="reflexion">' + esc(pregunta) + '<textarea id="reflexion" maxlength="600" placeholder="Por ejemplo: en mi curso de...">' + esc(st.reflexiones[id] || "") + "</textarea></label>" +
     '<div class="fila-botones"><button class="boton" type="button" data-accion="saltar">Ahora no</button><button class="boton principal" type="button" data-accion="guardar">Guardar en mi plan</button></div>',
-    {
-      saltar: cerrarPanel,
-      guardar: () => {
-        const t = $("reflexion").value.trim();
-        if (t) { st.reflexiones[id] = t; guardar(); emitir("reflexion", { mision: m.id, hito: id, texto: t }); aviso("Guardado en Mi plan."); }
-        cerrarPanel();
-      }
-    },
-    () => { renderHoja(); seguir(); }
+    { saltar: cerrarPanel, guardar: cerrarPanel },
+    // Lo escrito se guarda siempre, se cierre con el botón, la ✕ o Escape: perder una reflexión sin aviso es peor que guardarla.
+    () => {
+      const t = ((document.getElementById("reflexion") || {}).value || "").trim();
+      if (t && st.reflexiones[id] !== t) { st.reflexiones[id] = t; guardar(); emitir("reflexion", { mision: m.id, hito: id, texto: t }); aviso("Guardado en Mi plan."); }
+      renderHoja(); seguir();
+    }
   );
 }
 
