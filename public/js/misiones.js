@@ -329,9 +329,9 @@ export function abrirMisiones() {
   const orden = [...D.misiones].sort((a, b) => (b.tutorial ? 1 : 0) - (a.tutorial ? 1 : 0) || construibles(a).length - construibles(b).length);
   orden.forEach(m => {
     const n = piezasLogradas(m), st = E.misiones[m.id], tot = construibles(m).length;
-    const estrellas = tot < 12 ? "●○○" : tot < 30 ? "●●○" : "●●●";
+    const nivel = m.tutorial ? "Tutorial" : tot < 12 ? "Básica" : tot < 30 ? "Intermedia" : "Avanzada";
     h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
-      (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad">' + estrellas + "</span></div></button>";
+      (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad de la misión según cuántas piezas tiene su plano">' + nivel + "</span></div></button>";
   });
   h += "</div>";
   const p = abrirPanel(h);

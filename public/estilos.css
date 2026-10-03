@@ -282,7 +282,7 @@ button.mini:hover { border-color: var(--c); }
 .mision-carta .barrita { flex: 1; height: 6px; border-radius: 99px; background: color-mix(in srgb, var(--tinta) 8%, transparent); overflow: hidden; }
 .mision-carta .barrita i { display: block; height: 100%; background: linear-gradient(90deg, var(--oro), var(--acento)); border-radius: inherit; }
 .mision-carta .sello { position: absolute; top: 16px; right: 16px; font-size: 11.5px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--exito); background: color-mix(in srgb, var(--exito) 10%, white); border-radius: 99px; padding: 3px 10px; }
-.mision-carta .dificultad { color: var(--acento); letter-spacing: .12em; }
+.mision-carta .dificultad { flex: none; font-size: 10.5px; font-weight: 750; letter-spacing: .08em; text-transform: uppercase; color: var(--tinta-2); background: var(--sup-2); border: 1px solid var(--borde); border-radius: 99px; padding: 2px 9px; }
 .mision-carta.activa { border-color: var(--acento); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acento) 18%, transparent), var(--sombra-1); }
 .cuaderno-fam { margin-top: 20px; display: grid; gap: 10px; }
 .cuaderno-fam h3 { margin: 0; font-size: 15px; font-weight: 750; display: flex; gap: 10px; align-items: center; }
