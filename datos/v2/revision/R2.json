@@ -1,0 +1,536 @@
+{
+  "misiones": {
+    "ia": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "alta",
+          "tipo": "alineamiento",
+          "detalle": "El hito Evaluación en tiempos de IA descansa en una premisa falsa que se repite en la nota de su receta (\"decidir con datos que el chatbot no conoce\"), en la reflexión y en la prueba (\"agrega una decisión que dependa de datos de tu contexto\"). Cualquier estudiante puede pegar esos datos en el chatbot, así que agregarlos no protege la validez. Corbin, Dawson y Liu (2025) distinguen cambios discursivos (reglas que el estudiante puede ignorar) de cambios estructurales (defensa oral, tramo supervisado), y solo estos últimos sostienen la validez.",
+          "propuesta": "Reescribir la nota alfabetizacion_ia+autentica, la reflexión del hito y la prueba de evaluacion_ia para que el resguardo sea estructural (defensa oral o tramo hecho en clase), y citar a Corbin et al. (2025). Ver cambios en fichas y notas."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "alineamiento",
+          "detalle": "La evidencia que llega al comité está incompleta en el sentido que infla expectativas. En Bastani et al. (2025) el tutor con resguardos evitó el daño, pero no superó al grupo sin IA en el examen, y quienes lo usaron creyeron rendir mejor sin que fuera así. Los dos tutores exitosos (Bastani, Kestin) tenían la solución correcta escrita en sus instrucciones; sin ella, GPT-4 acertó solo el 51% de los problemas. Kestin midió dos lecciones con una prueba inmediata. Nada de esto aparece en tutoria, ia_que_ensena ni cap_ia.",
+          "propuesta": "Incorporar esos tres datos en las fichas tutoria, ia_que_ensena y cap_ia (ver cambios). Son verificables en el texto completo de ambos artículos."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El piloto del cierre (\"un semestre con una prueba final sin IA, para saber si la plataforma ayudó\") no permite saberlo, porque no tiene con qué comparar. La satisfacción del curso también engaña (Bastani et al., 2025) y los efectos se inflan con pruebas hechas a la medida del sistema (Kulik y Fletcher, 2016).",
+          "propuesta": "Pedir comparación con secciones que no usen la plataforma, o con la cohorte anterior, en una misma prueba que no provenga de la plataforma. Ver cierre nuevo."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "encargo",
+          "detalle": "\"La Ley 21.719 creó una agencia que fiscaliza\" es impreciso hoy. La ley se publicó el 13 de diciembre de 2024 y su artículo primero transitorio fija la entrada en vigencia el primer día del mes vigésimo cuarto posterior (1 de diciembre de 2026). Antes de esa fecha el consejo de la agencia solo ejerce funciones de instalación y sus normas no son obligatorias (artículo cuarto transitorio).",
+          "propuesta": "Usar una redacción que siga siendo verdadera antes y después de diciembre de 2026: \"creó una agencia para fiscalizar su protección\"."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "encargo",
+          "detalle": "El encargo parte de análisis que \"suenan a chatbot\", pero la misión nunca advierte que la impresión docente no sirve como prueba. Fleckenstein et al. (2024) mostraron que docentes nóveles y experimentados no distinguen textos de ChatGPT y confían de más en su juicio.",
+          "propuesta": "Sumar esa advertencia al principio sobre detectores en evaluacion_ia (incluido en los cambios de esa ficha)."
+        }
+      ],
+      "cambios": {
+        "encargo": "Te escribe Lorena Fuentes, directora de la carrera de Contador Auditor en una universidad de Valparaíso. La rectoría quiere licenciar una plataforma de tutoría con IA para Contabilidad Financiera I, la asignatura con más reprobación de primer año, y mientras tanto sus docentes reciben análisis de estados financieros que suenan a chatbot. Te pide una propuesta para el comité que ayude a aprender sin exponer datos de nadie, ahora que la Ley 21.719 creó una agencia para fiscalizar su protección.",
+        "cierre": "Lorena puede llevar al comité una propuesta acotada, con un tutor que da pistas en los asientos de ajuste, reglas de datos explicadas a cada estudiante y evaluaciones en que el chatbot no reemplaza el criterio contable. Incluye un piloto de un semestre en algunas secciones, con la misma prueba final sin IA para quienes usan la plataforma y quienes no, para saber si ayudó antes de pagar la licencia completa.",
+        "reflexiones": {
+          "evaluacion_ia": "¿Qué parte de tu evaluación final podría resolver hoy un chatbot, incluso si le entregas los datos del caso, y qué defensa oral o tramo hecho en clase agregarías para ver lo que sabe cada estudiante?"
+        }
+      }
+    },
+    "hibrido": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "camino",
+          "detalle": "La receta del camino \"Aprendizaje combinado + Ritmo propio = HyFlex\" y la ficha hyflex enseñan que HyFlex es un curso combinado en que el estudiante elige su ritmo. En Beatty (2019) lo que se elige es el modo de participar en cada sesión (sala, en vivo o asincrónico), con rutas equivalentes; el ritmo propio de Carroll (tiempo distinto para llegar a la meta) es otra idea.",
+          "propuesta": "Cambiar el tramo final del plano por dos recetas que ya existen: nivel 5, Entorno virtual + Ritmo propio = Modalidad asincrónica (su nota habla de participar entre turnos de trabajo, justo el caso de Wilmer); nivel 6, Modalidad asincrónica + Aprendizaje combinado = HyFlex. La meta queda en nivel 7."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "alineamiento",
+          "detalle": "Los estudiantes de las provincias altas trabajan por turnos y tienen señal intermitente en el celular. Para ellos la ruta real es la asincrónica y liviana, pero la misión no la nombra como hito y el cierre y la prueba proponen parejas mixtas sin decir cuándo trabajan, lo que en la práctica supone conexión en vivo el sábado.",
+          "propuesta": "Hacer de Modalidad asincrónica un hito con reflexión propia y precisar en el cierre y en la prueba de cap_hibrido que las parejas mixtas trabajan durante la semana por foro o mensajes de voz."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "reflexión",
+          "detalle": "La reflexión de Entorno virtual diagnostica (qué queda fuera de alcance) pero no pide una acción.",
+          "propuesta": "Agregar la acción de ofrecer una versión liviana de ese material."
+        }
+      ],
+      "cambios": {
+        "cierre": "Wilmer ya puede ofrecer rutas equivalentes que alimentan un mismo hilo de discusión, con sesiones de sábado que parten de lo dicho en el foro y casos que parejas mixtas preparan durante la semana por foro o mensajes de voz. Quien atiende en una posta de Espinar deja de escuchar desde lejos y aporta datos que nadie en la sala tiene.",
+        "reflexiones": {
+          "virtual": "Si un estudiante de tu curso solo pudiera entrar a la plataforma desde el celular, como varios de los de Wilmer, ¿qué material o actividad tuya le quedaría fuera de alcance, y qué versión liviana le ofrecerías esta semana?",
+          "asincronico": "Si parte de tu curso solo pudiera participar entre turnos de trabajo, como los estudiantes de Wilmer en los centros de salud, ¿qué pregunta semanal le darías para responder por escrito o por audio, y con qué plazo?"
+        }
+      }
+    },
+    "mitos": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "camino",
+          "detalle": "\"Estudiante + Motivación intrínseca = Solo usamos el 10% del cerebro\" es forzada. La motivación intrínseca de Ryan y Deci (hacer algo por la satisfacción que produce) no tiene relación con el mito, que viene de la literatura de autoayuda. También obliga a recorrer Emoción y Motivación intrínseca solo para llegar al mito.",
+          "propuesta": "Reemplazarla por Mente + Estudiante = Solo usamos el 10% del cerebro (combinación libre hoy), con la nota propuesta en recetas_dudosas. El plano baja de 18 a 15 recetas y Emoción y Motivación quedan como piezas opcionales."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "La nota de Taxonomía de Bloom + Aprendizaje activo = Pirámide sugiere un origen que ninguna fuente documenta. Las cifras se atribuyen al cono de Dale, que la ficha del mito ya menciona.",
+          "propuesta": "Usar la nota propuesta, que conecta con el cono de Dale."
+        }
+      ],
+      "cambios": {}
+    },
+    "curso": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "alta",
+          "tipo": "camino",
+          "detalle": "La misión trae una reflexión para Resultados de aprendizaje, pero esa ficha no está en el plano ni en los hitos, y tampoco está Evaluación. El problema del encargo (quince unidades y una prueba de fechas que nadie relaciona con el oficio) y la meta de Biggs (resultado, actividad y evaluación alineados) dependen justo de esas dos piezas. Hoy el Diseño inverso sale de Tiempo + Propósito y el Alineamiento de Diseño inverso + Aprendizaje activo, sin que el jugador toque resultados ni evaluación.",
+          "propuesta": "Usar recetas que ya existen: nivel 3, Propósito + Saber = Resultados de aprendizaje; nivel 4, Resultados de aprendizaje + Estudiante = Evaluación; nivel 5, Resultados de aprendizaje + Evaluación = Diseño inverso (su nota describe la segunda etapa de Wiggins y McTighe); nivel 6, Diseño inverso + Aprendizaje activo = Alineamiento constructivo; meta en nivel 7. Agregar resultados a los hitos para que su reflexión se active. Tiempo + Propósito = Diseño inverso queda como alternativa."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El cierre y la síntesis sugieren que las opciones para todos bastan para la estudiante sorda. El DUA no reemplaza los ajustes razonables individuales (intérprete de lengua de señas ecuatoriana, videos subtitulados), que son un derecho según la Convención de la ONU (art. 24). El propio juego tiene la ficha Ajustes razonables.",
+          "propuesta": "Nombrar en el cierre el intérprete y los videos subtitulados, y agregar un principio en cap_curso con la referencia onu06."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "alineamiento",
+          "detalle": "El camino llega al DUA desarmando el mito de los estilos, y el motor muestra \"esto es lo que la evidencia sí respalda\". La evidencia de que el DUA mejore el aprendizaje todavía es débil, y Boysen (2024), al revisar los estudios que CAST cita, concluyó que ese respaldo es escaso. Ante especialistas, presentar el DUA como reemplazo probado es atacable.",
+          "propuesta": "Mantener la receta, pero matizar la ficha dua (ver cambios) y revisar el mensaje del motor para este caso (ver recetas_dudosas)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "La nota de la receta meta dice \"para que llegue también quien no ve la pizarra\", en una misión cuya estudiante es sorda.",
+          "propuesta": "Cambiar por \"quien no oye la clase\" (ver notas)."
+        }
+      ],
+      "cambios": {
+        "cierre": "El programa que le entregas a Verónica tiene pocos resultados con verbos claros, actividades que los practican y una evaluación que pide lo mismo, con más de una forma de entregarla. La estudiante sorda, que mantiene su intérprete y recibe los videos subtitulados, y quienes salen de la imprenta a las seis llegan a la misma meta por caminos distintos y se evalúan con los mismos criterios."
+      }
+    }
+  },
+  "fichas": {
+    "lenguaje": {
+      "gravedad": "baja",
+      "problema": "La primera oración invierte la relación. El lenguaje no surge del diálogo (el diálogo ya lo supone); lo que Vygotsky describe es que el habla social se interioriza y pasa a servir para pensar. La misma inversión está en la nota de Mente + Diálogo.",
+      "cambios": {
+        "why": "Cuando el diálogo con otros se instala en la mente, el lenguaje pasa a ser también una herramienta para pensar. Vygotsky sostuvo que el habla tiene un origen social y que, con el desarrollo, se interioriza como pensamiento verbal. Lemke mostró que aprender ciencias es en buena parte aprender a hablar ciencia, y lo mismo vale para otras disciplinas, cada una con su vocabulario y su manera de argumentar."
+      }
+    },
+    "previos": {
+      "gravedad": "baja",
+      "problema": "No tiene uni. La cita de Ausubel no reemplaza un ejemplo de aula aplicable la próxima semana.",
+      "cambios": {
+        "uni": "En la primera clase de Microeconomía, pide que cada estudiante explique por escrito por qué sube el precio del pan y parte la clase desde las explicaciones erróneas más repetidas."
+      }
+    },
+    "zdp": {
+      "gravedad": "baja",
+      "problema": "La pista define la zona por su borde exterior (\"lo que aún no logras ni siquiera con ayuda\") y se presta a leerla como la franja de lo imposible. La definición de Vygotsky se centra en lo que se logra con guía.",
+      "cambios": {
+        "pista": "Lo que todavía no logras solo, pero sí con una pista de alguien que sabe más."
+      }
+    },
+    "ritmo": {
+      "gravedad": "baja",
+      "problema": "La uni describe un recurso genérico, sin disciplina ni acción concreta del docente.",
+      "cambios": {
+        "uni": "En Contabilidad I, publica los ejercicios de cada unidad con solución comentada y fija plazos por bloque, no por clase, para que cada estudiante dedique el tiempo que necesita."
+      }
+    },
+    "dominio": {
+      "gravedad": "baja",
+      "problema": "La uni reduce el modelo a reintentar el mismo cuestionario. Bloom (1968) pedía actividades correctivas y una segunda prueba formativa paralela; reintentar la misma prueba premia memorizar las respuestas.",
+      "cambios": {
+        "uni": "En Química General, cada módulo cierra con un cuestionario con mínimo de 80%; quien no llega hace ejercicios correctivos según la retroalimentación y rinde una versión paralela."
+      }
+    },
+    "evaluacion": {
+      "gravedad": "media",
+      "problema": "Scriven (1967) acuñó formativa y sumativa para evaluar currículos y programas, no el aprendizaje de estudiantes; fueron Bloom, Hastings y Madaus (1971) quienes llevaron la distinción al aula. Tal como está, atribuye a Scriven algo que no dijo. También falta la uni.",
+      "cambios": {
+        "why": "Evaluar es contrastar lo que el estudiante muestra con el propósito que se buscaba. Scriven distinguió en 1967, al evaluar currículos, dos funciones: la formativa, que sirve para mejorar mientras el proceso ocurre, y la sumativa, que juzga el resultado al final. Bloom, Hastings y Madaus llevaron después esa distinción a la evaluación del aprendizaje de los estudiantes.",
+        "uni": "En Anatomía, antes de aplicar una prueba, anota junto a cada pregunta qué resultado de aprendizaje mide y cambia las que no midan ninguno.",
+        "refs": [
+          "scriven67",
+          "bloom71"
+        ]
+      }
+    },
+    "adaptativo": {
+      "gravedad": "media",
+      "problema": "La primera oración describe la receta Analítica + Ritmo propio y no la del plano (Tecnología + Aprendizaje para el dominio). Más importante para la misión de IA: la evidencia citada es de tutores inteligentes en investigación, y la ficha no advierte que no se traslada sola a cualquier plataforma comercial, que es justo lo que la rectoría de Lorena quiere licenciar.",
+      "cambios": {
+        "why": "Un sistema adaptativo estima qué domina cada estudiante y ajusta la dificultad o la secuencia de las tareas, como un aprendizaje para el dominio automatizado. Su antecedente más estudiado son los tutores inteligentes. VanLehn encontró que los que corrigen paso a paso se acercan a la eficacia de un tutor humano, y Kulik y Fletcher, en 50 evaluaciones controladas, hallaron efectos mucho mayores en pruebas hechas a medida que en pruebas estandarizadas. Esos resultados no garantizan que cualquier plataforma comercial funcione igual."
+      }
+    },
+    "ia": {
+      "gravedad": "media",
+      "problema": "El why no explica qué es ni por qué falla (predice continuaciones probables y por eso puede inventar con fluidez), que es la base de todo el resto de la misión; solo resume recomendaciones de UNESCO. La uni es una afirmación sin evidencia citada (\"pedirle críticas lo mantiene\"), no una acción concreta de aula.",
+      "cambios": {
+        "why": "Tecnología que produce texto, imágenes o código a partir de instrucciones, prediciendo la continuación más probable según patrones aprendidos de enormes cantidades de datos. Por eso redacta con fluidez y aun así puede inventar datos o citas. La guía de UNESCO para educación e investigación pide un enfoque centrado en las personas, que proteja los datos y valide las herramientas antes de usarlas con estudiantes, sin delegar en ellas el juicio pedagógico.",
+        "uni": "En Escritura Académica, pide que cada estudiante pegue su borrador en el chatbot que autorizó la universidad, le pida tres críticas y anote cuáles aceptó y por qué."
+      }
+    },
+    "autentica": {
+      "gravedad": "media",
+      "problema": "Dos problemas. (1) La cifra \"125 artículos\" no aparece en el resumen de Villarroel et al. (2018) y no pude verificarla; el resumen sí dice que revisaron literatura de 1988 a 2015. (2) Afirma que la evaluación auténtica \"hace visibles el proceso y el juicio\" y que por eso resiste mejor a la IA. Lo que define a la auténtica es el realismo; una tarea realista también se puede delegar en un chatbot, y lo que da garantías es ver el proceso o escuchar una defensa. Como la ficha se usa en otras misiones, conviene no mezclar ahí el argumento de IA sin matiz.",
+      "cambios": {
+        "why": "Una evaluación auténtica pide resolver tareas propias del mundo profesional, con sus condiciones y estándares de calidad. Villarroel y colaboradores revisaron la literatura publicada entre 1988 y 2015 y la organizaron en tres dimensiones: realismo, desafío cognitivo y juicio evaluativo (que el estudiante aprenda a juzgar la calidad de su propio trabajo). Frente a la IA, una tarea realista también se puede delegar, así que conviene sumarle momentos en que el proceso y el juicio del estudiante queden a la vista."
+      }
+    },
+    "personalizacion_responsable": {
+      "gravedad": "baja",
+      "problema": "El why tiene 116 palabras (límite 85). El contenido es correcto; propongo una versión condensada sin perder las fuentes.",
+      "cambios": {
+        "why": "Integra el aprendizaje adaptativo, que ajusta ejercicios según lo que demuestra cada estudiante, con la privacidad y ética de los datos. Se necesitan porque no hay adaptación sin observar a quien estudia, y esa observación obliga a decidir quién accede a esos datos, para qué y con qué consentimiento. Los tutores que corrigen paso a paso rinden bien (VanLehn), pero los efectos se achican en pruebas estandarizadas (Kulik y Fletcher). Slade y Prinsloo piden transparencia y que el estudiante ayude a interpretar sus datos."
+      }
+    },
+    "tutoria": {
+      "gravedad": "media",
+      "problema": "El why omite tres datos que cambian la conclusión para un comité. (1) El tutor con resguardos evitó el daño, pero no superó al grupo sin IA en el examen (Bastani et al., 2025, diferencia estadísticamente nula). (2) Su prompt incluía la solución correcta y los errores frecuentes escritos por docentes; sin eso, GPT-4 acertó solo el 51% de los problemas. (3) El 17% es relativo al grupo de control, cosa que el texto no dice. La uni no es un ejemplo de aula, es una advertencia.",
+      "cambios": {
+        "why": "Un tutor con IA es un chatbot con andamiaje, que pide razonamiento y da pistas graduales en lugar de respuestas. En un experimento con casi mil estudiantes de secundaria en Turquía, quienes practicaron con ChatGPT sin restricciones rindieron 17% menos que el grupo sin IA en un examen posterior. Una versión tutora, con la solución correcta y los errores frecuentes en sus instrucciones, evitó ese daño, aunque tampoco superó al grupo sin IA. En educación superior hay pocos estudios controlados.",
+        "uni": "En Estadística, configura un chatbot con la solución de un ejercicio de intervalos de confianza y la orden de dar una pista por turno; revisa cinco conversaciones antes de la clase."
+      }
+    },
+    "alfabetizacion_ia": {
+      "gravedad": "baja",
+      "problema": "La uni da por hecho el resultado (\"descubren referencias inventadas\"). Puede pasar o no, según el modelo; la actividad sirve igual si se formula como verificación.",
+      "cambios": {
+        "uni": "En un seminario de Derecho, los estudiantes piden a un chatbot jurisprudencia sobre un caso, verifican cada fallo citado en bases oficiales y anotan cuáles no existen o no dicen lo afirmado."
+      }
+    },
+    "evaluacion_ia": {
+      "gravedad": "alta",
+      "problema": "La prueba y la nota de la receta suponen que una decisión con datos del contexto impide que el chatbot baste, lo que es falso, porque el estudiante puede entregarle esos datos. El principio sobre la escala AIAS presenta la declaración de niveles como resguardo, pero Corbin, Dawson y Liu (2025) muestran que esas reglas discursivas no se pueden hacer cumplir y crean una ilusión de seguridad. La frase sobre detectores generaliza a \"segunda lengua\" un hallazgo de Liang et al. (2023) que se probó solo en textos en inglés. El why tiene 120 palabras (límite 85).",
+      "cambios": {
+        "why": "Integra la evaluación auténtica, que pide tareas propias del oficio, con la alfabetización en IA, que enseña a usar estas herramientas sabiendo dónde fallan. Dawson y colaboradores proponen tratar la trampa como un problema de validez, es decir, preguntarse si la evaluación muestra lo que el egresado sabe hacer. Declarar qué uso de IA se permite orienta, pero no impide usarla, y por eso Corbin y colaboradores piden cambios en la estructura de la tarea, como una defensa oral o un tramo en clase.",
+        "prueba": "Dale a un chatbot tu próxima tarea escrita, incluidos los datos del caso, y califica su respuesta con tu rúbrica. Si aprueba, agrega cinco minutos de defensa oral sobre las decisiones del trabajo o un tramo resuelto en clase.",
+        "principios": [
+          "Pregúntate primero si la tarea muestra lo que el estudiante sabe hacer, y solo después cómo prevenir la trampa (Dawson et al., 2024).",
+          "Pide productos y decisiones propios del oficio, con datos o casos de tu contexto que obliguen a ejercer criterio (Villarroel et al., 2018).",
+          "Declara qué uso de IA permites en cada tarea según el resultado que evalúa, y asegura con una defensa oral o un tramo supervisado lo que debe mostrarse sin IA (Perkins et al., 2024; Corbin et al., 2025).",
+          "Haz de la verificación parte de la tarea, pidiendo contrastar lo que dice el chatbot con fuentes y señalar sus errores (Long y Magerko, 2020).",
+          "No uses detectores ni tu impresión como prueba, porque los detectores fallan, castigan más a quienes escriben en inglés como segunda lengua y los docentes tampoco distinguen textos de ChatGPT (Weber-Wulff et al., 2023; Liang et al., 2023; Fleckenstein et al., 2024)."
+        ],
+        "refs": [
+          "villarroel18",
+          "long20",
+          "dawson24",
+          "perkins24",
+          "corbin25",
+          "weber23",
+          "liang23",
+          "fleckenstein24"
+        ]
+      }
+    },
+    "ia_que_ensena": {
+      "gravedad": "media",
+      "problema": "El why (125 palabras, límite 85) dice que la versión tutora \"evitó en buena medida ese daño\", pero no que tampoco mejoró el examen frente al grupo sin IA, ni que ambos tutores exitosos tenían la solución correcta escrita en sus instrucciones, ni que Kestin midió con una prueba inmediata tras dos lecciones. Sin la solución en el prompt, la prueba de la semana produciría un tutor que se equivoca a menudo (GPT-4 acertó el 51% en Bastani et al.). Los principios no recogen ese requisito.",
+      "cambios": {
+        "why": "Suma al tutor con IA, que da pistas, una evaluación que califica el razonamiento propio. En el experimento de Bastani y colaboradores, quienes practicaron con ChatGPT sin restricciones rindieron 17% menos que el grupo sin IA en un examen sin ayuda, y la versión tutora evitó ese daño sin superar a ese grupo. En física en Harvard, Kestin y colaboradores midieron más aprendizaje que en una clase activa, en dos lecciones y con una prueba inmediata. Ambos tutores tenían la solución correcta en sus instrucciones.",
+        "prueba": "Escribe las instrucciones de un tutor para el tema más difícil de tu curso, con la solución correcta y los errores frecuentes, y pídele que pregunte qué intentó el estudiante y dé una pista por turno. Pruébalo tres veces tratando de sacarle la solución y corrige lo que falle antes de compartirlo.",
+        "principios": [
+          "Escribe en las instrucciones del tutor la solución correcta y los errores frecuentes, porque sin ellas GPT-4 resolvió bien solo la mitad de los problemas (Bastani et al., 2025).",
+          "Configura el tutor para que pregunte qué intentó el estudiante y dé una pista por turno, sin entregar la solución (Bastani et al., 2025).",
+          "Construye el tutor sobre principios de enseñanza conocidos, como pasos breves, retroalimentación inmediata y avance al propio ritmo (Kestin et al., 2025).",
+          "Evalúa algunos momentos sin IA, porque rendir bien con ayuda, y creer que se aprendió, puede ocultar lo que falta (Bastani et al., 2025).",
+          "Pide al estudiante que revise y corrija lo que le dijo el tutor, porque también se equivoca (Long y Magerko, 2020).",
+          "Revisa muestras de las conversaciones con el tutor y decide tú qué retomar en clase, sin delegar en la IA el juicio pedagógico (Miao y Holmes, 2023)."
+        ]
+      }
+    },
+    "cap_ia": {
+      "gravedad": "media",
+      "problema": "El why tiene 125 palabras (límite 85) y presenta a Bastani y Kestin como contrapeso simétrico sin decir que el tutor con resguardos no superó al grupo sin IA y que Kestin midió dos lecciones con prueba inmediata. La prueba (\"una pregunta final sin IA para comprobar si aprendieron\") no permite atribuir nada al tutor sin una comparación. Falta un principio contra juzgar el piloto por la satisfacción, que en Bastani et al. (2025) resultó engañosa.",
+      "cambios": {
+        "why": "Reúne la IA que enseña a pensar con la personalización responsable, que adapta la práctica con reglas claras sobre los datos. Lo realista es calibrar expectativas con una evidencia reciente y escasa. Bastani y colaboradores mostraron que, sin resguardos, la IA mejora la práctica y empeora el aprendizaje, y que un tutor bien configurado evita ese daño sin superar al grupo sin IA. Kestin y colaboradores sí midieron más aprendizaje, en dos lecciones. Clark ya advertía que el efecto depende del método.",
+        "prueba": "Elige el tema donde más se atasca tu curso y diseña un piloto de dos semanas con un tutor que dé pistas, un aviso escrito sobre los datos y una pregunta final sin IA, que compararás con la misma pregunta del semestre anterior.",
+        "principios": [
+          "Elige primero el tema que traba a tu curso y el método que lo destraba, y solo después la herramienta (Clark, 1983).",
+          "Configura la IA para pedir razonamiento, conserva evaluaciones sin IA y no juzgues el piloto por la satisfacción del curso, porque quienes usaron el tutor creyeron rendir mejor sin que fuera así (Bastani et al., 2025).",
+          "Mide el piloto con una prueba que no dependa de la plataforma y compárala con secciones o cohortes que no la usaron, porque los efectos crecen con pruebas hechas a la medida del sistema (Kulik y Fletcher, 2016).",
+          "Usa solo los datos necesarios y explica al curso para qué sirven (Slade y Prinsloo, 2013).",
+          "Valida cada herramienta antes de llevarla al aula y conserva en manos humanas el juicio pedagógico (Miao y Holmes, 2023).",
+          "Enseña al curso a usar la IA con criterio, verificando lo que produce y reconociendo cuándo no conviene (Long y Magerko, 2020)."
+        ]
+      }
+    },
+    "virtual": {
+      "gravedad": "baja",
+      "problema": "La uni es un diagnóstico, no una acción que el docente pueda hacer la próxima semana.",
+      "cambios": {
+        "uni": "Revisa tu aula virtual de Salud Pública y anota, semana a semana, qué actividad hace interactuar al estudiante con el contenido, contigo y con sus pares; completa la que falte."
+      }
+    },
+    "presencial": {
+      "gravedad": "baja",
+      "problema": "No tiene uni.",
+      "cambios": {
+        "uni": "Revisa tu próxima clase presencial de Kinesiología y deja en ella lo que gana con estar juntos, como practicar una técnica con supervisión; la exposición pásala a un video."
+      }
+    },
+    "hyflex": {
+      "gravedad": "media",
+      "problema": "\"Si al curso combinado le sumas el ritmo propio, aparece el modelo híbrido flexible\" confunde la elección del modo de participar (lo que define a HyFlex según Beatty) con el ritmo propio de Carroll. Un docente saldría creyendo que HyFlex es un curso a ritmo libre.",
+      "cambios": {
+        "why": "Si al curso combinado le sumas una ruta asincrónica equivalente, aparece el modelo híbrido flexible de Beatty, en que el estudiante elige en cada sesión si participa en la sala, en línea en vivo o de forma asincrónica. Todas las rutas deben llevar a los mismos resultados de aprendizaje. La flexibilidad está en cómo participa cada estudiante en cada sesión, lo que es distinto de avanzar a su propio ritmo."
+      }
+    },
+    "cap_hibrido": {
+      "gravedad": "media",
+      "problema": "El why tiene 115 palabras (límite 85) y afirma que \"HyFlex resuelve el acceso\" y que las presencias \"son las que vuelven a reunir\" a las rutas. Para estudiantes con señal intermitente, HyFlex no resuelve el acceso por sí solo, y la evidencia de la comunidad de indagación se apoya sobre todo en percepciones de estudiantes, así que conviene un verbo más prudente. La prueba arma parejas mixtas \"para el primer ejercicio\" de la sesión, lo que exige conexión en vivo justo a quienes no la tienen.",
+      "cambios": {
+        "why": "Combina el modelo HyFlex de Beatty, en que cada estudiante elige en cada sesión entre sala, conexión en vivo o ruta asincrónica, con la comunidad de indagación de Garrison, Anderson y Archer. HyFlex abre rutas, pero por sí solo puede dejar tres cursos paralelos que no se hablan. Las presencias cognitiva, social y docente ayudan a reunirlos si el diseño crea a propósito interacción entre rutas, como pedía Moore. La evidencia sobre aprendizaje en HyFlex todavía es limitada, así que conviene evaluar la propia experiencia.",
+        "prueba": "En tu próxima sesión, abre comentando dos aportes del foro hechos por estudiantes que no estaban en la sala, y arma parejas mixtas de sala y distancia que preparen juntas el caso de la semana siguiente por foro o mensajes.",
+        "principios": [
+          "Haz equivalentes las rutas, de modo que la sala, la conexión en vivo y el trabajo asincrónico lleven a los mismos resultados (Beatty, 2019).",
+          "Ejerce la presencia docente en todos los canales, diseñando la pregunta, moderando y cerrando con una síntesis que llegue también a quien estudia días después (Garrison et al., 2000).",
+          "Cuida la presencia social con tareas que crucen modalidades, como parejas de sala y distancia que preparan juntas un caso durante la semana (Garrison et al., 2000).",
+          "Planifica la interacción entre estudiantes de distintas rutas, porque no aparece sola (Moore, 1989).",
+          "Prepara materiales reutilizables y accesibles para todas las rutas, con subtítulos, livianos y descargables para trabajar sin señal (Beatty, 2019)."
+        ]
+      }
+    },
+    "motivacion": {
+      "gravedad": "media",
+      "problema": "\"Cuando el estudiante hace suyo el propósito de lo que estudia, aparece la motivación intrínseca\" confunde dos constructos de la teoría de la autodeterminación. Hacer propia una meta valiosa es internalización (regulación identificada, una motivación extrínseca autónoma); la intrínseca es el gusto por la actividad misma, como dice la propia cita de Ryan y Deci (2000). Un especialista lo marcaría. El why tiene 87 palabras.",
+      "cambios": {
+        "why": "La motivación intrínseca es hacer algo por el interés o la satisfacción que produce en sí mismo, y no por una recompensa externa. La teoría de la autodeterminación de Ryan y Deci propone que se nutre de tres necesidades básicas: autonomía, competencia y vinculación con otros. Cuando el estudiante valora la meta aunque la tarea no le guste, la teoría habla de regulación identificada, una motivación extrínseca pero autónoma. Opciones reales y desafíos alcanzables tienden a sostener ambas mejor que premios y castigos."
+      }
+    },
+    "bloom": {
+      "gravedad": "baja",
+      "problema": "La uni es una afirmación, no una acción para la próxima semana.",
+      "cambios": {
+        "uni": "En Biología Celular, clasifica cada pregunta de tu última prueba según el verbo de Bloom que exige y reemplaza dos de recordar por preguntas que pidan analizar."
+      }
+    },
+    "ciencia_aprendizaje": {
+      "gravedad": "baja",
+      "problema": "\"Saber más sobre el cerebro no los protegía\" suaviza el hallazgo. Dekker et al. (2012) encontraron que más conocimiento general sobre el cerebro predecía más creencia en neuromitos, un dato útil para la sesión de Ximena.",
+      "cambios": {
+        "why": "Es el campo que estudia con métodos empíricos cómo se aprende, reuniendo la psicología cognitiva con la educación y la neurociencia, y por eso sirve para poner a prueba los neuromitos. Dekker y colaboradores encontraron que docentes del Reino Unido y Países Bajos creían cerca de la mitad de los neuromitos presentados, y que quienes sabían más sobre el cerebro creían más mitos. Howard-Jones explica cómo hallazgos reales se deforman en mitos, y Weinstein, Madan y Sumeracki resumen seis estrategias con respaldo sólido."
+      }
+    },
+    "cap_mitos": {
+      "gravedad": "baja",
+      "problema": "El why tiene 111 palabras (límite 85). Para un claustro de Guadalajara conviene un dato latinoamericano: Gleichgerrcht et al. (2015) encuestaron a 3.451 docentes de la región y hallaron creencias erróneas frecuentes, como en otros países.",
+      "cambios": {
+        "why": "Pone a trabajar juntas la docencia informada por evidencia, que pregunta de dónde sale cada receta, y la ciencia del aprendizaje, que ofrece prácticas probadas para reemplazarlas. Hace falta la segunda porque desmentir deja un hueco, y Lewandowsky y colaboradores concluyeron que una corrección funciona mejor cuando ofrece una explicación alternativa. Los neuromitos son frecuentes entre docentes (Dekker y colaboradores) y la formación los reduce sin eliminarlos (Macdonald y colaboradores), así que conviene revisarlos en grupo y con la fuente original a la vista.",
+        "principios": [
+          "Pide la fuente original de toda cifra que circule y revisa si dice lo que se le atribuye (Letrud, 2012).",
+          "Al desmentir un mito, ofrece en el mismo momento una explicación mejor que ocupe su lugar (Lewandowsky et al., 2012).",
+          "Reemplaza cada mito por una práctica con respaldo, como la recuperación y el espaciado frente a la relectura de apuntes (Dunlosky et al., 2013).",
+          "Rescata el hallazgo real detrás de cada deformación, como el respaldo al aprendizaje activo que la pirámide caricaturiza con porcentajes sin fuente (Freeman et al., 2014).",
+          "Discute los mitos sin ridiculizar a nadie, porque son frecuentes incluso entre docentes interesados en el cerebro, también en América Latina (Dekker et al., 2012; Gleichgerrcht et al., 2015).",
+          "Lee con tus colegas estudios revisados por pares, porque esa costumbre se asoció con creer menos neuromitos (Macdonald et al., 2017)."
+        ],
+        "refs": [
+          "dekker12",
+          "lewandowsky12",
+          "macdonald17",
+          "dunlosky13",
+          "letrud12",
+          "freeman14",
+          "gleichgerrcht15"
+        ]
+      }
+    },
+    "inverso": {
+      "gravedad": "baja",
+      "problema": "La uni reduce la evidencia del logro a \"la pregunta del examen final\". Wiggins y McTighe privilegian tareas de desempeño, y en la misión de Verónica el problema es justamente una prueba de fechas.",
+      "cambios": {
+        "uni": "En Historia del Arte, antes de preparar la primera clase, redacta la tarea final que mostraría el logro, como analizar una obra que el curso no vio, y su rúbrica."
+      }
+    },
+    "alineamiento": {
+      "gravedad": "baja",
+      "problema": "\"El estudiante aprende lo que se buscaba\" promete un resultado que el alineamiento no garantiza. No explica por qué es \"constructivo\" (el estudiante construye significado con lo que hace), que es la mitad del concepto. No tiene uni.",
+      "cambios": {
+        "why": "Cuando resultados, actividades y evaluación apuntan a lo mismo, es más probable que el estudiante aprenda lo que se buscaba. Biggs lo llamó alineamiento constructivo, porque el estudiante construye el significado con lo que hace; si el resultado pide analizar, la actividad debe poner a analizar y la evaluación debe pedir análisis. También advierte que los estudiantes aprenden lo que creen que se les va a evaluar, de modo que una prueba de memoria produce memorización aunque el programa prometa otra cosa.",
+        "uni": "En Economía, si el resultado dice analizar políticas, reemplaza la prueba de definiciones por el análisis de una política real y practica ese análisis en clase."
+      }
+    },
+    "dua": {
+      "gravedad": "media",
+      "problema": "La ficha llega como reemplazo del mito de los estilos y el motor la presenta como \"lo que la evidencia sí respalda\", pero no dice que su evidencia sobre aprendizaje todavía es débil. Boysen (2024) revisó los estudios que CAST cita como respaldo de sus pautas y concluyó que la mayoría no ofrecía elección ni medía aprendizaje. La referencia cast18 (pautas 2.2) quedó reemplazada por la versión 3.0 de julio de 2024.",
+      "cambios": {
+        "why": "El DUA planifica desde el inicio para la diversidad de todo el curso, sin etiquetar a cada estudiante con un estilo. CAST lo organiza en tres principios: ofrecer múltiples formas de implicación, de representación y de acción y expresión. Las opciones quedan abiertas para todos, y cada estudiante usa las que le sirven. Es un marco de diseño más que un método probado; Boysen revisó los estudios que CAST cita como respaldo y halló poca evidencia, así que conviene evaluar cada opción.",
+        "refs": [
+          "cast18",
+          "meyer14",
+          "boysen24"
+        ]
+      }
+    },
+    "cap_curso": {
+      "gravedad": "baja",
+      "problema": "El why tiene 121 palabras (límite 85). Falta un principio que distinga las opciones para todos de los ajustes individuales, central para la estudiante sorda del caso.",
+      "cambios": {
+        "why": "Integra el alineamiento constructivo de Biggs, en que resultados, actividades y evaluación piden el mismo tipo de pensamiento, con el Diseño Universal para el Aprendizaje, que planifica desde el inicio para la diversidad del curso. El alineamiento fija qué debe lograrse y el DUA abre varios caminos para lograrlo y demostrarlo. Si el resultado es argumentar una interpretación, puede entregarse por escrito o en video, con los mismos criterios. Conviene revisar si la evaluación exige habilidades ajenas al resultado, como escribir rápido a mano.",
+        "principios": [
+          "Escribe cada resultado con un verbo observable y revisa que la evaluación pida ese mismo verbo (Biggs y Tang, 2011).",
+          "Diseña primero la evidencia final y después las actividades que preparan para producirla (Wiggins y McTighe, 2005).",
+          "Mantén firme la meta y ofrece más de una forma de demostrarla, evaluada con los mismos criterios (Meyer et al., 2014).",
+          "Entrega el material en más de un formato desde el primer día, sin esperar a que alguien pida un ajuste (CAST, 2024).",
+          "Da opciones que sostengan el interés, como elegir el caso o el tema sobre el que se aplica el resultado (CAST, 2024).",
+          "Mantén los ajustes razonables que alguien necesita, como el intérprete de lengua de señas o los videos subtitulados, junto con las opciones abiertas a todo el curso (Naciones Unidas, 2006)."
+        ],
+        "refs": [
+          "biggs11",
+          "wiggins05",
+          "cast18",
+          "meyer14",
+          "onu06"
+        ]
+      }
+    }
+  },
+  "notas": {
+    "dialogo+mente": {
+      "problema": "Invierte la relación: el diálogo ya supone lenguaje. Lo que se interioriza es el habla, que pasa a servir para pensar (Vygotsky).",
+      "nota": "Después de mucho diálogo, la mente se queda con las palabras y empieza a usarlas para pensar a solas. El lenguaje pasa a ser también herramienta del pensamiento."
+    },
+    "alfabetizacion_ia+autentica": {
+      "problema": "Premisa falsa: el estudiante puede darle al chatbot los datos de la tarea. La validez no viene de esconder datos.",
+      "nota": "Si el estudiante usa el chatbot en una tarea del oficio sabiendo dónde falla, y después defiende sus decisiones, la nota vuelve a mostrar lo que sabe."
+    },
+    "evaluacion_ia+tutoria": {
+      "problema": "\"Deja de convenirle\" promete un efecto absoluto que ningún estudio mostró.",
+      "nota": "El tutor no entrega la respuesta y la prueba final pide explicar cada paso, así que delegar el razonamiento en la máquina le sirve menos al estudiante."
+    },
+    "estudiante+tecnologia": {
+      "problema": "29 palabras (límite 28).",
+      "nota": "Junta a un estudiante con un celular y es tentador concluir que, por crecer entre pantallas, ya sabe usarlo para aprender. Esa conclusión sin evidencia es el mito."
+    },
+    "coi+hyflex": {
+      "problema": "Repite la confusión de HyFlex con el ritmo propio y afirma que las presencias \"los reúnen\", con más certeza de la que da la evidencia.",
+      "nota": "HyFlex deja elegir sala, conexión en vivo o ruta asincrónica, con riesgo de tres cursos paralelos. Las presencias de Garrison ayudan a reunirlos en una conversación."
+    },
+    "activo+bloom": {
+      "problema": "Sugiere un origen de la pirámide que ninguna fuente documenta; las cifras se atribuyen al cono de Dale.",
+      "nota": "Ordenar actividades en niveles, como Bloom ordena objetivos, recuerda al cono de Dale, al que alguien le agregó porcentajes de retención sin estudio que los respalde."
+    },
+    "emocion+proposito": {
+      "problema": "Llama motivación intrínseca a hacer propio un propósito, que en la teoría de la autodeterminación es regulación identificada. La intrínseca es el gusto por la actividad misma.",
+      "nota": "Si un propósito propio se junta con el gusto por la tarea misma, las ganas ya no dependen de premios. Ese gusto es la motivación intrínseca."
+    },
+    "estilos+reflexiva": {
+      "problema": "29 palabras (límite 28).",
+      "nota": "Al reflexionar sobre los estilos se rescata que el curso es diverso y se descarta la etiqueta. El DUA atiende esa diversidad con opciones para todos."
+    },
+    "alineamiento+dua": {
+      "problema": "\"Quien no ve la pizarra\" no calza con la estudiante sorda del caso.",
+      "nota": "Biggs alinea la meta con la práctica y la prueba. El DUA abre varios caminos hacia esa misma meta, para que llegue también quien no oye la clase."
+    },
+    "curriculo+perfil_egreso": {
+      "problema": "Describe alineamiento curricular de la carrera y lo llama alineamiento constructivo sin explicar el vínculo con Biggs.",
+      "nota": "Biggs y Tang extienden el alineamiento al programa, de modo que cada curso aporta a un rasgo del perfil de egreso y su evaluación lo comprueba."
+    },
+    "constructivismo+grupo": {
+      "problema": "\"Vygotsky llevó el constructivismo al plano social\" es anacrónico; la etiqueta de constructivismo social es posterior a su obra.",
+      "nota": "En la versión social del constructivismo, que suele atribuirse a Vygotsky, lo que un estudiante logra con ayuda de alguien más capaz marca su zona de desarrollo próximo."
+    }
+  },
+  "recetas_dudosas": [
+    {
+      "a": "blended",
+      "b": "ritmo",
+      "r": "hyflex",
+      "gravedad": "media",
+      "problema": "Enseña que HyFlex es un curso combinado a ritmo propio. Según Beatty (2019), lo que se elige es el modo de participar en cada sesión, con rutas equivalentes; no es avanzar con más o menos tiempo hacia la meta, que es el ritmo propio de Carroll.",
+      "propuesta": "Sacarla del plano de hibrido y usar Modalidad asincrónica + Aprendizaje combinado = HyFlex (ya existe). Para no perder la combinación, redirigirla a Aprendizaje combinado + Ritmo propio = Aula invertida, con la nota: \"Si en un curso combinado cada estudiante revisa la exposición en línea a su ritmo, la sala queda libre para practicar. Eso es el aula invertida.\" O quitarla."
+    },
+    {
+      "a": "estudiante",
+      "b": "motivacion",
+      "r": "cerebro10",
+      "gravedad": "media",
+      "problema": "Relación forzada: la motivación intrínseca (gusto por la actividad misma) no explica ni genera el mito del 10%, que viene de la literatura de autoayuda. También asocia un constructo sólido a un neuromito.",
+      "propuesta": "Cambiar por Mente + Estudiante = Solo usamos el 10% del cerebro (hoy libre), con la nota: \"Imaginar que la mente del estudiante trabaja a una fracción de su capacidad es una idea vieja y atractiva. De ahí sale el mito del 10% del cerebro.\" Acorta el plano de mitos en tres recetas."
+    },
+    {
+      "a": "estilos",
+      "b": "reflexiva",
+      "r": "dua",
+      "gravedad": "media",
+      "problema": "La relación es defendible (se rescata la diversidad y se descarta la etiqueta), pero el motor muestra en este caso \"Desarmaste un mito... esto es lo que la evidencia sí respalda\", y Boysen (2024) concluyó que los estudios que CAST cita como respaldo aportan poca evidencia.",
+      "propuesta": "Mantenerla con la ficha dua matizada. En el motor, para mitos cuyo reemplazo es un marco de diseño y no un hallazgo, usar un texto como \"esto es lo que conviene hacer en su lugar\"."
+    }
+  ],
+  "refs": {
+    "bastani25": {
+      "problema": "APA 7 lista hasta 20 autores en la referencia; \"et al.\" no corresponde. Falta el DOI. (La corrección publicada en PNAS 122(34) solo cambia una afiliación, no los resultados.)",
+      "apa": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), artículo e2422633122. https://doi.org/10.1073/pnas.2422633122"
+    },
+    "kestin25": {
+      "problema": "Falta el DOI.",
+      "apa": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. _Scientific Reports, 15_, artículo 17458. https://doi.org/10.1038/s41598-025-97652-6"
+    },
+    "long20": {
+      "problema": "Faltan páginas, editorial y DOI de las actas.",
+      "apa": "Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. En _Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems_ (pp. 1–16). Association for Computing Machinery. https://doi.org/10.1145/3313831.3376727"
+    },
+    "perkins24": {
+      "problema": "Falta el DOI.",
+      "apa": "Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. _Journal of University Teaching and Learning Practice, 21_(6). https://doi.org/10.53761/q3azde36"
+    },
+    "weber23": {
+      "problema": "Usa \"et al.\" en la referencia (APA 7 lista los ocho autores) y le falta el DOI. La propongo como fuente de evaluacion_ia.",
+      "apa": "Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). Testing of detection tools for AI-generated text. _International Journal for Educational Integrity, 19_, artículo 26. https://doi.org/10.1007/s40979-023-00146-z"
+    },
+    "unesco23": {
+      "problema": "Falta el DOI.",
+      "apa": "Miao, F., & Holmes, W. (2023). _Guidance for generative AI in education and research_. UNESCO. https://doi.org/10.54675/EWZM9535"
+    },
+    "digcomp22": {
+      "problema": "Título incompleto, falta el número de informe y el DOI.",
+      "apa": "Vuorikari, R., Kluzer, S., & Punie, Y. (2022). _DigComp 2.2: The Digital Competence Framework for Citizens. With new examples of knowledge, skills and attitudes_ (EUR 31006 EN). Publications Office of the European Union. https://doi.org/10.2760/115376"
+    },
+    "scriven67": {
+      "problema": "Faltan las páginas del capítulo y el formato de editores mezcla \"y\" con el \"&\" que usa el resto de la bibliografía.",
+      "apa": "Scriven, M. (1967). The methodology of evaluation. En R. W. Tyler, R. M. Gagné, & M. Scriven (Eds.), _Perspectives of curriculum evaluation_ (pp. 39–83). Rand McNally."
+    },
+    "cast18": {
+      "problema": "Las pautas 2.2 (2018) fueron reemplazadas por la versión 3.0, publicada por CAST el 30 de julio de 2024. Los tres principios se mantienen. La clave puede quedar igual o renombrarse a cast24 en las seis fichas que la usan.",
+      "apa": "CAST. (2024). _Universal Design for Learning Guidelines version 3.0_. https://udlguidelines.cast.org"
+    },
+    "garrison00": {
+      "problema": "El rango del número va con raya corta (2–3) y falta el DOI. La editorial fecha el volumen en 1999, aunque la cita habitual es 2000; basta con usar siempre la misma.",
+      "apa": "Garrison, D. R., Anderson, T., & Archer, W. (2000). Critical inquiry in a text-based environment: Computer conferencing in higher education. _The Internet and Higher Education, 2_(2–3), 87–105. https://doi.org/10.1016/S1096-7516(00)00016-6"
+    },
+    "moore89": {
+      "problema": "El título publicado incluye \"Editorial:\" y falta el DOI.",
+      "apa": "Moore, M. G. (1989). Editorial: Three types of interaction. _American Journal of Distance Education, 3_(2), 1–7. https://doi.org/10.1080/08923648909526659"
+    },
+    "prensky01": {
+      "problema": "El título publicado incluye \"Part 1\" (la parte 2 salió en el número 6) y falta el DOI.",
+      "apa": "Prensky, M. (2001). Digital natives, digital immigrants Part 1. _On the Horizon, 9_(5), 1–6. https://doi.org/10.1108/10748120110424816"
+    }
+  },
+  "refs_nuevas": {
+    "corbin25": "Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: Why structural assessment changes are needed for a time of GenAI. _Assessment & Evaluation in Higher Education, 50_(7), 1087–1097. https://doi.org/10.1080/02602938.2025.2503964",
+    "fleckenstein24": "Fleckenstein, J., Meyer, J., Jansen, T., Keller, S. D., Köller, O., & Möller, J. (2024). Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays. _Computers and Education: Artificial Intelligence, 6_, artículo 100209. https://doi.org/10.1016/j.caeai.2024.100209",
+    "boysen24": "Boysen, G. A. (2024). A critical analysis of the research evidence behind CAST's universal design for learning guidelines. _Policy Futures in Education, 22_(7), 1219–1238. https://doi.org/10.1177/14782103241255428",
+    "bloom71": "Bloom, B. S., Hastings, J. T., & Madaus, G. F. (1971). _Handbook on formative and summative evaluation of student learning_. McGraw-Hill.",
+    "gleichgerrcht15": "Gleichgerrcht, E., Lira Luttges, B., Salvarezza, F., & Campos, A. L. (2015). Educational neuromyths among teachers in Latin America. _Mind, Brain, and Education, 9_(3), 170–178. https://doi.org/10.1111/mbe.12086"
+  },
+  "resumen": "La base del paquete es buena: casi todas las referencias existen y respaldan lo que se les atribuye, las cifras centrales son exactas y los encargos son verosímiles. Los problemas más serios son de alineamiento. En ia, la evaluación en tiempos de IA se apoya en la idea falsa de que agregar datos del contexto impide que el chatbot baste, y las fichas del tutor omiten que el tutor con resguardos de Bastani et al. no superó al grupo sin IA y que los dos tutores exitosos tenían la solución escrita en sus instrucciones. En curso, Resultados de aprendizaje y Evaluación faltan en el plano aunque hay una reflexión para el primero, y en hibrido la receta de HyFlex lo confunde con el ritmo propio. Verifiqué metadatos con Crossref y OpenAlex, leí el texto completo de Bastani, Kestin, Dekker y Macdonald en Europe PMC, la Ley 21.719 en LeyChile (vigencia el 1 de diciembre de 2026), a Haskins en Gutenberg y las pautas 3.0 en el sitio de CAST. No pude verificar los 125 artículos de Villarroel et al. (2018), que propongo quitar, ni el texto completo de Howard-Jones (2014) para las cifras por país, y la búsqueda web general no estaba disponible, así que trabajé con las API. Ninguna referencia del paquete trae DOI; lo agregué solo en las que corregí por otro motivo."
+}

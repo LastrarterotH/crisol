@@ -1,0 +1,404 @@
+{
+  "misiones": {
+    "escritura": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "baja",
+          "tipo": "cierre",
+          "detalle": "La meta integra la escritura a través del currículo, pero el cierre se queda dentro del curso de Rodrigo. El encargo parte de su creencia de que escribir era tarea del taller de primer semestre, y el cierre no dice qué hará con el resto de la carrera.",
+          "propuesta": "Agregar al cierre una acción concreta a nivel de carrera, como llevar a la reunión de docentes de Nutrición el acuerdo de que cada asignatura enseñe los textos que pide."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "La nota de Escribir para aprender + Aprendizaje situado = Alfabetización académica describe escribir informes clínicos o memorias de cálculo reales, es decir, géneros profesionales situados. Para Carlino, la alfabetización académica es participar en la cultura escrita de las disciplinas dentro de la universidad. La nota adelanta Géneros disciplinares y desdibuja la diferencia entre las dos fichas.",
+          "propuesta": "Reemplazar la nota (ver sección notas, clave escribir+situado)."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "progresión",
+          "detalle": "La prueba de la meta (cap_escritura) pide una unidad completa y comparar con el semestre anterior, así que no se puede hacer en una semana, como exige el formato de las síntesis.",
+          "propuesta": "Usar la prueba de una semana propuesta en fichas.cap_escritura."
+        }
+      ],
+      "cambios": {
+        "cierre": "Rodrigo ya tiene un plan para su semestre. Cada clase de Bioquímica termina con unos minutos de escritura sin nota que le muestran a tiempo quién entiende la glucemia, y el informe de caso clínico pasa por un borrador que dos compañeros comentan antes de la versión calificada. Una clase entera se dedica a desarmar una nota de evolución real, y Rodrigo llevará a la reunión de docentes de Nutrición la propuesta de que cada asignatura enseñe los textos que pide."
+      }
+    },
+    "disciplina": {
+      "veredicto": "sólida",
+      "hallazgos": [
+        {
+          "gravedad": "baja",
+          "tipo": "progresión",
+          "detalle": "El camino reúne varios conceptos vecinos (punto ciego y conocimiento tácito, modelado y aprendiz cognitivo, conceptos umbral y cuello de botella). Las fichas los distinguen bien, pero una nota alternativa (Conocimiento pedagógico del contenido + Cambio conceptual) llama a los conceptos umbral \"cuellos de botella\", que en el juego es otra ficha.",
+          "propuesta": "Corregir esa nota (ver notas, clave cambio_conceptual+cpc) para que un docente no especialista no confunda el concepto que transforma la mirada con la tarea donde el curso se atasca."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "alineamiento",
+          "detalle": "El objetivo pide que el curso aprenda a dudar de los documentos, y esa parte la lleva Pensamiento crítico disciplinar, que no es hito. El cierre la recoge bien (Daniela entrega sus preguntas por escrito), así que no rompe la misión.",
+          "propuesta": "Sin cambio obligatorio. Si se quiere reforzar, sumar a la reflexión de Aprendiz cognitivo la pregunta por las dudas que el curso debería aprender a hacerse frente a un documento o un dato de su campo."
+        }
+      ],
+      "cambios": {}
+    },
+    "equipos": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El problema del encargo es el proyecto semestral (polizones, un equipo que se disuelve en la semana diez, nota igual para todos). El cierre habla de pruebas de preparación por unidad, acuerdo y evaluación de la contribución, pero no dice cómo cambia el proyecto mismo ni cómo se ajusta la nota. La interdependencia positiva, que es hito, no aparece en el cierre.",
+          "propuesta": "Reescribir el cierre para que el proyecto se divida en piezas que se necesitan entre sí, con comprobación individual en cada entrega, y para que la nota se ajuste con el juicio de los pares (con tope, como proponen Oakley y colaboradores)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "El desvío Saber + Tiempo = Currículo, Currículo + Tiempo = Carga de trabajo y Grupo + Carga de trabajo = Holgazanería social es largo para llegar a una sola pieza. La receta final es defendible, porque Aggarwal y O'Brien (2008) encontraron en proyectos universitarios que la holgazanería crece con el tamaño del proyecto y del grupo, pero la ficha de Holgazanería no lo cita y atribuye el efecto de la carga a estudios que no lo midieron.",
+          "propuesta": "Ajustar la ficha holgazaneria (ver fichas) para que el vínculo con la carga quede respaldado."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "progresión",
+          "detalle": "La prueba de Equipo que rinde cuentas dice \"Dentro de un mes\", así que no se puede completar en una semana.",
+          "propuesta": "Usar la prueba propuesta en fichas.equipo_cuentas."
+        }
+      ],
+      "cambios": {
+        "cierre": "Andrea ya puede formar ella misma los equipos y abrir cada unidad con una prueba individual seguida de la misma prueba en equipo. El proyecto semestral se divide en piezas que se necesitan entre sí, como el cronograma y el presupuesto, y en cada entrega cualquier integrante puede tener que explicar una pieza que no hizo. Cada equipo escribirá su acuerdo en la primera semana, y la evaluación de la contribución de la semana seis mostrará quién se está quedando fuera cuando todavía hay tiempo de conversarlo. La nota final de cada integrante se ajustará con el juicio de sus pares, y un equipo en crisis dará señales mucho antes de la semana diez."
+      }
+    },
+    "simular": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El encargo denuncia que doce estudiantes miran y solo cuatro practican. El cierre mantiene a los doce como observadores (\"observarán con una pauta\"), así que no resuelve que lleguen sin haber practicado. Además dice \"los internos llegarán al hospital\", cuando el objetivo es preparar a los estudiantes antes del internado.",
+          "propuesta": "Que todos se turnen frente al maniquí (la práctica en ciclos rápidos lo permite) y observen con pauta mientras esperan, y que el cierre hable de llegar al internado."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "reflexión",
+          "detalle": "La reflexión de Debriefing pregunta primero por el caso de Mariela y deja la aplicación al propio curso como un \"Piensa en...\" sin acción concreta, a diferencia de las otras dos.",
+          "propuesta": "Pedir directamente qué actividad del propio curso se cerrará la próxima semana con una conversación guiada y con qué pregunta se abrirá."
+        }
+      ],
+      "cambios": {
+        "cierre": "Mariela ya puede abrir cada sesión pactando la ficción y aclarando que los errores no restan nota. Durante el paro simulado detendrá la escena cada vez que falle un paso para que el equipo lo repita, y al final dirá lo que vio y preguntará qué pensaban antes de corregir. Los dieciséis estudiantes se turnarán frente al maniquí y, mientras esperan, observarán con una pauta, de modo que todos lleguen al internado habiendo ensayado varias veces sus primeras urgencias.",
+        "reflexiones": {
+          "debriefing": "Mariela abrirá el debriefing del paro simulado con una pregunta antes de corregir. ¿Qué actividad práctica de tu curso cerrarás la próxima semana con una conversación guiada, y con qué pregunta la abrirás?"
+        }
+      }
+    }
+  },
+  "fichas": {
+    "situado": {
+      "gravedad": "media",
+      "problema": "La primera oración (\"Ubicar al estudiante en un contexto real cambia lo que aprende\") y la tesis de que el saber aprendido fuera de contexto queda sin aplicar se presentan como hechos asentados. Es una posición teórica discutida: Anderson, Reder y Simon (1996) revisaron la evidencia y concluyeron que las tesis del aprendizaje situado están exageradas (el saber sí se transfiere entre tareas y la instrucción abstracta también sirve). Ante especialistas conviene mostrar el debate.",
+      "cambios": {
+        "why": "Ubicar al estudiante en un contexto real puede cambiar lo que aprende. Brown, Collins y Duguid sostienen que el conocimiento está ligado a la actividad, el contexto y la cultura donde se usa, y que aprendido lejos de ellos tiende a quedar inerte. Anderson, Reder y Simon objetaron que esas tesis están exageradas, porque mucho saber se transfiere entre tareas y la instrucción abstracta también sirve, así que conviene combinar práctica en contexto con enseñanza explícita.",
+        "refs": [
+          "brown89",
+          "anderson96"
+        ]
+      }
+    },
+    "comunidad_practica": {
+      "gravedad": "baja",
+      "problema": "El ejemplo de aula describe dos casos (\"funcionan como comunidades de práctica\") en vez de proponer una acción para la próxima semana, y la mitad trata de docentes y no de estudiantes.",
+      "cambios": {
+        "uni": "En Enfermería, pide que cada estudiante acompañe un turno en su centro de práctica y anote qué tareas le dejan hacer al novato y qué palabras del equipo todavía no entiende."
+      }
+    },
+    "coevaluacion": {
+      "gravedad": "media",
+      "problema": "El ejemplo (revisar anteproyectos con la rúbrica y dejar comentarios antes de la entrega final) es revisión formativa entre pares, la misma práctica de la ficha Revisión entre pares de textos, cuya explicación dice justamente que se diferencia de la evaluación entre pares porque no pone nota. El why de esta ficha trata de la concordancia entre notas de pares y del docente (Topping; Falchikov y Goldfinch), y el ejemplo debería mostrar eso.",
+      "cambios": {
+        "uni": "En Arquitectura, cada estudiante puntúa con la rúbrica dos anteproyectos anónimos de compañeros, con un juicio global por criterio; compara esas notas con las tuyas y conversa con el curso dónde difieren."
+      }
+    },
+    "revision_pares": {
+      "gravedad": "baja",
+      "problema": "La pista dice que quien revisa \"aprende a escribir mejor\", pero el why no lo respalda y la fuente que lo prueba (Cho y MacArthur, 2011, Learning by reviewing) no está; en su lugar figura cho10, que el why no usa. Además \"resultados similares a los de la retroalimentación docente\" exagera la precisión: Huisman y colaboradores informan g = 0,46 con un intervalo de -0,44 a 1,36 y advierten que hay pocos estudios bien controlados.",
+      "cambios": {
+        "why": "Si los comentarios sobre borradores vienen de compañeros que leen con criterios compartidos, aparece la revisión entre pares de textos. Se diferencia de la evaluación entre pares porque busca mejorar el texto antes de la entrega, sin poner nota. El metaanálisis de Huisman y colaboradores encontró mejoras en la escritura universitaria frente a no recibir comentarios y frente a la autoevaluación, sin diferencias claras con la retroalimentación docente. Cho y MacArthur vieron que quien comenta textos ajenos luego escribe mejor los propios.",
+        "refs": [
+          "huisman19",
+          "cho11"
+        ]
+      }
+    },
+    "borradores_ida_vuelta": {
+      "gravedad": "baja",
+      "problema": "(1) El why dice que hay respaldo \"para las dos mitades del ciclo\" justo después de definir esas mitades como escritura de bajo riesgo y revisión entre pares, pero la evidencia que da es sobre recibir y dar comentarios de pares; la mitad de bajo riesgo queda sin respaldo empírico citado. (2) El principio 5 llama \"comparables\" a los efectos de pares y docente, cuando Huisman y colaboradores reportan un intervalo muy amplio con pocos estudios. (3) La prueba no precisa el tamaño de la tarea, y con un trabajo largo no cabe en una semana.",
+      "cambios": {
+        "why": "Une la escritura de bajo riesgo de Elbow con la revisión entre pares. El estudiante escribe primero sin la presión de la nota, un compañero comenta con criterios y el texto vuelve a su autor para reescribirse antes de la versión calificada. La revisión entre pares tiene buen respaldo, porque recibir comentarios de pares mejora la escritura universitaria y redactar comentarios para otros también mejora el texto propio.",
+        "prueba": "Elige una tarea escrita breve, de una página, y divídela en dos entregas dentro de la semana. Pide un borrador sin nota, organiza una ronda en que cada estudiante comente dos textos ajenos con preguntas tomadas de tu rúbrica y califica solo la versión reescrita. Cuenta cuántos estudiantes cambiaron algo de fondo entre una versión y otra.",
+        "principios": [
+          "Separa las tareas que solo sirven para pensar, que casi no llevan nota, de las que calificas con cuidado, y avísale al curso cuál es cuál (Elbow, 1997).",
+          "Comenta el borrador cuando todavía se puede cambiar, con observaciones propias de ese texto en vez de frases que servirían para cualquier trabajo (Sommers, 1982).",
+          "Organiza la revisión con criterios explícitos y más de un lector por texto, porque los comentarios de varios pares se asociaron con revisiones más profundas que los de un solo experto (Cho y MacArthur, 2010).",
+          "Haz que todo el curso comente, aunque ese día no reciba comentarios, porque redactar la revisión de otro mejora la escritura propia (Cho y MacArthur, 2011).",
+          "No necesitas comentar tú cada borrador, porque las mejoras con comentarios de pares no difirieron con claridad de las logradas con comentarios del docente, aunque hay pocos estudios que comparen ambos (Huisman et al., 2019)."
+        ]
+      }
+    },
+    "wac": {
+      "gravedad": "baja",
+      "problema": "\"Carlino lo dio a conocer en la bibliografía en español\" atribuye una prioridad difícil de sostener; Carlino fue una de sus principales difusoras en América Latina, y su artículo de 2013 sí discute el movimiento y los límites de los talleres aislados. La referencia carlino13 no trae páginas (ver refs).",
+      "cambios": {
+        "why": "Si la escritura para pensar se suma a los géneros de cada disciplina, aparece la escritura a través del currículo. Este movimiento nació en Estados Unidos y el Reino Unido en los años setenta y sostiene que escribir se aprende, y sirve para aprender, en todas las asignaturas de una carrera. Carlino lo difundió en América Latina y advirtió que un taller aislado tiene límites frente a la escritura enseñada dentro de cada materia."
+      }
+    },
+    "cap_escritura": {
+      "gravedad": "media",
+      "problema": "La prueba pide trabajar una unidad completa, con texto final, borrador comentado y versión final, y comparar con el semestre anterior. No se puede hacer en una semana.",
+      "cambios": {
+        "prueba": "Esta semana, cierra dos clases con tres minutos de escritura sin nota sobre una pregunta del tema y lee los textos buscando el error más repetido. En la clase siguiente, muestra un texto real del género de tu campo, pide un párrafo de ese género y que cada estudiante comente el de un compañero con dos preguntas de tu rúbrica. Cuenta cuántos reescriben su párrafo después del comentario."
+      }
+    },
+    "mapa": {
+      "gravedad": "baja",
+      "problema": "El ejemplo no nombra disciplina ni tema y queda genérico; cuesta aplicarlo la próxima semana tal como está.",
+      "cambios": {
+        "uni": "En Fisiología, pide que cada estudiante arme en quince minutos el mapa de la regulación de la presión arterial, con un verbo en cada flecha, y revisa qué enlaces faltan antes de la prueba."
+      }
+    },
+    "pensamiento_critico": {
+      "gravedad": "baja",
+      "problema": "El why tiene 86 palabras (límite 85). Además \"Exponerse al contenido no alcanza para desarrollarlo\" no proviene de la fuente citada (Abrami et al., 2015, que informa estrategias eficaces, tanto genéricas como dentro de la materia); se puede quitar sin perder nada.",
+      "cambios": {
+        "why": "Un panel de expertos coordinado por Facione definió el pensamiento crítico como un juicio intencional y autorregulado que interpreta, analiza, evalúa e infiere, y que explica las evidencias y criterios en que se apoya. Se forma cuando el estudiante aprende a pedir evidencias y a vigilar su propio razonamiento. El metaanálisis de Abrami y colaboradores mostró que la enseñanza lo mejora, sobre todo cuando el diálogo se combina con problemas auténticos y con el acompañamiento de un mentor."
+      }
+    },
+    "cambio_conceptual": {
+      "gravedad": "baja",
+      "problema": "El ejemplo repite el del why y no dice qué hacer (\"enfrentar esa idea con un caso que no explica\"). No es aplicable tal como está.",
+      "cambios": {
+        "uni": "En Física I, pide predecir por escrito qué fuerzas actúan sobre un disco que se desliza solo sobre hielo, muestra un video y discute las predicciones antes de presentar la inercia."
+      }
+    },
+    "punto_ciego": {
+      "gravedad": "baja",
+      "problema": "El ejemplo pide a un estudiante marcar los pasos que el docente \"nunca dice en voz alta\", algo que el estudiante no puede saber. Para destapar el punto ciego conviene preguntar qué pasos no habría sabido dar solo.",
+      "cambios": {
+        "uni": "En Estadística, antes de explicar un ejercicio, escribe todos los pasos que das, incluidos los obvios, y pide a dos estudiantes que marquen los que no habrían sabido dar solos."
+      }
+    },
+    "conceptos_umbral": {
+      "gravedad": "baja",
+      "problema": "El ejemplo describe el concepto (por qué el costo de oportunidad es umbral) pero no propone una acción de aula.",
+      "cambios": {
+        "uni": "En Economía, pregunta al iniciar la unidad si conviene aceptar una entrada gratis a un concierto la víspera de una prueba, y repite la pregunta al cierre para ver qué renuncias considera el curso."
+      }
+    },
+    "cap_disciplina": {
+      "gravedad": "baja",
+      "problema": "(1) \"Willingham muestra\" presenta como demostración lo que es un argumento de revisión; conviene \"sostiene\". (2) La prueba se reparte en tres clases (\"Repite la lista en dos clases más\"), lo que en cursos de dos sesiones semanales excede la semana.",
+      "cambios": {
+        "why": "Une el pensamiento experto a la vista con el pensamiento crítico disciplinar. El docente localiza los cuellos de botella, hace visibles en voz alta los pasos tácitos de su campo y retira el apoyo de a poco, mientras el curso practica las preguntas propias de la disciplina sobre problemas reales. La meta es que el estudiante juzgue con los criterios del campo; Willingham sostiene que ese juicio depende del dominio, y Abrami y colaboradores encontraron que mejora con diálogo y problemas auténticos.",
+        "prueba": "Escribe las cinco preguntas que te haces cuando enfrentas un problema nuevo de tu campo. Entrégalas al curso junto con un caso real, pide que las usen en parejas y, al final, que agreguen la pregunta que les faltó. En la clase siguiente, da otro caso sin la lista y anota cuántas parejas usan esas preguntas por su cuenta."
+      }
+    },
+    "carga_trabajo": {
+      "gravedad": "baja",
+      "problema": "\"Cuando parece excesiva, empuja a estudiar en forma superficial\" presenta una relación causal en un solo sentido. Kember (2004) describe la carga percibida y el enfoque superficial como una relación recíproca y compleja, en un estudio de cinco casos con diarios de una semana.",
+      "cambios": {
+        "why": "Al cruzar el currículo con el tiempo disponible surge la pregunta de cuántas horas exige de verdad cada curso, contando lecturas, tareas y estudio autónomo. El sistema europeo ECTS asigna 60 créditos a un año a tiempo completo, en general de 25 a 30 horas cada uno. Kember encontró que la carga percibida se relaciona poco con las horas reales, depende también de la evaluación, la dificultad o el clima del curso, y se refuerza mutuamente con el estudio superficial."
+      }
+    },
+    "responsabilidad_individual": {
+      "gravedad": "baja",
+      "problema": "El why define la responsabilidad individual como \"una pregunta que cualquier integrante puede tener que responder solo\", que es solo una técnica para lograrla. En Johnson y Johnson y en Slavin el concepto es más amplio: que el desempeño de cada integrante se compruebe y cuente.",
+      "cambios": {
+        "why": "Une el trabajo cooperativo con una forma de comprobar lo que sabe cada integrante, como una pregunta que cualquiera puede tener que responder solo. Es el segundo elemento de Johnson y Johnson, y Slavin concluyó que los métodos cooperativos que más mejoran el logro combinan metas de grupo con una forma de comprobar lo que aprendió cada integrante. Sin ella, un equipo puede entregar un buen producto aunque algunos no hayan aprendido casi nada."
+      }
+    },
+    "holgazaneria": {
+      "gravedad": "media",
+      "problema": "El why abre con \"Si a un grupo le das mucho trabajo [...] el esfuerzo individual baja\", pero ni Latané y colaboradores (aplausos y gritos, tarea breve) ni Karau y Williams midieron el efecto de la cantidad de trabajo. Sí lo respalda, para proyectos universitarios, Aggarwal y O'Brien (2008): la holgazanería crece con el alcance del proyecto y el tamaño del grupo y baja con evaluaciones de pares repetidas. Conviene citarlo, porque además sostiene la receta Grupo + Carga de trabajo.",
+      "cambios": {
+        "why": "Cuando el aporte de cada integrante no se ve, el esfuerzo individual baja. Latané, Williams y Harkins lo midieron pidiendo a estudiantes que aplaudieran y gritaran, solos o en grupo, y en grupo cada persona producía menos sonido. El metaanálisis de Karau y Williams, con 78 estudios, mostró que el efecto disminuye si el aporte de cada persona se puede evaluar o si la tarea le importa. En proyectos universitarios, Aggarwal y O'Brien lo vieron crecer con el tamaño del proyecto y del grupo.",
+        "refs": [
+          "latane79",
+          "karau93",
+          "aggarwal08"
+        ]
+      }
+    },
+    "interdependencia": {
+      "gravedad": "baja",
+      "problema": "La definición invierte la de Johnson y Johnson: para ellos es la percepción de que cada integrante solo alcanza su meta si los demás alcanzan la suya, y no que el equipo alcanza la suya si cada uno logra la propia. Además la primera oración describe la receta alternativa (Aprendizaje cooperativo + Rompecabezas) y no la del camino diseñado (Holgazanería social + Rompecabezas).",
+      "cambios": {
+        "why": "Cuando el rompecabezas responde a la holgazanería social, cada integrante tiene algo que el resto necesita. Deutsch la describió en 1949 y Johnson y Johnson la pusieron como primer elemento del trabajo cooperativo, la percepción de que cada integrante solo alcanza su meta si los demás también alcanzan la suya. En sus revisiones, la cooperación con interdependencia y responsabilidad individual supera de forma consistente al trabajo competitivo e individual."
+      }
+    },
+    "equipo_cuentas": {
+      "gravedad": "media",
+      "problema": "La prueba dice \"Dentro de un mes, aplica una evaluación de la contribución\", así que no se puede completar en una semana.",
+      "cambios": {
+        "prueba": "Esta semana, pide a los equipos de tu curso que redacten su acuerdo en una plantilla de media página. Cinco días después, pide que cada integrante evalúe a sus compañeros en dos conductas tomadas de ese acuerdo y conversa con los equipos donde las respuestas no coincidan."
+      }
+    },
+    "cap_equipos": {
+      "gravedad": "baja",
+      "problema": "El principio 5 cita a Ohland et al. (2012) para hacer la evaluación entre pares \"a mitad de camino y al cierre\", pero ese artículo desarrolla el instrumento CATME y no estudia el momento. La recomendación de una ronda a mitad de curso está en Oakley et al. (2004), y Aggarwal y O'Brien (2008) encontraron que varias evaluaciones de pares durante el proyecto se asocian con menos holgazanería.",
+      "cambios": {
+        "principios": [
+          "Forma tú los equipos en clase, a la vista del curso, con perfiles mezclados, y mantenlos estables todo el semestre (Michaelsen y Sweet, 2008).",
+          "Abre cada unidad con una prueba individual seguida de la misma prueba en equipo con retroalimentación inmediata (Michaelsen y Sweet, 2008).",
+          "Diseña tareas en que todos los equipos resuelvan el mismo problema y muestren a la vez una decisión específica (Michaelsen y Sweet, 2008).",
+          "Combina metas de equipo con una forma de comprobar lo que aprendió cada integrante (Slavin, 1996).",
+          "Haz visible el aporte de cada integrante con evaluaciones entre pares a mitad de camino y al cierre, porque repetirlas durante el proyecto se asoció con menos holgazanería (Aggarwal y O'Brien, 2008)."
+        ],
+        "refs": [
+          "michaelsen08",
+          "slavin96",
+          "ohland12",
+          "aggarwal08"
+        ]
+      }
+    },
+    "simulacion": {
+      "gravedad": "media",
+      "problema": "Define la simulación como algo que se recrea \"con tecnología\". Gaba (2004), referencia clásica del campo, la define como una técnica para reemplazar o ampliar experiencias reales con experiencias guiadas, con o sin equipos complejos. La definición actual contradice otras partes del juego: la receta Juego de roles + Método de casos (\"simulación de baja tecnología\") y la prueba de la meta, que simula con compañeros en los roles.",
+      "cambios": {
+        "why": "La simulación recrea una situación profesional, con un maniquí, un paciente actor o un laboratorio virtual, para practicar donde equivocarse no daña a nadie. Gaba la definió como una técnica que reemplaza o amplía experiencias reales con experiencias guiadas. Cook y colaboradores, con 609 estudios en ciencias de la salud, hallaron efectos grandes frente a no recibir esa formación. Chernikova y colaboradores, en varias disciplinas universitarias, encontraron efectos grandes en habilidades complejas, mayores cuando había andamiaje.",
+        "refs": [
+          "gaba04",
+          "cook11",
+          "chernikova20"
+        ]
+      }
+    },
+    "escenario": {
+      "gravedad": "baja",
+      "problema": "Cita los estándares INACSL de 2016, que fueron reemplazados en 2021 por los Healthcare Simulation Standards of Best Practice. La ficha de Sesión previa ya usa la versión 2021, así que conviene alinear. El contenido (evaluación de necesidades y objetivos medibles) se mantiene en el estándar de diseño de 2021.",
+      "cambios": {
+        "why": "Une la simulación con los resultados de aprendizaje. Cada escenario parte de lo que el estudiante debe lograr, y desde ahí se define el caso y las señales que lo harán cambiar. Los estándares de buenas prácticas en simulación, actualizados en 2021, piden que el diseño empiece por una evaluación de necesidades y por objetivos medibles, y sin esos objetivos el debriefing no tiene contra qué comparar lo ocurrido.",
+        "refs": [
+          "watts21",
+          "issenberg05"
+        ]
+      }
+    },
+    "cap_simular": {
+      "gravedad": "media",
+      "problema": "(1) El why dice que los metaanálisis \"encuentran efectos grandes de la simulación\" sin aclarar contra qué: los efectos grandes de Cook et al. (2011) son frente a no recibir formación; frente a otros métodos de enseñanza son pequeños a moderados (Cook et al., 2012). Presentado así, sobrevende la simulación ante especialistas. (2) El principio 1 cita el estándar INACSL de 2016, ya reemplazado (ver escenario). (3) La prueba omite la sesión previa, que es la mitad de la meta, y no pide observar nada.",
+      "cambios": {
+        "why": "Integra el contenedor seguro con la práctica deliberada en ciclos rápidos. El escenario parte de objetivos claros y la sesión previa protege a quien se equivoca. Durante la escena, la repetición corrige en el momento, y al final el debriefing busca el razonamiento detrás de cada decisión. Cook y colaboradores hallaron efectos grandes de la simulación frente a no recibir formación, y efectos pequeños a moderados frente a otros métodos de enseñanza.",
+        "prueba": "Elige una situación de tu disciplina que hoy los estudiantes enfrentan por primera vez con una persona real, como una entrevista o una audiencia. Ábrela con cinco minutos de sesión previa, simúlala con compañeros en los roles, detén la escena ante el primer error importante y haz repetir ese tramo. Cierra con un debriefing de diez minutos y anota cuántas detenciones necesitaste en la primera y en la última pasada.",
+        "principios": [
+          "Diseña cada escenario a partir de objetivos observables y decide de antemano qué señales cambiarán el caso (Watts et al., 2021).",
+          "Prioriza que la tarea exija las mismas decisiones que la real aunque el simulador sea sencillo, porque más realismo físico no asegura más transferencia (Norman et al., 2012).",
+          "Detén y repite el tramo que falló hasta lograrlo, en lugar de esperar al final para comentarlo (Hunt et al., 2014).",
+          "Fija un estándar mínimo y deja que cada estudiante practique hasta alcanzarlo (McGaghie et al., 2011).",
+          "Cierra con un debriefing que combine tu juicio con preguntas genuinas sobre el razonamiento (Rudolph et al., 2006)."
+        ],
+        "refs": [
+          "cook11",
+          "cook12",
+          "chernikova20",
+          "norman12",
+          "hunt14",
+          "mcgaghie11",
+          "watts21",
+          "rudolph06"
+        ]
+      }
+    }
+  },
+  "notas": {
+    "escribir+situado": {
+      "problema": "Describe escribir informes clínicos o memorias de cálculo reales, que son géneros profesionales situados (lo propio de Géneros disciplinares). La alfabetización académica de Carlino es participar en la cultura escrita de cada disciplina dentro de la universidad.",
+      "nota": "Escribir para aprender dentro de una disciplina, con los textos que ese campo lee y juzga, es entrar en su cultura escrita. Carlino lo llama alfabetización académica."
+    },
+    "memoria+mundo": {
+      "problema": "Usa la memoria dependiente del contexto (recordar mejor en el mismo lugar) como si fuera aprendizaje situado, que trata de prácticas, herramientas y comunidades. Además el estudio de los buzos de Godden y Baddeley no se replicó (Murre, 2021, Royal Society Open Science). Tiene 31 palabras.",
+      "nota": "Lo que guardamos en la memoria queda ligado a las actividades y la gente del mundo donde lo usamos, y el aprendizaje situado propone enseñar en esos contextos."
+    },
+    "grupo+proyectos": {
+      "problema": "Describe que cada integrante evalúe el aporte de sus compañeros para ajustar la nota, que es la ficha Evaluación de la contribución y no la evaluación entre pares de productos. En la misión equipos enseña a confundir ambas fichas. Tiene 30 palabras.",
+      "nota": "Al cerrar un proyecto, cada equipo revisa con la rúbrica el producto de otro y le deja comentarios por criterio, una forma de evaluación entre pares."
+    },
+    "cambio_conceptual+cpc": {
+      "problema": "Llama a los conceptos umbral \"cuellos de botella\", que en el juego es otra ficha (Decodificar las disciplinas). Un concepto umbral transforma la mirada; un cuello de botella es la tarea donde el curso se atasca, y no siempre coinciden. Tiene 29 palabras.",
+      "nota": "Saber qué ideas cuestan más es parte del conocimiento pedagógico del contenido. Las que piden un cambio conceptual hondo y transforman la mirada son conceptos umbral."
+    },
+    "curriculo+error": {
+      "problema": "\"Suele haber un concepto umbral\" donde se repiten errores exagera: un error recurrente señala un cuello de botella, que puede o no deberse a un concepto umbral. Tiene 29 palabras.",
+      "nota": "Donde el curso tropieza cada año con los mismos errores puede haber un concepto umbral, una idea difícil que, una vez entendida, cambia la mirada sobre la materia."
+    },
+    "mapa+tiempo": {
+      "problema": "Correcta (Novak y Musonda, 1991, doce años), pero tiene 34 palabras y excede el límite de 28.",
+      "nota": "Comparar el mapa conceptual de un estudiante al inicio y al final muestra cómo se reorganizaron sus ideas. Novak y Musonda lo hicieron durante doce años con escolares."
+    },
+    "curriculo+ritmo": {
+      "problema": "Tiene 31 palabras, y el remate causal (\"empuja a estudiar en forma superficial\") simplifica una relación que Kember describe como recíproca.",
+      "nota": "Cada estudiante avanza a su ritmo, pero el currículo fija plazos comunes. Si lo que exige supera un tiempo realista, la carga se vuelve excesiva."
+    },
+    "holgazaneria+proyectos": {
+      "problema": "\"El polizón aparece tarde o temprano\" presenta como inevitable algo que depende del diseño (tamaño del grupo, alcance, evaluaciones de pares).",
+      "nota": "En un proyecto de varias semanas es probable que alguien afloje, y un acuerdo escrito al inicio dice qué hacer si pasa."
+    }
+  },
+  "recetas_dudosas": [
+    {
+      "a": "memoria",
+      "b": "mundo",
+      "r": "situado",
+      "gravedad": "media",
+      "problema": "La nota actual enseña una relación falsa: confunde memoria dependiente del contexto con aprendizaje situado, y apoya la idea en el estudio de los buzos de Godden y Baddeley (1975), que no se replicó (Murre, 2021).",
+      "propuesta": "Mantenerla solo con la nota corregida (notas, memoria+mundo). Si se prefiere no forzar la relación, quitarla; Aprendizaje situado tiene muchas otras recetas."
+    },
+    {
+      "a": "mundo",
+      "b": "practica_deliberada",
+      "r": "simulacion",
+      "gravedad": "baja",
+      "problema": "Practicar deliberadamente en el mundo real no produce una simulación; la relación es arbitraria y la nota solo repite el hallazgo de McGaghie sin explicar por qué A + B da C.",
+      "propuesta": "Quitarla. Práctica deliberada + Tecnología = Simulación ya cubre esa relación con sentido."
+    },
+    {
+      "a": "grupo",
+      "b": "otros",
+      "r": "jigsaw",
+      "gravedad": "baja",
+      "problema": "Grupo + Otros es una combinación genérica que no contiene la idea de repartir el contenido en piezas; el resultado Rompecabezas de Aronson es arbitrario. Grupo + Grupo y Aprendizaje cooperativo + Aprendizaje cooperativo ya explican bien el rompecabezas (grupo de expertos y grupo base).",
+      "propuesta": "Quitarla."
+    },
+    {
+      "a": "grupo",
+      "b": "proyectos",
+      "r": "coevaluacion",
+      "gravedad": "baja",
+      "problema": "La relación es defendible, pero la nota describe la evaluación de la contribución y no la evaluación entre pares.",
+      "propuesta": "Mantenerla con la nota corregida (notas, grupo+proyectos)."
+    }
+  ],
+  "refs": {
+    "carlino13": {
+      "problema": "Faltan las páginas (verificadas en SciELO México: pp. 355-381).",
+      "apa": "Carlino, P. (2013). Alfabetización académica diez años después. _Revista Mexicana de Investigación Educativa, 18_(57), 355–381."
+    },
+    "collins89": {
+      "problema": "Falta el subtítulo del libro editado y el nombre completo de la editorial.",
+      "apa": "Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics. En L. B. Resnick (Ed.), _Knowing, learning, and instruction: Essays in honor of Robert Glaser_ (pp. 453–494). Lawrence Erlbaum Associates."
+    },
+    "vygotsky78": {
+      "problema": "APA 7 pide incluir a los editores de esta compilación.",
+      "apa": "Vygotsky, L. S. (1978). _Mind in society: The development of higher psychological processes_ (M. Cole, V. John-Steiner, S. Scribner, & E. Souberman, Eds.). Harvard University Press."
+    }
+  },
+  "refs_nuevas": {
+    "anderson96": "Anderson, J. R., Reder, L. M., & Simon, H. A. (1996). Situated learning and education. _Educational Researcher, 25_(4), 5–11.",
+    "aggarwal08": "Aggarwal, P., & O'Brien, C. L. (2008). Social loafing on group projects: Structural antecedents and effect on student satisfaction. _Journal of Marketing Education, 30_(3), 255–264.",
+    "gaba04": "Gaba, D. M. (2004). The future vision of simulation in health care. _Quality and Safety in Health Care, 13_(Suppl. 1), i2–i10.",
+    "cook12": "Cook, D. A., Brydges, R., Hamstra, S. J., Zendejas, B., Szostek, J. H., Wang, A. T., Erwin, P. J., & Hatala, R. (2012). Comparative effectiveness of technology-enhanced simulation versus other instructional methods: A systematic review and meta-analysis. _Simulation in Healthcare, 7_(5), 308–320.",
+    "watts21": "Watts, P. I., McDermott, D. S., Alinier, G., Charnetski, M., Ludlow, J., Horsley, E., Meakim, C., & Nawathe, P. A. (2021). Healthcare Simulation Standards of Best Practice™ Simulation design. _Clinical Simulation in Nursing, 58_, 14–21."
+  },
+  "resumen": "Calidad general buena: las cuatro misiones tienen encargos verosímiles, caminos con sentido y fichas en su mayoría exactas, y casi todas las cifras y atribuciones resistieron la verificación; no encontré errores graves (ninguna gravedad alta). Los problemas más serios son de precisión: Simulación se define como tecnología, contra Gaba y contra otras recetas del propio juego, y la meta de simular sobrevende los efectos sin decir que los grandes son frente a no recibir formación (Cook et al., 2011 y 2012); Holgazanería social atribuye a la carga de trabajo un efecto que sus fuentes no midieron (lo respalda Aggarwal y O'Brien, 2008); Aprendizaje situado se presenta como asentado pese a la crítica de Anderson, Reder y Simon (1996), y la receta Memoria + Mundo se apoya en el estudio de los buzos de Godden y Baddeley, que no se replicó (Murre, 2021). En las misiones, los cierres de equipos y simular no resuelven del todo el problema del encargo (el proyecto semestral y los doce que solo miran), y las pruebas de cap_escritura y equipo_cuentas no caben en una semana. Verifiqué los metadatos de todas las referencias en Crossref y contrasté cifras con resúmenes de OpenAlex, PubMed, ERIC, Europe PMC, SciELO y el PDF de Oakley et al. (2004): 2858 textos y 13 familias en Gardner y Nesi, 69 estudios en Vives, 17 estudios y 0,55 en Swanson, g de Huisman, 84 a 8 segundos en Hunt, 32 equipos en Mathieu y Rapp, 78 estudios en Karau y Williams, 609 en Cook, páginas de Carlino (2013), acuerdo, ronda intermedia y tope de 1,05 en Oakley, y la réplica del efecto de los rostros de Gruber (Stare et al., 2018). No pude verificar el tamaño de efecto de Liu y Beaujean (2017), el detalle de 1979 y de 40 a 120 estudiantes en el origen del TBL (solo que fue a fines de los setenta por el aumento de matrícula), el 47 % de Issenberg, los 177 estudios de Cheng, los 51 equipos de Edmondson ni la referencia de Herreid (1994), que no está en Crossref; las doy por plausibles según lo que conozco de esas fuentes."
+}

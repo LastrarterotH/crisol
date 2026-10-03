@@ -81,3 +81,9 @@ ia_que_ensena + personalizacion_responsable = cap_ia
 hyflex + coi = cap_hibrido
 evidencia + ciencia_aprendizaje = cap_mitos
 alineamiento + dua = cap_curso
+
+# Revisión pedagógica: reemplazan recetas que enseñaban una relación falsa
+dominio + estudiante = autoeficacia
+activo + memoria = piramide
+mente + estudiante = cerebro10
+proposito + saber = resultados

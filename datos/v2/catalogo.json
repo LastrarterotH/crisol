@@ -1,408 +1,418 @@
 {
- "familias": {
-  "prim": "Primigenios",
-  "cot": "Lo esencial",
-  "fund": "Conocimiento docente",
-  "apr": "Cómo se aprende",
-  "met": "Metodologías",
-  "tec": "Tecnología",
-  "mod": "Modalidades",
-  "eva": "Evaluación",
-  "dis": "Diseño de la enseñanza",
-  "mito": "Mitos",
-  "sint": "Síntesis de misión"
- },
- "orden": [
-  "prim",
-  "cot",
-  "apr",
-  "met",
-  "eva",
-  "dis",
-  "tec",
-  "mod",
-  "fund",
-  "mito",
-  "sint"
- ],
- "iniciales": [
-  "mente",
-  "mundo",
-  "otros",
-  "tiempo"
- ],
- "nuevas": {
-  "mente": {
-   "n": "Mente",
-   "e": "🧠",
-   "f": "prim"
-  },
-  "mundo": {
-   "n": "Mundo",
-   "e": "🌍",
-   "f": "prim"
-  },
-  "otros": {
-   "n": "Otros",
-   "e": "🤝",
-   "f": "prim"
-  },
-  "reflexion": {
-   "n": "Reflexión",
-   "e": "🪞",
-   "f": "cot"
-  },
-  "experiencia": {
-   "n": "Experiencia",
-   "e": "🌄",
-   "f": "cot"
-  },
-  "dialogo": {
-   "n": "Diálogo",
-   "e": "💬",
-   "f": "cot"
-  },
-  "memoria": {
-   "n": "Memoria",
-   "e": "🗄️",
-   "f": "cot"
-  },
-  "comunidad": {
-   "n": "Comunidad",
-   "e": "🏘️",
-   "f": "cot"
-  },
-  "cambio": {
-   "n": "Cambio",
-   "e": "🦋",
-   "f": "cot"
-  },
-  "saber": {
-   "n": "Saber",
-   "e": "📚",
-   "f": "cot"
-  },
-  "practica": {
-   "n": "Práctica",
-   "e": "✏️",
-   "f": "cot"
-  },
-  "pregunta": {
-   "n": "Pregunta",
-   "e": "❓",
-   "f": "cot"
-  },
-  "error": {
-   "n": "Error",
-   "e": "🪨",
-   "f": "cot"
-  },
-  "emocion": {
-   "n": "Emoción",
-   "e": "❤️",
-   "f": "cot"
-  },
-  "lenguaje": {
-   "n": "Lenguaje",
-   "e": "🗨️",
-   "f": "cot"
-  },
-  "escritura": {
-   "n": "Escritura",
-   "e": "✍️",
-   "f": "cot"
-  },
-  "herramienta": {
-   "n": "Herramienta",
-   "e": "🔨",
-   "f": "cot"
-  },
-  "juego": {
-   "n": "Juego",
-   "e": "🪁",
-   "f": "cot"
-  },
-  "docente": {
-   "n": "Docente",
-   "e": "🧑‍🏫",
-   "f": "cot"
-  },
-  "aprendizaje": {
-   "n": "Aprendizaje",
-   "e": "🌱",
-   "f": "cot"
-  },
-  "universidad": {
-   "n": "Universidad",
-   "e": "🏛️",
-   "f": "cot"
-  },
-  "investigacion": {
-   "n": "Investigación",
-   "e": "🔬",
-   "f": "cot"
-  },
-  "curiosidad": {
-   "n": "Curiosidad",
-   "e": "🐈",
-   "f": "apr"
-  },
-  "practica_deliberada": {
-   "n": "Práctica deliberada",
-   "e": "🎹",
-   "f": "apr"
-  },
-  "datos": {
-   "n": "Datos",
-   "e": "📊",
-   "f": "tec"
-  },
-  "algoritmo": {
-   "n": "Algoritmo",
-   "e": "🔣",
-   "f": "tec"
-  },
-  "computador": {
-   "n": "Computador",
-   "e": "🖥️",
-   "f": "tec"
-  },
-  "internet": {
-   "n": "Internet",
-   "e": "🌐",
-   "f": "tec"
-  },
-  "aprendizaje_automatico": {
-   "n": "Aprendizaje automático",
-   "e": "🦾",
-   "f": "tec"
-  },
-  "clase_interactiva": {
-   "n": "Clase interactiva",
-   "e": "⚡",
-   "f": "sint"
-  },
-  "cap_activa": {
-   "n": "La clase que despierta",
-   "e": "🌅",
-   "f": "sint"
-  },
-  "cap_eval": {
-   "n": "Evaluación que enseña",
-   "e": "🎖️",
-   "f": "sint"
-  },
-  "cap_memoria": {
-   "n": "Estudio que perdura",
-   "e": "🏺",
-   "f": "sint"
-  },
-  "evaluacion_ia": {
-   "n": "Evaluación en tiempos de IA",
-   "e": "🔐",
-   "f": "sint"
-  },
-  "ia_que_ensena": {
-   "n": "IA que enseña a pensar",
-   "e": "🕯️",
-   "f": "sint"
-  },
-  "personalizacion_responsable": {
-   "n": "Personalización responsable",
-   "e": "🧵",
-   "f": "sint"
-  },
-  "cap_ia": {
-   "n": "IA al servicio de una educación personalizada y realista",
-   "e": "🌟",
-   "f": "sint"
-  },
-  "cap_hibrido": {
-   "n": "Comunidad híbrida que aprende",
-   "e": "🪐",
-   "f": "sint"
-  },
-  "cap_mitos": {
-   "n": "Claustro sin mitos",
-   "e": "🧹",
-   "f": "sint"
-  },
-  "cap_curso": {
-   "n": "Curso alineado para todos",
-   "e": "🎼",
-   "f": "sint"
-  }
- },
- "cambios": {
-  "tiempo": {
-   "f": "prim"
-  },
-  "problema": {
-   "n": "Problema real",
-   "e": "🧩",
-   "f": "cot"
-  },
-  "grupo": {
-   "f": "cot"
-  },
-  "espacio": {
-   "n": "Aula",
-   "e": "🏫",
-   "f": "cot"
-  },
-  "estudiante": {
-   "f": "cot"
-  },
-  "contenido": {
-   "e": "📖",
-   "f": "cot"
-  },
-  "pedagogia": {
-   "f": "cot"
-  },
-  "proposito": {
-   "f": "cot"
-  },
-  "tecnologia": {
-   "f": "tec"
-  },
-  "previos": {
-   "e": "🧳"
-  },
-  "situado": {
-   "e": "🗺️"
-  },
-  "ubicuo": {
-   "e": "🛰️"
-  },
-  "reflexiva": {
-   "e": "📓"
-  },
-  "retro": {
-   "e": "📣"
-  },
-  "cpc": {
-   "e": "⚗️"
-  },
-  "comunidad_practica": {
-   "e": "🧶"
-  },
-  "ejemplos_resueltos": {
-   "e": "📒"
-  },
-  "modelado": {
-   "e": "🎙️"
-  },
-  "tutoria": {
-   "e": "🦉"
-  },
-  "formativa": {
-   "e": "🌡️"
-  },
-  "tck": {
-   "e": "🧑‍🔬"
-  },
-  "presencial": {
-   "e": "👀"
-  },
-  "virtual": {
-   "e": "🪟"
-  },
-  "evidencia": {
-   "e": "🔎"
-  },
-  "cooperativo": {
-   "e": "🫱"
-  }
- },
- "misiones": [
-  {
-   "id": "primeros",
-   "n": "Primeros pasos",
-   "e": "🌱",
-   "meta": "aprendizaje",
-   "hitos": [
-    "aprendizaje"
-   ],
-   "tutorial": true
-  },
-  {
-   "id": "activa",
-   "n": "La clase que despierta",
-   "e": "🌅",
-   "meta": "cap_activa",
-   "hitos": [
-    "activo",
-    "cooperativo",
-    "clase_interactiva"
-   ]
-  },
-  {
-   "id": "evaluar",
-   "n": "Evaluar para aprender",
-   "e": "🎖️",
-   "meta": "cap_eval",
-   "hitos": [
-    "retro",
-    "rubrica",
-    "juicio"
-   ]
-  },
-  {
-   "id": "memoria",
-   "n": "Memoria que dura",
-   "e": "🏺",
-   "meta": "cap_memoria",
-   "hitos": [
-    "recuperacion",
-    "intercalada",
-    "dificultades_deseables"
-   ]
-  },
-  {
-   "id": "ia",
-   "n": "IA con sentido",
-   "e": "🌟",
-   "meta": "cap_ia",
-   "hitos": [
-    "ia",
-    "tutoria",
-    "privacidad",
-    "evaluacion_ia"
-   ]
-  },
-  {
-   "id": "hibrido",
-   "n": "Más allá del aula",
-   "e": "🪐",
-   "meta": "cap_hibrido",
-   "hitos": [
-    "virtual",
-    "blended",
-    "coi"
-   ]
-  },
-  {
-   "id": "mitos",
-   "n": "Claustro sin mitos",
-   "e": "🧹",
-   "meta": "cap_mitos",
-   "hitos": [
-    "piramide",
-    "cerebro10",
-    "evidencia"
-   ]
-  },
-  {
-   "id": "curso",
-   "n": "Diseñar un curso",
-   "e": "🎼",
-   "meta": "cap_curso",
-   "hitos": [
-    "inverso",
-    "alineamiento",
-    "dua"
-   ]
-  }
- ]
+  "familias": {
+    "prim": "Primigenios",
+    "cot": "Lo esencial",
+    "fund": "Conocimiento docente",
+    "apr": "Cómo se aprende",
+    "met": "Metodologías",
+    "tec": "Tecnología",
+    "mod": "Modalidades",
+    "eva": "Evaluación",
+    "dis": "Diseño de la enseñanza",
+    "mito": "Mitos",
+    "sint": "Síntesis de misión"
+  },
+  "orden": [
+    "prim",
+    "cot",
+    "apr",
+    "met",
+    "eva",
+    "dis",
+    "tec",
+    "mod",
+    "fund",
+    "mito",
+    "sint"
+  ],
+  "iniciales": [
+    "mente",
+    "mundo",
+    "otros",
+    "tiempo"
+  ],
+  "nuevas": {
+    "mente": {
+      "n": "Mente",
+      "e": "🧠",
+      "f": "prim"
+    },
+    "mundo": {
+      "n": "Mundo",
+      "e": "🌍",
+      "f": "prim"
+    },
+    "otros": {
+      "n": "Otros",
+      "e": "🤝",
+      "f": "prim"
+    },
+    "reflexion": {
+      "n": "Reflexión",
+      "e": "🪞",
+      "f": "cot"
+    },
+    "experiencia": {
+      "n": "Experiencia",
+      "e": "🌄",
+      "f": "cot"
+    },
+    "dialogo": {
+      "n": "Diálogo",
+      "e": "💬",
+      "f": "cot"
+    },
+    "memoria": {
+      "n": "Memoria",
+      "e": "🗄️",
+      "f": "cot"
+    },
+    "comunidad": {
+      "n": "Comunidad",
+      "e": "🏘️",
+      "f": "cot"
+    },
+    "cambio": {
+      "n": "Cambio",
+      "e": "🦋",
+      "f": "cot"
+    },
+    "saber": {
+      "n": "Saber",
+      "e": "📚",
+      "f": "cot"
+    },
+    "practica": {
+      "n": "Práctica",
+      "e": "✏️",
+      "f": "cot"
+    },
+    "pregunta": {
+      "n": "Pregunta",
+      "e": "❓",
+      "f": "cot"
+    },
+    "error": {
+      "n": "Error",
+      "e": "🪨",
+      "f": "cot"
+    },
+    "emocion": {
+      "n": "Emoción",
+      "e": "❤️",
+      "f": "cot"
+    },
+    "lenguaje": {
+      "n": "Lenguaje",
+      "e": "🗨️",
+      "f": "cot"
+    },
+    "escritura": {
+      "n": "Escritura",
+      "e": "✍️",
+      "f": "cot"
+    },
+    "herramienta": {
+      "n": "Herramienta",
+      "e": "🔨",
+      "f": "cot"
+    },
+    "juego": {
+      "n": "Juego",
+      "e": "🪁",
+      "f": "cot"
+    },
+    "docente": {
+      "n": "Docente",
+      "e": "🧑‍🏫",
+      "f": "cot"
+    },
+    "aprendizaje": {
+      "n": "Aprendizaje",
+      "e": "🌱",
+      "f": "cot"
+    },
+    "universidad": {
+      "n": "Universidad",
+      "e": "🏛️",
+      "f": "cot"
+    },
+    "investigacion": {
+      "n": "Investigación",
+      "e": "🔬",
+      "f": "cot"
+    },
+    "curiosidad": {
+      "n": "Curiosidad",
+      "e": "🐈",
+      "f": "apr"
+    },
+    "practica_deliberada": {
+      "n": "Práctica deliberada",
+      "e": "🎹",
+      "f": "apr"
+    },
+    "datos": {
+      "n": "Datos",
+      "e": "📊",
+      "f": "tec"
+    },
+    "algoritmo": {
+      "n": "Algoritmo",
+      "e": "🔣",
+      "f": "tec"
+    },
+    "computador": {
+      "n": "Computador",
+      "e": "🖥️",
+      "f": "tec"
+    },
+    "internet": {
+      "n": "Internet",
+      "e": "🌐",
+      "f": "tec"
+    },
+    "aprendizaje_automatico": {
+      "n": "Aprendizaje automático",
+      "e": "🦾",
+      "f": "tec"
+    },
+    "clase_interactiva": {
+      "n": "Clase interactiva",
+      "e": "⚡",
+      "f": "sint"
+    },
+    "cap_activa": {
+      "n": "La clase que despierta",
+      "e": "🌅",
+      "f": "sint"
+    },
+    "cap_eval": {
+      "n": "Evaluación que enseña",
+      "e": "🎖️",
+      "f": "sint"
+    },
+    "cap_memoria": {
+      "n": "Estudio que perdura",
+      "e": "🏺",
+      "f": "sint"
+    },
+    "evaluacion_ia": {
+      "n": "Evaluación en tiempos de IA",
+      "e": "🔐",
+      "f": "sint"
+    },
+    "ia_que_ensena": {
+      "n": "IA que enseña a pensar",
+      "e": "🕯️",
+      "f": "sint"
+    },
+    "personalizacion_responsable": {
+      "n": "Personalización responsable",
+      "e": "🧵",
+      "f": "sint"
+    },
+    "cap_ia": {
+      "n": "IA al servicio de una educación personalizada y realista",
+      "e": "🌟",
+      "f": "sint"
+    },
+    "cap_hibrido": {
+      "n": "Comunidad híbrida que aprende",
+      "e": "🪐",
+      "f": "sint"
+    },
+    "cap_mitos": {
+      "n": "Claustro sin mitos",
+      "e": "🧹",
+      "f": "sint"
+    },
+    "cap_curso": {
+      "n": "Curso alineado para todos",
+      "e": "🎼",
+      "f": "sint"
+    }
+  },
+  "cambios": {
+    "tiempo": {
+      "f": "prim"
+    },
+    "problema": {
+      "n": "Problema real",
+      "e": "🧩",
+      "f": "cot"
+    },
+    "grupo": {
+      "f": "cot"
+    },
+    "espacio": {
+      "n": "Aula",
+      "e": "🏫",
+      "f": "cot"
+    },
+    "estudiante": {
+      "f": "cot"
+    },
+    "contenido": {
+      "e": "📖",
+      "f": "cot"
+    },
+    "pedagogia": {
+      "f": "cot"
+    },
+    "proposito": {
+      "f": "cot"
+    },
+    "tecnologia": {
+      "f": "tec"
+    },
+    "previos": {
+      "e": "🧳"
+    },
+    "situado": {
+      "e": "🗺️"
+    },
+    "ubicuo": {
+      "e": "🛰️"
+    },
+    "reflexiva": {
+      "e": "📓"
+    },
+    "retro": {
+      "e": "📣"
+    },
+    "cpc": {
+      "e": "⚗️"
+    },
+    "comunidad_practica": {
+      "e": "🧶"
+    },
+    "ejemplos_resueltos": {
+      "e": "📒"
+    },
+    "modelado": {
+      "e": "🎙️"
+    },
+    "tutoria": {
+      "e": "🦉"
+    },
+    "formativa": {
+      "e": "🌡️"
+    },
+    "tck": {
+      "e": "🧑‍🔬"
+    },
+    "presencial": {
+      "e": "👀"
+    },
+    "virtual": {
+      "e": "🪟"
+    },
+    "evidencia": {
+      "e": "🔎"
+    },
+    "cooperativo": {
+      "e": "🫱"
+    }
+  },
+  "misiones": [
+    {
+      "id": "primeros",
+      "n": "Primeros pasos",
+      "e": "🌱",
+      "meta": "aprendizaje",
+      "hitos": [
+        "aprendizaje"
+      ],
+      "tutorial": true
+    },
+    {
+      "id": "activa",
+      "n": "La clase que despierta",
+      "e": "🌅",
+      "meta": "cap_activa",
+      "hitos": [
+        "activo",
+        "cooperativo",
+        "clase_interactiva"
+      ]
+    },
+    {
+      "id": "evaluar",
+      "n": "Evaluar para aprender",
+      "e": "🎖️",
+      "meta": "cap_eval",
+      "hitos": [
+        "alf_retro",
+        "retro",
+        "rubrica",
+        "juicio"
+      ]
+    },
+    {
+      "id": "memoria",
+      "n": "Memoria que dura",
+      "e": "🏺",
+      "meta": "cap_memoria",
+      "hitos": [
+        "espaciada",
+        "recuperacion",
+        "intercalada",
+        "dificultades_deseables"
+      ]
+    },
+    {
+      "id": "ia",
+      "n": "IA con sentido",
+      "e": "🌟",
+      "meta": "cap_ia",
+      "hitos": [
+        "ia",
+        "tutoria",
+        "privacidad",
+        "evaluacion_ia"
+      ]
+    },
+    {
+      "id": "hibrido",
+      "n": "Más allá del aula",
+      "e": "🪐",
+      "meta": "cap_hibrido",
+      "hitos": [
+        "asincronico",
+        "virtual",
+        "blended",
+        "coi"
+      ]
+    },
+    {
+      "id": "mitos",
+      "n": "Claustro sin mitos",
+      "e": "🧹",
+      "meta": "cap_mitos",
+      "hitos": [
+        "piramide",
+        "cerebro10",
+        "evidencia"
+      ]
+    },
+    {
+      "id": "curso",
+      "n": "Diseñar un curso",
+      "e": "🎼",
+      "meta": "cap_curso",
+      "hitos": [
+        "resultados",
+        "inverso",
+        "alineamiento",
+        "dua"
+      ],
+      "ruta": {
+        "alineamiento": [
+          "inverso",
+          "activo"
+        ]
+      }
+    }
+  ]
 }

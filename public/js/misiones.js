@@ -49,11 +49,14 @@ export function renderHoja() {
     if (!listos.length) h += '<p class="logrado">Todavía no tienes los dos ingredientes de ninguna pieza. Estas están cerca:</p>';
     h += '<div class="alcance">' + lista.map(n => piezaHtml(m, n, st)).join("") + "</div>";
   }
+  const porEscribir = reflexionesPendientes(m);
+  if (porEscribir.length) h += "<h3>Reflexiones por escribir</h3>" + porEscribir.map(hh => '<button class="pieza pendiente" type="button" data-reflexion="' + hh + '"><span class="silueta">✍️</span><span><p>' + rico(D.fichas[hh].e + " " + D.fichas[hh].n) + '</p><span class="comprar">Escribir mi reflexión</span></span></button>').join("");
   h += '<p class="pie-hoja"><button class="boton-papel" type="button" data-a="plano"><span class="em">🗺️</span>Ver el plano completo</button></p></div>';
   hoja.innerHTML = h;
   hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => ({ encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); }, plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones })[b.dataset.a]()));
   hoja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => comprarPista(m, b.dataset.comprar)));
   hoja.querySelectorAll("[data-traer]").forEach(b => b.addEventListener("click", () => llevar(b.dataset.traer)));
+  hoja.querySelectorAll("[data-reflexion]").forEach(b => b.addEventListener("click", () => pedirReflexion(m, b.dataset.reflexion)));
 }
 function piezaHtml(m, n, st) {
   const f = D.fichas[n.id];
@@ -84,15 +87,20 @@ on("mezcla", ({ id, via, nueva }) => {
   if (nueva) {
     const pieza = nodo ? piezasLogradas(m) + " de " + construibles(m).length : null;
     setTimeout(() => abrirFicha(id, { nueva: true, via, pieza }), via && !matchMedia("(prefers-reduced-motion: reduce)").matches ? 750 : 0);
-    if (nodo && m.hitos.includes(id) && id !== m.meta) pendientes.push(() => pedirReflexion(m, id));
+    if (nodo && m.hitos.includes(id)) pendientes.push(() => pedirReflexion(m, id));
     if (m && id === m.meta) { estadoMision(m.id).completada = Date.now(); guardar(); pendientes.push(() => celebrar(m)); }
     else if (nodo) setTimeout(() => sonar.exito(3), 450);
   }
   tutorialPaso();
   renderCabecera(); renderHoja();
 });
+// Lo que queda por mostrar tras cerrar una ficha (reflexiones de hitos, celebración), de a uno.
 const pendientes = [];
-on("fichaCerrada", () => { if (!fichaAbierta() && pendientes.length) setTimeout(() => { const fn = pendientes.shift(); fn(); }, 220); });
+const libre = () => !fichaAbierta() && $("capaPanel").hidden && $("celebracion").hidden;
+function seguir() { setTimeout(() => { if (libre() && pendientes.length) pendientes.shift()(); }, 220); }
+on("fichaCerrada", seguir);
+// Hitos ya logrados (en esta u otra misión) cuya reflexión todavía no se escribe en esta misión.
+const reflexionesPendientes = m => m.hitos.filter(h => tiene(h) && !(estadoMision(m.id).reflexiones || {})[h]);
 
 function pedirReflexion(m, id) {
   const f = D.fichas[id];
@@ -110,7 +118,8 @@ function pedirReflexion(m, id) {
         if (t) { st.reflexiones[id] = t; guardar(); emitir("reflexion", { mision: m.id, hito: id, texto: t }); aviso("Guardado en Mi plan."); }
         cerrarPanel();
       }
-    }
+    },
+    () => { renderHoja(); seguir(); }
   );
 }
 
@@ -239,7 +248,8 @@ export function celebrar(m) {
     '<div class="plano-mini" style="width:min(100%,1040px);height:min(340px,38vh)"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
     '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">' + (m.tutorial ? "Leer la ficha de " + esc(f.n) : "Leer la síntesis") + "</button>" +
     '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
-    (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") + "</div>";
+    (refl.length ? '<p class="cierre">' + (refl.length === 1 ? "Tu reflexión quedó guardada en Mi plan." : "Tus " + refl.length + " reflexiones quedaron guardadas en Mi plan.") + "</p>" : "") +
+    (reflexionesPendientes(m).length ? '<p class="cierre">Te ' + (reflexionesPendientes(m).length === 1 ? "falta una reflexión" : "faltan " + reflexionesPendientes(m).length + " reflexiones") + " de los hitos: puedes escribirlas desde la hoja de la misión.</p>" : "") + "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
   confeti($("confeti"));
@@ -337,6 +347,7 @@ export function iniciarMision(id) {
   else ocultarCoach();
   // La primera vez que se abre una misión se muestra su plano: el desafío completo, para discutir cómo llegar.
   if (m && !m.tutorial && !estadoMision(m.id).planoVisto) { estadoMision(m.id).planoVisto = true; guardar(); setTimeout(() => abrirPlano(true), 350); }
+  if (m && cambia && reflexionesPendientes(m).length) setTimeout(() => avisoRico("Ya traes hitos de esta misión", "Los lograste en otra misión. Escribe su reflexión desde la hoja, pensando en el caso de esta.", { oro: true, ms: 7000 }), 1200);
 }
 
 /* ---------- Cuaderno ---------- */

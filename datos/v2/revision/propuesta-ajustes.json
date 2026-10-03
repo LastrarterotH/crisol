@@ -1,32 +1,5 @@
 {
   "fichas": {
-    "formativa": {
-      "why": "Evaluación usada para ajustar la enseñanza y el aprendizaje mientras ocurren. Black y Wiliam revisaron unos 250 trabajos y concluyeron que fortalecerla mejora el aprendizaje, citando estudios con efectos de entre 0,4 y 0,7, aunque sin hacer un metaanálisis. Kingston y Nash, con los estudios escolares que permitían calcular efectos, estimaron un promedio cercano a 0,2 y advierten que el resultado depende mucho de cómo se implemente.",
-      "refs": [
-        "black98a",
-        "black98b",
-        "kingston11"
-      ],
-      "uni": "En Estadística, cierra la clase con un ticket de salida de una pregunta sobre media y mediana y empieza la siguiente por el error más común."
-    },
-    "sustitucion": {
-      "pista": "En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica."
-    },
-    "aumento": {
-      "pista": "En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional."
-    },
-    "modificacion": {
-      "pista": "En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea."
-    },
-    "redefinicion": {
-      "pista": "El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles."
-    },
-    "ubicuo": {
-      "pista": "Se aprende en la calle, en el trabajo, en el bus o en la biblioteca, a cualquier hora."
-    },
-    "remota_emergencia": {
-      "pista": "Lo que hicieron muchas universidades en marzo de 2020 al trasladar de golpe todo a la videollamada."
-    },
     "experiencia": {
       "uni": "En Ingeniería Civil, antes de la clase de suelos, pide que cada grupo prediga cuánta agua absorberá una muestra de tierra del campus y luego lo mida."
     },
@@ -481,6 +454,10 @@
       "why": "Si la transición ocurre dentro de una comunidad que acoge, el estudiante se engancha con la institución. Tinto explicó la permanencia por la integración académica, en las notas y el desarrollo intelectual, y la social, en el trato con pares y con docentes fuera de clase. Su modelo fue criticado por suponer que el estudiante debía separarse de su comunidad de origen para integrarse, y en trabajos posteriores él mismo puso el foco en lo que la institución hace en el aula.",
       "uni": "En Programación I, rota las parejas de laboratorio cada semana durante el primer mes, para que cada estudiante conozca a varias personas del curso."
     },
+    "formativa": {
+      "why": "Evaluación usada para ajustar la enseñanza y el aprendizaje mientras ocurren. Black y Wiliam revisaron unos 250 trabajos y concluyeron que fortalecerla mejora el aprendizaje, citando estudios con efectos de entre 0,4 y 0,7, aunque sin hacer un metaanálisis. Kingston y Nash, con los estudios escolares que permitían calcular efectos, estimaron un promedio cercano a 0,2 y advierten que el resultado depende mucho de cómo se implemente.",
+      "uni": "En Estadística, cierra la clase con un ticket de salida de una pregunta sobre media y mediana y empieza la siguiente por el error más común."
+    },
     "alerta_temprana": {
       "why": "Cruzar las primeras evaluaciones con la analítica del aprendizaje permite detectar a tiempo a quien se queda atrás. En Purdue, Course Signals combinaba notas, actividad en la plataforma, antecedentes académicos y datos demográficos en un semáforo, y el docente enviaba a cada estudiante un correo personal con apoyos. Sus cifras de retención fueron criticadas, porque quien cursa más asignaturas tiene más probabilidades de pasar por una con semáforo y también de seguir estudiando."
     },
@@ -542,13 +519,50 @@
       ]
     }
   },
+  "notas": {
+    "escribir+expositiva": "Al cierre de una exposición, cada estudiante escribe en un minuto qué entendió y qué quedó confuso, y tú lees esos papeles para ajustar la clase siguiente.",
+    "cambio_conceptual+expositiva": "Mazur vio que sus clases expositivas no cambiaban las concepciones erróneas en física, y para cambiarlas interrumpió la exposición con preguntas conceptuales y discusión entre pares.",
+    "docente+mapa": "Un docente que abre su exposición con un mapa de ideas ordena lo que viene. Ausubel defendía la exposición bien organizada como vía de aprendizaje significativo.",
+    "autorregulado+retro": "Un estudiante que se autorregula convierte cada comentario en un cambio concreto, y ese paso a la acción es uno de los rasgos que describen Carless y Boud.",
+    "coevaluacion+retro": "Carless y Boud proponen la retroalimentación entre pares para formar esta alfabetización, porque comentar el trabajo ajeno enseña a interpretar y usar los comentarios que uno recibe.",
+    "bloom+curriculo": "Un currículo escrito con verbos de Bloom, como analizar o diseñar, declara qué podrá hacer el estudiante al terminar cada curso. Esas declaraciones son resultados de aprendizaje.",
+    "evidencia+releer": "Cuando la evidencia compara técnicas de estudio, releer rinde poco y recordar sin mirar rinde mucho más (Dunlosky y colaboradores), así que conviene cambiar relectura por recuperación.",
+    "olvido+proposito": "Si sabes que olvidarás buena parte de una clase en pocos días, puedes programar a propósito repasos separados. Ese plan contra el olvido es la práctica espaciada.",
+    "tiempo+tiempo": "Tiempo y más tiempo dedicados a la misma tarea dan práctica. Cuánto mejora quien practica depende de cómo la organice, y eso aparece al sumar otras fichas.",
+    "espaciada+problema": "En el trabajo real los problemas no llegan rotulados por capítulo. Repasar unidades anteriores mezcladas obliga a reconocer cada tipo antes de elegir el método.",
+    "dialogo+mente": "Después de mucho diálogo, la mente se queda con las palabras y empieza a usarlas para pensar a solas. El lenguaje pasa a ser también herramienta del pensamiento.",
+    "alfabetizacion_ia+autentica": "Si el estudiante usa el chatbot en una tarea del oficio sabiendo dónde falla, y después defiende sus decisiones, la nota vuelve a mostrar lo que sabe.",
+    "evaluacion_ia+tutoria": "El tutor no entrega la respuesta y la prueba final pide explicar cada paso, así que delegar el razonamiento en la máquina le sirve menos al estudiante.",
+    "estudiante+tecnologia": "Junta a un estudiante con un celular y es tentador concluir que, por crecer entre pantallas, ya sabe usarlo para aprender. Esa conclusión sin evidencia es el mito.",
+    "coi+hyflex": "HyFlex deja elegir sala, conexión en vivo o ruta asincrónica, con riesgo de tres cursos paralelos. Las presencias de Garrison ayudan a reunirlos en una conversación.",
+    "activo+bloom": "Ordenar actividades en niveles, como Bloom ordena objetivos, recuerda al cono de Dale, al que alguien le agregó porcentajes de retención sin estudio que los respalde.",
+    "emocion+proposito": "Cuando un propósito te entusiasma, hacer la tarea ya es parte del gusto, y las ganas de seguir nacen de dentro aunque no haya premio.",
+    "estilos+reflexiva": "Al reflexionar sobre los estilos se rescata que el curso es diverso y se descarta la etiqueta. El DUA atiende esa diversidad con opciones para todos.",
+    "alineamiento+dua": "Biggs alinea la meta con la práctica y la prueba. El DUA abre varios caminos hacia esa misma meta, para que llegue también quien no oye la clase.",
+    "curriculo+perfil_egreso": "Biggs y Tang extienden el alineamiento al programa, de modo que cada curso aporta a un rasgo del perfil de egreso y su evaluación lo comprueba.",
+    "constructivismo+grupo": "En la versión social del constructivismo, que suele atribuirse a Vygotsky, lo que un estudiante logra con ayuda de alguien más capaz marca su zona de desarrollo próximo.",
+    "escribir+situado": "Escribir para aprender dentro de una disciplina, con los textos que ese campo lee y juzga, es entrar en su cultura escrita. Carlino lo llama alfabetización académica.",
+    "memoria+mundo": "Lo que guardamos en la memoria queda ligado a las actividades y la gente del mundo donde lo usamos, y el aprendizaje situado propone enseñar en esos contextos.",
+    "grupo+proyectos": "Al cerrar un proyecto, cada equipo revisa con la rúbrica el producto de otro y le deja comentarios por criterio, una forma de evaluación entre pares.",
+    "cambio_conceptual+cpc": "Saber qué ideas cuestan más es parte del conocimiento pedagógico del contenido. Las que piden un cambio conceptual hondo y transforman la mirada son conceptos umbral.",
+    "curriculo+error": "Donde el curso tropieza cada año con los mismos errores puede haber un concepto umbral, una idea difícil que, una vez entendida, cambia la mirada sobre la materia.",
+    "mapa+tiempo": "Comparar el mapa conceptual de un estudiante al inicio y al final muestra cómo se reorganizaron sus ideas. Novak y Musonda lo hicieron durante doce años con escolares.",
+    "curriculo+ritmo": "Cada estudiante avanza a su ritmo, pero el currículo fija plazos comunes. Si lo que exige supera un tiempo realista, la carga se vuelve excesiva.",
+    "holgazaneria+proyectos": "En un proyecto de varias semanas es probable que alguien afloje, y un acuerdo escrito al inicio dice qué hacer si pasa.",
+    "grupo+zdp": "En un grupo hay quien ya domina lo que otro todavía no; ese compañero algo más avanzado puede trabajar justo en su zona de desarrollo próximo.",
+    "evaluacion+retro": "Si lo que muestra una prueba vuelve a tiempo al estudiante y también al docente, ambos alcanzan a ajustar antes del examen, y la evaluación se vuelve formativa.",
+    "estudiante+formativa": "Cuando el curso le cuenta al docente cómo vive la clase, la evaluación cambia de dirección; leída a mitad de semestre, esa opinión todavía sirve para ajustar.",
+    "autoeficacia+proposito": "Antes de esforzarse, cada estudiante se pregunta si puede lograrlo y para qué le sirve. Eccles y colegas llevaron esas dos preguntas al estudio de la motivación escolar.",
+    "reflexiva+universidad": "Snyder mostró que los estudiantes del MIT aprendían reglas no escritas para sobrevivir en la universidad. Reflexionar sobre esas reglas destapa el currículo oculto.",
+    "retro+sobrejustificacion": "Si los premios esperados apagan el gusto, la retroalimentación que informa sobre el progreso tiende a avivarlo, según el metaanálisis de Deci, Koestner y Ryan.",
+    "aprendizaje+emocion": "Cuando aprender algo te deja con ganas de saber más, la emoción se vuelve curiosidad. Gruber y colegas vieron que con ella se recuerda mejor."
+  },
   "refs": {
-    "kingston11": "Kingston, N., & Nash, B. (2011). Formative assessment: A meta-analysis and a call for research. _Educational Measurement: Issues and Practice, 30_(4), 28–37.",
-    "bastani25": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), artículo e2422633122. https://doi.org/10.1073/pnas.2422633122",
     "biggs11": "Biggs, J., & Tang, C. (2011). _Teaching for quality learning at university_ (4th ed.). Open University Press; McGraw-Hill Education.",
     "houssaye88": "Houssaye, J. (1988). _Le triangle pédagogique_ (Théorie et pratiques de l'éducation scolaire, Vol. 1). Peter Lang.",
     "barrows80": "Barrows, H. S., & Tamblyn, R. M. (1980). _Problem-based learning: An approach to medical education_. Springer Publishing Company.",
     "dunlosky12": "Dunlosky, J., & Rawson, K. A. (2012). Overconfidence produces underachievement: Inaccurate self evaluations undermine students' learning and retention. _Learning and Instruction, 22_(4), 271–280.",
+    "bastani25": "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), artículo e2422633122. https://doi.org/10.1073/pnas.2422633122",
     "kestin25": "Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. _Scientific Reports, 15_, artículo 17458. https://doi.org/10.1038/s41598-025-97652-6",
     "long20": "Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. En _Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems_ (pp. 1–16). Association for Computing Machinery. https://doi.org/10.1145/3313831.3376727",
     "perkins24": "Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. _Journal of University Teaching and Learning Practice, 21_(6). https://doi.org/10.53761/q3azde36",
@@ -580,98 +594,41 @@
     "walton23": "Walton, G. M., Murphy, M. C., Logel, C., Yeager, D. S., Goyer, J. P., Brady, S. T., Emerson, K. T. U., Paunesku, D., Fotuhi, O., Blodorn, A., Boucher, K. L., Carter, E. R., Gopalan, M., Henderson, A., Kroeper, K. M., Murdock-Perriera, L. A., Reeves, S. L., Ablorh, T. T., Ansari, S., . . . Krol, N. (2023). Where and with whom does a brief social-belonging intervention promote progress in college? _Science, 380_(6644), 499–505.",
     "perez14": "Perez, T., Cromley, J. G., & Kaplan, A. (2014). The role of identity development, values, and costs in college STEM retention. _Journal of Educational Psychology, 106_(1), 315–329."
   },
-  "recetasExtra": [],
-  "quitarRecetas": [
-    "carga_trabajo+mente",
-    "espaciada+metacognicion",
-    "jigsaw+mapa",
-    "mundo+olvido",
-    "memoria+mundo",
-    "mundo+practica_deliberada",
-    "grupo+otros",
-    "escritura+olvido",
-    "curriculo+curriculo",
-    "investigacion_accion+tecnologia",
-    "emocion+tiempo",
-    "estudiante+proposito",
-    "activo+bloom",
-    "dominio+motivacion",
-    "proposito+tiempo",
-    "blended+ritmo",
-    "estudiante+motivacion"
-  ],
-  "notas": {
-    "estudiante+estudiante": "Dos estudiantes juntos ya forman un grupo, aunque reunirse no asegura que aprendan juntos si nadie estructura la tarea.",
-    "mapa+tiempo": "Comparar el mapa conceptual de un estudiante al inicio y al final muestra cómo se reorganizaron sus ideas. Novak y Musonda lo hicieron durante doce años con escolares.",
-    "memoria+mundo": "Lo que guardamos en la memoria queda ligado a las actividades y la gente del mundo donde lo usamos, y el aprendizaje situado propone enseñar en esos contextos.",
-    "estudiante+juego": "Un estudiante que gana insignias por entregar a tiempo vive un curso gamificado. Sailer y Homner encontraron efectos positivos, de pequeños a medianos, que dependen mucho del diseño.",
-    "escribir+expositiva": "Al cierre de una exposición, cada estudiante escribe en un minuto qué entendió y qué quedó confuso, y tú lees esos papeles para ajustar la clase siguiente.",
-    "cambio_conceptual+expositiva": "Mazur vio que sus clases expositivas no cambiaban las concepciones erróneas en física, y para cambiarlas interrumpió la exposición con preguntas conceptuales y discusión entre pares.",
-    "docente+mapa": "Un docente que abre su exposición con un mapa de ideas ordena lo que viene. Ausubel defendía la exposición bien organizada como vía de aprendizaje significativo.",
-    "autorregulado+retro": "Un estudiante que se autorregula convierte cada comentario en un cambio concreto, y ese paso a la acción es uno de los rasgos que describen Carless y Boud.",
-    "coevaluacion+retro": "Carless y Boud proponen la retroalimentación entre pares para formar esta alfabetización, porque comentar el trabajo ajeno enseña a interpretar y usar los comentarios que uno recibe.",
-    "bloom+curriculo": "Un currículo escrito con verbos de Bloom, como analizar o diseñar, declara qué podrá hacer el estudiante al terminar cada curso. Esas declaraciones son resultados de aprendizaje.",
-    "evidencia+releer": "Cuando la evidencia compara técnicas de estudio, releer rinde poco y recordar sin mirar rinde mucho más (Dunlosky y colaboradores), así que conviene cambiar relectura por recuperación.",
-    "olvido+proposito": "Si sabes que olvidarás buena parte de una clase en pocos días, puedes programar a propósito repasos separados. Ese plan contra el olvido es la práctica espaciada.",
-    "tiempo+tiempo": "Tiempo y más tiempo dedicados a la misma tarea dan práctica. Cuánto mejora quien practica depende de cómo la organice, y eso aparece al sumar otras fichas.",
-    "espaciada+problema": "En el trabajo real los problemas no llegan rotulados por capítulo. Repasar unidades anteriores mezcladas obliga a reconocer cada tipo antes de elegir el método.",
-    "dialogo+mente": "Después de mucho diálogo, la mente se queda con las palabras y empieza a usarlas para pensar a solas. El lenguaje pasa a ser también herramienta del pensamiento.",
-    "alfabetizacion_ia+autentica": "Si el estudiante usa el chatbot en una tarea del oficio sabiendo dónde falla, y después defiende sus decisiones, la nota vuelve a mostrar lo que sabe.",
-    "evaluacion_ia+tutoria": "El tutor no entrega la respuesta y la prueba final pide explicar cada paso, así que delegar el razonamiento en la máquina le sirve menos al estudiante.",
-    "estudiante+tecnologia": "Junta a un estudiante con un celular y es tentador concluir que, por crecer entre pantallas, ya sabe usarlo para aprender. Esa conclusión sin evidencia es el mito.",
-    "coi+hyflex": "HyFlex deja elegir sala, conexión en vivo o ruta asincrónica, con riesgo de tres cursos paralelos. Las presencias de Garrison ayudan a reunirlos en una conversación.",
-    "activo+bloom": "Ordenar actividades en niveles, como Bloom ordena objetivos, recuerda al cono de Dale, al que alguien le agregó porcentajes de retención sin estudio que los respalde.",
-    "emocion+proposito": "Cuando un propósito te entusiasma, hacer la tarea ya es parte del gusto, y las ganas de seguir nacen de dentro aunque no haya premio.",
-    "estilos+reflexiva": "Al reflexionar sobre los estilos se rescata que el curso es diverso y se descarta la etiqueta. El DUA atiende esa diversidad con opciones para todos.",
-    "alineamiento+dua": "Biggs alinea la meta con la práctica y la prueba. El DUA abre varios caminos hacia esa misma meta, para que llegue también quien no oye la clase.",
-    "curriculo+perfil_egreso": "Biggs y Tang extienden el alineamiento al programa, de modo que cada curso aporta a un rasgo del perfil de egreso y su evaluación lo comprueba.",
-    "constructivismo+grupo": "En la versión social del constructivismo, que suele atribuirse a Vygotsky, lo que un estudiante logra con ayuda de alguien más capaz marca su zona de desarrollo próximo.",
-    "escribir+situado": "Escribir para aprender dentro de una disciplina, con los textos que ese campo lee y juzga, es entrar en su cultura escrita. Carlino lo llama alfabetización académica.",
-    "grupo+proyectos": "Al cerrar un proyecto, cada equipo revisa con la rúbrica el producto de otro y le deja comentarios por criterio, una forma de evaluación entre pares.",
-    "cambio_conceptual+cpc": "Saber qué ideas cuestan más es parte del conocimiento pedagógico del contenido. Las que piden un cambio conceptual hondo y transforman la mirada son conceptos umbral.",
-    "curriculo+error": "Donde el curso tropieza cada año con los mismos errores puede haber un concepto umbral, una idea difícil que, una vez entendida, cambia la mirada sobre la materia.",
-    "curriculo+ritmo": "Cada estudiante avanza a su ritmo, pero el currículo fija plazos comunes. Si lo que exige supera un tiempo realista, la carga se vuelve excesiva.",
-    "holgazaneria+proyectos": "En un proyecto de varias semanas es probable que alguien afloje, y un acuerdo escrito al inicio dice qué hacer si pasa.",
-    "grupo+zdp": "En un grupo hay quien ya domina lo que otro todavía no; ese compañero algo más avanzado puede trabajar justo en su zona de desarrollo próximo.",
-    "evaluacion+retro": "Si lo que muestra una prueba vuelve a tiempo al estudiante y también al docente, ambos alcanzan a ajustar antes del examen, y la evaluación se vuelve formativa.",
-    "estudiante+formativa": "Cuando el curso le cuenta al docente cómo vive la clase, la evaluación cambia de dirección; leída a mitad de semestre, esa opinión todavía sirve para ajustar.",
-    "autoeficacia+proposito": "Antes de esforzarse, cada estudiante se pregunta si puede lograrlo y para qué le sirve. Eccles y colegas llevaron esas dos preguntas al estudio de la motivación escolar.",
-    "reflexiva+universidad": "Snyder mostró que los estudiantes del MIT aprendían reglas no escritas para sobrevivir en la universidad. Reflexionar sobre esas reglas destapa el currículo oculto.",
-    "retro+sobrejustificacion": "Si los premios esperados apagan el gusto, la retroalimentación que informa sobre el progreso tiende a avivarlo, según el metaanálisis de Deci, Koestner y Ryan.",
-    "aprendizaje+emocion": "Cuando aprender algo te deja con ganas de saber más, la emoción se vuelve curiosidad. Gruber y colegas vieron que con ella se recuerda mejor.",
-    "dominio+estudiante": "Cuando un estudiante domina por fin un tema difícil con su propio esfuerzo, vive lo que Bandura consideró la fuente más poderosa de autoeficacia.",
-    "estudiante+mente": "Imaginar que la mente del estudiante trabaja a una fracción de su capacidad es una idea vieja y atractiva. De ahí sale el mito del 10 % del cerebro.",
-    "activo+memoria": "Querer saber cuánto recuerda el curso según la actividad tienta a creer en una pirámide con porcentajes de retención que ningún estudio respalda.",
-    "proposito+saber": "Un propósito aplicado a un saber concreto se escribe como lo que el estudiante podrá hacer, con un verbo observable. Así se redactan los resultados de aprendizaje."
-  },
   "misiones": {
-    "evaluar": {
-      "reflexiones": {
-        "rubrica": "Gabriel quiere que sus criterios dejen de vivir solo en su cabeza. Escribe un criterio de tu rúbrica con cómo se ve un desempeño logrado y uno en desarrollo, tal como lo entregarías junto al enunciado.",
-        "alf_retro": "¿En qué tarea de tu curso podrías pedir un borrador sin nota antes de la entrega final, como una demanda en primera versión, y qué tendría que hacer cada estudiante con tus comentarios antes de reescribir?"
-      }
-    },
-    "memoria": {
-      "reflexiones": {
-        "dificultades_deseables": "Rocío sabe que su curso preferirá releer el apunte porque se siente más fácil. ¿Qué dificultad deseable le pondrías a tu curso esta semana y cómo le explicarías que cuesta más y rinde más?",
-        "espaciada": "¿Qué contenido de tu curso, como el cálculo de dosis pediátricas en el de Rocío, necesitarán tus estudiantes un año después, y en qué semanas volverá a aparecer en tu programa después de evaluarlo?"
-      },
-      "encargo": "Te escribe Rocío Mora, que enseña Farmacología en tercer año de Enfermería en una universidad de San José, Costa Rica. Su curso aprueba los parciales, pero en la práctica clínica del año siguiente las docentes de práctica le cuentan que casi nadie recuerda cómo calcular una dosis pediátrica por peso ni cuáles son las interacciones más peligrosas. Quiere que lo estudiado en su curso siga disponible cuando hay un paciente esperando.",
-      "cierre": "Rocío ahora abre cada clase con preguntas sin apuntes que vuelven sobre semanas anteriores, corrige en el momento cada respuesta equivocada, y sus guías mezclan los fármacos que el curso confunde. Le costará convencer a sus estudiantes porque así se estudia más lento, pero es lo que la investigación asocia con que lo estudiado siga ahí meses después del examen."
-    },
-    "curso": {
-      "reflexiones": {
-        "dua": "Pensando en la estudiante sorda y en quienes trabajan por las tardes en la sección de Verónica, ¿qué opción ofrecerías a todo tu curso, sin clasificar a nadie, para acceder al contenido o para mostrar lo aprendido?"
-      },
-      "cierre": "El programa que le entregas a Verónica tiene pocos resultados con verbos claros, actividades que los practican y una evaluación que pide lo mismo, con más de una forma de entregarla. La estudiante sorda, que mantiene su intérprete y recibe los videos subtitulados, y quienes salen de la imprenta a las seis llegan a la misma meta por caminos distintos y se evalúan con los mismos criterios."
-    },
     "primeros": {
+      "hitos": [
+        "reflexion"
+      ],
       "reflexiones": {
         "reflexion": "En tu próxima clase, ¿qué experiencia concreta vivirán tus estudiantes, como leer una carta de 1810 en Historia, y en qué minuto les pedirás que se detengan a pensarla?"
       }
     },
     "activa": {
       "encargo": "Te escribe Patricia Benítez, que enseña Química General a 130 estudiantes de primer año de Ingeniería en una universidad de Asunción. Su auditorio tiene butacas fijas, nadie pregunta durante la clase y el primer parcial mostró que la mitad del curso todavía confunde moles con gramos, algo que ella daba por resuelto desde la tercera semana. Quiere sesiones en que el curso piense en voz alta y ella sepa, antes del próximo parcial, qué ideas se están quedando sin entender."
+    },
+    "evaluar": {
+      "hitos": [
+        "retro",
+        "alf_retro",
+        "rubrica",
+        "juicio"
+      ],
+      "reflexiones": {
+        "alf_retro": "¿En qué tarea de tu curso podrías pedir un borrador sin nota antes de la entrega final, como una demanda en primera versión, y qué tendría que hacer cada estudiante con tus comentarios antes de reescribir?"
+      }
+    },
+    "memoria": {
+      "encargo": "Te escribe Rocío Mora, que enseña Farmacología en tercer año de Enfermería en una universidad de San José, Costa Rica. Su curso aprueba los parciales, pero en la práctica clínica del año siguiente las docentes de práctica le cuentan que casi nadie recuerda cómo calcular una dosis pediátrica por peso ni cuáles son las interacciones más peligrosas. Quiere que lo estudiado en su curso siga disponible cuando hay un paciente esperando.",
+      "cierre": "Rocío ahora abre cada clase con preguntas sin apuntes que vuelven sobre semanas anteriores, corrige en el momento cada respuesta equivocada, y sus guías mezclan los fármacos que el curso confunde. Le costará convencer a sus estudiantes porque así se estudia más lento, pero es lo que la investigación asocia con que lo estudiado siga ahí meses después del examen.",
+      "hitos": [
+        "espaciada",
+        "recuperacion",
+        "intercalada",
+        "dificultades_deseables"
+      ],
+      "reflexiones": {
+        "espaciada": "¿Qué contenido de tu curso, como el cálculo de dosis pediátricas en el de Rocío, necesitarán tus estudiantes un año después, y en qué semanas volverá a aparecer en tu programa después de evaluarlo?"
+      }
     },
     "ia": {
       "encargo": "Te escribe Lorena Fuentes, directora de la carrera de Contador Auditor en una universidad de Valparaíso. La rectoría quiere licenciar una plataforma de tutoría con IA para Contabilidad Financiera I, la asignatura con más reprobación de primer año, y mientras tanto sus docentes reciben análisis de estados financieros que suenan a chatbot. Te pide una propuesta para el comité que ayude a aprender sin exponer datos de nadie, ahora que la Ley 21.719 creó una agencia para fiscalizar su protección.",
@@ -686,6 +643,9 @@
         "virtual": "Si un estudiante de tu curso solo pudiera entrar a la plataforma desde el celular, como varios de los de Wilmer, ¿qué material o actividad tuya le quedaría fuera de alcance, y qué versión liviana le ofrecerías esta semana?",
         "asincronico": "Si parte de tu curso solo pudiera participar entre turnos de trabajo, como los estudiantes de Wilmer en los centros de salud, ¿qué pregunta semanal le darías para responder por escrito o por audio, y con qué plazo?"
       }
+    },
+    "curso": {
+      "cierre": "El programa que le entregas a Verónica tiene pocos resultados con verbos claros, actividades que los practican y una evaluación que pide lo mismo, con más de una forma de entregarla. La estudiante sorda, que mantiene su intérprete y recibe los videos subtitulados, y quienes salen de la imprenta a las seis llegan a la misma meta por caminos distintos y se evalúan con los mismos criterios."
     },
     "escritura": {
       "cierre": "Rodrigo ya tiene un plan para su semestre. Cada clase de Bioquímica termina con unos minutos de escritura sin nota que le muestran a tiempo quién entiende la glucemia, y el informe de caso clínico pasa por un borrador que dos compañeros comentan antes de la versión calificada. Una clase entera se dedica a desarmar una nota de evolución real, y Rodrigo llevará a la reunión de docentes de Nutrición la propuesta de que cada asignatura enseñe los textos que pide."
@@ -717,5 +677,160 @@
     "investigar_docencia": {
       "cierre": "Rafael ya tiene una pregunta acotada sobre los casos en parejas, un inventario conceptual al inicio y al cierre del semestre, dos visitas de una colega con un protocolo de observación y una lectura de la encuesta que considera sus sesgos. El comité de ética de su facultad revisó el estudio, y un colega guardará los consentimientos hasta que cierren las notas. Con eso podrá mostrar a la coordinación, y a las jornadas de su facultad, qué cambió en el aprendizaje de su curso."
     }
-  }
+  },
+  "recetas_dudosas": [
+    {
+      "revisor": "R1",
+      "a": "espaciada",
+      "b": "problema",
+      "r": "intercalada",
+      "gravedad": "media",
+      "problema": "Receta del camino diseñado de memoria. 🧩 Problema real se define como una situación abierta, con datos incompletos y sin solución única, mientras que la práctica intercalada mezcla ejercicios bien definidos de distinto tipo (Rohrer y Taylor; Brunmair y Richter). Leída tal cual, sugiere que intercalar es trabajar con problemas auténticos.",
+      "propuesta": "Mantenerla, porque reemplazarla alargaría el camino, pero con la nota nueva (notas.espaciada+problema) que funda la relación en que los problemas reales no llegan rotulados y hay que reconocer su tipo."
+    },
+    {
+      "revisor": "R1",
+      "a": "mundo",
+      "b": "olvido",
+      "r": "escritura",
+      "gravedad": "baja",
+      "problema": "Usa 🍂 Curva del olvido, un hallazgo experimental de Ebbinghaus (1885), como ingrediente de la invención de la escritura, unos cinco mil años anterior. Y la escritura cuneiforme nació sobre todo como registro administrativo y contable, no como remedio contra el olvido personal.",
+      "propuesta": "Quitarla. ✍️ Escritura ya tiene otras tres recetas defendibles (Diálogo + Memoria, Lenguaje + Tiempo, Herramienta + Memoria)."
+    },
+    {
+      "revisor": "R2",
+      "a": "blended",
+      "b": "ritmo",
+      "r": "hyflex",
+      "gravedad": "media",
+      "problema": "Enseña que HyFlex es un curso combinado a ritmo propio. Según Beatty (2019), lo que se elige es el modo de participar en cada sesión, con rutas equivalentes; no es avanzar con más o menos tiempo hacia la meta, que es el ritmo propio de Carroll.",
+      "propuesta": "Sacarla del plano de hibrido y usar Modalidad asincrónica + Aprendizaje combinado = HyFlex (ya existe). Para no perder la combinación, redirigirla a Aprendizaje combinado + Ritmo propio = Aula invertida, con la nota: \"Si en un curso combinado cada estudiante revisa la exposición en línea a su ritmo, la sala queda libre para practicar. Eso es el aula invertida.\" O quitarla."
+    },
+    {
+      "revisor": "R2",
+      "a": "estudiante",
+      "b": "motivacion",
+      "r": "cerebro10",
+      "gravedad": "media",
+      "problema": "Relación forzada: la motivación intrínseca (gusto por la actividad misma) no explica ni genera el mito del 10%, que viene de la literatura de autoayuda. También asocia un constructo sólido a un neuromito.",
+      "propuesta": "Cambiar por Mente + Estudiante = Solo usamos el 10% del cerebro (hoy libre), con la nota: \"Imaginar que la mente del estudiante trabaja a una fracción de su capacidad es una idea vieja y atractiva. De ahí sale el mito del 10% del cerebro.\" Acorta el plano de mitos en tres recetas."
+    },
+    {
+      "revisor": "R2",
+      "a": "estilos",
+      "b": "reflexiva",
+      "r": "dua",
+      "gravedad": "media",
+      "problema": "La relación es defendible (se rescata la diversidad y se descarta la etiqueta), pero el motor muestra en este caso \"Desarmaste un mito... esto es lo que la evidencia sí respalda\", y Boysen (2024) concluyó que los estudios que CAST cita como respaldo aportan poca evidencia.",
+      "propuesta": "Mantenerla con la ficha dua matizada. En el motor, para mitos cuyo reemplazo es un marco de diseño y no un hallazgo, usar un texto como \"esto es lo que conviene hacer en su lugar\"."
+    },
+    {
+      "revisor": "R3",
+      "a": "memoria",
+      "b": "mundo",
+      "r": "situado",
+      "gravedad": "media",
+      "problema": "La nota actual enseña una relación falsa: confunde memoria dependiente del contexto con aprendizaje situado, y apoya la idea en el estudio de los buzos de Godden y Baddeley (1975), que no se replicó (Murre, 2021).",
+      "propuesta": "Mantenerla solo con la nota corregida (notas, memoria+mundo). Si se prefiere no forzar la relación, quitarla; Aprendizaje situado tiene muchas otras recetas."
+    },
+    {
+      "revisor": "R3",
+      "a": "mundo",
+      "b": "practica_deliberada",
+      "r": "simulacion",
+      "gravedad": "baja",
+      "problema": "Practicar deliberadamente en el mundo real no produce una simulación; la relación es arbitraria y la nota solo repite el hallazgo de McGaghie sin explicar por qué A + B da C.",
+      "propuesta": "Quitarla. Práctica deliberada + Tecnología = Simulación ya cubre esa relación con sentido."
+    },
+    {
+      "revisor": "R3",
+      "a": "grupo",
+      "b": "otros",
+      "r": "jigsaw",
+      "gravedad": "baja",
+      "problema": "Grupo + Otros es una combinación genérica que no contiene la idea de repartir el contenido en piezas; el resultado Rompecabezas de Aronson es arbitrario. Grupo + Grupo y Aprendizaje cooperativo + Aprendizaje cooperativo ya explican bien el rompecabezas (grupo de expertos y grupo base).",
+      "propuesta": "Quitarla."
+    },
+    {
+      "revisor": "R3",
+      "a": "grupo",
+      "b": "proyectos",
+      "r": "coevaluacion",
+      "gravedad": "baja",
+      "problema": "La relación es defendible, pero la nota describe la evaluación de la contribución y no la evaluación entre pares.",
+      "propuesta": "Mantenerla con la nota corregida (notas, grupo+proyectos)."
+    },
+    {
+      "revisor": "R4",
+      "a": "motivacion",
+      "b": "dominio",
+      "r": "autoeficacia",
+      "gravedad": "baja",
+      "problema": "Está en el camino de motivacion_dura. La motivación intrínseca no es fuente de autoeficacia en Bandura; la relación descansa solo en las experiencias de dominio.",
+      "propuesta": "Cambiar por Aprendizaje para el dominio + Estudiante = Autoeficacia (par libre, ambas piezas ya están en el plano), con la nota “Cuando un estudiante domina por fin un tema difícil con su propio esfuerzo, vive lo que Bandura consideró la fuente más poderosa de autoeficacia.”. Motivación intrínseca sigue siendo necesaria para la Teoría de la autodeterminación."
+    },
+    {
+      "revisor": "R4",
+      "a": "bloom",
+      "b": "activo",
+      "r": "piramide",
+      "gravedad": "baja",
+      "problema": "Está en el camino de investigar_docencia. Asocia el mito con la taxonomía de Bloom, que no tiene relación con él; las cifras se pegaron después al cono de la experiencia de Dale. Un docente puede salir creyendo que Bloom tiene algo que ver.",
+      "propuesta": "Cambiar por Aprendizaje activo + Memoria = Pirámide del aprendizaje (par libre; Memoria ya está en el plano), con la nota “Querer saber cuánto recuerda el curso según la actividad tienta a creer en una pirámide con porcentajes de retención que ningún estudio respalda.”."
+    },
+    {
+      "revisor": "R4",
+      "a": "emocion",
+      "b": "tiempo",
+      "r": "motivacion",
+      "gravedad": "baja",
+      "problema": "La nota describe el paso del interés situacional al individual (Hidi y Renninger), que es otro constructo distinto de la motivación intrínseca.",
+      "propuesta": "Cambiar el resultado a Interés individual (interes_individual ya existe) y conservar la nota."
+    },
+    {
+      "revisor": "R4",
+      "a": "estudiante",
+      "b": "proposito",
+      "r": "motivacion",
+      "gravedad": "baja",
+      "problema": "Hacer propio el propósito del curso es internalización (regulación identificada), no motivación intrínseca. Lo mismo ocurre con Propósito + Aprendizaje-servicio = Motivación intrínseca (“ese sentido sostiene las ganas”).",
+      "propuesta": "Llevar Estudiante + Propósito a Motivación autónoma (motivacion_autonoma ya existe) y revisar la nota de Propósito + Aprendizaje-servicio para hablar del gusto por la tarea."
+    },
+    {
+      "revisor": "R4",
+      "a": "mundo",
+      "b": "olvido",
+      "r": "escritura",
+      "gravedad": "baja",
+      "problema": "Forzada y anacrónica: la curva del olvido es un hallazgo experimental de Ebbinghaus (1885), y las primeras tablillas sirvieron sobre todo para llevar cuentas y registros administrativos.",
+      "propuesta": "Quitarla; la relación entre escritura y memoria ya la cubren Herramienta + Memoria y Diálogo + Memoria."
+    },
+    {
+      "revisor": "R4",
+      "a": "escritura",
+      "b": "olvido",
+      "r": "tecnologia",
+      "gravedad": "baja",
+      "problema": "Forzada: la nota habla del Fedro, que trata de escritura y memoria, no de la curva del olvido ni de por qué algo es tecnología.",
+      "propuesta": "Quitarla; Escritura + Herramienta = Tecnología ya enseña que la escritura es una tecnología (Ong)."
+    },
+    {
+      "revisor": "R4",
+      "a": "curriculo",
+      "b": "curriculo",
+      "r": "curriculo_oculto",
+      "gravedad": "baja",
+      "problema": "Combinar una ficha consigo misma no expresa ninguna relación; la nota solo define el término.",
+      "propuesta": "Quitarla; hay muchas otras recetas defendibles hacia currículo oculto (Currículo + Grupo, Currículo + Experiencia)."
+    },
+    {
+      "revisor": "R4",
+      "a": "investigacion_accion",
+      "b": "tecnologia",
+      "r": "analitica",
+      "gravedad": "baja",
+      "problema": "La analítica del aprendizaje no deriva de la investigación-acción; la nota solo dice que sus datos pueden alimentar un ciclo.",
+      "propuesta": "Quitarla; Datos + Aprendizaje y Aprendizaje + Herramienta ya llevan a la analítica del aprendizaje."
+    }
+  ]
 }

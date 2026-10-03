@@ -47,7 +47,6 @@ const F = g.fichas;
 
 // ---------- Textos ----------
 const refs = leer(V("refs.json")) || {};
-Object.assign(refs, ajustes.refs || {});
 const notas = {};
 function mezclarRefs(origen, nuevas, remap) {
   for (const [k, v] of Object.entries(nuevas || {})) {
@@ -79,6 +78,8 @@ for (const [x, p] of expTextos) {
   }
   for (const m of p.misiones || []) misionesTxt[m.id] = { encargo: m.encargo, objetivo: m.objetivo, reflexiones: m.reflexiones || {}, cierre: m.cierre };
 }
+// Las correcciones de referencias van al final, para que ninguna fuente las pise con una versión anterior.
+Object.assign(refs, ajustes.refs || {});
 const informeFiltro = [];
 for (const x of ["F1", "F2", "F3"]) {
   const p = leer(V("filtro-" + x + ".json"));
@@ -162,27 +163,44 @@ for (let cambio = true; cambio;) {
     if (nivelBase[r] === undefined || t < nivelBase[r]) { nivelBase[r] = t; cambio = true; }
   }
 }
-function plano(meta) {
-  const nodos = new Map();
+// Para cada pieza se elige, en orden: la ruta que la misión fije en el catálogo ("ruta"), la receta que pasa
+// por más hitos de la misión y, si empatan, la de ingredientes de menor nivel. El nivel de cada pieza en el plano
+// es su profundidad real en ese camino.
+function plano(meta, hitos = [], ruta = {}) {
+  const nodos = new Map(), pila = new Set();
+  const nh = r => (hitos.includes(r[0]) ? 1 : 0) + (hitos.includes(r[1]) ? 1 : 0);
   const visitar = id => {
     if (nodos.has(id)) return;
     if (g.cat.iniciales.includes(id)) { nodos.set(id, null); return; }
-    const recs = recetasBase.filter(r => r[2] === id && nivelBase[r[0]] !== undefined && nivelBase[r[1]] !== undefined && nivelBase[r[0]] < nivelBase[id] && nivelBase[r[1]] < nivelBase[id]);
-    recs.sort((x, y) => Math.max(nivelBase[x[0]], nivelBase[x[1]]) - Math.max(nivelBase[y[0]], nivelBase[y[1]]) || (x.origen === "nuevas" ? -1 : 0));
-    const p = recs[0];
-    nodos.set(id, p ? [p[0], p[1]] : null);
+    pila.add(id);
+    let p = null;
+    if (ruta[id]) {
+      const [a, b] = ruta[id];
+      if (g.recetas.some(r => r[2] === id && clave(r[0], r[1]) === clave(a, b)) && !pila.has(a) && !pila.has(b)) p = [a, b];
+      else errores.push("ruta fijada inexistente o circular: " + a + " + " + b + " = " + id);
+    }
+    if (!p) {
+      const recs = recetasBase.filter(r => r[2] === id && nivelBase[r[0]] !== undefined && nivelBase[r[1]] !== undefined && nivelBase[r[0]] < nivelBase[id] && nivelBase[r[1]] < nivelBase[id]);
+      recs.sort((x, y) => nh(y) - nh(x) || Math.max(nivelBase[x[0]], nivelBase[x[1]]) - Math.max(nivelBase[y[0]], nivelBase[y[1]]) || (x.origen === "nuevas" ? -1 : 0));
+      if (recs[0]) p = [recs[0][0], recs[0][1]];
+    }
+    nodos.set(id, p);
     if (p) { visitar(p[0]); visitar(p[1]); }
+    pila.delete(id);
   };
   visitar(meta);
-  return [...nodos.entries()].map(([id, ing]) => ({ id, ing, nivel: nivelBase[id] }));
+  const prof = {};
+  const profundidad = id => { if (prof[id] !== undefined) return prof[id]; const ing = nodos.get(id); return prof[id] = ing ? 1 + Math.max(profundidad(ing[0]), profundidad(ing[1])) : 0; };
+  return [...nodos.entries()].map(([id, ing]) => ({ id, ing, nivel: profundidad(id) }));
 }
-const misiones = g.cat.misiones.map(({ _de, ...m }) => {
+const misiones = g.cat.misiones.map(({ _de, ruta, ...m }) => {
   const txt = misionesTxt[m.id] || {};
-  const pl = plano(m.meta);
+  const pl = plano(m.meta, m.hitos, ruta || {});
   for (const h of m.hitos) if (!pl.some(n => n.id === h)) avisos.push("misión " + m.id + ": el hito " + h + " no está en el plano");
   if (!txt.encargo) avisos.push("misión " + m.id + " sin textos");
-  const reflexiones = Object.assign({}, txt.reflexiones || {}, ((ajustes.misiones || {})[m.id] || {}).reflexiones || {});
-  return Object.assign({}, m, { encargo: txt.encargo || "", objetivo: txt.objetivo || "", reflexiones, cierre: txt.cierre || "", plano: pl });
+  const aj = (ajustes.misiones || {})[m.id] || {};
+  const reflexiones = Object.assign({}, txt.reflexiones || {}, aj.reflexiones || {});
+  return Object.assign({}, m, { encargo: aj.encargo || txt.encargo || "", objetivo: aj.objetivo || txt.objetivo || "", reflexiones, cierre: aj.cierre || txt.cierre || "", plano: pl });
 });
 
 // ---------- Informe de patrones sospechosos (para revisión humana) ----------

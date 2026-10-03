@@ -1,0 +1,63 @@
+{
+  "fichas": {
+    "formativa": {
+      "why": "Evaluación usada para ajustar la enseñanza y el aprendizaje mientras ocurren. Black y Wiliam revisaron unos 250 estudios y concluyeron que fortalecerla mejora el aprendizaje, con efectos que estimaron entre 0,4 y 0,7. Revisiones posteriores, como la de Kingston y Nash, encontraron efectos más modestos, cercanos a 0,2, y advierten que el resultado depende mucho de cómo se implemente.",
+      "refs": [
+        "black98a",
+        "black98b",
+        "kingston11"
+      ]
+    },
+    "sustitucion": {
+      "pista": "En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica."
+    },
+    "aumento": {
+      "pista": "En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional."
+    },
+    "modificacion": {
+      "pista": "En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea."
+    },
+    "redefinicion": {
+      "pista": "El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles."
+    },
+    "ubicuo": {
+      "pista": "Se aprende en la calle, en el trabajo, en el bus o en la biblioteca, a cualquier hora."
+    },
+    "remota_emergencia": {
+      "pista": "Lo que hicieron muchas universidades en marzo de 2020 al trasladar de golpe todo a la videollamada."
+    }
+  },
+  "refs": {
+    "kingston11": "Kingston, N., & Nash, B. (2011). Formative assessment: A meta-analysis and a call for research. _Educational Measurement: Issues and Practice, 30_(4), 28–37.",
+    "bastani25": "Bastani, H., Bastani, O., Sungu, A., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), e2422633122."
+  },
+  "recetasExtra": [],
+  "quitarRecetas": [
+    "carga_trabajo+mente",
+    "espaciada+metacognicion",
+    "jigsaw+mapa"
+  ],
+  "notas": {
+    "estudiante+estudiante": "Dos estudiantes juntos ya forman un grupo, aunque reunirse no asegura que aprendan juntos si nadie estructura la tarea.",
+    "mapa+tiempo": "Comparar el mapa conceptual de un estudiante al inicio y al final muestra cómo se reorganizaron sus ideas. Novak y Musonda siguieron doce años a un grupo de escolares con mapas armados desde entrevistas.",
+    "memoria+mundo": "La memoria guarda también el lugar. Godden y Baddeley vieron que buzos recordaban mejor bajo el agua lo aprendido allí, un dato que suele citarse a favor de aprender en contexto.",
+    "estudiante+juego": "Un estudiante que gana insignias por entregar a tiempo vive un curso gamificado. Sailer y Homner encontraron efectos positivos, de pequeños a medianos, que dependen mucho del diseño."
+  },
+  "misiones": {
+    "evaluar": {
+      "reflexiones": {
+        "rubrica": "Gabriel quiere que sus criterios dejen de vivir solo en su cabeza. Escribe un criterio de tu rúbrica con cómo se ve un desempeño logrado y uno en desarrollo, tal como lo entregarías junto al enunciado."
+      }
+    },
+    "memoria": {
+      "reflexiones": {
+        "dificultades_deseables": "Rocío sabe que su curso preferirá releer el apunte porque se siente más fácil. ¿Qué dificultad deseable le pondrías a tu curso esta semana y cómo le explicarías que cuesta más y rinde más?"
+      }
+    },
+    "curso": {
+      "reflexiones": {
+        "dua": "Pensando en la estudiante sorda y en quienes trabajan por las tardes en la sección de Verónica, ¿qué opción ofrecerías a todo tu curso, sin clasificar a nadie, para acceder al contenido o para mostrar lo aprendido?"
+      }
+    }
+  }
+}

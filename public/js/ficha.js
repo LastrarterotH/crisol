@@ -37,7 +37,7 @@ export function abrirFicha(id, opts = {}) {
 
   let c = "";
   const viaMito = (opts.via || E.como[id] || []).find(x => D.fichas[x] && D.fichas[x].f === "mito");
-  if (viaMito && f.f !== "mito") c += '<p class="fe-aviso">Desarmaste un mito. «' + esc(D.fichas[viaMito].n) + "» no se sostiene, y esta ficha cuenta lo que la evidencia sí respalda.</p>";
+  if (viaMito && f.f !== "mito") c += '<p class="fe-aviso">Desarmaste un mito. «' + esc(D.fichas[viaMito].n) + "» no se sostiene, y esta ficha cuenta qué conviene hacer en su lugar.</p>";
   if (f.f === "mito") {
     c += "<section><h3>Lo que se cree</h3><p>" + rico(f.belief) + "</p></section><section><h3>Lo que dice la evidencia</h3><p>" + rico(f.evidence) + "</p></section>";
   } else if (f.why) {

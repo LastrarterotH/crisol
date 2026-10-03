@@ -134,6 +134,10 @@ button, input, textarea, select { font: inherit; color: inherit; }
 .hoja h3 { margin: 16px 0 8px; font-size: 11.5px; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; color: var(--tinta-3); }
 .alcance { display: grid; gap: 8px; }
 .pieza { display: grid; grid-template-columns: 34px 1fr; gap: 10px; align-items: start; padding: 10px; border-radius: 12px; border: 1px dashed var(--borde-2); background: var(--sup-2); }
+button.pieza { width: 100%; text-align: left; cursor: pointer; font: inherit; color: inherit; margin-bottom: 8px; }
+.pieza.pendiente { border: 1px solid color-mix(in srgb, var(--oro) 50%, white); background: #fffaf0; }
+.pieza.pendiente:hover { border-color: var(--oro); }
+.pieza.pendiente .silueta { border: 1.5px solid var(--oro); background: var(--oro-suave); font-family: var(--f-emoji); font-size: 15px; }
 .pieza .silueta { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; border: 1.5px dashed var(--tinta-3); font: 600 16px var(--f-display); color: var(--tinta-3); background: var(--sup); }
 .pieza.hito .silueta { border: 1.5px solid var(--oro); color: #a87100; background: var(--oro-suave); }
 .pieza p { margin: 0; font-size: 13.5px; line-height: 1.45; color: var(--tinta); }

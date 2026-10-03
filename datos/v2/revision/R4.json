@@ -1,0 +1,473 @@
+{
+  "misiones": {
+    "inclusiva": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "alta",
+          "tipo": "cierre",
+          "detalle": "El cierre dice que ahora “quienes estudiaron en preparatorias públicas o hablan zapoteco en casa saben qué significa discutir los resultados”. Así vincula hablar una lengua indígena con no dominar el género académico, cuando la causa que construye la misión es otra: convenciones que nadie enseñó (currículo oculto, capital cultural). También deja fuera el mixe, que el encargo sí nombra. En una capacitación real en México puede leerse como estereotipo.",
+          "propuesta": "Decir que ahora todo el grupo sabe qué significa discutir los resultados de un ensayo, sin señalar a hablantes de lenguas indígenas. Ver el cierre propuesto."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "alineamiento",
+          "detalle": "El encargo plantea un problema que la meta no resuelve: en las sesiones casi solo participan quienes vienen de preparatorias privadas. Ni la síntesis ni el cierre cambian cómo se reparte la palabra en clase. Las reglas escritas y la retroalimentación sabia atienden tareas y correcciones, no la participación oral.",
+          "propuesta": "Agregar a cap_inclusiva un principio de participación estructurada (minuto para pensar, parejas antes del plenario, turnos que no dependan de quién levanta la mano; Tanner, 2013, ya está en refs) y mencionarlo en el cierre."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "La retroalimentación sabia aparece sin la oportunidad de reentregar. En Yeager et al. (2014) lo que cambió fue la decisión de reentregar una versión corregida; sin esa opción, la frase de confianza queda sin efecto medible.",
+          "propuesta": "Incluir “la opción de reentregar” en el cierre y en el principio de cap_inclusiva que cita a Yeager."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "cierre",
+          "detalle": "“En la tercera semana contará que las dudas de pertenencia son comunes” no calza con el tiempo del caso: el curso ya pasó el primer examen y la estudiante habló ahora. No queda claro si se refiere al próximo semestre.",
+          "propuesta": "Que Citlali lo cuente al grupo ahora, con testimonios de semestres avanzados (ver cierre propuesto)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "encargo",
+          "detalle": "El encargo menciona que varios estudiantes hablan zapoteco o mixe, pero ningún paso del camino trabaja la diversidad lingüística. Si el dato queda solo como marca de desventaja, refuerza una lectura deficitaria.",
+          "propuesta": "Mantener el dato y leerlo como recurso: el principio 3 de reglas_vista (Stephens et al., 2014, estudiantes avanzados que cuentan cómo su origen marcó su llegada y qué estrategias les sirvieron) puede nombrar explícitamente la lengua como parte de esos orígenes."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "La receta Evaluación + Sentido de pertenencia = Amenaza del estereotipo es defendible, pero la ficha de amenaza convierte la duda de pertenencia en requisito del fenómeno. La amenaza del estereotipo requiere conocer el estereotipo y que importe rendir en ese dominio.",
+          "propuesta": "Corregido en la ficha amenaza_estereotipo; la nota de la receta puede quedar."
+        }
+      ],
+      "cambios": {
+        "cierre": "Citlali ya puede devolver cada informe de ensayo con criterios escritos, un ejemplo comentado, una frase que declara su estándar y su confianza en el grupo, y la opción de reentregar. En clase da un minuto para pensar y discusión en parejas antes de abrir la palabra, y contará al grupo que las dudas de pertenencia son comunes y suelen pasar. El examen sigue igual de exigente, y ahora todo el grupo sabe qué significa discutir los resultados de un ensayo de campo."
+      }
+    },
+    "primer_anio": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "reflexión",
+          "detalle": "La reflexión de pedagogía de la transición sugiere acordar “la misma semana para la primera evaluación” en todas las asignaturas. Eso concentra la carga en una semana, justo para un grupo en que muchos trabajan por las tardes. El principio de diseño de Kift busca repartir la carga, no apilarla. El uni de la ficha repite la idea.",
+          "propuesta": "Reflexión nueva que pida un calendario que reparta entregas o un aviso común de inasistencia; uni de pedagogia_transicion corregido."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El encargo dice que muchos trabajan por las tardes, pero el cierre no adapta los apoyos a esa realidad. Si las sesiones de tutoría par son por la tarde, la respuesta a la alerta no llega a quienes más la necesitan. Y “en la tercera semana toman una tarea” en todas las asignaturas a la vez repite el problema de la carga.",
+          "propuesta": "Escalonar las tareas de bajo peso antes de la cuarta semana y ofrecer las sesiones a mediodía o en línea (ver cierre propuesto)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "El uni de integración (parejas fijas cuatro semanas, luego cambian) contradice el cierre (parejas que rotan el primer mes) y la reflexión (al menos dos compañeros distintos en tres semanas).",
+          "propuesta": "Uni de integracion corregido para que roten las parejas."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "La nota de Evaluación + Retroalimentación = Evaluación formativa reduce la evaluación formativa a comentarios a tiempo para el estudiante, sin el docente que ajusta la enseñanza.",
+          "propuesta": "Nota corregida en el apartado de notas."
+        }
+      ],
+      "cambios": {
+        "cierre": "Marco y sus colegas tienen ahora un primer semestre coordinado, con parejas de laboratorio que rotan el primer mes. Antes de la cuarta semana, cada asignatura toma una tarea de bajo peso en fechas distintas, y en la cuarta revisan juntos quién se queda atrás. Cada alerta dispara un correo personal y una invitación a sesiones que guía una estudiante de tercer año, a mediodía o en línea. Si alguien falta a dos laboratorios al comienzo, Marco lo sabrá esa misma semana.",
+        "reflexiones": {
+          "pedagogia_transicion": "Marco coordina con Cálculo y Física. ¿Qué acordarías con quienes enseñan al mismo grupo que tú, por ejemplo un calendario que reparta las entregas para que no caigan en la misma semana o un aviso común cuando alguien deja de asistir?"
+        }
+      }
+    },
+    "motivacion_dura": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "camino",
+          "detalle": "El primer paso motivacional del camino enseña que hacer propio un propósito es motivación intrínseca (nota de Emoción + Propósito; lo mismo dice el why de la ficha motivacion, revisada por otro revisor, y las recetas Estudiante + Propósito y Propósito + Aprendizaje-servicio). En la teoría de la autodeterminación eso es internalización, es decir, regulación identificada o motivación autónoma; la intrínseca es el gusto por la actividad misma. La confusión pesa porque la meta se apoya precisamente en la regulación identificada: Howard et al. (2021, verificado en el resumen) la encontraron especialmente ligada a la persistencia. Para Marcelo es clave, porque la Bioestadística quizá nunca divierta a futuros odontólogos y aun así pueden valorarla.",
+          "propuesta": "Corregir la nota de Emoción + Propósito, revisar con el otro revisor el why de motivacion y considerar llevar Estudiante + Propósito a motivacion_autonoma (ficha que ya existe)."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "reflexión",
+          "detalle": "La reflexión de expectativa y valor solo pide pensar qué respuesta preocuparía más; no lleva a una acción concreta en el propio curso.",
+          "propuesta": "Reflexión nueva que pide formular esta semana una pregunta al curso y decidir qué cambiar según la respuesta."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "El cierre fija el contenido del párrafo (“cómo una prueba de hipótesis decide qué tratamiento llega a una consulta dental”). Así la conexión la pone el docente. Las intervenciones de valor de utilidad funcionan porque cada estudiante genera su propia conexión (Hulleman et al., 2010), y la utilidad comunicada directamente puede desanimar a quien tiene poca confianza (Canning y Harackiewicz, 2015, verificado).",
+          "propuesta": "Que el párrafo pida a cada estudiante contar cómo la prueba de hipótesis toca su futura consulta o una decisión de salud que conoce (ver cierre propuesto)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "Motivación intrínseca + Aprendizaje para el dominio = Autoeficacia es forzada, porque la motivación intrínseca no es fuente de autoeficacia en Bandura; la relación viene solo del dominio.",
+          "propuesta": "Ver recetas dudosas: Aprendizaje para el dominio + Estudiante = Autoeficacia."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "progresión",
+          "detalle": "El camino tiene 10 niveles y más de 40 piezas (ritmo propio, clase expositiva, curiosidad, ZDP, andamiaje). Cada pieza alimenta la meta, pero es largo para un docente no especialista.",
+          "propuesta": "Aceptable. Si se quiere aligerar, Autoeficacia podría salir de Experiencia + Otros (experiencia vicaria, receta que ya existe) y se eliminaría la rama de Ritmo propio y Aprendizaje para el dominio, a costa de perder la fuente más fuerte de autoeficacia, las experiencias de dominio."
+        }
+      ],
+      "cambios": {
+        "cierre": "Marcelo dejó de repartir puntos por asistir. Ahora explica por qué cada unidad importa para leer un ensayo clínico, permite elegir el conjunto de datos de cada trabajo con una rúbrica común y, tras el primer parcial, pide un párrafo en que cada estudiante cuenta cómo una prueba de hipótesis toca su futura consulta o una decisión de salud que conoce. Con razones a la vista y margen para decidir, es más probable que su curso siga estudiando cuando ya no haya premio.",
+        "reflexiones": {
+          "expectativa_valor": "Quienes dejan la clase de Marcelo tras el primer parcial quizá dudan de poder aprobar o no ven para qué sirve la materia. ¿Qué pregunta breve harías a tu curso esta semana para saber cuál pesa más, y qué cambiarías según la respuesta?"
+        }
+      }
+    },
+    "investigar_docencia": {
+      "veredicto": "ajustar",
+      "hallazgos": [
+        {
+          "gravedad": "media",
+          "tipo": "cierre",
+          "detalle": "Falta la revisión ética institucional. Rafael está en una facultad de Medicina y presentará resultados en jornadas; un estudio con estudiantes normalmente requiere que un comité de ética lo revise o lo declare exento. El consentimiento informado cubre la voluntariedad, no reemplaza esa revisión.",
+          "propuesta": "Mencionar el comité de ética en el cierre y en el principio de consentimiento de cap_investigar."
+        },
+        {
+          "gravedad": "media",
+          "tipo": "camino",
+          "detalle": "Estudiante + Evaluación formativa = Opinión estudiantil presenta la encuesta de fin de semestre como evaluación formativa al revés. Esas encuestas se usan casi siempre de forma sumativa, y el propio juego tiene la receta Sumativa + Pedagogía = mito de las encuestas. Solo la consulta a mitad de semestre es formativa (ficha consulta_medio_semestre).",
+          "propuesta": "Mantener la receta pero corregir la nota y el why de opinion_estudiantil para separar el uso sumativo habitual del uso formativo posible."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "camino",
+          "detalle": "Taxonomía de Bloom + Aprendizaje activo = Pirámide del aprendizaje asocia el mito con Bloom, que no tiene relación con él. Las cifras de la pirámide se pegaron después al cono de la experiencia de Dale.",
+          "propuesta": "Ver recetas dudosas: Aprendizaje activo + Memoria = Pirámide del aprendizaje (Memoria ya está en el plano)."
+        },
+        {
+          "gravedad": "baja",
+          "tipo": "progresión",
+          "detalle": "El desvío por la Pirámide del aprendizaje hacia Docencia informada por evidencia es intencional (mecánica de mitos) y aporta el hábito de rastrear fuentes, pero suma piezas a un camino de 10 niveles.",
+          "propuesta": "Aceptable; no requiere cambio."
+        }
+      ],
+      "cambios": {
+        "cierre": "Rafael ya tiene una pregunta acotada sobre los casos en parejas, un inventario conceptual al inicio y al cierre del semestre, dos visitas de una colega con un protocolo de observación y una lectura de la encuesta que considera sus sesgos. El comité de ética de su facultad revisó el estudio, y un colega guardará los consentimientos hasta que cierren las notas. Con eso podrá mostrar a la coordinación, y a las jornadas de su facultad, qué cambió en el aprendizaje de su curso."
+      }
+    }
+  },
+  "fichas": {
+    "curriculo_oculto": {
+      "gravedad": "baja",
+      "problema": "El uni describe una situación (residentes que se burlan de pacientes) en vez de una acción que el docente pueda hacer la próxima semana. Lo demás está bien: Jackson (1968) acuñó la expresión, Snyder estudió el MIT y Wellesley (Knopf, 1971 según el registro de la Biblioteca del Congreso) y Hafferty y Franks (1994) coincide con Crossref.",
+      "cambios": {
+        "uni": "Durante las rondas clínicas, pide a tus estudiantes que anoten qué conductas ven premiadas en el hospital y compáralas en clase con lo que enseña el curso de ética."
+      }
+    },
+    "pertenencia": {
+      "gravedad": "baja",
+      "problema": "“Estudiantes de grupos con estereotipos negativos” puede leerse como que esos grupos tienen los estereotipos; Walton y Cohen (2007, verificado en el resumen) hablan de grupos caracterizados negativamente en lo académico. El uni transmite que la duda es común, pero omite la otra mitad del mensaje de las intervenciones de pertenencia, que es pasajera (Walton y Cohen, 2011: “común y transitoria”).",
+      "cambios": {
+        "why": "Cuando una comunidad pasa a sentirse propia, aparece la percepción de ser aceptado y valorado en ella. Walton y Cohen mostraron que, en estudiantes de grupos sobre los que pesan estereotipos negativos en lo académico, una pequeña señal de exclusión bastaba para que dudaran de si encajaban en una carrera. Strayhorn la describe como una necesidad básica que pesa más en momentos de transición, como el primer año. Esa duda es frecuente, aunque cada estudiante suele vivirla como un veredicto sobre sí mismo.",
+        "uni": "En la segunda semana de Contabilidad, recoge en papeles anónimos las dudas sobre si cada quien encaja, muestra cuántas se repiten y cuenta que suelen ceder con el tiempo."
+      }
+    },
+    "capital_cultural": {
+      "gravedad": "baja",
+      "problema": "En Derecho Romano se trabajan fragmentos del Digesto o de las Instituciones y casi nunca sentencias, así que el ejemplo suena poco realista para quien enseña Derecho. Bourdieu (1986) y Los herederos (Siglo XXI, 2003; original de 1964) están bien citados.",
+      "cambios": {
+        "uni": "En la primera clase de Introducción al Derecho, explica cómo se cita una sentencia y cómo se pide una reunión con el docente, sin suponer que el curso ya lo sabe."
+      }
+    },
+    "primera_generacion": {
+      "gravedad": "media",
+      "problema": "1) La pista exagera la definición: primera generación se define por padres sin título universitario (Stephens et al., 2012) y un hermano o una tía pudo haber pisado un campus. 2) El why presenta solo déficits y omite el hallazgo accionable de Stephens et al. (2012, verificado en el resumen): cuando la universidad se presentó como comunidad interdependiente, la brecha desapareció sin perjudicar a nadie. En una misión ambientada en Oaxaca, con más de la mitad del grupo de primera generación, la ficha debe mostrar que la brecha depende también de cómo se presenta la institución. 3) “Las normas más interdependientes que suelen traer estos estudiantes” generaliza; el estudio habla de motivos más frecuentes en promedio, ligados al origen de clase trabajadora.",
+      "cambios": {
+        "pista": "Sus padres no fueron a la universidad, así que el mapa del campus lo dibuja sobre la marcha.",
+        "why": "Cuando el capital cultural que la universidad da por supuesto no viene de casa, quien llega sin padres universitarios aprende a la vez la materia y las reglas del lugar. Stephens y colaboradores mostraron que presentar la universidad como un espacio de independencia individual choca con las razones más comunitarias con que muchos de estos estudiantes llegan, y que describirla como una comunidad eliminó la brecha en tareas experimentales. Pascarella y colaboradores hallaron que participan menos en la vida extracurricular del campus."
+      }
+    },
+    "amenaza_estereotipo": {
+      "gravedad": "media",
+      "problema": "1) Precisión conceptual: el why pone la duda de pertenencia como condición (“si alguien duda de pertenecer”), pero la amenaza del estereotipo requiere saber que existe el estereotipo y que importe rendir en ese dominio; la incertidumbre de pertenencia es un fenómeno vecino (Walton y Cohen, 2007), no un requisito. 2) Shewach et al. (2019, verificado en el resumen) concluyen que en contextos operativos el efecto va de insignificante a pequeño; “más pequeños” se queda corto. 3) El uni pide presentar el control “como una práctica”; si cuenta para la nota, eso engaña al curso. Basta con decir la verdad sobre su peso y su propósito.",
+      "cambios": {
+        "why": "Si sabes que a tu grupo se le atribuye menor capacidad y te importa rendir bien, una evaluación puede sentirse como el momento de confirmarlo. Steele y Aronson observaron que estudiantes afroamericanos rendían peor en una prueba verbal difícil cuando se presentaba como medida de capacidad intelectual que cuando se presentaba como ejercicio de laboratorio. Se ha replicado a menudo, aunque un metaanálisis de 2019 halló efectos entre insignificantes y pequeños en condiciones parecidas a exámenes reales y señales de sesgo de publicación.",
+        "uni": "Antes del primer control de Física, de bajo peso en la nota, explica que sirve para saber qué reforzar y que la dificultad del tema es esperable para todos."
+      }
+    },
+    "reglas_vista": {
+      "gravedad": "media",
+      "problema": "1) Principio 2 mal respaldado: Stephens et al. (2012) estudia el choque entre normas de independencia e interdependencia, no la enseñanza explícita de normas tácitas. Lo respalda Collier y Morgan (2008, verificado en ERIC y Crossref): estudiantes de primera generación y docentes entienden de forma distinta las expectativas del curso. 2) Principio 3 impreciso: en Stephens et al. (2014, N = 168, verificado) el panel de estudiantes avanzados contaba cómo su origen social marcó su experiencia y qué estrategias usó; ese ingrediente cerró la brecha, más que contar “cómo aprendieron esas reglas”. 3) Principio 4: Snyder (1971) muestra que el curso se guía por lo que de verdad se evalúa, pero no recomienda enseñar esas exigencias o sacarlas de la nota; la cita debe respaldar la razón. 4) La pista dice que “solo adivinaban los hijos de profesionales”, lo que es ilógico (ellos lo sabían) y usa masculino genérico en una misión llamada Todas y todos aprenden.",
+      "cambios": {
+        "pista": "Lo que antes sabían solo quienes crecieron entre universitarios ahora viene escrito en el enunciado.",
+        "principios": [
+          "Escribe en cada encargo para qué sirve y qué pasos pide, y muestra los criterios con un ejemplo comentado (Winkelmes et al., 2016).",
+          "Enseña de forma explícita las normas que das por sabidas, como pedir una prórroga o citar una fuente, porque quienes no las traen de casa entienden de otra manera lo que el docente espera (Collier y Morgan, 2008).",
+          "Invita a estudiantes avanzados de distintos orígenes a contar cómo su procedencia marcó su llegada a la universidad y qué estrategias les sirvieron, porque en un ensayo aleatorizado esa conversación cerró la brecha de notas de estudiantes de primera generación (Stephens et al., 2014).",
+          "Revisa tu programa en busca de exigencias que nadie enseña, como exponer en público en un curso de Química, y decide si las enseñas o las sacas de la nota, porque el curso termina guiándose por lo que de verdad se evalúa (Snyder, 1971)."
+        ],
+        "refs": [
+          "winkelmes16",
+          "collier08",
+          "stephens14",
+          "snyder71"
+        ]
+      }
+    },
+    "retro_sabia": {
+      "gravedad": "alta",
+      "problema": "Cifra incorrecta y presentada de forma engañosa. En el Estudio 1 de Yeager et al. (2014), que revisé en el artículo, participaron 44 escolares de séptimo grado (22 afroamericanos). El 71 % frente al 17 % son porcentajes ajustados por covariables; los brutos son 64 % frente a 27 %. El 72 % no aparece. “Pasaron de 17 % a 72 %” sugiere un cambio en el tiempo, cuando es una comparación entre la condición con nota sabia y la de control. Conviene decir que la muestra era pequeña y escolar, y que Cohen, Steele y Ross (1999) sí trabajaron con universitarios. El uni omite la oportunidad de reentregar, que es la conducta que midió el estudio.",
+      "cambios": {
+        "why": "Quien teme ser juzgado por su grupo puede leer la crítica como prejuicio y descartarla. Cohen, Steele y Ross hallaron, con universitarios, que la crítica funcionaba mejor si quien corregía declaraba estándares altos y confianza en que el estudiante los alcanzaría. Yeager y colaboradores lo probaron con 44 escolares de séptimo grado y una nota breve junto a los comentarios de un ensayo. Entre los afroamericanos, reentregó una versión corregida el 64 % de quienes recibieron la nota y el 27 % del grupo de control.",
+        "uni": "Al devolver un informe de laboratorio de Bioquímica lleno de correcciones, agrega una línea que diga que exiges ese nivel porque confías en que cada estudiante puede llegar a él, y ofrece reentregarlo."
+      }
+    },
+    "cap_inclusiva": {
+      "gravedad": "media",
+      "problema": "1) El principio de Yeager omite la reentrega, que forma parte del diseño. 2) En Walton y Cohen (2011, verificado) el mensaje era que la adversidad es común y transitoria, y el ingrediente activo fue que cada estudiante lo generara por escrito y en video para futuros estudiantes; contar testimonios deja fuera esa parte. 3) La advertencia sobre el contexto ahora tiene respaldo directo: Walton et al. (2023, Science, 26 911 estudiantes en 22 instituciones, verificado) hallaron que la intervención de pertenencia solo funcionó donde los grupos tenían oportunidades reales de pertenecer. 4) La síntesis no trata la participación desigual que plantea el encargo; falta un principio de participación estructurada (Tanner, 2013, ya en refs). 5) La prueba exige devolver la tarea corregida y comparar, lo que no cabe en una semana.",
+      "cambios": {
+        "why": "Integra las reglas del juego a la vista, que ponen por escrito lo que antes se adivinaba, con la retroalimentación sabia, que une estándares altos y confianza en el estudiante. Ambas cuidan el sentido de pertenencia sin bajar la exigencia del curso. Las intervenciones breves dependen del contexto, y en un ensayo con casi 27 000 estudiantes una de pertenencia solo funcionó donde la institución ofrecía oportunidades reales de pertenecer. Por eso conviene sostenerlas con cambios de diseño del curso.",
+        "prueba": "Toma la próxima tarea con nota de tu curso, reescribe el enunciado con su propósito y sus criterios y prepara la frase que acompañará tus correcciones. Al presentarla esta semana, pregunta de forma anónima qué tan claro está lo que se pide y qué tan claro estaba en la tarea anterior.",
+        "principios": [
+          "Escribe en cada encargo su propósito y sus criterios, con un ejemplo comentado, porque así mejoran la confianza y la pertenencia de quienes no conocen las reglas tácitas (Winkelmes et al., 2016).",
+          "Al devolver trabajos con muchas correcciones, declara que aplicas un estándar alto y que confías en que cada estudiante puede alcanzarlo, y da la opción de reentregar (Yeager et al., 2014).",
+          "Cuenta al curso, con testimonios de cursos superiores, que las dudas sobre si uno encaja son comunes al comienzo y suelen pasar, y pide que cada estudiante escriba cómo se lo explicaría a quien entra el año siguiente (Walton y Cohen, 2011).",
+          "Pauta el trabajo de cada semana con práctica breve y calificada y con trabajo activo en clase, un diseño que mejoró a todo el curso y más a quienes llegaban en desventaja (Haak et al., 2011).",
+          "Reparte la palabra con estructura, con un minuto para pensar, discusión en parejas antes del plenario y turnos que no dependan de quién levanta la mano primero (Tanner, 2013).",
+          "Revisa tus creencias sobre la capacidad, porque en los cursos de docentes que la creían fija las brechas raciales fueron mayores (Canning et al., 2019)."
+        ],
+        "refs": [
+          "winkelmes16",
+          "yeager14",
+          "walton11",
+          "walton23",
+          "haak11",
+          "tanner13",
+          "canning19"
+        ]
+      }
+    },
+    "integracion": {
+      "gravedad": "media",
+      "problema": "1) En Tinto (1975) la integración académica se mide por notas y desarrollo intelectual, y el trato con docentes y personal fuera del aula forma parte de la social; el why pone “el trato con docentes” en la académica. 2) La crítica puede ser más precisa y más útil para estudiantes de primera generación o de pueblos originarios: se le reprochó suponer que el estudiante debía separarse de su comunidad de origen para integrarse (Tierney, 1992, verificado en Crossref). 3) El uni (parejas fijas cuatro semanas) contradice el cierre de la misión (parejas que rotan el primer mes).",
+      "cambios": {
+        "why": "Si la transición ocurre dentro de una comunidad que acoge, el estudiante se engancha con la institución. Tinto explicó la permanencia por la integración académica, en las notas y el desarrollo intelectual, y la social, en el trato con pares y con docentes fuera de clase. Su modelo fue criticado por suponer que el estudiante debía separarse de su comunidad de origen para integrarse, y en trabajos posteriores él mismo puso el foco en lo que la institución hace en el aula.",
+        "uni": "En Programación I, rota las parejas de laboratorio cada semana durante el primer mes, para que cada estudiante conozca a varias personas del curso."
+      }
+    },
+    "formativa": {
+      "gravedad": "media",
+      "problema": "Black y Wiliam (1998) no hicieron un metaanálisis; revisaron unos 250 trabajos y citaron efectos de estudios seleccionados entre 0,4 y 0,7. Kingston y Nash (2011, verificado en el resumen) señalan que ese rango “se afirma a menudo” sin respaldo suficiente, y su promedio de 0,20 sale de 13 estudios escolares. “Estimaron” atribuye a Black y Wiliam un cálculo que no hicieron. El uni no tiene disciplina ni acción concreta.",
+      "cambios": {
+        "why": "Evaluación usada para ajustar la enseñanza y el aprendizaje mientras ocurren. Black y Wiliam revisaron unos 250 trabajos y concluyeron que fortalecerla mejora el aprendizaje, citando estudios con efectos de entre 0,4 y 0,7, aunque sin hacer un metaanálisis. Kingston y Nash, con los estudios escolares que permitían calcular efectos, estimaron un promedio cercano a 0,2 y advierten que el resultado depende mucho de cómo se implemente.",
+        "uni": "En Estadística, cierra la clase con un ticket de salida de una pregunta sobre media y mediana y empieza la siguiente por el error más común."
+      }
+    },
+    "alerta_temprana": {
+      "gravedad": "media",
+      "problema": "Según Arnold y Pistilli (2012, verificado en el resumen), Course Signals calculaba el semáforo con notas, esfuerzo en la plataforma, historial académico y características demográficas, y el resultado llegaba en un correo personal del docente. Omitir lo demográfico oculta justo el riesgo ético que la misión trabaja después: etiquetar a estudiantes por su origen. La crítica a las cifras de retención (Caulfield, 2013) es correcta.",
+      "cambios": {
+        "why": "Cruzar las primeras evaluaciones con la analítica del aprendizaje permite detectar a tiempo a quien se queda atrás. En Purdue, Course Signals combinaba notas, actividad en la plataforma, antecedentes académicos y datos demográficos en un semáforo, y el docente enviaba a cada estudiante un correo personal con apoyos. Sus cifras de retención fueron criticadas, porque quien cursa más asignaturas tiene más probabilidades de pasar por una con semáforo y también de seguir estudiando."
+      }
+    },
+    "pedagogia_transicion": {
+      "gravedad": "baja",
+      "problema": "El uni pone la primera tarea de bajo peso en la tercera semana en todas las asignaturas a la vez, lo que concentra la carga en una semana y contradice el principio de diseño de Kift. Las referencias y los seis principios (transición, diversidad, diseño, compromiso, evaluación, evaluación y monitoreo) son correctos.",
+      "cambios": {
+        "uni": "Los docentes de primer año de Arquitectura acuerdan un calendario común que reparte las entregas y fija en cada asignatura una tarea de bajo peso antes de la cuarta semana."
+      }
+    },
+    "valor_utilidad": {
+      "gravedad": "media",
+      "problema": "En el uni es el docente quien anuncia la utilidad. Canning y Harackiewicz (2015, verificado en el resumen) mostraron que la utilidad comunicada directamente bajó el interés y el rendimiento de quienes tenían poca confianza, salvo cuando también generaban sus propios ejemplos. Es un matiz decisivo para Marcelo, cuyo cierre combina ambas cosas. Y Hulleman et al. (2010, verificado) hallaron el efecto mayor en quienes esperaban rendir poco (laboratorio) o rendían poco (aula).",
+      "cambios": {
+        "why": "Si la teoría de expectativa y valor se pone frente a un problema real de la profesión, destaca la utilidad, que es cuánto sirve la tarea para las metas de quien estudia, aunque no le guste. Hulleman y colaboradores mostraron que percibir más utilidad aumenta el interés, sobre todo en quienes rendían o esperaban rendir poco. Canning y Harackiewicz hallaron que anunciar la utilidad puede desanimar a quien duda de su capacidad, salvo que también genere sus propios ejemplos.",
+        "uni": "En Química Orgánica para Agronomía, muestra en cinco minutos cómo una reacción del tema explica la degradación de un herbicida y pide que cada estudiante agregue un ejemplo de su zona.",
+        "refs": [
+          "wigfield00",
+          "hulleman10",
+          "canning15"
+        ]
+      }
+    },
+    "cap_autonomia_estructura": {
+      "gravedad": "media",
+      "problema": "“La libertad ayuda a quien ya se siente capaz, y a quien todavía no lo está le hacen falta criterios claros” sugiere dar autonomía a unos y estructura a otros. Es justo la dicotomía que descarta Jang, Reeve y Deci (2010, verificado en el resumen): ambas dimensiones iban correlacionadas y ambas predijeron el compromiso conductual observado. El dato de 133 aulas de secundaria es correcto.",
+      "cambios": {
+        "why": "Une el apoyo a la autonomía con el andamiaje. Dar libertad sin criterios ni apoyos deja a la deriva a quien todavía no se siente capaz, y por eso la autonomía necesita estructura en todo el curso. Jang, Reeve y Deci observaron 133 aulas de secundaria y hallaron que el apoyo a la autonomía y la estructura, es decir, expectativas claras, orientación y retroalimentación, iban juntos y ambos predecían el compromiso observado en el curso."
+      }
+    },
+    "cap_interes_raices": {
+      "gravedad": "media",
+      "problema": "1) El principio 4 sobreafirma: en Harackiewicz et al. (2016, verificado en el resumen) la intervención ayudó a todos los grupos a ver utilidad en el contenido, pero el efecto en notas se concentró en estudiantes de primera generación de minorías subrepresentadas (brecha reducida en 61 %). 2) La pista promete que “un par de textos” vuelven la chispa una “afición duradera”, algo que ningún estudio citado muestra. 3) Hulleman et al. (2010) hallaron el efecto mayor en quienes esperaban rendir poco o rendían poco.",
+      "cambios": {
+        "pista": "Una chispa de clase que, con textos breves sobre tu propia vida, empieza a volverse interés propio.",
+        "why": "Une la intervención de valor de utilidad con el interés situacional. La chispa de una buena clase dura poco si el estudiante no ve qué tiene que ver el tema con él, y escribir sobre esa conexión tiene respaldo experimental. Hulleman y colaboradores encontraron que esa escritura aumentó el interés mantenido, sobre todo en quienes rendían o esperaban rendir poco, y en el modelo de Hidi y Renninger ese interés mantenido es el paso previo a un interés individual más estable.",
+        "principios": [
+          "Abre los temas difíciles con algo que capte la atención y lleve directo a la idea central, porque los detalles llamativos sin relación con ella empeoran el aprendizaje (Harp y Mayer, 1998).",
+          "Para sostener el interés, apuesta por el sentido de la tarea y la participación activa más que por la novedad (Mitchell, 1993).",
+          "Pide al curso, más de una vez en el semestre, un texto breve que conecte el contenido con su vida o su futura profesión (Hulleman et al., 2010).",
+          "Ofrece esa escritura a todo el curso, porque en Biología introductoria ayudó a todos los grupos a ver la utilidad del contenido y redujo la brecha de notas de quienes llegaban en desventaja (Harackiewicz et al., 2016).",
+          "Da a quienes ya muestran interés oportunidades de profundizar, porque el interés individual se sigue nutriendo del entorno (Hidi y Renninger, 2006)."
+        ]
+      }
+    },
+    "cap_motivacion": {
+      "gravedad": "baja",
+      "problema": "Principio 4: Flake et al. (2015) construye y valida una escala de costo; muestra que el costo es distinto de la expectativa y el valor y se relaciona con resultados, pero no que un curso “pierda estudiantes”. Para la intención de abandonar, Perez, Cromley y Kaplan (2014, verificado) hallaron que el costo de esfuerzo, el de oportunidades perdidas y el emocional se relacionaron, de distinta forma, con la intención de dejar una carrera STEM. El resto quedó verificado: en Howard et al. (2021) la regulación identificada se liga a la persistencia y la externa no, y Deci et al. (1999) confirma el efecto de premios esperados y retroalimentación positiva.",
+      "cambios": {
+        "principios": [
+          "Reemplaza los premios fijos por asistir o entregar con comentarios sobre lo que cada estudiante logró, porque las recompensas esperadas reducen la motivación intrínseca y la retroalimentación positiva la aumenta (Deci et al., 1999).",
+          "Explica para qué sirve cada unidad y pide al curso que lo escriba con sus palabras, porque valorar lo que se estudia es de lo que más se asocia con persistir (Howard et al., 2021).",
+          "Presenta las tareas ligadas a metas que el curso valora y sin lenguaje de presión, porque ambas condiciones mejoraron la persistencia en experimentos con estudiantes (Vansteenkiste et al., 2004).",
+          "Revisa cuánto cuesta tu curso en esfuerzo, tiempo y estrés, porque el costo percibido pesa aparte del valor y se asocia con la intención de abandonar una carrera (Flake et al., 2015; Perez et al., 2014).",
+          "Reconoce el progreso de cada estudiante respecto de sí mismo y evita los rankings públicos, para orientar al curso hacia metas de dominio (Ames, 1992)."
+        ],
+        "refs": [
+          "howard21",
+          "vansteenkiste04",
+          "deci99",
+          "flake15",
+          "perez14",
+          "ames92"
+        ]
+      }
+    },
+    "opinion_estudiantil": {
+      "gravedad": "media",
+      "problema": "1) Precisión conceptual: presenta la encuesta de fin de semestre como evaluación formativa en sentido inverso, pero esas encuestas se usan casi siempre de forma sumativa (el propio juego tiene la receta Sumativa + Pedagogía = mito de las encuestas). Solo una consulta a mitad de semestre puede ser formativa, y para eso ya existe la ficha consulta_medio_semestre. 2) La pista (“a veces entre bostezos”) desacredita al estudiantado. 3) El uni supone que el docente puede agregar preguntas a la encuesta institucional, algo que rara vez permiten las universidades latinoamericanas.",
+      "cambios": {
+        "pista": "El cuestionario en que tu curso califica tus clases y cuenta cómo las vivió.",
+        "why": "Cuando el estudiante informa al docente cómo vive el curso, la evaluación cambia de dirección. Las encuestas de opinión estudiantil, casi siempre de fin de semestre, son de las fuentes de evidencia docente más usadas. La revisión de Spooren, Brockx y Mortelmans concluye que su validez sigue en discusión, y Deslauriers y colaboradores mostraron que la sensación de aprender puede alejarse del aprendizaje medido, por lo que conviene leerlas como información sobre la experiencia del curso.",
+        "uni": "En la sexta semana de Economía, aplica tu propia encuesta anónima con dos preguntas abiertas, qué te ayudó a aprender y qué te lo dificultó, y comenta los resultados en clase."
+      }
+    },
+    "cap_investigar": {
+      "gravedad": "media",
+      "problema": "Falta la revisión ética institucional. En una facultad de Medicina, y con resultados que se presentarán en público, un estudio con estudiantes normalmente requiere que el comité de ética lo revise o lo declare exento; el consentimiento solo no basta. Lo demás está verificado: Felten (2013) propone cinco principios y Boyer (1990), cuatro formas de trabajo académico.",
+      "cambios": {
+        "principios": [
+          "Centra el estudio en el aprendizaje de tus estudiantes y en el contexto de tu curso, más que en tu desempeño como expositor (Felten, 2013).",
+          "Pide consentimiento con información clara y libertad real para negarse, y consulta antes al comité de ética de tu facultad, porque un estudiante puede sentirse obligado ante quien lo califica (Hutchings, 2002).",
+          "Busca colegas que observen tu clase y discutan tu estudio, porque la observación entre pares también enseña a quien observa (Hendry y Oliver, 2012).",
+          "Haz público lo que encuentres, aunque sea en una jornada interna, para que otros puedan revisarlo y construir sobre él (Hutchings y Shulman, 1999).",
+          "Presenta el estudio como parte de tu labor académica, ya que la enseñanza es una de las cuatro formas de trabajo académico que Boyer propuso valorar (Boyer, 1990)."
+        ]
+      }
+    }
+  },
+  "notas": {
+    "grupo+zdp": {
+      "problema": "Tiene 29 palabras (el límite es 28).",
+      "nota": "En un grupo hay quien ya domina lo que otro todavía no; ese compañero algo más avanzado puede trabajar justo en su zona de desarrollo próximo."
+    },
+    "evaluacion+retro": {
+      "problema": "Reduce la evaluación formativa a comentarios que llegan a tiempo al estudiante y deja fuera al docente que ajusta la enseñanza. Es la confusión entre evaluación formativa y retroalimentación que la ficha formativa evita con su definición.",
+      "nota": "Si lo que muestra una prueba vuelve a tiempo al estudiante y también al docente, ambos alcanzan a ajustar antes del examen, y la evaluación se vuelve formativa."
+    },
+    "estudiante+formativa": {
+      "problema": "Llama evaluación formativa a la opinión estudiantil, cuyo uso habitual al final del semestre es sumativo. El juego ya trata así las encuestas en Sumativa + Pedagogía. Solo leída a mitad de semestre sirve para ajustar.",
+      "nota": "Cuando el curso le cuenta al docente cómo vive la clase, la evaluación cambia de dirección; leída a mitad de semestre, esa opinión todavía sirve para ajustar."
+    },
+    "emocion+proposito": {
+      "problema": "Sentir como propio un propósito es internalización (regulación identificada, motivación autónoma); la motivación intrínseca es el gusto por la actividad misma (Ryan y Deci, 2000). La nueva nota une los dos ingredientes, gusto y propósito, sin confundir los constructos.",
+      "nota": "Cuando un propósito te entusiasma, hacer la tarea ya es parte del gusto, y las ganas de seguir nacen de dentro aunque no haya premio."
+    },
+    "autoeficacia+proposito": {
+      "problema": "“Eccles reunió ambas preguntas en una sola teoría” es históricamente impreciso. El modelo de expectativa por valor viene de Atkinson (1957); Eccles y colegas (1983) lo llevaron a la motivación escolar.",
+      "nota": "Antes de esforzarse, cada estudiante se pregunta si puede lograrlo y para qué le sirve. Eccles y colegas llevaron esas dos preguntas al estudio de la motivación escolar."
+    },
+    "reflexiva+universidad": {
+      "problema": "Dice “Snyder describió en 1970”, mientras la ficha cita Snyder (1971). El registro de la Biblioteca del Congreso da 1971 para la edición de Knopf. Mejor no dar el año.",
+      "nota": "Snyder mostró que los estudiantes del MIT aprendían reglas no escritas para sobrevivir en la universidad. Reflexionar sobre esas reglas destapa el currículo oculto."
+    },
+    "retro+sobrejustificacion": {
+      "problema": "El metaanálisis es de Deci, Koestner y Ryan (1999); atribuirlo solo a Deci es impreciso.",
+      "nota": "Si los premios esperados apagan el gusto, la retroalimentación que informa sobre el progreso tiende a avivarlo, según el metaanálisis de Deci, Koestner y Ryan."
+    },
+    "aprendizaje+emocion": {
+      "problema": "La nota cuenta un efecto de la curiosidad (se recuerda mejor, Gruber y colegas) en lugar de explicar cómo aprendizaje y emoción dan curiosidad.",
+      "nota": "Cuando aprender algo te deja con ganas de saber más, la emoción se vuelve curiosidad. Gruber y colegas vieron que con ella se recuerda mejor."
+    }
+  },
+  "recetas_dudosas": [
+    {
+      "a": "motivacion",
+      "b": "dominio",
+      "r": "autoeficacia",
+      "gravedad": "baja",
+      "problema": "Está en el camino de motivacion_dura. La motivación intrínseca no es fuente de autoeficacia en Bandura; la relación descansa solo en las experiencias de dominio.",
+      "propuesta": "Cambiar por Aprendizaje para el dominio + Estudiante = Autoeficacia (par libre, ambas piezas ya están en el plano), con la nota “Cuando un estudiante domina por fin un tema difícil con su propio esfuerzo, vive lo que Bandura consideró la fuente más poderosa de autoeficacia.”. Motivación intrínseca sigue siendo necesaria para la Teoría de la autodeterminación."
+    },
+    {
+      "a": "bloom",
+      "b": "activo",
+      "r": "piramide",
+      "gravedad": "baja",
+      "problema": "Está en el camino de investigar_docencia. Asocia el mito con la taxonomía de Bloom, que no tiene relación con él; las cifras se pegaron después al cono de la experiencia de Dale. Un docente puede salir creyendo que Bloom tiene algo que ver.",
+      "propuesta": "Cambiar por Aprendizaje activo + Memoria = Pirámide del aprendizaje (par libre; Memoria ya está en el plano), con la nota “Querer saber cuánto recuerda el curso según la actividad tienta a creer en una pirámide con porcentajes de retención que ningún estudio respalda.”."
+    },
+    {
+      "a": "emocion",
+      "b": "tiempo",
+      "r": "motivacion",
+      "gravedad": "baja",
+      "problema": "La nota describe el paso del interés situacional al individual (Hidi y Renninger), que es otro constructo distinto de la motivación intrínseca.",
+      "propuesta": "Cambiar el resultado a Interés individual (interes_individual ya existe) y conservar la nota."
+    },
+    {
+      "a": "estudiante",
+      "b": "proposito",
+      "r": "motivacion",
+      "gravedad": "baja",
+      "problema": "Hacer propio el propósito del curso es internalización (regulación identificada), no motivación intrínseca. Lo mismo ocurre con Propósito + Aprendizaje-servicio = Motivación intrínseca (“ese sentido sostiene las ganas”).",
+      "propuesta": "Llevar Estudiante + Propósito a Motivación autónoma (motivacion_autonoma ya existe) y revisar la nota de Propósito + Aprendizaje-servicio para hablar del gusto por la tarea."
+    },
+    {
+      "a": "mundo",
+      "b": "olvido",
+      "r": "escritura",
+      "gravedad": "baja",
+      "problema": "Forzada y anacrónica: la curva del olvido es un hallazgo experimental de Ebbinghaus (1885), y las primeras tablillas sirvieron sobre todo para llevar cuentas y registros administrativos.",
+      "propuesta": "Quitarla; la relación entre escritura y memoria ya la cubren Herramienta + Memoria y Diálogo + Memoria."
+    },
+    {
+      "a": "escritura",
+      "b": "olvido",
+      "r": "tecnologia",
+      "gravedad": "baja",
+      "problema": "Forzada: la nota habla del Fedro, que trata de escritura y memoria, no de la curva del olvido ni de por qué algo es tecnología.",
+      "propuesta": "Quitarla; Escritura + Herramienta = Tecnología ya enseña que la escritura es una tecnología (Ong)."
+    },
+    {
+      "a": "curriculo",
+      "b": "curriculo",
+      "r": "curriculo_oculto",
+      "gravedad": "baja",
+      "problema": "Combinar una ficha consigo misma no expresa ninguna relación; la nota solo define el término.",
+      "propuesta": "Quitarla; hay muchas otras recetas defendibles hacia currículo oculto (Currículo + Grupo, Currículo + Experiencia)."
+    },
+    {
+      "a": "investigacion_accion",
+      "b": "tecnologia",
+      "r": "analitica",
+      "gravedad": "baja",
+      "problema": "La analítica del aprendizaje no deriva de la investigación-acción; la nota solo dice que sus datos pueden alimentar un ciclo.",
+      "propuesta": "Quitarla; Datos + Aprendizaje y Aprendizaje + Herramienta ya llevan a la analítica del aprendizaje."
+    }
+  ],
+  "refs": {
+    "hutchings99": {
+      "problema": "Faltan las páginas (Crossref: 10–15).",
+      "apa": "Hutchings, P., & Shulman, L. S. (1999). The scholarship of teaching: New elaborations, new developments. _Change: The Magazine of Higher Learning, 31_(5), 10–15."
+    },
+    "winkelmes16": {
+      "problema": "Faltan las páginas. Las citas habituales dan 31–36, pero no pude confirmarlo en línea (Peer Review no está en Crossref y el sitio de AAC&U no respondió). Confirmar antes de aplicar.",
+      "apa": "Winkelmes, M.-A., Bernacki, M., Butler, J., Zochowski, M., Golanics, J., & Harriss Weavil, K. (2016). A teaching intervention that increases underserved college students' success. _Peer Review, 18_(1/2), 31–36."
+    }
+  },
+  "refs_nuevas": {
+    "collier08": "Collier, P. J., & Morgan, D. L. (2008). \"Is that paper really due today?\": Differences in first-generation and traditional college students' understandings of faculty expectations. _Higher Education, 55_(4), 425–446.",
+    "canning15": "Canning, E. A., & Harackiewicz, J. M. (2015). Teach it, don't preach it: The differential effects of directly-communicated and self-generated utility-value information. _Motivation Science, 1_(1), 47–71.",
+    "walton23": "Walton, G. M., Murphy, M. C., Logel, C., Yeager, D. S., Goyer, J. P., Brady, S. T., Emerson, K. T. U., Paunesku, D., Fotuhi, O., Blodorn, A., Boucher, K. L., Carter, E. R., Gopalan, M., Henderson, A., Kroeper, K. M., Murdock-Perriera, L. A., Reeves, S. L., Ablorh, T. T., Ansari, S., . . . Krol, N. (2023). Where and with whom does a brief social-belonging intervention promote progress in college? _Science, 380_(6644), 499–505.",
+    "perez14": "Perez, T., Cromley, J. G., & Kaplan, A. (2014). The role of identity development, values, and costs in college STEM retention. _Journal of Educational Psychology, 106_(1), 315–329."
+  },
+  "resumen": "Las cuatro misiones están bien planteadas y sus referencias existen; comparé con Crossref y OpenAlex unas 55 referencias de revista y todas coinciden en autor, año, volumen y páginas, salvo las páginas faltantes de Hutchings y Shulman (1999); Siemens y Long (2011), Berk (2005) y Winkelmes et al. (2016) no figuran en Crossref. El error más serio es una cifra: la ficha de retroalimentación sabia dice que los estudiantes afroamericanos “pasaron de 17 % a 72 %”, pero en el artículo de Yeager (que leí) son 71 % frente a 17 % ajustados y 64 % frente a 27 % brutos, entre condiciones y con 44 escolares. Otro problema serio es de inclusión: el cierre de Todas y todos aprenden asocia hablar zapoteco con no saber discutir resultados, y la meta no atiende la participación desigual que plantea el encargo. Hay además imprecisiones conceptuales repetidas: la motivación intrínseca se confunde con la internalización de un propósito, la amenaza del estereotipo con la duda de pertenencia, la encuesta de fin de semestre con evaluación formativa, y el efecto de 0,4 a 0,7 se atribuye a un metaanálisis que Black y Wiliam no hicieron. Verifiqué en línea los resúmenes de Yeager, Walton y Cohen (2007, 2011), Walton et al. (2023), Stephens (2012, 2014), Harackiewicz (2016), Canning (2018, 2019), Howard (2021), Jang (2010), Hulleman (2010), Kingston y Nash, Arnold y Pistilli, Viberg, Shewach, Hendry y Oliver, Reeve y Jang, Deci (1999), Patall, Dawson, Gale y Parker, Richardson, Hattie y Marsh, Collier y Morgan, Perez y Canning y Harackiewicz (2015). No pude verificar las páginas y el diseño exacto de Winkelmes et al. (2016), el detalle de Tinto (1975) sobre qué entra en cada integración, la cifra de Kornell y Bjork (2007) ni el contenido de los libros (Snyder, Bourdieu, Kift, Hutchings, Denzin); para esos usé conocimiento de la literatura y lo indiqué donde importa."
+}
