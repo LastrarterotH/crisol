@@ -39,7 +39,7 @@ export function miniHtml(id, oculta) {
 }
 export function chipHtml(id, extra = "") {
   const f = D.fichas[id];
-  return '<button class="chip f-' + f.f + (f.f === "mito" ? " mito" : "") + (f.ia ? " ia" : "") + '" type="button" data-id="' + esc(id) + '"><span class="em">' + esc(f.e) + "</span>" + esc(f.n) + extra + "</button>";
+  return '<button class="chip f-' + f.f + (f.f === "mito" ? " mito" : "") + (f.ia ? " ia" : "") + '" type="button" draggable="false" data-id="' + esc(id) + '"><span class="em">' + esc(f.e) + "</span>" + esc(f.n) + extra + "</button>";
 }
 export function descargar(nombreArchivo, texto) {
   const url = URL.createObjectURL(new Blob([texto], { type: "text/markdown;charset=utf-8" }));

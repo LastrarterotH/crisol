@@ -250,9 +250,12 @@ export function renderCaja(nueva) {
 function arrastrarDesdeCaja(e, id, chip) {
   if (e.button !== 0 || (e.pointerType === "touch" && angosta())) return;
   activarSonido();
+  // Sin esto el navegador puede iniciar su propio arrastre o una selección de texto y cancelar el nuestro.
+  e.preventDefault();
+  try { window.getSelection().removeAllRanges(); } catch (err) { /* sin selección */ }
   const sx = e.clientX, sy = e.clientY;
-  let fantasma = null, obj = null;
-  chip.setPointerCapture(e.pointerId);
+  let fantasma = null, obj = null, ultimo = null;
+  try { chip.setPointerCapture(e.pointerId); } catch (err) { /* puntero sin captura */ }
   const enPizarra = (x, y) => { const r = pizarra.getBoundingClientRect(); return x >= r.left && x <= r.right && y >= r.top && y <= r.bottom ? { x: x - r.left, y: y - r.top } : null; };
   const mover = ev => {
     if (!fantasma) {
@@ -260,6 +263,7 @@ function arrastrarDesdeCaja(e, id, chip) {
       fantasma = document.createElement("div"); fantasma.className = "ficha fantasma"; contenido(fantasma, id); document.body.appendChild(fantasma);
       sonar.toque();
     }
+    ultimo = { x: ev.clientX, y: ev.clientY };
     fantasma.style.left = (ev.clientX - fantasma.offsetWidth / 2) + "px"; fantasma.style.top = (ev.clientY - fantasma.offsetHeight / 2) + "px";
     const p = enPizarra(ev.clientX, ev.clientY);
     const gw = fantasma.offsetWidth, gh = fantasma.offsetHeight;
@@ -272,8 +276,10 @@ function arrastrarDesdeCaja(e, id, chip) {
     if (ev.type === "pointerup") mover(ev);
     ignorarClicHasta = performance.now() + 350;
     fantasma.remove(); obj && obj.el.classList.remove("objetivo");
-    const p = enPizarra(ev.clientX, ev.clientY);
-    if (!p || ev.type !== "pointerup") return;
+    // Si el navegador cortó el arrastre, la ficha se deja donde estaba el puntero en vez de perderse.
+    const pos = ev.type === "pointerup" ? { x: ev.clientX, y: ev.clientY } : ultimo;
+    const p = pos && enPizarra(pos.x, pos.y);
+    if (!p) return;
     const t = agregar(id, p.x, p.y, { centrar: true });
     if (obj) combinar(t, obj); else { acomodar(t); guardarPizarra(); }
   };
