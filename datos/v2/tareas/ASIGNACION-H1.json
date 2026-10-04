@@ -1,0 +1,40 @@
+{
+ "herramientas": [
+  "PowerPoint",
+  "Canva",
+  "Gamma",
+  "YouTube",
+  "Edpuzzle",
+  "Screencastify",
+  "H5P"
+ ],
+ "sin_mision": [
+  "multimedia",
+  "segmentacion",
+  "carga_cognitiva",
+  "detalles_seductores",
+  "ejemplos_resueltos",
+  "atencion10",
+  "gagne",
+  "merrill",
+  "invertida",
+  "capsula",
+  "video",
+  "autoexplicacion",
+  "significativo",
+  "rea",
+  "mooc"
+ ],
+ "misiones": [
+  [
+   "Diapositivas que enseñan",
+   "presentaciones con PowerPoint, Canva o Gamma diseñadas con los principios del aprendizaje multimedia (coherencia, señalización, segmentación, carga cognitiva) en vez de muros de texto",
+   "Rosario (Argentina)"
+  ],
+  [
+   "Aula invertida con video",
+   "cápsulas de video con YouTube, Screencastify, Edpuzzle o H5P (preguntas incrustadas, segmentación, autoexplicación) para que la clase presencial se dedique a practicar",
+   "Mérida (México)"
+  ]
+ ]
+}

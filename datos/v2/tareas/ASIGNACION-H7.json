@@ -1,0 +1,41 @@
+{
+ "herramientas": [
+  "GeoGebra",
+  "Desmos",
+  "PhET",
+  "Excel",
+  "Google Sheets",
+  "Google Colab"
+ ],
+ "sin_mision": [
+  "laboratorio_virtual",
+  "simulador_tareas",
+  "indagacion",
+  "descubrimiento",
+  "constructivismo",
+  "experiencial",
+  "inventario_conceptual",
+  "pretest_postest",
+  "ganancia_normalizada",
+  "sesgos_encuestas",
+  "encuestas",
+  "eval_docencia",
+  "consulta_medio_semestre",
+  "incidentes_criticos",
+  "tamano_efecto",
+  "cuasiexperimento",
+  "evidencia_directa"
+ ],
+ "misiones": [
+  [
+   "Laboratorio en la pantalla",
+   "simulaciones y herramientas interactivas (PhET, GeoGebra, Desmos, Google Colab) con indagación guiada en vez de descubrimiento puro, para cursos de ciencias e ingeniería",
+   "Cali (Colombia)"
+  ],
+  [
+   "Datos para mejorar la clase",
+   "usar Excel o Google Sheets para analizar evidencia del propio curso (inventarios conceptuales, pretest y postest, ganancia normalizada, consulta de medio semestre) y no confiar solo en las encuestas docentes",
+   "Managua (Nicaragua)"
+  ]
+ ]
+}

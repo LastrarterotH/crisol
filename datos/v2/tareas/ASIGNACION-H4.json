@@ -1,0 +1,47 @@
+{
+ "herramientas": [
+  "Google Docs",
+  "Padlet",
+  "Miro",
+  "Notion",
+  "Google Scholar",
+  "Zotero",
+  "DeepL",
+  "Grammarly",
+  "Wikipedia"
+ ],
+ "sin_mision": [
+  "memoria_transactiva",
+  "guiones_colaboracion",
+  "roles_equipo",
+  "procesamiento_grupal",
+  "conflicto_tarea",
+  "mito_lluvia",
+  "grupo_nominal",
+  "formacion_equipos",
+  "conflicto_sociocognitivo",
+  "lectura_disciplinar",
+  "sintesis_fuentes",
+  "movidas",
+  "identidad_autoral",
+  "comunidad_discursiva",
+  "escritura_proceso",
+  "revision_profunda",
+  "aprender_revisando",
+  "mosaico",
+  "centro_escritura",
+  "ya_saben_escribir"
+ ],
+ "misiones": [
+  [
+   "Pensar juntos en un documento compartido",
+   "colaboración en línea (Google Docs, Padlet, Miro, Notion) con guiones de colaboración, roles y procesamiento grupal para que el trabajo en equipo no sea dividir y pegar",
+   "Concepción (Chile)"
+  ],
+  [
+   "Leer y escribir con fuentes",
+   "búsqueda y manejo de fuentes (Google Scholar, Zotero, Wikipedia como punto de partida), traducción y corrección asistida (DeepL, Grammarly) al servicio de la lectura disciplinar, la síntesis de fuentes y la identidad de autor",
+   "Santa Cruz de la Sierra (Bolivia)"
+  ]
+ ]
+}

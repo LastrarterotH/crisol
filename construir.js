@@ -23,7 +23,9 @@ for (const r of ajustes.recetasExtra || []) { const rec = [r[0], r[1], r[2], r[3
 // Expansiones: misiones nuevas con sus fichas. Sus recetas hacia fichas nuevas son parte del grafo diseñado (origen "exp");
 // las de conexión hacia fichas existentes son caminos alternativos (origen "expx").
 const expFichas = {}, expMisiones = [], expTextos = [];
-for (const x of ["E1", "E2", "E3", "E4", "E5", "E6"]) {
+// Se leen todas las expansiones: E1..E4 (misiones de conceptos) y H1..H7 (misiones con herramientas).
+const EXPANSIONES = fs.readdirSync(V(".")).map(f => (f.match(/^expansion-([A-Z]\d+)\.json$/) || [])[1]).filter(Boolean).sort((a, b) => a[0] === b[0] ? +a.slice(1) - +b.slice(1) : a < b ? -1 : 1);
+for (const x of EXPANSIONES) {
   const p = leer(V("expansion-" + x + ".json"));
   if (!p) continue;
   for (const [id, f] of Object.entries(p.fichas || {})) { if (expFichas[id]) { avisos.push(x + ": ficha repetida entre expansiones " + id); continue; } expFichas[id] = { n: f.n, e: f.e, f: f.f, _de: x }; }

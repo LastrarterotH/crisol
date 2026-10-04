@@ -20,7 +20,7 @@
   --ia: #6a54d1;
   --exito: #2b8657;
   --c-prim: #9a7432; --c-cot: #c27c1e; --c-fund: #8b5e3c; --c-apr: #23935f; --c-met: #db5a2a; --c-eva: #cf3f74;
-  --c-dis: #13909a; --c-tec: #6a54d1; --c-mod: #2f74c9; --c-mito: #c23a2e; --c-sint: #d99a12;
+  --c-dis: #13909a; --c-tec: #6a54d1; --c-her: #3b6fb6; --c-mod: #2f74c9; --c-mito: #c23a2e; --c-sint: #d99a12;
   --f-display: system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-texto: system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
@@ -38,7 +38,7 @@ button, input, textarea, select { font: inherit; color: inherit; }
 :focus-visible { outline: 2.5px solid var(--acento); outline-offset: 2px; }
 ::selection { background: color-mix(in srgb, var(--acento) 22%, var(--sup)); }
 .f-prim { --c: var(--c-prim); } .f-cot { --c: var(--c-cot); } .f-apr { --c: var(--c-apr); } .f-met { --c: var(--c-met); }
-.f-eva { --c: var(--c-eva); } .f-dis { --c: var(--c-dis); } .f-tec { --c: var(--c-tec); } .f-mod { --c: var(--c-mod); }
+.f-eva { --c: var(--c-eva); } .f-dis { --c: var(--c-dis); } .f-tec { --c: var(--c-tec); } .f-her { --c: var(--c-her); } .f-mod { --c: var(--c-mod); }
 .f-fund { --c: var(--c-fund); } .f-mito { --c: var(--c-mito); } .f-sint { --c: var(--c-sint); } .f-ia { --c: var(--c-tec); }
 .em { font-family: var(--f-emoji); font-weight: 400; line-height: 1; }
 .emo { font-family: var(--f-emoji); font-weight: 400; margin: 0 .28em 0 .06em; }

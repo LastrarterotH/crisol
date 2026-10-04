@@ -1,27 +1,43 @@
 # Referencias existentes (reutilízalas por su clave)
 
 - abrami15: Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A., & Persson, T. (2015). Strategies for teaching students to think critically: A meta-analysis. _Review of Educational Research, 85_(2), 275–314.
+- aeon21: Aeon, B., Faber, A., & Panaccio, A. (2021). Does time management work? A meta-analysis. _PLOS ONE, 16_(1), e0245066.
 - aera14: American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). _Standards for educational and psychological testing_. American Educational Research Association.
+- aggarwal08: Aggarwal, P., & O'Brien, C. L. (2008). Social loafing on group projects: Structural antecedents and effect on student satisfaction. _Journal of Marketing Education, 30_(3), 255–264.
 - alfieri11: Alfieri, L., Brooks, P. J., Aldrich, N. J., & Tenenbaum, H. R. (2011). Does discovery-based instruction enhance learning? _Journal of Educational Psychology, 103_(1), 1–18.
+- allen69: Allen, D. W., & Ryan, K. (1969). _Microteaching_. Addison-Wesley.
+- ambrose10: Ambrose, S. A., Bridges, M. W., DiPietro, M., Lovett, M. C., & Norman, M. K. (2010). _How learning works: Seven research-based principles for smart teaching_. Jossey-Bass.
+- ames92: Ames, C. (1992). Classrooms: Goals, structures, and student motivation. _Journal of Educational Psychology, 84_(3), 261–271.
 - anderson01: Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). _A taxonomy for learning, teaching, and assessing: A revision of Bloom's taxonomy of educational objectives_. Longman.
+- anderson15: Anderson, P., Anson, C. M., Gonyea, R. M., & Paine, C. (2015). The contributions of writing to learning and development: Results from a large-scale multi-institutional study. _Research in the Teaching of English, 50_(2), 199–235.
+- anderson96: Anderson, J. R., Reder, L. M., & Simon, H. A. (1996). Situated learning and education. _Educational Researcher, 25_(4), 5–11.
 - angelo93: Angelo, T. A., & Cross, K. P. (1993). _Classroom assessment techniques: A handbook for college teachers_ (2nd ed.). Jossey-Bass.
+- arnold12: Arnold, K. E., & Pistilli, M. D. (2012). Course Signals at Purdue: Using learning analytics to increase student success. En _Proceedings of the 2nd International Conference on Learning Analytics and Knowledge_ (pp. 267–270). ACM.
 - aronson78: Aronson, E., Blaney, N., Stephan, C., Sikes, J., & Snapp, M. (1978). _The jigsaw classroom_. Sage.
 - atkinson00: Atkinson, R. K., Derry, S. J., Renkl, A., & Wortham, D. (2000). Learning from examples: Instructional principles from the worked examples research. _Review of Educational Research, 70_(2), 181–214.
 - ausubel68: Ausubel, D. P. (1968). _Educational psychology: A cognitive view_. Holt, Rinehart and Winston.
+- avila20: Ávila Reyes, N., Navarro, F., & Tapia-Ladino, M. (2020). Identidad, voz y agencia: Claves para una enseñanza inclusiva de la escritura en la universidad. _Archivos Analíticos de Políticas Educativas, 28_, artículo 98.
 - baker22: Baker, R. S., & Hawn, A. (2022). Algorithmic bias in education. _International Journal of Artificial Intelligence in Education, 32_(4), 1052–1092.
 - bandura77: Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. _Psychological Review, 84_(2), 191–215.
 - bandura97: Bandura, A. (1997). _Self-efficacy: The exercise of control_. W. H. Freeman.
 - bangert04: Bangert-Drowns, R. L., Hurley, M. M., & Wilkinson, B. (2004). The effects of school-based writing-to-learn interventions on academic achievement: A meta-analysis. _Review of Educational Research, 74_(1), 29–58.
 - barnett02: Barnett, S. M., & Ceci, S. J. (2002). When and where do we apply what we learn? A taxonomy for far transfer. _Psychological Bulletin, 128_(4), 612–637.
 - barrie06: Barrie, S. C. (2006). Understanding what we mean by the generic attributes of graduates. _Higher Education, 51_(2), 215–241.
-- barrows80: Barrows, H. S., & Tamblyn, R. M. (1980). _Problem-based learning: An approach to medical education_. Springer.
+- barrows80: Barrows, H. S., & Tamblyn, R. M. (1980). _Problem-based learning: An approach to medical education_. Springer Publishing Company.
+- barrows93: Barrows, H. S. (1993). An overview of the uses of standardized patients for teaching and evaluating clinical skills. _Academic Medicine, 68_(6), 443–451.
+- barsuk09: Barsuk, J. H., Cohen, E. R., Feinglass, J., McGaghie, W. C., & Wayne, D. B. (2009). Use of simulation-based education to reduce catheter-related bloodstream infections. _Archives of Internal Medicine, 169_(15), 1420–1423.
 - bartlett32: Bartlett, F. C. (1932). _Remembering: A study in experimental and social psychology_. Cambridge University Press.
-- bastani25: Bastani, H., Bastani, O., Sungu, A., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), e2422633122.
+- barton06: Barton, K., Cunningham, C. D., Jones, G. T., & Maharg, P. (2006). Valuing what clients think: Standardized clients and the assessment of communicative competence. _Clinical Law Review, 13_(1), 1–65.
+- bastani25: Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. _Proceedings of the National Academy of Sciences, 122_(26), artículo e2422633122. https://doi.org/10.1073/pnas.2422633122
+- bean11: Bean, J. C. (2011). _Engaging ideas: The professor's guide to integrating writing, critical thinking, and active learning in the classroom_ (2nd ed.). Jossey-Bass.
+- bean82: Bean, J. C., Drenk, D., & Lee, F. D. (1982). Microtheme strategies for developing cognitive skills. _New Directions for Teaching and Learning, 1982_(12), 27–38.
 - beatty19: Beatty, B. J. (2019). _Hybrid-flexible course design: Implementing student-directed hybrid classes_. EdTech Books.
 - beichner07: Beichner, R. J., Saul, J. M., Abbott, D. S., Morse, J. J., Deardorff, D. L., Allain, R. J., Bonham, S. W., Dancy, M. H., & Risley, J. S. (2007). The student-centered activities for large enrollment undergraduate programs (SCALE-UP) project. En E. F. Redish & P. J. Cooney (Eds.), _Research-based reform of university physics_ (Vol. 1). American Association of Physics Teachers.
+- bell01: Bell, M. (2001). Supported reflective practice: A programme of peer observation and feedback for academic teaching development. _International Journal for Academic Development, 6_(1), 29–39.
+- belmont79: National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. (1979). _The Belmont report: Ethical principles and guidelines for the protection of human subjects of research_. U.S. Department of Health, Education, and Welfare.
 - bergmann12: Bergmann, J., & Sams, A. (2012). _Flip your classroom: Reach every student in every class every day_. ISTE.
 - berk05: Berk, R. A. (2005). Survey of 12 strategies to measure teaching effectiveness. _International Journal of Teaching and Learning in Higher Education, 17_(1), 48–62.
-- biggs11: Biggs, J., & Tang, C. (2011). _Teaching for quality learning at university_ (4th ed.). McGraw-Hill / Open University Press.
+- biggs11: Biggs, J., & Tang, C. (2011). _Teaching for quality learning at university_ (4th ed.). Open University Press; McGraw-Hill Education.
 - biggs82: Biggs, J. B., & Collis, K. F. (1982). _Evaluating the quality of learning: The SOLO taxonomy (Structure of the Observed Learning Outcome)_. Academic Press.
 - biggs96: Biggs, J. (1996). Enhancing teaching through constructive alignment. _Higher Education, 32_(3), 347–364.
 - bjork11: Bjork, E. L., & Bjork, R. A. (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning. En M. A. Gernsbacher, R. W. Pew, L. M. Hough y J. R. Pomerantz (Eds.), _Psychology and the real world: Essays illustrating fundamental contributions to society_ (pp. 56–64). Worth Publishers.
@@ -30,17 +46,26 @@
 - black98b: Black, P., & Wiliam, D. (1998). Inside the black box: Raising standards through classroom assessment. _Phi Delta Kappan, 80_(2), 139–148.
 - bloom56: Bloom, B. S. (Ed.). (1956). _Taxonomy of educational objectives: Handbook I. Cognitive domain_. David McKay.
 - bloom68: Bloom, B. S. (1968). Learning for mastery. _Evaluation Comment, 1_(2), 1–12.
+- bloom71: Bloom, B. S., Hastings, J. T., & Madaus, G. F. (1971). _Handbook on formative and summative evaluation of student learning_. McGraw-Hill.
 - bonwell91: Bonwell, C. C., & Eison, J. A. (1991). _Active learning: Creating excitement in the classroom_ (ASHE-ERIC Higher Education Report No. 1). George Washington University.
 - boring16: Boring, A., Ottoboni, K., & Stark, P. B. (2016). Student evaluations of teaching (mostly) do not measure teaching effectiveness. _ScienceOpen Research_.
+- bosse12: Bosse, H. M., Schultz, J.-H., Nickel, M., Lutz, T., Möltner, A., Jünger, J., Huwendiek, S., & Nikendei, C. (2012). The effect of using standardized patients or peer role play on ratings of undergraduate communication training: A randomized controlled trial. _Patient Education and Counseling, 87_(3), 300–306.
 - boud00: Boud, D. (2000). Sustainable assessment: Rethinking assessment for the learning society. _Studies in Continuing Education, 22_(2), 151–167.
 - boud85: Boud, D., Keogh, R., & Walker, D. (Eds.). (1985). _Reflection: Turning experience into learning_. Kogan Page.
 - boud95: Boud, D. (1995). _Enhancing learning through self assessment_. Kogan Page.
+- bourdieu03: Bourdieu, P., & Passeron, J.-C. (2003). _Los herederos: Los estudiantes y la cultura_. Siglo XXI Editores. (Obra original publicada en 1964)
+- bourdieu86: Bourdieu, P. (1986). The forms of capital. En J. G. Richardson (Ed.), _Handbook of theory and research for the sociology of education_ (pp. 241–258). Greenwood.
 - boyer90: Boyer, E. L. (1990). _Scholarship reconsidered: Priorities of the professoriate_. Carnegie Foundation for the Advancement of Teaching.
+- boysen24: Boysen, G. A. (2024). A critical analysis of the research evidence behind CAST's universal design for learning guidelines. _Policy Futures in Education, 22_(7), 1219–1238. https://doi.org/10.1177/14782103241255428
 - bradbury16: Bradbury, N. A. (2016). Attention span during lectures: 8 seconds, 10 minutes, or more? _Advances in Physiology Education, 40_(4), 509–513.
 - branch09: Branch, R. M. (2009). _Instructional design: The ADDIE approach_. Springer.
 - bransford00: Bransford, J. D., Brown, A. L., & Cocking, R. R. (Eds.). (2000). _How people learn: Brain, mind, experience, and school_ (Expanded ed.). National Academy Press.
+- braun06: Braun, V., & Clarke, V. (2006). Using thematic analysis in psychology. _Qualitative Research in Psychology, 3_(2), 77–101.
+- bravata20: Bravata, D. M., Watts, S. A., Keefer, A. L., Madhusudhan, D. K., Taylor, K. T., Clark, D. M., Nelson, R. S., Cokley, K. O., & Hagg, H. K. (2020). Prevalence, predictors, and treatment of impostor syndrome: A systematic review. _Journal of General Internal Medicine, 35_(4), 1252–1275.
 - bretag16: Bretag, T. (Ed.). (2016). _Handbook of academic integrity_. Springer.
 - bringle95: Bringle, R. G., & Hatcher, J. A. (1995). A service-learning curriculum for faculty. _Michigan Journal of Community Service Learning, 2_, 112–122.
+- britton91: Britton, B. K., & Tesser, A. (1991). Effects of time-management practices on college grades. _Journal of Educational Psychology, 83_(3), 405–410.
+- brookfield17: Brookfield, S. D. (2017). _Becoming a critically reflective teacher_ (2nd ed.). Jossey-Bass.
 - brooks11: Brooks, D. C. (2011). Space matters: The impact of formal learning environments on student learning. _British Journal of Educational Technology, 42_(5), 719–726.
 - brown89: Brown, J. S., Collins, A., & Duguid, P. (1989). Situated cognition and the culture of learning. _Educational Researcher, 18_(1), 32–42.
 - bruner60: Bruner, J. S. (1960). _The process of education_. Harvard University Press.
@@ -50,223 +75,448 @@
 - butler88: Butler, R. (1988). Enhancing and undermining intrinsic motivation: The effects of task-involving and ego-involving evaluation on interest and performance. _British Journal of Educational Psychology, 58_(1), 1–14.
 - caldwell07: Caldwell, J. E. (2007). Clickers in the large classroom: Current research and best-practice tips. _CBE-Life Sciences Education, 6_(1), 9–20.
 - campbell79: Campbell, D. T. (1979). Assessing the impact of planned social change. _Evaluation and Program Planning, 2_(1), 67–90.
+- canning15: Canning, E. A., & Harackiewicz, J. M. (2015). Teach it, don't preach it: The differential effects of directly-communicated and self-generated utility-value information. _Motivation Science, 1_(1), 47–71.
+- canning18: Canning, E. A., Harackiewicz, J. M., Priniski, S. J., Hecht, C. A., Tibbetts, Y., & Hyde, J. S. (2018). Improving performance and retention in introductory biology with a utility-value intervention. _Journal of Educational Psychology, 110_(6), 834–849.
+- canning19: Canning, E. A., Muenks, K., Green, D. J., & Murphy, M. C. (2019). STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes. _Science Advances, 5_(2), eaau4734.
 - carless18: Carless, D., & Boud, D. (2018). The development of student feedback literacy: Enabling uptake of feedback. _Assessment & Evaluation in Higher Education, 43_(8), 1315–1325.
 - carlino05: Carlino, P. (2005). _Escribir, leer y aprender en la universidad: Una introducción a la alfabetización académica_. Fondo de Cultura Económica.
+- carlino13: Carlino, P. (2013). Alfabetización académica diez años después. _Revista Mexicana de Investigación Educativa, 18_(57), 355–381.
 - carroll63: Carroll, J. B. (1963). A model of school learning. _Teachers College Record, 64_(8), 723–733.
-- cast18: CAST. (2018). _Universal Design for Learning Guidelines version 2.2_. CAST.
+- cast18: CAST. (2024). _Universal Design for Learning Guidelines version 3.0_. https://udlguidelines.cast.org
 - celio11: Celio, C. I., Durlak, J., & Dymnicki, A. (2011). A meta-analysis of the impact of service-learning on students. _Journal of Experiential Education, 34_(2), 164–181.
 - cepeda06: Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. _Psychological Bulletin, 132_(3), 354–380.
+- cerbin06: Cerbin, W., & Kopp, B. (2006). Lesson study as a model for building pedagogical knowledge and improving teaching. _International Journal of Teaching and Learning in Higher Education, 18_(3), 250–257.
+- cheng14: Cheng, A., Eppich, W., Grant, V., Sherbino, J., Zendejas, B., & Cook, D. A. (2014). Debriefing for technology-enhanced simulation: A systematic review and meta-analysis. _Medical Education, 48_(7), 657–666.
 - chernikova20: Chernikova, O., Heitzmann, N., Stadler, M., Holzberger, D., Seidel, T., & Fischer, F. (2020). Simulation-based learning in higher education: A meta-analysis. _Review of Educational Research, 90_(4), 499–541.
 - chevallard91: Chevallard, Y. (1991). _La transposición didáctica: Del saber sabio al saber enseñado_ (C. Gilman, Trad.). Aique. (Obra original publicada en 1985)
 - chi14: Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. _Educational Psychologist, 49_(4), 219–243.
+- chi81: Chi, M. T. H., Feltovich, P. J., & Glaser, R. (1981). Categorization and representation of physics problems by experts and novices. _Cognitive Science, 5_(2), 121–152.
+- chi89: Chi, M. T. H., Bassok, M., Lewis, M. W., Reimann, P., & Glaser, R. (1989). Self-explanations: How students study and use examples in learning to solve problems. _Cognitive Science, 13_(2), 145–182.
+- chi94: Chi, M. T. H., de Leeuw, N., Chiu, M.-H., & LaVancher, C. (1994). Eliciting self-explanations improves understanding. _Cognitive Science, 18_(3), 439–477.
+- cho10: Cho, K., & MacArthur, C. (2010). Student revision with peer and expert reviewing. _Learning and Instruction, 20_(4), 328–338.
+- cho11: Cho, K., & MacArthur, C. (2011). Learning by reviewing. _Journal of Educational Psychology, 103_(1), 73–84.
 - christensen91: Christensen, C. R., Garvin, D. A., & Sweet, A. (Eds.). (1991). _Education for judgment: The artistry of discussion leadership_. Harvard Business School Press.
+- clance78: Clance, P. R., & Imes, S. A. (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention. _Psychotherapy: Theory, Research & Practice, 15_(3), 241–247.
 - clark83: Clark, R. E. (1983). Reconsidering research on learning from media. _Review of Educational Research, 53_(4), 445–459.
-- collins89: Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics. En L. B. Resnick (Ed.), _Knowing, learning, and instruction_ (pp. 453–494). Erlbaum.
+- cohen80: Cohen, P. A. (1980). Effectiveness of student-rating feedback for improving college instruction: A meta-analysis of findings. _Research in Higher Education, 13_(4), 321–341.
+- cohen88: Cohen, J. (1988). _Statistical power analysis for the behavioral sciences_ (2nd ed.). Lawrence Erlbaum Associates.
+- cohen99: Cohen, G. L., Steele, C. M., & Ross, L. D. (1999). The mentor's dilemma: Providing critical feedback across the racial divide. _Personality and Social Psychology Bulletin, 25_(10), 1302–1318.
+- collier08: Collier, P. J., & Morgan, D. L. (2008). "Is that paper really due today?": Differences in first-generation and traditional college students' understandings of faculty expectations. _Higher Education, 55_(4), 425–446.
+- collins89: Collins, A., Brown, J. S., & Newman, S. E. (1989). Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics. En L. B. Resnick (Ed.), _Knowing, learning, and instruction: Essays in honor of Robert Glaser_ (pp. 453–494). Lawrence Erlbaum Associates.
+- cook10: Cook, D. A., Erwin, P. J., & Triola, M. M. (2010). Computerized virtual patients in health professions education: A systematic review and meta-analysis. _Academic Medicine, 85_(10), 1589–1602.
 - cook11: Cook, D. A., Hatala, R., Brydges, R., Zendejas, B., Szostek, J. H., Wang, A. T., Erwin, P. J., & Hamstra, S. J. (2011). Technology-enhanced simulation for health professions education: A systematic review and meta-analysis. _JAMA, 306_(9), 978–988.
+- cook12: Cook, D. A., Brydges, R., Hamstra, S. J., Zendejas, B., Szostek, J. H., Wang, A. T., Erwin, P. J., & Hatala, R. (2012). Comparative effectiveness of technology-enhanced simulation versus other instructional methods: A systematic review and meta-analysis. _Simulation in Healthcare, 7_(5), 308–320.
+- cooksather14: Cook-Sather, A., Bovill, C., & Felten, P. (2014). _Engaging students as partners in learning and teaching: A guide for faculty_. Jossey-Bass.
+- corbin25: Corbin, T., Dawson, P., & Liu, D. (2025). Talk is cheap: Why structural assessment changes are needed for a time of GenAI. _Assessment & Evaluation in Higher Education, 50_(7), 1087–1097. https://doi.org/10.1080/02602938.2025.2503964
+- coulon97: Coulon, A. (1997). _Le métier d'étudiant: L'entrée dans la vie universitaire_. Presses Universitaires de France.
+- cox04: Cox, M. D. (2004). Introduction to faculty learning communities. _New Directions for Teaching and Learning, 2004_(97), 5–23.
+- crede17: Credé, M., Tynan, M. C., & Harms, P. D. (2017). Much ado about grit: A meta-analytic synthesis of the grit literature. _Journal of Personality and Social Psychology, 113_(3), 492–511.
+- crisp09: Crisp, G., & Cruz, I. (2009). Mentoring college students: A critical review of the literature between 1990 and 2007. _Research in Higher Education, 50_(6), 525–545.
 - crouch01: Crouch, C. H., & Mazur, E. (2001). Peer instruction: Ten years of experience and results. _American Journal of Physics, 69_(9), 970–977.
+- csikszentmihalyi90: Csikszentmihalyi, M. (1990). _Flow: The psychology of optimal experience_. Harper & Row.
+- dallimore13: Dallimore, E. J., Hertenstein, J. H., & Platt, M. B. (2013). Impact of cold-calling on student voluntary participation. _Journal of Management Education, 37_(3), 305–341.
+- dawson14: Dawson, P., van der Meer, J., Skalicky, J., & Cowley, K. (2014). On the effectiveness of supplemental instruction: A systematic review of supplemental instruction and peer-assisted study sessions literature between 2001 and 2010. _Review of Educational Research, 84_(4), 609–639.
 - dawson24: Dawson, P., Bearman, M., Dollinger, M., & Boud, D. (2024). Validity matters more than cheating. _Assessment & Evaluation in Higher Education, 49_(7), 1005–1016.
+- deci85: Deci, E. L., & Ryan, R. M. (1985). _Intrinsic motivation and self-determination in human behavior_. Plenum.
+- deci94: Deci, E. L., Eghrari, H., Patrick, B. C., & Leone, D. R. (1994). Facilitating internalization: The self-determination theory perspective. _Journal of Personality, 62_(1), 119–142.
+- deci99: Deci, E. L., Koestner, R., & Ryan, R. M. (1999). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation. _Psychological Bulletin, 125_(6), 627–668.
+- dedreu03: De Dreu, C. K. W., & Weingart, L. R. (2003). Task versus relationship conflict, team performance, and team member satisfaction: A meta-analysis. _Journal of Applied Psychology, 88_(4), 741–749.
+- dejong13: de Jong, T., Linn, M. C., & Zacharia, Z. C. (2013). Physical and virtual laboratories in science and engineering education. _Science, 340_(6130), 305–308.
 - dekker12: Dekker, S., Lee, N. C., Howard-Jones, P., & Jolles, J. (2012). Neuromyths in education: Prevalence and predictors of misconceptions among teachers. _Frontiers in Psychology, 3_, artículo 429.
+- delbecq75: Delbecq, A. L., Van de Ven, A. H., & Gustafson, D. H. (1975). _Group techniques for program planning: A guide to nominal group and Delphi processes_. Scott, Foresman.
+- denzin78: Denzin, N. K. (1978). _The research act: A theoretical introduction to sociological methods_ (2nd ed.). McGraw-Hill.
 - deslauriers19: Deslauriers, L., McCarty, L. S., Miller, K., Callaghan, K., & Kestin, G. (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom. _Proceedings of the National Academy of Sciences, 116_(39), 19251–19257.
 - deterding11: Deterding, S., Dixon, D., Khaled, R., & Nacke, L. (2011). From game design elements to gamefulness: Defining "gamification". En _Proceedings of the 15th International Academic MindTrek Conference: Envisioning Future Media Environments_ (pp. 9–15). ACM.
+- deutsch49: Deutsch, M. (1949). A theory of co-operation and competition. _Human Relations, 2_(2), 129–152.
 - dewey10: Dewey, J. (1910). _How we think_. D. C. Heath.
 - dewey38: Dewey, J. (1938). _Experience and education_. Macmillan.
-- digcomp22: Vuorikari, R., Kluzer, S., & Punie, Y. (2022). _DigComp 2.2: The Digital Competence Framework for Citizens_. Publications Office of the European Union.
+- dewit12: de Wit, F. R. C., Greer, L. L., & Jehn, K. A. (2012). The paradox of intragroup conflict: A meta-analysis. _Journal of Applied Psychology, 97_(2), 360–390.
+- dieckmann07: Dieckmann, P., Gaba, D., & Rall, M. (2007). Deepening the theoretical foundations of patient simulation as social practice. _Simulation in Healthcare, 2_(3), 183–193.
+- diehl87: Diehl, M., & Stroebe, W. (1987). Productivity loss in brainstorming groups: Toward the solution of a riddle. _Journal of Personality and Social Psychology, 53_(3), 497–509.
+- diekelmann10: Diekelmann, S., & Born, J. (2010). The memory function of sleep. _Nature Reviews Neuroscience, 11_(2), 114–126.
+- digcomp22: Vuorikari, R., Kluzer, S., & Punie, Y. (2022). _DigComp 2.2: The Digital Competence Framework for Citizens. With new examples of knowledge, skills and attitudes_ (EUR 31006 EN). Publications Office of the European Union. https://doi.org/10.2760/115376
+- doise84: Doise, W., & Mugny, G. (1984). _The social development of the intellect_ (A. St. James-Emler y N. Emler, Trads.). Pergamon Press.
 - driessen07: Driessen, E., van Tartwijk, J., van der Vleuten, C., & Wass, V. (2007). Portfolios in medical education: Why do they meet with mixed success? A systematic review. _Medical Education, 41_(12), 1224–1233.
+- duckworth07: Duckworth, A. L., Peterson, C., Matthews, M. D., & Kelly, D. R. (2007). Grit: Perseverance and passion for long-term goals. _Journal of Personality and Social Psychology, 92_(6), 1087–1101.
+- dunlosky12: Dunlosky, J., & Rawson, K. A. (2012). Overconfidence produces underachievement: Inaccurate self evaluations undermine students' learning and retention. _Learning and Instruction, 22_(4), 271–280.
 - dunlosky13: Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques. _Psychological Science in the Public Interest, 14_(1), 4–58.
 - dweck06: Dweck, C. S. (2006). _Mindset: The new psychology of success_. Random House.
 - ebbinghaus13: Ebbinghaus, H. (1913). _Memory: A contribution to experimental psychology_ (H. A. Ruger y C. E. Bussenius, Trads.). Teachers College, Columbia University. (Obra original publicada en 1885)
+- eccles20: Eccles, J. S., & Wigfield, A. (2020). From expectancy-value theory to situated expectancy-value theory: A developmental, social cognitive, and sociocultural perspective on motivation. _Contemporary Educational Psychology, 61_, artículo 101859.
 - ects15: European Commission. (2015). _ECTS users' guide 2015_. Publications Office of the European Union.
+- eddy14: Eddy, S. L., & Hogan, K. A. (2014). Getting under the hood: How and for whom does increasing course structure work? _CBE-Life Sciences Education, 13_(3), 453–468.
 - edgerton91: Edgerton, R., Hutchings, P., & Quinlan, K. (1991). _The teaching portfolio: Capturing the scholarship in teaching_. American Association for Higher Education.
+- edmondson99: Edmondson, A. (1999). Psychological safety and learning behavior in work teams. _Administrative Science Quarterly, 44_(2), 350–383.
+- elbow97: Elbow, P. (1997). High stakes and low stakes in assigning and responding to writing. _New Directions for Teaching and Learning, 1997_(69), 5–13.
+- elbow98: Elbow, P. (1998). _Writing without teachers_ (2nd ed.). Oxford University Press. (Obra original publicada en 1973)
+- elliot01: Elliot, A. J., & McGregor, H. A. (2001). A 2 × 2 achievement goal framework. _Journal of Personality and Social Psychology, 80_(3), 501–519.
 - elliott91: Elliott, J. (1991). _Action research for educational change_. Open University Press.
+- elstein78: Elstein, A. S., Shulman, L. S., & Sprafka, S. A. (1978). _Medical problem solving: An analysis of clinical reasoning_. Harvard University Press.
 - emig77: Emig, J. (1977). Writing as a mode of learning. _College Composition and Communication, 28_(2), 122–128.
+- eppich15: Eppich, W., & Cheng, A. (2015). Promoting Excellence and Reflective Learning in Simulation (PEARLS): Development and rationale for a blended approach to health care simulation debriefing. _Simulation in Healthcare, 10_(2), 106–115.
+- epstein02: Epstein, M. L., Lazarus, A. D., Calvano, T. B., Matthews, K. A., Hendel, R. A., Epstein, B. B., & Brosvic, G. M. (2002). Immediate feedback assessment technique promotes learning and corrects inaccurate first responses. _The Psychological Record, 52_(2), 187–201.
+- ericsson04: Ericsson, K. A. (2004). Deliberate practice and the acquisition and maintenance of expert performance in medicine and related domains. _Academic Medicine, 79_(10 Suppl.), S70–S81.
 - ericsson93: Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. _Psychological Review, 100_(3), 363–406.
 - facione90: Facione, P. A. (1990). _Critical thinking: A statement of expert consensus for purposes of educational assessment and instruction_. American Philosophical Association.
 - falchikov00: Falchikov, N., & Goldfinch, J. (2000). Student peer assessment in higher education: A meta-analysis comparing peer and teacher marks. _Review of Educational Research, 70_(3), 287–322.
+- fanning07: Fanning, R. M., & Gaba, D. M. (2007). The role of debriefing in simulation-based learning. _Simulation in Healthcare, 2_(2), 115–125.
+- felten13: Felten, P. (2013). Principles of good practice in SoTL. _Teaching & Learning Inquiry, 1_(1), 121–125.
+- fernandez04: Fernandez, C., & Yoshida, M. (2004). _Lesson study: A Japanese approach to improving mathematics teaching and learning_. Lawrence Erlbaum Associates.
 - fitts67: Fitts, P. M., & Posner, M. I. (1967). _Human performance_. Brooks/Cole.
 - fives13: Fives, H., & DiDonato-Barnes, N. (2013). Classroom test construction: The power of a table of specifications. _Practical Assessment, Research & Evaluation, 18_, artículo 3.
+- flake15: Flake, J. K., Barron, K. E., Hulleman, C., McCoach, B. D., & Welsh, M. E. (2015). Measuring cost: The forgotten component of expectancy-value theory. _Contemporary Educational Psychology, 41_, 232–244.
 - flavell79: Flavell, J. H. (1979). Metacognition and cognitive monitoring: A new area of cognitive-developmental inquiry. _American Psychologist, 34_(10), 906–911.
+- fleckenstein24: Fleckenstein, J., Meyer, J., Jansen, T., Keller, S. D., Köller, O., & Möller, J. (2024). Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays. _Computers and Education: Artificial Intelligence, 6_, artículo 100209. https://doi.org/10.1016/j.caeai.2024.100209
+- flower81: Flower, L., & Hayes, J. R. (1981). A cognitive process theory of writing. _College Composition and Communication, 32_(4), 365–387.
 - fraser06: Fraser, S. P., & Bosanquet, A. M. (2006). The curriculum? That's just a unit outline, isn't it? _Studies in Higher Education, 31_(3), 269–284.
+- fredricks04: Fredricks, J. A., Blumenfeld, P. C., & Paris, A. H. (2004). School engagement: Potential of the concept, state of the evidence. _Review of Educational Research, 74_(1), 59–109.
 - freeman14: Freeman, S., Eddy, S. L., McDonough, M., Smith, M. K., Okoroafor, N., Jordt, H., & Wenderoth, M. P. (2014). Active learning increases student performance in science, engineering, and mathematics. _Proceedings of the National Academy of Sciences, 111_(23), 8410–8415.
+- gaba04: Gaba, D. M. (2004). The future vision of simulation in health care. _Quality and Safety in Health Care, 13_(Suppl. 1), i2–i10.
 - gagne05: Gagné, R. M., Wager, W. W., Golas, K. C., & Keller, J. M. (2005). _Principles of instructional design_ (5th ed.). Thomson/Wadsworth.
+- gale14: Gale, T., & Parker, S. (2014). Navigating change: A typology of student transition in higher education. _Studies in Higher Education, 39_(5), 734–753.
+- garcia14: García, O., & Li Wei. (2014). _Translanguaging: Language, bilingualism and education_. Palgrave Macmillan.
+- gardner13: Gardner, S., & Nesi, H. (2013). A classification of genre families in university student writing. _Applied Linguistics, 34_(1), 25–52.
 - gardner83: Gardner, H. (1983). _Frames of mind: The theory of multiple intelligences_. Basic Books.
 - gardner95: Gardner, H. (1995). Reflections on multiple intelligences: Myths and messages. _Phi Delta Kappan, 77_, 200–203, 206–209.
-- garrison00: Garrison, D. R., Anderson, T., & Archer, W. (2000). Critical inquiry in a text-based environment: Computer conferencing in higher education. _The Internet and Higher Education, 2_(2-3), 87–105.
+- garrison00: Garrison, D. R., Anderson, T., & Archer, W. (2000). Critical inquiry in a text-based environment: Computer conferencing in higher education. _The Internet and Higher Education, 2_(2–3), 87–105. https://doi.org/10.1016/S1096-7516(00)00016-6
 - garrison04: Garrison, D. R., & Kanuka, H. (2004). Blended learning: Uncovering its transformative potential in higher education. _The Internet and Higher Education, 7_(2), 95–105.
 - gee03: Gee, J. P. (2003). _What video games have to teach us about learning and literacy_. Palgrave Macmillan.
 - gernsbacher15: Gernsbacher, M. A. (2015). Video captions benefit everyone. _Policy Insights from the Behavioral and Brain Sciences, 2_(1), 195–202.
 - gick80: Gick, M. L., & Holyoak, K. J. (1980). Analogical problem solving. _Cognitive Psychology, 12_(3), 306–355.
 - glaser63: Glaser, R. (1963). Instructional technology and the measurement of learning outcomes: Some questions. _American Psychologist, 18_(8), 519–521.
+- gleichgerrcht15: Gleichgerrcht, E., Lira Luttges, B., Salvarezza, F., & Campos, A. L. (2015). Educational neuromyths among teachers in Latin America. _Mind, Brain, and Education, 9_(3), 170–178. https://doi.org/10.1111/mbe.12086
+- gosling02: Gosling, D. (2002). _Models of peer observation of teaching_. LTSN Generic Centre.
+- greenwald97: Greenwald, A. G., & Gillmore, G. M. (1997). Grading leniency is a removable contaminant of student ratings. _American Psychologist, 52_(11), 1209–1217.
 - gruber14: Gruber, M. J., Gelman, B. D., & Ranganath, C. (2014). States of curiosity modulate hippocampus-dependent learning via the dopaminergic circuit. _Neuron, 84_(2), 486–496.
 - guo14: Guo, P. J., Kim, J., & Rubin, R. (2014). How video production affects student engagement: An empirical study of MOOC videos. En _Proceedings of the First ACM Conference on Learning @ Scale_ (pp. 41–50). ACM.
+- haak11: Haak, D. C., HilleRisLambers, J., Pitre, E., & Freeman, S. (2011). Increased structure and active learning reduce the achievement gap in introductory biology. _Science, 332_(6034), 1213–1216.
 - hafferty94: Hafferty, F. W., & Franks, R. (1994). The hidden curriculum, ethics teaching, and the structure of medical education. _Academic Medicine, 69_(11), 861–871.
+- hake98: Hake, R. R. (1998). Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses. _American Journal of Physics, 66_(1), 64–74.
 - haladyna13: Haladyna, T. M., & Rodriguez, M. C. (2013). _Developing and validating test items_. Routledge.
 - halloun85: Halloun, I. A., & Hestenes, D. (1985). The initial knowledge state of college physics students. _American Journal of Physics, 53_(11), 1043–1055.
 - hamilton16: Hamilton, E. R., Rosenberg, J. M., & Akcaoglu, M. (2016). The Substitution Augmentation Modification Redefinition (SAMR) model: A critical review and suggestions for its use. _TechTrends, 60_(5), 433–441.
+- hamstra14: Hamstra, S. J., Brydges, R., Hatala, R., Zendejas, B., & Cook, D. A. (2014). Reconsidering fidelity in simulation-based training. _Academic Medicine, 89_(3), 387–392.
+- hanselman17: Hanselman, P., Rozek, C. S., Grigg, J., & Borman, G. D. (2017). New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications. _Journal of Educational Psychology, 109_(3), 405–424.
+- harackiewicz16: Harackiewicz, J. M., Canning, E. A., Tibbetts, Y., Priniski, S. J., & Hyde, J. S. (2016). Closing achievement gaps with a utility-value intervention: Disentangling race and social class. _Journal of Personality and Social Psychology, 111_(5), 745–765.
+- harden75: Harden, R. M., Stevenson, M., Downie, W. W., & Wilson, G. M. (1975). Assessment of clinical competence using objective structured examination. _British Medical Journal, 1_(5955), 447–451.
 - harden99: Harden, R. M., & Stamper, N. (1999). What is a spiral curriculum? _Medical Teacher, 21_(2), 141–143.
 - hargittai02: Hargittai, E. (2002). Second-level digital divide: Differences in people's online skills. _First Monday, 7_(4).
+- harp98: Harp, S. F., & Mayer, R. E. (1998). How seductive details do their damage: A theory of cognitive interest in science learning. _Journal of Educational Psychology, 90_(3), 414–434.
+- hartwig12: Hartwig, M. K., & Dunlosky, J. (2012). Study strategies of college students: Are self-testing and scheduling related to achievement? _Psychonomic Bulletin & Review, 19_(1), 126–134.
 - haskins23: Haskins, C. H. (1923). _The rise of universities_. Henry Holt.
 - hattie07: Hattie, J., & Timperley, H. (2007). The power of feedback. _Review of Educational Research, 77_(1), 81–112.
+- hattie09: Hattie, J. (2009). _Visible learning: A synthesis of over 800 meta-analyses relating to achievement_. Routledge.
 - hattie96: Hattie, J., & Marsh, H. W. (1996). The relationship between research and teaching: A meta-analysis. _Review of Educational Research, 66_(4), 507–542.
+- hays89: Hays, R. T., & Singer, M. J. (1989). _Simulation fidelity in training system design: Bridging the gap between reality and training_. Springer-Verlag.
 - healey09: Healey, M., & Jenkins, A. (2009). _Developing undergraduate research and inquiry_. Higher Education Academy.
+- helmreich99: Helmreich, R. L., Merritt, A. C., & Wilhelm, J. A. (1999). The evolution of crew resource management training in commercial aviation. _The International Journal of Aviation Psychology, 9_(1), 19–32.
+- hendry12: Hendry, G., & Oliver, G. (2012). Seeing is believing: The benefits of peer observation. _Journal of University Teaching and Learning Practice, 9_(1), artículo 7.
 - herreid94: Herreid, C. F. (1994). Case studies in science: A novel method of science education. _Journal of College Science Teaching, 23_(4), 221–229.
+- hestenes92: Hestenes, D., Wells, M., & Swackhamer, G. (1992). Force concept inventory. _The Physics Teacher, 30_(3), 141–158.
+- hidi06: Hidi, S., & Renninger, K. A. (2006). The four-phase model of interest development. _Educational Psychologist, 41_(2), 111–127.
 - hilton16: Hilton, J., III. (2016). Open educational resources and college textbook choices: A review of research on efficacy and perceptions. _Educational Technology Research and Development, 64_(4), 573–590.
 - hodges20: Hodges, C., Moore, S., Lockee, B., Trust, T., & Bond, A. (2020). The difference between emergency remote teaching and online learning. _EDUCAUSE Review_.
-- houssaye88: Houssaye, J. (1988). _Le triangle pédagogique_. Peter Lang.
+- hoskins07: Hoskins, S. G., Stevens, L. M., & Nehm, R. H. (2007). Selective use of the primary literature transforms the classroom into a virtual laboratory. _Genetics, 176_(3), 1381–1389.
+- houssaye88: Houssaye, J. (1988). _Le triangle pédagogique_ (Théorie et pratiques de l'éducation scolaire, Vol. 1). Peter Lang.
+- howard10: Howard, R. M., Serviss, T., & Rodrigue, T. K. (2010). Writing from sources, writing from sentences. _Writing & Pedagogy, 2_(2), 177–192.
+- howard21: Howard, J. L., Bureau, J., Guay, F., Chong, J. X. Y., & Ryan, R. M. (2021). Student motivation and associated outcomes: A meta-analysis from self-determination theory. _Perspectives on Psychological Science, 16_(6), 1300–1323.
+- howard95: Howard, R. M. (1995). Plagiarisms, authorships, and the academic death penalty. _College English, 57_(7), 788–806.
 - howardjones14: Howard-Jones, P. A. (2014). Neuroscience and education: Myths and messages. _Nature Reviews Neuroscience, 15_(12), 817–824.
 - hrastinski08: Hrastinski, S. (2008). Asynchronous and synchronous e-learning. _EDUCAUSE Quarterly, 31_(4), 51–55.
+- hughes16: Hughes, A. M., Gregory, M. E., Joseph, D. L., Sonesh, S. C., Marlow, S. L., Lacerenza, C. N., Benishek, L. E., King, H. B., & Salas, E. (2016). Saving lives: A meta-analysis of team training in healthcare. _Journal of Applied Psychology, 101_(9), 1266–1304.
+- huisman19: Huisman, B., Saab, N., van den Broek, P., & van Driel, J. (2019). The impact of formative peer feedback on higher education students' academic writing: A meta-analysis. _Assessment & Evaluation in Higher Education, 44_(6), 863–880.
 - huizinga49: Huizinga, J. (1949). _Homo ludens: A study of the play-element in culture_ (R. F. C. Hull, Trad.). Routledge & Kegan Paul. (Obra original publicada en 1938)
+- hulleman10: Hulleman, C. S., Godes, O., Hendricks, B. L., & Harackiewicz, J. M. (2010). Enhancing interest and performance with a utility value intervention. _Journal of Educational Psychology, 102_(4), 880–895.
 - hunsu16: Hunsu, N. J., Adesope, O., & Bayly, D. J. (2016). A meta-analysis of the effects of audience response systems (clicker-based technologies) on cognition and affect. _Computers & Education, 94_, 102–119.
-- hutchings99: Hutchings, P., & Shulman, L. S. (1999). The scholarship of teaching: New elaborations, new developments. _Change: The Magazine of Higher Learning, 31_(5).
+- hunt14: Hunt, E. A., Duval-Arnould, J. M., Nelson-McMillan, K. L., Bradshaw, J. H., Diener-West, M., Perretta, J. S., & Shilkofski, N. A. (2014). Pediatric resident resuscitation skills improve after “rapid cycle deliberate practice” training. _Resuscitation, 85_(7), 945–951.
+- hutchings00: Hutchings, P. (Ed.). (2000). _Opening lines: Approaches to the scholarship of teaching and learning_. Carnegie Foundation for the Advancement of Teaching.
+- hutchings02: Hutchings, P. (Ed.). (2002). _Ethics of inquiry: Issues in the scholarship of teaching and learning_. Carnegie Foundation for the Advancement of Teaching.
+- hutchings99: Hutchings, P., & Shulman, L. S. (1999). The scholarship of teaching: New elaborations, new developments. _Change: The Magazine of Higher Learning, 31_(5), 10–15.
+- ilgen15: Ilgen, J. S., Ma, I. W. Y., Hatala, R., & Cook, D. A. (2015). A systematic review of validity evidence for checklists versus global rating scales in simulation-based assessment. _Medical Education, 49_(2), 161–173.
 - immordino07: Immordino-Yang, M. H., & Damasio, A. (2007). We feel, therefore we learn: The relevance of affective and social neuroscience to education. _Mind, Brain, and Education, 1_(1), 3–10.
+- inacsl16: INACSL Standards Committee. (2016). INACSL standards of best practice: Simulation℠ Simulation design. _Clinical Simulation in Nursing, 12_(Suppl.), S5–S12.
+- issenberg05: Issenberg, S. B., McGaghie, W. C., Petrusa, E. R., Gordon, D. L., & Scalese, R. J. (2005). Features and uses of high-fidelity medical simulations that lead to effective learning: A BEME systematic review. _Medical Teacher, 27_(1), 10–28.
+- ivanic98: Ivanič, R. (1998). _Writing and identity: The discoursal construction of identity in academic writing_. John Benjamins.
 - jackson68: Jackson, P. W. (1968). _Life in classrooms_. Holt, Rinehart and Winston.
+- jang10: Jang, H., Reeve, J., & Deci, E. L. (2010). Engaging students in learning activities: It is not autonomy support or structure but autonomy support and structure. _Journal of Educational Psychology, 102_(3), 588–600.
 - johansen88: Johansen, R. (1988). _Groupware: Computer support for business teams_. Free Press.
+- johnson00: Johnson, D. W., Johnson, R. T., & Smith, K. A. (2000). Constructive controversy: The educative power of intellectual conflict. _Change: The Magazine of Higher Learning, 32_(1), 28–37.
 - johnson09: Johnson, D. W., & Johnson, R. T. (2009). An educational psychology success story: Social interdependence theory and cooperative learning. _Educational Researcher, 38_(5), 365–379.
+- johnson09b: Johnson, D. W., & Johnson, R. T. (2009). Energizing learning: The instructional power of conflict. _Educational Researcher, 38_(1), 37–51.
 - jonsson07: Jonsson, A., & Svingby, G. (2007). The use of scoring rubrics: Reliability, validity and educational consequences. _Educational Research Review, 2_(2), 130–144.
 - kalyuga03: Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. _Educational Psychologist, 38_(1), 23–31.
+- karau93: Karau, S. J., & Williams, K. D. (1993). Social loafing: A meta-analytic review and theoretical integration. _Journal of Personality and Social Psychology, 65_(4), 681–706.
 - karpicke09: Karpicke, J. D., Butler, A. C., & Roediger, H. L. (2009). Metacognitive strategies in student learning: Do students practise retrieval when they study on their own? _Memory, 17_(4), 471–479.
+- kaufman00: Kaufman, D. B., Felder, R. M., & Fuller, H. (2000). Accounting for individual effort in cooperative learning teams. _Journal of Engineering Education, 89_(2), 133–140.
 - keller10: Keller, J. M. (2010). _Motivational design for learning and performance: The ARCS model approach_. Springer.
 - keller87: Keller, J. M. (1987). Development and use of the ARCS model of instructional design. _Journal of Instructional Development, 10_(3), 2–10.
 - kelley39: Kelley, T. L. (1939). The selection of upper and lower groups for the validation of test items. _Journal of Educational Psychology, 30_(1), 17–24.
 - kember04: Kember, D. (2004). Interpreting student workload and the factors which shape students' perceptions of their workload. _Studies in Higher Education, 29_(2), 165–184.
-- kestin25: Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. _Scientific Reports, 15_, artículo 17458.
+- kestin25: Kestin, G., Miller, K., Klales, A., Milbourne, T., & Ponti, G. (2025). AI tutoring outperforms in-class active learning: An RCT introducing a novel research-based design in an authentic educational setting. _Scientific Reports, 15_, artículo 17458. https://doi.org/10.1038/s41598-025-97652-6
+- kift09: Kift, S. (2009). _Articulating a transition pedagogy to scaffold and to enhance the first year student learning experience in Australian higher education: Final report for ALTC Senior Fellowship Program_. Australian Learning and Teaching Council.
+- kift10: Kift, S., Nelson, K., & Clarke, J. (2010). Transition pedagogy: A third generation approach to FYE. A case study of policy and practice for the higher education sector. _The International Journal of the First Year in Higher Education, 1_(1), 1–20.
+- king04: King, P. M., & Kitchener, K. S. (2004). Reflective judgment: Theory and research on the development of epistemic assumptions through adulthood. _Educational Psychologist, 39_(1), 5–18.
 - kingston11: Kingston, N., & Nash, B. (2011). Formative assessment: A meta-analysis and a call for research. _Educational Measurement: Issues and Practice, 30_(4), 28–37.
 - kirschner06: Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work: An analysis of the failure of constructivist, discovery, problem-based, experiential, and inquiry-based teaching. _Educational Psychologist, 41_(2), 75–86.
 - kirschner17: Kirschner, P. A., & De Bruyckere, P. (2017). The myths of the digital native and the multitasker. _Teaching and Teacher Education, 67_, 135–142.
 - knuth97: Knuth, D. E. (1997). _The art of computer programming: Vol. 1. Fundamental algorithms_ (3rd ed.). Addison-Wesley.
 - kolb84: Kolb, D. A. (1984). _Experiential learning: Experience as the source of learning and development_. Prentice-Hall.
 - kop08: Kop, R., & Hill, A. (2008). Connectivism: Learning theory of the future or vestige of the past? _The International Review of Research in Open and Distance Learning, 9_(3).
+- koriat05: Koriat, A., & Bjork, R. A. (2005). Illusions of competence in monitoring one's knowledge during study. _Journal of Experimental Psychology: Learning, Memory, and Cognition, 31_(2), 187–194.
+- kornell07: Kornell, N., & Bjork, R. A. (2007). The promise and perils of self-regulated study. _Psychonomic Bulletin & Review, 14_(2), 219–224.
 - kornell08: Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories: Is spacing the “enemy of induction”? _Psychological Science, 19_(6), 585–592.
+- kraft20: Kraft, M. A. (2020). Interpreting effect sizes of education interventions. _Educational Researcher, 49_(4), 241–253.
+- kuh08: Kuh, G. D. (2008). _High-impact educational practices: What they are, who has access to them, and why they matter_. Association of American Colleges and Universities.
 - kulik16: Kulik, J. A., & Fletcher, J. D. (2016). Effectiveness of intelligent tutoring systems: A meta-analytic review. _Review of Educational Research, 86_(1), 42–78.
 - kulik90: Kulik, C.-L. C., Kulik, J. A., & Bangert-Drowns, R. L. (1990). Effectiveness of mastery learning programs: A meta-analysis. _Review of Educational Research, 60_(2), 265–299.
+- ladson95: Ladson-Billings, G. (1995). Toward a theory of culturally relevant pedagogy. _American Educational Research Journal, 32_(3), 465–491.
 - lage00: Lage, M. J., Platt, G. J., & Treglia, M. (2000). Inverting the classroom: A gateway to creating an inclusive learning environment. _The Journal of Economic Education, 31_(1), 30–43.
 - lalley07: Lalley, J. P., & Miller, R. H. (2007). The learning pyramid: Does it point teachers in the right direction? _Education, 128_(1), 64–79.
+- lane07: Lane, C., & Rollnick, S. (2007). The use of simulated patients and role-play in communication skills training: A review of the literature to August 2005. _Patient Education and Counseling, 67_(1–2), 13–20.
 - lasry08: Lasry, N. (2008). Clickers or flashcards: Is there really a difference? _The Physics Teacher, 46_(4), 242–244.
+- latane79: Latané, B., Williams, K., & Harkins, S. (1979). Many hands make light the work: The causes and consequences of social loafing. _Journal of Personality and Social Psychology, 37_(6), 822–832.
 - lave91: Lave, J., & Wenger, E. (1991). _Situated learning: Legitimate peripheral participation_. Cambridge University Press.
 - lazonder16: Lazonder, A. W., & Harmsen, R. (2016). Meta-analysis of inquiry-based learning: Effects of guidance. _Review of Educational Research, 86_(3), 681–718.
 - lea98: Lea, M. R., & Street, B. V. (1998). Student writing in higher education: An academic literacies approach. _Studies in Higher Education, 23_(2), 157–172.
 - leijon22: Leijon, M., Gudmundsson, P., Staaf, P., & Christersson, C. (2022). Challenge based learning in higher education: A systematic literature review. _Innovations in Education and Teaching International, 59_(5), 609–618.
 - leiner09: Leiner, B. M., Cerf, V. G., Clark, D. D., Kahn, R. E., Kleinrock, L., Lynch, D. C., Postel, J., Roberts, L. G., & Wolff, S. (2009). A brief history of the Internet. _ACM SIGCOMM Computer Communication Review, 39_(5), 22–31.
 - lemke90: Lemke, J. L. (1990). _Talking science: Language, learning, and values_. Ablex.
+- lepper73: Lepper, M. R., Greene, D., & Nisbett, R. E. (1973). Undermining children's intrinsic interest with extrinsic reward: A test of the "overjustification" hypothesis. _Journal of Personality and Social Psychology, 28_(1), 129–137.
 - letrud12: Letrud, K. (2012). A rebuttal of NTL Institute's learning pyramid. _Education, 133_(1), 117–124.
 - lewandowsky12: Lewandowsky, S., Ecker, U. K. H., Seifert, C. M., Schwarz, N., & Cook, J. (2012). Misinformation and its correction: Continued influence and successful debiasing. _Psychological Science in the Public Interest, 13_(3), 106–131.
 - lewin46: Lewin, K. (1946). Action research and minority problems. _Journal of Social Issues, 2_(4), 34–46.
 - liang23: Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English writers. _Patterns, 4_(7), 100779.
+- liang95: Liang, D. W., Moreland, R., & Argote, L. (1995). Group versus individual training and group performance: The mediating role of transactive memory. _Personality and Social Psychology Bulletin, 21_(4), 384–393.
 - lipnevich09: Lipnevich, A. A., & Smith, J. K. (2009). Effects of differential feedback on students' examination performance. _Journal of Experimental Psychology: Applied, 15_(4), 319–333.
+- liu17: Liu, S.-N. C., & Beaujean, A. A. (2017). The effectiveness of team-based learning on academic outcomes: A meta-analysis. _Scholarship of Teaching and Learning in Psychology, 3_(1), 1–14.
+- lochhead87: Lochhead, J., & Whimbey, A. (1987). Teaching analytical reasoning through thinking aloud pair problem solving. _New Directions for Teaching and Learning, 1987_(30), 73–92.
 - loewenstein94: Loewenstein, G. (1994). The psychology of curiosity: A review and reinterpretation. _Psychological Bulletin, 116_(1), 75–98.
-- long20: Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. En _Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems_. ACM.
+- logue16: Logue, A. W., Watanabe-Rose, M., & Douglas, D. (2016). Should students assessed as needing remedial mathematics take college-level quantitative courses instead? A randomized controlled trial. _Educational Evaluation and Policy Analysis, 38_(3), 578–598.
+- long20: Long, D., & Magerko, B. (2020). What is AI literacy? Competencies and design considerations. En _Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems_ (pp. 1–16). Association for Computing Machinery. https://doi.org/10.1145/3313831.3376727
+- lovett13: Lovett, M. C. (2013). Make exams worth more than the grade: Using exam wrappers to promote metacognition. En M. Kaplan, N. Silver, D. LaVaque-Manty y D. Meizlish (Eds.), _Using reflection and metacognition to improve student learning: Across the disciplines, across the academy_ (pp. 18–52). Stylus.
+- lundstrom09: Lundstrom, K., & Baker, W. (2009). To give is better than to receive: The benefits of peer review to the reviewer's own writing. _Journal of Second Language Writing, 18_(1), 30–43.
 - lyman81: Lyman, F. T. (1981). The responsive classroom discussion: The inclusion of all students. En A. S. Anderson (Ed.), _Mainstreaming digest_ (pp. 109–113). University of Maryland, College of Education.
 - macdonald17: Macdonald, K., Germine, L., Anderson, A., Christodoulou, J., & McGrath, L. M. (2017). Dispelling the myth: Training in education or neuroscience decreases but does not eliminate beliefs in neuromyths. _Frontiers in Psychology, 8_, artículo 1314.
 - macnamara14: Macnamara, B. N., Hambrick, D. Z., & Oswald, F. L. (2014). Deliberate practice and performance in music, games, sports, education, and professions: A meta-analysis. _Psychological Science, 25_(8), 1608–1618.
 - makransky19: Makransky, G., Terkildsen, T. S., & Mayer, R. E. (2019). Adding immersive virtual reality to a science lab simulation causes more presence but less learning. _Learning and Instruction, 60_, 225–236.
+- malouff16: Malouff, J. M., & Thorsteinsson, E. B. (2016). Bias in grading: A meta-analysis of experimental research findings. _Australian Journal of Education, 60_(3), 245–256.
 - mandinach16: Mandinach, E. B., & Gummer, E. S. (2016). What does it mean for teachers to be data literate: Laying out the skills, knowledge, and dispositions. _Teaching and Teacher Education, 60_, 366–376.
 - marton76: Marton, F., & Säljö, R. (1976). On qualitative differences in learning: I. Outcome and process. _British Journal of Educational Psychology, 46_(1), 4–11.
+- mathieu09: Mathieu, J. E., & Rapp, T. L. (2009). Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies. _Journal of Applied Psychology, 94_(1), 90–103.
 - mayer03: Mayer, R. E., & Moreno, R. (2003). Nine ways to reduce cognitive load in multimedia learning. _Educational Psychologist, 38_(1), 43–52.
 - mayer04: Mayer, R. E. (2004). Should there be a three-strikes rule against pure discovery learning? The case for guided methods of instruction. _American Psychologist, 59_(1), 14–19.
 - mayer09: Mayer, R. E. (2009). _Multimedia learning_ (2nd ed.). Cambridge University Press.
 - mazur97: Mazur, E. (1997). _Peer instruction: A user's manual_. Prentice Hall.
 - mccabe01: McCabe, D. L., Treviño, L. K., & Butterfield, K. D. (2001). Cheating in academic institutions: A decade of research. _Ethics & Behavior, 11_(3), 219–232.
+- mccrindle95: McCrindle, A. R., & Christensen, C. A. (1995). The impact of learning journals on metacognitive and cognitive processes and learning performance. _Learning and Instruction, 5_(2), 167–185.
+- mccune05: McCune, V., & Hounsell, D. (2005). The development of students' ways of thinking and practising in three final-year biology courses. _Higher Education, 49_(3), 255–289.
+- mcdermott21: McDermott, D. S., Ludlow, J., Horsley, E., & Meakim, C. (2021). Healthcare Simulation Standards of Best Practice™ Prebriefing: Preparation and briefing. _Clinical Simulation in Nursing, 58_, 9–13.
+- mcgaghie11: McGaghie, W. C., Issenberg, S. B., Cohen, E. R., Barsuk, J. H., & Wayne, D. B. (2011). Does simulation-based medical education with deliberate practice yield better results than traditional clinical education? A meta-analytic comparative review of the evidence. _Academic Medicine, 86_(6), 706–711.
+- mcgaghie14: McGaghie, W. C., Issenberg, S. B., Barsuk, J. H., & Wayne, D. B. (2014). A critical review of simulation-based mastery learning with translational outcomes. _Medical Education, 48_(4), 375–385.
+- mengel19: Mengel, F., Sauermann, J., & Zölitz, U. (2019). Gender bias in teaching evaluations. _Journal of the European Economic Association, 17_(2), 535–566.
 - merrill02: Merrill, M. D. (2002). First principles of instruction. _Educational Technology Research and Development, 50_(3), 43–59.
 - messick89: Messick, S. (1989). Validity. En R. L. Linn (Ed.), _Educational measurement_ (3rd ed., pp. 13–103). American Council on Education; Macmillan.
 - metcalfe17: Metcalfe, J. (2017). Learning from errors. _Annual Review of Psychology, 68_, 465–489.
 - meyer05: Meyer, J. H. F., & Land, R. (2005). Threshold concepts and troublesome knowledge (2): Epistemological considerations and a conceptual framework for teaching and learning. _Higher Education, 49_(3), 373–388.
 - meyer06: Meyer, J. H. F., & Land, R. (Eds.). (2006). _Overcoming barriers to student understanding: Threshold concepts and troublesome knowledge_. Routledge.
 - meyer14: Meyer, A., Rose, D. H., & Gordon, D. (2014). _Universal design for learning: Theory and practice_. CAST Professional Publishing.
+- michaelsen04: Michaelsen, L. K., Knight, A. B., & Fink, L. D. (Eds.). (2004). _Team-based learning: A transformative use of small groups in college teaching_. Stylus.
+- michaelsen08: Michaelsen, L. K., & Sweet, M. (2008). The essential elements of team-based learning. _New Directions for Teaching and Learning, 2008_(116), 7–27.
+- middendorf04: Middendorf, J., & Pace, D. (2004). Decoding the disciplines: A model for helping students learn disciplinary ways of thinking. _New Directions for Teaching and Learning, 2004_(98), 1–12.
+- middendorf15: Middendorf, J., Mickutė, J., Saunders, T., Najar, J., Clark-Huckstep, A. E., & Pace, D. (2015). What's feeling got to do with it? Decoding emotional bottlenecks in the history classroom. _Arts and Humanities in Higher Education, 14_(2), 166–180.
+- miller90: Miller, G. E. (1990). The assessment of clinical skills/competence/performance. _Academic Medicine, 65_(9 Suppl.), S63–S67.
 - mishra06: Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. _Teachers College Record, 108_(6), 1017–1054.
+- mitchell93: Mitchell, M. (1993). Situational interest: Its multifaceted structure in the secondary school mathematics classroom. _Journal of Educational Psychology, 85_(3), 424–436.
 - mitchell97: Mitchell, T. M. (1997). _Machine learning_. McGraw-Hill.
+- miyake10: Miyake, A., Kost-Smith, L. E., Finkelstein, N. D., Pollock, S. J., Cohen, G. L., & Ito, T. A. (2010). Reducing the gender achievement gap in college science: A classroom study of values affirmation. _Science, 330_(6008), 1234–1237.
 - molenda03: Molenda, M. (2003). In search of the elusive ADDIE model. _Performance Improvement, 42_(5), 34–36.
-- moore89: Moore, M. G. (1989). Three types of interaction. _American Journal of Distance Education, 3_(2), 1–7.
+- moll92: Moll, L. C., Amanti, C., Neff, D., & Gonzalez, N. (1992). Funds of knowledge for teaching: Using a qualitative approach to connect homes and classrooms. _Theory Into Practice, 31_(2), 132–141.
+- moore89: Moore, M. G. (1989). Editorial: Three types of interaction. _American Journal of Distance Education, 3_(2), 1–7. https://doi.org/10.1080/08923648909526659
 - moore93: Moore, M. G. (1993). Theory of transactional distance. En D. Keegan (Ed.), _Theoretical principles of distance education_ (pp. 22–38). Routledge.
 - moule07: Moule, P. (2007). Challenging the five-stage model for e-learning: A new approach. _ALT-J, Research in Learning Technology, 15_(1), 37–50.
+- mullen91: Mullen, B., Johnson, C., & Salas, E. (1991). Productivity loss in brainstorming groups: A meta-analytic integration. _Basic and Applied Social Psychology, 12_(1), 3–23.
 - murre15: Murre, J. M. J., & Dros, J. (2015). Replication and analysis of Ebbinghaus' forgetting curve. _PLoS ONE, 10_(7), e0120644.
+- nathan03: Nathan, M. J., & Petrosino, A. (2003). Expert blind spot among preservice teachers. _American Educational Research Journal, 40_(4), 905–928.
 - nesbit06: Nesbit, J. C., & Adesope, O. O. (2006). Learning with concept and knowledge maps: A meta-analysis. _Review of Educational Research, 76_(3), 413–448.
 - nichols08: Nichols, M. H., & Cator, K. (2008). _Challenge based learning white paper_. Apple, Inc.
+- nicol09: Nicol, D. (2009). Assessment for learner self-regulation: Enhancing achievement in the first year using learning technologies. _Assessment & Evaluation in Higher Education, 34_(3), 335–352.
+- nicol14: Nicol, D., Thomson, A., & Breslin, C. (2014). Rethinking feedback practices in higher education: A peer review perspective. _Assessment & Evaluation in Higher Education, 39_(1), 102–122.
 - nielsen13: Nielsen, J. A., Zielinski, B. A., Ferguson, M. A., Lainhart, J. E., & Anderson, J. S. (2013). An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging. _PLoS ONE, 8_(8), e71275.
+- norcini03: Norcini, J. J., Blank, L. L., Duffy, F. D., & Fortna, G. S. (2003). The mini-CEX: A method for assessing clinical skills. _Annals of Internal Medicine, 138_(6), 476–481.
+- norman12: Norman, G., Dore, K., & Grierson, L. (2012). The minimal relationship between simulation fidelity and transfer of learning. _Medical Education, 46_(7), 636–647.
+- north84: North, S. M. (1984). The idea of a writing center. _College English, 46_(5), 433–446.
 - novak84: Novak, J. D., & Gowin, D. B. (1984). _Learning how to learn_. Cambridge University Press.
+- oakley04: Oakley, B., Felder, R. M., Brent, R., & Elhajj, I. (2004). Turning student groups into effective teams. _Journal of Student Centered Learning, 2_(1), 9–34.
 - oblinger06: Oblinger, D. G. (Ed.). (2006). _Learning spaces_. EDUCAUSE.
 - obrien08: O'Brien, J. G., Millis, B. J., & Cohen, M. W. (2008). _The course syllabus: A learning-centered approach_ (2nd ed.). Jossey-Bass.
+- ohland12: Ohland, M. W., Loughry, M. L., Woehr, D. J., Bullard, L. G., Felder, R. M., Finelli, C. J., Layton, R. A., Pomeranz, H. R., & Schmucker, D. G. (2012). The comprehensive assessment of team member effectiveness: Development of a behaviorally anchored rating scale for self- and peer evaluation. _Academy of Management Learning & Education, 11_(4), 609–630.
+- okano19: Okano, K., Kaczmarzyk, J. R., Dave, N., Gabrieli, J. D. E., & Grossman, J. C. (2019). Sleep quality, duration, and consistency are associated with better academic performance in college students. _npj Science of Learning, 4_, 16.
+- oliver90: Oliver, M. (1990). _The politics of disablement_. Macmillan.
 - ong82: Ong, W. J. (1982). _Orality and literacy: The technologizing of the word_. Methuen.
+- onu06: Naciones Unidas. (2006). _Convención sobre los derechos de las personas con discapacidad_.
+- oregan16: O'Regan, S., Molloy, E., Watterson, L., & Nestel, D. (2016). Observer roles that optimise learning in healthcare simulation education: A systematic review. _Advances in Simulation, 1_, artículo 4.
+- pace17: Pace, D. (2017). _The decoding the disciplines paradigm: Seven steps to increased student learning_. Indiana University Press.
 - palmer14: Palmer, M. S., Bach, D. J., & Streifer, A. C. (2014). Measuring the promise: A learning-focused syllabus rubric. _To Improve the Academy, 33_(1), 14–36.
 - panadero13: Panadero, E., & Jonsson, A. (2013). The use of scoring rubrics for formative assessment purposes revisited: A review. _Educational Research Review, 9_, 129–144.
 - panadero17: Panadero, E., Jonsson, A., & Botella, J. (2017). Effects of self-assessment on self-regulated learning and self-efficacy: Four meta-analyses. _Educational Research Review, 22_, 74–98.
 - papert80: Papert, S. (1980). _Mindstorms: Children, computers, and powerful ideas_. Basic Books.
+- pascarella04: Pascarella, E. T., Pierson, C. T., Wolniak, G. C., & Terenzini, P. T. (2004). First-generation college students: Additional evidence on college experiences and outcomes. _The Journal of Higher Education, 75_(3), 249–284.
 - pashler08: Pashler, H., McDaniel, M., Rohrer, D., & Bjork, R. (2008). Learning styles: Concepts and evidence. _Psychological Science in the Public Interest, 9_(3), 105–119.
+- patall08: Patall, E. A., Cooper, H., & Robinson, J. C. (2008). The effects of choice on intrinsic motivation and related outcomes: A meta-analysis of research findings. _Psychological Bulletin, 134_(2), 270–300.
+- patterson13: Patterson, M. D., Geis, G. L., Falcone, R. A., LeMaster, T., & Wears, R. L. (2013). In situ simulation: Detection of safety threats and teamwork training in a high risk emergency department. _BMJ Quality & Safety, 22_(6), 468–477.
 - paulson91: Paulson, F. L., Paulson, P. R., & Meyer, C. A. (1991). What makes a portfolio a portfolio? _Educational Leadership, 48_(5), 60–63.
+- paulus93: Paulus, P. B., Dzindolet, M. T., Poletes, G., & Camacho, L. M. (1993). Perception of performance in group brainstorming: The illusion of group productivity. _Personality and Social Psychology Bulletin, 19_(1), 78–89.
+- pecorari03: Pecorari, D. (2003). Good and original: Plagiarism and patchwriting in academic second-language writing. _Journal of Second Language Writing, 12_(4), 317–345.
 - pekrun02: Pekrun, R., Goetz, T., Titz, W., & Perry, R. P. (2002). Academic emotions in students' self-regulated learning and achievement: A program of qualitative and quantitative research. _Educational Psychologist, 37_(2), 91–105.
 - pekrun06: Pekrun, R. (2006). The control-value theory of achievement emotions: Assumptions, corollaries, and implications for educational research and practice. _Educational Psychology Review, 18_(4), 315–341.
-- perkins24: Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. _Journal of University Teaching and Learning Practice, 21_(6).
+- penny04: Penny, A. R., & Coe, R. (2004). Effectiveness of consultation on student ratings feedback: A meta-analysis. _Review of Educational Research, 74_(2), 215–253.
+- perez14: Perez, T., Cromley, J. G., & Kaplan, A. (2014). The role of identity development, values, and costs in college STEM retention. _Journal of Educational Psychology, 106_(1), 315–329.
+- perkins24: Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A framework for ethical integration of generative AI in educational assessment. _Journal of University Teaching and Learning Practice, 21_(6). https://doi.org/10.53761/q3azde36
+- permzadian16: Permzadian, V., & Credé, M. (2016). Do first-year seminars improve college grades and retention? A quantitative review of their overall effectiveness and an examination of moderators of effectiveness. _Review of Educational Research, 86_(1), 277–316.
+- perry70: Perry, W. G., Jr. (1970). _Forms of intellectual and ethical development in the college years: A scheme_. Holt, Rinehart and Winston.
+- perry93: Perry, R. P., Hechter, F. J., Menec, V. H., & Weinberg, L. E. (1993). Enhancing achievement motivation and performance in college students: An attributional retraining perspective. _Research in Higher Education, 34_(6), 687–723.
 - piaget52: Piaget, J. (1952). _The origins of intelligence in children_ (M. Cook, Trad.). International Universities Press. (Obra original publicada en 1936)
+- pilcher97: Pilcher, J. J., & Walters, A. S. (1997). How sleep deprivation affects psychological variables related to college students' cognitive performance. _Journal of American College Health, 46_(3), 121–126.
+- polanyi66: Polanyi, M. (1966). _The tacit dimension_. Doubleday.
 - posner82: Posner, G. J., Strike, K. A., Hewson, P. W., & Gertzog, W. A. (1982). Accommodation of a scientific conception: Toward a theory of conceptual change. _Science Education, 66_(2), 211–227.
-- prensky01: Prensky, M. (2001). Digital natives, digital immigrants. _On the Horizon, 9_(5), 1–6.
+- prensky01: Prensky, M. (2001). Digital natives, digital immigrants Part 1. _On the Horizon, 9_(5), 1–6. https://doi.org/10.1108/10748120110424816
 - prosser99: Prosser, M., & Trigwell, K. (1999). _Understanding learning and teaching: The experience in higher education_. Society for Research into Higher Education & Open University Press.
 - puentedura06: Puentedura, R. R. (2006). _Transformation, technology, and education_ [Presentación]. Hippasus.
 - radianti20: Radianti, J., Majchrzak, T. A., Fromm, J., & Wohlgenannt, I. (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda. _Computers & Education, 147_, artículo 103778.
 - rawson11: Rawson, K. A., & Dunlosky, J. (2011). Optimizing schedules of retrieval practice for durable and efficient learning: How much is enough? _Journal of Experimental Psychology: General, 140_(3), 283–302.
 - rawson13: Rawson, K. A., Dunlosky, J., & Sciartelli, S. M. (2013). The power of successive relearning: Improving performance on course exams and long-term retention. _Educational Psychology Review, 25_(4), 523–548.
 - redecker17: Redecker, C. (2017). _European framework for the digital competence of educators: DigCompEdu_ (Y. Punie, Ed.). Publications Office of the European Union.
+- reeve02: Reeve, J., Jang, H., Hardre, P., & Omura, M. (2002). Providing a rationale in an autonomy-supportive way as a strategy to motivate others during an uninteresting activity. _Motivation and Emotion, 26_(3), 183–207.
+- reeve06: Reeve, J., & Jang, H. (2006). What teachers say and do to support students' autonomy during a learning activity. _Journal of Educational Psychology, 98_(1), 209–218.
+- reeve09: Reeve, J. (2009). Why teachers adopt a controlling motivating style toward students and how they can become more autonomy supportive. _Educational Psychologist, 44_(3), 159–175.
+- reeve11: Reeve, J., & Tseng, C.-M. (2011). Agency as a fourth aspect of students' engagement during learning activities. _Contemporary Educational Psychology, 36_(4), 257–267.
+- reeve13: Reeve, J. (2013). How students create motivationally supportive learning environments for themselves: The concept of agentic engagement. _Journal of Educational Psychology, 105_(3), 579–595.
 - reich19: Reich, J., & Ruipérez-Valiente, J. A. (2019). The MOOC pivot. _Science, 363_(6423), 130–131.
+- rey12: Rey, G. D. (2012). A review of research and a meta-analysis of the seductive detail effect. _Educational Research Review, 7_(3), 216–237.
 - richardson12: Richardson, M., Abraham, C., & Bond, R. (2012). Psychological correlates of university students' academic performance: A systematic review and meta-analysis. _Psychological Bulletin, 138_(2), 353–387.
 - roediger06: Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. _Psychological Science, 17_(3), 249–255.
 - rohrer07: Rohrer, D., & Taylor, K. (2007). The shuffling of mathematics problems improves learning. _Instructional Science, 35_(6), 481–498.
 - roscoe07: Roscoe, R. D., & Chi, M. T. H. (2007). Understanding tutor learning: Knowledge-building and knowledge-telling in peer tutors' explanations and questions. _Review of Educational Research, 77_(4), 534–574.
+- rose12: Rose, D., & Martin, J. R. (2012). _Learning to write, reading to learn: Genre, knowledge and pedagogy in the Sydney School_. Equinox.
+- rose85: Rose, M. (1985). The language of exclusion: Writing instruction at the university. _College English, 47_(4), 341–359.
 - rosenshine96: Rosenshine, B., Meister, C., & Chapman, S. (1996). Teaching students to generate questions: A review of the intervention studies. _Review of Educational Research, 66_(2), 181–221.
+- rowe86: Rowe, M. B. (1986). Wait time: Slowing down may be a way of speeding up! _Journal of Teacher Education, 37_(1), 43–50.
+- rudolph06: Rudolph, J. W., Simon, R., Dufresne, R. L., & Raemer, D. B. (2006). There's no such thing as “nonjudgmental” debriefing: A theory and method for debriefing with good judgment. _Simulation in Healthcare, 1_(1), 49–55.
+- rudolph08: Rudolph, J. W., Simon, R., Raemer, D. B., & Eppich, W. J. (2008). Debriefing as formative assessment: Closing performance gaps in medical education. _Academic Emergency Medicine, 15_(11), 1010–1016.
+- rudolph14: Rudolph, J. W., Raemer, D. B., & Simon, R. (2014). Establishing a safe container for learning in simulation: The role of the presimulation briefing. _Simulation in Healthcare, 9_(6), 339–349.
+- russell91: Russell, D. R. (1991). _Writing in the academic disciplines, 1870–1990: A curricular history_. Southern Illinois University Press.
 - ryan00: Ryan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. _American Psychologist, 55_(1), 68–78.
 - ryan00b: Ryan, R. M., & Deci, E. L. (2000). Intrinsic and extrinsic motivations: Classic definitions and new directions. _Contemporary Educational Psychology, 25_(1), 54–67.
 - sadler89: Sadler, D. R. (1989). Formative assessment and the design of instructional systems. _Instructional Science, 18_(2), 119–144.
 - sailer20: Sailer, M., & Homner, L. (2020). The gamification of learning: A meta-analysis. _Educational Psychology Review, 32_(1), 77–112.
+- salas08: Salas, E., DiazGranados, D., Klein, C., Burke, C. S., Stagl, K. C., Goodwin, G. F., & Halpin, S. M. (2008). Does team training improve team performance? A meta-analysis. _Human Factors, 50_(6), 903–933.
 - salmon00: Salmon, G. (2000). _E-moderating: The key to teaching and learning online_. Kogan Page.
 - salomon91: Salomon, G., Perkins, D. N., & Globerson, T. (1991). Partners in cognition: Extending human intelligence with intelligent technologies. _Educational Researcher, 20_(3), 2–9.
 - samuel59: Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. _IBM Journal of Research and Development, 3_(3), 210–229.
 - sana13: Sana, F., Weston, T., & Cepeda, N. J. (2013). Laptop multitasking hinders classroom learning for both users and nearby peers. _Computers & Education, 62_, 24–31.
 - schon83: Schön, D. A. (1983). _The reflective practitioner: How professionals think in action_. Basic Books.
 - schon87: Schön, D. A. (1987). _Educating the reflective practitioner: Toward a new design for teaching and learning in the professions_. Jossey-Bass.
-- scriven67: Scriven, M. (1967). The methodology of evaluation. En R. W. Tyler, R. M. Gagné y M. Scriven (Eds.), _Perspectives of curriculum evaluation_. Rand McNally.
+- scriven67: Scriven, M. (1967). The methodology of evaluation. En R. W. Tyler, R. M. Gagné, & M. Scriven (Eds.), _Perspectives of curriculum evaluation_ (pp. 39–83). Rand McNally.
 - seldin04: Seldin, P. (2004). _The teaching portfolio: A practical guide to improved performance and promotion/tenure decisions_ (3rd ed.). Anker.
+- serragarcia20: Serra-Garcia, M., Hansen, K. T., & Gneezy, U. (2020). Can short psychological interventions affect educational performance? Revisiting the effect of self-affirmation interventions. _Psychological Science, 31_(7), 865–872.
+- seymour19: Seymour, E., & Hunter, A.-B. (Eds.). (2019). _Talking about leaving revisited: Persistence, relocation, and loss in undergraduate STEM education_. Springer.
+- seymour97: Seymour, E., & Hewitt, N. M. (1997). _Talking about leaving: Why undergraduates leave the sciences_. Westview Press.
+- shadish02: Shadish, W. R., Cook, T. D., & Campbell, D. T. (2002). _Experimental and quasi-experimental designs for generalized causal inference_. Houghton Mifflin.
+- shanahan08: Shanahan, T., & Shanahan, C. (2008). Teaching disciplinary literacy to adolescents: Rethinking content-area literacy. _Harvard Educational Review, 78_(1), 40–59.
 - sharples07: Sharples, M., Taylor, J., & Vavoula, G. (2007). A theory of learning for the mobile age. En R. Andrews & C. Haythornthwaite (Eds.), _The SAGE handbook of e-learning research_ (pp. 221–247). Sage.
+- shewach19: Shewach, O. R., Sackett, P. R., & Quint, S. (2019). Stereotype threat effects in settings with features likely versus unlikely in operational test settings: A meta-analysis. _Journal of Applied Psychology, 104_(12), 1514–1534.
 - shuell86: Shuell, T. J. (1986). Cognitive conceptions of learning. _Review of Educational Research, 56_(4), 411–436.
+- shulman05: Shulman, L. S. (2005). Signature pedagogies in the professions. _Daedalus, 134_(3), 52–59.
 - shulman86: Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. _Educational Researcher, 15_(2), 4–14.
 - siemens05: Siemens, G. (2005). Connectivism: A learning theory for the digital age. _International Journal of Instructional Technology and Distance Learning, 2_(1).
 - siemens11: Siemens, G., & Long, P. (2011). Penetrating the fog: Analytics in learning and education. _EDUCAUSE Review, 46_(5), 30–40.
 - sinha21: Sinha, T., & Kapur, M. (2021). When problem solving followed by instruction works: Evidence for productive failure. _Review of Educational Research, 91_(5), 761–798.
 - sisk18: Sisk, V. F., Burgoyne, A. P., Sun, J., Butler, J. L., & Macnamara, B. N. (2018). To what extent and under what circumstances are growth mind-sets important to academic achievement? Two meta-analyses. _Psychological Science, 29_(4), 549–571.
 - slade13: Slade, S., & Prinsloo, P. (2013). Learning analytics: Ethical issues and dilemmas. _American Behavioral Scientist, 57_(10), 1510–1529.
+- slavin96: Slavin, R. E. (1996). Research on cooperative learning and achievement: What we know, what we need to know. _Contemporary Educational Psychology, 21_(1), 43–69.
 - smith09: Smith, M. K., Wood, W. B., Adams, W. K., Wieman, C., Knight, J. K., Guild, N., & Su, T. T. (2009). Why peer discussion improves student performance on in-class concept questions. _Science, 323_(5910), 122–124.
 - smith11: Smith, M. K., Wood, W. B., Krauter, K., & Knight, J. K. (2011). Combining peer discussion with instructor explanation increases student learning from in-class concept questions. _CBE-Life Sciences Education, 10_(1), 55–63.
+- smith13: Smith, M. K., Jones, F. H. M., Gilbert, S. L., & Wieman, C. E. (2013). The Classroom Observation Protocol for Undergraduate STEM (COPUS): A new instrument to characterize university STEM classroom practices. _CBE-Life Sciences Education, 12_(4), 618–627.
+- smith17: Smith, M., Chen, Y., Berndtson, R., Burson, K. M., & Griffin, W. (2017). "Office hours are kind of weird": Reclaiming a resource to foster student-faculty interaction. _InSight: A Journal of Scholarly Teaching, 12_, 14–29.
 - snyder71: Snyder, B. R. (1971). _The hidden curriculum_. Knopf.
 - soderstrom15: Soderstrom, N. C., & Bjork, R. A. (2015). Learning versus performance: An integrative review. _Perspectives on Psychological Science, 10_(2), 176–199.
+- soicher17: Soicher, R. N., & Gurung, R. A. R. (2017). Do exam wrappers increase metacognition and performance? A single course intervention. _Psychology Learning & Teaching, 16_(1), 64–73.
+- sommers04: Sommers, N., & Saltz, L. (2004). The novice as expert: Writing the freshman year. _College Composition and Communication, 56_(1), 124–149.
+- sommers80: Sommers, N. (1980). Revision strategies of student writers and experienced adult writers. _College Composition and Communication, 31_(4), 378–388.
+- sommers82: Sommers, N. (1982). Responding to student writing. _College Composition and Communication, 33_(2), 148–156.
+- spivey90: Spivey, N. N. (1990). Transforming texts: Constructive processes in reading and writing. _Written Communication, 7_(2), 256–287.
+- spooren13: Spooren, P., Brockx, B., & Mortelmans, D. (2013). On the validity of student evaluation of teaching: The state of the art. _Review of Educational Research, 83_(4), 598–642.
+- steel07: Steel, P. (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure. _Psychological Bulletin, 133_(1), 65–94.
+- steele95: Steele, C. M., & Aronson, J. (1995). Stereotype threat and the intellectual test performance of African Americans. _Journal of Personality and Social Psychology, 69_(5), 797–811.
+- steele97: Steele, C. M. (1997). A threat in the air: How stereotypes shape intellectual identity and performance. _American Psychologist, 52_(6), 613–629.
+- stephens12: Stephens, N. M., Fryberg, S. A., Markus, H. R., Johnson, C. S., & Covarrubias, R. (2012). Unseen disadvantage: How American universities' focus on independence undermines the academic performance of first-generation college students. _Journal of Personality and Social Psychology, 102_(6), 1178–1197.
+- stephens14: Stephens, N. M., Hamedani, M. G., & Destin, M. (2014). Closing the social-class achievement gap: A difference-education intervention improves first-generation students' academic performance and all students' college transition. _Psychological Science, 25_(4), 943–953.
+- strayhorn19: Strayhorn, T. L. (2019). _College students' sense of belonging: A key to educational success for all students_ (2nd ed.). Routledge.
+- su11: Su, Y.-L., & Reeve, J. (2011). A meta-analysis of the effectiveness of intervention programs designed to support autonomy. _Educational Psychology Review, 23_(1), 159–188.
+- sundararajan20: Sundararajan, N., & Adesope, O. (2020). Keep it coherent: A meta-analysis of the seductive details effect. _Educational Psychology Review, 32_(3), 707–734.
 - sung16: Sung, Y.-T., Chang, K.-E., & Liu, T.-C. (2016). The effects of integrating mobile devices with teaching and learning on students' learning performance: A meta-analysis and research synthesis. _Computers & Education, 94_, 252–275.
+- suskie18: Suskie, L. (2018). _Assessing student learning: A common sense guide_ (3rd ed.). Jossey-Bass.
+- swales90: Swales, J. M. (1990). _Genre analysis: English in academic and research settings_. Cambridge University Press.
+- swanson19: Swanson, E., McCulley, L. V., Osman, D. J., Scammacca Lewis, N., & Solis, M. (2019). The effect of team-based learning on content knowledge: A meta-analysis. _Active Learning in Higher Education, 20_(1), 39–50.
 - sweller85: Sweller, J., & Cooper, G. A. (1985). The use of worked examples as a substitute for problem solving in learning algebra. _Cognition and Instruction, 2_(1), 59–89.
 - sweller88: Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. _Cognitive Science, 12_(2), 257–285.
 - sweller98: Sweller, J., van Merriënboer, J. J. G., & Paas, F. G. W. C. (1998). Cognitive architecture and instructional design. _Educational Psychology Review, 10_(3), 251–296.
 - tai18: Tai, J., Ajjawi, R., Boud, D., Dawson, P., & Panadero, E. (2018). Developing evaluative judgement: Enabling students to make decisions about the quality of work. _Higher Education, 76_(3), 467–481.
 - tamim11: Tamim, R. M., Bernard, R. M., Borokhovski, E., Abrami, P. C., & Schmid, R. F. (2011). What forty years of research says about the impact of technology on learning: A second-order meta-analysis and validation study. _Review of Educational Research, 81_(1), 4–28.
+- tanner13: Tanner, K. D. (2013). Structure matters: Twenty-one teaching strategies to promote student engagement and cultivate classroom equity. _CBE-Life Sciences Education, 12_(3), 322–331.
+- thacher08: Thacher, P. V. (2008). University students and "the all nighter": Correlates and patterns of students' engagement in a single night of total sleep deprivation. _Behavioral Sleep Medicine, 6_(1), 16–31.
 - thomas00: Thomas, J. W. (2000). _A review of research on project-based learning_. The Autodesk Foundation.
+- tinto12: Tinto, V. (2012). _Completing college: Rethinking institutional action_. University of Chicago Press.
+- tinto75: Tinto, V. (1975). Dropout from higher education: A theoretical synthesis of recent research. _Review of Educational Research, 45_(1), 89–125.
 - tinto93: Tinto, V. (1993). _Leaving college: Rethinking the causes and cures of student attrition_ (2nd ed.). University of Chicago Press.
 - tobon06: Tobón, S. (2006). _Formación basada en competencias: Pensamiento complejo, diseño curricular y didáctica_ (2.ª ed.). Ecoe Ediciones.
 - topping96: Topping, K. J. (1996). The effectiveness of peer tutoring in further and higher education: A typology and review of the literature. _Higher Education, 32_(3), 321–345.
 - topping98: Topping, K. (1998). Peer assessment between students in colleges and universities. _Review of Educational Research, 68_(3), 249–276.
+- toulmin03: Toulmin, S. E. (2003). _The uses of argument_ (Updated ed.). Cambridge University Press. (Obra original publicada en 1958)
 - trigwell99: Trigwell, K., Prosser, M., & Waterhouse, F. (1999). Relations between teachers' approaches to teaching and students' approaches to learning. _Higher Education, 37_(1), 57–70.
 - tuning07: Beneitone, P., Esquetini, C., González, J., Marty Maletá, M., Siufi, G., & Wagenaar, R. (Eds.). (2007). _Reflexiones y perspectivas de la educación superior en América Latina: Informe final, Proyecto Tuning América Latina 2004-2007_. Universidad de Deusto; Universidad de Groningen.
 - turing37: Turing, A. M. (1937). On computable numbers, with an application to the Entscheidungsproblem. _Proceedings of the London Mathematical Society, s2-42_(1), 230–265.
+- twardy04: Twardy, C. R. (2004). Argument maps improve critical thinking. _Teaching Philosophy, 27_(2), 95–116.
 - tyler49: Tyler, R. W. (1949). _Basic principles of curriculum and instruction_. University of Chicago Press.
 - unesco19: UNESCO. (2019). _Recommendation on Open Educational Resources (OER)_. UNESCO.
-- unesco23: Miao, F., & Holmes, W. (2023). _Guidance for generative AI in education and research_. UNESCO.
+- unesco23: Miao, F., & Holmes, W. (2023). _Guidance for generative AI in education and research_. UNESCO. https://doi.org/10.54675/EWZM9535
 - uttl17: Uttl, B., White, C. A., & Gonzalez, D. W. (2017). Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related. _Studies in Educational Evaluation, 54_, 22–42.
+- vallerand92: Vallerand, R. J., & Bissonnette, R. (1992). Intrinsic, extrinsic, and amotivational styles as predictors of behavior: A prospective study. _Journal of Personality, 60_(3), 599–620.
+- vandervleuten05: van der Vleuten, C. P. M., & Schuwirth, L. W. T. (2005). Assessing professional competence: From methods to programmes. _Medical Education, 39_(3), 309–317.
 - vandijk20: van Dijk, J. (2020). _The digital divide_. Polity Press.
+- vangelder05: van Gelder, T. (2005). Teaching critical thinking: Some lessons from cognitive science. _College Teaching, 53_(1), 41–48.
 - vanlehn11: VanLehn, K. (2011). The relative effectiveness of human tutoring, intelligent tutoring systems, and other tutoring systems. _Educational Psychologist, 46_(4), 197–221.
+- vansteenkiste04: Vansteenkiste, M., Simons, J., Lens, W., Sheldon, K. M., & Deci, E. L. (2004). Motivating learning, performance, and persistence: The synergistic effects of intrinsic goal contents and autonomy-supportive contexts. _Journal of Personality and Social Psychology, 87_(2), 246–260.
 - viberg18: Viberg, O., Hatakka, M., Bälter, O., & Mavroudi, A. (2018). The current landscape of learning analytics in higher education. _Computers in Human Behavior, 89_, 98–110.
 - villarroel18: Villarroel, V., Bloxham, S., Bruna, D., Bruna, C., & Herrera-Seda, C. (2018). Authentic assessment: Creating a blueprint for course design. _Assessment & Evaluation in Higher Education, 43_(5), 840–854.
 - vives25: Vives, E., Poletti, C., Robert, A., Butera, F., Huguet, P., ProFAN Consortium, & Régner, I. (2025). Learning with jigsaw: A systematic review gathering all the pieces of the puzzle more than 40 years later. _Review of Educational Research, 95_(3), 339–384.
-- vygotsky78: Vygotsky, L. S. (1978). _Mind in society: The development of higher psychological processes_. Harvard University Press.
+- vogel17: Vogel, F., Wecker, C., Kollar, I., & Fischer, F. (2017). Socio-cognitive scaffolding with computer-supported collaboration scripts: A meta-analysis. _Educational Psychology Review, 29_(3), 477–511.
+- vygotsky78: Vygotsky, L. S. (1978). _Mind in society: The development of higher psychological processes_ (M. Cole, V. John-Steiner, S. Scribner, & E. Souberman, Eds.). Harvard University Press.
 - vygotsky86: Vygotsky, L. S. (1986). _Thought and language_ (A. Kozulin, Ed. y Trad.). MIT Press. (Obra original publicada en 1934)
 - w3c23: World Wide Web Consortium. (2023). _Web Content Accessibility Guidelines (WCAG) 2.2_. W3C.
+- walton07: Walton, G. M., & Cohen, G. L. (2007). A question of belonging: Race, social fit, and achievement. _Journal of Personality and Social Psychology, 92_(1), 82–96.
+- walton11: Walton, G. M., & Cohen, G. L. (2011). A brief social-belonging intervention improves academic and health outcomes of minority students. _Science, 331_(6023), 1447–1451.
+- walton23: Walton, G. M., Murphy, M. C., Logel, C., Yeager, D. S., Goyer, J. P., Brady, S. T., Emerson, K. T. U., Paunesku, D., Fotuhi, O., Blodorn, A., Boucher, K. L., Carter, E. R., Gopalan, M., Henderson, A., Kroeper, K. M., Murdock-Perriera, L. A., Reeves, S. L., Ablorh, T. T., Ansari, S., . . . Krol, N. (2023). Where and with whom does a brief social-belonging intervention promote progress in college? _Science, 380_(6644), 499–505.
 - waterhouse06: Waterhouse, L. (2006). Multiple intelligences, the Mozart effect, and emotional intelligence: A critical review. _Educational Psychologist, 41_(4), 207–225.
-- weber23: Weber-Wulff, D., et al. (2023). Testing of detection tools for AI-generated text. _International Journal for Educational Integrity, 19_, artículo 26.
+- watts21: Watts, P. I., McDermott, D. S., Alinier, G., Charnetski, M., Ludlow, J., Horsley, E., Meakim, C., & Nawathe, P. A. (2021). Healthcare Simulation Standards of Best Practice™ Simulation design. _Clinical Simulation in Nursing, 58_, 14–21.
+- weber23: Weber-Wulff, D., Anohina-Naumeca, A., Bjelobaba, S., Foltýnek, T., Guerrero-Dib, J., Popoola, O., Šigut, P., & Waddington, L. (2023). Testing of detection tools for AI-generated text. _International Journal for Educational Integrity, 19_, artículo 26. https://doi.org/10.1007/s40979-023-00146-z
+- wegner87: Wegner, D. M. (1987). Transactive memory: A contemporary analysis of the group mind. En B. Mullen y G. R. Goethals (Eds.), _Theories of group behavior_ (pp. 185–208). Springer.
+- weiner85: Weiner, B. (1985). An attributional theory of achievement motivation and emotion. _Psychological Review, 92_(4), 548–573.
 - weinstein18: Weinstein, Y., Madan, C. R., & Sumeracki, M. A. (2018). Teaching the science of learning. _Cognitive Research: Principles and Implications, 3_, artículo 2.
 - wenger98: Wenger, E. (1998). _Communities of practice: Learning, meaning, and identity_. Cambridge University Press.
+- wigfield00: Wigfield, A., & Eccles, J. S. (2000). Expectancy-value theory of achievement motivation. _Contemporary Educational Psychology, 25_(1), 68–81.
 - wiggins05: Wiggins, G., & McTighe, J. (2005). _Understanding by design_ (2nd ed.). ASCD.
 - wiggins90: Wiggins, G. (1990). The case for authentic assessment. _Practical Assessment, Research & Evaluation, 2_(2).
+- willingham08: Willingham, D. T. (2008). Critical thinking: Why is it so hard to teach? _Arts Education Policy Review, 109_(4), 21–32.
 - wilson07: Wilson, K., & Korn, J. H. (2007). Attention during lectures: Beyond ten minutes. _Teaching of Psychology, 34_(2), 85–89.
+- wilson82: Wilson, T. D., & Linville, P. W. (1982). Improving the academic performance of college freshmen: Attribution therapy revisited. _Journal of Personality and Social Psychology, 42_(2), 367–376.
+- wineburg91: Wineburg, S. S. (1991). Historical problem solving: A study of the cognitive processes used in the evaluation of documentary and pictorial evidence. _Journal of Educational Psychology, 83_(1), 73–87.
 - wing06: Wing, J. M. (2006). Computational thinking. _Communications of the ACM, 49_(3), 33–35.
+- winkelmes16: Winkelmes, M.-A., Bernacki, M., Butler, J., Zochowski, M., Golanics, J., & Harriss Weavil, K. (2016). A teaching intervention that increases underserved college students' success. _Peer Review, 18_(1/2), 31–36.
+- winkelmes19: Winkelmes, M.-A., Boye, A., & Tapp, S. (Eds.). (2019). _Transparent design in higher education teaching and leadership: A guide to implementing the transparency framework institution-wide to improve learning and retention_. Stylus.
 - wood76: Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. _Journal of Child Psychology and Psychiatry, 17_(2), 89–100.
 - wouters13: Wouters, P., van Nimwegen, C., van Oostendorp, H., & van der Spek, E. D. (2013). A meta-analysis of the cognitive and motivational effects of serious games. _Journal of Educational Psychology, 105_(2), 249–265.
+- yeager11: Yeager, D. S., & Walton, G. M. (2011). Social-psychological interventions in education: They're not magic. _Review of Educational Research, 81_(2), 267–301.
+- yeager14: Yeager, D. S., Purdie-Vaughns, V., Garcia, J., Apfel, N., Brzustoski, P., Master, A., Hessert, W. T., Williams, M. E., & Cohen, G. L. (2014). Breaking the cycle of mistrust: Wise interventions to provide critical feedback across the racial divide. _Journal of Experimental Psychology: General, 143_(2), 804–824.
+- zhao04: Zhao, C.-M., & Kuh, G. D. (2004). Adding value: Learning communities and student engagement. _Research in Higher Education, 45_(2), 115–138.
 - zimmerman02: Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. _Theory Into Practice, 41_(2), 64–70.

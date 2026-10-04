@@ -1,0 +1,48 @@
+{
+ "herramientas": [
+  "Moodle",
+  "Canvas",
+  "Google Classroom",
+  "Gmail",
+  "Outlook",
+  "WhatsApp"
+ ],
+ "sin_mision": [
+  "alta_estructura",
+  "syllabus",
+  "accesibilidad",
+  "distancia",
+  "emoderacion",
+  "sustitucion",
+  "aumento",
+  "modificacion",
+  "redefinicion",
+  "tpack",
+  "tck",
+  "tpk",
+  "competencia_digital_docente",
+  "brecha",
+  "horas_consulta",
+  "mentoria",
+  "clima_aula",
+  "intervencion_pertenencia",
+  "abandono",
+  "estilo_controlador",
+  "movil",
+  "ubicuo",
+  "computador",
+  "internet"
+ ],
+ "misiones": [
+  [
+   "Un curso que se encuentra en la plataforma",
+   "organizar un curso en un LMS (Moodle, Canvas o Google Classroom) con alta estructura, accesibilidad, un programa claro y SAMR/TPACK como criterio para decidir qué digitalizar",
+   "Lima"
+  ],
+  [
+   "Mensajes que acompañan",
+   "comunicación con estudiantes por correo (Gmail, Outlook) y mensajería (WhatsApp): tono, tiempos, horas de consulta, mentoría, pertenencia y alertas ante el abandono, sin volverse un docente disponible a toda hora",
+   "Puebla (México)"
+  ]
+ ]
+}

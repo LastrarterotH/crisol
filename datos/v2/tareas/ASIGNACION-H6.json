@@ -1,0 +1,40 @@
+{
+ "herramientas": [
+  "Zoom",
+  "Google Meet",
+  "Microsoft Teams",
+  "Quizlet",
+  "Anki",
+  "Google Calendar"
+ ],
+ "sin_mision": [
+  "sincronico",
+  "remota_emergencia",
+  "multitarea",
+  "aula_activa",
+  "conectivismo",
+  "estrategias_estudio",
+  "procrastinacion",
+  "gestion_tiempo",
+  "sueno_memoria",
+  "trasnochar",
+  "releer",
+  "oficio_estudiante",
+  "autorregulado",
+  "mentalidad",
+  "impostor",
+  "olvido"
+ ],
+ "misiones": [
+  [
+   "Clase en vivo por videollamada",
+   "sesiones sincrónicas en Zoom, Google Meet o Microsoft Teams que no sean una clase expositiva con cámaras apagadas: salas pequeñas, participación, el mito de la multitarea y la diferencia con la enseñanza remota de emergencia",
+   "Guayaquil (Ecuador)"
+  ],
+  [
+   "Enseñar a estudiar",
+   "el oficio de estudiante: estrategias de estudio con respaldo (tarjetas de repaso en Quizlet o Anki, repetición espaciada, planificación con Google Calendar) contra releer, trasnochar y procrastinar",
+   "San Salvador (El Salvador)"
+  ]
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "herramientas": [
+  "ChatGPT",
+  "Claude",
+  "Gemini",
+  "Copilot",
+  "Perplexity",
+  "NotebookLM",
+  "Google Forms",
+  "Microsoft Forms",
+  "Turnitin"
+ ],
+ "sin_mision": [
+  "ilusion_competencia",
+  "compromiso_agentico",
+  "juicio_reflexivo",
+  "perry",
+  "transferencia",
+  "profundo",
+  "detectores",
+  "integridad",
+  "tabla",
+  "analisis_items",
+  "validez",
+  "correccion_anonima",
+  "diagnostica",
+  "sumativa",
+  "criterial",
+  "efecto_retroactivo",
+  "reflexion_posexamen"
+ ],
+ "misiones": [
+  [
+   "Un asistente que hace pensar",
+   "usar asistentes de IA generativa (ChatGPT, Claude, Gemini, Copilot, Perplexity, NotebookLM) como tutores que preguntan y no como atajos: ilusión de competencia, enfoque profundo, juicio reflexivo y transferencia. La misión existente 'IA con sentido' ya cubre la decisión institucional sobre IA; esta es sobre cómo estudia cada estudiante",
+   "Monterrey (México)"
+  ],
+  [
+   "Pruebas en línea que miden lo que importa",
+   "cuestionarios en Google Forms o Microsoft Forms bien construidos (tabla de especificaciones, análisis de ítems, validez), integridad académica sin confiar en detectores de IA y el papel real de herramientas como Turnitin",
+   "Mendoza (Argentina)"
+  ]
+ ]
+}

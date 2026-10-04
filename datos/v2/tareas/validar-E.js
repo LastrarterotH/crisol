@@ -1,5 +1,5 @@
 // Valida un archivo de expansión contra el estado actual del juego (public/datos.json).
-// Uso: node datos/v2/tareas/validar-E.js datos/v2/expansion-E1.json
+// Uso: node datos/v2/tareas/validar-E.js datos/v2/expansion-H1.json (sirve para E1..E4 y H1..H7)
 const fs = require("fs");
 const path = require("path");
 const RAIZ = path.join(__dirname, "..", "..", "..");
@@ -8,7 +8,7 @@ const archivo = process.argv[2];
 if (!archivo) { console.log("Uso: node validar-E.js RUTA"); process.exit(1); }
 let x;
 try { x = JSON.parse(fs.readFileSync(archivo, "utf8")); } catch (e) { console.log("JSON INVÁLIDO: " + e.message); process.exit(1); }
-const etiqueta = (path.basename(archivo).match(/E\d+/) || [""])[0];
+const etiqueta = (path.basename(archivo).match(/[EH]\d+/) || [""])[0];
 const pool = etiqueta && fs.existsSync(path.join(__dirname, "EMOJIS-" + etiqueta + ".txt")) ? new Set(fs.readFileSync(path.join(__dirname, "EMOJIS-" + etiqueta + ".txt"), "utf8").trim().split(/\s+/)) : null;
 const errores = [], avisos = [];
 const clave = (a, b) => [a, b].sort().join("+");
@@ -72,8 +72,27 @@ for (const m of misiones) {
   if (!camino) { errores.push("misión " + m.id + ": la meta es inalcanzable"); continue; }
   for (const h of m.hitos || []) { if (!existe(h)) errores.push("misión " + m.id + ": hito desconocido " + h); else if (!camino.has(h)) avisos.push("misión " + m.id + ": el hito " + h + " no queda en el camino mínimo a la meta (debe ser un paso obligado)"); }
   const n = camino.size;
-  (n < 12 || n > 28 ? avisos : []).push("misión " + m.id + ": la meta exige " + n + " mezclas mínimas (busca entre 12 y 28)");
+  (n < 14 || n > 34 ? avisos : []).push("misión " + m.id + ": la meta exige " + n + " mezclas mínimas (busca entre 14 y 34)");
+  const enPlano = new Set(d.misiones.flatMap(o => o.plano.map(p => p.id)));
+  const nuevasAlc = [...camino].filter(id => !enPlano.has(id));
+  const deCatalogo = nuevasAlc.filter(id => d.fichas[id]);
+  const herr = [...camino].filter(id => (fichas[id] || d.fichas[id] || {}).f === "her");
+  console.log("misión " + m.id + ": su camino vuelve descubribles " + nuevasAlc.length + " piezas (" + deCatalogo.length + " ya escritas SIN MISIÓN, " + (nuevasAlc.length - deCatalogo.length) + " nuevas) y pasa por " + herr.length + " herramientas: " + herr.join(", "));
+  if (nuevasAlc.length < 16) avisos.push("misión " + m.id + ": su camino suma solo " + nuevasAlc.length + " piezas descubribles nuevas (busca 16 o más)");
+  if (herr.length < 3) avisos.push("misión " + m.id + ": su camino pasa por " + herr.length + " herramientas (busca 3 o más)");
   console.log("misión " + m.id + ": meta en nivel " + nivel[m.meta] + ", " + n + " mezclas mínimas. Camino: " + [...camino].join(", "));
+}
+// Cobertura de lo asignado (ASIGNACION-Hn.json): fichas SIN MISIÓN que deberían quedar en algún camino y herramientas por crear.
+const asig = etiqueta && fs.existsSync(path.join(__dirname, "ASIGNACION-" + etiqueta + ".json")) ? JSON.parse(fs.readFileSync(path.join(__dirname, "ASIGNACION-" + etiqueta + ".json"), "utf8")) : null;
+if (asig) {
+  const enCaminos = new Set(misiones.flatMap(m => [...(nec[m.meta] || [])]));
+  const faltan = (asig.sin_mision || []).filter(id => !enCaminos.has(id));
+  console.log("fichas SIN MISIÓN asignadas que quedan en tus caminos: " + ((asig.sin_mision || []).length - faltan.length) + " de " + (asig.sin_mision || []).length + (faltan.length ? " · faltan: " + faltan.join(", ") : ""));
+  const nombres = Object.values(fichas).filter(f => f.f === "her").map(f => f.n.toLowerCase());
+  const sinCrear = (asig.herramientas || []).filter(h => !nombres.includes(h.toLowerCase()));
+  if (sinCrear.length) avisos.push("herramientas asignadas que no creaste (créalas o explica por qué no): " + sinCrear.join(", "));
+  const ajenas = Object.values(fichas).filter(f => f.f === "her" && !(asig.herramientas || []).some(h => h.toLowerCase() === f.n.toLowerCase())).map(f => f.n);
+  if (ajenas.length) errores.push("creaste herramientas que no están en tu asignación (otro agente puede crearlas): " + ajenas.join(", "));
 }
 console.log("fichas nuevas " + Object.keys(fichas).length + " · recetas " + recetas.length + " · misiones " + misiones.length + " · refs nuevas " + Object.keys(x.refs || {}).length);
 const porNivel = {}; for (const id of Object.keys(fichas)) porNivel[nivel[id]] = (porNivel[nivel[id]] || 0) + 1;

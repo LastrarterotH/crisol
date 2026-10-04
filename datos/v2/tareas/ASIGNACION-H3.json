@@ -1,0 +1,40 @@
+{
+ "herramientas": [
+  "Mentimeter",
+  "Kahoot!",
+  "Nearpod",
+  "Genially",
+  "Classroom screen",
+  "Duolingo"
+ ],
+ "sin_mision": [
+  "respuesta_audiencia",
+  "tps",
+  "tiempo_espera",
+  "participacion_equitativa",
+  "ifat",
+  "gamificacion",
+  "abj",
+  "flujo",
+  "sobrejustificacion",
+  "metas_logro",
+  "interes_individual",
+  "mas_tecnologia",
+  "emociones",
+  "motivacion_autonoma",
+  "costo_percibido",
+  "arcs"
+ ],
+ "misiones": [
+  [
+   "Toda la sala responde",
+   "sistemas de respuesta en el aula (Mentimeter, Nearpod, Classroom screen) con piensa-discute-comparte, tiempo de espera y participación equitativa en una clase numerosa",
+   "Bogotá"
+  ],
+  [
+   "Jugar en serio",
+   "gamificación y aprendizaje basado en juegos (Kahoot!, Genially, el caso de Duolingo) cuidando la motivación autónoma, el efecto de sobrejustificación y el mito de que más tecnología es más aprendizaje",
+   "Córdoba (Argentina)"
+  ]
+ ]
+}

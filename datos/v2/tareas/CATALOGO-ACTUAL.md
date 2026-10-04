@@ -1,204 +1,397 @@
-# Catálogo actual (200 fichas)
+# Catálogo actual (390 fichas)
 
-Formato: id · emoji · nombre · familia · nivel · pista
+Formato: id · emoji · nombre · familia · nivel · [SIN MISIÓN] · pista
 
+SIN MISIÓN marca las fichas que ya están escritas pero no aparecen en el plano de ninguna misión, así que hoy nadie puede descubrirlas.
+Hay 206 así. Ponerlas en el camino de tus misiones las vuelve descubribles.
+
+- tiempo · ⏰ · Tiempo · Primigenios · n0 · Nadie lo ve pasar en clase, pero decide qué recordarás en el examen y qué no.
 - mente · 🧠 · Mente · Primigenios · n0 · Eso que llevas detrás de los ojos y que ahora mismo está leyendo esta adivinanza.
 - mundo · 🌍 · Mundo · Primigenios · n0 · Todo lo que queda fuera de tu cabeza y que, tarde o temprano, desmiente alguna de tus ideas.
 - otros · 🤝 · Otros · Primigenios · n0 · Las personas que piensan contigo y que a veces, por suerte, te llevan la contraria.
-- tiempo · ⏰ · Tiempo · Primigenios · n0 · Nadie lo ve pasar en clase, pero decide qué recordarás en el examen y qué no.
-- cambio · 🦋 · Cambio · Lo esencial · n1 · Lo que los años le hacen al paisaje y un buen semestre a una persona.
-- comunidad · 🏘️ · Comunidad · Lo esencial · n1 · Gente que comparte un lugar y unas costumbres, y siente que pertenece al mismo grupo.
-- dialogo · 💬 · Diálogo · Lo esencial · n1 · Dos cabezas que se turnan para hablar y escuchar, y salen pensando algo que ninguna traía.
-- experiencia · 🌄 · Experiencia · Lo esencial · n1 · Lo que te pasa cuando sales a hacer algo de verdad y la realidad te responde.
+- estudiante · 🧑‍🎓 · Estudiante · Lo esencial · n2 · Quien se sienta del otro lado del escritorio para hacer suyo lo que otros ya saben.
+- contenido · 📖 · Contenido · Lo esencial · n3 · Lo que aparece en el programa del curso, ordenado por unidades, y que entra en la prueba.
+- pedagogia · 🧭 · Pedagogía · Lo esencial · n2 · Brújula de quien enseña, con métodos y teorías sobre cómo se aprende y cómo se acompaña.
+- espacio · 🏫 · Aula · Lo esencial · n3 · Sala con horario fijo donde se juntan quien enseña y quienes aprenden, y las sillas también opinan.
+- proposito · 🎯 · Propósito · Lo esencial · n2 · La flecha que apuntas antes de tirar, para saber después si diste en el blanco.
 - grupo · 👥 · Grupo · Lo esencial · n1 · Varias personas que estudian juntas, aunque eso solo no asegura que aprendan unas de otras.
-- memoria · 🗄️ · Memoria · Lo esencial · n1 · El cajón donde guardas lo vivido, aunque cada vez que lo abres el contenido cambia un poco.
-- practica · ✏️ · Práctica · Lo esencial · n1 · Hacerlo una vez más, y luego otra, hasta que las manos se acuerdan solas.
 - problema · 🧩 · Problema real · Lo esencial · n1 · Situación de la disciplina, abierta y con datos incompletos, sin la solución al final del libro.
 - reflexion · 🪞 · Reflexión · Lo esencial · n1 · Volver a mirar con calma lo que pensaste o hiciste, para entender por qué salió así.
+- experiencia · 🌄 · Experiencia · Lo esencial · n1 · Lo que te pasa cuando sales a hacer algo de verdad y la realidad te responde.
+- dialogo · 💬 · Diálogo · Lo esencial · n1 · Dos cabezas que se turnan para hablar y escuchar, y salen pensando algo que ninguna traía.
+- memoria · 🗄️ · Memoria · Lo esencial · n1 · El cajón donde guardas lo vivido, aunque cada vez que lo abres el contenido cambia un poco.
+- comunidad · 🏘️ · Comunidad · Lo esencial · n1 · Gente que comparte un lugar y unas costumbres, y siente que pertenece al mismo grupo.
+- cambio · 🦋 · Cambio · Lo esencial · n1 · Lo que los años le hacen al paisaje y un buen semestre a una persona.
 - saber · 📚 · Saber · Lo esencial · n1 · Lo que la humanidad fue averiguando generación tras generación y dejó a tu alcance en libros y oficios.
-- abp · 🧗 · Aprendizaje basado en problemas · Metodologías · n2 · Nació en una facultad de medicina canadiense, donde el paciente de papel llega antes que la teoría.
+- practica · ✏️ · Práctica · Lo esencial · n1 · Hacerlo una vez más, y luego otra, hasta que las manos se acuerdan solas.
+- pregunta · ❓ · Pregunta · Lo esencial · n2 · Lleva un signo al revés al comienzo y la hace quien de verdad quiere saber algo.
+- error · 🪨 · Error · Lo esencial · n2 · La piedra con la que tropiezas al resolver, que también sirve para pisar más firme después.
+- emocion · ❤️ · Emoción · Lo esencial · n2 · Ese calor en el pecho o ese nudo en el estómago que aparece antes de presentar en clase.
+- lenguaje · 🗨️ · Lenguaje · Lo esencial · n2 · Sistema de palabras y reglas con que conversas con otros y también contigo en silencio.
+- escritura · ✍️ · Escritura · Lo esencial · n2 · Un invento para conversar con quien todavía no ha nacido o con quien ya se fue.
+- herramienta · 🔨 · Herramienta · Lo esencial · n2 · Lo que inventas después de golpearte muchas veces con la misma tarea, para golpearte menos.
+- juego · 🪁 · Juego · Lo esencial · n2 · Actividad libre, con reglas inventadas, que se hace por gusto y en la que perder no duele tanto.
+- docente · 🧑‍🏫 · Docente · Lo esencial · n2 · Persona que pone lo que sabe al alcance de otros y aprende del intento cada semestre.
 - aprendizaje · 🌱 · Aprendizaje · Lo esencial · n2 · El cambio duradero que deja en ti una vivencia sobre la que te detuviste a pensar.
-- autoeficacia · 💪 · Autoeficacia · Cómo se aprende · n2 · Ese “yo puedo con esto” que nace de haberlo logrado antes y te hace intentarlo de nuevo.
-- casos · 📂 · Método de casos · Metodologías · n2 · Una historia real con un dilema, que el curso analiza y discute para decidir qué haría.
-- competencias · 🏆 · Enfoque por competencias · Diseño de la enseñanza · n2 · Formar para que la futura abogada ponga en juego todo lo que aprendió frente a un caso real.
+- universidad · 🏛️ · Universidad · Lo esencial · n2 · Gremio medieval de maestros y estudiantes que lleva más de ocho siglos funcionando y ahora tiene cafetería.
+- investigacion · 🔬 · Investigación · Lo esencial · n2 · Interrogar a la realidad con método para añadir algo que nadie sabía todavía.
+- borrador · 🐣 · Borrador · Lo esencial · n3 · Primera versión de un texto, hecha para cambiarse, que nadie debería calificar como si fuera la última.
+- mapa · 🕸️ · Mapa conceptual · Cómo se aprende · n2 · Cajas con ideas unidas por flechas que dicen algo, como “causa” o “es parte de”.
+- previos · 🧳 · Conocimientos previos · Cómo se aprende · n2 · La maleta que cada estudiante trae a clase, con ideas útiles y alguna equivocada bien guardada.
+- significativo · 🔗 · Aprendizaje significativo · Cómo se aprende · n2 · SIN MISIÓN · Lo nuevo se cuelga de un gancho que ya tenías y no se cae tras la prueba.
+- constructivismo · 🧱 · Constructivismo · Cómo se aprende · n3 · SIN MISIÓN · Cada cabeza vuelve a montar lo que oye en clase con las piezas que ya tenía.
+- zdp · 🌉 · Zona de desarrollo próximo · Cómo se aprende · n3 · Lo que todavía no logras solo, pero sí con una pista de alguien que sabe más.
+- andamiaje · 🏗️ · Andamiaje · Cómo se aprende · n3 · Ayuda temporal que sostiene al aprendiz y se retira poco a poco cuando ya puede solo.
+- metacognicion · 💭 · Metacognición · Cómo se aprende · n2 · Mirarte pensar, como desde la tribuna, y notar cuándo de verdad entiendes y cuándo solo te suena.
+- autorregulado · 🔁 · Aprendizaje autorregulado · Cómo se aprende · n3 · SIN MISIÓN · Ser tu propio entrenador de estudio, que arma el plan y lo cambia si el marcador va mal.
+- espaciada · 📅 · Práctica espaciada · Cómo se aprende · n2 · Varias dosis cortas de estudio con días de por medio, en vez de un atracón la noche anterior.
+- ritmo · 🐢 · Ritmo propio · Cómo se aprende · n3 · Cada estudiante necesita una cantidad distinta de tiempo para llegar a la misma meta.
+- segmentacion · ✂️ · Segmentación · Cómo se aprende · n4 · SIN MISIÓN · Una lección larga servida en porciones; el estudiante decide cuándo pedir la siguiente.
+- situado · 🗺️ · Aprendizaje situado · Cómo se aprende · n2 · El saber se queda pegado al lugar donde lo usaste y a la gente que te acompañaba.
 - comunidad_practica · 🧶 · Comunidad de práctica · Cómo se aprende · n2 · Un oficio compartido donde el novato empieza lavando probetas y termina diseñando experimentos junto al equipo.
+- carga_cognitiva · 🎒 · Teoría de la carga cognitiva · Cómo se aprende · n3 · SIN MISIÓN · La memoria de trabajo es una mesa pequeña; cada adorno inútil le roba espacio a lo importante.
+- ejemplos_resueltos · 📒 · Ejemplos resueltos · Cómo se aprende · n3 · SIN MISIÓN · Leer la receta con fotos de cada paso antes de cocinar tú un plato parecido.
+- intercalada · 🃏 · Práctica intercalada · Cómo se aprende · n2 · Barajar los ejercicios de distintos temas como un mazo, en vez de hacerlos ordenados por capítulo.
+- dificultades_deseables · 🏋️ · Dificultades deseables · Cómo se aprende · n3 · Esos tropiezos al estudiar que hoy fastidian y dentro de un mes se notan en lo que recuerdas.
+- reaprendizaje · 🔃 · Reaprendizaje sucesivo · Cómo se aprende · n3 · Recuperar de memoria lo estudiado hasta acertar, y repetirlo en varias sesiones separadas por días.
+- olvido · 🍂 · Curva del olvido · Cómo se aprende · n2 · SIN MISIÓN · Una pendiente que cae en picada las primeras horas y luego baja despacio, salvo que repases.
+- multimedia · 🖼️ · Aprendizaje multimedia · Cómo se aprende · n3 · SIN MISIÓN · Un buen diagrama junto a la explicación hablada rinde más que la misma explicación sin dibujo.
+- profundo · 🌊 · Enfoque profundo de aprendizaje · Cómo se aprende · n3 · SIN MISIÓN · Leer preguntándote por qué es así y con qué se conecta, más allá de la prueba.
+- motivacion · 🔥 · Motivación intrínseca · Cómo se aprende · n3 · Las ganas de seguir leyendo sobre un tema aunque nadie lo vaya a evaluar.
+- autoeficacia · 💪 · Autoeficacia · Cómo se aprende · n2 · Ese “yo puedo con esto” que nace de haberlo logrado antes y te hace intentarlo de nuevo.
+- mentalidad · 🪴 · Mentalidad de crecimiento · Cómo se aprende · n3 · SIN MISIÓN · Creer que la inteligencia se entrena como un músculo, con esfuerzo y con buenas estrategias.
+- emociones · 🎭 · Emociones de logro · Cómo se aprende · n3 · SIN MISIÓN · El nudo en el estómago antes del parcial y el alivio, o la vergüenza, al ver la nota.
+- modelado · 🎙️ · Modelado cognitivo · Cómo se aprende · n3 · Pensar en voz alta frente al curso, con dudas y tropiezos incluidos, mientras resuelves.
+- conectivismo · 🔌 · Conectivismo · Cómo se aprende · n2 · SIN MISIÓN · Saber dónde está la respuesta, y a quién preguntarle en línea, contaría tanto como llevarla en la cabeza.
+- experiencial · 🌀 · Aprendizaje experiencial · Cómo se aprende · n2 · SIN MISIÓN · Vivir algo, mirarlo con calma, sacar una idea y probarla en la siguiente vuelta de la rueda.
+- transferencia · 🛫 · Transferencia del aprendizaje · Cómo se aprende · n2 · SIN MISIÓN · Reconocer y resolver fuera del aula un problema visto en clase, aunque llegue disfrazado.
+- cambio_conceptual · 💡 · Cambio conceptual · Cómo se aprende · n3 · Cuando tu intuición de siempre pierde el pleito frente a una explicación científica más útil.
 - conceptos_umbral · 🚪 · Conceptos umbral · Cómo se aprende · n2 · Puertas estrechas de cada disciplina que cuesta cruzar y que, una vez cruzadas, cambian cómo ves la materia.
-- conectivismo · 🔌 · Conectivismo · Cómo se aprende · n2 · Saber dónde está la respuesta, y a quién preguntarle en línea, contaría tanto como llevarla en la cabeza.
+- pensamiento_critico · 🧐 · Pensamiento crítico · Cómo se aprende · n2 · Interrogar a un argumento como un fiscal, pidiendo sus pruebas y revisando si sostienen la conclusión.
+- escribir · 🖊️ · Escribir para aprender · Cómo se aprende · n3 · Tomar el lápiz para averiguar qué entiendes, porque muchas ideas se aclaran mientras las redactas.
+- alfabetizacion_academica · 📜 · Alfabetización académica · Cómo se aprende · n3 · Las reglas no escritas para leer y escribir en tu carrera, enseñadas dentro de cada asignatura.
+- ciencia_aprendizaje · 🔭 · Ciencia del aprendizaje · Cómo se aprende · n3 · Laboratorios que miden cómo recordamos y entendemos, y de paso desarman los neuromitos del taller de moda.
+- curiosidad · 🐈 · Curiosidad · Cómo se aprende · n3 · Lo que mató al gato, según el refrán, y lo que mantiene despierto a un buen estudiante.
+- practica_deliberada · 🎹 · Práctica deliberada · Cómo se aprende · n2 · Ensayar justo el compás que te sale mal, con atención total y alguien que te corrija.
+- aprender_revisando · 🤨 · Aprender al revisar · Cómo se aprende · n6 · SIN MISIÓN · Quien comenta el trabajo ajeno termina escribiendo mejor el propio, aunque no reciba ningún comentario.
+- generos · 📰 · Géneros disciplinares · Cómo se aprende · n4 · El informe de laboratorio y el fallo judicial siguen reglas propias que casi nadie enseña.
+- escritura_proceso · 🎠 · Escritura como proceso · Cómo se aprende · n4 · SIN MISIÓN · Quien redacta planifica a mitad de frase y revisa antes de terminar, dando vueltas igual que un carrusel.
+- revision_profunda · 🤿 · Revisión profunda · Cómo se aprende · n4 · SIN MISIÓN · Volver al texto para cambiar el argumento y el orden de las ideas, más allá de las comas.
+- movidas · 🤺 · Movidas retóricas · Cómo se aprende · n5 · SIN MISIÓN · Pasos de esgrima de un texto académico, como mostrar el hueco que nadie ha investigado.
+- sintesis_fuentes · 🥘 · Síntesis de fuentes · Cómo se aprende · n4 · SIN MISIÓN · Tomar ideas de varios autores, ordenarlas y cocinar con ellas un texto que no es de ninguno.
+- identidad_autoral · 🥸 · Identidad de autor · Cómo se aprende · n5 · SIN MISIÓN · Atreverse a decir “yo sostengo” en un texto académico, como alguien que ya pertenece al campo.
+- comunidad_discursiva · 🐧 · Comunidad discursiva · Cómo se aprende · n5 · SIN MISIÓN · Grupo con metas compartidas que se reconoce por sus formatos de texto y su jerga.
+- experto_novato · 🎴 · Experto y novato · Cómo se aprende · n3 · Frente a los mismos problemas, unos ven poleas y planos inclinados, y otros ven conservación de la energía.
+- cuello_botella · 🍾 · Cuello de botella del aprendizaje · Cómo se aprende · n5 · El punto exacto del curso donde muchos estudiantes se atascan año tras año, aunque el resto fluya.
+- formas_pensar · 🥼 · Formas de pensar y practicar · Cómo se aprende · n3 · Lo que una bióloga hace con un dato extraño, y que un abogado haría distinto.
+- critico_disciplinar · 🦊 · Pensamiento crítico disciplinar · Cómo se aprende · n4 · Dudar con las reglas del oficio, porque una abogada y un químico desconfían de cosas distintas.
+- liminal · 🌘 · Estado liminal · Cómo se aprende · n3 · SIN MISIÓN · Esa etapa incómoda de entender a medias y repetir el vocabulario antes de cruzar la puerta.
+- problematico · 🪤 · Conocimiento problemático · Cómo se aprende · n3 · SIN MISIÓN · La idea que choca con tu intuición de siempre y por eso se resiste a entrar.
+- toulmin · 🔩 · Modelo de Toulmin · Cómo se aprende · n5 · SIN MISIÓN · El perno que une los datos con la conclusión, y que cada campo fabrica a su manera.
+- lectura_disciplinar · 📷 · Lectura disciplinar · Cómo se aprende · n4 · SIN MISIÓN · Antes de creerle a un documento, el experto pregunta quién lo escribió y con qué intención.
+- perry · 🦓 · Desarrollo epistemológico · Cómo se aprende · n3 · SIN MISIÓN · Del “el profesor tiene la respuesta correcta” al “depende de la evidencia, y esta es mi postura”.
+- juicio_reflexivo · 🌁 · Juicio reflexivo · Cómo se aprende · n4 · SIN MISIÓN · Decidir en la niebla, cuando el problema no tiene una única respuesta y aun así hay que razonar.
+- autoexplicacion · 👂 · Autoexplicación · Cómo se aprende · n4 · SIN MISIÓN · Detenerte en cada paso de un ejercicio resuelto y contarte a ti mismo por qué se hizo así.
+- interdependencia · 🚤 · Interdependencia positiva · Cómo se aprende · n4 · Todos van en el mismo bote, y si uno deja de remar nadie llega a la otra orilla.
+- holgazaneria · 🥱 · Holgazanería social · Cómo se aprende · n4 · Cuantas más manos tiran de la cuerda, menos fuerza pone cada una, sobre todo si nadie mira.
+- conflicto_tarea · 🌋 · Conflicto de tarea y de relación · Cómo se aprende · n5 · SIN MISIÓN · Discutir si conviene acero u hormigón no se parece a discutir porque el otro siempre llega tarde.
+- conflicto_sociocognitivo · 🤼 · Conflicto sociocognitivo · Cómo se aprende · n4 · SIN MISIÓN · Tu compañero resolvió el mismo ejercicio de otra manera, y ese choque te obliga a pensar de nuevo.
+- memoria_transactiva · 📇 · Memoria transactiva · Cómo se aprende · n5 · SIN MISIÓN · Nadie del equipo recuerda todo, pero cada uno sabe a quién preguntarle cada cosa.
+- pertenencia · 🏠 · Sentido de pertenencia · Cómo se aprende · n3 · La certeza silenciosa de que en esta sala hay un lugar para ti y alguien notaría tu ausencia.
+- amenaza_estereotipo · 📛 · Amenaza del estereotipo · Cómo se aprende · n4 · Rendir una prueba con el temor de confirmar lo que se dice de tu grupo.
+- fondos_conocimiento · 🍯 · Fondos de conocimiento · Cómo se aprende · n3 · SIN MISIÓN · Saberes del taller familiar o de la feria del barrio, que también pueden entrar a clase.
+- translenguaje · 👄 · Translenguaje · Cómo se aprende · n4 · SIN MISIÓN · Pensar el problema en quechua o en guaraní y escribir el informe en castellano, sin pedir permiso.
+- impostor · 🫣 · Fenómeno del impostor · Cómo se aprende · n4 · SIN MISIÓN · Sacaste buena nota, pero sientes que fue suerte y que pronto alguien descubrirá el engaño.
+- oficio_estudiante · 🥢 · Oficio de estudiante · Cómo se aprende · n4 · SIN MISIÓN · Descifrar qué significa “leer para el jueves” en la carrera, como quien aprende a comer con palillos.
+- estrategias_estudio · 🔖 · Estrategias de estudio · Cómo se aprende · n4 · SIN MISIÓN · Cambiar el marcador fosforescente por preguntas a uno mismo y un calendario con días de repaso.
+- ilusion_competencia · 🫧 · Ilusión de competencia · Cómo se aprende · n4 · SIN MISIÓN · Después de la tercera relectura todo suena conocido, y sonar conocido se confunde con saberlo.
+- procrastinacion · 🦥 · Procrastinación académica · Cómo se aprende · n4 · SIN MISIÓN · Ordenar el escritorio y lavar los platos antes de abrir el informe que vence mañana.
+- gestion_tiempo · ⌛ · Gestión del tiempo · Cómo se aprende · n5 · SIN MISIÓN · Una agenda donde el estudio para el examen aparece repartido en varios días, con hora de inicio.
+- sueno_memoria · 🌚 · Sueño y memoria · Cómo se aprende · n6 · SIN MISIÓN · Lo que estudiaste por la tarde se ordena mientras roncas, si le das las horas que necesita.
+- autodeterminacion · 🌻 · Teoría de la autodeterminación · Cómo se aprende · n4 · Una planta psicológica que crece si puedes decidir, te sientes capaz y alguien te acompaña.
+- motivacion_autonoma · 🚵 · Motivación autónoma · Cómo se aprende · n5 · SIN MISIÓN · Estudias algo aburrido sin que nadie te vigile, porque entiendes para qué te servirá.
+- expectativa_valor · 🎳 · Teoría de expectativa y valor · Cómo se aprende · n3 · Dos preguntas que el estudiante se hace antes de esforzarse: si podrá lograrlo y si le importa.
+- valor_utilidad · 🔧 · Valor de utilidad · Cómo se aprende · n4 · Lo que gana una tarea cuando ves que te servirá para algo que ya quieres hacer.
+- costo_percibido · 💵 · Costo percibido · Cómo se aprende · n4 · SIN MISIÓN · Lo que el estudiante siente que pierde al dedicarle horas a tu curso: descanso, trabajo, otra materia, calma.
+- interes_situacional · 🎪 · Interés situacional · Cómo se aprende · n4 · La chispa que enciende una demostración sorprendente en clase y que puede apagarse al salir de la sala.
+- interes_individual · 🎷 · Interés individual · Cómo se aprende · n5 · SIN MISIÓN · Una afición por un tema que creció con el tiempo y ahora buscas sin que nadie te empuje.
+- detalles_seductores · 🍬 · Detalles seductores · Cómo se aprende · n5 · SIN MISIÓN · La anécdota graciosa de la diapositiva que todos recuerdan, aunque nadie recuerde la idea que acompañaba.
+- metas_logro · 🥇 · Metas de logro · Cómo se aprende · n4 · SIN MISIÓN · Ante la misma prueba, uno quiere entender el tema y otro quiere parecer el mejor de la sala.
+- sobrejustificacion · 🎁 · Efecto de sobrejustificación · Cómo se aprende · n5 · SIN MISIÓN · Le pagas a alguien por hacer lo que ya disfrutaba, y cuando dejas de pagar, deja de hacerlo.
+- atribuciones · 🤕 · Atribuciones causales · Cómo se aprende · n4 · SIN MISIÓN · Tras reprobar, la explicación que te das decide si vuelves a intentarlo o si dejas la materia.
+- compromiso_agentico · 🤚 · Compromiso agéntico · Cómo se aprende · n6 · SIN MISIÓN · El estudiante que levanta la mano para proponer un cambio en la actividad, además de responder.
+- flujo · 🏂 · Flujo · Cómo se aprende · n4 · SIN MISIÓN · Tan metido en el problema que el reloj desaparece, porque el reto calza con lo que sabes.
+- activo · 🏃 · Aprendizaje activo · Metodologías · n3 · El oyente de butaca pasa a resolver problemas y a pensar en cómo los resolvió.
+- cooperativo · 🫱 · Aprendizaje cooperativo · Metodologías · n3 · Trabajo en equipo estructurado, donde cada integrante depende de los demás y responde por su propia parte.
+- abp · 🧗 · Aprendizaje basado en problemas · Metodologías · n2 · SIN MISIÓN · Nació en una facultad de medicina canadiense, donde el paciente de papel llega antes que la teoría.
+- proyectos · 📦 · Aprendizaje basado en proyectos · Metodologías · n2 · Trabajo extendido durante semanas, guiado por una pregunta motriz, que termina en un producto concreto.
+- expositiva · 🎤 · Clase expositiva · Metodologías · n3 · Uno habla al frente y el resto escucha y anota, como en las universidades medievales.
+- peer · 🗳️ · Instrucción entre pares · Metodologías · n3 · Pregunta conceptual, voto individual, conversación con el compañero de al lado y nueva votación.
+- invertida · 🔄 · Aula invertida · Metodologías · n6 · SIN MISIÓN · Lo que antes se explicaba en la sala se ve en casa, y la sesión se usa para trabajar.
+- casos · 📂 · Método de casos · Metodologías · n2 · Una historia real con un dilema, que el curso analiza y discute para decidir qué haría.
+- retos · 🏔️ · Aprendizaje basado en retos · Metodologías · n2 · SIN MISIÓN · Equipos que abordan un desafío social abierto junto a actores externos y llegan a implementar una solución.
+- servicio · 🤲 · Aprendizaje-servicio · Metodologías · n2 · SIN MISIÓN · Estudiantes que atienden una necesidad real de la comunidad como parte del curso y reflexionan sobre ello.
+- jigsaw · 🧷 · Rompecabezas de Aronson · Metodologías · n2 · Cada integrante recibe solo una pieza del tema, y el equipo necesita a todos para armar el todo.
+- tps · 👫 · Piensa, discute, comparte · Metodologías · n2 · SIN MISIÓN · Un minuto en silencio para cada uno, luego conversación en parejas y, al final, puesta en común.
+- gamificacion · 🎮 · Gamificación · Metodologías · n3 · SIN MISIÓN · Puntos, insignias, niveles y narrativa añadidos a un curso que, en sí mismo, no es un pasatiempo.
+- abj · 🎲 · Aprendizaje basado en juegos · Metodologías · n3 · SIN MISIÓN · Una partida donde nadie pasa de nivel sin entender la materia del curso.
+- simulacion · 🩺 · Simulación · Metodologías · n3 · Practicar decisiones de alto riesgo en un escenario controlado, donde equivocarse no daña a nadie.
+- indagacion · 🔦 · Indagación guiada · Metodologías · n3 · SIN MISIÓN · Los estudiantes investigan una pregunta como científicos, con apoyos que el docente ajusta y va retirando.
+- tutoria_pares · 🧑‍🤝‍🧑 · Tutoría entre pares · Metodologías · n3 · Un estudiante algo más avanzado acompaña a otro, y ambos terminan entendiendo mejor la materia.
+- practicas · 🧰 · Prácticas profesionales · Metodologías · n2 · SIN MISIÓN · Un periodo prolongado trabajando en una organización real, acompañado por alguien del oficio y un docente.
+- bajo_riesgo · 🎾 · Escritura de bajo riesgo · Metodologías · n4 · Peloteo antes del partido, con textos breves, casi sin nota, para pensar sin miedo a equivocarse.
+- escritura_libre · 🏄 · Escritura libre · Metodologías · n4 · SIN MISIÓN · Diez minutos con el lápiz en movimiento, sin tachar ni releer, para que salgan las ideas.
+- diario · 📘 · Diario de aprendizaje · Metodologías · n5 · SIN MISIÓN · Cuaderno semanal donde anotas lo que entendiste y lo que todavía te confunde del curso.
+- microtema · 🎫 · Microtema · Metodologías · n5 · SIN MISIÓN · Un ensayo tan corto que cabe en una ficha bibliográfica y obliga a elegir cada palabra.
+- centro_escritura · 🏢 · Centro de escritura · Metodologías · n4 · SIN MISIÓN · Una oficina del campus donde un tutor lee tu borrador contigo, sin corregírtelo.
+- pedagogia_generos · 🍱 · Pedagogía de géneros · Metodologías · n5 · SIN MISIÓN · Desarmar juntos un texto modelo, escribir otro entre todos en la pizarra y recién entonces escribir solo.
+- aprendiz_cognitivo · 🎸 · Aprendiz cognitivo · Metodologías · n5 · Igual que en el taller del luthier, pero lo que el maestro muestra es su manera de pensar.
+- mapa_argumentos · 🌲 · Mapeo de argumentos · Metodologías · n6 · SIN MISIÓN · Dibujar un razonamiento como árbol, con la conclusión arriba y las razones y objeciones como ramas.
+- articulacion · 🔊 · Articulación · Metodologías · n5 · SIN MISIÓN · Pedir al estudiante que diga en voz alta cómo razonó, para que el docente vea lo que piensa.
+- tapps · 📻 · Resolución en parejas en voz alta · Metodologías · n5 · SIN MISIÓN · Uno resuelve narrando cada paso y el otro, que solo escucha, lo frena cuando se salta algo.
+- create · 🐀 · Método CREATE · Metodologías · n5 · SIN MISIÓN · Leer un artículo científico original como detective, figura por figura, y proponer el próximo experimento.
+- tareas_4s · 🎏 · Tareas 4S · Metodologías · n5 · Todos los equipos frente al mismo dilema, obligados a elegir una opción y a mostrarla a la vez.
+- tbl · 🏏 · Aprendizaje basado en equipos (TBL) · Metodologías · n6 · Los mismos compañeros todo el semestre, que llegan con la lectura comprobada a resolver casos juntos.
+- roles_equipo · 🎡 · Roles rotativos · Metodologías · n5 · SIN MISIÓN · Esta semana coordinas tú; la próxima, te toca verificar que todo el equipo entendió.
+- procesamiento_grupal · 🔋 · Procesamiento grupal · Metodologías · n4 · SIN MISIÓN · Los últimos minutos de la sesión, el equipo conversa qué le ayudó a trabajar y qué cambiará.
+- controversia · 🏓 · Controversia constructiva · Metodologías · n6 · SIN MISIÓN · Defiendes una postura, escuchas la contraria, cambias de bando y al final escriben juntos una síntesis.
+- grupo_nominal · 🔇 · Técnica de grupo nominal · Metodologías · n4 · SIN MISIÓN · Cada uno anota en silencio antes de que alguien abra la boca, y al final se vota.
+- entrenamiento_equipos · 🚀 · Entrenamiento de equipos (CRM) · Metodologías · n5 · SIN MISIÓN · Nació en cabinas de avión y hoy enseña a un turno de urgencias a hablar claro bajo presión.
+- rcdp · 🛼 · Práctica deliberada en ciclos rápidos · Metodologías · n5 · La escena se detiene al primer error, alguien corrige en segundos y el equipo repite ese tramo.
+- debriefing · 🧉 · Debriefing · Metodologías · n4 · La conversación guiada después de la escena, cuando el equipo revisa qué pasó y por qué decidió así.
+- buen_juicio · 👓 · Debriefing con buen juicio · Metodologías · n5 · Dices sin rodeos lo que viste y preguntas, con curiosidad sincera, qué estaba pensando quien lo hizo.
+- juego_roles · 🦸 · Juego de roles · Metodologías · n3 · SIN MISIÓN · Hoy eres la abogada defensora y tu compañera hace de clienta que oculta algo importante.
+- paciente_estandarizado · 🤒 · Paciente estandarizado · Metodologías · n4 · SIN MISIÓN · Una actriz entrenada para tener la misma tos y las mismas dudas con cada estudiante que la atiende.
+- microensenanza · 📸 · Microenseñanza · Metodologías · n4 · SIN MISIÓN · Una clase de diez minutos ante cinco compañeros que luego se comenta y se vuelve a dar.
+- rol_observador · 🧍 · Rol de observador · Metodologías · n4 · SIN MISIÓN · Cuatro actúan en el escenario y el resto mira con una pauta en la mano, buscando algo concreto.
+- intervencion_pertenencia · 🌒 · Intervención de pertenencia social · Metodologías · n4 · SIN MISIÓN · Leer que a los de cursos superiores también les costó al principio, y escribirlo para los que vienen.
+- afirmacion_valores · 💜 · Afirmación de valores · Metodologías · n5 · SIN MISIÓN · Escribir un rato sobre lo que más te importa en la vida antes de un examen que asusta.
+- participacion_equitativa · 🟰 · Participación equitativa · Metodologías · n5 · SIN MISIÓN · Que también hablen quienes nunca levantan la mano, y no siempre los mismos de la primera fila.
+- pedagogia_relevante · 🪗 · Pedagogía culturalmente relevante · Metodologías · n4 · SIN MISIÓN · Exigir alto rendimiento sin pedirle al estudiante que deje su cultura en la puerta.
+- educacion_diferencia · 🔈 · Educación sobre la diferencia · Metodologías · n4 · SIN MISIÓN · Un panel de estudiantes avanzados cuenta cómo su origen familiar les complicó o facilitó la carrera.
+- tiempo_espera · 🕦 · Tiempo de espera · Metodologías · n4 · SIN MISIÓN · Contar en silencio hasta cinco después de preguntar, aunque la sala parezca congelada.
+- instruccion_suplementaria · 🐜 · Instrucción suplementaria · Metodologías · n5 · SIN MISIÓN · Sesiones voluntarias guiadas por alguien que ya aprobó, pegadas a la asignatura que más reprueba.
+- comunidad_aprendizaje · 🍇 · Comunidades de aprendizaje · Metodologías · n4 · SIN MISIÓN · El mismo grupo cursa juntas dos o tres asignaturas enlazadas, y sus profesores planifican de común acuerdo.
+- mentoria · 🧓 · Mentoría · Metodologías · n4 · SIN MISIÓN · Alguien con más camino recorrido que te acompaña también en lo que no sale en el programa.
+- horas_consulta · 🕖 · Horas de consulta · Metodologías · n3 · SIN MISIÓN · La puerta del profesor abierta los martes, que muchos creen reservada para quien va mal.
+- intervencion_utilidad · 📩 · Intervención de valor de utilidad · Metodologías · n5 · Un breve texto en que el estudiante explica, con sus palabras, cómo el tema toca su vida.
+- reentrenamiento_atribucional · 🛟 · Reentrenamiento atribucional · Metodologías · n5 · SIN MISIÓN · Estudiantes avanzados cuentan que también tropezaron en primer año y mejoraron, y los novatos reinterpretan su mala nota.
+- evaluacion · 📝 · Evaluación · Evaluación · n3 · Poner frente a frente lo que el estudiante demuestra y lo que se buscaba lograr.
+- diagnostica · 🔍 · Evaluación diagnóstica · Evaluación · n3 · SIN MISIÓN · Averiguar qué sabe ya el curso antes de empezar a enseñar un tema.
+- sumativa · 🏁 · Evaluación sumativa · Evaluación · n3 · SIN MISIÓN · El juicio final que certifica cuánto se logró cuando el periodo ya terminó.
+- retro · 📣 · Retroalimentación · Evaluación · n3 · Información que vuelve al estudiante y le dice dónde está y qué hacer después.
+- formativa · 🌡️ · Evaluación formativa · Evaluación · n3 · Revisar el avance mientras la enseñanza ocurre, para ajustar el rumbo a tiempo.
+- recuperacion · 🧲 · Práctica de recuperación · Evaluación · n2 · Intentar traer algo a la memoria sin mirar los apuntes, y así fijarlo mejor.
+- rubrica · 📏 · Rúbrica · Evaluación · n4 · Criterios y niveles de desempeño explícitos, compartidos con el estudiante antes de entregar.
+- dominio · 🏅 · Aprendizaje para el dominio · Evaluación · n3 · Nadie pasa a la unidad siguiente hasta lograr la actual, con el tiempo que necesite.
+- autentica · 🧪 · Evaluación auténtica · Evaluación · n4 · Una prueba que se parece al trabajo de verdad, como redactar un peritaje o un plan de cuidados.
+- autoevaluacion · 🤔 · Autoevaluación · Evaluación · n3 · SIN MISIÓN · El estudiante juzga su propio trabajo con criterios, antes de que lo haga el docente.
+- coevaluacion · 🗒️ · Evaluación entre pares · Evaluación · n3 · Tu trabajo lo corrige quien se sienta a tu lado, con los mismos criterios que usaría el docente.
+- integridad · 🛡️ · Integridad académica · Evaluación · n3 · SIN MISIÓN · Lo que sostiene la honestidad de un curso cuando el docente sale de la sala.
+- alf_retro · 📬 · Alfabetización en retroalimentación · Evaluación · n4 · Saber descifrar los comentarios en rojo de un trabajo devuelto y convertirlos en cambios.
+- juicio · 🧑‍⚖️ · Juicio evaluativo · Evaluación · n4 · Capacidad de distinguir la calidad de un trabajo, propio o ajeno, sin depender del docente.
+- portafolio · 🗃️ · Portafolio de aprendizaje · Evaluación · n3 · SIN MISIÓN · Colección de trabajos elegidos por el estudiante, con reflexiones que muestran cómo progresó.
+- cats · ⏱️ · Técnicas de evaluación en el aula · Evaluación · n3 · Ejercicios de un minuto, sin calificación, para saber en plena clase qué se entendió.
+- tabla · 🧮 · Tabla de especificaciones · Evaluación · n3 · SIN MISIÓN · Plano de una prueba que cruza contenidos con niveles cognitivos y reparte el peso.
+- validez · ✅ · Validez y confiabilidad · Evaluación · n3 · SIN MISIÓN · ¿Mide lo que dice medir, y daría lo mismo con otro corrector u otro día?
+- analisis_items · 🔢 · Análisis de ítems · Evaluación · n4 · SIN MISIÓN · Revisar, pregunta por pregunta, cuántos acertaron y si distinguió a quienes sabían más.
+- criterial · 📐 · Evaluación referida a criterio · Evaluación · n4 · SIN MISIÓN · Tu nota depende de llegar a un estándar fijado de antemano, aunque lo alcance todo el curso.
+- comentarios · 💌 · Comentarios sin nota · Evaluación · n4 · SIN MISIÓN · El trabajo vuelve lleno de observaciones al margen y sin ningún número en la esquina.
+- sostenible · ♾️ · Evaluación sostenible · Evaluación · n5 · Preparar al estudiante para juzgar su propio desempeño cuando ya no haya docente que lo califique.
+- efecto_retroactivo · 🪃 · Efecto retroactivo de la evaluación · Evaluación · n3 · SIN MISIÓN · Lo que entra en la prueba termina decidiendo qué y cómo estudian, y a veces qué se enseña.
+- retro_borradores · 📎 · Comentarios al borrador · Evaluación · n4 · Notas en el margen que llegan mientras el texto aún puede cambiar y preguntan más que corrigen.
+- revision_pares · 👬 · Revisión entre pares de textos · Evaluación · n5 · Tu compañero lee tu borrador con criterios, te deja comentarios y, de paso, aprende a escribir mejor.
+- mosaico · 🩹 · Escritura en mosaico · Evaluación · n5 · SIN MISIÓN · Copiar una frase ajena, cambiar algunas palabras por sinónimos y creer que con eso ya es propia.
+- responsabilidad_individual · 🪪 · Responsabilidad individual · Evaluación · n4 · Aunque el trabajo sea de todos, cualquiera puede tener que explicarlo a solas y sin apuntes.
+- rat · 🥾 · Prueba de preparación (RAT) · Evaluación · n5 · Las mismas preguntas sobre la lectura, primero a solas y enseguida discutidas con tu equipo.
+- ifat · 🎰 · Tarjeta de raspar (IF-AT) · Evaluación · n4 · SIN MISIÓN · Rascas la alternativa elegida como en la lotería, y una estrella escondida te dice si acertaste.
+- eval_contribucion · 👣 · Evaluación de la contribución · Evaluación · n5 · Cada integrante califica cuánto y cómo aportó cada compañero al proyecto, y también se califica a sí mismo.
+- nota_ajustada · 🍞 · Nota grupal ajustada por pares · Evaluación · n6 · SIN MISIÓN · El equipo recibe una calificación, y cada integrante se lleva la parte que sus compañeros dicen que aportó.
+- dominio_simulado · 💯 · Dominio con simulación · Evaluación · n4 · SIN MISIÓN · Nadie pasa al paciente real sin superar en el maniquí un estándar fijado de antemano.
+- plus_delta · 👏 · Plus-delta · Evaluación · n5 · SIN MISIÓN · Dos columnas en la pizarra, lo que salió bien y lo que cambiarías la próxima vez.
+- osce · 🚈 · ECOE (examen clínico objetivo estructurado) · Evaluación · n5 · SIN MISIÓN · Un circuito de estaciones cronometradas, con un caso distinto y alguien con una pauta en cada parada.
+- lista_cotejo · 🔹 · Lista de cotejo y escala global · Evaluación · n5 · SIN MISIÓN · Marcar paso por paso si se hizo, o juzgar de una vez qué tan bien se hizo todo.
+- miller · 🗼 · Pirámide de Miller · Evaluación · n4 · SIN MISIÓN · Cuatro escalones, de saber a hacer, para no confundir aprobar el examen con atender bien a alguien.
+- especificidad_caso · 🍊 · Especificidad de caso · Evaluación · n6 · SIN MISIÓN · Resolver bien un caso de neumonía dice poco de cómo resolverás uno de apendicitis.
+- mini_cex · 👵 · Observación directa en la práctica (mini-CEX) · Evaluación · n4 · SIN MISIÓN · Unos quince minutos mirando cómo atiendes a un paciente real, seguidos de comentarios inmediatos.
+- retro_sabia · 📨 · Retroalimentación sabia · Evaluación · n5 · Comentarios duros que llegan con una nota aclarando que te exigen porque saben que puedes.
+- correccion_anonima · 🔏 · Corrección anónima · Evaluación · n5 · SIN MISIÓN · El nombre queda tapado con una etiqueta antes de que el lápiz rojo toque la primera hoja.
+- eval_temprana · 🐓 · Evaluación temprana de bajo riesgo · Evaluación · n4 · Una prueba corta en la tercera semana que casi no pesa en la nota y avisa mucho.
+- reflexion_posexamen · 🌯 · Reflexión posexamen · Evaluación · n4 · SIN MISIÓN · Una hoja que envuelve la prueba corregida y pregunta cómo estudiaste y qué cambiarás la próxima vez.
+- opinion_estudiantil · 🔉 · Opinión estudiantil sobre la docencia · Evaluación · n4 · El cuestionario en que tu curso califica tus clases y cuenta cómo las vivió.
+- evidencia_directa · 🐾 · Evidencia directa e indirecta · Evaluación · n5 · SIN MISIÓN · Lo que el curso dice haber aprendido, frente a lo que muestra cuando resuelve un problema.
+- incidentes_criticos · 📍 · Cuestionario de incidentes críticos · Evaluación · n7 · SIN MISIÓN · Cinco preguntas anónimas al cerrar la semana: cuándo te sentiste más involucrado, cuándo más lejos, qué te sorprendió.
+- inventario_conceptual · 🔘 · Inventario conceptual · Evaluación · n4 · SIN MISIÓN · Preguntas de alternativas cuyas opciones incorrectas son las ideas intuitivas que el curso trae de casa.
+- pretest_postest · 🌓 · Pretest y postest · Evaluación · n4 · SIN MISIÓN · La misma prueba al empezar y al terminar, para ver cuánto se movió el curso en el camino.
+- ganancia_normalizada · 🔝 · Ganancia normalizada · Evaluación · n5 · SIN MISIÓN · Cuánto subió el curso respecto de todo lo que le quedaba por subir.
+- sesgos_encuestas · 🫤 · Sesgos en las encuestas docentes · Evaluación · n5 · SIN MISIÓN · Factores ajenos a la enseñanza que mueven la nota que el curso le pone al profesor.
+- consulta_medio_semestre · 🕛 · Consulta de medio semestre · Evaluación · n5 · SIN MISIÓN · A mitad de camino, el curso dice en grupos qué le ayuda y qué le estorba.
+- resultados · 📌 · Resultados de aprendizaje · Diseño de la enseñanza · n3 · Lo que alguien podrá hacer al cerrar un curso, escrito con un verbo que se puede observar.
+- bloom · 📶 · Taxonomía de Bloom · Diseño de la enseñanza · n3 · SIN MISIÓN · Una escalera de verbos que sube de recordar a crear para ordenar lo que se pide pensar.
+- inverso · 🔙 · Diseño inverso · Diseño de la enseñanza · n4 · Planificar empezando por la meta y la evidencia que la demostraría, y dejar las actividades para el final.
+- alineamiento · ⚖️ · Alineamiento constructivo · Diseño de la enseñanza · n4 · La clase entrena el mismo tipo de pensamiento que la meta promete y que la prueba después exige.
+- dua · 🌈 · Diseño Universal para el Aprendizaje · Diseño de la enseñanza · n4 · Una clase pensada como rampa de entrada, que algunos necesitan y que todo el curso termina usando.
+- perfil_egreso · 🎓 · Perfil de egreso · Diseño de la enseñanza · n3 · SIN MISIÓN · Lo que una carrera promete que sabrá hacer quien se titule, declarado por escrito.
+- competencias · 🏆 · Enfoque por competencias · Diseño de la enseñanza · n2 · SIN MISIÓN · Formar para que la futura abogada ponga en juego todo lo que aprendió frente a un caso real.
 - curriculo · 🗓️ · Currículo · Diseño de la enseñanza · n2 · El plan que ordena qué se enseña en cada semestre de una carrera, y con qué fin.
 - curriculo_oculto · 👻 · Currículo oculto · Diseño de la enseñanza · n2 · Lo que el estudiante aprende sin que nadie lo haya planificado ni escrito en el programa.
-- docente · 🧑‍🏫 · Docente · Lo esencial · n2 · Persona que pone lo que sabe al alcance de otros y aprende del intento cada semestre.
-- emocion · ❤️ · Emoción · Lo esencial · n2 · Ese calor en el pecho o ese nudo en el estómago que aparece antes de presentar en clase.
-- error · 🪨 · Error · Lo esencial · n2 · La piedra con la que tropiezas al resolver, que también sirve para pisar más firme después.
-- escritura · ✍️ · Escritura · Lo esencial · n2 · Un invento para conversar con quien todavía no ha nacido o con quien ya se fue.
-- espaciada · 📅 · Práctica espaciada · Cómo se aprende · n2 · Varias dosis cortas de estudio con días de por medio, en vez de un atracón la noche anterior.
-- estudiante · 🧑‍🎓 · Estudiante · Lo esencial · n2 · Quien se sienta del otro lado del escritorio para hacer suyo lo que otros ya saben.
-- experiencial · 🌀 · Aprendizaje experiencial · Cómo se aprende · n2 · Vivir algo, mirarlo con calma, sacar una idea y probarla en la siguiente vuelta de la rueda.
-- herramienta · 🔨 · Herramienta · Lo esencial · n2 · Lo que inventas después de golpearte muchas veces con la misma tarea, para golpearte menos.
-- intercalada · 🃏 · Práctica intercalada · Cómo se aprende · n2 · Barajar los ejercicios de distintos temas como un mazo, en vez de hacerlos ordenados por capítulo.
-- investigacion · 🔬 · Investigación · Lo esencial · n2 · Interrogar a la realidad con método para añadir algo que nadie sabía todavía.
-- investigacion_accion · ♻️ · Investigación-acción · Conocimiento docente · n2 · Ciclos de planificar, intervenir, observar y reflexionar para mejorar una situación concreta de tu curso.
-- jigsaw · 🧷 · Rompecabezas de Aronson · Metodologías · n2 · Cada integrante recibe solo una pieza del tema, y el equipo necesita a todos para armar el todo.
-- juego · 🪁 · Juego · Lo esencial · n2 · Actividad libre, con reglas inventadas, que se hace por gusto y en la que perder no duele tanto.
-- lenguaje · 🗨️ · Lenguaje · Lo esencial · n2 · Sistema de palabras y reglas con que conversas con otros y también contigo en silencio.
-- mapa · 🕸️ · Mapa conceptual · Cómo se aprende · n2 · Cajas con ideas unidas por flechas que dicen algo, como “causa” o “es parte de”.
-- metacognicion · 💭 · Metacognición · Cómo se aprende · n2 · Mirarte pensar, como desde la tribuna, y notar cuándo de verdad entiendes y cuándo solo te suena.
-- olvido · 🍂 · Curva del olvido · Cómo se aprende · n2 · Una pendiente que cae en picada las primeras horas y luego baja despacio, salvo que repases.
-- pedagogia · 🧭 · Pedagogía · Lo esencial · n2 · Brújula de quien enseña, con métodos y teorías sobre cómo se aprende y cómo se acompaña.
-- pensamiento_critico · 🧐 · Pensamiento crítico · Cómo se aprende · n2 · Interrogar a un argumento como un fiscal, pidiendo sus pruebas y revisando si sostienen la conclusión.
-- practica_deliberada · 🎹 · Práctica deliberada · Cómo se aprende · n2 · Ensayar justo el compás que te sale mal, con atención total y alguien que te corrija.
-- practicas · 🧰 · Prácticas profesionales · Metodologías · n2 · Un periodo prolongado trabajando en una organización real, acompañado por alguien del oficio y un docente.
-- pregunta · ❓ · Pregunta · Lo esencial · n2 · Lleva un signo al revés al comienzo y la hace quien de verdad quiere saber algo.
-- previos · 🧳 · Conocimientos previos · Cómo se aprende · n2 · La maleta que cada estudiante trae a clase, con ideas útiles y alguna equivocada bien guardada.
-- proposito · 🎯 · Propósito · Lo esencial · n2 · La flecha que apuntas antes de tirar, para saber después si diste en el blanco.
-- proyectos · 📦 · Aprendizaje basado en proyectos · Metodologías · n2 · Trabajo extendido durante semanas, guiado por una pregunta motriz, que termina en un producto concreto.
-- recuperacion · 🧲 · Práctica de recuperación · Evaluación · n2 · Intentar traer algo a la memoria sin mirar los apuntes, y así fijarlo mejor.
-- reflexiva · 📓 · Práctica reflexiva · Conocimiento docente · n2 · Revisar tu clase en caliente, mientras la das, y en frío, camino a casa, para ajustar la próxima.
-- retos · 🏔️ · Aprendizaje basado en retos · Metodologías · n2 · Equipos que abordan un desafío social abierto junto a actores externos y llegan a implementar una solución.
-- servicio · 🤲 · Aprendizaje-servicio · Metodologías · n2 · Estudiantes que atienden una necesidad real de la comunidad como parte del curso y reflexionan sobre ello.
-- significativo · 🔗 · Aprendizaje significativo · Cómo se aprende · n2 · Lo nuevo se cuelga de un gancho que ya tenías y no se cae tras la prueba.
-- situado · 🗺️ · Aprendizaje situado · Cómo se aprende · n2 · El saber se queda pegado al lugar donde lo usaste y a la gente que te acompañaba.
-- tps · 👫 · Piensa, discute, comparte · Metodologías · n2 · Un minuto en silencio para cada uno, luego conversación en parejas y, al final, puesta en común.
-- transferencia · 🛫 · Transferencia del aprendizaje · Cómo se aprende · n2 · Reconocer y resolver fuera del aula un problema visto en clase, aunque llegue disfrazado.
-- universidad · 🏛️ · Universidad · Lo esencial · n2 · Gremio medieval de maestros y estudiantes que lleva más de ocho siglos funcionando y ahora tiene cafetería.
-- abj · 🎲 · Aprendizaje basado en juegos · Metodologías · n3 · Una partida donde nadie pasa de nivel sin entender la materia del curso.
-- activo · 🏃 · Aprendizaje activo · Metodologías · n3 · El oyente de butaca pasa a resolver problemas y a pensar en cómo los resolvió.
-- adaptativo · 🧬 · Aprendizaje adaptativo · Tecnología · n3 · Un sistema que elige el siguiente ejercicio según lo que cada estudiante ya demostró dominar.
-- alfabetizacion_academica · 📜 · Alfabetización académica · Cómo se aprende · n3 · Las reglas no escritas para leer y escribir en tu carrera, enseñadas dentro de cada asignatura.
-- algoritmo · 🔣 · Algoritmo · Tecnología · n3 · Una receta tan precisa que hasta una máquina podría seguirla sin pedirte aclaraciones.
-- analitica · 📈 · Analítica del aprendizaje · Tecnología · n3 · Las huellas que deja cada clic en la plataforma del curso, convertidas en información para decidir.
-- andamiaje · 🏗️ · Andamiaje · Cómo se aprende · n3 · Ayuda temporal que sostiene al aprendiz y se retira poco a poco cuando ya puede solo.
-- arcs · 🏹 · Modelo ARCS de motivación · Diseño de la enseñanza · n3 · Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.
-- asincronico · 🗂️ · Modalidad asincrónica · Modalidades · n3 · El foro recibe aportes a las tres de la mañana y nadie espera que el resto se conecte.
-- atencion10 · ⏲️ · La atención dura solo 10 minutos · Mitos · n3 · La regla de que, pasado un tiempo fijo de clase, el curso entero se apaga como con temporizador.
-- aula_activa · 🪑 · Aula de aprendizaje activo · Modalidades · n3 · Una sala donde nadie sabe dónde queda el frente, porque cada mesa redonda tiene su propia pizarra.
-- aumento · 🟩 · Aumento (SAMR) · Tecnología · n3 · En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional.
-- autoevaluacion · 🤔 · Autoevaluación · Evaluación · n3 · El estudiante juzga su propio trabajo con criterios, antes de que lo haga el docente.
-- autorregulado · 🔁 · Aprendizaje autorregulado · Cómo se aprende · n3 · Ser tu propio entrenador de estudio, que arma el plan y lo cambia si el marcador va mal.
-- bloom · 📶 · Taxonomía de Bloom · Diseño de la enseñanza · n3 · Una escalera de verbos que sube de recordar a crear para ordenar lo que se pide pensar.
-- cambio_conceptual · 💡 · Cambio conceptual · Cómo se aprende · n3 · Cuando tu intuición de siempre pierde el pleito frente a una explicación científica más útil.
-- carga_cognitiva · 🎒 · Teoría de la carga cognitiva · Cómo se aprende · n3 · La memoria de trabajo es una mesa pequeña; cada adorno inútil le roba espacio a lo importante.
+- transposicion · 🪄 · Transposición didáctica · Diseño de la enseñanza · n3 · SIN MISIÓN · El viaje que transforma el saber de los expertos en algo que se puede enseñar en un aula.
+- addie · ⚙️ · Modelo ADDIE · Diseño de la enseñanza · n4 · SIN MISIÓN · Un proceso en cinco fases, desde analizar necesidades hasta evaluar, para diseñar cursos y programas de formación.
+- gagne · 9️⃣ · Nueve eventos de instrucción · Diseño de la enseñanza · n3 · SIN MISIÓN · Una secuencia de pasos para una lección, desde captar la atención hasta favorecer que lo aprendido se transfiera.
+- merrill · 🔰 · Primeros principios de instrucción · Diseño de la enseñanza · n3 · SIN MISIÓN · Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.
+- solo · 🌳 · Taxonomía SOLO · Diseño de la enseñanza · n3 · SIN MISIÓN · Niveles que clasifican la calidad de una respuesta, desde piezas sueltas hasta ideas integradas y extendidas.
+- syllabus · 📋 · Programa de asignatura centrado en el aprendizaje · Diseño de la enseñanza · n3 · SIN MISIÓN · Una carta a quien tomará el curso, que le cuenta qué logrará y con qué apoyo contará.
+- espiral · 🐚 · Currículo en espiral · Diseño de la enseñanza · n3 · SIN MISIÓN · Volver a los grandes temas una y otra vez, y en cada vuelta profundizar un poco más.
 - carga_trabajo · ⏳ · Carga de trabajo del estudiante · Diseño de la enseñanza · n3 · Las horas reales que un curso exige a quien lo cursa, dentro y fuera del aula.
-- cats · ⏱️ · Técnicas de evaluación en el aula · Evaluación · n3 · Ejercicios de un minuto, sin calificación, para saber en plena clase qué se entendió.
-- ciencia_aprendizaje · 🔭 · Ciencia del aprendizaje · Cómo se aprende · n3 · Laboratorios que miden cómo recordamos y entendemos, y de paso desarman los neuromitos del taller de moda.
-- coevaluacion · 🗒️ · Evaluación entre pares · Evaluación · n3 · Tu trabajo lo corrige quien se sienta a tu lado, con los mismos criterios que usaría el docente.
-- coi · 🗣️ · Comunidad de indagación · Modalidades · n3 · Tres presencias, cognitiva, social y docente, para que un curso en línea piense en conjunto.
-- competencia · 🧑‍💻 · Competencia digital · Tecnología · n3 · Distinguir una fuente seria de un video viral se aprende, aunque hayas nacido con wifi.
-- competencia_digital_docente · 🧑‍💼 · Competencia digital docente · Tecnología · n3 · Lo que un profesor necesita saber para enseñar, evaluar y crecer en su profesión usando tecnología.
-- constructivismo · 🧱 · Constructivismo · Cómo se aprende · n3 · Cada cabeza vuelve a montar lo que oye en clase con las piezas que ya tenía.
-- contenido · 📖 · Contenido · Lo esencial · n3 · Lo que aparece en el programa del curso, ordenado por unidades, y que entra en la prueba.
-- cooperativo · 🫱 · Aprendizaje cooperativo · Metodologías · n3 · Trabajo en equipo estructurado, donde cada integrante depende de los demás y responde por su propia parte.
-- cpc · ⚗️ · Conocimiento pedagógico del contenido · Conocimiento docente · n3 · Saber qué analogía aclara tu tema y qué error traerá el curso antes de que lo cometa.
-- curiosidad · 🐈 · Curiosidad · Cómo se aprende · n3 · Lo que mató al gato, según el refrán, y lo que mantiene despierto a un buen estudiante.
-- datos · 📊 · Datos · Tecnología · n3 · Huellas que dejas en cada clic, contadas y guardadas, esperando a que alguien les pregunte algo.
-- descubrimiento · 🗝️ · Descubrimiento puro sin guía · Mitos · n3 · La idea de que el curso aprende mejor encontrando solo los principios, con el docente en silencio.
-- diagnostica · 🔍 · Evaluación diagnóstica · Evaluación · n3 · Averiguar qué sabe ya el curso antes de empezar a enseñar un tema.
-- dificultades_deseables · 🏋️ · Dificultades deseables · Cómo se aprende · n3 · Esos tropiezos al estudiar que hoy fastidian y dentro de un mes se notan en lo que recuerdas.
-- distancia · 🛤️ · Distancia transaccional · Modalidades · n3 · Lejanía que puedes sentir en primera fila y no sentir a mil kilómetros de tu profesor.
-- dominio · 🏅 · Aprendizaje para el dominio · Evaluación · n3 · Nadie pasa a la unidad siguiente hasta lograr la actual, con el tiempo que necesite.
-- efecto_retroactivo · 🪃 · Efecto retroactivo de la evaluación · Evaluación · n3 · Lo que entra en la prueba termina decidiendo qué y cómo estudian, y a veces qué se enseña.
-- ejemplos_resueltos · 📒 · Ejemplos resueltos · Cómo se aprende · n3 · Leer la receta con fotos de cada paso antes de cocinar tú un plato parecido.
-- emociones · 🎭 · Emociones de logro · Cómo se aprende · n3 · El nudo en el estómago antes del parcial y el alivio, o la vergüenza, al ver la nota.
-- enfoques_ensenanza · 🎚️ · Enfoques de enseñanza · Conocimiento docente · n3 · Tu intención de fondo al dar clase, sea pasar información o cambiar lo que tu curso entiende.
-- escribir · 🖊️ · Escribir para aprender · Cómo se aprende · n3 · Tomar el lápiz para averiguar qué entiendes, porque muchas ideas se aclaran mientras las redactas.
-- espacio · 🏫 · Aula · Lo esencial · n3 · Sala con horario fijo donde se juntan quien enseña y quienes aprenden, y las sillas también opinan.
-- espiral · 🐚 · Currículo en espiral · Diseño de la enseñanza · n3 · Volver a los grandes temas una y otra vez, y en cada vuelta profundizar un poco más.
-- estilos · 🎧 · Estilos de aprendizaje · Mitos · n3 · La idea de que enseñar por el canal favorito de cada uno, visual, auditivo o kinestésico, rinde más.
-- evaluacion · 📝 · Evaluación · Evaluación · n3 · Poner frente a frente lo que el estudiante demuestra y lo que se buscaba lograr.
-- evidencia · 🔎 · Docencia informada por evidencia · Conocimiento docente · n3 · Pedirle a cada método de moda su estudio de respaldo antes de dejarlo entrar al aula.
-- expositiva · 🎤 · Clase expositiva · Metodologías · n3 · Uno habla al frente y el resto escucha y anota, como en las universidades medievales.
-- formativa · 🌡️ · Evaluación formativa · Evaluación · n3 · Revisar el avance mientras la enseñanza ocurre, para ajustar el rumbo a tiempo.
-- gagne · 9️⃣ · Nueve eventos de instrucción · Diseño de la enseñanza · n3 · Una secuencia de pasos para una lección, desde captar la atención hasta favorecer que lo aprendido se transfiera.
-- gamificacion · 🎮 · Gamificación · Metodologías · n3 · Puntos, insignias, niveles y narrativa añadidos a un curso que, en sí mismo, no es un pasatiempo.
-- hemisferios · ☯️ · Cerebro izquierdo y cerebro derecho · Mitos · n3 · La creencia de que cada persona es lógica o creativa según qué mitad de su cabeza domine.
-- indagacion · 🔦 · Indagación guiada · Metodologías · n3 · Los estudiantes investigan una pregunta como científicos, con apoyos que el docente ajusta y va retirando.
-- integridad · 🛡️ · Integridad académica · Evaluación · n3 · Lo que sostiene la honestidad de un curso cuando el docente sale de la sala.
-- internet · 🌐 · Internet · Tecnología · n3 · Red de redes donde tu biblioteca y tus distracciones viven puerta con puerta.
-- inverso · 🔙 · Diseño inverso · Diseño de la enseñanza · n3 · Planificar empezando por la meta y la evidencia que la demostraría, y dejar las actividades para el final.
-- mas_tecnologia · ➕ · Más tecnología, más aprendizaje · Mitos · n3 · La creencia de que llenar el aula de pantallas y plataformas mejora por sí solo los resultados.
-- mentalidad · 🪴 · Mentalidad de crecimiento · Cómo se aprende · n3 · Creer que la inteligencia se entrena como un músculo, con esfuerzo y con buenas estrategias.
-- merrill · 🔰 · Primeros principios de instrucción · Diseño de la enseñanza · n3 · Centrar la enseñanza en tareas del mundo real: activar, demostrar, aplicar e integrar lo nuevo.
-- modelado · 🎙️ · Modelado cognitivo · Cómo se aprende · n3 · Pensar en voz alta frente al curso, con dudas y tropiezos incluidos, mientras resuelves.
-- motivacion · 🔥 · Motivación intrínseca · Cómo se aprende · n3 · Las ganas de seguir leyendo sobre un tema aunque nadie lo vaya a evaluar.
-- movil · 📲 · Aprendizaje móvil · Modalidades · n3 · El celular en el bolsillo convertido en herramienta de estudio, que acompaña al estudiante de un lugar a otro.
-- multimedia · 🖼️ · Aprendizaje multimedia · Cómo se aprende · n3 · Un buen diagrama junto a la explicación hablada rinde más que la misma explicación sin dibujo.
-- nativos · 📱 · Nativos digitales · Mitos · n3 · La creencia de que crecer entre pantallas entrega destrezas tecnológicas sin que nadie las enseñe.
-- peer · 🗳️ · Instrucción entre pares · Metodologías · n3 · Pregunta conceptual, voto individual, conversación con el compañero de al lado y nueva votación.
-- perfil_egreso · 🎓 · Perfil de egreso · Diseño de la enseñanza · n3 · Lo que una carrera promete que sabrá hacer quien se titule, declarado por escrito.
-- portafolio · 🗃️ · Portafolio de aprendizaje · Evaluación · n3 · Colección de trabajos elegidos por el estudiante, con reflexiones que muestran cómo progresó.
-- profundo · 🌊 · Enfoque profundo de aprendizaje · Cómo se aprende · n3 · Leer preguntándote por qué es así y con qué se conecta, más allá de la prueba.
-- rea · 🔓 · Recursos educativos abiertos · Tecnología · n3 · Un manual de anatomía gratis que puedes reescribir y volver a publicar, porque su licencia lo permite.
-- reaprendizaje · 🔃 · Reaprendizaje sucesivo · Cómo se aprende · n3 · Recuperar de memoria lo estudiado hasta acertar, y repetirlo en varias sesiones separadas por días.
-- releer · 🖍️ · Releer y subrayar · Mitos · n3 · Repasar los apuntes con marcador fosforescente la noche antes, seguro de que así se aprende.
-- respuesta_audiencia · 🙋 · Sistemas de respuesta en el aula · Tecnología · n3 · Toda la sala vota desde su teléfono y el resultado aparece al instante en la pantalla.
-- resultados · 📌 · Resultados de aprendizaje · Diseño de la enseñanza · n3 · Lo que alguien podrá hacer al cerrar un curso, escrito con un verbo que se puede observar.
-- retro · 📣 · Retroalimentación · Evaluación · n3 · Información que vuelve al estudiante y le dice dónde está y qué hacer después.
-- ritmo · 🐢 · Ritmo propio · Cómo se aprende · n3 · Cada estudiante necesita una cantidad distinta de tiempo para llegar a la misma meta.
-- rv · 🥽 · Realidad virtual inmersiva · Tecnología · n3 · Con un visor puesto, el estudiante pasea por el interior de una célula sin salir de la sala.
-- simulacion · 🩺 · Simulación · Metodologías · n3 · Practicar decisiones de alto riesgo en un escenario controlado, donde equivocarse no daña a nadie.
-- sincronico · 📡 · Sesión sincrónica · Modalidades · n3 · Todos conectados a la vez desde lugares distintos, viéndose por cámara.
-- solo · 🌳 · Taxonomía SOLO · Diseño de la enseñanza · n3 · Niveles que clasifican la calidad de una respuesta, desde piezas sueltas hasta ideas integradas y extendidas.
-- sotl · 📑 · Investigación sobre la propia docencia (SoTL) · Conocimiento docente · n3 · Tratar tu aula como laboratorio y llevar los resultados a colegas que puedan rebatirlos.
-- sumativa · 🏁 · Evaluación sumativa · Evaluación · n3 · El juicio final que certifica cuánto se logró cuando el periodo ya terminó.
-- sustitucion · 🟦 · Sustitución (SAMR) · Tecnología · n3 · En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica.
-- syllabus · 📋 · Programa de asignatura centrado en el aprendizaje · Diseño de la enseñanza · n3 · Una carta a quien tomará el curso, que le cuenta qué logrará y con qué apoyo contará.
-- tabla · 🧮 · Tabla de especificaciones · Evaluación · n3 · Plano de una prueba que cruza contenidos con niveles cognitivos y reparte el peso.
-- tck · 🧑‍🔬 · Conocimiento tecnológico del contenido · Tecnología · n3 · Saber qué herramienta representa mejor las ideas de tu disciplina, como un simulador para la física.
+- arcs · 🏹 · Modelo ARCS de motivación · Diseño de la enseñanza · n3 · SIN MISIÓN · Planificar las ganas de estudiar: captar la atención, mostrar relevancia, dar confianza y dejar satisfacción.
+- wac · 🚇 · Escritura a través del currículo · Diseño de la enseñanza · n5 · Que en Química y en Contabilidad también se redacte, y cada asignatura enseñe sus propios textos.
+- consigna · 🚩 · Consigna de escritura que hace pensar · Diseño de la enseñanza · n4 · SIN MISIÓN · Instrucciones que piden analizar o argumentar, dicen a quién va dirigido el texto y qué se evaluará.
+- decodificar · 📟 · Decodificar las disciplinas · Diseño de la enseñanza · n6 · Siete pasos que parten donde el curso se atasca y terminan compartiendo lo aprendido con colegas.
+- pedagogias_distintivas · 💮 · Pedagogías distintivas · Diseño de la enseñanza · n4 · SIN MISIÓN · La ronda junto a la cama del paciente en Medicina o el diálogo sobre un fallo en Derecho.
+- acuerdo_equipo · 🤜 · Acuerdo de equipo · Diseño de la enseñanza · n5 · Lo que los compañeros prometen por escrito la primera semana, antes de que alguien falte a una reunión.
+- formacion_equipos · ♟️ · Formación de equipos · Diseño de la enseñanza · n4 · SIN MISIÓN · Repartir al curso con criterio, en vez de dejar que los amigos de siempre se junten al fondo.
+- guiones_colaboracion · 🎵 · Guiones de colaboración · Diseño de la enseñanza · n4 · SIN MISIÓN · Una partitura para discutir en equipo, que indica quién plantea y quién objeta, hasta que sobra.
+- escenario · 🎦 · Escenario de simulación · Diseño de la enseñanza · n4 · El guion de un caso en tiempo real, con metas, punto de partida y señales de cambio.
+- prebriefing · 👋 · Sesión previa (prebriefing) · Diseño de la enseñanza · n5 · Antes de la escena, se pacta la ficción y se explica qué se espera de cada uno.
+- fidelidad · 🩻 · Fidelidad de la simulación · Diseño de la enseñanza · n5 · SIN MISIÓN · Cuánto se parece el ensayo a lo real, por fuera y en las decisiones que exige.
+- tilt · 🫙 · Transparencia en las tareas · Diseño de la enseñanza · n5 · Antes de empezar, el curso sabe para qué sirve el encargo y cómo se va a juzgar.
+- alta_estructura · 🛗 · Curso de alta estructura · Diseño de la enseñanza · n4 · SIN MISIÓN · Cuestionario de lectura antes de cada clase, práctica semanal con nota y casi nada librado al último día.
+- ajustes_razonables · 🪛 · Ajustes razonables · Diseño de la enseñanza · n5 · SIN MISIÓN · Más minutos en el examen o el texto digital, a la medida de una persona concreta.
+- pedagogia_transicion · 🚡 · Pedagogía de la transición · Diseño de la enseñanza · n5 · Un primer año diseñado como puente, con el apoyo metido dentro de cada asignatura.
+- seminario_primer_anio · 🛄 · Seminario de primer año · Diseño de la enseñanza · n5 · SIN MISIÓN · Una asignatura entera dedicada a entender cómo funciona la carrera y cómo se estudia en ella.
+- correquisito · 🛞 · Apoyo correquisito · Diseño de la enseñanza · n4 · SIN MISIÓN · Cursar ya la materia de verdad con un taller al lado, en lugar de un semestre de nivelación.
+- razon_explicativa · 🤌 · Razón explicativa · Diseño de la enseñanza · n6 · SIN MISIÓN · La respuesta honesta que das cuando el curso pregunta “¿y esto para qué?” antes de empezar.
+- ofrecer_opciones · 🍨 · Ofrecer opciones · Diseño de la enseñanza · n6 · SIN MISIÓN · Dos o tres caminos válidos hacia la misma meta, y el estudiante decide cuál recorre.
+- estructura_metas · 🎽 · Estructura de metas de la clase · Diseño de la enseñanza · n5 · SIN MISIÓN · Lo que el aula premia en silencio: mejorar respecto de ti mismo o ganarle al compañero.
 - tecnologia · 💻 · Tecnología · Tecnología · n3 · Herramientas que llevan dentro mucho conocimiento acumulado, como el lápiz o la plataforma del curso.
-- tpk · 🛠️ · Conocimiento tecnopedagógico · Tecnología · n3 · Saber qué cambia en la forma de enseñar cuando una herramienta entra a la sala.
-- transposicion · 🪄 · Transposición didáctica · Diseño de la enseñanza · n3 · El viaje que transforma el saber de los expertos en algo que se puede enseñar en un aula.
-- tutoria_pares · 🧑‍🤝‍🧑 · Tutoría entre pares · Metodologías · n3 · Un estudiante algo más avanzado acompaña a otro, y ambos terminan entendiendo mejor la materia.
-- ubicuo · 🛰️ · Aprendizaje ubicuo · Modalidades · n3 · Se aprende en la calle, en el trabajo, en el bus o en la biblioteca, a cualquier hora.
-- validez · ✅ · Validez y confiabilidad · Evaluación · n3 · ¿Mide lo que dice medir, y daría lo mismo con otro corrector u otro día?
-- zdp · 🌉 · Zona de desarrollo próximo · Cómo se aprende · n3 · La franja entre lo que logras solo y lo que aún no logras ni siquiera con ayuda.
-- addie · ⚙️ · Modelo ADDIE · Diseño de la enseñanza · n4 · Un proceso en cinco fases, desde analizar necesidades hasta evaluar, para diseñar cursos y programas de formación.
-- alf_retro · 📬 · Alfabetización en retroalimentación · Evaluación · n4 · Saber descifrar los comentarios en rojo de un trabajo devuelto y convertirlos en cambios.
-- alineamiento · ⚖️ · Alineamiento constructivo · Diseño de la enseñanza · n4 · La clase entrena el mismo tipo de pensamiento que la meta promete y que la prueba después exige.
-- analisis_items · 🔢 · Análisis de ítems · Evaluación · n4 · Revisar, pregunta por pregunta, cuántos acertaron y si distinguió a quienes sabían más.
-- aprendizaje_automatico · 🦾 · Aprendizaje automático · Tecnología · n4 · Programas que mejoran su desempeño con ejemplos, sin que nadie les escriba cada regla.
-- autentica · 🧪 · Evaluación auténtica · Evaluación · n4 · Una prueba que se parece al trabajo de verdad, como redactar un peritaje o un plan de cuidados.
-- brecha · 🚧 · Brecha digital · Tecnología · n4 · Cuando la clase pasa a internet, quien no tiene datos o nunca usó una plataforma queda afuera.
-- cap_memoria · 🏺 · Estudio que perdura · Síntesis de misión · n4 · Volver a recordar sin mirar, con días de por medio y temas mezclados, aunque se sienta más lento.
-- cap_mitos · 🧹 · Claustro sin mitos · Síntesis de misión · n4 · Reunión de profesores en que toda cifra famosa debe mostrar su estudio de origen antes de entrar.
-- cerebro10 · 🔟 · Solo usamos el 10% del cerebro · Mitos · n4 · La creencia de que la mayor parte de nuestra materia gris está dormida, esperando ser despertada.
-- clase_interactiva · ⚡ · Clase interactiva · Síntesis de misión · n4 · El monólogo del docente se interrumpe, todos votan a solas y cada pareja discute hasta convencerse.
-- comentarios · 💌 · Comentarios sin nota · Evaluación · n4 · El trabajo vuelve lleno de observaciones al margen y sin ningún número en la esquina.
-- computador · 🖥️ · Computador · Tecnología · n4 · Máquina obediente que ejecuta cualquier receta bien escrita, millones de veces por segundo.
-- criterial · 📐 · Evaluación referida a criterio · Evaluación · n4 · Tu nota depende de llegar a un estándar fijado de antemano, aunque lo alcance todo el curso.
-- dua · 🌈 · Diseño Universal para el Aprendizaje · Diseño de la enseñanza · n4 · Una clase pensada como rampa de entrada, que algunos necesitan y que todo el curso termina usando.
-- emoderacion · 🪜 · Modelo de cinco etapas de Salmon · Modalidades · n4 · Una escalera de cinco peldaños donde el curso en línea parte saludándose y llega a construir conocimiento.
-- encuestas · 📮 · Las encuestas docentes miden el aprendizaje · Mitos · n4 · La creencia de que el profesor mejor evaluado por su curso es también el que más le enseñó.
-- inteligencias · 🎨 · Enseñar según la inteligencia dominante · Mitos · n4 · La creencia de que cada estudiante tiene un talento mental favorito por donde deben entrar las clases.
-- juicio · 🧑‍⚖️ · Juicio evaluativo · Evaluación · n4 · Capacidad de distinguir la calidad de un trabajo, propio o ajeno, sin depender del docente.
-- modificacion · 🟨 · Modificación (SAMR) · Tecnología · n4 · En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea.
-- mooc · 🏟️ · MOOC · Tecnología · n4 · Miles de inscritos de todo el mundo en una propuesta gratuita por internet; pocos la terminan.
-- multitarea · 🤹 · Multitarea eficaz · Mitos · n4 · La creencia de que se puede seguir una clase con el chat abierto sin perderse nada.
-- piramide · 🔻 · Pirámide del aprendizaje · Mitos · n4 · Un triángulo con porcentajes redondos que aparece en mil presentaciones y en ningún estudio.
-- portafolio_docente · 💼 · Portafolio docente · Conocimiento docente · n4 · Colección comentada de evidencias de cómo enseñas, útil para mejorar o para postular a una promoción.
-- presencial · 👀 · Presencialidad · Modalidades · n4 · Todos en la misma sala y a la misma hora, como en la universidad de siempre.
-- privacidad · 🔒 · Privacidad y ética de los datos · Tecnología · n4 · Antes de subir las notas del curso a una app gratis, te preguntas quién más podrá verlas.
-- remota_emergencia · 🚨 · Enseñanza remota de emergencia · Modalidades · n4 · Lo que hicieron muchas universidades en marzo de 2020 al trasladar de golpe todo a la videollamada.
-- rubrica · 📏 · Rúbrica · Evaluación · n4 · Criterios y niveles de desempeño explícitos, compartidos con el estudiante antes de entregar.
-- segmentacion · ✂️ · Segmentación · Cómo se aprende · n4 · Una lección larga servida en porciones; el estudiante decide cuándo pedir la siguiente.
-- tpack · 🔺 · TPACK · Conocimiento docente · n4 · Marco que pide a la tecnología entenderse con tu materia y tu didáctica antes de entrar a clase.
-- video · 📼 · Clase grabada · Tecnología · n4 · La exposición del profesor, disponible para verla cuando quieras y cuantas veces quieras.
-- virtual · 🪟 · Entorno virtual · Modalidades · n4 · Un campus sin ladrillos, con puertas que se abren con usuario y contraseña desde cualquier lugar.
-- accesibilidad · ♿ · Accesibilidad digital · Tecnología · n5 · Tu material en línea sirve igual para quien solo usa teclado o lo escucha con lector de pantalla.
-- blended · 🔀 · Aprendizaje combinado · Modalidades · n5 · Parte del curso ocurre en la sala y parte en línea, rediseñando qué conviene en cada lugar.
-- cap_activa · 🌅 · La clase que despierta · Síntesis de misión · n5 · Sesiones donde el curso piensa en voz alta y el docente averigua, antes del examen, qué se entendió.
-- cap_curso · 🎼 · Curso alineado para todos · Síntesis de misión · n5 · La prueba pide lo mismo que la meta y la práctica, y hay varias puertas de entrada.
-- capsula · 🎬 · Cápsula de video · Tecnología · n5 · Pieza audiovisual de pocos minutos que explica una sola idea.
-- eval_docencia · 🧾 · Evaluación de la docencia con múltiples fuentes · Conocimiento docente · n5 · Juzgar a un profesor como un buen jurado, que cruza testimonios de estudiantes y colegas con pruebas.
-- hyflex · 🎛️ · HyFlex · Modalidades · n5 · En cada sesión el estudiante elige si asiste a la sala, se conecta en vivo o avanza después.
+- tck · 🧑‍🔬 · Conocimiento tecnológico del contenido · Tecnología · n3 · SIN MISIÓN · Saber qué herramienta representa mejor las ideas de tu disciplina, como un simulador para la física.
+- tpk · 🛠️ · Conocimiento tecnopedagógico · Tecnología · n3 · SIN MISIÓN · Saber qué cambia en la forma de enseñar cuando una herramienta entra a la sala.
 - ia · 🤖 · IA generativa · Tecnología · n5 · Le pides un soneto sobre la fotosíntesis y lo escribe en segundos, con rima y quizás algún error.
-- personalizacion_responsable · 🧵 · Personalización responsable · Síntesis de misión · n5 · Ejercicios a la medida de cada estudiante, con reglas claras sobre quién ve sus datos y para qué.
-- redefinicion · 🟥 · Redefinición (SAMR) · Tecnología · n5 · El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles.
-- sostenible · ♾️ · Evaluación sostenible · Evaluación · n5 · Preparar al estudiante para juzgar su propio desempeño cuando ya no haya docente que lo califique.
-- alfabetizacion_ia · 🔤 · Alfabetización en IA · Tecnología · n6 · Saber por qué un chatbot puede inventar una cita con total seguridad y cuándo conviene no preguntarle.
-- cap_eval · 🎖️ · Evaluación que enseña · Síntesis de misión · n6 · Calificar hoy de modo que mañana, sin docente cerca, el egresado sepa juzgar y mejorar su trabajo.
-- cap_hibrido · 🪐 · Comunidad híbrida que aprende · Síntesis de misión · n6 · Cada quien elige sala, conexión en vivo o ritmo propio, y todos sostienen la misma discusión.
-- detectores · 🕵️ · Detectores de IA · Mitos · n6 · Herramientas que prometen descubrir si un texto lo escribió una máquina, y que se equivocan con frecuencia.
-- invertida · 🔄 · Aula invertida · Metodologías · n6 · Lo que antes se explicaba en la sala se ve en casa, y la sesión se usa para trabajar.
+- sustitucion · 🟦 · Sustitución (SAMR) · Tecnología · n3 · SIN MISIÓN · En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica.
+- aumento · 🟩 · Aumento (SAMR) · Tecnología · n3 · SIN MISIÓN · En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional.
+- modificacion · 🟨 · Modificación (SAMR) · Tecnología · n4 · SIN MISIÓN · En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea.
+- redefinicion · 🟥 · Redefinición (SAMR) · Tecnología · n5 · SIN MISIÓN · El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles.
+- video · 📼 · Clase grabada · Tecnología · n4 · SIN MISIÓN · La exposición del profesor, disponible para verla cuando quieras y cuantas veces quieras.
+- capsula · 🎬 · Cápsula de video · Tecnología · n5 · SIN MISIÓN · Pieza audiovisual de pocos minutos que explica una sola idea.
 - tutoria · 🦉 · Tutor con IA · Tecnología · n6 · Un chatbot configurado para guiarte con pistas y preguntas, sin entregarte la solución.
+- competencia · 🧑‍💻 · Competencia digital · Tecnología · n3 · Distinguir una fuente seria de un video viral se aprende, aunque hayas nacido con wifi.
+- analitica · 📈 · Analítica del aprendizaje · Tecnología · n3 · Las huellas que deja cada clic en la plataforma del curso, convertidas en información para decidir.
+- privacidad · 🔒 · Privacidad y ética de los datos · Tecnología · n4 · Antes de subir las notas del curso a una app gratis, te preguntas quién más podrá verlas.
+- adaptativo · 🧬 · Aprendizaje adaptativo · Tecnología · n3 · Un sistema que elige el siguiente ejercicio según lo que cada estudiante ya demostró dominar.
+- rea · 🔓 · Recursos educativos abiertos · Tecnología · n3 · SIN MISIÓN · Un manual de anatomía gratis que puedes reescribir y volver a publicar, porque su licencia lo permite.
+- mooc · 🏟️ · MOOC · Tecnología · n4 · SIN MISIÓN · Miles de inscritos de todo el mundo en una propuesta gratuita por internet; pocos la terminan.
+- rv · 🥽 · Realidad virtual inmersiva · Tecnología · n3 · SIN MISIÓN · Con un visor puesto, el estudiante pasea por el interior de una célula sin salir de la sala.
+- respuesta_audiencia · 🙋 · Sistemas de respuesta en el aula · Tecnología · n3 · SIN MISIÓN · Toda la sala vota desde su teléfono y el resultado aparece al instante en la pantalla.
+- alfabetizacion_ia · 🔤 · Alfabetización en IA · Tecnología · n6 · Saber por qué un chatbot puede inventar una cita con total seguridad y cuándo conviene no preguntarle.
+- brecha · 🚧 · Brecha digital · Tecnología · n4 · SIN MISIÓN · Cuando la clase pasa a internet, quien no tiene datos o nunca usó una plataforma queda afuera.
+- competencia_digital_docente · 🧑‍💼 · Competencia digital docente · Tecnología · n3 · SIN MISIÓN · Lo que un profesor necesita saber para enseñar, evaluar y crecer en su profesión usando tecnología.
+- accesibilidad · ♿ · Accesibilidad digital · Tecnología · n5 · SIN MISIÓN · Tu material en línea sirve igual para quien solo usa teclado o lo escucha con lector de pantalla.
+- datos · 📊 · Datos · Tecnología · n3 · Huellas que dejas en cada clic, contadas y guardadas, esperando a que alguien les pregunte algo.
+- algoritmo · 🔣 · Algoritmo · Tecnología · n3 · Una receta tan precisa que hasta una máquina podría seguirla sin pedirte aclaraciones.
+- computador · 🖥️ · Computador · Tecnología · n4 · SIN MISIÓN · Máquina obediente que ejecuta cualquier receta bien escrita, millones de veces por segundo.
+- internet · 🌐 · Internet · Tecnología · n3 · SIN MISIÓN · Red de redes donde tu biblioteca y tus distracciones viven puerta con puerta.
+- aprendizaje_automatico · 🦾 · Aprendizaje automático · Tecnología · n4 · Programas que mejoran su desempeño con ejemplos, sin que nadie les escriba cada regla.
+- simulador_tareas · 🦴 · Simulador de tareas parciales · Tecnología · n4 · SIN MISIÓN · Un brazo de silicona que existe solo para puncionar venas, sin paciente completo alrededor.
+- paciente_virtual · 👾 · Paciente virtual · Tecnología · n5 · SIN MISIÓN · Un caso en pantalla que contesta tus preguntas y empeora si tardas en decidir.
+- laboratorio_virtual · 💽 · Laboratorio virtual · Tecnología · n4 · SIN MISIÓN · Variar temperaturas, ver moléculas chocar y repetir el experimento cien veces sin gastar un reactivo.
+- alerta_temprana · 🚥 · Alerta temprana · Tecnología · n5 · Un semáforo que se pone amarillo cuando faltas y repruebas el primer control, antes de que sea tarde.
+- presencial · 👀 · Presencialidad · Modalidades · n4 · Todos en la misma sala y a la misma hora, como en la universidad de siempre.
+- virtual · 🪟 · Entorno virtual · Modalidades · n4 · Un campus sin ladrillos, con puertas que se abren con usuario y contraseña desde cualquier lugar.
+- sincronico · 📡 · Sesión sincrónica · Modalidades · n3 · SIN MISIÓN · Todos conectados a la vez desde lugares distintos, viéndose por cámara.
+- asincronico · 🗂️ · Modalidad asincrónica · Modalidades · n3 · El foro recibe aportes a las tres de la mañana y nadie espera que el resto se conecte.
+- blended · 🔀 · Aprendizaje combinado · Modalidades · n5 · Parte del curso ocurre en la sala y parte en línea, rediseñando qué conviene en cada lugar.
+- hyflex · 🎛️ · HyFlex · Modalidades · n5 · En cada sesión el estudiante elige si asiste a la sala, se conecta en vivo o avanza después.
+- coi · 🗣️ · Comunidad de indagación · Modalidades · n3 · Tres presencias, cognitiva, social y docente, para que un curso en línea piense en conjunto.
+- aula_activa · 🪑 · Aula de aprendizaje activo · Modalidades · n3 · SIN MISIÓN · Una sala donde nadie sabe dónde queda el frente, porque cada mesa redonda tiene su propia pizarra.
+- ubicuo · 🛰️ · Aprendizaje ubicuo · Modalidades · n3 · SIN MISIÓN · Se aprende en la calle, en el trabajo, en el bus o en la biblioteca, a cualquier hora.
+- movil · 📲 · Aprendizaje móvil · Modalidades · n3 · SIN MISIÓN · El celular en el bolsillo convertido en herramienta de estudio, que acompaña al estudiante de un lugar a otro.
+- distancia · 🛤️ · Distancia transaccional · Modalidades · n3 · SIN MISIÓN · Lejanía que puedes sentir en primera fila y no sentir a mil kilómetros de tu profesor.
+- remota_emergencia · 🚨 · Enseñanza remota de emergencia · Modalidades · n4 · SIN MISIÓN · Lo que hicieron muchas universidades en marzo de 2020 al trasladar de golpe todo a la videollamada.
+- emoderacion · 🪜 · Modelo de cinco etapas de Salmon · Modalidades · n4 · SIN MISIÓN · Una escalera de cinco peldaños donde el curso en línea parte saludándose y llega a construir conocimiento.
+- simulacion_in_situ · 🏣 · Simulación in situ · Modalidades · n4 · SIN MISIÓN · El escenario se arma en el propio servicio, con los equipos y el personal de un turno cualquiera.
+- cpc · ⚗️ · Conocimiento pedagógico del contenido · Conocimiento docente · n3 · SIN MISIÓN · Saber qué analogía aclara tu tema y qué error traerá el curso antes de que lo cometa.
+- tpack · 🔺 · TPACK · Conocimiento docente · n4 · SIN MISIÓN · Marco que pide a la tecnología entenderse con tu materia y tu didáctica antes de entrar a clase.
+- reflexiva · 📓 · Práctica reflexiva · Conocimiento docente · n2 · Revisar tu clase en caliente, mientras la das, y en frío, camino a casa, para ajustar la próxima.
+- evidencia · 🔎 · Docencia informada por evidencia · Conocimiento docente · n3 · Pedirle a cada método de moda su estudio de respaldo antes de dejarlo entrar al aula.
+- sotl · 📑 · Investigación sobre la propia docencia (SoTL) · Conocimiento docente · n3 · Tratar tu aula como laboratorio y llevar los resultados a colegas que puedan rebatirlos.
+- investigacion_accion · ♻️ · Investigación-acción · Conocimiento docente · n2 · SIN MISIÓN · Ciclos de planificar, intervenir, observar y reflexionar para mejorar una situación concreta de tu curso.
+- portafolio_docente · 💼 · Portafolio docente · Conocimiento docente · n4 · SIN MISIÓN · Colección comentada de evidencias de cómo enseñas, útil para mejorar o para postular a una promoción.
+- enfoques_ensenanza · 🎚️ · Enfoques de enseñanza · Conocimiento docente · n3 · SIN MISIÓN · Tu intención de fondo al dar clase, sea pasar información o cambiar lo que tu curso entiende.
+- eval_docencia · 🧾 · Evaluación de la docencia con múltiples fuentes · Conocimiento docente · n5 · SIN MISIÓN · Juzgar a un profesor como un buen jurado, que cruza testimonios de estudiantes y colegas con pruebas.
+- punto_ciego · 🫥 · Punto ciego del experto · Conocimiento docente · n4 · Saber tanto de tu materia que ya no ves los pasos que das sin pensar.
+- tacito · 🚲 · Conocimiento tácito · Conocimiento docente · n4 · Sabes andar en bicicleta, pero si te piden explicarlo con palabras, te quedas a medio camino.
+- seguridad_psicologica · 🛖 · Seguridad psicológica · Conocimiento docente · n4 · Confiar en que puedes decir “me equivoqué” o “no entiendo” sin que el equipo te lo cobre.
+- contrato_ficcion · 🧸 · Contrato de ficción · Conocimiento docente · n4 · Todos saben que el paciente es de plástico y aceptan tratarlo como si respirara de verdad.
+- capital_cultural · 🎻 · Capital cultural · Conocimiento docente · n3 · Una herencia sin notario, hecha de libros en casa y modales que la escuela premia sin enseñarlos.
+- primera_generacion · 🐥 · Estudiantes de primera generación · Conocimiento docente · n4 · Sus padres no fueron a la universidad, así que el mapa del campus lo dibuja sobre la marcha.
+- clima_aula · ⛅ · Clima de aula · Conocimiento docente · n4 · SIN MISIÓN · Se nota apenas entras a la sala, aunque no figure en el programa ni en la pizarra.
+- modelo_social · 🦽 · Modelo social de la discapacidad · Conocimiento docente · n4 · SIN MISIÓN · Mira la escalera sin rampa y el video sin subtítulos, y ahí encontrarás la barrera.
+- mentalidad_docente · 👔 · Mentalidad del docente · Conocimiento docente · n4 · SIN MISIÓN · Lo que quien enseña cree sobre si el talento viene de nacimiento, y que su curso nota.
+- transicion · 🚉 · Transición a la universidad · Conocimiento docente · n3 · Bajar del bus en una ciudad nueva, con otro idioma académico y nadie que avise en qué andén.
+- integracion · 🪢 · Integración académica y social · Conocimiento docente · n4 · Tener a quién preguntarle el ejercicio y con quién almorzar, dos hilos que atan a la carrera.
+- abandono · 🎈 · Abandono en primer año · Conocimiento docente · n4 · SIN MISIÓN · La silla que se vacía en la sexta semana y que nadie nota hasta el examen final.
+- asignaturas_filtro · 🥅 · Asignaturas filtro · Conocimiento docente · n5 · SIN MISIÓN · El curso de primer año que reprueba a medio auditorio y que algunos defienden como prueba de rigor.
+- apoyo_autonomia · 🪽 · Apoyo a la autonomía · Conocimiento docente · n5 · Cambiar el “tienes que” por una invitación con razones, y escuchar la queja del curso sin castigarla.
+- estilo_controlador · 👉 · Estilo docente controlador · Conocimiento docente · n5 · SIN MISIÓN · Plazos, amenazas de nota y “deberían” a cada rato, para que el curso haga lo que se espera.
+- pregunta_indagacion · 🎣 · Pregunta de indagación docente · Conocimiento docente · n4 · Un anzuelo bien formulado sobre lo que pasa en tu aula, que se puede responder con datos.
+- observacion_pares · 👯 · Observación entre pares · Conocimiento docente · n4 · Un colega se sienta al fondo de tu sala y después conversan; la semana siguiente, cambian de lugar.
+- triangulacion · ⛰️ · Triangulación · Conocimiento docente · n5 · Mirar la misma clase desde tres puntos distintos para que lo que uno no ve lo muestre otro.
+- consentimiento · 📄 · Consentimiento informado · Conocimiento docente · n5 · Tu curso sabe qué harás con sus trabajos en tu estudio y puede negarse sin pagar ningún costo.
+- doble_rol · 👑 · Doble rol de docente e investigador · Conocimiento docente · n6 · SIN MISIÓN · Quien pone tu nota te invita a participar en su estudio, y decir que no incomoda.
+- lentes_brookfield · 🪬 · Los cuatro lentes de Brookfield · Conocimiento docente · n6 · SIN MISIÓN · Mirar tu clase con los ojos del curso, de tus colegas, de tu biografía y de los estudios.
+- diario_docente · 📗 · Diario de enseñanza · Conocimiento docente · n4 · SIN MISIÓN · Un cuaderno donde anotas lo que pasó en cada clase antes de que la memoria lo arregle.
+- copus · 🕓 · Protocolo de observación COPUS · Conocimiento docente · n5 · SIN MISIÓN · Cada dos minutos, una colega marca casillas con lo que hacen el curso y el docente, sin juzgar.
+- estudio_clases · 🗾 · Estudio de clases · Conocimiento docente · n5 · SIN MISIÓN · Un equipo planifica una sola sesión durante semanas, la ve en vivo mirando al curso y la rediseña.
+- comunidad_docente · ☕ · Comunidad de aprendizaje docente · Conocimiento docente · n4 · SIN MISIÓN · Un grupo de profesores de distintas carreras que se reúne todo el año a estudiar su propia enseñanza.
+- cuasiexperimento · 🍐 · Cuasiexperimento en el aula · Conocimiento docente · n5 · SIN MISIÓN · Comparar tu sección con otra sin sortear quién va a cada una, cuidando no mezclar peras con manzanas.
+- tamano_efecto · 🐘 · Tamaño del efecto · Conocimiento docente · n6 · SIN MISIÓN · Después de saber que hubo diferencia, preguntas cuán grande fue, en unidades que otros puedan comparar.
+- analisis_tematico · 🪣 · Análisis temático · Conocimiento docente · n5 · SIN MISIÓN · Leer doscientos comentarios abiertos, ponerles etiquetas y agruparlas hasta que aparecen unas pocas ideas que se repiten.
+- estudiantes_socios · 🛶 · Estudiantes como socios · Conocimiento docente · n4 · SIN MISIÓN · Alguien de tu curso diseña contigo el estudio de tu clase y ayuda a interpretar sus resultados.
+- nativos · 📱 · Nativos digitales · Mitos · n3 · La creencia de que crecer entre pantallas entrega destrezas tecnológicas sin que nadie las enseñe.
+- estilos · 🎧 · Estilos de aprendizaje · Mitos · n3 · La idea de que enseñar por el canal favorito de cada uno, visual, auditivo o kinestésico, rinde más.
+- piramide · 🔻 · Pirámide del aprendizaje · Mitos · n4 · Un triángulo con porcentajes redondos que aparece en mil presentaciones y en ningún estudio.
+- detectores · 🕵️ · Detectores de IA · Mitos · n6 · SIN MISIÓN · Herramientas que prometen descubrir si un texto lo escribió una máquina, y que se equivocan con frecuencia.
+- cerebro10 · 🔟 · Solo usamos el 10% del cerebro · Mitos · n3 · La creencia de que la mayor parte de nuestra materia gris está dormida, esperando ser despertada.
+- hemisferios · ☯️ · Cerebro izquierdo y cerebro derecho · Mitos · n3 · SIN MISIÓN · La creencia de que cada persona es lógica o creativa según qué mitad de su cabeza domine.
+- atencion10 · ⏲️ · La atención dura solo 10 minutos · Mitos · n3 · SIN MISIÓN · La regla de que, pasado un tiempo fijo de clase, el curso entero se apaga como con temporizador.
+- multitarea · 🤹 · Multitarea eficaz · Mitos · n4 · SIN MISIÓN · La creencia de que se puede seguir una clase con el chat abierto sin perderse nada.
+- descubrimiento · 🗝️ · Descubrimiento puro sin guía · Mitos · n3 · SIN MISIÓN · La idea de que el curso aprende mejor encontrando solo los principios, con el docente en silencio.
+- inteligencias · 🎨 · Enseñar según la inteligencia dominante · Mitos · n4 · SIN MISIÓN · La creencia de que cada estudiante tiene un talento mental favorito por donde deben entrar las clases.
+- mas_tecnologia · ➕ · Más tecnología, más aprendizaje · Mitos · n3 · SIN MISIÓN · La creencia de que llenar el aula de pantallas y plataformas mejora por sí solo los resultados.
+- releer · 🖍️ · Releer y subrayar · Mitos · n3 · SIN MISIÓN · Repasar los apuntes con marcador fosforescente la noche antes, seguro de que así se aprende.
+- encuestas · 📮 · Las encuestas docentes miden el aprendizaje · Mitos · n4 · SIN MISIÓN · La creencia de que el profesor mejor evaluado por su curso es también el que más le enseñó.
+- ya_saben_escribir · 💉 · Ya deberían llegar sabiendo escribir · Mitos · n5 · SIN MISIÓN · Una sola dosis de redacción en el colegio, o en primer año, y quedarían inmunizados para siempre.
+- experto_ensena · 🧞 · Quien domina la materia sabe enseñarla · Mitos · n4 · SIN MISIÓN · Basta contratar al investigador que más publica para que el curso aprenda, como por arte de magia.
+- mito_lluvia · ☂️ · La lluvia de ideas en grupo da más ideas · Mitos · n3 · SIN MISIÓN · Doce personas lanzando ocurrencias frente a una pizarra seguro sacan más que esas doce pensando a solas.
+- mito_realismo · 🤩 · Cuanto más realista el simulador, más se aprende · Mitos · n4 · SIN MISIÓN · El maniquí que respira y parpadea tiene que enseñar más que un brazo de goma para inyectar.
+- incluir_bajar · 📉 · Incluir es bajar la exigencia · Mitos · n5 · SIN MISIÓN · Si el examen admite más formatos o más tiempo, alguien jura que el título vale menos.
+- trasnochar · 🌃 · Trasnochar rinde antes del examen · Mitos · n5 · SIN MISIÓN · Café, apuntes y nada de cama la víspera del parcial, con la promesa de llegar fresco.
+- garra · 🐃 · La garra es el secreto del éxito académico · Mitos · n4 · SIN MISIÓN · Pasión y perseverancia elevadas a fórmula mágica, capaz de explicar quién termina la carrera y quién no.
+- clase_interactiva · ⚡ · Clase interactiva · Síntesis de misión · n4 · El monólogo del docente se interrumpe, todos votan a solas y cada pareja discute hasta convencerse.
+- cap_activa · 🌅 · La clase que despierta · Síntesis de misión · n5 · Sesiones donde el curso piensa en voz alta y el docente averigua, antes del examen, qué se entendió.
+- cap_eval · 🎖️ · Evaluación que enseña · Síntesis de misión · n6 · Calificar hoy de modo que mañana, sin docente cerca, el egresado sepa juzgar y mejorar su trabajo.
+- cap_memoria · 🏺 · Estudio que perdura · Síntesis de misión · n4 · Volver a recordar sin mirar, con días de por medio y temas mezclados, aunque se sienta más lento.
 - evaluacion_ia · 🔐 · Evaluación en tiempos de IA · Síntesis de misión · n7 · Tareas donde un chatbot puede ayudar, pero las decisiones y su defensa oral quedan en manos del estudiante.
 - ia_que_ensena · 🕯️ · IA que enseña a pensar · Síntesis de misión · n8 · Un chatbot que responde con preguntas y pistas, y tareas que solo se aprueban razonando.
+- personalizacion_responsable · 🧵 · Personalización responsable · Síntesis de misión · n5 · Ejercicios a la medida de cada estudiante, con reglas claras sobre quién ve sus datos y para qué.
 - cap_ia · 🌟 · IA al servicio de una educación personalizada y realista · Síntesis de misión · n9 · Un tutor digital que se ajusta a cada estudiante sin quitarle el esfuerzo ni exponer sus datos.
+- cap_hibrido · 🪐 · Comunidad híbrida que aprende · Síntesis de misión · n6 · Cada quien elige sala, conexión en vivo o ritmo propio, y todos sostienen la misma discusión.
+- cap_mitos · 🧹 · Claustro sin mitos · Síntesis de misión · n4 · Reunión de profesores en que toda cifra famosa debe mostrar su estudio de origen antes de entrar.
+- cap_curso · 🎼 · Curso alineado para todos · Síntesis de misión · n5 · La prueba pide lo mismo que la meta y la práctica, y hay varias puertas de entrada.
+- borradores_ida_vuelta · ✉️ · Borradores de ida y vuelta · Síntesis de misión · n6 · Textos breves sin nota que pasan por manos de un compañero y regresan reescritos antes de calificarse.
+- cap_escritura · 🪶 · Escribir para pensar · Síntesis de misión · n7 · Cada asignatura pide textos breves para razonar y borradores comentados para dominar los géneros de su campo.
+- pensamiento_visible · 🔆 · Pensamiento experto a la vista · Síntesis de misión · n7 · El docente averigua dónde se atasca el curso, resuelve en voz alta y luego retira la ayuda.
+- cap_disciplina · 🦅 · Pensar como la disciplina · Síntesis de misión · n8 · Un curso donde el estudiante ve dudar y decidir a un experto del campo, y aprende a hacerlo.
+- equipo_cuentas · ⚓ · Equipo que rinde cuentas · Síntesis de misión · n6 · Normas firmadas la primera semana y revisadas con el juicio de los compañeros antes de que sea tarde.
+- cap_equipos · 🪿 · Equipos que funcionan · Síntesis de misión · n7 · Grupos que llegan con la lectura hecha a decidir juntos, y donde se sabe cuánto aportó cada uno.
+- contenedor_seguro · 🥡 · Contenedor seguro · Síntesis de misión · n6 · Antes de la escena se pacta la ficción y después se pregunta antes de juzgar.
+- cap_simular · 🐤 · Simular antes de la práctica · Síntesis de misión · n7 · Equivocarte con red y con alguien que pregunta por qué, cuando el error todavía no daña a nadie.
+- reglas_vista · 📃 · Reglas del juego a la vista · Síntesis de misión · n6 · Lo que antes sabían solo quienes crecieron entre universitarios ahora viene escrito en el enunciado.
+- cap_inclusiva · 👐 · Todas y todos aprenden · Síntesis de misión · n7 · Un curso exigente donde las reglas están escritas y cada crítica llega con confianza en quien la recibe.
+- alerta_respuesta · 📢 · Alerta con respuesta · Síntesis de misión · n6 · El semáforo cambia de color y esa misma semana alguien del curso superior te invita a estudiar.
+- cap_primer_anio · 🫴 · Primer año que sostiene · Síntesis de misión · n7 · Los meses iniciales de la carrera, armados en equipo para que nadie se vaya sin que lo noten.
+- cap_autonomia_estructura · 🦮 · Autonomía con estructura · Síntesis de misión · n6 · Libertad para decidir cómo avanzar, con instrucciones claras y una mano cerca cuando hace falta.
+- cap_interes_raices · 🌿 · Interés que echa raíces · Síntesis de misión · n6 · Una chispa de clase que, con textos breves sobre tu propia vida, empieza a volverse interés propio.
+- cap_motivacion · 🪔 · Motivación que dura · Síntesis de misión · n7 · Ganas que sobreviven al último punto extra, porque el curso entiende para qué estudia y puede decidir.
+- cap_tres_miradas · 👪 · Pregunta con tres miradas · Síntesis de misión · n6 · Una duda sobre tu curso que respondes cruzando sus trabajos, su opinión y lo que vio un colega.
+- cap_investigar · 🌗 · Investigar tu propia docencia · Síntesis de misión · n7 · Tu curso como objeto de estudio, con evidencia cruzada, permiso de quienes participan y colegas que puedan rebatir.
