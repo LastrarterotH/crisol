@@ -1,0 +1,157 @@
+/* Opción E · Pop. Neobrutalismo amable: colores planos y saturados, bordes negros gruesos, sombras duras que se hunden
+   al presionar y Bricolage Grotesque, una grotesca con carácter. Todo parece un objeto que se puede tocar. */
+@font-face { font-family: "Bricolage Grotesque"; font-style: normal; font-weight: 200 800; font-stretch: 75% 100%; font-display: swap; src: url(../fuentes/bricolage-grotesque-latin-standard-normal.woff2) format("woff2"); }
+:root {
+  --fondo: #d9ccff;
+  --lienzo: #ffffff;
+  --punto: rgba(17, 17, 17, .22);
+  --sup: #ffffff;
+  --sup-2: #f3f0ff;
+  --borde: #111111;
+  --borde-2: #111111;
+  --tinta: #111111;
+  --tinta-2: #393939;
+  --tinta-3: #6d6d6d;
+  --acento: #ff4fa3;
+  --acento-2: #f2338f;
+  --sobre-acento: #111111;
+  --oro: #ffd23f;
+  --oro-suave: #fff0a8;
+  --ia: #9b6bff;
+  --exito: #16a34a;
+  --amarillo: #ffd23f; --cian: #5ce1e6; --lima: #b8f35a;
+  --c-prim: #bdbdbd; --c-cot: #ffb02e; --c-fund: #d08c55; --c-apr: #2ed47a; --c-met: #ff6b4a; --c-eva: #ff4fa3;
+  --c-dis: #22d3ee; --c-tec: #9b6bff; --c-mod: #3d7bff; --c-mito: #ff3b3b; --c-sint: #ffd23f;
+  --f-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --f-texto: "Bricolage Grotesque", system-ui, sans-serif;
+  --sombra-1: 3px 3px 0 #111;
+  --sombra-2: 5px 5px 0 #111;
+  --sombra-3: 9px 9px 0 #111;
+  --linea: 2.5px solid #111;
+}
+body { font-size: 15.5px; }
+h1, h2, h3 { letter-spacing: -.02em !important; }
+:focus-visible { outline: 3px solid #111; }
+
+/* botones que se hunden */
+.boton, .boton-papel { border: var(--linea); border-radius: 12px; box-shadow: 4px 4px 0 #111; font-weight: 700; transition: transform .08s, box-shadow .08s; }
+.boton:hover, .boton-papel:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 #111; border-color: #111; }
+.boton:active, .boton-papel:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 #111; }
+.boton.principal, .boton-papel.principal { border-color: #111; box-shadow: 4px 4px 0 #111; }
+.boton.principal:hover, .boton-papel.principal:hover { background: var(--acento); border-color: #111; }
+.boton.grande { border-radius: 14px; font-size: 18px; }
+.icono:hover { background: var(--amarillo); }
+.enlace-btn { text-decoration-color: var(--acento); text-decoration-thickness: 3px; font-weight: 700; }
+
+/* portada amarilla con lunares */
+.portada { background: radial-gradient(rgba(17, 17, 17, .14) 1.6px, transparent 2px) 0 0 / 22px 22px, var(--amarillo); }
+.portada-antes { display: inline-block; justify-self: center; background: #111; color: #fff; padding: 6px 14px; border-radius: 99px; letter-spacing: .1em; transform: rotate(-2deg); }
+.titulo-tiza { font-weight: 800; font-stretch: 85%; letter-spacing: -.035em; line-height: .9; }
+.titulo-tiza span:first-child { color: #111; }
+.titulo-tiza span + span { font-style: normal; font-weight: 800; color: var(--acento); -webkit-text-stroke: 3px #111; paint-order: stroke fill; text-shadow: 7px 7px 0 #111; }
+.portada-sub { color: #222; font-weight: 500; }
+.portada-deco .ficha { transform: rotate(-4deg); }
+.portada-deco .ficha:nth-child(even) { transform: rotate(5deg); }
+.portada-pie { color: #333; }
+
+/* juego */
+.juego { background: var(--fondo); }
+.cabecera { background: #fff; border-bottom: var(--linea); margin-bottom: 14px; }
+.logo { font-weight: 800; font-stretch: 85%; font-size: 22px; }
+.logo svg path[fill="#d4532a"] { fill: var(--acento); }
+.logo svg path[stroke="#1c2130"] { stroke: #111; }
+.logo svg path[fill="#e0a01a"] { fill: var(--amarillo); stroke: #111; stroke-width: .8; }
+.mision-cab { border-left: var(--linea); }
+.mision-cab .avance { height: 14px; border: var(--linea); background: #fff; }
+.mision-cab .avance i, .mision-carta .barrita i { background: repeating-linear-gradient(-45deg, var(--acento) 0 8px, #ff79bb 8px 16px); border-radius: 0; }
+.chispas, .contador { border: var(--linea); box-shadow: 2px 2px 0 #111; }
+.chispas { background: var(--amarillo); color: #111; }
+.contador { background: var(--cian); color: #111; }
+.bandeja { background: var(--amarillo); border: var(--linea); box-shadow: 5px 5px 0 #111; border-radius: 16px; }
+.tiza-btn { color: #111; font-weight: 700; border-radius: 10px; }
+.tiza-btn:hover { background: #fff; color: #111; box-shadow: inset 0 0 0 2.5px #111; }
+
+.hoja, .caja { border: var(--linea); border-radius: 18px; box-shadow: 5px 5px 0 #111; }
+.hoja h2, .caja-cab h2 { font-weight: 800; font-stretch: 85%; }
+.hoja h2 .em, .mision-carta .em { background: var(--amarillo); border: var(--linea); border-radius: 12px; }
+.hoja h3, .fe-cuerpo h3 { color: #111; font-weight: 800; }
+.hoja .objetivo { background: var(--cian); border: var(--linea); }
+.hoja .objetivo b { color: #111; }
+.hoja .ver-mas { color: #111; text-decoration: underline; text-decoration-color: var(--acento); text-decoration-thickness: 2px; }
+.pieza { border: 2px dashed #111; background: #fff; }
+.pieza .silueta { border: 2px dashed #111; color: #111; }
+.pieza.hito .silueta { background: var(--amarillo); border: 2px solid #111; color: #111; }
+.pieza .comprar { color: #c2185b; font-weight: 700; }
+.mini { border: 2px solid #111; font-weight: 700; }
+.mini .em { border: 1.5px solid #111; }
+.caja-herr input { border: var(--linea); background-color: #fff; border-radius: 12px; }
+.caja-herr input:focus { border-color: #111; box-shadow: 3px 3px 0 var(--acento); }
+.caja-herr .icono { border: var(--linea); background: #fff; }
+
+.pizarra { border: var(--linea); border-radius: 20px; box-shadow: 6px 6px 0 #111; }
+.pizarra-nota { font-style: normal; font-weight: 800; font-stretch: 85%; color: #888; }
+.ficha, .chip { border: var(--linea); box-shadow: 3px 3px 0 #111; font-weight: 700; color: #111; }
+.ficha { border-radius: 14px; }
+.ficha .em, .chip .em { background: var(--c, #ddd); border: 2px solid #111; border-radius: 9px; }
+.ficha:hover { box-shadow: 5px 5px 0 #111; transform: translate(-1px, -1px); }
+.chip:hover { transform: translate(-1px, -2px); box-shadow: 4px 5px 0 #111; }
+.ficha.f-prim { background: #fff; }
+.ficha.f-sint { background: var(--oro-suave); border-color: #111; }
+.ficha.mito, .chip.mito { border-style: dashed; border-color: #111; }
+.ficha.arrastrando { transform: rotate(-3deg) scale(1.05); box-shadow: 9px 9px 0 #111; }
+.ficha.objetivo { border-color: #111; background: var(--lima); box-shadow: 0 0 0 4px var(--acento), 6px 6px 0 4px #111; transform: scale(1.06) rotate(2deg); }
+.ficha.objetivo::before { background: var(--acento); color: #111; border: 2px solid #111; box-shadow: none; line-height: 18px; }
+.ficha.senalada, .chip.senalada { border-color: #111; background: var(--lima); }
+
+.capa { background: rgba(17, 17, 17, .45); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); }
+.ficha-estudio, .panel-tiza, .plano-marco { border: 3px solid #111; border-radius: 22px; box-shadow: 10px 10px 0 #111; }
+.fe-cab { background: color-mix(in srgb, var(--c) 45%, #fff); border-bottom: var(--linea); }
+.fe-ceja > span { border: 2px solid #111; color: #111; }
+.fe-ceja .fam { background: #fff; color: #111; border-color: #111; }
+.fe-titulo, .panel-tiza h2 { font-weight: 800; font-stretch: 85%; letter-spacing: -.03em; }
+.fe-titulo .em { border: var(--linea); box-shadow: 4px 4px 0 #111; }
+.fe-cerrar { border: var(--linea); box-shadow: 2px 2px 0 #111; color: #111; }
+.fe-cuerpo p, .fe-principios { color: #111; }
+.fe-cita { border-left: 6px solid #111; }
+.fe-cita p { font-style: normal; font-weight: 700; }
+.fe-aula { background: var(--cian); border: var(--linea); color: #111 !important; }
+.fe-aviso { border: var(--linea); }
+.fe-camino { border: 2px solid #111; }
+.fe-prueba { background: var(--amarillo); border: var(--linea); }
+.fe-pieza { color: #111 !important; background: var(--amarillo) !important; border-color: #111 !important; }
+.fe-mito { border-color: #111; color: #111; background: var(--c-mito); }
+.alterna { border: var(--linea); box-shadow: 2px 2px 0 #111; font-weight: 700; }
+.alterna[aria-pressed="true"] { background: var(--lima); color: #111; }
+.panel-tiza > .etiqueta { color: #c2185b; }
+.mision-carta { border: var(--linea); box-shadow: 4px 4px 0 #111; }
+.mision-carta:nth-child(4n+1) { background: #fff; } .mision-carta:nth-child(4n+2) { background: #e9fbff; }
+.mision-carta:nth-child(4n+3) { background: #fff7d1; } .mision-carta:nth-child(4n+4) { background: #ffeaf4; }
+.mision-carta:hover { transform: translate(-2px, -3px); box-shadow: 7px 7px 0 #111; border-color: #111; }
+.mision-carta h3 { font-weight: 800; font-stretch: 85%; }
+.mision-carta .meta-dato { border-top: 2px solid #111; }
+.mision-carta .barrita { border: 2px solid #111; height: 10px; background: #fff; }
+.mision-carta .sello { background: var(--lima); color: #111; border: 2px solid #111; }
+.mision-carta .dificultad { border: 2px solid #111; background: #fff; color: #111; }
+.mision-carta.activa { box-shadow: 0 0 0 4px var(--acento), 6px 6px 0 4px #111; }
+.hueco { border: 2px dashed #111; }
+.plano-cab { background: var(--amarillo); border-bottom: var(--linea); }
+.plano-cab h2 { font-weight: 800; font-stretch: 85%; }
+.plano-pista { border: var(--linea); box-shadow: 6px 6px 0 #111; }
+.arista { stroke: #111; opacity: .35; }
+.arista.ok { stroke: #111; stroke-width: 2.6; opacity: 1; }
+.nodo .disco { stroke: #111; stroke-width: 2; }
+.nodo.logrado .disco { fill: var(--c); stroke: #111; stroke-width: 2.6; }
+.nodo.alcance .disco { stroke: #111; fill: var(--amarillo); stroke-dasharray: 5 4; }
+.nodo .halo { stroke: var(--acento); stroke-width: 3; }
+.nodo .lab { font-weight: 800; }
+.nodo.hito .signo, .nodo.meta .signo { fill: #c2185b; }
+.celebracion { background: rgba(255, 210, 63, .94); backdrop-filter: none; }
+.celebracion h1 { font-weight: 800; font-stretch: 85%; }
+.celebracion h1 em { font-style: normal; color: var(--acento); -webkit-text-stroke: 2px #111; paint-order: stroke fill; }
+.celebracion .sello-meta { border: 3px solid #111; box-shadow: 6px 6px 0 #111; background: #fff; }
+.celebracion .plano-mini { border: var(--linea); }
+.aviso { border: var(--linea); box-shadow: 5px 5px 0 #111; background: #111; }
+.aviso .boton-papel { background: var(--amarillo); color: #111; border: 2px solid #fff; box-shadow: none; }
+.coach { border: var(--linea); box-shadow: 5px 5px 0 #111; background: #fff; color: #111; }
+.coach small { color: #c2185b; }
+.coach .flecha { background: var(--acento); border: 2px solid #111; color: #111; }

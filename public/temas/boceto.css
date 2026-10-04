@@ -1,0 +1,162 @@
+/* Opción H · Boceto. Cuaderno de dibujo: papel blanco con puntos de lápiz, todo trazado a mano en tinta negra con bordes
+   que tiemblan un poco, títulos en Caveat y lectura en Inter. Sin color ni degradados; los emojis pasan a escala de grises.
+   Referencia: grug y las notas a mano de Blue Prince (Apple Design Awards 2026). */
+@font-face { font-family: "Caveat"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(../fuentes/caveat-latin-wght-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 100 900; font-display: swap; src: url(../fuentes/inter-latin-wght-normal.woff2) format("woff2"); }
+:root {
+  --fondo: #fbfbfa;
+  --lienzo: #ffffff;
+  --punto: rgba(0, 0, 0, .2);
+  --sup: #ffffff;
+  --sup-2: #f4f4f2;
+  --borde: #1a1a1a;
+  --borde-2: #1a1a1a;
+  --tinta: #1a1a1a;
+  --tinta-2: #4a4a48;
+  --tinta-3: #8a8a86;
+  --acento: #1a1a1a;
+  --acento-2: #000000;
+  --oro: #1a1a1a;
+  --oro-suave: #efefec;
+  --ia: #4a4a48;
+  --exito: #1a1a1a;
+  --c-prim: #6b6b68; --c-cot: #4a4a48; --c-fund: #5c5c59; --c-apr: #3a3a38; --c-met: #2e2e2c; --c-eva: #444442;
+  --c-dis: #555553; --c-tec: #3f3f3d; --c-mod: #505050; --c-mito: #1a1a1a; --c-sint: #1a1a1a;
+  --f-display: "Caveat", "Comic Sans MS", cursive;
+  --f-texto: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --sombra-1: none;
+  --sombra-2: 2px 3px 0 rgba(0, 0, 0, .14);
+  --sombra-3: 4px 6px 0 rgba(0, 0, 0, .16);
+  --mano: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  --mano-grande: 22px 8px 26px 10px / 10px 24px 8px 22px;
+  --trazo: 1.8px solid #1a1a1a;
+}
+.em, .emo, .em-svg, .esponja, .sello-meta { filter: grayscale(1) contrast(1.1); }
+h1, h2, h3 { letter-spacing: 0 !important; }
+::selection { background: #e6e6e3; }
+:focus-visible { outline: 2px dashed #1a1a1a; }
+
+.boton, .boton-papel { font-family: var(--f-display); font-size: 22px; font-weight: 700; border: var(--trazo); border-radius: var(--mano); box-shadow: 2px 3px 0 rgba(0, 0, 0, .14); padding: 6px 20px; background: #fff; }
+.boton:hover, .boton-papel:hover { transform: rotate(-1deg); box-shadow: 3px 4px 0 rgba(0, 0, 0, .2); border-color: #1a1a1a; }
+.boton.principal, .boton-papel.principal { background: #1a1a1a; color: #fff; box-shadow: 2px 3px 0 rgba(0, 0, 0, .25); }
+.boton.principal:hover, .boton-papel.principal:hover { background: #000; }
+.boton.grande { font-size: 25px; padding: 8px 26px; border-radius: var(--mano); }
+.enlace-btn { font-family: var(--f-display); font-size: 20px; text-decoration: underline wavy #1a1a1a; text-decoration-thickness: 1.5px; text-underline-offset: 5px; }
+
+.portada { background: var(--grilla) 0 0 / 22px 22px, var(--fondo); }
+.portada-antes { font-family: var(--f-display); font-size: 24px; font-weight: 600; letter-spacing: 0; text-transform: none; color: var(--tinta-2); transform: rotate(-2deg); }
+.titulo-tiza { font-weight: 700; font-size: clamp(76px, 12vw, 160px); line-height: .85; }
+.titulo-tiza span + span { font-style: normal; font-weight: 700; color: #1a1a1a; text-decoration: underline wavy #1a1a1a; text-decoration-thickness: 4px; text-underline-offset: 16px; }
+.portada-sub { font-size: 18px; color: var(--tinta-2); }
+.demo .d-mas { font-family: var(--f-display); font-size: 40px; color: #1a1a1a; }
+.demo .d-onda { border: 2px dashed #1a1a1a; }
+.portada-deco .ficha:nth-child(odd) { transform: rotate(-3deg); }
+.portada-deco .ficha:nth-child(even) { transform: rotate(2.5deg); }
+
+.juego { background: var(--fondo); }
+.cabecera { border-bottom: 1.5px dashed #1a1a1a; margin-bottom: 14px; }
+.logo { font-family: var(--f-display); font-size: 30px; font-weight: 700; }
+.logo svg { filter: grayscale(1); }
+.logo svg path[fill="#d4532a"] { fill: #fff; }
+.logo svg circle { fill: #1a1a1a; }
+.logo svg path[fill="#e0a01a"] { fill: #1a1a1a; }
+.mision-cab { border-left: 1.5px dashed #1a1a1a; }
+.mision-cab .nombre { font-family: var(--f-display); font-size: 24px; }
+.mision-cab .avance { height: 12px; border: var(--trazo); border-radius: var(--mano); background: #fff; }
+.mision-cab .avance i, .mision-carta .barrita i { background: repeating-linear-gradient(-55deg, #1a1a1a 0 2px, transparent 2px 6px); border-radius: 0; }
+.chispas, .contador { border: var(--trazo); border-radius: var(--mano); background: #fff; color: #1a1a1a; font-family: var(--f-display); font-size: 20px; }
+.chispas b { font-size: 21px; }
+.bandeja { border: var(--trazo); border-radius: var(--mano-grande); box-shadow: 3px 4px 0 rgba(0, 0, 0, .14); }
+.tiza-btn { font-family: var(--f-display); font-size: 22px; font-weight: 700; color: #1a1a1a; padding: 4px 14px; border-radius: var(--mano); }
+.tiza-btn:hover { background: var(--sup-2); }
+
+.hoja, .caja { border: var(--trazo); border-radius: var(--mano-grande); box-shadow: 3px 4px 0 rgba(0, 0, 0, .1); }
+.hoja h2, .caja-cab h2 { font-size: 30px; font-weight: 700; }
+.hoja h2 .em, .mision-carta .em { background: #fff; border: var(--trazo); border-radius: 50% 45% 52% 48% / 48% 52% 46% 54%; }
+.hoja h3, .fe-cuerpo h3 { font-family: var(--f-display); font-size: 22px; letter-spacing: 0; text-transform: none; color: #1a1a1a; font-weight: 700; }
+.hoja .objetivo { border: 1.5px dashed #1a1a1a; border-radius: var(--mano-grande); background: var(--sup-2); }
+.hoja .objetivo b { font-family: var(--f-display); font-size: 20px; letter-spacing: 0; text-transform: none; color: #1a1a1a; }
+.hoja .ver-mas { color: #1a1a1a; text-decoration: underline wavy; font-family: var(--f-display); font-size: 19px; }
+.pieza { border: 1.5px dashed #1a1a1a; border-radius: var(--mano-grande); background: #fff; }
+.pieza .silueta { border: 1.5px dashed #1a1a1a; color: #1a1a1a; font-family: var(--f-display); font-size: 22px; }
+.pieza.hito .silueta { border: 2px solid #1a1a1a; background: #fff; color: #1a1a1a; }
+.pieza .comprar { color: #1a1a1a; font-family: var(--f-display); font-size: 18px; text-decoration: underline; }
+.mini { border: 1.5px solid #1a1a1a; border-radius: var(--mano); }
+.mini .em { background: transparent; }
+.caja-herr input { border: var(--trazo); border-radius: var(--mano); background-color: #fff; }
+.caja-herr input:focus { border-color: #1a1a1a; box-shadow: 2px 3px 0 rgba(0, 0, 0, .14); }
+.caja-herr .icono { border: var(--trazo); border-radius: var(--mano); background: #fff; }
+
+.pizarra { border: var(--trazo); border-radius: var(--mano-grande); box-shadow: none; background: var(--grilla) 0 0 / 22px 22px, var(--lienzo); }
+.pizarra-nota { font-family: var(--f-display); font-style: normal; font-size: 30px; color: var(--tinta-3); }
+.ficha, .chip { border: var(--trazo); border-radius: var(--mano); box-shadow: 2px 3px 0 rgba(0, 0, 0, .12); font-family: var(--f-display); font-weight: 700; color: #1a1a1a; background: #fff; }
+.ficha { font-size: 23px; padding: 3px 16px 3px 6px; }
+.chip { font-size: 19px; padding: 1px 12px 1px 4px; }
+.ficha .em, .chip .em { background: transparent; border: 1.5px solid #1a1a1a; border-radius: 50% 45% 52% 48% / 48% 52% 46% 54%; }
+.ficha:nth-child(3n) { rotate: -1.2deg; } .ficha:nth-child(3n+1) { rotate: .8deg; }
+.ficha:hover { box-shadow: 3px 5px 0 rgba(0, 0, 0, .18); }
+.chip:hover { transform: rotate(-1.5deg); box-shadow: 3px 4px 0 rgba(0, 0, 0, .16); }
+.ficha.f-prim, .ficha.f-sint { background: #fff; }
+.ficha.f-sint { border-width: 2.6px; }
+.ficha.mito, .chip.mito { border-style: dashed; }
+.ficha.arrastrando { transform: scale(1.06) rotate(-3deg); box-shadow: 5px 8px 0 rgba(0, 0, 0, .18); }
+.ficha.objetivo { border-color: #1a1a1a; box-shadow: 0 0 0 3px #fff, 0 0 0 5px #1a1a1a; transform: scale(1.06); }
+.ficha.objetivo::before { background: #1a1a1a; color: #fff; font-family: var(--f-texto); }
+.ficha.senalada, .chip.senalada { animation: none; outline: 2px dashed #1a1a1a; outline-offset: 4px; }
+.ficha.agotada, .chip.agotada { opacity: .4; }
+.onda-mezcla { border-color: #1a1a1a !important; }
+
+.capa { background: rgba(250, 250, 248, .72); backdrop-filter: grayscale(1) blur(2px); -webkit-backdrop-filter: grayscale(1) blur(2px); }
+.ficha-estudio, .panel-tiza, .plano-marco { border: 2px solid #1a1a1a; border-radius: var(--mano-grande); box-shadow: 6px 8px 0 rgba(0, 0, 0, .14); }
+.fe-cab { background: #fff; border-bottom: 1.5px dashed #1a1a1a; }
+.fe-ceja { font-family: var(--f-display); font-size: 18px; letter-spacing: 0; text-transform: none; font-weight: 700; }
+.fe-ceja > span { border: 1.5px solid #1a1a1a; border-radius: var(--mano); background: #fff; color: #1a1a1a; }
+.fe-ceja .fam, .fe-ceja .nuevo { background: #1a1a1a; color: #fff; }
+.fe-pieza { color: #1a1a1a !important; background: #fff !important; border-color: #1a1a1a !important; }
+.fe-titulo, .panel-tiza h2 { font-size: 46px; font-weight: 700; }
+.fe-titulo .em { border: var(--trazo); border-radius: 50% 45% 52% 48% / 48% 52% 46% 54%; box-shadow: none; }
+.fe-cerrar { border: var(--trazo); box-shadow: none; color: #1a1a1a; }
+.fe-cuerpo p, .fe-principios { color: #1a1a1a; }
+.fe-cita { border-left: 0; padding-left: 0; }
+.fe-cita p { font-family: var(--f-display); font-style: normal; font-size: 27px; line-height: 1.2; }
+.fe-cita p::before { content: "✎ "; }
+.fe-aula, .fe-prueba, .fe-aviso { background: var(--sup-2); border: 1.5px dashed #1a1a1a; border-radius: var(--mano-grande); color: #1a1a1a !important; }
+.fe-camino { border: 1.5px dashed #1a1a1a; border-radius: var(--mano-grande); background: #fff; }
+.fe-mito { border-color: #1a1a1a; color: #1a1a1a; font-family: var(--f-display); font-size: 26px; }
+.alterna { border: var(--trazo); border-radius: var(--mano); font-family: var(--f-display); font-size: 19px; font-weight: 700; }
+.alterna[aria-pressed="true"] { background: #1a1a1a; color: #fff; }
+.panel-tiza > .etiqueta { font-family: var(--f-display); font-size: 20px; letter-spacing: 0; text-transform: none; color: #1a1a1a; }
+.mision-carta { border: var(--trazo); border-radius: var(--mano-grande); box-shadow: 2px 3px 0 rgba(0, 0, 0, .1); }
+.mision-carta:hover { transform: rotate(-.6deg); border-color: #1a1a1a; box-shadow: 3px 5px 0 rgba(0, 0, 0, .16); }
+.mision-carta h3 { font-size: 27px; }
+.mision-carta .meta-dato { border-top: 1.5px dashed #1a1a1a; }
+.mision-carta .barrita { border: 1.5px solid #1a1a1a; height: 9px; background: #fff; }
+.mision-carta .sello { border: 1.5px solid #1a1a1a; background: #fff; color: #1a1a1a; font-family: var(--f-display); font-size: 18px; letter-spacing: 0; text-transform: none; transform: rotate(6deg); }
+.mision-carta .dificultad { border: 1.5px solid #1a1a1a; background: #fff; color: #1a1a1a; border-radius: var(--mano); }
+.mision-carta.activa { box-shadow: 0 0 0 3px #fff, 0 0 0 5px #1a1a1a; }
+.hueco { border: 1.5px dashed #1a1a1a; border-radius: var(--mano); }
+.plano-cab { background: #fff; border-bottom: 1.5px dashed #1a1a1a; }
+.plano-cab h2, .plano-pista h3 { font-size: 32px; }
+.plano-pista { border: var(--trazo); border-radius: var(--mano-grande); box-shadow: 4px 6px 0 rgba(0, 0, 0, .14); }
+.leyenda .l-ok { background: #fff; border-color: #1a1a1a; }
+.arista { stroke: #1a1a1a; opacity: .35; }
+.arista.ok { stroke: #1a1a1a; stroke-width: 1.8; opacity: 1; }
+.arista.frontera { stroke: #1a1a1a; opacity: .7; }
+.nodo .disco { stroke: #1a1a1a; }
+.nodo.logrado .disco { fill: #fff; stroke: #1a1a1a; stroke-width: 2; }
+.nodo.alcance .disco { fill: #fff; stroke: #1a1a1a; }
+.nodo .halo { stroke: #1a1a1a; }
+.nodo .lab { font-family: var(--f-display); font-size: 17px; }
+.nodo.hito .signo, .nodo.meta .signo { fill: #1a1a1a; }
+.celebracion { background: rgba(251, 251, 250, .95); backdrop-filter: none; }
+.celebracion h1 em { font-style: normal; color: #1a1a1a; text-decoration: underline wavy; text-decoration-thickness: 3px; }
+.celebracion .sello-meta { background: #fff; border: 2px solid #1a1a1a; border-radius: 50% 45% 52% 48% / 48% 52% 46% 54%; box-shadow: 3px 5px 0 rgba(0, 0, 0, .14); }
+.celebracion .plano-mini { border: var(--trazo); border-radius: var(--mano-grande); }
+.aviso { border-radius: var(--mano-grande); background: #1a1a1a; }
+.aviso::before { background: #fff; }
+.aviso b { font-family: var(--f-display); font-size: 22px; }
+.coach { border-radius: var(--mano-grande); background: #1a1a1a; font-family: var(--f-display); font-size: 22px; }
+.coach small { color: #fff; font-family: var(--f-texto); }
+.coach .flecha { background: #fff; color: #1a1a1a; }
+.portada-sub { margin-top: 18px; }
+.tiza-btn span, .chispas, #btnSonido, .pieza .comprar, .hoja .logrado, .caja-otras { filter: grayscale(1); }

@@ -1,0 +1,111 @@
+/* Opción D · Aurora. Paneles de vidrio esmerilado sobre una aurora de violeta, rosa, cian y ámbar que se mueve lento en la
+   portada. Plus Jakarta Sans, botones en degradado y fichas blancas con sombra de color. */
+@font-face { font-family: "Plus Jakarta Sans"; font-style: normal; font-weight: 200 800; font-display: swap; src: url(../fuentes/plus-jakarta-sans-latin-wght-normal.woff2) format("woff2"); }
+:root {
+  --fondo: #f3f0ff;
+  --lienzo: rgba(255, 255, 255, .42);
+  --punto: rgba(76, 29, 149, .13);
+  --sup: #ffffff;
+  --sup-2: #f6f3ff;
+  --borde: #e6e0fa;
+  --borde-2: #d3caf3;
+  --tinta: #1b1340;
+  --tinta-2: #5b5480;
+  --tinta-3: #8e88ad;
+  --acento: #7c3aed;
+  --acento-2: #6d28d9;
+  --oro: #f59e0b;
+  --oro-suave: #fff3dc;
+  --ia: #a855f7;
+  --exito: #059669;
+  --c-prim: #94a3b8; --c-cot: #fb923c; --c-fund: #b7791f; --c-apr: #10b981; --c-met: #f43f5e; --c-eva: #d946ef;
+  --c-dis: #06b6d4; --c-tec: #8b5cf6; --c-mod: #3b82f6; --c-mito: #ef4444; --c-sint: #eab308;
+  --f-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --f-texto: "Plus Jakarta Sans", system-ui, sans-serif;
+  --sombra-1: 0 2px 6px rgba(76, 29, 149, .06), 0 8px 24px rgba(76, 29, 149, .06);
+  --sombra-2: 0 6px 16px rgba(76, 29, 149, .10), 0 18px 40px rgba(76, 29, 149, .12);
+  --sombra-3: 0 20px 50px rgba(46, 16, 101, .22), 0 50px 120px rgba(46, 16, 101, .22);
+  --vidrio: rgba(255, 255, 255, .55);
+  --vidrio-borde: rgba(255, 255, 255, .75);
+  --degradado: linear-gradient(120deg, #7c3aed, #c026d3 55%, #f43f5e);
+  --aurora: radial-gradient(ellipse 45% 50% at 12% 18%, rgba(167, 139, 250, .75), transparent 70%), radial-gradient(ellipse 40% 45% at 88% 12%, rgba(244, 114, 182, .6), transparent 70%), radial-gradient(ellipse 50% 50% at 85% 88%, rgba(34, 211, 238, .55), transparent 70%), radial-gradient(ellipse 45% 40% at 15% 92%, rgba(253, 186, 116, .55), transparent 70%), #f3f0ff;
+}
+h1, h2, h3, .logo { letter-spacing: -.03em !important; }
+.boton, .boton-papel { border-radius: 14px; border-color: var(--vidrio-borde); background: rgba(255, 255, 255, .7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); font-weight: 700; }
+.boton.principal, .boton-papel.principal { background: var(--degradado); border-color: transparent; box-shadow: 0 10px 28px rgba(192, 38, 211, .35), inset 0 1px 0 rgba(255, 255, 255, .35); }
+.boton.principal:hover, .boton-papel.principal:hover { background: var(--degradado); filter: brightness(1.08); }
+.boton.grande { border-radius: 16px; }
+.enlace-btn { text-decoration-color: rgba(124, 58, 237, .45); }
+
+/* portada: la aurora respira */
+.portada { background: #f3f0ff; }
+.portada::before, .portada::after { content: ""; position: absolute; width: 70vmax; height: 70vmax; border-radius: 50%; filter: blur(80px); opacity: .75; pointer-events: none; }
+.portada::before { left: -20vmax; top: -25vmax; background: radial-gradient(circle, #a78bfa, #f472b6 55%, transparent 70%); animation: deriva 18s ease-in-out infinite alternate; }
+.portada::after { right: -25vmax; bottom: -30vmax; background: radial-gradient(circle, #22d3ee, #fbbf24 55%, transparent 70%); animation: deriva 22s ease-in-out -6s infinite alternate-reverse; }
+@keyframes deriva { to { transform: translate(14vmax, 10vmax) scale(1.15); } }
+.portada-centro { z-index: 1; padding: 44px 56px; border-radius: 36px; background: rgba(255, 255, 255, .38); border: 1px solid var(--vidrio-borde); backdrop-filter: blur(28px) saturate(160%); -webkit-backdrop-filter: blur(28px) saturate(160%); box-shadow: 0 30px 80px rgba(76, 29, 149, .15); }
+.portada-deco { z-index: 1; }
+.portada-antes { color: var(--acento); letter-spacing: .18em; }
+.titulo-tiza { font-weight: 800; letter-spacing: -.055em; }
+.titulo-tiza span + span { font-style: normal; font-weight: 800; color: transparent; background: var(--degradado); -webkit-background-clip: text; background-clip: text; padding-right: .04em; }
+.portada-sub { color: var(--tinta-2); }
+
+/* juego: aurora quieta detrás de paneles de vidrio */
+.juego { background: var(--aurora); }
+.cabecera { margin-bottom: 12px; }
+.logo { font-weight: 800; }
+.logo svg path[fill="#d4532a"] { fill: #c026d3; }
+.logo svg path[stroke="#1c2130"] { stroke: var(--tinta); }
+.logo svg path[fill="#e0a01a"] { fill: #f59e0b; }
+.mision-cab { border-left-color: rgba(27, 19, 64, .15); }
+.mision-cab .avance { background: rgba(255, 255, 255, .6); height: 8px; }
+.mision-cab .avance i, .mision-carta .barrita i { background: var(--degradado); }
+.chispas { background: linear-gradient(120deg, #fde68a, #fdba74); color: #7c2d12; border-color: transparent; box-shadow: 0 4px 14px rgba(245, 158, 11, .3); }
+.contador { background: var(--vidrio); border-color: var(--vidrio-borde); }
+.hoja, .caja, .bandeja { background: var(--vidrio); border: 1px solid var(--vidrio-borde); backdrop-filter: blur(24px) saturate(160%); -webkit-backdrop-filter: blur(24px) saturate(160%); box-shadow: var(--sombra-1); }
+.hoja, .caja { border-radius: 24px; }
+.bandeja { border-radius: 20px; box-shadow: var(--sombra-2); }
+.tiza-btn { font-weight: 650; color: var(--tinta); border-radius: 13px; }
+.tiza-btn:hover { background: rgba(255, 255, 255, .8); }
+.hoja h2, .caja-cab h2 { font-weight: 800; }
+.hoja h2 .em, .mision-carta .em { background: linear-gradient(135deg, #ede9fe, #fce7f3); border-radius: 14px; }
+.hoja .objetivo { background: rgba(255, 255, 255, .7); border-color: var(--vidrio-borde); }
+.hoja .objetivo b { background: var(--degradado); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.pieza { background: rgba(255, 255, 255, .55); border: 1px solid var(--vidrio-borde); }
+.pieza .comprar { color: #b45309; }
+.caja-herr input, .caja-herr .icono { background-color: rgba(255, 255, 255, .7); border-color: var(--vidrio-borde); }
+.pizarra { border: 1px solid var(--vidrio-borde); border-radius: 26px; backdrop-filter: blur(20px) saturate(150%); -webkit-backdrop-filter: blur(20px) saturate(150%); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .8), var(--sombra-1); }
+.pizarra-nota { font-style: normal; font-weight: 700; letter-spacing: -.03em; }
+.ficha, .chip { border-color: rgba(255, 255, 255, .9); box-shadow: 0 4px 14px color-mix(in srgb, var(--c, var(--acento)) 18%, transparent), 0 1px 2px rgba(27, 19, 64, .06); font-weight: 700; }
+.ficha { border-radius: 16px; }
+.ficha .em, .chip .em { background: linear-gradient(135deg, color-mix(in srgb, var(--c, var(--tinta-3)) 28%, var(--sup)), color-mix(in srgb, var(--c, var(--tinta-3)) 8%, var(--sup))); border-radius: 11px; }
+.ficha:hover, .chip:hover { box-shadow: 0 10px 26px color-mix(in srgb, var(--c, var(--acento)) 30%, transparent); }
+.ficha.f-prim { background: var(--sup); }
+.ficha.f-sint { background: linear-gradient(135deg, #fff7d6, #ffe4f0); }
+.ficha.arrastrando { box-shadow: 0 24px 50px color-mix(in srgb, var(--c, var(--acento)) 40%, transparent); }
+.ficha.objetivo { border-color: #c026d3; box-shadow: 0 0 0 3px #c026d3, 0 0 30px rgba(192, 38, 211, .45); }
+.ficha.objetivo::before { background: var(--degradado); }
+
+.capa { background: rgba(46, 16, 101, .22); backdrop-filter: blur(14px) saturate(140%); -webkit-backdrop-filter: blur(14px) saturate(140%); }
+.ficha-estudio, .panel-tiza, .plano-marco { border-radius: 28px; border: 1px solid var(--vidrio-borde); }
+.panel-tiza { background: rgba(255, 255, 255, .86); backdrop-filter: blur(30px); -webkit-backdrop-filter: blur(30px); }
+.fe-cab { background: radial-gradient(ellipse 70% 140% at 0% 0%, color-mix(in srgb, var(--c) 28%, transparent), transparent 70%), radial-gradient(ellipse 60% 120% at 100% 0%, rgba(244, 114, 182, .18), transparent 70%), var(--sup); }
+.fe-titulo, .panel-tiza h2 { font-weight: 800; letter-spacing: -.04em; }
+.fe-cita p { font-style: normal; font-weight: 600; }
+.fe-cuerpo p, .fe-principios { color: #2a2250; }
+.alterna[aria-pressed="true"] { background: var(--degradado); border-color: transparent; }
+.panel-tiza > .etiqueta { color: var(--acento); }
+.mision-carta { border-radius: 20px; border-color: transparent; background: linear-gradient(160deg, #ffffff, #f7f3ff); }
+.mision-carta:hover { box-shadow: 0 16px 40px rgba(124, 58, 237, .18); }
+.mision-carta h3 { font-weight: 800; letter-spacing: -.03em; }
+.mision-carta.activa { border-color: #c026d3; box-shadow: 0 0 0 2px #c026d3, 0 12px 30px rgba(192, 38, 211, .2); }
+.plano-marco { background: var(--grilla) 0 0 / 24px 24px, var(--aurora); }
+.plano-cab { background: rgba(255, 255, 255, .6); backdrop-filter: blur(20px); }
+.nodo .disco { fill: rgba(255, 255, 255, .85); }
+.nodo .lab { stroke: #f7f4ff; }
+.nodo.alcance .disco { fill: #fffbeb; }
+.celebracion { background: rgba(243, 240, 255, .8); backdrop-filter: blur(24px) saturate(160%); }
+.celebracion h1 em { font-style: normal; background: var(--degradado); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.aviso { background: rgba(27, 19, 64, .88); backdrop-filter: blur(16px); }
+.coach { background: rgba(27, 19, 64, .9); backdrop-filter: blur(16px); }
+.coach .flecha { background: var(--degradado); color: #fff; }

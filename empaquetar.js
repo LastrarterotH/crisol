@@ -1,16 +1,19 @@
 // Empaqueta el juego en un único archivo HTML que funciona sin conexión y sin servidor:
 // código, estilos, tipografías y datos quedan dentro del archivo.
 // Uso: node empaquetar.js  (antes: node construir.js)
+//      node empaquetar.js --tema=cristal  agrega public/temas/cristal.css y sale en dist/opciones/.
 const fs = require("fs");
 const path = require("path");
 const esbuild = require("esbuild");
 
 const P = (...r) => path.join(__dirname, "public", ...r);
-const SALIDA = path.join(__dirname, "dist", "Alquimia-Docente.html");
+const TEMA = (process.argv.find(a => a.startsWith("--tema=")) || "").slice(7);
+const SALIDA = TEMA ? path.join(__dirname, "dist", "opciones", "Alquimia-Docente-" + TEMA + ".html") : path.join(__dirname, "dist", "Alquimia-Docente.html");
+const incrustar = css => css.replace(/url\((?:\.\.\/)?(fuentes\/[^)]+\.woff2)\)/g, (m, f) => "url(data:font/woff2;base64," + fs.readFileSync(P(f)).toString("base64") + ")");
 
 const js = esbuild.buildSync({ entryPoints: [P("js", "app.js")], bundle: true, format: "iife", target: "es2020", minify: true, write: false, legalComments: "none" }).outputFiles[0].text;
-const fuentes = fs.readFileSync(P("fuentes.css"), "utf8").replace(/url\((fuentes\/[^)]+\.woff2)\)/g, (m, f) => "url(data:font/woff2;base64," + fs.readFileSync(P(f)).toString("base64") + ")");
-const estilos = fs.readFileSync(P("estilos.css"), "utf8");
+const fuentes = incrustar(fs.readFileSync(P("fuentes.css"), "utf8"));
+const estilos = fs.readFileSync(P("estilos.css"), "utf8") + (TEMA ? "\n" + incrustar(fs.readFileSync(P("temas", TEMA + ".css"), "utf8")) : "");
 const datos = JSON.stringify(JSON.parse(fs.readFileSync(P("datos.json"), "utf8"))).replace(/</g, "\\u003c");
 const sinCierre = s => s.replace(/<\/(script|style)/gi, "<\\/$1");
 

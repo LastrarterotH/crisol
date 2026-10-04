@@ -9,7 +9,10 @@ import { emitir, on } from "./bus.js";
 import { abrirFicha } from "./ficha.js";
 import { misionActiva, recetaEnMision, recetaFuera, recetasMision, sirveEnMision, agotada } from "./reglas.js";
 
-export const COLOR = { prim: "#9a7432", cot: "#c27c1e", fund: "#8b5e3c", apr: "#23935f", met: "#db5a2a", eva: "#cf3f74", dis: "#13909a", tec: "#6a54d1", mod: "#2f74c9", mito: "#c23a2e", sint: "#d99a12" };
+// Colores de familia para las partículas: se leen del tema activo (--c-*) y estos quedan de respaldo.
+export const COLOR = new Proxy({ prim: "#9a7432", cot: "#c27c1e", fund: "#8b5e3c", apr: "#23935f", met: "#db5a2a", eva: "#cf3f74", dis: "#13909a", tec: "#6a54d1", mod: "#2f74c9", mito: "#c23a2e", sint: "#d99a12" }, {
+  get: (o, k) => (typeof k === "string" && getComputedStyle(document.documentElement).getPropertyValue("--c-" + k).trim()) || o[k]
+});
 const pizarra = $("pizarra"), lista = $("cajaLista"), caja = $("caja"), buscar = $("buscar");
 let fichas = [];
 let z = 10;

@@ -16,7 +16,7 @@ function mostrar(pantalla) {
 
 /* ---------- Portada ---------- */
 const EJEMPLOS = [["mente", "mundo", "experiencia"], ["reflexion", "experiencia", "aprendizaje"], ["dialogo", "error", "retro"], ["herramienta", "saber", "tecnologia"], ["datos", "algoritmo", "aprendizaje_automatico"]];
-const fichaMuestra = (id, cls, estilo) => { const f = D.fichas[id]; return '<span class="ficha f-' + f.f + " " + cls + '"' + (estilo ? ' style="' + estilo + '"' : "") + '><span class="em">' + esc(f.e) + "</span><span>" + esc(f.n) + "</span></span>"; };
+const fichaMuestra = (id, cls, estilo) => { const f = D.fichas[id]; return '<span class="ficha f-' + f.f + " " + cls + '" data-id="' + esc(id) + '"' + (estilo ? ' style="' + estilo + '"' : "") + '><span class="em">' + esc(f.e) + "</span><span>" + esc(f.n) + "</span></span>"; };
 let demoI = 0;
 function pintarDemo() {
   const ok = EJEMPLOS.filter(([a, b, r]) => D.fichas[a] && D.fichas[b] && D.fichas[r] && D.recetas.some(x => x[2] === r && ((x[0] === a && x[1] === b) || (x[0] === b && x[1] === a))));

@@ -1,0 +1,129 @@
+/* Opción B · Grafito. Modo oscuro sobrio, al estilo de las herramientas de diseño actuales: negro azulado, superficies
+   apenas más claras, bordes de un pelo, Geist como única tipografía y un lavanda suave como acento. Descansa la vista en proyector. */
+@font-face { font-family: "Geist"; font-style: normal; font-weight: 100 900; font-display: swap; src: url(../fuentes/geist-latin-wght-normal.woff2) format("woff2"); }
+:root {
+  --fondo: #0c0d10;
+  --lienzo: #111317;
+  --punto: rgba(255, 255, 255, .075);
+  --sup: #17191e;
+  --sup-2: #1d2026;
+  --borde: #262a31;
+  --borde-2: #383c45;
+  --tinta: #ededf0;
+  --tinta-2: #a2a5ae;
+  --tinta-3: #6c707a;
+  --acento: #a5a6ff;
+  --acento-2: #8f90f5;
+  --sobre-acento: #0c0d10;
+  --sobre-tinta: #0c0d10;
+  --oro: #e6c36f;
+  --oro-suave: #29241a;
+  --ia: #c4a7ff;
+  --exito: #5fd39a;
+  --c-prim: #b9b2a3; --c-cot: #f0a35e; --c-fund: #c99d7c; --c-apr: #5fd39a; --c-met: #ff8a65; --c-eva: #f47ab0;
+  --c-dis: #4fd1d9; --c-tec: #a78bfa; --c-mod: #6aa8ff; --c-mito: #ff6b6b; --c-sint: #f2c94c;
+  --f-display: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-texto: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --sombra-1: 0 1px 2px rgba(0, 0, 0, .5);
+  --sombra-2: 0 8px 24px rgba(0, 0, 0, .45);
+  --sombra-3: 0 24px 80px rgba(0, 0, 0, .65), 0 0 0 1px rgba(255, 255, 255, .06);
+  color-scheme: dark;
+}
+body { letter-spacing: -.005em; }
+::selection { background: rgba(165, 166, 255, .3); }
+h1, h2, h3, .logo { letter-spacing: -.025em !important; }
+.icono:hover { background: rgba(255, 255, 255, .07); }
+
+.boton, .boton-papel { border-radius: 10px; background: var(--sup-2); border-color: var(--borde-2); box-shadow: none; font-weight: 550; }
+.boton:hover, .boton-papel:hover { transform: none; box-shadow: none; border-color: #4a4f5a; background: #23262d; }
+.boton.principal, .boton-papel.principal { box-shadow: 0 0 0 1px rgba(165, 166, 255, .4), 0 8px 30px rgba(165, 166, 255, .22); }
+.boton.principal:hover { background: #b8b9ff; border-color: #b8b9ff; }
+.boton.grande { border-radius: 12px; }
+.enlace-btn { color: var(--tinta-2); font-weight: 500; text-decoration-color: rgba(255, 255, 255, .25); text-decoration-thickness: 1px; }
+.enlace-btn:hover { color: var(--tinta); }
+
+/* portada: un resplandor arriba y la grilla de puntos que se apaga hacia los bordes */
+.portada { background: radial-gradient(ellipse 55% 45% at 50% -5%, rgba(165, 166, 255, .18), transparent 70%), radial-gradient(ellipse 40% 30% at 50% 105%, rgba(230, 195, 111, .07), transparent 70%), var(--fondo); }
+.portada::before { content: ""; position: absolute; inset: 0; background: var(--grilla) 0 0 / 24px 24px; -webkit-mask-image: radial-gradient(ellipse 60% 55% at 50% 45%, #000, transparent 75%); mask-image: radial-gradient(ellipse 60% 55% at 50% 45%, #000, transparent 75%); pointer-events: none; }
+.portada-antes { color: var(--tinta-3); font-weight: 500; letter-spacing: .22em; font-size: 12px; }
+.titulo-tiza { font-weight: 600; letter-spacing: -.055em; line-height: .95; }
+.titulo-tiza span:first-child { background: linear-gradient(180deg, #ffffff 30%, #9a9cab); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.titulo-tiza span + span { font-style: normal; font-weight: 250; color: var(--acento); }
+.portada-sub { color: var(--tinta-2); }
+.demo .d-mas { color: var(--tinta-3); font-weight: 300; }
+
+.cabecera { border-bottom: 1px solid var(--borde); margin-bottom: 14px; }
+.logo { font-weight: 600; font-size: 18px; }
+.logo svg path[fill="#d4532a"] { fill: var(--acento); }
+.logo svg circle { fill: #0c0d10; }
+.logo svg path[stroke="#1c2130"] { stroke: var(--tinta); }
+.logo svg path[fill="#e0a01a"] { fill: var(--oro); }
+.mision-cab { border-left-color: var(--borde); }
+.mision-cab .avance { height: 4px; background: rgba(255, 255, 255, .08); }
+.mision-cab .avance i, .mision-carta .barrita i { background: linear-gradient(90deg, #7c7df0, var(--acento)); box-shadow: 0 0 12px rgba(165, 166, 255, .5); }
+.chispas { background: var(--oro-suave); color: var(--oro); border-color: rgba(230, 195, 111, .25); }
+.contador { background: transparent; border-color: var(--borde); }
+.bandeja { background: rgba(23, 25, 30, .85); backdrop-filter: blur(16px); border-color: var(--borde); box-shadow: 0 12px 40px rgba(0, 0, 0, .5); border-radius: 14px; }
+.tiza-btn { color: var(--tinta-2); font-weight: 500; border-radius: 9px; }
+.tiza-btn:hover { background: rgba(255, 255, 255, .06); color: var(--tinta); }
+
+.hoja, .caja { box-shadow: none; border-radius: 14px; }
+.hoja h2, .caja-cab h2 { font-weight: 600; }
+.hoja h2 .em, .mision-carta .em { background: var(--sup-2); border: 1px solid var(--borde); border-radius: 10px; }
+.hoja h3, .fe-cuerpo h3 { color: var(--tinta-3); font-weight: 600; letter-spacing: .14em; font-size: 11px; }
+.hoja .objetivo { background: rgba(165, 166, 255, .07); border-color: rgba(165, 166, 255, .2); }
+.pieza { background: transparent; border-color: var(--borde-2); }
+.pieza.hito .silueta { color: var(--oro); }
+.pieza .comprar { color: var(--oro); font-weight: 550; }
+.mini { background: var(--sup-2); font-weight: 550; }
+.caja-herr input { background-color: var(--sup-2); }
+.caja-herr input:focus { background-color: var(--sup-2); }
+.caja-herr .icono { background: var(--sup-2); }
+
+.pizarra { box-shadow: inset 0 1px 0 rgba(255, 255, 255, .03); border-radius: 16px; }
+.pizarra-nota { font-style: normal; font-weight: 400; letter-spacing: -.02em; color: var(--tinta-3); }
+.ficha, .chip { background: var(--sup-2); border-color: color-mix(in srgb, var(--c, var(--tinta-3)) 22%, var(--borde-2)); box-shadow: 0 1px 0 rgba(255, 255, 255, .04) inset, 0 2px 6px rgba(0, 0, 0, .35); font-weight: 550; }
+.ficha:hover { box-shadow: 0 0 0 1px color-mix(in srgb, var(--c, var(--tinta-3)) 45%, transparent), 0 8px 24px rgba(0, 0, 0, .5); }
+.ficha .em, .chip .em { background: color-mix(in srgb, var(--c, var(--tinta-3)) 20%, var(--sup-2)); }
+.ficha.f-prim { background: var(--sup-2); }
+.ficha.f-sint { background: linear-gradient(180deg, #2a2618, #211e15); border-color: rgba(242, 201, 76, .45); }
+.ficha.arrastrando { box-shadow: 0 0 0 1px var(--acento), 0 20px 50px rgba(0, 0, 0, .6); transform: scale(1.05); }
+.ficha.objetivo { box-shadow: 0 0 0 2px var(--acento), 0 0 24px rgba(165, 166, 255, .45); }
+
+.capa { background: rgba(5, 6, 8, .6); backdrop-filter: blur(10px); }
+.ficha-estudio, .panel-tiza, .plano-marco { border-radius: 18px; border: 1px solid var(--borde); }
+.fe-cab { background: radial-gradient(ellipse 80% 120% at 0% 0%, color-mix(in srgb, var(--c) 16%, transparent), transparent 70%), var(--sup); }
+.fe-ceja > span { background: var(--sup-2); }
+.fe-ceja .fam { color: #0c0d10; }
+.fe-pieza { color: var(--oro) !important; }
+.fe-titulo, .panel-tiza h2 { font-weight: 600; letter-spacing: -.035em; }
+.fe-titulo .em { background: var(--sup-2); }
+.fe-cerrar { background: var(--sup-2); }
+.fe-cuerpo p, .fe-principios { color: #d4d5da; }
+.fe-cita p { font-style: normal; font-weight: 400; color: var(--tinta); }
+.fe-aula { background: rgba(79, 209, 217, .07); border-color: rgba(79, 209, 217, .2); color: #c9eef0 !important; }
+.fe-aviso { background: rgba(196, 167, 255, .06); }
+.fe-camino { background: var(--sup-2); }
+.fe-prueba { border-color: rgba(230, 195, 111, .25); color: #f0e2bd !important; }
+.alterna { background: var(--sup-2); font-weight: 500; }
+.panel-tiza > .etiqueta { color: var(--oro); }
+.mision-carta { background: var(--sup-2); box-shadow: none; border-radius: 14px; }
+.mision-carta:hover { border-color: #4a4f5a; box-shadow: 0 12px 30px rgba(0, 0, 0, .4); }
+.mision-carta .sello { background: rgba(95, 211, 154, .12); }
+.mision-carta .dificultad { background: var(--sup); }
+.mision-carta .barrita { background: rgba(255, 255, 255, .08); }
+.hueco { background: transparent; }
+.plano-cab { background: rgba(23, 25, 30, .85); }
+.nodo.alcance .disco { fill: var(--oro-suave); }
+.nodo.hito .signo, .nodo.meta .signo { fill: var(--oro); }
+.nodo:hover .disco { filter: drop-shadow(0 0 8px rgba(165, 166, 255, .35)); }
+.arista.ok { stroke: var(--c); opacity: .6; stroke-width: 2.2; }
+.celebracion { background: rgba(12, 13, 16, .9); }
+.celebracion h1 em { font-style: normal; font-weight: 250; }
+.celebracion .sello-meta { background: linear-gradient(180deg, #2a2618, #1d1a12); }
+.aviso { background: #1f2228; color: var(--tinta); border: 1px solid var(--borde-2); box-shadow: 0 16px 50px rgba(0, 0, 0, .6); }
+.aviso span { color: var(--tinta-2); }
+.aviso .boton-papel { background: var(--acento); border-color: var(--acento); color: #0c0d10; }
+.coach { background: #1f2228; color: var(--tinta); border: 1px solid var(--borde-2); }
+.coach small { color: var(--oro); }
+.coach .flecha { background: var(--acento); color: #0c0d10; }
