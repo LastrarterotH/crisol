@@ -1,0 +1,550 @@
+{
+  "fichas": {
+    "videollamada": {
+      "n": "Videollamada",
+      "e": "🎥",
+      "f": "tec",
+      "pista": "Rostros en recuadros, un micrófono que alguien olvida silenciar y una sala que existe mientras haya señal.",
+      "why": "Comunicación por audio y video en tiempo real entre personas que están en lugares distintos, mediada por internet. Es la base técnica de la sesión sincrónica, aunque hablar por videollamada no garantiza que haya diálogo. Bailenson (2021) propone que sus rasgos propios, como la mirada de cerca, verse a uno mismo todo el rato y moverse poco, aumentan el cansancio; es una propuesta teórica y no una medición hecha en aulas.",
+      "uni": "Antes de tu próxima clase por videollamada, decide qué harán las personas con la voz, el chat y el micrófono en cada bloque de la sesión.",
+      "refs": [
+        "bailenson21",
+        "hrastinski08"
+      ]
+    },
+    "zoom": {
+      "n": "Zoom",
+      "e": "🌏",
+      "f": "her",
+      "pista": "Plataforma de reuniones que reparte al grupo en habitaciones paralelas y lo reúne de nuevo con un clic.",
+      "why": "Servicio de videoconferencia de Zoom Communications, muy usado en educación superior desde 2020, que permite compartir pantalla, chatear, grabar y dividir al grupo en salas más pequeñas. La investigación no compara plataformas: el aprendizaje depende de lo que se pide hacer en la sesión (Hodges et al., 2020; Bailenson, 2021). Conviene revisar la privacidad y los límites de la licencia institucional. Meet y Teams ofrecen funciones parecidas, y Jitsi Meet es una alternativa de código abierto.",
+      "uni": "Divide a tu grupo en salas de cuatro personas durante ocho minutos con una consigna escrita y vuelve a la sala principal para escuchar un resultado por sala.",
+      "refs": [
+        "hodges20",
+        "bailenson21"
+      ]
+    },
+    "google_meet": {
+      "n": "Google Meet",
+      "e": "☎️",
+      "f": "her",
+      "pista": "Se entra con un enlace, normalmente desde el navegador, a veces pegado en la invitación de un calendario.",
+      "why": "Servicio de videoconferencia de Google, integrado con Calendar y Gmail, que permite compartir pantalla, chatear y, según la edición institucional, trabajar en subgrupos o grabar. La evidencia disponible se refiere a la sesión sincrónica en general: importa más la interacción con propósito que la plataforma (Hrastinski, 2008; Hodges et al., 2020). Las grabaciones, los subtítulos y las salas dependen de la edición que contrate tu universidad. Jitsi Meet es una alternativa libre.",
+      "uni": "Pega el enlace de la sesión en la invitación del calendario y envía antes de clase las dos preguntas que se trabajarán en vivo.",
+      "refs": [
+        "hrastinski08",
+        "hodges20"
+      ]
+    },
+    "microsoft_teams": {
+      "n": "Microsoft Teams",
+      "e": "🏪",
+      "f": "her",
+      "pista": "Un espacio por curso donde quedan conversaciones, archivos y reuniones, incluso cuando nadie está conectado.",
+      "why": "Plataforma de colaboración de Microsoft que combina chat por canales, reuniones por video, archivos compartidos y tareas. Aporta a la docencia un lugar donde la conversación continúa entre una clase y la siguiente. Una comunidad de indagación requiere presencia social, cognitiva y docente (Garrison et al., 2000), y la comunicación asincrónica da tiempo para pensar (Hrastinski, 2008). Se integra con Microsoft 365 y sus funciones varían según la licencia. Mattermost y Rocket.Chat son alternativas de código abierto para el chat.",
+      "uni": "Crea un canal por unidad del curso y pide que las dudas se escriban allí, para que otra persona del grupo pueda responder antes que tú.",
+      "refs": [
+        "garrison00",
+        "hrastinski08"
+      ]
+    },
+    "salas_pequenas": {
+      "n": "Salas de trabajo en subgrupos",
+      "e": "🛋️",
+      "f": "met",
+      "pista": "Un grupo grande se reparte de a cuatro en habitaciones virtuales y vuelve con algo que contar.",
+      "why": "Función de las plataformas de videollamada que divide al grupo en subgrupos pequeños, con una tarea breve, y luego los reúne para compartir. Es la versión en línea de las mesas del aula activa. El aprendizaje activo mejora el rendimiento frente a la exposición continua (Freeman et al., 2014), y con subgrupos cada persona tiene más ocasiones de hablar. Conviene dar una consigna con producto concreto y pasar por cada sala.",
+      "uni": "En una sesión de noventa minutos, abre tres veces las salas por seis minutos, con una pregunta y un producto escrito en un documento compartido.",
+      "refs": [
+        "freeman14",
+        "beichner07"
+      ]
+    },
+    "canal_de_curso": {
+      "n": "Canal del curso",
+      "e": "🐦",
+      "f": "mod",
+      "pista": "Una conversación que sigue abierta cuando termina la clase y a la que cualquiera del grupo puede entrar.",
+      "why": "Espacio persistente de chat, archivos y avisos asociado a un curso, como un canal de Teams. Siemens (2005) plantea que el aprendizaje en red se apoya en conexiones que se mantienen vivas, y Kop y Hill (2008) discuten si el conectivismo es una teoría propia. La comunicación asincrónica da tiempo para pensar la respuesta, y la sincrónica da sensación de presencia (Hrastinski, 2008). Un canal permite que esas conexiones existan entre sesiones.",
+      "uni": "Abre un canal de preguntas del curso y responde allí, en lugar de por mensajes privados, para que la respuesta le sirva a todo el grupo.",
+      "refs": [
+        "siemens05",
+        "kop08",
+        "hrastinski08"
+      ]
+    },
+    "una_tarea": {
+      "n": "Foco en una sola tarea",
+      "e": "☝️",
+      "f": "apr",
+      "pista": "Cerrar las otras pestañas para que la cabeza atienda solo lo que pasa en pantalla.",
+      "why": "Idea de que aprender requiere atención sostenida en una actividad, porque alternar entre tareas tiene costo cognitivo. En un experimento, estudiantes que hacían otras cosas en su laptop durante la clase aprendieron menos, y también quienes los veían desde asientos cercanos (Sana et al., 2013). Kirschner y De Bruyckere (2017) concluyen que la multitarea eficaz con contenido exigente carece de respaldo. En sesiones en vivo se facilita si cada minuto tiene una tarea a la que responder.",
+      "uni": "Pide por escrito que el chat se use solo para la pregunta del bloque y da un minuto de silencio para escribir antes de abrir el micrófono.",
+      "refs": [
+        "sana13",
+        "kirschner17"
+      ]
+    },
+    "sesion_con_foco": {
+      "n": "Sesión en vivo con foco",
+      "e": "🧘",
+      "f": "dis",
+      "pista": "Una clase por cámara donde cada bloque tiene un propósito y una tarea concreta para cada persona.",
+      "why": "Sesión sincrónica diseñada con un propósito: el tiempo en vivo se reserva para lo que necesita presencia, como discutir, resolver y preguntar, y se deja fuera lo que puede verse antes o después. Hodges et al. (2020) distinguen la enseñanza remota de emergencia, improvisada, de la educación en línea planificada. Una sesión con foco define qué hace cada persona en cada bloque y qué producto se espera.",
+      "uni": "Escribe para cada bloque de tu próxima sesión en vivo qué hará el grupo y qué producto entregará antes de pasar al siguiente.",
+      "refs": [
+        "hodges20",
+        "hrastinski08"
+      ]
+    },
+    "participacion_en_vivo": {
+      "n": "Participación en vivo",
+      "e": "🙌",
+      "f": "sint",
+      "pista": "Que hablen todos y no solo los tres de siempre, aunque la clase ocurra en recuadros de pantalla.",
+      "why": "La participación en una sesión por videollamada se diseña. Combina subgrupos con consigna, un canal que sigue abierto entre sesiones y acuerdos explícitos sobre cámaras y micrófonos. El aprendizaje activo supera a la exposición pura (Freeman et al., 2014), y las razones para apagar la cámara incluyen preocupaciones por la apariencia, el entorno del hogar y la conexión (Castelli y Sarvary, 2021).",
+      "principios": [
+        "Reparte el tiempo en vivo en subgrupos con consigna y producto, porque el aprendizaje activo supera a la exposición continua (Freeman et al., 2014).",
+        "Explica para qué sirve la cámara y no la exijas: las razones de los estudiantes incluyen apariencia, entorno del hogar y conexión (Castelli y Sarvary, 2021).",
+        "Mantén un canal abierto entre sesiones, porque una comunidad de indagación necesita presencia social, cognitiva y docente (Garrison et al., 2000).",
+        "Usa lo asincrónico para pensar la respuesta y lo sincrónico para sentirse acompañado (Hrastinski, 2008)."
+      ],
+      "prueba": "En tu próxima sesión, abre una vez las salas durante seis minutos con una pregunta y un producto en un documento compartido, y cuenta cuántas personas hablaron en comparación con la sesión anterior.",
+      "refs": [
+        "freeman14",
+        "castelli21",
+        "garrison00",
+        "hrastinski08"
+      ]
+    },
+    "sesion_disenada": {
+      "n": "Sesión sincrónica diseñada",
+      "e": "🕰️",
+      "f": "sint",
+      "pista": "Chat, voz y silencio tienen su turno, y la plataforma es apenas el lugar de reunión.",
+      "why": "Una sesión en vivo bien diseñada tiene un propósito claro, una tarea a la vez y una forma de comprobar cómo va el grupo, sea cual sea la plataforma. Hodges et al. (2020) separan la enseñanza remota de emergencia de la educación en línea planificada, y esa diferencia depende del diseño. Meet, Zoom o Teams sirven al diseño y no lo reemplazan.",
+      "principios": [
+        "Reserva el tiempo en vivo para lo que necesita presencia, como discutir, resolver y preguntar, y deja la exposición larga para antes o después (Hrastinski, 2008).",
+        "Pide una sola tarea a la vez: la atención dividida entre la clase y otras pestañas reduce el aprendizaje de quien lo hace y de quienes lo rodean (Sana et al., 2013).",
+        "Alterna actividades y deja pausas, porque la videollamada impone mirada de cerca, autoimagen constante y poca movilidad, según la propuesta teórica de Bailenson (2021).",
+        "Planifica la sesión desde sus objetivos en lugar de trasladar la clase presencial tal cual (Hodges et al., 2020)."
+      ],
+      "prueba": "En tu próxima sesión de noventa minutos, escribe en el guion qué hará el grupo en cada bloque, deja una pausa de cinco minutos y revisa al final qué parte pudo haberse hecho sin estar en vivo.",
+      "refs": [
+        "hodges20",
+        "hrastinski08",
+        "sana13",
+        "bailenson21"
+      ]
+    },
+    "cap_clase_viva": {
+      "n": "Clase en vivo por videollamada",
+      "e": "🔴",
+      "f": "sint",
+      "pista": "Treinta rectángulos negros se vuelven un grupo que conversa, y la plataforma pasa a segundo plano.",
+      "why": "Una clase en vivo por videollamada funciona cuando se diseña como sesión sincrónica con propósito y deja de ser una exposición trasladada a la pantalla. Reúne la participación en subgrupos y en un canal continuo con una sesión de foco único y bloques definidos. La plataforma, sea Zoom, Meet o Teams, aporta herramientas; el aprendizaje depende de lo que se pide hacer con ellas (Hodges et al., 2020; Freeman et al., 2014).",
+      "principios": [
+        "Distingue la emergencia del diseño: una sesión planificada parte de los objetivos y la plataforma se elige después (Hodges et al., 2020).",
+        "Haz que cada persona hable o escriba en cada bloque, porque los subgrupos con consigna superan a la escucha continua (Freeman et al., 2014).",
+        "Diseña una tarea por bloque para reducir las distracciones (Sana et al., 2013).",
+        "Sostén la comunidad entre sesiones con un canal del curso (Garrison et al., 2000).",
+        "Respeta las razones para apagar la cámara y ofrece otras formas de participar (Castelli y Sarvary, 2021)."
+      ],
+      "prueba": "Antes del lunes, rediseña una sesión en vivo con un propósito, tres bloques de una tarea cada uno, una apertura de salas y un mensaje en el canal del curso para después, y compara la participación con la sesión anterior.",
+      "refs": [
+        "hodges20",
+        "freeman14",
+        "sana13",
+        "garrison00",
+        "castelli21"
+      ]
+    },
+    "tarjetas_repaso": {
+      "n": "Tarjetas de repaso",
+      "e": "💳",
+      "f": "apr",
+      "pista": "Pregunta por un lado, respuesta por el otro, y la mano tapando la solución antes de mirar.",
+      "why": "Material de autoevaluación con un estímulo de un lado y la respuesta del otro, en papel o en una aplicación. Su valor viene de la práctica de recuperación: intentar recordar antes de mirar mejora la retención más que releer (Roediger y Karpicke, 2006; Dunlosky et al., 2013). Kornell (2009) encontró que repartir las tarjetas en varias sesiones rinde más que concentrarlas en una. Conviene que pidan más que definiciones aisladas.",
+      "uni": "Pide a tu grupo escribir diez tarjetas con preguntas que respondería en el examen, ensayarlas el viernes y repetirlas el martes siguiente.",
+      "refs": [
+        "roediger06",
+        "dunlosky13",
+        "kornell09"
+      ]
+    },
+    "quizlet": {
+      "n": "Quizlet",
+      "e": "🍧",
+      "f": "her",
+      "pista": "Mazos de tarjetas que se comparten por enlace y que, además de repasarse, se juegan como un memorama.",
+      "why": "Plataforma en línea para crear, compartir y estudiar conjuntos de tarjetas con modos de práctica, como pruebas y juegos de emparejar. Tiene una gran biblioteca de mazos hechos por otras personas, de calidad desigual, por lo que conviene que los estudiantes elaboren los suyos. Estudiar con tarjetas rinde cuando implica recuperar la respuesta (Dunlosky et al., 2013); los juegos motivan y no reemplazan el esfuerzo de recordar. Algunas funciones son de pago. Anki es una alternativa de código abierto.",
+      "uni": "Pide que cada equipo cree un mazo de una unidad y que interrogue a otro equipo con sus tarjetas antes de mirar las respuestas.",
+      "refs": [
+        "dunlosky13",
+        "kornell09"
+      ]
+    },
+    "anki": {
+      "n": "Anki",
+      "e": "⭐",
+      "f": "her",
+      "pista": "Tarjetas que deciden solas cuál te toca repasar hoy, según cuánto te costó la última vez.",
+      "why": "Programa de código abierto para escritorio, con aplicaciones móviles, que programa el repaso de las tarjetas con repetición espaciada: lo que recuerdas con facilidad reaparece más tarde y lo difícil vuelve pronto. Repartir el estudio mejora la retención frente a concentrarlo (Cepeda et al., 2006; Kornell, 2009). Exige hábito casi diario y algo de tiempo para configurarlo. Algunas versiones móviles son de pago.",
+      "uni": "Pide a quienes cursan Anatomía o Farmacología que creen un mazo por semana y lo revisen cinco minutos al día, sin acumular los repasos para el fin de semana.",
+      "refs": [
+        "cepeda06",
+        "kornell09"
+      ]
+    },
+    "google_calendar": {
+      "n": "Google Calendar",
+      "e": "📆",
+      "f": "her",
+      "pista": "Cuadrícula donde el estudio se agenda con hora, como una cita, y avisa antes de empezar.",
+      "why": "Calendario en línea de Google que permite programar eventos, recordatorios y repeticiones, y compartirlos con otras personas. Decidir cuándo y dónde se hará una tarea, lo que Gollwitzer (1999) llama intención de implementación, ayuda a cumplir lo que uno se propone. Los metaanálisis sobre gestión del tiempo muestran asociaciones positivas, pero modestas, con el desempeño académico (Aeon et al., 2021). Requiere una cuenta de Google; Thunderbird y Nextcloud ofrecen alternativas libres.",
+      "uni": "Pide al grupo reservar en el calendario tres bloques de estudio de la semana, con día, hora y la unidad que repasarán.",
+      "refs": [
+        "gollwitzer99",
+        "aeon21"
+      ]
+    },
+    "plan_estudio": {
+      "n": "Plan de estudio",
+      "e": "🕐",
+      "f": "apr",
+      "pista": "Un calendario con fechas de repaso repartidas desde semanas antes del examen, y ninguna maratón final.",
+      "why": "Distribución del estudio de una asignatura en bloques con fecha, hora y tarea concretas, repartidos en las semanas previas a la evaluación. Une dos hallazgos: estudiar de forma distribuida rinde más que concentrar (Cepeda et al., 2006) y la gestión del tiempo se asocia de forma modesta con el desempeño (Aeon et al., 2021). Britton y Tesser (1991) hallaron que la planificación de corto alcance se asociaba con mejores promedios universitarios.",
+      "uni": "Entrega un calendario en blanco de las cuatro semanas previas al parcial y pide que cada persona ponga sus bloques de estudio con tema y fecha.",
+      "refs": [
+        "cepeda06",
+        "aeon21",
+        "britton91"
+      ]
+    },
+    "esfuerzo_estrategico": {
+      "n": "Esfuerzo con estrategia",
+      "e": "🥋",
+      "f": "apr",
+      "pista": "Creer que se puede mejorar vale poco si el método sigue siendo pasar el marcador.",
+      "why": "Combina dos ideas: creer que la capacidad se desarrolla y elegir estrategias que lo logren. Dweck (2006) describe la mentalidad de crecimiento como esa creencia, y los metaanálisis encuentran efectos pequeños sobre el rendimiento cuando se la trabaja sola (Sisk et al., 2018). Dunlosky et al. (2013) muestran qué técnicas de estudio rinden más: la práctica de recuperación y la distribuida, por encima de releer o subrayar.",
+      "uni": "Pide a tu grupo que cuente cuánto estudió y con qué método, y propón cambiar una sesión de relectura por una de preguntas sin apuntes.",
+      "refs": [
+        "sisk18",
+        "dweck06",
+        "dunlosky13"
+      ]
+    },
+    "repaso_consolidado": {
+      "n": "Repaso que consolida",
+      "e": "🥞",
+      "f": "sint",
+      "pista": "Tarjetas que vuelven justo cuando estás por olvidarlas y una noche entera de cama antes del examen.",
+      "why": "Combina la repetición espaciada de tarjetas con el sueño que consolida lo aprendido. Los repasos programados reparten el esfuerzo en el tiempo (Cepeda et al., 2006), y el sueño favorece la consolidación de la memoria (Diekelmann y Born, 2010). Entre universitarios, dormir más y de forma regular se asoció con mejores notas (Okano et al., 2019), aunque esa evidencia es correlacional.",
+      "principios": [
+        "Repasa con tarjetas que obliguen a recordar antes de mirar la respuesta (Roediger y Karpicke, 2006).",
+        "Reparte los repasos en varios días, con intervalos que crezcan, en lugar de concentrarlos (Cepeda et al., 2006).",
+        "Cuida las horas de sueño después de estudiar, porque durante el sueño se consolida lo aprendido (Diekelmann y Born, 2010).",
+        "Prefiere dormir con regularidad a trasnochar la víspera: la duración y la regularidad del sueño se asociaron con mejores notas en universitarios (Okano et al., 2019)."
+      ],
+      "prueba": "Durante dos semanas, pide a un grupo que repase un mazo de Anki cinco minutos al día y que duerma sus horas la noche previa al parcial, y compara su resultado con el de quienes solo releyeron.",
+      "refs": [
+        "roediger06",
+        "cepeda06",
+        "diekelmann10",
+        "okano19"
+      ]
+    },
+    "plan_sostenido": {
+      "n": "Plan de estudio que se sostiene",
+      "e": "🛌",
+      "f": "sint",
+      "pista": "Repasos agendados con semanas de anticipación y una creencia razonable de que el método cambia los resultados.",
+      "why": "Une la planificación del estudio con la creencia de que la capacidad se desarrolla, siempre que el método sea adecuado. La planificación de corto alcance se asoció con mejores notas (Britton y Tesser, 1991), y la procrastinación se relaciona con peor desempeño (Steel, 2007). Una intención concreta, con día y hora, ayuda a cumplir lo propuesto (Gollwitzer, 1999). La mentalidad de crecimiento aporta poco por sí sola (Sisk et al., 2018).",
+      "principios": [
+        "Agenda los bloques de estudio con día, hora y tarea, porque las intenciones concretas se cumplen más que las generales (Gollwitzer, 1999).",
+        "Planifica semana a semana: la planificación de corto alcance fue la que se asoció con mejores promedios (Britton y Tesser, 1991).",
+        "Divide la tarea grande en bloques pequeños y empieza por uno corto, porque la procrastinación se relaciona con tareas aversivas y baja confianza (Steel, 2007).",
+        "Espera efectos modestos de la gestión del tiempo y combínala con técnicas de estudio eficaces (Aeon et al., 2021).",
+        "Explica que el esfuerzo rinde con método, porque la mentalidad de crecimiento sola tiene efectos pequeños (Sisk et al., 2018)."
+      ],
+      "prueba": "Pide a tu grupo que agende en su calendario cuatro bloques de estudio para el siguiente parcial y que, antes de cada uno, escriba el tema y la técnica que usará; revisa en clase cuántos bloques se cumplieron.",
+      "refs": [
+        "gollwitzer99",
+        "britton91",
+        "steel07",
+        "aeon21",
+        "sisk18"
+      ]
+    },
+    "cap_estudiar": {
+      "n": "Enseñar a estudiar",
+      "e": "🍎",
+      "f": "sint",
+      "pista": "Cambiar el marcador y la noche en vela por tarjetas con fecha de repaso y sueño a su hora.",
+      "why": "Enseñar a estudiar es mostrar a los estudiantes las estrategias que tienen respaldo y ayudarles a ponerlas en un calendario. La práctica de recuperación y la distribuida superan a releer y subrayar (Dunlosky et al., 2013), y el sueño consolida lo estudiado (Diekelmann y Born, 2010). Muchos estudiantes no las usan por su cuenta (Karpicke et al., 2009; Hartwig y Dunlosky, 2012).",
+      "principios": [
+        "Sustituye la relectura por tarjetas y preguntas sin apuntes, porque recordar activamente rinde más que releer (Dunlosky et al., 2013).",
+        "Habla de método con tu grupo: la relectura es la estrategia más frecuente entre universitarios, aunque rinde menos (Karpicke et al., 2009).",
+        "Pon el repaso en el calendario, porque quienes se autoevalúan y programan su estudio obtienen mejores resultados (Hartwig y Dunlosky, 2012).",
+        "Protege el sueño antes de las evaluaciones, porque la consolidación ocurre mientras se duerme (Diekelmann y Born, 2010).",
+        "Espera efectos modestos de la mentalidad por sí sola y combínala con técnicas eficaces (Sisk et al., 2018)."
+      ],
+      "prueba": "Con un grupo de primer año, dedica veinte minutos de la próxima clase a que cada persona arme su calendario de repaso del parcial, con tarjetas hechas en Anki o Quizlet y una hora de dormir, y revisa a las dos semanas cuántas lo cumplieron.",
+      "refs": [
+        "dunlosky13",
+        "diekelmann10",
+        "karpicke09",
+        "hartwig12",
+        "sisk18"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "internet",
+      "b": "dialogo",
+      "r": "videollamada",
+      "nota": "Internet lleva la conversación a donde esté cada persona, y el diálogo es lo que da sentido a la imagen y al sonido."
+    },
+    {
+      "a": "videollamada",
+      "b": "grupo",
+      "r": "zoom",
+      "nota": "La videollamada reúne a un grupo; Zoom agrega la posibilidad de partirlo en subgrupos y volver a reunirlo."
+    },
+    {
+      "a": "videollamada",
+      "b": "sincronico",
+      "r": "google_meet",
+      "nota": "Una sesión sincrónica necesita un lugar donde coincidir; Meet lo ofrece mediante un enlace o una invitación."
+    },
+    {
+      "a": "videollamada",
+      "b": "comunidad",
+      "r": "microsoft_teams",
+      "nota": "La videollamada reúne un rato; la comunidad es lo que permanece entre reuniones, y Teams junta ambas en un mismo espacio."
+    },
+    {
+      "a": "zoom",
+      "b": "aula_activa",
+      "r": "salas_pequenas",
+      "nota": "El aula activa reparte al grupo en mesas; en Zoom las salas cumplen ese papel y se abren o cierran con un clic."
+    },
+    {
+      "a": "microsoft_teams",
+      "b": "conectivismo",
+      "r": "canal_de_curso",
+      "nota": "Para el conectivismo el saber vive en las conexiones; Teams da un lugar donde las conexiones del grupo siguen vivas entre clases."
+    },
+    {
+      "a": "salas_pequenas",
+      "b": "canal_de_curso",
+      "r": "participacion_en_vivo",
+      "nota": "Las salas dan la palabra a cada persona durante la sesión y el canal la mantiene entre sesiones: participar se vuelve costumbre del curso."
+    },
+    {
+      "a": "reflexion",
+      "b": "multitarea",
+      "r": "una_tarea",
+      "nota": "Reflexionar sobre la creencia de que se puede atender a todo a la vez lleva a pedir una sola cosa por bloque."
+    },
+    {
+      "a": "remota_emergencia",
+      "b": "una_tarea",
+      "r": "sesion_con_foco",
+      "nota": "Lo improvisado en 2020 mostró el problema; atender una sola tarea por bloque es el primer ajuste para convertirlo en diseño."
+    },
+    {
+      "a": "sesion_con_foco",
+      "b": "google_meet",
+      "r": "sesion_disenada",
+      "nota": "Una sesión con foco necesita un lugar donde ocurrir; Meet lo da, y el diseño decide qué se hace allí."
+    },
+    {
+      "a": "participacion_en_vivo",
+      "b": "sesion_disenada",
+      "r": "cap_clase_viva",
+      "nota": "La participación da vida al encuentro y el diseño le da dirección; sin una de las dos, la videollamada vuelve a ser una exposición con cámaras apagadas."
+    },
+    {
+      "a": "videollamada",
+      "b": "presencial",
+      "r": "hyflex",
+      "nota": "Una videollamada que se abre dentro de una sala presencial permite que cada estudiante elija entre asistir o conectarse a la misma sesión."
+    },
+    {
+      "a": "canal_de_curso",
+      "b": "comunidad_practica",
+      "r": "comunidad_aprendizaje",
+      "nota": "Un canal que sostiene la conversación de una comunidad de práctica ayuda a que varias asignaturas planifiquen y aprendan en conjunto."
+    },
+    {
+      "a": "salas_pequenas",
+      "b": "roles_equipo",
+      "r": "participacion_equitativa",
+      "nota": "Cuando cada persona de la sala tiene un rol rotativo, hablan también quienes nunca levantan la mano."
+    },
+    {
+      "a": "zoom",
+      "b": "video",
+      "r": "capsula",
+      "nota": "Una sesión grabada en Zoom puede recortarse en piezas breves de una sola idea para repasar después."
+    },
+    {
+      "a": "sesion_con_foco",
+      "b": "asincronico",
+      "r": "invertida",
+      "nota": "Lo que se puede ver antes, de forma asincrónica, deja la sesión en vivo libre para trabajar con el grupo."
+    },
+    {
+      "a": "canal_de_curso",
+      "b": "seguridad_psicologica",
+      "r": "clima_aula",
+      "nota": "Un canal donde preguntar no cuesta caro ayuda a que el clima del curso invite a participar."
+    },
+    {
+      "a": "canal_de_curso",
+      "b": "asincronico",
+      "r": "coi",
+      "nota": "Un canal persistente más tiempo para responder sostiene las presencias social, cognitiva y docente de una comunidad de indagación."
+    },
+    {
+      "a": "videollamada",
+      "b": "brecha",
+      "r": "accesibilidad",
+      "nota": "Pensar en conexiones lentas y en subtítulos obliga a diseñar la videollamada para que más personas puedan seguirla."
+    },
+    {
+      "a": "releer",
+      "b": "recuperacion",
+      "r": "tarjetas_repaso",
+      "nota": "Cambiar el releer por intentar recordar es lo que convierte los apuntes en tarjetas: la respuesta queda tapada hasta que lo intentas."
+    },
+    {
+      "a": "tarjetas_repaso",
+      "b": "herramienta",
+      "r": "quizlet",
+      "nota": "Las tarjetas de repaso, llevadas a una herramienta en línea, se crean, se comparten y se ensayan desde el teléfono, como en Quizlet."
+    },
+    {
+      "a": "quizlet",
+      "b": "olvido",
+      "r": "anki",
+      "nota": "Anki lleva la idea de Quizlet más lejos: cada tarjeta vuelve cuando empieza a olvidarse, siguiendo la curva del olvido."
+    },
+    {
+      "a": "internet",
+      "b": "tiempo",
+      "r": "google_calendar",
+      "nota": "Internet permite que el tiempo del estudio se agende con día y hora, se comparta y avise desde cualquier dispositivo, como en Google Calendar."
+    },
+    {
+      "a": "google_calendar",
+      "b": "gestion_tiempo",
+      "r": "plan_estudio",
+      "nota": "Gestionar el tiempo exige poner el estudio en fechas concretas, y el calendario es donde esa decisión queda a la vista y avisa."
+    },
+    {
+      "a": "mentalidad",
+      "b": "estrategias_estudio",
+      "r": "esfuerzo_estrategico",
+      "nota": "Creer que se puede mejorar es el punto de partida; las estrategias de estudio con respaldo hacen que el esfuerzo rinda."
+    },
+    {
+      "a": "anki",
+      "b": "sueno_memoria",
+      "r": "repaso_consolidado",
+      "nota": "Anki reparte los repasos y el sueño los fija: juntos explican por qué estudiar poco cada día rinde más que mucho en una sola noche."
+    },
+    {
+      "a": "plan_estudio",
+      "b": "esfuerzo_estrategico",
+      "r": "plan_sostenido",
+      "nota": "Un calendario sin buen método consume horas sin rendir y un buen método sin fechas se posterga; el plan sostenido los junta."
+    },
+    {
+      "a": "repaso_consolidado",
+      "b": "plan_sostenido",
+      "r": "cap_estudiar",
+      "nota": "El repaso que consolida aporta el método y el plan sostenido lo pone en fechas; enseñar a estudiar es juntar ambos."
+    },
+    {
+      "a": "procrastinacion",
+      "b": "tiempo",
+      "r": "trasnochar",
+      "nota": "Dejar el estudio para después hasta que el tiempo se acaba termina en la noche en vela previa al examen."
+    },
+    {
+      "a": "memoria",
+      "b": "trasnochar",
+      "r": "sueno_memoria",
+      "nota": "Quien trasnocha estudiando pierde las horas en que la memoria se ordena, y de ahí el vínculo entre sueño y memoria."
+    },
+    {
+      "a": "tarjetas_repaso",
+      "b": "metacognicion",
+      "r": "autoevaluacion",
+      "nota": "Probarse con tarjetas muestra qué se sabe y qué no, y esa mirada sobre el propio saber es la base de la autoevaluación."
+    },
+    {
+      "a": "anki",
+      "b": "dificultades_deseables",
+      "r": "reaprendizaje",
+      "nota": "Recuperar de memoria lo estudiado, con intervalos que crecen, es una dificultad deseable que Anki programa por ti."
+    },
+    {
+      "a": "google_calendar",
+      "b": "syllabus",
+      "r": "alta_estructura",
+      "nota": "Un programa con fechas de lectura y práctica puesto en el calendario deja pocas tareas libradas al último día."
+    },
+    {
+      "a": "plan_estudio",
+      "b": "transicion",
+      "r": "oficio_estudiante",
+      "nota": "Quien llega a la universidad debe aprender a planificar su propio estudio; ese saber es parte del oficio de estudiante."
+    },
+    {
+      "a": "esfuerzo_estrategico",
+      "b": "atribuciones",
+      "r": "reentrenamiento_atribucional",
+      "nota": "Atribuir un mal resultado al método y no a la capacidad deja espacio para cambiar de estrategia y volver a intentarlo."
+    }
+  ],
+  "refs": {
+    "bailenson21": "Bailenson, J. N. (2021). Nonverbal overload: A theoretical argument for the causes of Zoom fatigue. _Technology, Mind, and Behavior, 2_(1). https://doi.org/10.1037/tmb0000030",
+    "castelli21": "Castelli, F. R., & Sarvary, M. A. (2021). Why students do not turn on their video cameras during online classes and an equitable and inclusive plan to encourage them to do so. _Ecology and Evolution, 11_(8), 3565–3576. https://doi.org/10.1002/ece3.7123",
+    "kornell09": "Kornell, N. (2009). Optimising learning using flashcards: Spacing is more effective than cramming. _Applied Cognitive Psychology, 23_(9), 1297–1317. https://doi.org/10.1002/acp.1537",
+    "gollwitzer99": "Gollwitzer, P. M. (1999). Implementation intentions: Strong effects of simple plans. _American Psychologist, 54_(7), 493–503. https://doi.org/10.1037/0003-066X.54.7.493"
+  },
+  "misiones": [
+    {
+      "id": "clase_en_vivo",
+      "n": "Clase en vivo por videollamada",
+      "e": "🔴",
+      "meta": "cap_clase_viva",
+      "hitos": [
+        "zoom",
+        "salas_pequenas",
+        "una_tarea"
+      ],
+      "encargo": "Jimena Zambrano dicta Estadística Aplicada a ciento diez estudiantes de Administración en una universidad de Guayaquil, y el tercer ciclo se cursa por videollamada. En cada clase proyecta sus diapositivas durante dos horas, casi todas las cámaras permanecen apagadas y el chat queda en silencio. En el último control, quienes menos hablaron fueron quienes más errores cometieron. Tiene licencia de Teams de la universidad y usa Zoom y Meet para las tutorías. Quiere rediseñar la sesión de los martes, y le preocupa que algunas personas se conectan desde el celular y con mala señal.",
+      "objetivo": "Llega a 🔴 Clase en vivo por videollamada para diseñar sesiones sincrónicas en las que el grupo piense y hable, cualquiera sea la plataforma.",
+      "cierre": "Jimena rediseñó la sesión del martes en tres bloques de treinta minutos, cada uno con una pregunta y un producto. Abrió dos veces las salas de Zoom con la consigna escrita, dejó un canal en Teams para las dudas entre clases y explicó para qué usa la cámara sin exigirla. Al terminar la semana, el chat dejó de estar vacío y las preguntas empezaron a llegar al canal. Probará el mismo guion con el grupo de la tarde."
+    },
+    {
+      "id": "ensenar_a_estudiar",
+      "n": "Enseñar a estudiar",
+      "e": "🍎",
+      "meta": "cap_estudiar",
+      "hitos": [
+        "anki",
+        "google_calendar",
+        "sueno_memoria"
+      ],
+      "encargo": "Karla Menjívar dicta Bioquímica a primer año de Medicina en una universidad de San Salvador. Tras el primer parcial, casi la mitad de su grupo le confesó que estudió releyendo y subrayando la noche anterior. Algunos usan mazos de Quizlet bajados de internet, una estudiante descubrió Anki y nadie agenda sus repasos más allá de las clases. Karla tiene una sola hora de tutoría antes del segundo parcial. Te pide ayuda para convertirla en una sesión de método de estudio que sus estudiantes puedan aplicar esa misma semana.",
+      "objetivo": "Llega a 🍎 Enseñar a estudiar para ayudar a tus estudiantes a usar estrategias de estudio con respaldo y a ponerlas en un calendario.",
+      "cierre": "Karla dedicó la hora a que cada estudiante hiciera diez tarjetas de la unidad de metabolismo y las pusiera en un mazo de Anki o Quizlet. Después agendaron en su calendario cuatro repasos antes del parcial, el último con la noche previa reservada para dormir. Explicó por qué releer da una falsa sensación de dominio. En dos semanas pedirá a cada persona que cuente cuántos repasos cumplió y cómo le fue en el parcial."
+    }
+  ]
+}

@@ -32,7 +32,9 @@ for (const x of EXPANSIONES) {
   for (const m of p.misiones || []) expMisiones.push({ id: m.id, n: m.n, e: m.e, meta: m.meta, hitos: m.hitos, _de: x });
   expTextos.push([x, p]);
 }
-for (const [x, p] of expTextos) for (const r of p.recetas || []) { const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = expFichas[r.r] ? "exp" : "expx"; rec.de = x; extra.unshift(rec); }
+// Solo es parte del camino diseñado la receta que produce una ficha de su propia expansión; si produce una ficha de otra
+// (o del juego base), es una conexión y no debe cambiar los planos de misiones ajenas.
+for (const [x, p] of expTextos) for (const r of p.recetas || []) { const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = (p.fichas || {})[r.r] ? "exp" : "expx"; rec.de = x; extra.unshift(rec); }
 // el preanálisis no debe chocar con lo existente: se descartan sus colisiones en vez de fallar
 const base = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], fichas: expFichas });
 const ocupadas = new Map(base.recetas.map(r => [clave(r[0], r[1]), r[2]]));

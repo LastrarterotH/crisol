@@ -62,6 +62,8 @@ Las ciudades ya usadas son Montevideo, Asunción, Medellín, San José, Valpara�
 - **Textos de la misión:**
   - **encargo:** 80 a 120 palabras, en segunda persona hacia quien juega. Un caso realista de docencia universitaria en tu ciudad, con nombre, disciplina, curso y un problema verosímil en el que la herramienta importa. Varía la apertura: no todas las misiones empiezan con "Te escribe...".
   - **objetivo:** una oración: "Llega a EMOJI Nombre de la meta para ...".
+  - **Institución:** no nombres universidades reales. Escribe "una universidad de CIUDAD" o "una universidad pública de CIUDAD".
+  - **Nombre de la docente o el docente:** no repitas nombres de pila ya usados: Patricia, Gabriel, Rocío, Lorena, Wilmer, Ximena, Verónica, Rodrigo, Daniela, Andrea, Mariela, Citlali, Marco, Marcelo, Rafael, Valentina y Martín.
   - **cierre:** 50 a 80 palabras que conectan la síntesis con el caso del encargo.
 
 ## Fichas nuevas
@@ -129,6 +131,7 @@ Los ids van en minúsculas, sin tildes, con guion bajo. Los ids de misión deben
   - textos largos;
   - emojis fuera de tu reserva.
 - Revisa también con grep que no quede ninguna raya larga (—).
+- Corre también `node /Users/lastraroth/Code/alquimia-docente/datos/v2/tareas/citas.js RUTA_DE_TU_ARCHIVO`. Cada autor que cites en el texto, como "(Mayer, 2009)", debe estar en las refs de esa ficha, y la misión no debe nombrar instituciones reales.
 - No modifiques ningún archivo fuera de tu ruta de salida.
 
 Al terminar, responde con un resumen breve:

@@ -28,6 +28,49 @@ A10  expectativa_valor.pista  Dos preguntas que el estudiante se hace antes de e
 A10  costo_percibido.pista  Lo que el estudiante siente que pierde al dedicarle horas a tu curso: descanso, trabajo, otra materia, calma.
 A10  estructura_metas.pista  Lo que el aula premia en silencio: mejorar respecto de ti mismo o ganarle al compañero.
 A10  incidentes_criticos.pista  Cinco preguntas anónimas al cerrar la semana: cuándo te sentiste más involucrado, cuándo más lejos, qué te sorprendió.
+A10  h5p.why  Conjunto de código abierto para crear contenido interactivo en el navegador: video con preguntas, tarjetas de memoria, arrastrar y soltar, líneas de tiempo. Se 
+A10  diapositivas.pista  Una idea por pantalla: la hoja de la exposición que se proyecta de a una.
+A10  coherencia.pista  Menos fue más: lo que no ayuda a entender se queda afuera, aunque se vea bonito.
+A10  atencion_variable.why  Los estudios sobre atención en clase no muestran un corte fijo a los diez minutos: la atención varía según el momento, el tema y la actividad (Bradbury, 2016; W
+A10  compromiso_video.uni  Mira las estadísticas de tus videos: si la mayoría abandona a mitad, divide la próxima cápsula en dos.
+A10  diapositiva_sin_ruido.why  Integra coherencia y señalización: primero se quita lo ajeno al objetivo y después se marca lo que importa. Ambas parten de que la memoria de trabajo tiene capa
+A10  exposicion_en_porciones.why  Integra la atención que fluctúa con el organizador previo: la exposición se divide en bloques, cada uno abre con un puente hacia lo conocido y cierra con una pa
+A10  cap_diapositivas.why  Reúne la diapositiva sin ruido y la exposición en porciones: cada pantalla sostiene una idea con apoyo visual claro y la clase avanza en bloques con pausas. Pow
+A10  video_con_pausas.why  Integra el video interactivo con la autoexplicación: las pausas comprueban si el estudiante siguió el contenido y además le piden explicar por qué se hizo cada 
+A10  casa_y_aula.why  Integra el compromiso con el video y el aula invertida: la cápsula hace de primera exposición y el tiempo presencial se usa para aplicar con apoyo. La cápsula f
+A10  cap_invertida_video.why  Reúne el video con pausas y el video en casa con práctica en clase: cápsulas breves que preguntan y hacen explicar preparan la sesión, y la sesión presencial se
+A10  digitalizar_con_criterio.why  Une Google Classroom con la redefinición de Puentedura: la plataforma puede dejar la tarea tal cual o abrir una tarea distinta. SAMR pregunta qué cambia en la a
+A10  asesoria_proactiva.pista  No esperas a que pida ayuda: le escribes tú en cuanto empieza a faltar.
+A10  mentimeter.why  Mentimeter es un servicio web de presentaciones interactivas: el docente proyecta una pregunta y el curso responde desde su teléfono con un código. Los metaanál
+A10  nearpod.pista  Tus diapositivas con trampa: cada pocas láminas pide a toda la sala votar, dibujar o contestar.
+A10  nearpod.why  Nearpod es una plataforma de lecciones interactivas: combina diapositivas, videos y actividades como preguntas, encuestas o dibujo sobre una imagen, que el curs
+A10  kahoot.why  Kahoot! es una plataforma de aprendizaje basado en juegos: el docente proyecta preguntas y el curso responde desde su dispositivo con un código, sumando puntos 
+A10  palabra_repartida.pista  La clase se reparte como una pizza: cada quien recibe su porción de voz, la pida o no.
+A10  palabra_repartida.why  Combinas dos formas de repartir la voz: el llamado en frío, que sortea a quien habla con un selector de nombres, y la respuesta anónima, que permite opinar sin 
+A10  cap_sala.why  Integras las dos mitades de la misión: un sondeo con segunda vuelta que hace pensar y discutir a todo el curso, y una palabra repartida que evita que hablen sie
+A10  cap_sala.prueba  Planifica una sesión con tres preguntas: una con voto anónimo y segunda vuelta, una con piensa-discute-comparte y una con sorteo de nombres. Anota cuántas perso
+A10  puntos_que_informan.why  Integras dos ideas: una recompensa que informa sobre el progreso y una tabla de posiciones que, mal usada, lo convierte en competencia. El resultado es un siste
+A10  reto_sobrevive.prueba  Elige una actividad con juego que uses desde hace semanas y revisa tres datos: cuánta gente la termina, quién la repite por gusto y qué niveles resultan demasia
+A10  cap_jugar.why  Reúne lo que aprendiste: puntos que informan en lugar de presionar, y un reto que sigue vivo cuando la novedad pasa. Con Kahoot!, Genially o una aplicación como
+A10  cap_jugar.prueba  Diseña un concurso de repaso con tres cambios: preguntas que piden explicar, reconocimientos con comentario en lugar de ranking y una variante con tarjetas de p
+C  grammarly.pista  Corrector que subraya errores de ortografía y gramática y sugiere mejoras de estilo mientras escribes.
+A10  estudiar_sin_atajo.why  Integra la descarga cognitiva con la transferencia lejana: el asistente ayuda cuando obliga a producir y estorba cuando entrega la respuesta que uno debía const
+A10  juicio_ante_ia.why  Integra las alucinaciones de la IA con el juicio reflexivo: si un asistente puede equivocarse con aplomo, quien estudia debe ponderar evidencia y asumir una pos
+A10  cap_asistente.why  Integra el estudio sin atajos con el juicio ante la IA: un asistente puede ser buen interlocutor si pregunta, pide explicaciones y obliga a comprobar, y mal sus
+A10  turnitin.uni  En Derecho, revisa con el estudiante el informe de similitud de un ensayo: qué coincide, qué está citado y qué falta citar, antes de decidir nada.
+A10  evidencia_sostenida.why  Integra el banco de ítems con el informe de similitud: dos fuentes de evidencia en línea, una sobre lo que mide cada pregunta y otra sobre la autoría de un text
+A10  prueba_orienta.why  Integra la retroalimentación automática con el efecto retroactivo de la evaluación: lo que la prueba pide define cómo y qué estudian los estudiantes, como plant
+A10  cap_pruebas.why  Integra la evidencia sostenida con la prueba que orienta el estudio: una prueba en línea sirve cuando mide lo que el curso busca, ayuda a estudiar y respalda de
+A10  cap_pruebas.prueba  Elige un cuestionario en línea que ya uses y revísalo con tres preguntas: qué contenido mide cada ítem, cuántos lo acertaron y qué decisión tomas con el resulta
+A10  sesion_con_foco.why  Sesión sincrónica diseñada con un propósito: el tiempo en vivo se reserva para lo que necesita presencia, como discutir, resolver y preguntar, y se deja fuera l
+A10  esfuerzo_estrategico.why  Combina dos ideas: creer que la capacidad se desarrolla y elegir estrategias que lo logren. Dweck (2006) describe la mentalidad de crecimiento como esa creencia
+C  esfuerzo_estrategico.why  Combina dos ideas: creer que la capacidad se desarrolla y elegir estrategias que lo logren. Dweck (2006) describe la mentalidad de crecimiento como esa creencia
+C  cap_estudiar.why  Enseñar a estudiar es mostrar a los estudiantes las estrategias que tienen respaldo y ayudarles a ponerlas en un calendario. La práctica de recuperación y la di
+A10  representaciones.why  Consiste en presentar una misma idea con varias formas: gráfica, ecuación, tabla, diagrama o palabras. Cada forma deja ver algo distinto y limita las lecturas d
+A10  poe.why  Es una secuencia de tres pasos: el estudiante predice un resultado y lo justifica, observa el fenómeno y reconcilia lo observado con su predicción (White y Guns
+A10  ciclo_simular_explicar.why  Integra la secuencia de predecir, observar y explicar con una guía que se retira: cada vuelta de simulación empieza con una predicción escrita y termina con una
+A10  ciclo_simular_explicar.prueba  En una sesión de laboratorio virtual, entrega una hoja con tres líneas: predigo, observo, explico la diferencia. Recógela al salir y cuenta cuántas predicciones
+A10  tasa_respuesta.pista  De cuántos que podían contestar, contestaron: el número que decide si la encuesta representa a todos.
 A10  nota pedagogia+tecnologia  Cuando cruzas cómo enseñas con lo que una herramienta permite, surgen preguntas nuevas: qué participación facilita un foro y qué se gana o se pierde frente a la
 A10  nota grupo+pedagogia  Un grupo se vuelve equipo cuando la pedagogía diseña la tarea: metas compartidas, roles, responsabilidad individual y tiempo para revisar cómo trabajaron.
 A10  nota sustitucion+pedagogia  Al darle intención pedagógica a la sustitución, la herramienta empieza a aportar algo: por ejemplo, un cuestionario en línea que da retroalimentación inmediata 
@@ -39,9 +82,43 @@ A10  nota contenido+bloom  La tabla de especificaciones cruza dos ejes: qué con
 A10  nota tecnologia+dominio  Los sistemas adaptativos automatizan el aprendizaje para el dominio: estiman si cada estudiante ya domina una habilidad y solo entonces le proponen la siguiente
 A10  nota constructivismo+resultados  Biggs puso ambas ideas en el nombre: el estudiante construye significado con lo que hace, y el docente alinea actividades y evaluación con los resultados de apr
 C  nota ciencia_aprendizaje+releer  Cuando la ciencia compara técnicas de estudio, releer y subrayar salen poco útiles y las preguntas de práctica, entre las mejores; conviene cambiar el hábito po
+A10  nota laboratorio_virtual+herramienta  Un laboratorio virtual gratuito y listo para usar en el navegador: simulaciones de ciencias que se manipulan con controles.
+A10  nota anki+sueno_memoria  Anki reparte los repasos y el sueño los fija: juntos explican por qué estudiar poco cada día rinde más que mucho en una sola noche.
+A10  nota quizlet+olvido  Anki lleva la idea de Quizlet más lejos: cada tarjeta vuelve cuando empieza a olvidarse, siguiendo la curva del olvido.
+A10  nota releer+recuperacion  Cambiar el releer por intentar recordar es lo que convierte los apuntes en tarjetas: la respuesta queda tapada hasta que lo intentas.
+A10  nota algoritmo+internet  Un algoritmo que lee páginas de internet y redacta una respuesta con enlaces: así funciona un motor de respuestas como Perplexity.
+A10  nota retroalimentacion_automatica+alf_retro  El mensaje automático solo ayuda si el estudiante sabe leerlo y usarlo: alfabetización en retroalimentación.
+A10  nota copilot+pedagogia  Un asistente dentro de las aplicaciones de oficina obliga a decidir cuándo ayuda a enseñar: eso es conocimiento tecnopedagógico.
+A10  nota evaluacion+internet  Una evaluación aplicada por internet, sin papel y con resultados al instante: un formulario como Microsoft Forms.
+A10  nota pregunta+internet  Preguntas que viajan por internet y vuelven como datos: así funciona un formulario en línea como Google Forms.
+A10  nota chatgpt+practica  Copilot lleva un asistente de lenguaje del mismo tipo que ChatGPT a la práctica diaria: dentro del procesador de texto, la planilla o la reunión.
+A10  nota gemini+memoria  Gemini con una memoria hecha de tus documentos: un cuaderno que responde desde ellos. Antes se llamaba NotebookLM.
+A10  nota ia+lenguaje  Una IA generativa que trabaja con texto: lee, resume y redacta, y acepta documentos que le adjuntes.
+A10  nota ia+dialogo  Una IA generativa a la que le hablas por escrito y responde en el acto: así funciona un asistente conversacional como ChatGPT.
+C  nota genially+proyectos  Si cada equipo construye un Genially con su proyecto y lo va enriqueciendo, reúne evidencias de su proceso: un portafolio de aprendizaje.
+A10  nota cambio_conceptual+sondeo_segunda_vuelta  Cuando tu compañero votó otra opción, el desacuerdo te obliga a revisar tus ideas: el sondeo con segunda vuelta genera conflicto sociocognitivo.
+A10  nota llamado_en_frio+respuesta_anonima  Sortear quién habla y dejar votar sin nombre reparte la voz por dos caminos: quien no se atreve puede votar, y quien se esconde, responder.
+A10  nota classroom_screen+participacion_equitativa  El selector de nombres de Classroom screen aplica la participación equitativa: nadie se libra por sentarse atrás, y todos saben que su turno puede llegar.
+A10  nota multimedia+respuesta_audiencia  Una lección multimedia con preguntas incrustadas deja de ser exposición pasiva: cada lámina puede pedir votar, dibujar o responder. Eso es Nearpod.
+A10  nota mensajeria+sincronico  El chat se sitúa entre ambos mundos: se escribe a ratos y se lee cuando se puede, con lo que se acerca a lo asincrónico.
+A10  nota escritura+gmail  El correo profesional es un género con convenciones propias: asunto, saludo, petición concreta y cierre. Se aprende como cualquier otro género disciplinar.
+A10  nota abandono+mentoria  Cuando un estudiante empieza a faltar, la mentoría deja de esperar: quien enseña lo busca antes de que pida ayuda.
+A10  nota clima_aula+mensajeria  Un grupo de WhatsApp forma parte del clima del curso: da cercanía o presión, según las reglas de uso que acuerde el docente.
+A10  nota internet+sustitucion  Pasar la carta o la circular de papel a internet es sustitución pura: cambia el soporte y la tarea de comunicar sigue igual.
+A10  nota canvas+moodle  Con Canvas o con Moodle importa menos la marca que el diseño: programa visible, semanas con la misma forma y material accesible.
+A10  nota alta_estructura+tpk  Moodle automatiza lo que pide un curso de alta estructura: cuestionarios previos, práctica semanal y registro de avance. Saber cómo cambia tu enseñanza evita us
+A10  nota syllabus+accesibilidad  Canvas pone el programa en una página propia y revisa la accesibilidad de lo que subes: programa claro que todos pueden leer.
+A10  nota gamma+competencia  Usar IA para esbozar materiales exige saber revisar y corregir lo que produce: parte de la competencia digital de quien enseña.
+A10  nota compromiso_video+invertida  Una cápsula que se ve completa permite invertir la clase: la exposición ocurre en casa y la práctica con apoyo, en el aula.
+A10  nota edpuzzle+h5p  Dos herramientas con una misma idea: el video se pausa y pide responder, con Edpuzzle o con H5P, para evitar la visualización pasiva.
+A10  nota diapositiva_sin_ruido+exposicion_en_porciones  Diapositivas limpias y una exposición en bloques con pausas: la presentación apoya la explicación y deja espacio para pensar.
+A10  nota contenido+herramienta  Un contenido más una herramienta que lo muestre por partes: así nace la lámina que se proyecta de a una.
 A10  nota modelo_social+tecnologia  Si la barrera está en el entorno, la tecnología también debe quitarla: subtítulos, texto legible y navegación por teclado.
 C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar. Se siente seguro porque el texto le resulta familiar, pero la evidencia muestra poco beneficio.
 A1  nota juego+mundo  Llevar puntos e insignias del juego a contextos que no son juegos, como un curso, es gamificación según la definición de Deterding y colegas.
 A10  nota previos+proposito  Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje s
 C  nota proposito+retos  Cuando el equipo elige un reto porque le importa, el empuje viene de adentro. Deci y Ryan muestran que la sensación de elegir alimenta la motivación intrínseca.
 C  nota emocion+emocion  Cuando el gusto por una tarea se suma a la emoción de avanzar en ella, el impulso para seguir viene de adentro. Esa es la motivación intrínseca.
+A10  mision sala_responde.cierre  Juliana ya tiene una sesión posible: abre con un sondeo y una segunda vuelta tras conversar en parejas, reparte la palabra con un selector de nombres anunciado 
+A10  mision jugar_serio.cierre  Tomás rediseña su concurso: quita las posiciones individuales, entrega reconocimientos con comentarios sobre el razonamiento y ofrece rutas de distinta dificult
+C  mision ensenar_a_estudiar.encargo  Karla Menjívar dicta Bioquímica a primer año de Medicina en una universidad de San Salvador. Tras el primer parcial, casi la mitad de su grupo le confesó que es

@@ -95,3 +95,27 @@ Los revisores lo declararon en sus informes. Lo principal:
   - el origen del TBL en 1979 con un curso de 40 a 120 estudiantes.
 - **Referencias sin DOI** que no se pudieron confirmar en línea: Herreid (1994), Thomas (2000) y Facione (1990).
 - **Sin DOI en general:** casi ninguna referencia trae el DOI que pide APA 7.
+
+## Expansión H: herramientas y fichas rescatadas (4 de octubre de 2026)
+
+Se sumaron 14 misiones (30 en total) y las ideas descubribles pasaron de 184 a 415. Incluye 49 herramientas concretas, elegidas a partir del Top 100 Tools for Learning 2026, y 99 fichas que ya estaban escritas pero no aparecían en ningún plano.
+
+**Cómo se revisó.** Esta revisión fue más económica que la anterior.
+1. **Escritura.** Siete agentes escribieron con un contexto recortado y sin navegar.
+2. **Referencias.** Todas las nuevas se verificaron con un script contra Crossref y OpenAlex. Las de investigación coincidieron todas; solo quedaron fuera de esas bases las citas de software y de sitios web, y una norma W3C.
+3. **Citas.** Otro script comprobó que cada autor citado en un texto tenga su referencia en la ficha.
+4. **Lectura completa.** Se leyeron a mano todas las fichas de herramientas y todas las síntesis.
+5. **Muestra.** Se revisaron al azar las fichas rescatadas.
+
+**Corregido en la revisión:**
+- recetas forzadas (por ejemplo, "Abandono + Mentoría = Outlook" se reemplazó por la asesoría proactiva);
+- textos que describían la receta en vez de la idea ("Surge de unir...");
+- una afirmación falsa sobre Claude;
+- universidades reales nombradas en los encargos;
+- nombres de docentes repetidos;
+- emojis sin relación con la idea;
+- herramientas que no quedaban en ningún camino (Copilot y Perplexity).
+
+NotebookLM figura con su nombre actual, Gemini Notebook.
+
+**Pendiente:** las 99 fichas rescatadas tuvieron revisión por muestra y no ficha por ficha, como las de la primera revisión. Conviene una pasada completa antes de usarlas en una capacitación.

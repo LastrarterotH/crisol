@@ -1,0 +1,567 @@
+{
+  "fichas": {
+    "representaciones": {
+      "n": "Representaciones múltiples",
+      "e": "🎌",
+      "f": "apr",
+      "pista": "Gráfica, ecuación, tabla y frase para un mismo fenómeno, y el trabajo de traducir entre ellas.",
+      "why": "Consiste en presentar una misma idea con varias formas: gráfica, ecuación, tabla, diagrama o palabras. Cada forma deja ver algo distinto y limita las lecturas de las otras. Ainsworth (2006) explica que ayudan cuando se complementan, pero exigen que el estudiante aprenda a traducir entre ellas, y esa traducción tiene un costo cognitivo que conviene enseñar de forma explícita. Surge al unir el lenguaje con una simulación, donde el fenómeno aparece en varias formas a la vez.",
+      "uni": "En una clase de Física, pide que cada pareja describa con palabras la gráfica de posición contra tiempo que vio en una simulación y escriba la ecuación que la genera.",
+      "refs": [
+        "ainsworth06"
+      ]
+    },
+    "phet": {
+      "n": "PhET",
+      "e": "⚛️",
+      "f": "her",
+      "pista": "Simulaciones gratuitas de ciencias donde se arrastra un control y la gráfica responde al instante.",
+      "why": "PhET es un conjunto gratuito de simulaciones interactivas de ciencias y matemáticas, hecho por un proyecto universitario y usable en el navegador. Wieman, Adams y Perkins (2008) cuentan que se diseñaron con entrevistas a estudiantes. En un laboratorio de circuitos, quienes usaron la simulación en lugar de equipo real respondieron mejor las preguntas conceptuales (Finkelstein et al., 2005). Conviene acompañarla con preguntas que orienten la exploración y no dejarla como juego libre.",
+      "uni": "Antes de la clase de circuitos, pide que cada estudiante prediga en papel qué pasará con la corriente al agregar una resistencia, y luego que lo compruebe en la simulación.",
+      "refs": [
+        "wieman08",
+        "finkelstein05",
+        "phet_sw"
+      ]
+    },
+    "geogebra": {
+      "n": "GeoGebra",
+      "e": "🔷",
+      "f": "her",
+      "pista": "Arrastras un punto y la figura, su ecuación y su gráfica cambian a la vez.",
+      "why": "GeoGebra es software de matemática dinámica que une geometría, álgebra, gráficas y hojas de cálculo en una misma pantalla, gratuito para uso no comercial. Al mover un objeto, todas sus representaciones cambian juntas, lo que permite formular conjeturas y revisarlas (Ainsworth, 2006). Una revisión sistemática con metaanálisis halló efectos positivos del software de geometría dinámica sobre el logro matemático (Chan y Leung, 2014). El resultado depende de las tareas que diseñes, no solo del programa.",
+      "uni": "En Cálculo I, construye una recta secante que se acerca a una tangente y pide que predigan la pendiente límite antes de arrastrar el punto.",
+      "refs": [
+        "ainsworth06",
+        "chan14",
+        "geogebra_sw"
+      ]
+    },
+    "desmos": {
+      "n": "Desmos",
+      "e": "〽️",
+      "f": "her",
+      "pista": "Una calculadora gráfica en línea con actividades donde ves en vivo lo que cada estudiante dibuja.",
+      "why": "Desmos es una calculadora gráfica gratuita en línea, con una plataforma de actividades que permite al docente ver las respuestas de todo el curso mientras trabaja. Esa visibilidad facilita dar retroalimentación en el momento en que aún puede usarse (Hattie y Timperley, 2007) y mostrar en pantalla varias gráficas de estudiantes (Ainsworth, 2006). Sus funciones cambian con las versiones, así que revisa lo disponible antes de planear.",
+      "uni": "En Álgebra, pide que cada estudiante dibuje la recta de un gasto fijo más un valor por hora, y proyecta tres respuestas anónimas para discutirlas.",
+      "refs": [
+        "ainsworth06",
+        "hattie07",
+        "desmos_sw"
+      ]
+    },
+    "colab": {
+      "n": "Google Colab",
+      "e": "🐍",
+      "f": "her",
+      "pista": "Cuaderno en el navegador donde el código corre celda a celda junto al texto, sin instalar nada.",
+      "why": "Google Colab es un servicio gratuito, con límites de uso, que ofrece cuadernos tipo Jupyter para escribir y ejecutar Python desde el navegador. Estos cuadernos combinan código, resultados y explicación en un mismo documento, lo que facilita compartir y repetir un análisis (Kluyver et al., 2016). Requiere cuenta de Google y conexión, y los recursos gratuitos son limitados, así que ten una alternativa preparada para el día de una evaluación.",
+      "uni": "Con los puntajes de dos secciones en un cuaderno compartido, pide que cambien el archivo de datos, ejecuten la celda de la ganancia y comparen los resultados.",
+      "refs": [
+        "kluyver16",
+        "colab_sw"
+      ]
+    },
+    "modelado_matematico": {
+      "n": "Modelación matemática",
+      "e": "➗",
+      "f": "met",
+      "pista": "Traducir un fenómeno real a ecuaciones, probar qué tanto lo predicen y volver a ajustarlas cuando fallan.",
+      "why": "Es el ciclo de representar una situación real con relaciones matemáticas, resolverlas, interpretar el resultado en la situación original y ajustar el modelo si no concuerda (Blum y Niss, 1991). Incluye decidir qué simplificar, algo que los problemas ya formulados no piden. Surge al unir GeoGebra y Desmos, dos herramientas donde puedes ver cómo se comporta una función al cambiar sus parámetros.",
+      "uni": "En Ingeniería, pide que ajusten una curva a datos del enfriamiento de un líquido, comparen la predicción con una medición nueva y expliquen qué simplificaron.",
+      "refs": [
+        "blum91"
+      ]
+    },
+    "poe": {
+      "n": "Predecir, observar, explicar",
+      "e": "🎱",
+      "f": "met",
+      "pista": "Primero escribes qué pasará, luego miras qué pasó y por último explicas la diferencia.",
+      "why": "Es una secuencia de tres pasos: el estudiante predice un resultado y lo justifica, observa el fenómeno y reconcilia lo observado con su predicción (White y Gunstone, 1992). Sirve para sacar a la luz las ideas previas y crear conflicto cuando la observación las contradice. Al combinar el constructivismo con PhET, la simulación vuelve barato repetir el ciclo con otras condiciones.",
+      "uni": "En Química, pide que escriban si el pH sube o baja al diluir un ácido, lo observen en la simulación y expliquen en una frase la diferencia.",
+      "refs": [
+        "white92"
+      ]
+    },
+    "guia_que_se_retira": {
+      "n": "Guía que se retira",
+      "e": "🛴",
+      "f": "sint",
+      "pista": "Apoyos generosos al principio y cada vez menos, hasta que el curso explora sin ellos.",
+      "why": "Une el aprendizaje experiencial con la crítica al descubrimiento puro. Explorar enseña, pero casi siempre con ayuda: los estudios comparativos favorecen el descubrimiento asistido sobre el no asistido (Alfieri et al., 2011), y la guía se afloja a medida que el estudiante gana dominio (Kalyuga et al., 2003).",
+      "principios": [
+        "Da a quienes empiezan una guía explícita, como preguntas, pasos sugeridos y retroalimentación, porque el descubrimiento sin ayuda rinde menos que el asistido (Alfieri et al., 2011).",
+        "Cuida que la actividad mental sea la que importa y no solo la manual, porque mover controles no garantiza pensar sobre el concepto (Mayer, 2004).",
+        "Ajusta la guía al dominio y retírala de forma gradual, porque lo que ayuda a quien empieza puede estorbar a quien ya sabe (Kalyuga et al., 2003).",
+        "Combina guías que organizan el proceso de indagación, como preguntas y pistas, con retroalimentación sobre lo hallado, pues en el metaanálisis las guías mejoraron el aprendizaje (Lazonder y Harmsen, 2016)."
+      ],
+      "prueba": "En tu próxima práctica con una simulación, entrega una hoja con tres preguntas que guíen la exploración. En la sesión siguiente quita dos y observa qué cambia en las conclusiones del curso.",
+      "refs": [
+        "alfieri11",
+        "mayer04",
+        "kalyuga03",
+        "lazonder16"
+      ]
+    },
+    "ciclo_simular_explicar": {
+      "n": "Ciclo de simular y explicar",
+      "e": "🌞",
+      "f": "sint",
+      "pista": "Prometes un resultado, lo pones a prueba en la pantalla y regresas a corregir tu explicación.",
+      "why": "Integra la secuencia de predecir, observar y explicar con una guía que se retira: cada vuelta de simulación empieza con una predicción escrita y termina con una explicación comparada con lo observado. Las simulaciones suman más cuando se integran a la instrucción (Rutten et al., 2012), y combinadas con experimentos físicos aprovechan lo mejor de cada medio (de Jong et al., 2013).",
+      "principios": [
+        "Pide siempre una predicción escrita antes de abrir la simulación, para que cada estudiante tenga una idea propia que contrastar (White y Gunstone, 1992).",
+        "Haz que cada vuelta cambie una sola variable y termine con una explicación escrita, de modo que la observación se conecte con el concepto (Kolb, 1984).",
+        "Usa la simulación como complemento de la clase y de las preguntas del docente, porque en los estudios revisados suma más cuando se integra a la instrucción (Rutten et al., 2012).",
+        "Alterna medios cuando haya equipo físico: la simulación permite explorar y repetir, y el montaje real enseña el manejo de instrumentos y la incertidumbre de la medición (de Jong et al., 2013)."
+      ],
+      "prueba": "En una sesión de laboratorio virtual, entrega una hoja con tres líneas: predigo, observo, explico la diferencia. Recógela al salir y cuenta cuántas predicciones cambiaron después de observar.",
+      "refs": [
+        "white92",
+        "rutten12",
+        "dejong13",
+        "kolb84"
+      ]
+    },
+    "cap_laboratorio_pantalla": {
+      "n": "Laboratorio en la pantalla",
+      "e": "🧫",
+      "f": "sint",
+      "pista": "Se predice, se explora con ayudas que se retiran y los datos se ajustan a un modelo.",
+      "why": "Reúne el ciclo de predecir y explicar con el análisis de datos en un cuaderno computacional: el estudiante explora una simulación con apoyos graduales, modela lo observado y lo contrasta con datos. La evidencia favorece la exploración guiada sobre el descubrimiento puro (Alfieri et al., 2011) y apoya los laboratorios virtuales como complemento de los físicos (de Jong et al., 2013).",
+      "principios": [
+        "Diseña cada sesión como una indagación con pregunta, predicción y explicación, y evita dejarla como tiempo libre frente a la simulación (Alfieri et al., 2011).",
+        "Alterna con equipo real cuando lo haya: el medio virtual permite explorar y repetir, y el físico enseña el manejo de instrumentos y de la incertidumbre de la medición (de Jong et al., 2013).",
+        "Usa varias representaciones de lo observado, como gráfica, ecuación y tabla, y enseña de forma explícita a pasar de una a otra (Ainsworth, 2006).",
+        "Pide que el modelo se contraste con datos nuevos, para que el estudiante vea cuándo funciona y cuándo debe corregirlo (Blum y Niss, 1991)."
+      ],
+      "prueba": "En tu próxima práctica, elige una simulación y escribe tres preguntas que guíen la exploración. Pide una predicción antes y una gráfica después, y anota qué ayuda quitarías la semana siguiente.",
+      "refs": [
+        "alfieri11",
+        "dejong13",
+        "ainsworth06",
+        "blum91"
+      ]
+    },
+    "hoja_calculo": {
+      "n": "Hoja de cálculo",
+      "e": "🍫",
+      "f": "tec",
+      "pista": "Cuadrícula de filas y columnas donde cambias un número y lo que depende de él se recalcula.",
+      "why": "Es un programa que organiza datos en filas y columnas y calcula con fórmulas que se actualizan solas. Para un docente, una fila por estudiante y una columna por medida permite sumar, promediar, contar y graficar sin cuentas a mano. Surge al unir una herramienta con la evaluación, donde más datos se acumulan. Las hojas reales contienen errores con frecuencia, así que revisar las fórmulas es parte del trabajo (Panko, 1998).",
+      "uni": "Arma una hoja con una fila por estudiante y una columna por evaluación del semestre, y calcula con una fórmula el promedio de cada uno y el del curso.",
+      "refs": [
+        "panko98"
+      ]
+    },
+    "excel": {
+      "n": "Excel",
+      "e": "🍉",
+      "f": "her",
+      "pista": "La hoja de cálculo de las oficinas, con fórmulas y gráficos, con licencia de pago.",
+      "why": "Excel es la hoja de cálculo de Microsoft, de licencia paga. Sirve para tabular puntajes, calcular diferencias y promedios y hacer gráficos. Como los datos de clase son sensibles, guárdalos con códigos y no con nombres. Hay alternativas gratuitas, como LibreOffice Calc y Google Sheets. Panko (1998) documentó que los errores en hojas reales son frecuentes, así que pide a otra persona que revise tus fórmulas.",
+      "uni": "Con las notas del pretest y del postest en dos columnas, calcula con una fórmula la ganancia de cada estudiante y ordena la hoja para ver quién subió menos.",
+      "refs": [
+        "panko98",
+        "excel_sw"
+      ]
+    },
+    "sheets": {
+      "n": "Google Sheets",
+      "e": "🍀",
+      "f": "her",
+      "pista": "Una hoja de tablas en la nube que el curso entero puede llenar al mismo tiempo.",
+      "why": "Google Sheets es una hoja de cálculo en el navegador, gratuita con cuenta de Google, que varias personas editan a la vez. Conectada a un formulario, recoge las respuestas de una consulta de medio semestre y las resume sin pasarlas a mano. Los datos quedan en servidores de la plataforma, así que revisa la política de tu institución antes de subir información identificable. Sus fórmulas fallan como las de cualquier hoja (Panko, 1998).",
+      "uni": "Crea un formulario anónimo de tres preguntas conectado a una hoja y mira en clase el resumen de respuestas de tu consulta de medio semestre.",
+      "refs": [
+        "panko98",
+        "sheets_sw"
+      ]
+    },
+    "tasa_respuesta": {
+      "n": "Tasa de respuesta",
+      "e": "🚿",
+      "f": "eva",
+      "pista": "De cuántos que podían contestar, contestaron: el número que decide si la encuesta representa a todos.",
+      "why": "Es la proporción de personas invitadas que respondió. Si contesta una parte pequeña del curso, quienes responden pueden diferir del resto y el promedio deja de representar al grupo. Nulty (2008) señala que las encuestas en línea suelen tener tasas menores que las de papel y que cuanto más pequeño es el curso, mayor proporción de respuestas se necesita. Surge al contar en una hoja las respuestas de una encuesta docente.",
+      "uni": "Antes de leer los resultados de tu encuesta docente, calcula en una hoja cuántas personas respondieron sobre cuántas estaban matriculadas, y anota esa cifra junto a cada promedio.",
+      "refs": [
+        "nulty08"
+      ]
+    },
+    "cambio_con_criterio": {
+      "n": "Cambio medido con criterio",
+      "e": "🌾",
+      "f": "sint",
+      "pista": "Cuánto subió el curso y cómo se compara esa mejora con la de otro grupo.",
+      "why": "Integra la ganancia normalizada con un análisis repetible y una comparación entre secciones: el cambio medio se calcula con la ganancia de Hake (1998), se obtiene igual cada semestre en un cuaderno y se contrasta con otro grupo. La ganancia describe lo ocurrido en el curso, pero por sí sola no prueba que tu método lo causó.",
+      "principios": [
+        "Aplica el mismo inventario conceptual al inicio y al final, y calcula la ganancia normalizada como la diferencia entre postest y pretest dividida por lo que faltaba para el máximo (Hake, 1998).",
+        "Elige un inventario ya validado y publicado cuando exista para tu tema, porque sus opciones incorrectas recogen las ideas intuitivas más frecuentes (Hestenes et al., 1992).",
+        "Si comparas con otra sección, revisa cómo eran los grupos al empezar, porque sin sorteo la comparación puede confundir efectos (Shadish et al., 2002).",
+        "Valora la magnitud del cambio según el contexto de tu campo y no con umbrales fijos copiados de otro lugar (Kraft, 2020)."
+      ],
+      "prueba": "Pon en una hoja los puntajes del pretest y del postest de tu curso y calcula la ganancia de cada estudiante y la del curso. Pide a un colega los de su sección y compáralos.",
+      "refs": [
+        "hake98",
+        "hestenes92",
+        "shadish02",
+        "kraft20"
+      ]
+    },
+    "cap_datos_clase": {
+      "n": "Datos para mejorar la clase",
+      "e": "💹",
+      "f": "sint",
+      "pista": "Una hoja de cálculo reúne lo que el curso mostró y lo que dijo, para decidir qué cambiar.",
+      "why": "Reúne la evidencia de aprendizaje, medida con ganancia y comparada con otro grupo, y la opinión del curso, leída con su tasa de respuesta, para decidir qué cambiar. Combinar fuentes evita decidir con una sola mirada. La hoja vuelve la evidencia una rutina repetible cada semestre y deja ver con qué datos tomaste cada decisión.",
+      "principios": [
+        "Define antes de empezar qué quieres saber y qué dato lo responde, como un inventario conceptual para el aprendizaje y una consulta para la experiencia del curso (Suskie, 2018).",
+        "Registra las dos mediciones con códigos y no con nombres, y calcula la ganancia de cada estudiante y la del curso (Hake, 1998).",
+        "Escribe la tasa de respuesta junto a cada resultado de opinión y evita sacar conclusiones cuando la cifra sea baja (Nulty, 2008).",
+        "Cruza aprendizaje y opinión: si el curso dice haber aprendido pero el inventario no se movió, esa discrepancia es la pregunta que debes investigar (Uttl et al., 2017).",
+        "Decide un cambio concreto, anúncialo al curso y repite la medición el semestre siguiente para ver si funcionó (Suskie, 2018)."
+      ],
+      "prueba": "Elige un tema difícil de tu curso. Aplica cinco preguntas de inventario al inicio y al final, y una consulta anónima en la mitad. Junta todo en una hoja y decide un cambio para el semestre siguiente.",
+      "refs": [
+        "suskie18",
+        "hake98",
+        "nulty08",
+        "uttl17"
+      ]
+    },
+    "lab_combinado": {
+      "n": "Laboratorio combinado",
+      "e": "🥨",
+      "f": "dis",
+      "pista": "Se ensaya en la pantalla y se cierra en la mesa, con instrumentos de verdad.",
+      "why": "Es un diseño de prácticas que alterna experimentos virtuales y físicos según lo que cada medio enseña mejor. La simulación permite explorar variables y repetir sin costo, y el equipo real enseña el manejo de instrumentos y la incertidumbre de la medición. Ambos medios son complementarios, y combinarlos puede ser más potente que usar solo uno (de Jong et al., 2013). Surge de cerrar el ciclo de simular con una práctica en la mesa.",
+      "uni": "En Química general, haz que el curso ensaye la titulación en una simulación y luego la repita en la mesa, comparando el volumen que predijo cada uno.",
+      "refs": [
+        "dejong13"
+      ]
+    },
+    "analisis_reproducible": {
+      "n": "Análisis reproducible",
+      "e": "🥐",
+      "f": "tec",
+      "pista": "Otra persona repite tus pasos con tus datos y llega a los mismos números.",
+      "why": "Es un análisis documentado de modo que cualquier persona, incluido tú dentro de un año, pueda repetirlo con los mismos datos y obtener los mismos resultados. Un cuaderno que junta datos, cálculos y explicación lo facilita (Kluyver et al., 2016). En la docencia sirve para comparar secciones o semestres con los mismos pasos. Un cuasiexperimento exige además un grupo de comparación y atención a las diferencias iniciales entre grupos (Shadish et al., 2002).",
+      "uni": "Guarda en un cuaderno el cálculo de la ganancia de tu sección y repítelo con la sección de un colega, cambiando solo el archivo de datos.",
+      "refs": [
+        "kluyver16",
+        "shadish02"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "lenguaje",
+      "b": "simulacion",
+      "r": "representaciones",
+      "nota": "Cuando una simulación se describe con palabras, gráficas y fórmulas a la vez, aparece la tarea de pasar de una forma a otra."
+    },
+    {
+      "a": "representaciones",
+      "b": "herramienta",
+      "r": "geogebra",
+      "nota": "Una herramienta que liga figura, ecuación y gráfica hace que mover un objeto cambie todas sus formas a la vez."
+    },
+    {
+      "a": "representaciones",
+      "b": "simulador_tareas",
+      "r": "desmos",
+      "nota": "Actividades cortas aíslan una destreza, como relacionar pendiente y gráfica, y muestran al docente cada respuesta en vivo."
+    },
+    {
+      "a": "laboratorio_virtual",
+      "b": "herramienta",
+      "r": "phet",
+      "nota": "Un laboratorio virtual gratuito y listo para usar en el navegador: simulaciones de ciencias que se manipulan con controles."
+    },
+    {
+      "a": "constructivismo",
+      "b": "phet",
+      "r": "poe",
+      "nota": "Para construir sobre lo que ya piensan, el curso predice, mira la simulación y compara; el choque con lo observado mueve las ideas."
+    },
+    {
+      "a": "descubrimiento",
+      "b": "experiencial",
+      "r": "guia_que_se_retira",
+      "nota": "Explorar enseña, pero el descubrimiento sin ayuda rinde poco; la experiencia necesita una guía que se afloje al paso del dominio."
+    },
+    {
+      "a": "poe",
+      "b": "guia_que_se_retira",
+      "r": "ciclo_simular_explicar",
+      "nota": "Cada vuelta de predecir, observar y explicar se apoya en preguntas del docente que se van retirando."
+    },
+    {
+      "a": "herramienta",
+      "b": "evaluacion",
+      "r": "hoja_calculo",
+      "nota": "Los resultados de una evaluación se acumulan en filas y columnas; una herramienta que calcula sola evita las cuentas a mano."
+    },
+    {
+      "a": "hoja_calculo",
+      "b": "pretest_postest",
+      "r": "excel",
+      "nota": "Pretest y postest caben en dos columnas; una fórmula calcula la diferencia de cada estudiante y de todo el curso."
+    },
+    {
+      "a": "hoja_calculo",
+      "b": "consulta_medio_semestre",
+      "r": "sheets",
+      "nota": "Una hoja en la nube recibe las respuestas anónimas de la consulta y las resume mientras el semestre sigue."
+    },
+    {
+      "a": "sheets",
+      "b": "encuestas",
+      "r": "tasa_respuesta",
+      "nota": "Con la hoja puedes contar cuántos respondieron sobre cuántos podían; esa tasa dice cuánto vale el promedio de la encuesta."
+    },
+    {
+      "a": "phet",
+      "b": "carga_cognitiva",
+      "r": "multimedia",
+      "nota": "Una simulación junta imagen, animación y controles; la teoría de la carga cognitiva ayuda a decidir cuántos elementos mostrar a la vez."
+    },
+    {
+      "a": "phet",
+      "b": "peer",
+      "r": "aula_activa",
+      "nota": "Dos estudiantes predicen frente a la misma simulación, discuten y votan, y el aula se vuelve un lugar para pensar juntos."
+    },
+    {
+      "a": "phet",
+      "b": "metacognicion",
+      "r": "autoexplicacion",
+      "nota": "Pedir que expliquen por qué cambió una gráfica al mover un control los lleva a explicarse a sí mismos lo que ven."
+    },
+    {
+      "a": "poe",
+      "b": "peer",
+      "r": "conflicto_sociocognitivo",
+      "nota": "Si cada pareja predice algo distinto, la observación abre una discusión entre ideas en choque."
+    },
+    {
+      "a": "poe",
+      "b": "dificultades_deseables",
+      "r": "cambio_conceptual",
+      "nota": "Equivocarse al predecir cuesta, pero ese tropiezo es lo que hace que una idea previa se revise."
+    },
+    {
+      "a": "geogebra",
+      "b": "ejemplos_resueltos",
+      "r": "modelado",
+      "nota": "Construir una figura paso a paso mientras piensas en voz alta muestra al curso cómo razona quien sabe."
+    },
+    {
+      "a": "desmos",
+      "b": "retro",
+      "r": "formativa",
+      "nota": "Ver en vivo las gráficas del curso te deja responder en el momento, mientras todavía se puede corregir."
+    },
+    {
+      "a": "representaciones",
+      "b": "experto_novato",
+      "r": "formas_pensar",
+      "nota": "Los expertos pasan con soltura de una forma de representar a otra; mostrarlo ayuda a ver cómo piensa la disciplina."
+    },
+    {
+      "a": "modelado_matematico",
+      "b": "problema",
+      "r": "proyectos",
+      "nota": "Un problema real que pide modelar, ajustar y defender un modelo se convierte en un proyecto de varias semanas."
+    },
+    {
+      "a": "colab",
+      "b": "analitica",
+      "r": "aprendizaje_automatico",
+      "nota": "Un cuaderno con datos de actividad del curso es el lugar donde se prueba un modelo que aprende de ellos."
+    },
+    {
+      "a": "guia_que_se_retira",
+      "b": "modelado",
+      "r": "aprendiz_cognitivo",
+      "nota": "Mostrar cómo piensas y retirar la ayuda de a poco es la lógica del aprendiz cognitivo."
+    },
+    {
+      "a": "guia_que_se_retira",
+      "b": "andamiaje",
+      "r": "zdp",
+      "nota": "La ayuda ajustada a lo que el estudiante casi puede hacer solo es el terreno de la zona de desarrollo próximo."
+    },
+    {
+      "a": "ciclo_simular_explicar",
+      "b": "metacognicion",
+      "r": "autorregulado",
+      "nota": "Cuando el curso revisa y corrige sus propias predicciones, practica regular su aprendizaje."
+    },
+    {
+      "a": "excel",
+      "b": "analisis_items",
+      "r": "validez",
+      "nota": "Calcular en la hoja cuántos aciertan cada ítem revela preguntas defectuosas y mejora la validez de la prueba."
+    },
+    {
+      "a": "excel",
+      "b": "gestion_tiempo",
+      "r": "carga_trabajo",
+      "nota": "Una hoja que suma las horas que pide cada tarea permite ver si la carga real cabe en el semestre."
+    },
+    {
+      "a": "excel",
+      "b": "rubrica",
+      "r": "criterial",
+      "nota": "Registrar el nivel de cada criterio en la hoja deja comparar cada trabajo con el estándar esperado."
+    },
+    {
+      "a": "sheets",
+      "b": "cooperativo",
+      "r": "eval_contribucion",
+      "nota": "Si cada integrante registra su aporte en una hoja compartida, el equipo tiene evidencia para evaluar la contribución."
+    },
+    {
+      "a": "sheets",
+      "b": "coevaluacion",
+      "r": "revision_pares",
+      "nota": "Una hoja compartida reúne los comentarios entre pares y deja ver quién ya revisó y quién falta."
+    },
+    {
+      "a": "hoja_calculo",
+      "b": "tabla",
+      "r": "analisis_items",
+      "nota": "La tabla de especificaciones y los aciertos por pregunta caben en la misma hoja, y de ahí sale el análisis de ítems."
+    },
+    {
+      "a": "hoja_calculo",
+      "b": "rubrica",
+      "r": "lista_cotejo",
+      "nota": "Una lista de criterios con casillas se arma rápido en una hoja y se suma sola."
+    },
+    {
+      "a": "tasa_respuesta",
+      "b": "opinion_estudiantil",
+      "r": "sesgos_encuestas",
+      "nota": "Si responde poco del curso, la opinión estudiantil se inclina hacia quienes quisieron contestar."
+    },
+    {
+      "a": "geogebra",
+      "b": "desmos",
+      "r": "modelado_matematico",
+      "nota": "Con ambas puedes cambiar los parámetros de una función y ver cuánto se parece a los datos, que es el corazón de modelar."
+    },
+    {
+      "a": "ciclo_simular_explicar",
+      "b": "practica",
+      "r": "lab_combinado",
+      "nota": "Después de explorar en la pantalla, la práctica real pone al curso frente a instrumentos, ruido de medición y decisiones que la simulación esconde."
+    },
+    {
+      "a": "lab_combinado",
+      "b": "modelado_matematico",
+      "r": "cap_laboratorio_pantalla",
+      "nota": "Con datos de la pantalla y de la mesa, el curso ajusta un modelo y lo contrasta, y así cierra un laboratorio bien armado."
+    },
+    {
+      "a": "algoritmo",
+      "b": "excel",
+      "r": "colab",
+      "nota": "Cuando la hoja se queda corta, un algoritmo escrito en un cuaderno en línea repite el análisis con otros datos."
+    },
+    {
+      "a": "colab",
+      "b": "cuasiexperimento",
+      "r": "analisis_reproducible",
+      "nota": "Comparar dos secciones con un cuaderno que cualquiera pueda volver a ejecutar deja ver cómo se obtuvo cada número."
+    },
+    {
+      "a": "ganancia_normalizada",
+      "b": "analisis_reproducible",
+      "r": "cambio_con_criterio",
+      "nota": "La ganancia de cada sección, calculada con los mismos pasos, permite comparar sin dudar de las cuentas."
+    },
+    {
+      "a": "cambio_con_criterio",
+      "b": "tasa_respuesta",
+      "r": "cap_datos_clase",
+      "nota": "El aprendizaje comparado y la opinión leída con su tasa de respuesta se reúnen para decidir qué cambiar."
+    },
+    {
+      "a": "lab_combinado",
+      "b": "presencial",
+      "r": "blended",
+      "nota": "Alternar pantalla y mesa es mezclar lo virtual con lo presencial dentro de una misma práctica."
+    },
+    {
+      "a": "tasa_respuesta",
+      "b": "reflexiva",
+      "r": "eval_docencia",
+      "nota": "Mirar la encuesta con su tasa de respuesta y con pregunta propia es evaluar la docencia con más de una fuente."
+    },
+    {
+      "a": "analisis_reproducible",
+      "b": "consentimiento",
+      "r": "privacidad",
+      "nota": "Compartir un cuaderno con datos de estudiantes obliga a pensar qué se comparte y con qué permiso."
+    },
+    {
+      "a": "cambio_con_criterio",
+      "b": "reflexiva",
+      "r": "sotl",
+      "nota": "Revisar con mirada reflexiva el cambio medido en tu curso es una forma de investigar tu propia docencia."
+    }
+  ],
+  "refs": {
+    "wieman08": "Wieman, C. E., Adams, W. K., & Perkins, K. K. (2008). PhET: Simulations that enhance learning. _Science, 322_(5902), 682–683. https://doi.org/10.1126/science.1161948",
+    "finkelstein05": "Finkelstein, N. D., Adams, W. K., Keller, C. J., Kohl, P. B., Perkins, K. K., Podolefsky, N. S., Reid, S., & LeMaster, R. (2005). When learning about the real world is better done virtually: A study of substituting computer simulations for laboratory equipment. _Physical Review Special Topics - Physics Education Research, 1_(1), 010103. https://doi.org/10.1103/PhysRevSTPER.1.010103",
+    "rutten12": "Rutten, N., van Joolingen, W. R., & van der Veen, J. T. (2012). The learning effects of computer simulations in science education. _Computers & Education, 58_(1), 136–153. https://doi.org/10.1016/j.compedu.2011.07.017",
+    "ainsworth06": "Ainsworth, S. (2006). DeFT: A conceptual framework for considering learning with multiple representations. _Learning and Instruction, 16_(3), 183–198. https://doi.org/10.1016/j.learninstruc.2006.03.001",
+    "chan14": "Chan, K. K., & Leung, S. W. (2014). Dynamic geometry software improves mathematical achievement: Systematic review and meta-analysis. _Journal of Educational Computing Research, 51_(3), 311–325.",
+    "white92": "White, R., & Gunstone, R. (1992). _Probing understanding_. Falmer Press.",
+    "blum91": "Blum, W., & Niss, M. (1991). Applied mathematical problem solving, modelling, applications, and links to other subjects: State, trends and issues in mathematics instruction. _Educational Studies in Mathematics, 22_(1), 37–68.",
+    "kluyver16": "Kluyver, T., Ragan-Kelley, B., Pérez, F., Granger, B., Bussonnier, M., Frederic, J., Kelley, K., Hamrick, J., Grout, J., Corlay, S., Ivanov, P., Avila, D., Abdalla, S., Willing, C., & Jupyter Development Team. (2016). Jupyter Notebooks: A publishing format for reproducible computational workflows. En F. Loizides & B. Schmidt (Eds.), _Positioning and power in academic publishing: Players, agents and agendas_ (pp. 87–90). IOS Press.",
+    "panko98": "Panko, R. R. (1998). What we know about spreadsheet errors. _Journal of End User Computing, 10_(2), 15–21.",
+    "tufte01": "Tufte, E. R. (2001). _The visual display of quantitative information_ (2nd ed.). Graphics Press.",
+    "nulty08": "Nulty, D. D. (2008). The adequacy of response rates to online and paper surveys: What can be done? _Assessment & Evaluation in Higher Education, 33_(3), 301–314. https://doi.org/10.1080/02602930701293231",
+    "phet_sw": "PhET Interactive Simulations. (2026). _PhET Interactive Simulations_ [Software]. https://phet.colorado.edu",
+    "geogebra_sw": "GeoGebra. (2026). _GeoGebra_ [Software]. https://www.geogebra.org",
+    "desmos_sw": "Desmos. (2026). _Desmos_ [Software]. https://www.desmos.com",
+    "colab_sw": "Google. (2026). _Google Colaboratory_ [Software]. https://colab.research.google.com",
+    "excel_sw": "Microsoft Corporation. (2026). _Microsoft Excel_ [Software]. https://www.microsoft.com/microsoft-365/excel",
+    "sheets_sw": "Google. (2026). _Google Sheets_ [Software]. https://workspace.google.com/products/sheets/"
+  },
+  "misiones": [
+    {
+      "id": "laboratorio_pantalla",
+      "n": "Laboratorio en la pantalla",
+      "e": "🧫",
+      "meta": "cap_laboratorio_pantalla",
+      "hitos": [
+        "laboratorio_virtual",
+        "phet",
+        "poe"
+      ],
+      "encargo": "Camilo Arboleda enseña Física II, sobre circuitos y campos, en segundo año de Ingeniería Eléctrica en una universidad de Cali, Colombia. Este semestre cambió dos prácticas por simulaciones y le dijo al curso que explorara con libertad. En el parcial, casi todos escribieron bien las ecuaciones, pero predijeron mal qué ocurre con la corriente cuando se agrega una resistencia. Los equipos del laboratorio son pocos y las licencias de software, escasas. Quiere aprovechar simulaciones y herramientas gratuitas sin que el curso se limite a mover controles, y decidir cuándo guiar y cuándo soltar.",
+      "objetivo": "Llega a 🧫 Laboratorio en la pantalla para diseñar sesiones con simulaciones que unan predicción, guía que se retira y análisis de datos en el curso de Camilo.",
+      "cierre": "Camilo abre ahora cada práctica en pantalla con una hoja de predicción, ofrece tres preguntas guía que va quitando y cierra con una gráfica y una explicación escrita. Después lleva al curso a la mesa del laboratorio para repetir una medición con instrumentos reales y ajustar un modelo en GeoGebra o Desmos. Cuando el parcial incluya una resistencia nueva, su curso ya tendrá la costumbre de predecir antes de calcular."
+    },
+    {
+      "id": "datos_clase",
+      "n": "Datos para mejorar la clase",
+      "e": "💹",
+      "meta": "cap_datos_clase",
+      "hitos": [
+        "ganancia_normalizada",
+        "excel",
+        "consulta_medio_semestre"
+      ],
+      "encargo": "Eduardo Lacayo dicta Genética en tercer año de Biología en una universidad pública de Managua, Nicaragua. Cada semestre sus estudiantes lo califican bien en la encuesta docente y él concluye que todo marcha. Esta vez aplicó un inventario de conceptos de genética al inicio y al final, y el promedio subió, aunque varias personas casi no se movieron. Tiene los puntajes en dos archivos de Excel, las respuestas de una consulta de la semana ocho y los resultados de una colega que dicta la otra sección con el mismo inventario. Quiere unirlo todo para decidir qué cambiar sin depender solo de lo que opine el curso.",
+      "objetivo": "Llega a 💹 Datos para mejorar la clase para que Eduardo decida qué cambiar en su curso a partir de la ganancia, la comparación entre secciones y la consulta del curso.",
+      "cierre": "Eduardo tiene ahora una hoja con los puntajes codificados, la ganancia de cada estudiante y de cada sección, y la tasa de respuesta de su consulta. Vio que un grupo de estudiantes no avanzó y que la encuesta de fin de semestre no lo mostraba. Guardó el cálculo en un cuaderno para repetirlo el semestre próximo y comprobar si su cambio sirvió."
+    }
+  ]
+}

@@ -1,0 +1,595 @@
+{
+  "fichas": {
+    "google_docs": {
+      "n": "Google Docs",
+      "e": "🖋️",
+      "f": "her",
+      "pista": "Procesador de texto en la nube donde varias personas escriben a la vez y se ven los cursores moverse.",
+      "why": "Procesador de texto en línea de Google con edición simultánea, comentarios al margen e historial de versiones. En la escritura colaborativa importa cómo se reparten la planificación, la redacción y la revisión (Lowry et al., 2004), y un documento compartido permite ver ese reparto. El historial muestra quién escribió qué, pero no reemplaza la conversación del equipo. Exige cuenta y conexión, y la privacidad depende del acuerdo de tu institución. Alternativas libres: Etherpad y editores de suites de oficina libres.",
+      "uni": "En un informe grupal de Ingeniería, pide un solo documento donde cada integrante comente las partes de los demás antes de revisar la propia.",
+      "refs": [
+        "lowry04",
+        "gdocs26"
+      ]
+    },
+    "padlet": {
+      "n": "Padlet",
+      "e": "🖇️",
+      "f": "her",
+      "pista": "Muro virtual donde cada persona pega su nota y todas se ven al instante.",
+      "why": "Tablero digital colaborativo donde cada persona publica notas con texto, imagen o enlace, en formato de muro, columnas o línea de tiempo. Funciona como lluvia de ideas electrónica, en la que todos escriben a la vez y nadie espera turno. Los estudios de laboratorio la encuentran más productiva que la oral, sobre todo en grupos grandes (Dennis y Valacich, 1993), aunque en aulas reales la evidencia es menor. La versión gratuita limita el número de tableros, y conviene revisar la política de datos de tu institución.",
+      "uni": "En una clase de cuarenta estudiantes, abre un muro con una pregunta del caso, da dos minutos de escritura individual y lee en voz alta las notas más repetidas.",
+      "refs": [
+        "dennis93",
+        "padlet26"
+      ]
+    },
+    "miro": {
+      "n": "Miro",
+      "e": "🖱️",
+      "f": "her",
+      "pista": "Pizarra infinita en línea donde el equipo mueve notas adhesivas y dibuja conexiones, como una pared de taller.",
+      "why": "Pizarra colaborativa en línea con notas adhesivas, diagramas, mapas y plantillas para sesiones de trabajo. Los mapas conceptuales mostraron efectos positivos en el aprendizaje frente a leer o escuchar texto en un metaanálisis (Nesbit y Adesope, 2006), y un lienzo común hace visible el razonamiento de cada integrante. El plan gratuito limita el número de tableros, y un lienzo sin consigna clara abruma. Alternativa libre: Excalidraw.",
+      "uni": "Al cerrar un proyecto de Arquitectura, pide que el equipo coloque en un tablero tres notas sobre lo que funcionó y tres sobre lo que cambiaría, y las agrupe.",
+      "refs": [
+        "nesbit06",
+        "miro26"
+      ]
+    },
+    "notion": {
+      "n": "Notion",
+      "e": "📔",
+      "f": "her",
+      "pista": "Espacio de trabajo en línea donde páginas, tablas y listas del equipo se conectan como una wiki privada.",
+      "why": "Aplicación de espacios de trabajo que combina páginas de texto, bases de datos y tableros, usada como wiki y gestor de tareas de un equipo. Las wikis permiten construir conocimiento en común porque cada aporte modifica lo que los demás leen (Cress y Kimmerle, 2008). Para un equipo sirve de memoria compartida, que deja por escrito quién sabe qué y quién responde por cada tarea (Wegner, 1987). Tiene curva de aprendizaje y funciones de pago. Alternativas: Obsidian, Logseq y las wikis de Moodle.",
+      "uni": "En un proyecto semestral de Ingeniería, crea una página del equipo con una tabla de tareas, responsables y fechas, y revísala al inicio de cada sesión.",
+      "refs": [
+        "cress08",
+        "wegner87",
+        "notion26"
+      ]
+    },
+    "escritura_colaborativa": {
+      "n": "Escritura colaborativa",
+      "e": "⌨️",
+      "f": "met",
+      "pista": "Varias manos construyen un solo texto, y el reto está en quién planifica, quién redacta y quién revisa.",
+      "why": "Es el trabajo en equipo para producir un texto común. Lowry y colaboradores (2004) distinguen estrategias según cómo se reparten la planificación, la redacción y la revisión. Dividir secciones y pegarlas es solo una, y deja sin discutir el argumento de conjunto. Un metaanálisis halló que los guiones apoyados por computador mejoran sobre todo las habilidades de colaboración, y poco el conocimiento del contenido (Vogel et al., 2017).",
+      "uni": "En un ensayo grupal de Derecho Laboral, asigna a cada ronda un papel distinto (proponer, objetar, integrar) y pide que el borrador final muestre huellas de los tres.",
+      "refs": [
+        "lowry04",
+        "vogel17"
+      ]
+    },
+    "debate_ideas": {
+      "n": "Debate de ideas",
+      "e": "⚔️",
+      "f": "met",
+      "pista": "Tras juntar las ocurrencias, el equipo las cuestiona una por una, sin atacar a quien las propuso.",
+      "why": "Consiste en discutir con razones las ideas del grupo, sin tomar partido por las personas. Nace al combinar un tablero de ideas expuestas con el conflicto de tarea. Nemeth y colaboradores (2004) pidieron a grupos que debatieran y criticaran en lugar de seguir las reglas de la lluvia de ideas, y produjeron más ideas. Un metaanálisis halló que el conflicto de relación daña el rendimiento (De Dreu y Weingart, 2003), y otro concluyó que el de tarea solo ayuda en ciertas condiciones (de Wit et al., 2012).",
+      "uni": "Tras la ronda de ideas en el muro, pide que cada equipo elija las dos más discutibles y escriba una razón a favor y una en contra antes de votar.",
+      "refs": [
+        "nemeth04",
+        "dedreu03",
+        "dewit12"
+      ]
+    },
+    "ideas_a_la_vista": {
+      "n": "Ideas de todos a la vista",
+      "e": "🎆",
+      "f": "sint",
+      "pista": "Cada persona escribe sola primero y luego el equipo agrupa lo escrito sobre un lienzo común.",
+      "why": "Une el muro de notas que se escriben a la vez con el lienzo donde el equipo las agrupa. Primero cada integrante produce por separado, lo que evita el bloqueo de turno de la lluvia de ideas oral (Diehl y Stroebe, 1987). Después el grupo organiza y decide, como propone la técnica de grupo nominal (Delbecq et al., 1975). Las herramientas en línea permiten esa secuencia con muchas personas, aunque los grupos que piensan en voz alta producen menos ideas que la suma de personas trabajando solas (Mullen et al., 1991).",
+      "principios": [
+        "Da dos minutos de escritura individual y en silencio antes de cualquier conversación, porque hablar por turnos bloquea ideas y frena a quien espera (Diehl y Stroebe, 1987).",
+        "Pide que todas las notas lleguen al muro a la vez, sin esperar turnos, porque escribir en paralelo elimina el tiempo muerto de la lluvia de ideas oral (Dennis y Valacich, 1993).",
+        "Agrupa las notas en el lienzo con el equipo y nombra cada grupo con una frase completa, porque los mapas construidos por quien aprende rinden más que los leídos (Nesbit y Adesope, 2006).",
+        "Cierra con una votación individual sobre las agrupaciones, como en la técnica de grupo nominal (Delbecq et al., 1975).",
+        "No esperes que el grupo supere a la suma de personas pensando a solas, porque en la mayoría de los estudios no lo hace (Mullen et al., 1991)."
+      ],
+      "prueba": "En tu próxima sesión de proyecto, abre un muro con la pregunta del día, da dos minutos de escritura en silencio, agrupen las notas en un lienzo y voten en secreto. Compara cuántas ideas distintas salieron con las de la última lluvia oral.",
+      "refs": [
+        "diehl87",
+        "dennis93",
+        "delbecq75",
+        "mullen91",
+        "nesbit06"
+      ]
+    },
+    "documento_vivo": {
+      "n": "Documento vivo del equipo",
+      "e": "☁️",
+      "f": "sint",
+      "pista": "Un texto común donde se ve quién escribe, quién revisa y quién sabe de cada tema.",
+      "why": "Integra la escritura colaborativa con un espacio donde el equipo registra acuerdos, responsables y fuentes. El texto avanza mientras el equipo ve las decisiones que lo orientan. Los equipos que se entrenaron juntos recordaron mejor una tarea porque desarrollaron memoria transactiva, un mapa compartido de quién sabe qué (Liang et al., 1995). Los guiones con papeles y fases mejoran sobre todo la colaboración (Vogel et al., 2017).",
+      "principios": [
+        "Reserva al inicio del documento una sección de acuerdos que diga quién conoce cada tema y quién responde por cada parte, para que el equipo sepa a quién preguntar (Wegner, 1987).",
+        "Haz que el equipo se entrene junto antes de repartir tareas, porque quienes aprenden juntos desarrollan mejor ese mapa de quién sabe qué (Liang et al., 1995).",
+        "Define fases y papeles para escribir, por ejemplo proponer, objetar e integrar, y rótalos en cada sesión, porque los guiones mejoran la colaboración (Vogel et al., 2017).",
+        "Usa comentarios e historial para ver los cambios de cada integrante, y pide que el texto final se discuta en conjunto en lugar de pegarse por secciones (Lowry et al., 2004).",
+        "Trata el espacio común como una wiki del equipo, donde cada edición cambia lo que los demás leen, y acuerda cuándo se fija una versión (Cress y Kimmerle, 2008)."
+      ],
+      "prueba": "En tu próximo trabajo grupal, abre un documento con una sección de acuerdos que diga quién domina cada tema. Rota cada semana el papel que propone, objeta o integra, y revisa el historial al entregar para ver si el texto se pensó en común.",
+      "refs": [
+        "wegner87",
+        "liang95",
+        "vogel17",
+        "lowry04",
+        "cress08"
+      ]
+    },
+    "cap_documento": {
+      "n": "Pensar juntos en un documento compartido",
+      "e": "❇️",
+      "f": "sint",
+      "pista": "Cuando el trabajo grupal se escribe en un solo lugar, a muchas manos y con desacuerdos útiles.",
+      "why": "Reúne el documento vivo del equipo con el debate de ideas. El resultado es un trabajo grupal que se piensa mientras se escribe, porque el desacuerdo sobre la tarea queda visible en el texto y se resuelve con razones. Dividir y pegar evita los conflictos, y también la integración. La investigación respalda los guiones con papeles (Vogel et al., 2017) y el debate estructurado sobre las ideas (Nemeth et al., 2004), con la salvedad de que el conflicto de relación daña al equipo (De Dreu y Weingart, 2003).",
+      "principios": [
+        "Pide un solo documento con una sección de acuerdos y responsables desde el primer día, para que las decisiones queden escritas y el equipo sepa a quién preguntar (Wegner, 1987).",
+        "Alterna escritura individual en silencio y discusión en el documento, porque la escritura paralela evita el bloqueo de turno (Diehl y Stroebe, 1987).",
+        "Pide que cada integrante comente las ideas de otro con una razón y sin aludir a la persona, porque el conflicto de relación daña el rendimiento (De Dreu y Weingart, 2003).",
+        "Asigna papeles que rotan entre proponer, objetar e integrar, porque los guiones con papeles mejoran la colaboración (Vogel et al., 2017).",
+        "Cierra cada sesión con unos minutos para revisar qué ayudó al equipo y qué cambiará, como en el procesamiento grupal (Johnson y Johnson, 2009)."
+      ],
+      "prueba": "En la próxima entrega grupal, exige un solo documento con historial abierto y una sección de desacuerdos resueltos, donde cada discrepancia tenga una razón escrita. Compara con un trabajo anterior armado por secciones.",
+      "refs": [
+        "vogel17",
+        "nemeth04",
+        "dedreu03",
+        "wegner87",
+        "diehl87",
+        "johnson09"
+      ]
+    },
+    "google_scholar": {
+      "n": "Google Scholar",
+      "e": "🎩",
+      "f": "her",
+      "pista": "Buscador especializado que rastrea artículos, tesis y libros académicos y muestra quién los ha citado.",
+      "why": "Buscador académico gratuito que reúne artículos, tesis, libros y preprints, y enlaza a las obras que citan cada texto. Gusenbauer (2019) comparó su cobertura con la de otras bases y buscadores, y fue la más amplia, aunque sus criterios de inclusión son poco transparentes y mezclan fuentes de calidad desigual. Sirve para empezar y para seguir citas, y no reemplaza las bases de tu disciplina ni el juicio sobre cada fuente. Para literatura latinoamericana conviene sumar SciELO, Redalyc o Dialnet.",
+      "uni": "Pide que cada equipo busque su tema en Scholar, abra los tres artículos más citados y use el enlace de citado por para encontrar un trabajo posterior.",
+      "refs": [
+        "gusenbauer19",
+        "gscholar26"
+      ]
+    },
+    "zotero": {
+      "n": "Zotero",
+      "e": "🧺",
+      "f": "her",
+      "pista": "Biblioteca personal que guarda los artículos que encuentras y escribe por ti las citas y la bibliografía.",
+      "why": "Gestor de referencias gratuito y de código abierto que captura datos de páginas y artículos, organiza una biblioteca y genera citas y bibliografías en distintos estilos. Escribir desde fuentes exige distinguir la paráfrasis de la copia (Howard et al., 2010), y un gestor ayuda a atribuir con exactitud. No verifica que hayas comprendido la fuente, y los datos importados pueden traer errores que debes revisar. Alternativas: Mendeley y JabRef.",
+      "uni": "Antes del primer informe, haz que cada estudiante arme una carpeta con cinco fuentes, escriba una nota de una línea sobre lo que aporta cada una y genere la bibliografía.",
+      "refs": [
+        "howard10",
+        "zotero26"
+      ]
+    },
+    "wikipedia": {
+      "n": "Wikipedia",
+      "e": "🌎",
+      "f": "her",
+      "pista": "Enciclopedia que escriben y corrigen voluntarios del mundo entero, con notas al pie que remiten a otras fuentes.",
+      "why": "Enciclopedia libre y colaborativa, escrita por voluntarios bajo normas de verificabilidad y punto de vista neutral. Giles (2005) comparó en _Nature_ artículos científicos de Wikipedia con los de la Enciclopedia Británica y halló una precisión cercana, aunque la Británica cuestionó el estudio. Su valor académico está en la visión general inicial y en su lista de referencias, y no como fuente final. Contrastar lo que otras fuentes dicen del mismo tema ayuda a juzgarla (Wineburg y McGrew, 2019).",
+      "uni": "Pide que cada estudiante abra el artículo de Wikipedia sobre su tema, anote cuatro referencias que cita y verifique en otra pestaña que dos dicen lo que el artículo afirma.",
+      "refs": [
+        "giles05",
+        "wineburg19",
+        "wikipedia26"
+      ]
+    },
+    "deepl": {
+      "n": "DeepL",
+      "e": "🈯",
+      "f": "her",
+      "pista": "Traductor automático que se apoya en redes neuronales y devuelve textos largos con frases bastante naturales.",
+      "why": "Servicio de traducción automática neuronal con versión gratuita y de pago, usado para leer y escribir en otro idioma. Un estudio con estudiantes de inglés como lengua extranjera encontró mejoras en sus textos al usar traducción automática, junto con la necesidad de enseñar a usarla (Lee, 2020). Para leer artículos en inglés ayuda a comprender, pero no reemplaza el original en los pasajes que importan. No pegues datos personales ni textos inéditos sin revisar la política de privacidad. Alternativa libre: LibreTranslate.",
+      "uni": "Pide que traduzcan con DeepL un párrafo difícil de su lectura en inglés, lo comparen con el original y marquen dos términos técnicos que la traducción cambió.",
+      "refs": [
+        "lee20",
+        "deepl26"
+      ]
+    },
+    "grammarly": {
+      "n": "Grammarly",
+      "e": "✔️",
+      "f": "her",
+      "pista": "Corrector que subraya errores de ortografía y gramática y sugiere mejoras de estilo mientras escribes.",
+      "why": "Asistente de escritura con inteligencia artificial que revisa ortografía, gramática y estilo, sobre todo en inglés, con un soporte de otros idiomas que varía. Un estudio con universitarios documentó percepciones favorables de su retroalimentación gramatical y más dudas sobre su utilidad para el contenido (O'Neill y Russell, 2019). Corregir la forma no sustituye la revisión del argumento. Algunas funciones son de pago y el texto viaja a servidores externos. Alternativa libre: LanguageTool.",
+      "uni": "Haz que cada estudiante pase su borrador por Grammarly, anote qué sugerencias aceptó y rechazó con su razón, y entregue también un cambio de argumento que la herramienta no sugirió.",
+      "refs": [
+        "oneill19",
+        "grammarly26"
+      ]
+    },
+    "lectura_lateral": {
+      "n": "Lectura lateral",
+      "e": "↔️",
+      "f": "apr",
+      "pista": "Abres varias pestañas para investigar quién está detrás de una página en vez de leerla de arriba abajo.",
+      "why": "Es la estrategia de salir de una página para comprobar en otras fuentes quién la publica y qué se dice de ella. Wineburg y McGrew (2019) compararon a historiadores, verificadores de datos y estudiantes universitarios: los verificadores salían del sitio enseguida y juzgaban mejor su fiabilidad. Wineburg (1991) ya había observado que los historiadores miraban la fuente antes que el contenido.",
+      "uni": "Antes de usar una página como fuente, pide que abran tres pestañas nuevas para saber quién la publica, qué dicen otras fuentes sobre ella y quién la cita.",
+      "refs": [
+        "wineburg19",
+        "wineburg91"
+      ]
+    },
+    "citar_sin_pegar": {
+      "n": "Citar sin pegar",
+      "e": "🪡",
+      "f": "sint",
+      "pista": "Las ideas ajenas entran reformuladas y firmadas, con la bibliografía armada mientras lees.",
+      "why": "Une el gestor de referencias con la escritura en mosaico, que consiste en copiar frases cambiando algunas palabras. Howard y colaboradores (2010) muestran que muchos estudiantes escriben desde las oraciones de la fuente y no desde su idea central. Pecorari (2003) describe ese patrón en escritura académica en segunda lengua, donde suele aparecer como estrategia de supervivencia ante un texto difícil, sin intención de engañar. El gestor ordena la fuente, y reformularla exige comprenderla.",
+      "principios": [
+        "Pide que cada fuente entre al gestor de referencias con una nota de una línea que explique con tus palabras qué aporta, antes de redactar (Howard et al., 2010).",
+        "Enseña a distinguir cita, paráfrasis y mosaico con ejemplos de tu disciplina, porque el mosaico suele ser una etapa del aprendizaje de la escritura académica (Howard, 1995).",
+        "Revisa en clase un párrafo con mosaico y reescríbelo en grupo partiendo de la idea central del autor (Pecorari, 2003).",
+        "Exige que cada afirmación del texto indique de qué fuente viene desde el primer borrador, para que reformular y atribuir ocurran a la vez (Howard et al., 2010)."
+      ],
+      "prueba": "En tu próximo informe con fuentes, pide un gestor de referencias con una nota de una línea por fuente y revisa en clase un párrafo copiado con sinónimos. Reescríbanlo en grupo y compárenlo con el original.",
+      "refs": [
+        "howard10",
+        "howard95",
+        "pecorari03"
+      ]
+    },
+    "asistencia_linguistica": {
+      "n": "Asistencia lingüística automática",
+      "e": "🔠",
+      "f": "tec",
+      "pista": "Programas que traducen o corrigen tu texto por ti, con el riesgo de que dejes de revisar.",
+      "why": "Reúne la traducción automática y los correctores automáticos de escritura. Ambos ayudan de inmediato con la forma del texto, por lo que conviene enseñar cuándo aceptar una sugerencia y cuándo no. En inglés como lengua extranjera, la traducción automática puede mejorar los textos cuando se enseña a usarla (Lee, 2020), y los correctores generan percepciones favorables sobre la gramática (O'Neill y Russell, 2019). Ninguno decide qué argumento sostienes.",
+      "uni": "En un taller de redacción, pide traducir un párrafo con una herramienta, corregir el resultado a mano y justificar tres cambios por escrito.",
+      "refs": [
+        "lee20",
+        "oneill19"
+      ]
+    },
+    "corregir_con_voz": {
+      "n": "Corregir sin perder la voz",
+      "e": "✒️",
+      "f": "sint",
+      "pista": "El programa pule la forma del texto y tú decides qué sugerencias reflejan lo que quieres decir.",
+      "why": "Integra la asistencia lingüística automática con la identidad de autor. Ivanič (1998) describe que cada texto académico construye una identidad de quien escribe. Las sugerencias automáticas apuntan a una norma general, y conviene decidir cuáles respetan tu manera de argumentar. Ávila Reyes y colaboradores (2020) sostienen que una enseñanza inclusiva de la escritura debe dar lugar a la voz y la agencia de los estudiantes.",
+      "principios": [
+        "Pide que el estudiante marque cuáles sugerencias aceptó y cuáles rechazó, con una razón breve, para que cada corrección sea una decisión del autor (Ivanič, 1998).",
+        "Revisa primero argumento y orden con un compañero y deja la corrección automática para el final, porque quienes escriben con menos experiencia tienden a corregir palabras y no ideas (Sommers, 1980).",
+        "Anima a escribir en primera persona cuando la disciplina lo admite, como en yo sostengo, y comparte ejemplos de autores que lo hacen (Ávila Reyes et al., 2020).",
+        "Usa la traducción automática para comprender un texto y corrige a mano los términos técnicos antes de citarlo (Lee, 2020)."
+      ],
+      "prueba": "En tu próximo borrador, pide corregir con una herramienta, listar tres sugerencias rechazadas con su razón y entregar una nota sobre qué parte de su voz quisieron conservar.",
+      "refs": [
+        "ivanic98",
+        "avila20",
+        "sommers80",
+        "lee20"
+      ]
+    },
+    "escritura_con_fuentes": {
+      "n": "Escritura a partir de fuentes",
+      "e": "🐛",
+      "f": "apr",
+      "pista": "Leer a varios autores y construir con ellos un argumento tuyo, citando a cada uno.",
+      "why": "Es producir un texto propio desde lecturas, lo que exige comprender, seleccionar, conectar y citar. Combina la lectura lateral con las fuentes citadas y reformuladas. Spivey (1990) describió cómo quienes leen para escribir organizan, seleccionan y conectan el contenido de varios textos para construir un significado nuevo. Quienes copian frases cambiando palabras reproducen la oración del autor sin tomar su argumento (Howard et al., 2010).",
+      "uni": "En un ensayo de Historia, pide una tabla con tres fuentes, lo que afirma cada una y en qué discrepan, antes de redactar el párrafo que las pone a dialogar.",
+      "refs": [
+        "spivey90",
+        "howard10"
+      ]
+    },
+    "cap_fuentes": {
+      "n": "Leer y escribir con fuentes",
+      "e": "🐁",
+      "f": "sint",
+      "pista": "Del buscador a la bibliografía, un texto con firma propia que descansa en páginas bien comprobadas.",
+      "why": "Reúne la escritura a partir de fuentes con la corrección que respeta la voz del autor. Quien lee de forma lateral, cita sin pegar y decide qué sugerencias acepta conserva la autoría de su texto. La alfabetización académica enseña estas prácticas dentro de cada disciplina (Carlino, 2005), y la voz propia se construye con ellas (Ivanič, 1998).",
+      "principios": [
+        "Empieza con una enciclopedia o un buscador general para orientarte y verifica cada dato en otras fuentes antes de usarlo, leyendo en lateral (Wineburg y McGrew, 2019).",
+        "Guarda cada fuente en un gestor de referencias con una nota propia, para que citar y reformular ocurran juntos (Howard et al., 2010).",
+        "Enseña en cada disciplina cómo se lee y se cita en ella, porque la escritura académica se aprende dentro de cada comunidad (Carlino, 2005).",
+        "Reserva la corrección automática para el final y revisa antes el argumento con un compañero (Sommers, 1980).",
+        "Anima a decir yo sostengo con respaldo de fuentes, para que la voz propia conviva con las voces citadas (Ivanič, 1998)."
+      ],
+      "prueba": "En tu próximo trabajo con fuentes, pide una página con las búsquedas, tres fuentes comprobadas en lateral, la bibliografía del gestor y un párrafo donde tu postura se distinga de la de los autores.",
+      "refs": [
+        "wineburg19",
+        "howard10",
+        "carlino05",
+        "sommers80",
+        "ivanic98"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "escritura",
+      "b": "tecnologia",
+      "r": "google_docs",
+      "nota": "La escritura llevada a la nube permite que varias personas editen el mismo texto a la vez y comenten al margen, como en Google Docs."
+    },
+    {
+      "a": "grupo_nominal",
+      "b": "tecnologia",
+      "r": "padlet",
+      "nota": "La técnica de grupo nominal pide escribir en silencio y ver todo junto. Un muro digital donde cada quien pega su nota a la vez lo permite con grupos grandes, como Padlet."
+    },
+    {
+      "a": "procesamiento_grupal",
+      "b": "tecnologia",
+      "r": "miro",
+      "nota": "Revisar al final cómo trabajó el equipo rinde más cuando todos mueven notas en una misma pizarra digital infinita, como Miro."
+    },
+    {
+      "a": "memoria_transactiva",
+      "b": "roles_equipo",
+      "r": "notion",
+      "nota": "Un equipo que sabe quién conoce qué y quién responde por cada tarea necesita anotarlo en un espacio con páginas y responsables, como Notion."
+    },
+    {
+      "a": "guiones_colaboracion",
+      "b": "google_docs",
+      "r": "escritura_colaborativa",
+      "nota": "Un guion que reparte quién propone, quién objeta y quién integra se vuelve escritura colaborativa cuando ocurre sobre un documento que todos editan."
+    },
+    {
+      "a": "padlet",
+      "b": "miro",
+      "r": "ideas_a_la_vista",
+      "nota": "Primero cada persona escribe sola en el muro y después el equipo agrupa las notas en el lienzo. La secuencia evita el bloqueo del turno de palabra."
+    },
+    {
+      "a": "escritura_colaborativa",
+      "b": "notion",
+      "r": "documento_vivo",
+      "nota": "El texto común se vuelve documento vivo cuando junto a él el equipo anota acuerdos, responsables y fuentes, y recuerda quién sabe qué."
+    },
+    {
+      "a": "ideas_a_la_vista",
+      "b": "conflicto_tarea",
+      "r": "debate_ideas",
+      "nota": "Con las ideas expuestas en el tablero, el desacuerdo sobre su valor, sin referirse a quién las propuso, es conflicto de tarea bien aprovechado."
+    },
+    {
+      "a": "documento_vivo",
+      "b": "debate_ideas",
+      "r": "cap_documento",
+      "nota": "Un texto que registra acuerdos y se discute con razones se piensa mientras se escribe, en vez de quedar como secciones pegadas."
+    },
+    {
+      "a": "movidas",
+      "b": "wikipedia",
+      "r": "google_scholar",
+      "nota": "La Wikipedia sirve para empezar y sus referencias llevan a los artículos que usan las movidas retóricas de la disciplina, que es lo que reúne Google Scholar."
+    },
+    {
+      "a": "comunidad_discursiva",
+      "b": "internet",
+      "r": "wikipedia",
+      "nota": "Una comunidad con normas propias de escritura, llevada a internet y abierta a voluntarios que verifican y citan, produce una enciclopedia como Wikipedia."
+    },
+    {
+      "a": "google_scholar",
+      "b": "integridad",
+      "r": "zotero",
+      "nota": "Quien encuentra fuentes y respeta la integridad académica necesita guardarlas y citarlas con exactitud, y para eso sirve un gestor de referencias como Zotero."
+    },
+    {
+      "a": "algoritmo",
+      "b": "lenguaje",
+      "r": "deepl",
+      "nota": "Un algoritmo entrenado con muchos textos para pasar de un idioma a otro es un traductor automático neuronal, como DeepL."
+    },
+    {
+      "a": "algoritmo",
+      "b": "escritura_proceso",
+      "r": "grammarly",
+      "nota": "Mientras escribes y revisas, un algoritmo de lenguaje señala errores y sugiere estilo al instante, como Grammarly."
+    },
+    {
+      "a": "lectura_disciplinar",
+      "b": "perplexity",
+      "r": "lectura_lateral",
+      "nota": "Un buscador con IA entrega un resumen con enlaces. Leer como alguien de la disciplina obliga a salir a comprobar qué dicen otros de cada fuente."
+    },
+    {
+      "a": "mosaico",
+      "b": "zotero",
+      "r": "citar_sin_pegar",
+      "nota": "Copiar frases con sinónimos es el error que un gestor de referencias ayuda a evitar si cada fuente va con una nota propia y reformulada."
+    },
+    {
+      "a": "deepl",
+      "b": "grammarly",
+      "r": "asistencia_linguistica",
+      "nota": "La traducción automática y el corrector automático ayudan con la forma del texto, y juntos forman la asistencia lingüística automática."
+    },
+    {
+      "a": "asistencia_linguistica",
+      "b": "identidad_autoral",
+      "r": "corregir_con_voz",
+      "nota": "Aceptar o rechazar cada sugerencia automática es una decisión de quien escribe, y ahí se juega la identidad de autor."
+    },
+    {
+      "a": "lectura_lateral",
+      "b": "citar_sin_pegar",
+      "r": "escritura_con_fuentes",
+      "nota": "Fuentes comprobadas en lateral y citadas con ideas reformuladas son la materia prima de un texto escrito a partir de fuentes."
+    },
+    {
+      "a": "escritura_con_fuentes",
+      "b": "corregir_con_voz",
+      "r": "cap_fuentes",
+      "nota": "Un texto construido desde fuentes verificadas y pulido sin perder la voz propia es leer y escribir con fuentes."
+    },
+    {
+      "a": "debate_ideas",
+      "b": "cooperativo",
+      "r": "controversia",
+      "nota": "El debate de ideas aplicado dentro de un equipo cooperativo, con posturas defendidas y luego intercambiadas, es la controversia constructiva."
+    },
+    {
+      "a": "lectura_lateral",
+      "b": "ia",
+      "r": "alfabetizacion_ia",
+      "nota": "Comprobar en otras fuentes lo que dice una página sirve igual con lo que responde una IA generativa, y es parte de saber usarla."
+    },
+    {
+      "a": "lectura_lateral",
+      "b": "experto_novato",
+      "r": "critico_disciplinar",
+      "nota": "Los expertos revisan quién escribe y con qué propósito antes de leer el contenido, y esa mirada es pensamiento crítico propio de la disciplina."
+    },
+    {
+      "a": "google_scholar",
+      "b": "pregunta",
+      "r": "pregunta_indagacion",
+      "nota": "Una pregunta sobre tu propia clase mejora cuando buscas qué se ha publicado sobre ella, y un buscador académico acorta ese camino."
+    },
+    {
+      "a": "escritura_colaborativa",
+      "b": "tutoria_pares",
+      "r": "centro_escritura",
+      "nota": "Un texto trabajado entre varias manos y con tutoría entre iguales es lo que ofrece un centro de escritura."
+    },
+    {
+      "a": "google_docs",
+      "b": "retro",
+      "r": "retro_borradores",
+      "nota": "Los comentarios al margen de un documento compartido son un canal natural para devolver retroalimentación sobre un borrador."
+    },
+    {
+      "a": "ideas_a_la_vista",
+      "b": "tps",
+      "r": "grupo_nominal",
+      "nota": "Escribir sola cada persona, compartir y votar sobre un lienzo común reproduce la secuencia de la técnica de grupo nominal."
+    },
+    {
+      "a": "documento_vivo",
+      "b": "acuerdo_equipo",
+      "r": "equipo_cuentas",
+      "nota": "Un documento con acuerdos y responsables a la vista permite que cada integrante responda ante el equipo por lo que prometió."
+    },
+    {
+      "a": "corregir_con_voz",
+      "b": "borrador",
+      "r": "revision_profunda",
+      "nota": "Revisar el borrador primero en sus ideas y su orden, y dejar la corrección automática al final, es una revisión profunda."
+    },
+    {
+      "a": "google_scholar",
+      "b": "generos",
+      "r": "comunidad_discursiva",
+      "nota": "Buscar en un campo cómo se titulan, se citan y se organizan sus artículos muestra los formatos que identifican a su comunidad discursiva."
+    },
+    {
+      "a": "escritura_con_fuentes",
+      "b": "revision_pares",
+      "r": "borradores_ida_vuelta",
+      "nota": "Un texto construido desde fuentes que circula entre pares con comentarios y vuelve reescrito es un ciclo de borradores de ida y vuelta."
+    },
+    {
+      "a": "padlet",
+      "b": "asincronico",
+      "r": "coi",
+      "nota": "Un muro donde se pega, se responde y se vuelve más tarde sostiene la conversación asincrónica de una comunidad de indagación."
+    },
+    {
+      "a": "notion",
+      "b": "portafolio",
+      "r": "portafolio_docente",
+      "nota": "Un espacio de páginas donde se acumulan evidencias, reflexiones y documentos puede organizar tu portafolio docente."
+    },
+    {
+      "a": "zotero",
+      "b": "sotl",
+      "r": "pregunta_indagacion",
+      "nota": "Guardar y comentar lo publicado sobre enseñanza ayuda a precisar la pregunta de indagación de un proyecto de investigación sobre la propia docencia."
+    },
+    {
+      "a": "wikipedia",
+      "b": "rea",
+      "r": "comunidad_aprendizaje",
+      "nota": "Una enciclopedia abierta que cualquiera edita muestra cómo un recurso educativo abierto crea una comunidad que aprende al mantenerlo."
+    },
+    {
+      "a": "deepl",
+      "b": "translenguaje",
+      "r": "fondos_conocimiento",
+      "nota": "Dejar que estudiantes lean y traduzcan entre lenguas hace visibles los saberes de sus hogares y comunidades, que son fondos de conocimiento."
+    },
+    {
+      "a": "grammarly",
+      "b": "alf_retro",
+      "r": "comentarios",
+      "nota": "Un corrector entrega comentarios inmediatos sobre la forma, y alfabetizarse en retroalimentación enseña a pedir también los que no tienen nota."
+    },
+    {
+      "a": "asistencia_linguistica",
+      "b": "privacidad",
+      "r": "accesibilidad",
+      "nota": "Traductores y correctores pueden apoyar a quienes leen en otra lengua, si se cuida qué datos del estudiante se envían a servidores externos."
+    },
+    {
+      "a": "miro",
+      "b": "coevaluacion",
+      "r": "plus_delta",
+      "nota": "Un tablero donde cada integrante valora lo que funcionó y lo que cambiaría del trabajo de los demás es la estructura de un plus-delta."
+    },
+    {
+      "a": "notion",
+      "b": "diario",
+      "r": "diario_docente",
+      "nota": "Un espacio de páginas con entradas fechadas sirve para llevar un diario de enseñanza donde registrar lo ocurrido y lo que cambiarás."
+    }
+  ],
+  "refs": {
+    "lowry04": "Lowry, P. B., Curtis, A., & Lowry, M. R. (2004). Building a taxonomy and nomenclature of collaborative writing to improve interdisciplinary research and practice. _Journal of Business Communication, 41_(1), 66–99. https://doi.org/10.1177/0021943603259363",
+    "nemeth04": "Nemeth, C. J., Personnaz, B., Personnaz, M., & Goncalo, J. A. (2004). The liberating role of conflict in group creativity: A study in two countries. _European Journal of Social Psychology, 34_(4), 365–374. https://doi.org/10.1002/ejsp.210",
+    "dennis93": "Dennis, A. R., & Valacich, J. S. (1993). Computer brainstorms: More heads are better than one. _Journal of Applied Psychology, 78_(4), 531–537. https://doi.org/10.1037/0021-9010.78.4.531",
+    "cress08": "Cress, U., & Kimmerle, J. (2008). A systemic and cognitive view on collaborative knowledge building with wikis. _International Journal of Computer-Supported Collaborative Learning, 3_(2), 105–122. https://doi.org/10.1007/s11412-007-9035-z",
+    "wineburg19": "Wineburg, S., & McGrew, S. (2019). Lateral reading and the nature of expertise: Reading less and learning more when evaluating digital information. _Teachers College Record, 121_(11), 1–40. https://doi.org/10.1177/016146811912101102",
+    "oneill19": "O'Neill, R., & Russell, A. M. T. (2019). Stop! Grammar time: University students' perceptions of the automated feedback program Grammarly. _Australasian Journal of Educational Technology, 35_(1), 42–56. https://doi.org/10.14742/ajet.3795",
+    "giles05": "Giles, J. (2005). Internet encyclopaedias go head to head. _Nature, 438_(7070), 900–901. https://doi.org/10.1038/438900a",
+    "lee20": "Lee, S.-M. (2020). The impact of using machine translation on EFL students' writing. _Computer Assisted Language Learning, 33_(3), 157–175. https://doi.org/10.1080/09588221.2018.1553186",
+    "gusenbauer19": "Gusenbauer, M. (2019). Google Scholar to overshadow them all? Comparing the sizes of 12 academic search engines and bibliographic databases. _Scientometrics, 118_(1), 177–214. https://doi.org/10.1007/s11192-018-2958-5",
+    "gdocs26": "Google LLC. (2026). _Google Docs_ [Software]. https://docs.google.com",
+    "padlet26": "Padlet. (2026). _Padlet_ [Software]. https://padlet.com",
+    "miro26": "Miro. (2026). _Miro_ [Software]. https://miro.com",
+    "notion26": "Notion Labs, Inc. (2026). _Notion_ [Software]. https://www.notion.com",
+    "gscholar26": "Google LLC. (2026). _Google Scholar_ [Sitio web]. https://scholar.google.com",
+    "zotero26": "Corporation for Digital Scholarship. (2026). _Zotero_ [Software]. https://www.zotero.org",
+    "deepl26": "DeepL SE. (2026). _DeepL Translator_ [Software]. https://www.deepl.com",
+    "grammarly26": "Grammarly. (2026). _Grammarly_ [Software]. https://www.grammarly.com",
+    "wikipedia26": "Wikimedia Foundation. (2026). _Wikipedia_ [Sitio web]. https://www.wikipedia.org"
+  },
+  "misiones": [
+    {
+      "id": "documento_compartido",
+      "n": "Pensar juntos en un documento compartido",
+      "e": "❇️",
+      "meta": "cap_documento",
+      "hitos": [
+        "padlet",
+        "escritura_colaborativa",
+        "debate_ideas"
+      ],
+      "encargo": "En una universidad de Concepción, Sebastián Opazo dicta Diseño de Estructuras en tercer año de Ingeniería Civil. Cada equipo entrega un informe sobre un puente peatonal, y al revisar los archivos encuentra cuatro secciones pegadas con estilos distintos, cálculos que se contradicen y ninguna huella de discusión. Los equipos dicen que se repartieron el trabajo. Sebastián quiere que usen herramientas en línea para pensar juntos, que el desacuerdo sobre las soluciones se vea en el documento y que cada integrante sepa qué aportó. Te pide ayuda para diseñar esa dinámica.",
+      "objetivo": "Llega a ❇️ Pensar juntos en un documento compartido para que los equipos de Sebastián discutan sus soluciones dentro de un solo texto y entreguen algo más que secciones pegadas.",
+      "cierre": "Con un muro donde cada equipo junta ideas antes de hablar, un documento con acuerdos y responsables, y un espacio para discutir las soluciones con razones, Sebastián puede ver en el informe cómo se pensó el puente. La próxima entrega mostrará quién propuso, quién objetó y cómo se resolvió cada desacuerdo."
+    },
+    {
+      "id": "leer_escribir_fuentes",
+      "n": "Leer y escribir con fuentes",
+      "e": "🐁",
+      "meta": "cap_fuentes",
+      "hitos": [
+        "lectura_lateral",
+        "zotero",
+        "escritura_con_fuentes"
+      ],
+      "encargo": "Roxana Justiniano coordina el Taller de Tesis en quinto año de Nutrición en una universidad pública de Santa Cruz de la Sierra. Sus estudiantes llegan al marco teórico con tres hábitos: copian el primer resultado de internet, pasan por un traductor artículos en inglés que no leyeron y arman párrafos cambiando algunas palabras de la fuente. Piden que el texto suene académico, pero nadie sabe decir qué sostiene. Roxana quiere enseñarles a buscar, leer en lateral, citar y corregir con herramientas sin que se pierda la voz de cada tesista. Te pide un plan de trabajo.",
+      "objetivo": "Llega a 🐁 Leer y escribir con fuentes para que las tesistas de Roxana busquen, comprueben y citen sus lecturas, y escriban un marco teórico con voz propia.",
+      "cierre": "Con una búsqueda en Scholar, una biblioteca de fuentes en Zotero con notas propias, lectura lateral de lo que dice Wikipedia y revisión asistida que decide cada autora, los marcos teóricos de Roxana dejan de ser collages. El próximo taller podrá mostrar de dónde viene cada idea y qué sostiene cada tesista con sus palabras."
+    }
+  ]
+}

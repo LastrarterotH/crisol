@@ -1,0 +1,555 @@
+{
+  "fichas": {
+    "mentimeter": {
+      "n": "Mentimeter",
+      "e": "✋",
+      "f": "her",
+      "pista": "Pregunta en la pantalla, respuesta en cada teléfono, y las barras o nubes de palabras crecen en vivo.",
+      "why": "Mentimeter es un servicio web de presentaciones interactivas: el docente proyecta una pregunta y el curso responde desde su teléfono con un código. Los metaanálisis sobre sistemas de respuesta en clase encuentran efectos positivos, en general pequeños, sobre lo cognitivo y lo afectivo (Hunsu et al., 2016). Necesita conexión, y el plan gratuito limita cuánto puedes preguntar. Slido o Wooclap ofrecen algo parecido, y en una comparación en física unas tarjetas de colores dieron resultados similares a los de los clickers (Lasry, 2008).",
+      "uni": "En Macroeconomía con 150 estudiantes, proyecta una pregunta de opción múltiple sobre inflación, deja votar sin mostrar los resultados y comenta después la respuesta más elegida.",
+      "refs": [
+        "hunsu16",
+        "lasry08",
+        "mentimeter26"
+      ]
+    },
+    "classroom_screen": {
+      "n": "Classroom screen",
+      "e": "🕔",
+      "f": "her",
+      "pista": "Una pizarra proyectada con reloj de cuenta regresiva, sorteo de nombres y medidor de ruido del salón.",
+      "why": "Classroom screen es una página web, con plan gratuito y funciones de pago, que convierte el proyector en un tablero con temporizador, selector de nombres al azar, medidor de ruido, semáforo y código QR, entre otras herramientas. Un reloj visible ayuda a sostener la espera que pide el tiempo de espera: esperar tres segundos o más tras una pregunta se asoció con respuestas más largas y más participantes (Rowe, 1986). Funciona en el navegador, sin instalar nada.",
+      "uni": "En Derecho Civil, proyecta un temporizador de dos minutos para que cada pareja redacte su respuesta a un caso, y usa el selector de nombres para elegir quién la presenta.",
+      "refs": [
+        "rowe86",
+        "tanner13",
+        "classroomscreen26"
+      ]
+    },
+    "nearpod": {
+      "n": "Nearpod",
+      "e": "🤳",
+      "f": "her",
+      "pista": "Tus diapositivas con trampa: cada pocas láminas pide a toda la sala votar, dibujar o contestar.",
+      "why": "Nearpod es una plataforma de lecciones interactivas: combina diapositivas, videos y actividades como preguntas, encuestas o dibujo sobre una imagen, que el curso responde desde su dispositivo, en vivo o a su propio ritmo. Mezcla aprendizaje multimedia, donde imágenes y palabras bien combinadas ayudan a aprender (Mayer, 2009), con un sistema de respuesta, cuyos efectos son positivos y en general pequeños (Hunsu et al., 2016). Requiere cuenta y conexión, y varias funciones dependen del plan institucional.",
+      "uni": "En Anatomía, arma una lección con la imagen de un corte, pide que cada estudiante dibuje sobre ella la estructura señalada y comenta los errores más frecuentes antes de pasar a la lámina siguiente.",
+      "refs": [
+        "mayer09",
+        "hunsu16",
+        "nearpod26"
+      ]
+    },
+    "kahoot": {
+      "n": "Kahoot!",
+      "e": "🕹️",
+      "f": "her",
+      "pista": "Un concurso de preguntas en que se gana por acertar y por rapidez, con podio al final.",
+      "why": "Kahoot! es una plataforma de aprendizaje basado en juegos: el docente proyecta preguntas y el curso responde desde su dispositivo con un código, sumando puntos por acierto y rapidez. La revisión de Wang y Tahir (2020) halló efectos en general favorables sobre el rendimiento y las actitudes, y también problemas técnicos y presión por competir en algunos estudiantes. Los juegos serios funcionan mejor combinados con otras actividades (Wouters et al., 2013). Tiene plan gratuito y planes de pago.",
+      "uni": "En Farmacología, cierra la clase con diez preguntas sobre interacciones, en modo de equipos y sin mostrar posiciones, y repasa en voz alta las que más equipos fallaron.",
+      "refs": [
+        "wang20",
+        "wouters13",
+        "kahoot26"
+      ]
+    },
+    "genially": {
+      "n": "Genially",
+      "e": "🪅",
+      "f": "her",
+      "pista": "Un lienzo web donde lámina, infografía o juego de escape se llenan de botones que revelan contenido.",
+      "why": "Genially es una plataforma web, creada por una empresa española, para diseñar contenido interactivo: presentaciones, infografías, cuestionarios y juegos de escape con botones, capas y animaciones. Le agrega elementos de juego a un material que ya existe. La evidencia sobre gamificación es positiva pero heterogénea y depende del diseño (Sailer y Homner, 2020). Tiene versión gratuita con límites y planes de pago, y H5P es una alternativa de código abierto.",
+      "uni": "En Historia Medieval, convierte un mapa de rutas comerciales en un Genially donde cada ciudad abre una pregunta, y deja que los equipos recorran el mapa resolviéndolas.",
+      "refs": [
+        "sailer20",
+        "mayer09",
+        "genially26"
+      ]
+    },
+    "duolingo": {
+      "n": "Duolingo",
+      "e": "🦆",
+      "f": "her",
+      "pista": "Una lección de pocos minutos al día, con puntos, ligas y una racha que no quieres romper.",
+      "why": "Duolingo es una aplicación de aprendizaje de idiomas con lecciones breves, puntos, rachas diarias y ligas de clasificación. Sirve como caso para estudiar los efectos de gamificar. Una revisión sistemática de los estudios publicados sobre la aplicación (Shortt et al., 2023) reporta resultados en su mayoría favorables y advierte limitaciones en los diseños. Como en toda gamificación, los efectos varían según el diseño (Sailer y Homner, 2020). Es gratuita con anuncios y tiene suscripción de pago.",
+      "uni": "En inglés técnico para Ingeniería, propone cinco minutos diarios voluntarios de vocabulario en la aplicación y dedica la clase a usar esas palabras en un informe breve.",
+      "refs": [
+        "shortt23",
+        "sailer20",
+        "duolingo26"
+      ]
+    },
+    "llamado_en_frio": {
+      "n": "Llamado en frío",
+      "e": "🫵",
+      "f": "met",
+      "pista": "Elegir a quien responde sin esperar manos alzadas, pero avisando de antemano que todos podrían ser nombrados.",
+      "why": "El llamado en frío consiste en pedirle a un estudiante que responda sin que se haya ofrecido, en lugar de esperar voluntarios. Aparece al sumar el sorteo de nombres de Classroom screen a la participación equitativa: nadie se libra por sentarse atrás. Dallimore y colaboradores (2013) hallaron que, practicado de forma predecible y con preparación previa, aumenta la participación voluntaria y la comodidad para hablar. Funciona con la regla anunciada, tiempo para pensar y la posibilidad de pasar el turno.",
+      "uni": "En Contabilidad, anuncia que cada sesión sortearás tres nombres, da un minuto para pensar el caso y deja que quien no esté listo pase su turno al siguiente.",
+      "refs": [
+        "dallimore13",
+        "tanner13"
+      ]
+    },
+    "respuesta_anonima": {
+      "n": "Respuesta anónima",
+      "e": "👤",
+      "f": "tec",
+      "pista": "Votar sin que nadie vea de quién es la respuesta, para que equivocarse no cueste la cara.",
+      "why": "La respuesta anónima es contestar una pregunta de clase sin que el resto sepa quién respondió. La vergüenza de equivocarse en público frena a muchos estudiantes (Pekrun, 2006), y el anonimato baja ese costo. Las revisiones sobre sistemas de respuesta en cursos grandes recogen que el anonimato anima a participar (Caldwell, 2007). Su límite es que, sin nombres, no puedes acompañar a quien se equivoca.",
+      "uni": "En Estadística, pide votar de forma anónima si un intervalo de confianza incluye el cero, muestra el reparto de votos e invita a voluntarios de cada opción a explicar su razonamiento.",
+      "refs": [
+        "caldwell07",
+        "pekrun06"
+      ]
+    },
+    "tabla_posiciones": {
+      "n": "Tabla de posiciones",
+      "e": "🥈",
+      "f": "met",
+      "pista": "Una lista pública que ordena al curso del primero al último y puede desanimar a quien va atrás.",
+      "why": "Una tabla de posiciones ordena públicamente a los participantes según su puntaje. El podio de un concurso de preguntas invita a compararse con otros y a perseguir el resultado más que el tema. Hanus y Fox (2015) siguieron un curso con insignias y tablas de posiciones y encontraron menos motivación y satisfacción con el paso de las semanas, y peor nota final, que en el mismo curso sin ellas. Ordenar a todos por rendimiento también favorece metas de comparación (Ames, 1992).",
+      "uni": "En un concurso de Programación, muestra el avance del grupo completo hacia una meta común y deja las posiciones individuales visibles solo para cada persona.",
+      "refs": [
+        "hanus15",
+        "ames92"
+      ]
+    },
+    "recompensa_informativa": {
+      "n": "Recompensa informativa",
+      "e": "🥉",
+      "f": "apr",
+      "pista": "Un premio que te cuenta cómo lo hiciste y no te dice qué hacer la próxima vez.",
+      "why": "Una recompensa informativa dice a la persona cómo va su competencia, a diferencia de la controladora, que busca dirigir su conducta. El metaanálisis de Deci y colaboradores (1999) encontró que las recompensas materiales esperadas reducen la motivación intrínseca, mientras que la retroalimentación verbal positiva tiende a aumentarla. Un punto o una insignia pueden leerse de ambos modos, según cómo se entreguen.",
+      "uni": "En Química, entrega una insignia al equipo que justifica un procedimiento con evidencia, y escribe en ella qué hizo bien, en lugar de repartir puntos por rapidez.",
+      "refs": [
+        "deci99",
+        "ryan00b",
+        "keller10"
+      ]
+    },
+    "efecto_novedad": {
+      "n": "Efecto de novedad",
+      "e": "🎇",
+      "f": "apr",
+      "pista": "El entusiasmo de estrenar algo en clase, que se parece al aprendizaje y se apaga con la costumbre.",
+      "why": "El efecto de novedad es la mejora temporal que produce un medio o una herramienta solo por ser nueva para el curso. Aparece al combinar un recurso vistoso con la creencia de que más tecnología equivale a más aprendizaje. Clark (1983) advertía que parte de las ventajas atribuidas a los medios se debía a su novedad y no al método de enseñanza. Si el entusiasmo cae a las pocas semanas, lo que sostenía la participación era la sorpresa. Para saber si funciona, mide pasadas las primeras semanas.",
+      "uni": "En Diseño Gráfico, si estrenas una plataforma interactiva, compara la participación de la primera semana con la de la sexta antes de decidir si vale la pena mantenerla.",
+      "refs": [
+        "clark83",
+        "tamim11"
+      ]
+    },
+    "desafio_a_la_medida": {
+      "n": "Desafío a la medida",
+      "e": "🎢",
+      "f": "apr",
+      "pista": "Una tarea ni tan fácil que aburra ni tan difícil que paralice, y que sube de a poco.",
+      "why": "Un desafío a la medida es una tarea cuya dificultad queda apenas por encima de lo que la persona ya domina. Aparece al mirar las lecciones breves de una aplicación de idiomas con la idea de flujo, que Csikszentmihalyi (1990) describió como el equilibrio entre el reto y la habilidad. Gee (2003) mostró que los buenos videojuegos ordenan los problemas de modo que cada uno prepara al siguiente. En clase exige niveles o rutas distintas, porque un mismo reto rara vez sirve a todo el curso.",
+      "uni": "En Álgebra Lineal, ofrece tres rutas de ejercicios (básica, intermedia y avanzada) y deja que cada persona cambie de ruta tras resolver cinco ejercicios seguidos sin error.",
+      "refs": [
+        "csikszentmihalyi90",
+        "gee03"
+      ]
+    },
+    "sondeo_segunda_vuelta": {
+      "n": "Sondeo con segunda vuelta",
+      "e": "✌️",
+      "f": "sint",
+      "pista": "Se vota, se conversa con el vecino y se vota otra vez, para ver cuánto cambió la sala.",
+      "why": "Presentas una pregunta conceptual, el curso vota en silencio, conversa en parejas y vota de nuevo, como en la instrucción entre pares. Una lección de Nearpod permite armar el ciclo completo en una sola secuencia. Smith y colaboradores (2009) mostraron que conversar con un compañero mejora las respuestas a preguntas nuevas, aun cuando ninguno de los dos sabía la respuesta correcta al inicio.",
+      "principios": [
+        "Plantea una pregunta conceptual con alternativas que reflejen errores habituales; si casi todos aciertan en el primer voto, la conversación aporta poco (Crouch y Mazur, 2001).",
+        "Vota primero en silencio, para que cada persona se comprometa con una respuesta antes de escuchar a otras (Crouch y Mazur, 2001).",
+        "La conversación entre pares mejora la comprensión incluso cuando nadie en la pareja sabía la respuesta correcta al empezar (Smith et al., 2009).",
+        "El segundo voto muestra cuánto cambió la sala y qué explicaciones convencieron; ese reparto es tu diagnóstico (Crouch y Mazur, 2001).",
+        "La pantalla no es el ingrediente activo: unas tarjetas de colores dieron resultados de aprendizaje similares a los de los clickers (Lasry, 2008)."
+      ],
+      "prueba": "La próxima semana, elige una pregunta conceptual de tu tema, vota con el curso, da dos minutos de conversación en parejas y vota otra vez; anota cuántas respuestas cambiaron y por qué.",
+      "refs": [
+        "smith09",
+        "crouch01",
+        "lasry08"
+      ]
+    },
+    "palabra_repartida": {
+      "n": "Palabra repartida",
+      "e": "🫲",
+      "f": "sint",
+      "pista": "La clase se reparte como una pizza: cada quien recibe su porción de voz, la pida o no.",
+      "why": "Combinas dos formas de repartir la voz: el llamado en frío, que sortea a quien habla con un selector de nombres, y la respuesta anónima, que permite opinar sin exponerse. Cada una cubre el límite de la otra. Tanner (2013) reúne estrategias de aula, como el tiempo de espera y el llamado al azar, para que la participación no quede en manos de los mismos pocos. Dallimore y colaboradores (2013) hallaron que el llamado en frío predecible aumenta la participación voluntaria.",
+      "principios": [
+        "Anuncia la regla desde el primer día: cualquiera puede ser nombrado, y todos tendrán tiempo para pensar antes (Dallimore et al., 2013).",
+        "Espera tres segundos o más tras la pregunta, antes de sortear un nombre o de abrir el voto (Rowe, 1986).",
+        "Varía los modos de participación para que ninguno favorezca siempre al mismo perfil de estudiante (Tanner, 2013).",
+        "El voto anónimo baja el costo de arriesgar una respuesta (Caldwell, 2007); como no sabes quién respondió, no puedes acompañar a cada persona, así que úsalo para explorar ideas."
+      ],
+      "prueba": "En tu próxima sesión, anuncia que sortearás a tres personas con un selector de nombres, deja cinco segundos de silencio y alterna cada pregunta entre voto anónimo y respuesta sorteada; después cuenta cuántas voces distintas participaron.",
+      "refs": [
+        "dallimore13",
+        "tanner13",
+        "rowe86",
+        "caldwell07"
+      ]
+    },
+    "cap_sala": {
+      "n": "Toda la sala responde",
+      "e": "🖐️",
+      "f": "sint",
+      "pista": "De la primera fila a la última, cada quien aporta su idea aunque nunca levante la mano.",
+      "why": "Integras las dos mitades de la misión: un sondeo con segunda vuelta que hace pensar y discutir a todo el curso, y una palabra repartida que evita que hablen siempre los mismos. En un curso numeroso, Mentimeter o Nearpod recogen la respuesta de cada estudiante y Classroom screen hace visibles el tiempo y el sorteo. Las revisiones sobre sistemas de respuesta muestran efectos positivos, en general pequeños (Hunsu et al., 2016), y Caldwell (2007) recomienda usar las preguntas para provocar discusión.",
+      "principios": [
+        "Una buena pregunta pesa más que la herramienta: los sistemas de respuesta ayudan sobre todo cuando la votación abre una conversación (Caldwell, 2007).",
+        "Da primero un minuto individual, luego dos en parejas y recién después la puesta en común (Lyman, 1981).",
+        "Espera tres segundos o más tras preguntar; el silencio es parte de la técnica (Rowe, 1986).",
+        "Reparte la voz con reglas visibles: sorteo anunciado y voto anónimo alternados (Dallimore et al., 2013).",
+        "Revisa quién participa; si hablan siempre los mismos, cambia la estructura de la clase antes que a los estudiantes (Tanner, 2013)."
+      ],
+      "prueba": "Planifica una sesión con tres preguntas: una con voto anónimo y segunda vuelta, una con piensa-discute-comparte y una con sorteo de nombres. Anota cuántas personas distintas hablaron o votaron y compara con tu sesión anterior.",
+      "refs": [
+        "caldwell07",
+        "tanner13",
+        "hunsu16",
+        "lyman81",
+        "rowe86",
+        "dallimore13"
+      ]
+    },
+    "puntos_que_informan": {
+      "n": "Puntos que informan",
+      "e": "🪙",
+      "f": "sint",
+      "pista": "Premios del juego que dicen cómo vas, sin convertirse en la razón para estudiar.",
+      "why": "Integras dos ideas: una recompensa que informa sobre el progreso y una tabla de posiciones que, mal usada, lo convierte en competencia. El resultado es un sistema de puntos pensado para que el estudiante vea su avance sin perder el interés por la materia. Deci y colaboradores (1999) hallaron que las recompensas materiales esperadas reducen la motivación intrínseca, y Hanus y Fox (2015) observaron efectos negativos de insignias y tablas de posiciones en un curso.",
+      "principios": [
+        "Ofrece retroalimentación sobre la competencia (qué lograste y qué falta) antes que premios por cumplir (Deci et al., 1999).",
+        "Evita convertir en recompensa esperada y condicionada una tarea que ya interesaba; ahí aparece la sobrejustificación (Lepper et al., 1973).",
+        "Haz privada la comparación por defecto: muestra el avance de cada persona hacia su meta y no un ranking de toda la sala (Hanus y Fox, 2015).",
+        "Cuida el lenguaje: los mensajes que informan apoyan la autonomía y los que presionan la debilitan (Ryan y Deci, 2000).",
+        "Revisa el efecto a mitad de semestre, porque los resultados de la gamificación varían según el contexto y el diseño (Sailer y Homner, 2020)."
+      ],
+      "prueba": "En una actividad, cambia los puntos por rapidez por una insignia con un comentario escrito sobre el razonamiento, oculta las posiciones individuales y pregunta al final, de forma anónima, qué parte motivó más.",
+      "refs": [
+        "deci99",
+        "hanus15",
+        "sailer20",
+        "lepper73",
+        "ryan00"
+      ]
+    },
+    "reto_sobrevive": {
+      "n": "Reto que sobrevive a la novedad",
+      "e": "🌵",
+      "f": "sint",
+      "pista": "Cuando se apaga el brillo de lo estrenado, queda una tarea a la medida con respuesta rápida.",
+      "why": "Un material interactivo atrae por estrenarse, y ese efecto de novedad se apaga. Lo que puede quedar es un desafío a la medida: niveles ajustados a lo que cada persona sabe, con respuesta a cada intento. Clark (1983) separaba el efecto del medio del de la novedad, y Csikszentmihalyi (1990) describe cómo el equilibrio entre reto y habilidad sostiene el involucramiento. La evidencia sobre aplicaciones de idiomas con juego es limitada (Shortt et al., 2023), por lo que conviene medir pasadas las primeras semanas.",
+      "principios": [
+        "Mide después de la sorpresa: compara la primera semana con la sexta antes de concluir que la herramienta funciona (Clark, 1983).",
+        "Ofrece rutas de distinta dificultad, para que el reto quede apenas por encima de lo que cada persona domina (Csikszentmihalyi, 1990).",
+        "Ordena los problemas de modo que cada uno prepare al siguiente (Gee, 2003).",
+        "Combina el juego con otras actividades de clase y repítelo en varias sesiones, porque los juegos serios rindieron mejor así (Wouters et al., 2013)."
+      ],
+      "prueba": "Elige una actividad con juego que uses desde hace semanas y revisa tres datos: cuánta gente la termina, quién la repite por gusto y qué niveles resultan demasiado fáciles o difíciles. Ajusta un nivel y vuelve a medir.",
+      "refs": [
+        "clark83",
+        "csikszentmihalyi90",
+        "gee03",
+        "shortt23",
+        "wouters13"
+      ]
+    },
+    "cap_jugar": {
+      "n": "Jugar en serio",
+      "e": "🎉",
+      "f": "sint",
+      "pista": "Una partida que enseña la materia y deja ganas de seguir aprendiendo cuando termina el concurso.",
+      "why": "Reúne lo que aprendiste: puntos que informan en lugar de presionar, y un reto que sigue vivo cuando la novedad pasa. Con Kahoot!, Genially o una aplicación como Duolingo, el diseño pesa más que la herramienta. Sailer y Homner (2020) encontraron efectos positivos de la gamificación sobre lo cognitivo, lo motivacional y lo conductual, con variación según el contexto, y Wouters y colaboradores (2013) hallaron que los juegos serios enseñan más que la instrucción convencional, aunque no motivan más.",
+      "principios": [
+        "Usa el juego para enseñar la materia: que avanzar exija entender el contenido, no solo responder rápido (Wouters et al., 2013).",
+        "Reparte reconocimientos que informan y evita rankings públicos permanentes (Deci et al., 1999).",
+        "Cuida la autonomía: deja elegir entre actividades y que participar en el juego sea opcional (Ryan y Deci, 2000).",
+        "Mide a mitad de semestre, pasada la novedad (Clark, 1983).",
+        "Una herramienta nueva no mejora el aprendizaje por sí sola; prueba si una versión sin pantallas da lo mismo (Lasry, 2008)."
+      ],
+      "prueba": "Diseña un concurso de repaso con tres cambios: preguntas que piden explicar, reconocimientos con comentario en lugar de ranking y una variante con tarjetas de papel. Compara en la clase siguiente cuál versión generó más conversación.",
+      "refs": [
+        "sailer20",
+        "wouters13",
+        "deci99",
+        "clark83",
+        "lasry08",
+        "ryan00"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "movil",
+      "b": "respuesta_audiencia",
+      "r": "mentimeter",
+      "nota": "Cuando la pregunta llega al proyector y las respuestas salen de cada teléfono, un sistema de respuesta se vuelve una votación en vivo: Mentimeter."
+    },
+    {
+      "a": "tecnologia",
+      "b": "tiempo_espera",
+      "r": "classroom_screen",
+      "nota": "Esperar tres segundos incomoda sin reloj; la tecnología lo pone en la pantalla del salón, junto a un sorteo de nombres. Así nace Classroom screen."
+    },
+    {
+      "a": "multimedia",
+      "b": "respuesta_audiencia",
+      "r": "nearpod",
+      "nota": "Una lección multimedia con preguntas incrustadas deja de ser exposición pasiva: cada lámina puede pedir votar, dibujar o responder. Eso es Nearpod."
+    },
+    {
+      "a": "classroom_screen",
+      "b": "participacion_equitativa",
+      "r": "llamado_en_frio",
+      "nota": "El selector de nombres de Classroom screen aplica la participación equitativa: nadie se libra por sentarse atrás, y todos saben que su turno puede llegar."
+    },
+    {
+      "a": "emociones",
+      "b": "mentimeter",
+      "r": "respuesta_anonima",
+      "nota": "La vergüenza de equivocarse en público frena a muchos; con un sondeo en Mentimeter nadie ve quién votó qué, y arriesgar una respuesta cuesta menos."
+    },
+    {
+      "a": "nearpod",
+      "b": "peer",
+      "r": "sondeo_segunda_vuelta",
+      "nota": "Con Nearpod pones la pregunta, el voto y la discusión en pareja dentro de la misma lección, y la instrucción entre pares gana una segunda vuelta."
+    },
+    {
+      "a": "llamado_en_frio",
+      "b": "respuesta_anonima",
+      "r": "palabra_repartida",
+      "nota": "Sortear quién habla y dejar votar sin nombre reparte la voz por dos caminos: quien no se atreve puede votar, y quien se esconde, responder."
+    },
+    {
+      "a": "palabra_repartida",
+      "b": "sondeo_segunda_vuelta",
+      "r": "cap_sala",
+      "nota": "Un sondeo que hace pensar a todos y una palabra repartida con reglas claras llevan a toda la sala a responder, no solo a las primeras filas."
+    },
+    {
+      "a": "abj",
+      "b": "respuesta_audiencia",
+      "r": "kahoot",
+      "nota": "Un juego donde avanzar exige saber, más un sistema que recoge respuestas de toda la sala, da un concurso de preguntas con puntos y podio: Kahoot!."
+    },
+    {
+      "a": "gamificacion",
+      "b": "tecnologia",
+      "r": "genially",
+      "nota": "Si agregas elementos de juego a un material digital, nace un recurso que se explora con botones, capas y pruebas: así funciona Genially."
+    },
+    {
+      "a": "gamificacion",
+      "b": "lenguaje",
+      "r": "duolingo",
+      "nota": "Lenguaje más gamificación da lecciones breves de idiomas con puntos, rachas y ligas, un caso muy citado para estudiar los efectos de gamificar."
+    },
+    {
+      "a": "kahoot",
+      "b": "motivacion_autonoma",
+      "r": "tabla_posiciones",
+      "nota": "El podio de Kahoot! ordena a todos por puntaje. Es un ejemplo claro de tabla de posiciones, y pone a prueba la motivación autónoma de quien va atrás."
+    },
+    {
+      "a": "arcs",
+      "b": "sobrejustificacion",
+      "r": "recompensa_informativa",
+      "nota": "Los puntos pueden controlar o informar. Con la sobrejustificación a la vista y la satisfacción de ARCS, la recompensa se diseña para informar."
+    },
+    {
+      "a": "recompensa_informativa",
+      "b": "tabla_posiciones",
+      "r": "puntos_que_informan",
+      "nota": "Una recompensa que informa, junto a una tabla de posiciones usada con cuidado, da puntos que dicen cómo vas sin presionar a nadie."
+    },
+    {
+      "a": "genially",
+      "b": "mas_tecnologia",
+      "r": "efecto_novedad",
+      "nota": "Un material interactivo vistoso y la creencia de que más tecnología es más aprendizaje producen un entusiasmo temporal: el efecto de novedad."
+    },
+    {
+      "a": "duolingo",
+      "b": "flujo",
+      "r": "desafio_a_la_medida",
+      "nota": "Las lecciones breves de una aplicación como Duolingo, vistas con la idea de flujo, enseñan a ajustar el reto a lo que cada persona ya domina."
+    },
+    {
+      "a": "desafio_a_la_medida",
+      "b": "efecto_novedad",
+      "r": "reto_sobrevive",
+      "nota": "Cuando el efecto de novedad se apaga, lo que sostiene el interés es un desafío a la medida. Ambos juntos piden evaluar pasadas las primeras semanas."
+    },
+    {
+      "a": "puntos_que_informan",
+      "b": "reto_sobrevive",
+      "r": "cap_jugar",
+      "nota": "Puntos que informan y un reto que sobrevive a la novedad dan un diseño de juego al servicio de la materia: jugar en serio."
+    },
+    {
+      "a": "mentimeter",
+      "b": "previos",
+      "r": "diagnostica",
+      "nota": "Un sondeo de dos preguntas al empezar el tema muestra qué conocimientos previos trae el curso, y eso es una evaluación diagnóstica rápida."
+    },
+    {
+      "a": "formativa",
+      "b": "mentimeter",
+      "r": "cats",
+      "nota": "Un sondeo anónimo al final de la clase, con la pregunta más difícil del día, es una técnica de evaluación en el aula."
+    },
+    {
+      "a": "formativa",
+      "b": "kahoot",
+      "r": "autoevaluacion",
+      "nota": "Un cuestionario sin nota, contestado en Kahoot!, deja que cada estudiante vea cómo va antes del parcial: autoevaluación con retroalimentación inmediata."
+    },
+    {
+      "a": "nearpod",
+      "b": "ritmo",
+      "r": "asincronico",
+      "nota": "Una lección de Nearpod que cada estudiante recorre a su propio ritmo funciona sin coincidir en el horario: es trabajo asincrónico."
+    },
+    {
+      "a": "activo",
+      "b": "classroom_screen",
+      "r": "aula_activa",
+      "nota": "Un temporizador y un sorteo de nombres en la pantalla ayudan a organizar tareas breves en equipo, y el salón se parece a un aula activa."
+    },
+    {
+      "a": "classroom_screen",
+      "b": "cooperativo",
+      "r": "roles_equipo",
+      "nota": "En el trabajo cooperativo, el selector de nombres asigna al azar quién modera y quién registra, y los roles rotan sin discusiones."
+    },
+    {
+      "a": "clima_aula",
+      "b": "llamado_en_frio",
+      "r": "seguridad_psicologica",
+      "nota": "Ser nombrado sin aviso solo se tolera si el clima del aula permite equivocarse. Ese ambiente es seguridad psicológica."
+    },
+    {
+      "a": "opinion_estudiantil",
+      "b": "respuesta_anonima",
+      "r": "consulta_medio_semestre",
+      "nota": "Preguntar de forma anónima a mitad de semestre qué ayuda y qué estorba al aprendizaje da una consulta de medio semestre."
+    },
+    {
+      "a": "cambio_conceptual",
+      "b": "sondeo_segunda_vuelta",
+      "r": "conflicto_sociocognitivo",
+      "nota": "Cuando tu compañero votó otra opción, el desacuerdo te obliga a revisar tus ideas: el sondeo con segunda vuelta genera conflicto sociocognitivo."
+    },
+    {
+      "a": "palabra_repartida",
+      "b": "seguridad_psicologica",
+      "r": "comunidad_aprendizaje",
+      "nota": "Cuando todos hablan y equivocarse es seguro, el grupo deja de ser una suma de oyentes y se vuelve una comunidad de aprendizaje."
+    },
+    {
+      "a": "duolingo",
+      "b": "espaciada",
+      "r": "adaptativo",
+      "nota": "Una aplicación que repasa más lo que fallas y menos lo que ya sabes ajusta la práctica a cada persona: aprendizaje adaptativo."
+    },
+    {
+      "a": "duolingo",
+      "b": "movil",
+      "r": "ubicuo",
+      "nota": "Practicar vocabulario en el teléfono mientras esperas el bus convierte cualquier momento en oportunidad de estudio: aprendizaje ubicuo."
+    },
+    {
+      "a": "casos",
+      "b": "genially",
+      "r": "escenario",
+      "nota": "Un caso en que cada decisión del estudiante abre una rama distinta, armado con botones en Genially, es un escenario de simulación."
+    },
+    {
+      "a": "genially",
+      "b": "proyectos",
+      "r": "portafolio",
+      "nota": "Si cada equipo construye un Genially con su proyecto y lo va enriqueciendo, reúne evidencias de su proceso: un portafolio de aprendizaje."
+    },
+    {
+      "a": "espaciada",
+      "b": "kahoot",
+      "r": "reaprendizaje",
+      "nota": "Abrir cada clase con preguntas de Kahoot! sobre semanas anteriores obliga al curso a recuperar lo que se estaba olvidando: reaprendizaje sucesivo."
+    },
+    {
+      "a": "criterial",
+      "b": "tabla_posiciones",
+      "r": "dominio",
+      "nota": "Si en lugar de ordenar a todos comparas a cada persona con un criterio que puede alcanzar, el foco pasa al dominio de la materia."
+    },
+    {
+      "a": "recompensa_informativa",
+      "b": "retro",
+      "r": "comentarios",
+      "nota": "Una insignia acompañada de un comentario sobre qué hiciste bien es retroalimentación sin nota."
+    },
+    {
+      "a": "estilo_controlador",
+      "b": "recompensa_informativa",
+      "r": "apoyo_autonomia",
+      "nota": "Comparar un mensaje que informa con uno que presiona deja ver cómo hablar para apoyar la autonomía de los estudiantes."
+    },
+    {
+      "a": "cuasiexperimento",
+      "b": "efecto_novedad",
+      "r": "validez",
+      "nota": "Comparar dos grupos en las primeras semanas de una herramienta nueva confunde su efecto con el de la novedad. Medir más tarde mejora la validez."
+    },
+    {
+      "a": "desafio_a_la_medida",
+      "b": "practica_deliberada",
+      "r": "rcdp",
+      "nota": "Ciclos cortos de práctica en el límite de lo que ya dominas, con corrección inmediata, son práctica deliberada en ciclos rápidos."
+    }
+  ],
+  "refs": {
+    "wang20": "Wang, A. I., & Tahir, R. (2020). The effect of using Kahoot! for learning: A literature review. _Computers & Education, 149_, 103818. https://doi.org/10.1016/j.compedu.2020.103818",
+    "hanus15": "Hanus, M. D., & Fox, J. (2015). Assessing the effects of gamification in the classroom: A longitudinal study on intrinsic motivation, social comparison, satisfaction, effort, and academic performance. _Computers & Education, 80_, 152–161. https://doi.org/10.1016/j.compedu.2014.08.019",
+    "shortt23": "Shortt, M., Tilak, S., Kuznetcova, I., Martens, B., & Akinkuolie, B. (2023). Gamification in mobile-assisted language learning: A systematic review of Duolingo literature from public release of 2012 to early 2020. _Computer Assisted Language Learning, 36_(3), 517–554. https://doi.org/10.1080/09588221.2021.1933540",
+    "mentimeter26": "Mentimeter AB. (2026). _Mentimeter_ [Software]. https://www.mentimeter.com",
+    "kahoot26": "Kahoot! (2026). _Kahoot!_ [Software]. https://kahoot.com",
+    "nearpod26": "Nearpod. (2026). _Nearpod_ [Software]. https://nearpod.com",
+    "genially26": "Genially Web S.L. (2026). _Genially_ [Software]. https://genially.com",
+    "classroomscreen26": "Classroomscreen. (2026). _Classroom screen_ [Software]. https://classroomscreen.com",
+    "duolingo26": "Duolingo, Inc. (2026). _Duolingo_ [Software]. https://www.duolingo.com"
+  },
+  "misiones": [
+    {
+      "id": "sala_responde",
+      "n": "Toda la sala responde",
+      "e": "🖐️",
+      "meta": "cap_sala",
+      "hitos": [
+        "mentimeter",
+        "participacion_equitativa",
+        "llamado_en_frio"
+      ],
+      "encargo": "Juliana Rojas dicta Introducción a la Microeconomía a 160 estudiantes de primer semestre de Administración en una universidad de Bogotá. En el auditorio, las mismas cinco o seis personas de las primeras filas responden cada pregunta, y el resto mira el celular. Tras el primer parcial, las notas más bajas se concentran en las últimas filas. Juliana ya probó pedir voluntarios y hacer preguntas más difíciles, sin cambios. Tiene proyector, acceso a Mentimeter y ganas de probar otras herramientas, pero no sabe cómo lograr que todos piensen y respondan en una sala tan grande.",
+      "objetivo": "Llega a 🖐️ Toda la sala responde para armar con Juliana una sesión en que sus 160 estudiantes piensen, voten y hablen, no solo los de las primeras filas.",
+      "cierre": "Juliana ya tiene una sesión posible: abre con un sondeo y una segunda vuelta tras conversar en parejas, reparte la palabra con un selector de nombres anunciado y reserva el voto anónimo para las preguntas más arriesgadas. Con el temporizador en pantalla, el silencio deja de incomodar. Al corregir el próximo parcial podrá revisar si las últimas filas dejaron de ser las que menos respondían."
+    },
+    {
+      "id": "jugar_serio",
+      "n": "Jugar en serio",
+      "e": "🎉",
+      "meta": "cap_jugar",
+      "hitos": [
+        "kahoot",
+        "recompensa_informativa",
+        "desafio_a_la_medida"
+      ],
+      "encargo": "Tomás Ocampo enseña Inglés Técnico a 90 estudiantes de Ingeniería en una universidad de Córdoba, Argentina. Hace seis semanas empezó a cerrar cada clase con un concurso en Kahoot!, con tabla de posiciones y puntos que suman a la nota. Al principio todos participaban. Ahora ganan siempre las mismas tres personas, varios dejaron de abrir el celular y una estudiante preguntó cuántos puntos vale cada actividad antes de hacerla. Su jefe de carrera le sugiere sumar Duolingo y Genially, porque más plataformas deberían significar más aprendizaje. Tomás quiere conservar lo lúdico sin que el curso se vuelva una carrera de puntos.",
+      "objetivo": "Llega a 🎉 Jugar en serio para diseñar con Tomás una gamificación que enseñe inglés técnico y mantenga el interés después de las primeras semanas.",
+      "cierre": "Tomás rediseña su concurso: quita las posiciones individuales, entrega reconocimientos con comentarios sobre el razonamiento y ofrece rutas de distinta dificultad. Antes de sumar plataformas, compara una versión del repaso con tarjetas de papel y mide la participación en la semana seis. Con esos cambios, el concurso queda al servicio del inglés técnico y Tomás tiene datos para decidir si otra herramienta vale la pena."
+    }
+  ]
+}

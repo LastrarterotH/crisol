@@ -1,0 +1,632 @@
+{
+  "fichas": {
+    "chatgpt": {
+      "n": "ChatGPT",
+      "e": "🟢",
+      "f": "her",
+      "pista": "Conversa por escrito, responde con soltura y a veces se equivoca con la misma soltura.",
+      "why": "ChatGPT es un asistente de IA generativa de la empresa OpenAI que conversa por escrito y produce explicaciones, ejemplos y borradores. Lo que escribes recibe respuesta al instante. Kasneci y colaboradores revisan sus oportunidades y riesgos en educación, entre ellos las respuestas erróneas dichas con seguridad. Bastani y colaboradores vieron que, sin guía pedagógica, ayudó a practicar pero perjudicó el examen sin asistente. Lo escrito puede quedar en servidores de la empresa.",
+      "uni": "En Cálculo, pide al curso que cuente al asistente cómo resolvería un límite y le pida encontrar el paso débil, sin pedirle la solución.",
+      "refs": [
+        "kasneci23",
+        "bastani25",
+        "openai26"
+      ]
+    },
+    "claude": {
+      "n": "Claude",
+      "e": "✳️",
+      "f": "her",
+      "pista": "Asistente conversacional con nombre de pila al que puedes subir documentos para leerlos contigo.",
+      "why": "Claude es un asistente de IA generativa de la empresa Anthropic que conversa, redacta, resume y acepta documentos adjuntos. Como cualquier modelo de lenguaje, puede producir afirmaciones plausibles pero falsas, fenómeno que Ji y colaboradores revisan bajo el nombre de alucinación. Revisa la política de datos de tu institución antes de subir trabajos de estudiantes. Hay otros asistentes con funciones parecidas.",
+      "uni": "En Derecho Civil, pega un fallo breve y pide tres preguntas de comprensión sin respuesta; el curso contesta por escrito antes de abrir las respuestas.",
+      "refs": [
+        "ji23",
+        "anthropic26"
+      ]
+    },
+    "gemini": {
+      "n": "Gemini",
+      "e": "♊",
+      "f": "her",
+      "pista": "Asistente de un buscador conocido que maneja texto, imágenes y otros formatos en una misma conversación.",
+      "why": "Gemini es el asistente de IA generativa de Google; trabaja con texto, imágenes y otros formatos y se integra con otros servicios de la empresa. Conversa para explicar, practicar y resumir. La guía de la UNESCO sobre IA generativa en educación pide a las instituciones validar estas herramientas y proteger los datos antes de adoptarlas. Requiere cuenta de Google y su acceso a funciones varía según el plan.",
+      "uni": "En Biología, pide que explique la fotosíntesis a un estudiante de secundaria y que el curso corrija sus imprecisiones con el libro de texto.",
+      "refs": [
+        "unesco23",
+        "gemini26"
+      ]
+    },
+    "gemini_notebook": {
+      "n": "Gemini Notebook",
+      "e": "📥",
+      "f": "her",
+      "pista": "Cuaderno que solo responde a partir de los materiales que tú mismo le entregaste.",
+      "why": "Gemini Notebook (antes llamado NotebookLM) es una herramienta de Google que responde preguntas y genera resúmenes a partir de las fuentes que subes, y no de todo internet. Tus documentos pasan a ser su base. Responder desde fuentes conocidas facilita comprobar cada afirmación con el texto original, aunque no garantiza que no haya errores, como describen Ji y colaboradores. Revisa la privacidad antes de subir materiales ajenos.",
+      "uni": "En Historia, sube tres capítulos del programa y pide cinco preguntas con la página de cada respuesta; el curso verifica las citas antes de estudiar.",
+      "refs": [
+        "ji23",
+        "notebook26"
+      ]
+    },
+    "perplexity": {
+      "n": "Perplexity",
+      "e": "❔",
+      "f": "her",
+      "pista": "Buscador conversacional que responde en párrafos y numera las fuentes de donde sale cada afirmación.",
+      "why": "Perplexity es un motor de respuestas con IA que combina la búsqueda en la web con un modelo de lenguaje y muestra los enlaces que usó. Que haya fuentes citadas invita a comprobarlas, porque un enlace no prueba que el resumen sea fiel. Kasneci y colaboradores recuerdan que hay que verificar lo que producen estos modelos. Tiene versión gratuita y de pago.",
+      "uni": "En Sociología, pide una respuesta con fuentes sobre un concepto y haz que el curso abra dos enlaces para ver si la fuente dice lo que afirma el resumen.",
+      "refs": [
+        "kasneci23",
+        "perplexity26"
+      ]
+    },
+    "copilot": {
+      "n": "Copilot",
+      "e": "✈️",
+      "f": "her",
+      "pista": "Asistente de IA que viene dentro de aplicaciones de oficina y de un sistema operativo muy extendido.",
+      "why": "Microsoft Copilot es el asistente de IA generativa de Microsoft, disponible como chat y, según la licencia, integrado en aplicaciones como Word, Excel o Teams. Acompaña la tarea mientras se hace. Su efecto depende de lo que se delegue: Bastani y colaboradores, con otro asistente, hallaron que ayudar sin guía puede quitar el esfuerzo que fija el aprendizaje. La cuenta institucional suele tener condiciones de datos distintas a la personal.",
+      "uni": "En Contabilidad, pide un borrador de nota a los estados financieros y haz que cada estudiante marque tres cifras o términos que deba corregir.",
+      "refs": [
+        "bastani25",
+        "copilot26"
+      ]
+    },
+    "descarga_cognitiva": {
+      "n": "Descarga cognitiva",
+      "e": "📤",
+      "f": "tec",
+      "pista": "Dejar que un aparato guarde o resuelva lo que tu cabeza ya no ejercita.",
+      "why": "La descarga cognitiva es usar una acción externa, como anotar, buscar o pedir ayuda a una herramienta, para reducir lo que la mente debe sostener. Una respuesta fluida se lee fácil y parece dominada. Risko y Gilbert muestran que descargar libera recursos, pero también debilita el recuerdo de lo descargado. Koriat y Bjork explican por qué lo que se siente fluido engaña al juzgar lo aprendido.",
+      "uni": "Antes de abrir el asistente, pide que cada estudiante escriba de memoria su plan para resolver el problema y lo compare con la respuesta de la herramienta.",
+      "refs": [
+        "risko16",
+        "koriat05"
+      ]
+    },
+    "alucinacion_ia": {
+      "n": "Alucinaciones de la IA",
+      "e": "🫢",
+      "f": "tec",
+      "pista": "Una frase redactada con aplomo, citas incluidas, que nadie dijo ni ocurrió.",
+      "why": "Se llama alucinación a una salida de un modelo de lenguaje que suena razonable pero es falsa o no se apoya en la fuente. Surge de comparar Claude con Gemini Notebook: cuando un asistente responde desde su entrenamiento y otro desde tus documentos, las discrepancias delatan lo que no tiene respaldo. Ji y colaboradores revisan sus tipos y causas. Kasneci y colaboradores la cuentan entre los riesgos de usar estos modelos en educación. Los métodos actuales la reducen, pero no la eliminan.",
+      "uni": "En Medicina, pide al asistente tres referencias sobre un tratamiento y haz que el curso busque cada una en una base indexada para ver cuáles existen.",
+      "refs": [
+        "ji23",
+        "kasneci23"
+      ]
+    },
+    "transferencia_lejana": {
+      "n": "Transferencia lejana",
+      "e": "🪂",
+      "f": "apr",
+      "pista": "Usar en un campo muy distinto lo que aprendiste, sin que nadie avise que es lo mismo.",
+      "why": "La transferencia lejana ocurre cuando lo aprendido se aplica en un contexto, un formato o un momento muy distintos del original. Quien busca el porqué y las conexiones tiene más con qué reconocer un problema disfrazado. Barnett y Ceci proponen una taxonomía de contextos de transferencia y concluyen que la evidencia es desigual. Marton y Säljö distinguieron, al leer, el enfoque profundo del superficial.",
+      "uni": "En Estadística, después de enseñar la prueba t con ejemplos clínicos, plantea un problema sobre tiempos de entrega en logística y pide identificar qué prueba aplica.",
+      "refs": [
+        "barnett02",
+        "marton76"
+      ]
+    },
+    "estudiar_sin_atajo": {
+      "n": "Estudiar con el asistente, sin atajos",
+      "e": "🚶",
+      "f": "sint",
+      "pista": "Pedirle a la máquina que pregunte en vez de que conteste, para que el esfuerzo siga siendo tuyo.",
+      "why": "Integra la descarga cognitiva con la transferencia lejana: el asistente ayuda cuando obliga a producir y estorba cuando entrega la respuesta que uno debía construir. Bastani y colaboradores lo vieron en matemáticas de bachillerato: con ChatGPT sin guía se practicó mejor, pero se rindió peor sin él, y una versión con guía atenuó el daño. Dunlosky y colaboradores ubican la práctica de recuperación entre las técnicas de utilidad alta y la relectura entre las de utilidad baja.",
+      "principios": [
+        "Intenta el problema por escrito antes de abrir el asistente, porque recuperar y resolver sin ayuda rinde más que releer una solución (Dunlosky et al., 2013).",
+        "Pide al asistente que te pregunte y que no dé la solución hasta que hayas intentado la tuya, porque sin guía la herramienta mejoró la práctica pero empeoró el examen sin ella (Bastani et al., 2025).",
+        "Desconfía de la sensación de entender mientras lees una respuesta fluida y mídete con una pregunta que debas contestar de memoria (Koriat y Bjork, 2005).",
+        "Nombra qué estás delegando: anotar y buscar liberan la mente, pero lo delegado se recuerda menos (Risko y Gilbert, 2016).",
+        "Practica el mismo concepto en contextos distintos, porque la transferencia lejana es difícil de lograr y no llega sola (Barnett y Ceci, 2002)."
+      ],
+      "prueba": "Esta semana, antes de consultar a un asistente sobre un ejercicio, resuélvelo por tu cuenta durante diez minutos. Luego pídele tres preguntas sobre tu solución, sin darte la respuesta, y anota qué pudiste contestar de memoria al día siguiente.",
+      "refs": [
+        "dunlosky13",
+        "bastani25",
+        "koriat05",
+        "risko16",
+        "barnett02"
+      ]
+    },
+    "juicio_ante_ia": {
+      "n": "Juzgar lo que responde la IA",
+      "e": "⁉️",
+      "f": "sint",
+      "pista": "Ante una respuesta bien escrita, preguntar qué la respalda y qué la contradiría.",
+      "why": "Integra las alucinaciones de la IA con el juicio reflexivo: si un asistente puede equivocarse con aplomo, quien estudia debe ponderar evidencia y asumir una postura, como describen King y Kitchener. Perry describió el paso de esperar que la autoridad dé la respuesta correcta a comprometerse con una posición razonada. Ji y colaboradores muestran que un texto generado puede ser fluido y aun así infiel a su fuente.",
+      "principios": [
+        "Trata cada respuesta del asistente como una hipótesis que se contrasta con una fuente primaria, porque estos modelos pueden producir afirmaciones plausibles sin respaldo (Ji et al., 2023).",
+        "Pide al asistente que argumente la postura contraria y compara ambos argumentos con evidencia, para ejercitar el juicio reflexivo ante problemas sin respuesta única (King y Kitchener, 2004).",
+        "Cambia la pregunta de cuál es la respuesta correcta a qué evidencia sostiene cada postura, que es el movimiento descrito en el desarrollo epistemológico (Perry, 1970).",
+        "Comprueba con otras fuentes los datos y las referencias que entrega un asistente, porque puede equivocarse con seguridad (Kasneci et al., 2023)."
+      ],
+      "prueba": "Pide a tu curso una respuesta de un asistente sobre un tema de la materia. En parejas, marcan cada afirmación y la comprueban con una fuente indexada, y clasifican la lista en confirmada, contradicha y no encontrada.",
+      "refs": [
+        "ji23",
+        "king04",
+        "perry70",
+        "kasneci23"
+      ]
+    },
+    "cap_asistente": {
+      "n": "Un asistente que hace pensar",
+      "e": "🤓",
+      "f": "sint",
+      "pista": "La máquina conversa y el estudiante sigue siendo quien hace el trabajo mental.",
+      "why": "Integra el estudio sin atajos con el juicio ante la IA: un asistente puede ser buen interlocutor si pregunta, pide explicaciones y obliga a comprobar, y mal sustituto si entrega todo hecho. Bastani y colaboradores muestran ambas caras en matemáticas de bachillerato. La guía de la UNESCO pide conservar la capacidad de decisión de las personas ante estas herramientas.",
+      "principios": [
+        "Diseña las tareas para que el asistente pregunte y el estudiante responda primero, porque sin guía el apoyo mejora la práctica pero no el aprendizaje que queda (Bastani et al., 2025).",
+        "Pide que el estudiante explique con sus palabras lo que entendió antes de ver la respuesta, para detectar la ilusión de competencia (Koriat y Bjork, 2005).",
+        "Exige que cada respuesta del asistente se contraste con una fuente antes de usarse (Ji et al., 2023).",
+        "Deja la decisión final en la persona: quien estudia valora, decide y sostiene una postura razonada (Miao y Holmes, 2023).",
+        "Evalúa sin asistente una parte de la materia, para saber qué aprendió cada estudiante por su cuenta (Bastani et al., 2025)."
+      ],
+      "prueba": "Elige un tema de tu próxima clase y pide al curso estudiarlo con un asistente en modo pregunta, sin respuestas hasta que escriban la suya. Una semana después aplica tres preguntas en papel y mira qué recuerdan sin asistente.",
+      "refs": [
+        "bastani25",
+        "koriat05",
+        "ji23",
+        "unesco23"
+      ]
+    },
+    "google_forms": {
+      "n": "Google Forms",
+      "e": "☑️",
+      "f": "her",
+      "pista": "Hoja de preguntas en línea que se comparte con un enlace y devuelve las respuestas ordenadas.",
+      "why": "Google Forms es una herramienta de Google, gratuita con una cuenta personal, para crear cuestionarios y encuestas en línea; puede corregir ítems cerrados y mostrar retroalimentación. Roediger y Karpicke muestran que contestar pruebas favorece la retención más que releer, y Butler y Roediger, que la retroalimentación corrige los errores cometidos en opción múltiple. Haladyna y colaboradores revisan cómo redactar bien los ítems, porque la herramienta no mejora una pregunta mal escrita.",
+      "uni": "En Anatomía, abre un cuestionario de diez ítems para el lunes, con retroalimentación en cada respuesta, y revisa antes de la clase cuáles se erraron más.",
+      "refs": [
+        "roediger06",
+        "butler08",
+        "haladyna02",
+        "gforms26"
+      ]
+    },
+    "microsoft_forms": {
+      "n": "Microsoft Forms",
+      "e": "Ⓜ️",
+      "f": "her",
+      "pista": "Herramienta de formularios que viene incluida en la suite de oficina de una gran empresa de software.",
+      "why": "Microsoft Forms es la herramienta de cuestionarios y encuestas de Microsoft 365; se usa con la cuenta institucional, puede calificar ítems cerrados y resume los resultados. Aplicar una prueba sin papel. Butler y Roediger hallaron que la retroalimentación en pruebas de opción múltiple reduce el daño de recordar opciones erradas, y Haladyna y colaboradores recopilan pautas para redactar ítems. Si tu institución no usa Microsoft 365, Google Forms cumple funciones parecidas.",
+      "uni": "En Fisiología, programa un cuestionario de ocho preguntas con una explicación para cada opción incorrecta y ábrelo dos días antes del parcial.",
+      "refs": [
+        "butler08",
+        "haladyna02",
+        "mforms26"
+      ]
+    },
+    "turnitin": {
+      "n": "Turnitin",
+      "e": "📠",
+      "f": "her",
+      "pista": "Compara cada trabajo con un enorme archivo de textos y devuelve un porcentaje que alguien debe interpretar.",
+      "why": "Turnitin es un servicio comercial que compara los trabajos entregados con páginas web, publicaciones y entregas previas, y genera un informe de similitud. Un porcentaje alto señala coincidencias, no prueba plagio, porque las citas bien hechas también coinciden. Algunas plataformas añadieron indicadores de texto de IA, pero Weber-Wulff y colaboradores evaluaron detectores y los hallaron poco precisos y fiables. Su licencia la paga la institución.",
+      "uni": "En Derecho, revisa con el estudiante el informe de similitud de un ensayo: qué coincide, qué está citado y qué falta citar, antes de decidir nada.",
+      "refs": [
+        "bretag16",
+        "weber23",
+        "turnitin26"
+      ]
+    },
+    "banco_items": {
+      "n": "Banco de ítems",
+      "e": "🏦",
+      "f": "eva",
+      "pista": "Archivo de preguntas ya aplicadas, con datos de cuántas personas las acertaron y a quién distinguen.",
+      "why": "Un banco de ítems es una colección organizada de preguntas, cada una con su contenido, su nivel cognitivo y los datos de dificultad y discriminación de aplicaciones anteriores. Las respuestas que recoge el formulario se vuelven datos para depurar cada pregunta y reutilizar las buenas. Haladyna y Rodriguez describen cómo desarrollar y validar ítems, y las normas de AERA, APA y NCME piden documentar la evidencia de validez.",
+      "uni": "En Química, guarda cada pregunta del parcial con su porcentaje de aciertos y revisa las que casi nadie o casi todos acertaron antes de reutilizarlas.",
+      "refs": [
+        "haladyna13",
+        "aera14"
+      ]
+    },
+    "informe_similitud": {
+      "n": "Informe de similitud",
+      "e": "🔶",
+      "f": "eva",
+      "pista": "Resalta en colores qué fragmentos coinciden con otros textos, sin decidir si hubo falta.",
+      "why": "Un informe de similitud marca los fragmentos de un trabajo que coinciden con otras fuentes y muestra un porcentaje global. La herramienta mide coincidencia, no intención, y solo una lectura humana sostiene una decisión. Pecorari describe cómo escritores de segunda lengua pueden copiar de cerca el original por dificultades de aprendizaje y no por fraude. Liang y colaboradores mostraron que detectores de IA etiquetaron como automáticos textos de hablantes no nativos de inglés.",
+      "uni": "En Historia, entrega el informe al estudiante y pide que justifique cada coincidencia marcada: cita correcta, frase común o falta por corregir.",
+      "refs": [
+        "pecorari03",
+        "liang23",
+        "weber23"
+      ]
+    },
+    "retroalimentacion_automatica": {
+      "n": "Retroalimentación automática",
+      "e": "🔂",
+      "f": "eva",
+      "pista": "La respuesta correcta y su porqué aparecen en pantalla al instante, sin que el docente escriba nada.",
+      "why": "La retroalimentación automática son mensajes que el sistema muestra según la respuesta marcada, programados de antemano por el docente. Se define qué respuesta indica qué nivel y qué explicación recibe. Butler y Roediger hallaron que la retroalimentación en pruebas de opción múltiple reduce los efectos negativos de recordar opciones erradas. Hattie y Timperley indican que su efecto depende del tipo de mensaje y que ayuda más el que orienta cómo mejorar.",
+      "uni": "En Farmacología, escribe para cada distractor del cuestionario una línea que explique por qué esa opción tienta y qué hay que repasar.",
+      "refs": [
+        "butler08",
+        "hattie07"
+      ]
+    },
+    "evidencia_sostenida": {
+      "n": "Evidencia en línea que se sostiene",
+      "e": "🗿",
+      "f": "sint",
+      "pista": "Una nota con datos detrás de cada pregunta y de cada sospecha, listos para quien reclame.",
+      "why": "Integra el banco de ítems con el informe de similitud: dos fuentes de evidencia en línea, una sobre lo que mide cada pregunta y otra sobre la autoría de un texto, que se interpretan con criterio. Los Estándares de AERA, APA y NCME piden respaldar cada uso de los puntajes con evidencia de validez. Weber-Wulff y colaboradores hallaron poco precisos y fiables a los detectores de texto de IA, por lo que una decisión de integridad no puede descansar solo en ellos.",
+      "principios": [
+        "Construye el cuestionario desde una tabla de especificaciones, para que cada ítem responda a un contenido y un nivel cognitivo declarados (Fives y DiDonato-Barnes, 2013).",
+        "Después de aplicar la prueba, revisa cuántos acertaron cada ítem y si distingue a quienes saben más, y reescribe o retira los que no lo logran (Haladyna y Rodriguez, 2013).",
+        "Respalda cada decisión sobre las notas con evidencia de validez para ese uso y no solo con el puntaje total (American Educational Research Association et al., 2014).",
+        "Interpreta las coincidencias en su contexto, porque copiar de cerca el original puede reflejar dificultades de aprendizaje y no intención de engañar (Pecorari, 2003).",
+        "No uses un detector de IA como prueba de autoría, porque los evaluados no fueron suficientemente precisos ni fiables y penalizaron a quienes escriben en una segunda lengua (Weber-Wulff et al., 2023; Liang et al., 2023)."
+      ],
+      "prueba": "En tu próximo cuestionario en línea, anota el porcentaje de aciertos de cada ítem. Si un trabajo escrito te genera dudas, revisa el informe de similitud y conversa con el estudiante antes de decidir, sin usar un detector de IA como prueba.",
+      "refs": [
+        "fives13",
+        "haladyna13",
+        "aera14",
+        "pecorari03",
+        "weber23",
+        "liang23"
+      ]
+    },
+    "prueba_orienta": {
+      "n": "Prueba que orienta el estudio",
+      "e": "⛳",
+      "f": "sint",
+      "pista": "Lo que el examen premia termina siendo lo que el curso practica, pregunta tras pregunta.",
+      "why": "Integra la retroalimentación automática con el efecto retroactivo de la evaluación: lo que la prueba pide define cómo y qué estudian los estudiantes, como plantean Biggs y Tang al hablar de alineamiento. Si los ítems solo piden reconocer datos, el estudio se vuelve memorización. Con retroalimentación inmediata, el error se convierte en práctica, y Butler y Roediger hallaron que ese mensaje mejora lo que se retiene tras una prueba de opción múltiple.",
+      "principios": [
+        "Diseña los ítems pensando en cómo estudiarán para ellos, porque la prueba orienta el modo de estudiar (Biggs y Tang, 2011).",
+        "Incluye ítems que pidan aplicar o explicar y no solo reconocer, para que prepararse para la prueba sea estudiar lo que quieres que aprendan (Haladyna y Rodriguez, 2013).",
+        "Escribe retroalimentación para cada opción errónea, porque corrige el error y evita fijar la opción equivocada (Butler y Roediger, 2008).",
+        "Fija los criterios antes de la prueba y compártelos, para que se sepa de antemano qué se premia (Glaser, 1963).",
+        "Ofrece un segundo intento, porque contestar pruebas favorece la retención más que releer (Roediger y Karpicke, 2006)."
+      ],
+      "prueba": "En tu próximo cuestionario en línea, escribe una explicación para cada opción incorrecta y abre un segundo intento tras ver la retroalimentación. Compara el porcentaje de aciertos entre el primer y el segundo intento.",
+      "refs": [
+        "biggs11",
+        "haladyna13",
+        "butler08",
+        "glaser63",
+        "roediger06"
+      ]
+    },
+    "cap_pruebas": {
+      "n": "Pruebas en línea que miden lo que importa",
+      "e": "🎗️",
+      "f": "sint",
+      "pista": "El cuestionario virtual mide lo que se enseñó, devuelve información útil y sostiene sus decisiones.",
+      "why": "Integra la evidencia sostenida con la prueba que orienta el estudio: una prueba en línea sirve cuando mide lo que el curso busca, ayuda a estudiar y respalda decisiones justas. Messick define la validez como el grado en que la evidencia respalda las interpretaciones y usos de los puntajes. Herramientas como Google Forms, Microsoft Forms o Turnitin facilitan aplicar y comparar, pero la validez depende del diseño y de la interpretación.",
+      "principios": [
+        "Parte de lo que el curso quiere que aprendan y deriva de ahí la tabla de especificaciones, antes de abrir cualquier herramienta (Fives y DiDonato-Barnes, 2013).",
+        "Recuerda que la herramienta aplica la prueba y que la validez la aportan el diseño y la interpretación de los puntajes (Messick, 1989).",
+        "Usa los datos del cuestionario para mejorar los ítems y para que cada estudiante vea qué corregir (Hattie y Timperley, 2007).",
+        "Reduce las ocasiones de copiar con tareas variadas y normas claras, porque el contexto del curso influye en la deshonestidad (McCabe et al., 2001).",
+        "No uses un detector de IA como prueba de autoría (Weber-Wulff et al., 2023)."
+      ],
+      "prueba": "Elige un cuestionario en línea que ya uses y revísalo con tres preguntas: qué contenido mide cada ítem, cuántos lo acertaron y qué decisión tomas con el resultado. Si esa decisión depende de un detector, reemplázala por una conversación y una tarea de verificación.",
+      "refs": [
+        "messick89",
+        "fives13",
+        "hattie07",
+        "mccabe01",
+        "weber23"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "ia",
+      "b": "dialogo",
+      "r": "chatgpt",
+      "nota": "Una IA generativa a la que le hablas por escrito y responde en el acto: así funciona un asistente conversacional como ChatGPT."
+    },
+    {
+      "a": "ia",
+      "b": "lenguaje",
+      "r": "claude",
+      "nota": "Una IA generativa que trabaja con texto: lee, resume y redacta, y acepta documentos que le adjuntes."
+    },
+    {
+      "a": "ia",
+      "b": "aprendizaje",
+      "r": "gemini",
+      "nota": "Una IA generativa pensada para explicar y practicar, que maneja texto e imágenes y se integra con otros servicios de su empresa."
+    },
+    {
+      "a": "gemini",
+      "b": "memoria",
+      "r": "gemini_notebook",
+      "nota": "Gemini con una memoria hecha de tus documentos: un cuaderno que responde desde ellos. Antes se llamaba NotebookLM."
+    },
+    {
+      "a": "ia",
+      "b": "saber",
+      "r": "perplexity",
+      "nota": "Una IA generativa que responde con saber ya publicado y enlaza las fuentes, para que puedas comprobarlas."
+    },
+    {
+      "a": "chatgpt",
+      "b": "practica",
+      "r": "copilot",
+      "nota": "Copilot lleva un asistente de lenguaje del mismo tipo que ChatGPT a la práctica diaria: dentro del procesador de texto, la planilla o la reunión."
+    },
+    {
+      "a": "copilot",
+      "b": "ilusion_competencia",
+      "r": "descarga_cognitiva",
+      "nota": "Si el asistente resuelve la tarea dentro del mismo documento, es fácil confundir su respuesta con lo que uno sabe. Eso es descargar el pensamiento."
+    },
+    {
+      "a": "claude",
+      "b": "gemini_notebook",
+      "r": "alucinacion_ia",
+      "nota": "Un asistente responde desde su entrenamiento y otro desde tus fuentes. Donde difieren aparece lo inventado con aplomo: las alucinaciones."
+    },
+    {
+      "a": "profundo",
+      "b": "transferencia",
+      "r": "transferencia_lejana",
+      "nota": "Quien estudia buscando el porqué reconoce el mismo problema con otro disfraz y lo resuelve en otro campo."
+    },
+    {
+      "a": "descarga_cognitiva",
+      "b": "transferencia_lejana",
+      "r": "estudiar_sin_atajo",
+      "nota": "Delegar el esfuerzo impide transferir; estudiar con el asistente que pregunta mantiene el trabajo mental en la persona."
+    },
+    {
+      "a": "alucinacion_ia",
+      "b": "juicio_reflexivo",
+      "r": "juicio_ante_ia",
+      "nota": "Si el asistente puede equivocarse con aplomo, hay que razonar con evidencia y comprometerse con una postura propia."
+    },
+    {
+      "a": "estudiar_sin_atajo",
+      "b": "juicio_ante_ia",
+      "r": "cap_asistente",
+      "nota": "Estudiar sin atajos y juzgar cada respuesta hacen del asistente un interlocutor que obliga a pensar."
+    },
+    {
+      "a": "pregunta",
+      "b": "internet",
+      "r": "google_forms",
+      "nota": "Preguntas que viajan por internet y vuelven como datos: así funciona un formulario en línea como Google Forms."
+    },
+    {
+      "a": "evaluacion",
+      "b": "internet",
+      "r": "microsoft_forms",
+      "nota": "Una evaluación aplicada por internet, sin papel y con resultados al instante: un formulario como Microsoft Forms."
+    },
+    {
+      "a": "integridad",
+      "b": "internet",
+      "r": "turnitin",
+      "nota": "Cuidar la honestidad de un curso en la red implica comparar los trabajos con lo ya publicado, como hace Turnitin."
+    },
+    {
+      "a": "google_forms",
+      "b": "analisis_items",
+      "r": "banco_items",
+      "nota": "Las respuestas del formulario alimentan el análisis de ítems, y las preguntas que funcionan se guardan para reutilizarlas."
+    },
+    {
+      "a": "turnitin",
+      "b": "validez",
+      "r": "informe_similitud",
+      "nota": "Turnitin mide coincidencia, no intención. Para que el informe sea válido, una persona debe leerlo y decidir."
+    },
+    {
+      "a": "microsoft_forms",
+      "b": "criterial",
+      "r": "retroalimentacion_automatica",
+      "nota": "Con criterios fijados de antemano, el formulario puede mostrar a cada respuesta el mensaje que le corresponde."
+    },
+    {
+      "a": "banco_items",
+      "b": "informe_similitud",
+      "r": "evidencia_sostenida",
+      "nota": "Ítems revisados con datos e informes leídos con criterio dan una evidencia que se puede explicar a quien reclama."
+    },
+    {
+      "a": "retroalimentacion_automatica",
+      "b": "efecto_retroactivo",
+      "r": "prueba_orienta",
+      "nota": "Lo que la prueba pide guía cómo se estudia, y el mensaje inmediato convierte el error en práctica."
+    },
+    {
+      "a": "evidencia_sostenida",
+      "b": "prueba_orienta",
+      "r": "cap_pruebas",
+      "nota": "Una prueba defendible que además orienta el estudio mide lo que el curso quiere enseñar."
+    },
+    {
+      "a": "chatgpt",
+      "b": "andamiaje",
+      "r": "tutoria",
+      "nota": "Un asistente que da apoyo gradual y lo retira cuando el estudiante avanza funciona como tutor. Sin ese andamio, solo entrega respuestas."
+    },
+    {
+      "a": "chatgpt",
+      "b": "consentimiento",
+      "r": "privacidad",
+      "nota": "Antes de escribir datos de estudiantes en un asistente comercial se pide consentimiento, porque lo ingresado sale del curso."
+    },
+    {
+      "a": "gemini_notebook",
+      "b": "pensamiento_critico",
+      "r": "alfabetizacion_ia",
+      "nota": "Saber qué hace un asistente con tus fuentes y cuestionar lo que devuelve forma parte de alfabetizarse en IA."
+    },
+    {
+      "a": "claude",
+      "b": "gemini",
+      "r": "triangulacion",
+      "nota": "Comparar dos asistentes entre sí y con una fuente primaria es una forma de triangular una afirmación."
+    },
+    {
+      "a": "perplexity",
+      "b": "escritura",
+      "r": "sintesis_fuentes",
+      "nota": "Perplexity reúne fuentes citadas; sintetizarlas con voz propia sigue siendo trabajo de quien escribe."
+    },
+    {
+      "a": "copilot",
+      "b": "pedagogia",
+      "r": "tpk",
+      "nota": "Un asistente dentro de las aplicaciones de oficina obliga a decidir cuándo ayuda a enseñar: eso es conocimiento tecnopedagógico."
+    },
+    {
+      "a": "copilot",
+      "b": "borrador",
+      "r": "retro_borradores",
+      "nota": "Un asistente puede dar primeros comentarios a un borrador. El docente decide cuáles sirven."
+    },
+    {
+      "a": "chatgpt",
+      "b": "metacognicion",
+      "r": "autoexplicacion",
+      "nota": "Explicar al asistente lo que entendiste y pedirle que busque huecos te obliga a poner tu razonamiento en palabras."
+    },
+    {
+      "a": "claude",
+      "b": "escritura",
+      "r": "escribir",
+      "nota": "Redactar tú primero y pedir comentarios después conserva el aprendizaje que da escribir."
+    },
+    {
+      "a": "descarga_cognitiva",
+      "b": "estudiante",
+      "r": "oficio_estudiante",
+      "nota": "Saber qué conviene delegar a una herramienta y qué conviene ejercitar es parte del oficio de estudiar."
+    },
+    {
+      "a": "alucinacion_ia",
+      "b": "evidencia",
+      "r": "pregunta_indagacion",
+      "nota": "Un error plausible de la IA se convierte en pregunta docente: ¿qué evidencia lo respalda?"
+    },
+    {
+      "a": "google_forms",
+      "b": "datos",
+      "r": "analitica",
+      "nota": "Las respuestas de un formulario son datos del curso; leídas a tiempo, orientan decisiones de enseñanza."
+    },
+    {
+      "a": "google_forms",
+      "b": "recuperacion",
+      "r": "cats",
+      "nota": "Un cuestionario corto al cierre de la clase es una técnica de evaluación en el aula que además obliga a recuperar."
+    },
+    {
+      "a": "google_forms",
+      "b": "cambio_conceptual",
+      "r": "inventario_conceptual",
+      "nota": "Un formulario con distractores basados en ideas previas erróneas sirve como inventario conceptual."
+    },
+    {
+      "a": "google_forms",
+      "b": "retro",
+      "r": "formativa",
+      "nota": "Un formulario que devuelve retroalimentación mientras se aprende cumple una función formativa."
+    },
+    {
+      "a": "microsoft_forms",
+      "b": "previos",
+      "r": "diagnostica",
+      "nota": "Un formulario corto al inicio de la unidad revela qué sabe ya el curso."
+    },
+    {
+      "a": "microsoft_forms",
+      "b": "docente",
+      "r": "opinion_estudiantil",
+      "nota": "Un formulario anónimo a mitad de semestre recoge cómo ve el curso la docencia, con los límites de toda encuesta."
+    },
+    {
+      "a": "turnitin",
+      "b": "ia",
+      "r": "detectores",
+      "nota": "Algunas plataformas de similitud añadieron indicadores de texto de IA, cuya fiabilidad está cuestionada."
+    },
+    {
+      "a": "turnitin",
+      "b": "alfabetizacion_academica",
+      "r": "mosaico",
+      "nota": "Los informes de similitud suelen marcar la escritura en mosaico, que a menudo es una etapa de aprender las convenciones académicas."
+    },
+    {
+      "a": "retroalimentacion_automatica",
+      "b": "alf_retro",
+      "r": "retro_sabia",
+      "nota": "El mensaje automático solo ayuda si el estudiante sabe leerlo y usarlo: alfabetización en retroalimentación."
+    },
+    {
+      "a": "banco_items",
+      "b": "bloom",
+      "r": "alineamiento",
+      "nota": "Cada ítem del banco declara su nivel cognitivo, lo que permite alinear la prueba con los resultados esperados."
+    },
+    {
+      "a": "informe_similitud",
+      "b": "dialogo",
+      "r": "seguridad_psicologica",
+      "nota": "Conversar el informe con el estudiante, sin acusar, crea el clima donde se admite una duda sobre citar."
+    },
+    {
+      "a": "algoritmo",
+      "b": "internet",
+      "r": "perplexity",
+      "nota": "Un algoritmo que lee páginas de internet y redacta una respuesta con enlaces: así funciona un motor de respuestas como Perplexity."
+    }
+  ],
+  "refs": {
+    "risko16": "Risko, E. F., & Gilbert, S. J. (2016). Cognitive offloading. _Trends in Cognitive Sciences, 20_(9), 676–688. https://doi.org/10.1016/j.tics.2016.07.002",
+    "ji23": "Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., Ishii, E., Bang, Y. J., Madotto, A., & Fung, P. (2023). Survey of hallucination in natural language generation. _ACM Computing Surveys, 55_(12), artículo 248. https://doi.org/10.1145/3571730",
+    "kasneci23": "Kasneci, E., Sessler, K., Küchemann, S., Bannert, M., Dementieva, D., Fischer, F., Gasser, U., Groh, G., Günnemann, S., Hüllermeier, E., Krusche, S., Kutyniok, G., Michaeli, T., Nerdel, C., Pfeffer, J., Poquet, O., Sailer, M., Schmidt, A., Seidel, T., … Kasneci, G. (2023). ChatGPT for good? On opportunities and challenges of large language models for education. _Learning and Individual Differences, 103_, artículo 102274. https://doi.org/10.1016/j.lindif.2023.102274",
+    "butler08": "Butler, A. C., & Roediger, H. L. (2008). Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing. _Memory & Cognition, 36_(3), 604–616. https://doi.org/10.3758/MC.36.3.604",
+    "haladyna02": "Haladyna, T. M., Downing, S. M., & Rodriguez, M. C. (2002). A review of multiple-choice item-writing guidelines for classroom assessment. _Applied Measurement in Education, 15_(3), 309–333. https://doi.org/10.1207/S15324818AME1503_5",
+    "openai26": "OpenAI. (2026). _ChatGPT_ [Software]. https://chatgpt.com",
+    "anthropic26": "Anthropic. (2026). _Claude_ [Software]. https://claude.ai",
+    "gemini26": "Google. (2026). _Gemini_ [Software]. https://gemini.google.com",
+    "notebook26": "Google. (2026). _Gemini Notebook_ [Software]. https://notebook.google",
+    "perplexity26": "Perplexity AI. (2026). _Perplexity_ [Software]. https://www.perplexity.ai",
+    "copilot26": "Microsoft Corporation. (2026). _Microsoft Copilot_ [Software]. https://copilot.microsoft.com",
+    "gforms26": "Google. (2026). _Google Forms_ [Software]. https://forms.google.com",
+    "mforms26": "Microsoft Corporation. (2026). _Microsoft Forms_ [Software]. https://forms.office.com",
+    "turnitin26": "Turnitin, LLC. (2026). _Turnitin_ [Software]. https://www.turnitin.com"
+  },
+  "misiones": [
+    {
+      "id": "asistente",
+      "n": "Un asistente que hace pensar",
+      "e": "🤓",
+      "meta": "cap_asistente",
+      "hitos": [
+        "chatgpt",
+        "ilusion_competencia",
+        "juicio_ante_ia"
+      ],
+      "encargo": "Hilda Garza da Cálculo Diferencial a ciento veinte estudiantes de primer semestre de ingeniería en una universidad de Monterrey. Este semestre las tareas llegan impecables, con procedimientos completos, pero en el parcial las mismas personas se bloquean ante un límite que no vieron en clase. Varias admiten que pedían a un asistente de IA la solución paso a paso y la releían hasta que todo parecía claro. Hilda no quiere prohibir el asistente. Te pide ayuda para que lo usen como un tutor que pregunta, comprueben lo que responde y puedan aplicar lo estudiado a problemas nuevos.",
+      "objetivo": "Llega a 🤓 Un asistente que hace pensar para que los estudiantes de Hilda estudien con la IA sin sustituir su propio razonamiento.",
+      "cierre": "Hilda ya tiene un plan. Sus estudiantes intentarán cada problema por escrito antes de abrir ChatGPT, le pedirán que pregunte en lugar de resolver y contrastarán sus respuestas con el libro y con sus apuntes. El parcial incluirá un problema disfrazado, para ver si lo aprendido viaja. Así, el asistente deja de entregar soluciones y cada estudiante revisa lo que responde antes de usarlo."
+    },
+    {
+      "id": "pruebas",
+      "n": "Pruebas en línea que miden lo que importa",
+      "e": "🎗️",
+      "meta": "cap_pruebas",
+      "hitos": [
+        "google_forms",
+        "informe_similitud",
+        "retroalimentacion_automatica"
+      ],
+      "encargo": "Hernán Videla arma los parciales de Estadística Aplicada en Google Forms para doscientos cuarenta estudiantes de Ciencias Económicas en una universidad pública de Mendoza. Cada año repite preguntas de memoria, las respuestas circulan por WhatsApp y el promedio sube sin que mejoren los trabajos. Este año recibió un informe de Turnitin con una similitud alta en un ensayo, y un colega le sugirió un detector de IA para otro. Una estudiante extranjera quedó señalada por esa herramienta. Te pide ayuda para construir pruebas válidas, leer bien los informes y decidir sin apoyarse en un detector.",
+      "objetivo": "Llega a 🎗️ Pruebas en línea que miden lo que importa para que los parciales de Hernán evalúen lo enseñado y sus decisiones de integridad tengan evidencia.",
+      "cierre": "Hernán rediseñará el parcial desde una tabla de especificaciones, revisará los ítems con los datos de Google Forms y escribirá retroalimentación para cada opción errónea. Los informes de similitud abrirán una conversación con el estudiante, y ningún detector de IA decidirá una nota ni una sanción. Así, el porcentaje deja de ser una acusación y la prueba mide lo que el curso quiere que aprendan."
+    }
+  ]
+}

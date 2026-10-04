@@ -34,6 +34,7 @@ Arma `public/datos.json` y abre un servidor de desarrollo en http://localhost:54
   - `recetas-nuevas.txt` y `quitar.txt`: el grafo diseñado.
   - `parte-N*.json`, `filtro-F*.json`: textos de fichas y misiones.
   - `expansion-E*.json`: misiones nuevas con sus fichas, recetas, textos y referencias.
+  - `expansion-H*.json`: 14 misiones con herramientas concretas (familia "her": PowerPoint, Moodle, Gmail, ChatGPT, Kahoot!, Zoom, Excel y otras 42), que además rescatan fichas que estaban escritas pero fuera de todo plano. Se escriben con `tareas/tarea-H.md`, un paquete de contexto recortado por agente (`tareas/paquete.js`) y se revisan con `tareas/validar-E.js`, `tareas/citas.js`, `tareas/verificar-refs.js` (Crossref y OpenAlex) y `tareas/pulir.js`.
   - `pre-P*.json`, `pre-D*.json`: recetas para que casi toda pareja del inicio produzca algo. `quitar-D.txt` excluye las que abrían atajos hacia hitos y metas.
   - `ajustes.json`: correcciones manuales que se aplican al final.
   - `tareas/`: reglas, catálogos e instrucciones con que se generó el contenido, y `validar-E.js` para revisar una expansión.

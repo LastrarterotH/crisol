@@ -1,0 +1,542 @@
+{
+  "fichas": {
+    "powerpoint": {
+      "n": "PowerPoint",
+      "e": "📽️",
+      "f": "her",
+      "pista": "Un lienzo en blanco dividido en láminas, donde cada una puede llenarse de viñetas o de silencio.",
+      "why": "Programa de presentaciones de Microsoft que organiza una exposición en diapositivas con texto, imágenes, audio y animaciones. La investigación sobre aprendizaje multimedia indica que pesa más el diseño del mensaje que el programa: palabras escogidas, imágenes con función y poca información ajena favorecen la comprensión (Mayer, 2009). Un texto proyectado que el docente solo lee en voz alta compite con su propia voz. Hay alternativas gratuitas, como Impress de LibreOffice y Presentaciones de Google; algunas funciones de PowerPoint dependen de la licencia.",
+      "uni": "Revisa una presentación tuya y deja en cada diapositiva una sola idea, una imagen que la explique y el mínimo de texto; el resto lo dices tú en voz alta.",
+      "refs": [
+        "mayer09",
+        "clark83"
+      ]
+    },
+    "canva": {
+      "n": "Canva",
+      "e": "🖌️",
+      "f": "her",
+      "pista": "Taller de diseño en el navegador, con plantillas listas, donde un afiche se arma sin saber de tipografía.",
+      "why": "Plataforma en línea de diseño gráfico con plantillas, imágenes y elementos que permite crear presentaciones, infografías y afiches desde el navegador. Las plantillas ahorran tiempo. La investigación en aprendizaje multimedia indica que una imagen enseña cuando cumple una función explicativa y distrae cuando solo adorna (Mayer, 2009). Tiene versión gratuita y planes de pago, y conviene revisar qué incluye tu licencia institucional. Penpot e Inkscape son alternativas libres de diseño.",
+      "uni": "Pide a tu grupo resumir un artículo en una infografía de una lámina y revisa que cada elemento visual explique algo del texto.",
+      "refs": [
+        "mayer09",
+        "mayer03"
+      ]
+    },
+    "gamma": {
+      "n": "Gamma",
+      "e": "✨",
+      "f": "her",
+      "pista": "Le describes el tema en una frase y te devuelve un borrador de exposición listo para podar.",
+      "why": "Herramienta de IA generativa que produce un borrador de presentación, documento o página web a partir de una indicación escrita, y que se edita después. Su borrador sirve como punto de partida: puede traer más texto o imágenes de los que la memoria de trabajo procesa bien (Mayer & Moreno, 2003), y el contenido necesita revisión de exactitud. Subir datos de estudiantes exige revisar la política de privacidad. Tiene plan gratuito y planes de pago que cambian con el tiempo.",
+      "uni": "Pídele un borrador sobre el tema de tu próxima clase y, antes de usarlo, elimina cada texto o imagen que no apoye el resultado de aprendizaje.",
+      "refs": [
+        "mayer03",
+        "mayer09"
+      ]
+    },
+    "youtube": {
+      "n": "YouTube",
+      "e": "▶️",
+      "f": "her",
+      "pista": "Teatro mundial donde tu clase grabada compite con gatos, tutoriales y conciertos.",
+      "why": "Plataforma de Google para alojar, compartir y comentar videos, con subtítulos automáticos que conviene revisar. Sirve como repositorio de cápsulas propias y como fuente de videos ajenos. En videos de cursos masivos, los más breves y de tono informal retuvieron mejor a los estudiantes (Guo et al., 2014), y las guías de diseño recomiendan segmentar y señalar lo que importa (Brame, 2016). La publicidad y las recomendaciones pueden desviar la atención; puedes publicar el video como no listado o usar alternativas libres como PeerTube.",
+      "uni": "Sube una cápsula de cinco minutos como video no listado, activa los subtítulos, corrígelos y comparte el enlace en tu curso.",
+      "refs": [
+        "guo14",
+        "brame16"
+      ]
+    },
+    "edpuzzle": {
+      "n": "Edpuzzle",
+      "e": "🎞️",
+      "f": "her",
+      "pista": "El video se detiene solo para preguntarte, y tu profesor ve quién contestó y quién no.",
+      "why": "Plataforma que permite recortar un video, añadir preguntas, notas y audio, asignarlo a un grupo y ver quién lo vio y cómo respondió. Aplica una idea con respaldo experimental: intercalar preguntas durante una clase en línea reduce la divagación mental y mejora lo aprendido (Szpunar et al., 2013). El registro de visualización muestra que alguien vio el video, aunque no prueba que lo haya comprendido. Tiene versión gratuita limitada y planes de pago; revisa la política de datos de tu institución.",
+      "uni": "Toma un video de diez minutos, inserta tres preguntas donde suelen perderse y revisa antes de la clase cuáles fallaron más.",
+      "refs": [
+        "szpunar13",
+        "brame16"
+      ]
+    },
+    "screencastify": {
+      "n": "Screencastify",
+      "e": "📹",
+      "f": "her",
+      "pista": "Grabas tu pantalla con tu voz mientras resuelves el ejercicio, como un pizarrón que quedó filmado.",
+      "why": "Extensión del navegador Chrome para grabar la pantalla con voz y, si quieres, cámara, con edición sencilla del video. Sirve para cápsulas, resolución comentada de ejercicios y comentarios en video sobre trabajos. En videos de cursos masivos, un estilo personal y conversacional resultó tan atractivo como una grabación de estudio muy pulida (Guo et al., 2014), y las guías recomiendan videos breves (Brame, 2016). Su plan gratuito limita funciones; OBS Studio es una alternativa libre.",
+      "uni": "Graba cinco minutos de pantalla resolviendo en voz alta un ejercicio típico del parcial y súbelo al curso antes de la clase de repaso.",
+      "refs": [
+        "guo14",
+        "brame16"
+      ]
+    },
+    "h5p": {
+      "n": "H5P",
+      "e": "🔲",
+      "f": "her",
+      "pista": "Caja de piezas abiertas para armar videos con preguntas, tarjetas y arrastrar y soltar, sin programar.",
+      "why": "Conjunto de código abierto para crear contenido interactivo en el navegador: video con preguntas, tarjetas de memoria, arrastrar y soltar, líneas de tiempo. Se integra en sistemas como Moodle, y las actividades se pueden reutilizar y adaptar. Sus preguntas con retroalimentación inmediata ponen en práctica la recuperación, que mejora la retención (Roediger & Karpicke, 2006). Dentro de Moodle no tiene costo adicional; el servicio alojado en h5p.com puede ser de pago.",
+      "uni": "Convierte un video de tu curso en una actividad interactiva con tres preguntas de opción múltiple y retroalimentación breve, y pídela como tarea previa.",
+      "refs": [
+        "szpunar13",
+        "roediger06"
+      ]
+    },
+    "diapositivas": {
+      "n": "Diapositivas",
+      "e": "🪧",
+      "f": "tec",
+      "pista": "Una idea por pantalla: la hoja de la exposición que se proyecta de a una.",
+      "why": "Soporte visual en que una exposición se divide en pantallas sucesivas con texto, imágenes y esquemas. Su valor depende del diseño: la investigación en aprendizaje multimedia señala que ayudan cuando la imagen explica y el texto es breve, y estorban cuando se proyecta lo mismo que se dice en voz alta (Mayer, 2009).",
+      "uni": "Cuenta cuántas ideas distintas hay en cada diapositiva de tu última clase; si pasan de una, divide la diapositiva.",
+      "refs": [
+        "mayer09"
+      ]
+    },
+    "coherencia": {
+      "n": "Principio de coherencia",
+      "e": "🧽",
+      "f": "apr",
+      "pista": "Menos fue más: lo que no ayuda a entender se queda afuera, aunque se vea bonito.",
+      "why": "Principio del aprendizaje multimedia según el cual se aprende mejor cuando se excluye el material ajeno al objetivo: música, imágenes decorativas, anécdotas atractivas pero irrelevantes. Resulta de aplicar la teoría de la carga cognitiva a un material ya armado. Los metaanálisis sobre detalles seductores encuentran un efecto negativo en promedio, de tamaño variable según el material (Rey, 2012; Sundararajan & Adesope, 2020).",
+      "uni": "Quita de una diapositiva el dibujo que solo decora y la frase simpática que no lleva al tema, y pregunta al grupo si algo les faltó.",
+      "refs": [
+        "sundararajan20",
+        "rey12",
+        "mayer03"
+      ]
+    },
+    "senalizacion": {
+      "n": "Señalización",
+      "e": "👈",
+      "f": "apr",
+      "pista": "Flechas, colores y negritas que le dicen a la mirada por dónde empezar y qué importa.",
+      "why": "Principio del aprendizaje multimedia que recomienda marcar la estructura y lo que importa con títulos, énfasis, flechas o color, para que el estudiante gaste menos esfuerzo buscando qué mirar. Un metaanálisis encontró que señalizar mejora el aprendizaje en promedio (Schneider et al., 2018). El exceso de señales vuelve a recargar la imagen.",
+      "uni": "En una diapositiva con un gráfico, resalta con color solo la curva o el dato que responde la pregunta de la clase y deja el resto en gris.",
+      "refs": [
+        "schneider18",
+        "mayer09"
+      ]
+    },
+    "organizador_previo": {
+      "n": "Organizador previo",
+      "e": "🪝",
+      "f": "apr",
+      "pista": "Un puente breve, ofrecido antes de la lección, para colgar lo nuevo de lo que ya se sabe.",
+      "why": "Material introductorio, más general que la lección, que se presenta antes de ella para dar un marco donde anclar lo nuevo. Lo propuso Ausubel dentro de su teoría del aprendizaje significativo (Ausubel, 1968). En una presentación puede ser la primera diapositiva: un esquema o una analogía que conecta el tema con lo que el grupo conoce. La evidencia sobre su efecto es mixta y depende de la calidad del organizador, así que conviene probarlo con tu grupo.",
+      "uni": "Abre la clase con una diapositiva que compare el tema nuevo con algo que el grupo ya domina y pídele que complete el esquema.",
+      "refs": [
+        "ausubel68"
+      ]
+    },
+    "atencion_variable": {
+      "n": "Atención que fluctúa",
+      "e": "〰️",
+      "f": "apr",
+      "pista": "No se apaga con temporizador, pero sube y baja; conviene darle puntos de reinicio.",
+      "why": "Los estudios sobre atención en clase no muestran un corte fijo a los diez minutos: la atención varía según el momento, el tema y la actividad (Bradbury, 2016; Wilson & Korn, 2007). Al unir este hallazgo con la segmentación, la exposición se divide en porciones y se cambia de actividad entre ellas. Los resultados dependen de cómo se mide la atención, ya sea por autorreporte u observación.",
+      "uni": "Divide tu exposición de cincuenta minutos en tres bloques y cierra cada uno con una pregunta que el grupo responda con las manos o con el celular.",
+      "refs": [
+        "bradbury16",
+        "wilson07"
+      ]
+    },
+    "video_interactivo": {
+      "n": "Video interactivo",
+      "e": "📺",
+      "f": "tec",
+      "pista": "El video que se pausa, te interroga y solo sigue cuando respondes.",
+      "why": "Video que incorpora preguntas, notas o actividades en puntos concretos, de modo que quien lo ve responde mientras avanza. Intercalar pruebas breves durante una clase en línea reduce la divagación y mejora la retención (Szpunar et al., 2013), y las guías de diseño recomiendan acompañar el video con actividades para evitar la visualización pasiva (Brame, 2016). Diseñar buenas preguntas lleva tiempo.",
+      "uni": "Inserta una pregunta cada tres o cuatro minutos de un video y revisa cuáles fallan más para decidir qué repasar en clase.",
+      "refs": [
+        "szpunar13",
+        "brame16"
+      ]
+    },
+    "compromiso_video": {
+      "n": "Compromiso con el video",
+      "e": "👍",
+      "f": "apr",
+      "pista": "Cuánto del video se ve de verdad antes de que el estudiante abandone.",
+      "why": "Medida de cuánto tiempo y con qué continuidad el estudiante ve un video. El estudio de videos de cursos masivos halló que los más breves tenían mayor compromiso y que un estilo personal y conversacional retenía bien frente a producciones muy pulidas (Guo et al., 2014). Sirve para decidir duración y estilo de tus cápsulas. El tiempo de visualización indica interés, aunque no prueba comprensión.",
+      "uni": "Mira las estadísticas de tus videos: si la mayoría abandona a mitad, divide la próxima cápsula en dos.",
+      "refs": [
+        "guo14",
+        "brame16"
+      ]
+    },
+    "diapositiva_sin_ruido": {
+      "n": "Diapositiva sin ruido",
+      "e": "🔕",
+      "f": "sint",
+      "pista": "Una imagen que explica, poco texto y una marca que dice dónde mirar.",
+      "why": "Integra coherencia y señalización: primero se quita lo ajeno al objetivo y después se marca lo que importa. Ambas parten de que la memoria de trabajo tiene capacidad limitada (Sweller, 1988; Mayer & Moreno, 2003). Una diapositiva así apoya visualmente lo que el docente explica en voz alta.",
+      "principios": [
+        "Elimina música, imágenes decorativas y anécdotas sin relación con el objetivo, porque compiten por la memoria de trabajo (Mayer & Moreno, 2003).",
+        "Si el texto escrito repite lo que dices, deja uno solo: leer en voz alta lo que ya está en pantalla recarga el canal (Mayer, 2009).",
+        "Marca con color, flechas o negrita lo que responde a la pregunta de la diapositiva y deja el resto neutro (Schneider et al., 2018).",
+        "Prefiere una imagen que muestre la relación entre las partes sobre una que solo acompañe (Mayer, 2009).",
+        "Lo que ayuda a quien empieza puede estorbar a quien ya domina el tema, así que ajusta el apoyo al grupo (Kalyuga et al., 2003)."
+      ],
+      "prueba": "Elige una diapositiva de la próxima semana, déjala con una imagen y una frase, señala en color un solo dato y pregunta al final qué idea se llevaron.",
+      "refs": [
+        "mayer03",
+        "mayer09",
+        "schneider18",
+        "sweller88",
+        "kalyuga03"
+      ]
+    },
+    "exposicion_en_porciones": {
+      "n": "Exposición en porciones",
+      "e": "🍢",
+      "f": "sint",
+      "pista": "Una charla servida en raciones, cada una con su ancla y su pausa.",
+      "why": "Integra la atención que fluctúa con el organizador previo: la exposición se divide en bloques, cada uno abre con un puente hacia lo conocido y cierra con una pausa activa. La segmentación permite procesar una porción antes de recibir la siguiente (Mayer, 2009), y la atención no sigue un corte fijo (Bradbury, 2016).",
+      "principios": [
+        "Divide la exposición en bloques con un cierre claro y evita el flujo continuo sin pausas (Mayer, 2009).",
+        "Abre cada bloque con un enlace explícito a lo que el grupo ya sabe, mediante un esquema o una analogía (Ausubel, 1968).",
+        "Descarta el corte fijo de diez minutos: la atención fluctúa, y un cambio de actividad entre bloques ayuda a reiniciarla (Bradbury, 2016; Wilson & Korn, 2007).",
+        "Entre bloques propón una tarea breve de recuperación, como responder sin mirar las notas, para consolidar lo visto (Roediger & Karpicke, 2006)."
+      ],
+      "prueba": "Divide una exposición de 45 minutos en tres bloques de unos 12 minutos, abre cada uno con una diapositiva de conexión y cierra con una pregunta de dos minutos.",
+      "refs": [
+        "mayer09",
+        "bradbury16",
+        "ausubel68",
+        "wilson07",
+        "roediger06"
+      ]
+    },
+    "cap_diapositivas": {
+      "n": "Diapositivas que enseñan",
+      "e": "📙",
+      "f": "sint",
+      "pista": "La presentación cuyo recuerdo es la idea, con el adorno ya olvidado.",
+      "why": "Reúne la diapositiva sin ruido y la exposición en porciones: cada pantalla sostiene una idea con apoyo visual claro y la clase avanza en bloques con pausas. PowerPoint, Canva o Gamma aportan rapidez; el aprendizaje depende de las decisiones de diseño. La investigación en aprendizaje multimedia respalda reducir la carga extraña, señalar lo que importa y segmentar (Mayer, 2009).",
+      "principios": [
+        "Decide primero la idea y el resultado de aprendizaje; el programa viene después (Mayer, 2009).",
+        "Una idea por diapositiva, con la imagen que la explica, el texto mínimo y una señal de qué mirar (Mayer & Moreno, 2003).",
+        "Abre con una diapositiva que conecte con lo que el grupo ya sabe (Ausubel, 1968).",
+        "Reparte la exposición en bloques con una pausa activa entre uno y otro (Bradbury, 2016).",
+        "Si Gamma o Canva generan un borrador, edítalo con los mismos criterios: la herramienta no decide qué mostrar (Clark, 1983)."
+      ],
+      "prueba": "Rediseña la primera media hora de tu próxima clase con estos principios y compara, al final, cuántas ideas distintas escriben sin mirar las diapositivas.",
+      "refs": [
+        "mayer09",
+        "mayer03",
+        "clark83",
+        "ausubel68",
+        "bradbury16"
+      ]
+    },
+    "video_con_pausas": {
+      "n": "Video con pausas para pensar",
+      "e": "⏯️",
+      "f": "sint",
+      "pista": "Un video que se detiene para preguntar y que pide explicar el paso con tus palabras.",
+      "why": "Integra el video interactivo con la autoexplicación: las pausas comprueban si el estudiante siguió el contenido y además le piden explicar por qué se hizo cada paso. Las preguntas intercaladas reducen la divagación (Szpunar et al., 2013) y explicarse el ejemplo resuelto mejora la comprensión (Chi et al., 1994).",
+      "principios": [
+        "Interrumpe el video con preguntas breves cada pocos minutos para recuperar lo visto (Szpunar et al., 2013).",
+        "Cuando muestres un ejercicio resuelto, pide explicar con palabras propias por qué se dio cada paso (Chi et al., 1994).",
+        "Acompaña cada pregunta con retroalimentación inmediata y evita que el video se vea de forma pasiva (Brame, 2016).",
+        "Mantén cada tramo corto y centrado en una sola idea (Guo et al., 2014)."
+      ],
+      "prueba": "Toma un video de cuatro a seis minutos, detenlo dos veces para pedir una explicación de una línea y compara con un grupo que lo vea sin pausas.",
+      "refs": [
+        "szpunar13",
+        "chi94",
+        "brame16",
+        "guo14"
+      ]
+    },
+    "casa_y_aula": {
+      "n": "Video en casa, práctica en clase",
+      "e": "🏡",
+      "f": "sint",
+      "pista": "El estudiante llega con la explicación vista y el aula se vuelve taller.",
+      "why": "Integra el compromiso con el video y el aula invertida: la cápsula hace de primera exposición y el tiempo presencial se usa para aplicar con apoyo. La cápsula funciona si es breve y personal (Guo et al., 2014), y la sesión debe diseñarse para practicar y resolver dudas (Lage et al., 2000).",
+      "principios": [
+        "Mantén las cápsulas breves y con un estilo cercano, para que se vean completas (Guo et al., 2014).",
+        "Dedica la sesión presencial a actividades de aplicación y evita repetir la exposición (Lage et al., 2000).",
+        "Revisa antes de la clase quién vio el video y qué preguntas fallaron, para ajustar la sesión (Brame, 2016).",
+        "En una síntesis de estudios, el efecto de invertir la clase es positivo y pequeño en promedio, y varía entre estudios (van Alten et al., 2019)."
+      ],
+      "prueba": "Pide un video de seis minutos como tarea previa, revisa quién lo vio y dedica los primeros diez minutos de clase a los ejercicios que más fallaron.",
+      "refs": [
+        "guo14",
+        "lage00",
+        "vanalten19",
+        "brame16"
+      ]
+    },
+    "cap_invertida_video": {
+      "n": "Aula invertida con video",
+      "e": "🙃",
+      "f": "sint",
+      "pista": "La exposición se ve en casa, pausada y rebobinada; la clase se gasta en hacer.",
+      "why": "Reúne el video con pausas y el video en casa con práctica en clase: cápsulas breves que preguntan y hacen explicar preparan la sesión, y la sesión presencial se dedica a aplicar. La herramienta ayuda a producir, publicar y seguir el video, y el aprendizaje depende del diseño de la actividad. La evidencia agregada es positiva y modesta (van Alten et al., 2019).",
+      "principios": [
+        "Divide la exposición en cápsulas breves, cada una con una sola idea (Guo et al., 2014).",
+        "Incrusta preguntas y pide explicar los pasos para que ver el video implique pensar (Szpunar et al., 2013; Chi et al., 1994).",
+        "Usa el registro de quién vio el video y qué falló para decidir qué hacer en la sesión (Brame, 2016).",
+        "Diseña la sesión presencial como práctica con apoyo y evita repetir el video (Lage et al., 2000).",
+        "Las ganancias varían entre estudios, por lo que conviene medirlas en tu propio curso (van Alten et al., 2019)."
+      ],
+      "prueba": "Convierte un tema en dos cápsulas con tres preguntas incrustadas cada una y llena la sesión siguiente con ejercicios resueltos por parejas.",
+      "refs": [
+        "bergmann12",
+        "lage00",
+        "vanalten19",
+        "guo14",
+        "szpunar13",
+        "chi94",
+        "brame16"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "contenido",
+      "b": "herramienta",
+      "r": "diapositivas",
+      "nota": "Un contenido más una herramienta que lo muestre por partes: así nace la lámina que se proyecta de a una."
+    },
+    {
+      "a": "diapositivas",
+      "b": "computador",
+      "r": "powerpoint",
+      "nota": "El computador permite armar, ordenar y proyectar diapositivas con texto, imagen y animación; el programa más conocido para eso es PowerPoint."
+    },
+    {
+      "a": "powerpoint",
+      "b": "ia",
+      "r": "gamma",
+      "nota": "Si a una presentación se le suma IA generativa, de una indicación escrita sale un borrador de diapositivas que luego editas tú."
+    },
+    {
+      "a": "multimedia",
+      "b": "herramienta",
+      "r": "canva",
+      "nota": "Una herramienta pensada para combinar palabra e imagen, con plantillas listas, es lo que ofrece Canva para crear piezas visuales."
+    },
+    {
+      "a": "gamma",
+      "b": "carga_cognitiva",
+      "r": "coherencia",
+      "nota": "Un borrador de IA puede traer más texto e imágenes de los que la memoria de trabajo soporta; podar lo ajeno al objetivo es aplicar coherencia."
+    },
+    {
+      "a": "canva",
+      "b": "multimedia",
+      "r": "senalizacion",
+      "nota": "El diseño visual permite guiar la mirada con color, tamaño y flechas; el aprendizaje multimedia lo usa para marcar qué importa."
+    },
+    {
+      "a": "significativo",
+      "b": "powerpoint",
+      "r": "organizador_previo",
+      "nota": "Para que lo nuevo se enganche a lo que ya saben, una primera diapositiva con analogía o esquema sirve de puente: un organizador previo."
+    },
+    {
+      "a": "segmentacion",
+      "b": "atencion10",
+      "r": "atencion_variable",
+      "nota": "Descartado el corte fijo de diez minutos, queda una atención que sube y baja, y la segmentación le da puntos de reinicio."
+    },
+    {
+      "a": "coherencia",
+      "b": "senalizacion",
+      "r": "diapositiva_sin_ruido",
+      "nota": "Quitar lo ajeno y marcar lo que importa son dos decisiones de diseño que dejan en pantalla solo lo que apoya la explicación."
+    },
+    {
+      "a": "atencion_variable",
+      "b": "organizador_previo",
+      "r": "exposicion_en_porciones",
+      "nota": "Cada bloque abre con un puente hacia lo conocido y cierra con una pausa, porque la atención fluctúa y la memoria procesa de a porciones."
+    },
+    {
+      "a": "diapositiva_sin_ruido",
+      "b": "exposicion_en_porciones",
+      "r": "cap_diapositivas",
+      "nota": "Diapositivas limpias y una exposición en bloques con pausas: la presentación apoya la explicación y deja espacio para pensar."
+    },
+    {
+      "a": "video",
+      "b": "internet",
+      "r": "youtube",
+      "nota": "Una clase grabada que viaja por internet para verse cuando se quiera es lo que ofrece YouTube, con opción de compartirla y comentarla."
+    },
+    {
+      "a": "youtube",
+      "b": "recuperacion",
+      "r": "edpuzzle",
+      "nota": "Un video que se detiene para pedir recordar lo recién visto aplica la práctica de recuperación; Edpuzzle inserta esas preguntas y muestra las respuestas."
+    },
+    {
+      "a": "rea",
+      "b": "capsula",
+      "r": "h5p",
+      "nota": "Una cápsula con licencia abierta, que puedes adaptar y llenar de actividades: H5P es código abierto para crear contenido interactivo reutilizable."
+    },
+    {
+      "a": "edpuzzle",
+      "b": "h5p",
+      "r": "video_interactivo",
+      "nota": "Dos herramientas con una misma idea: el video se pausa y pide responder, con Edpuzzle o con H5P, para evitar la visualización pasiva."
+    },
+    {
+      "a": "video",
+      "b": "herramienta",
+      "r": "screencastify",
+      "nota": "Una herramienta que graba la pantalla con tu voz convierte cualquier explicación en una clase grabada que puede repetirse."
+    },
+    {
+      "a": "video_interactivo",
+      "b": "autoexplicacion",
+      "r": "video_con_pausas",
+      "nota": "Las preguntas intercaladas sostienen la atención, y pedir que expliquen cada paso del ejercicio resuelto profundiza la comprensión."
+    },
+    {
+      "a": "screencastify",
+      "b": "mooc",
+      "r": "compromiso_video",
+      "nota": "Los cursos masivos aportaron datos sobre cuánto se ve un video; una grabación de pantalla breve y cercana permite probar esas pautas."
+    },
+    {
+      "a": "compromiso_video",
+      "b": "invertida",
+      "r": "casa_y_aula",
+      "nota": "Una cápsula que se ve completa permite invertir la clase: la exposición ocurre en casa y la práctica con apoyo, en el aula."
+    },
+    {
+      "a": "video_con_pausas",
+      "b": "casa_y_aula",
+      "r": "cap_invertida_video",
+      "nota": "Cápsulas que preguntan y hacen explicar preparan a quien llega; la sesión presencial queda libre para practicar con ayuda."
+    },
+    {
+      "a": "youtube",
+      "b": "dua",
+      "r": "accesibilidad",
+      "nota": "Subtitular y transcribir los videos abre el contenido a más personas, en línea con el DUA, que pide varias formas de representar la información."
+    },
+    {
+      "a": "gamma",
+      "b": "competencia",
+      "r": "competencia_digital_docente",
+      "nota": "Usar IA para esbozar materiales exige saber revisar y corregir lo que produce: parte de la competencia digital de quien enseña."
+    },
+    {
+      "a": "edpuzzle",
+      "b": "analitica",
+      "r": "alerta_temprana",
+      "nota": "Saber quién vio el video y qué respondió antes de la clase es un dato temprano que permite apoyar a quien se está quedando atrás."
+    },
+    {
+      "a": "edpuzzle",
+      "b": "formativa",
+      "r": "retro",
+      "nota": "Las respuestas a preguntas dentro del video permiten devolver al estudiante información inmediata sobre lo que entendió."
+    },
+    {
+      "a": "h5p",
+      "b": "recuperacion",
+      "r": "autoevaluacion",
+      "nota": "Una actividad interactiva con respuesta inmediata permite que el estudiante compruebe por sí mismo qué recuerda y qué no."
+    },
+    {
+      "a": "screencastify",
+      "b": "retro",
+      "r": "comentarios",
+      "nota": "Grabar la pantalla mientras comentas un trabajo, con tu voz, entrega observaciones detalladas sin necesidad de asignar una nota."
+    },
+    {
+      "a": "screencastify",
+      "b": "modelado",
+      "r": "ejemplos_resueltos",
+      "nota": "Resolver un problema en voz alta con la pantalla grabada deja un ejemplo resuelto que el estudiante puede detener y repetir."
+    },
+    {
+      "a": "powerpoint",
+      "b": "peer",
+      "r": "clase_interactiva",
+      "nota": "Una pregunta conceptual proyectada en la diapositiva, voto individual y discusión por parejas convierten la exposición en una clase interactiva."
+    },
+    {
+      "a": "canva",
+      "b": "autentica",
+      "r": "portafolio",
+      "nota": "Pedir piezas visuales reales, como infografías o afiches, y reunirlas con reflexiones forma un portafolio que muestra el progreso del estudiante."
+    },
+    {
+      "a": "youtube",
+      "b": "curiosidad",
+      "r": "interes_situacional",
+      "nota": "Un video corto y sorprendente al abrir el tema despierta curiosidad y un interés de momento que luego conviene sostener con la tarea."
+    },
+    {
+      "a": "video_interactivo",
+      "b": "metacognicion",
+      "r": "autorregulado",
+      "nota": "Las preguntas dentro del video invitan a monitorear lo que se entendió, y ese hábito sostiene el aprendizaje autorregulado."
+    },
+    {
+      "a": "senalizacion",
+      "b": "dua",
+      "r": "accesibilidad",
+      "nota": "Señalar solo con color deja fuera a quien no distingue colores; el DUA recomienda reforzar con formas, etiquetas y texto."
+    },
+    {
+      "a": "organizador_previo",
+      "b": "diagnostica",
+      "r": "andamiaje",
+      "nota": "Con un diagnóstico de lo que el grupo ya sabe eliges el organizador adecuado, un apoyo temporal que luego puedes retirar."
+    },
+    {
+      "a": "atencion_variable",
+      "b": "tps",
+      "r": "activo",
+      "nota": "Una pausa con piensa, discute y comparte entre bloques cambia la actividad y devuelve al estudiante a un papel activo."
+    }
+  ],
+  "refs": {
+    "brame16": "Brame, C. J. (2016). Effective educational videos: Principles and guidelines for maximizing student learning from video content. _CBE-Life Sciences Education, 15_(4), es6. https://doi.org/10.1187/cbe.16-03-0125",
+    "szpunar13": "Szpunar, K. K., Khan, N. Y., & Schacter, D. L. (2013). Interpolated memory tests reduce mind wandering and improve learning of online lectures. _Proceedings of the National Academy of Sciences, 110_(16), 6313–6317. https://doi.org/10.1073/pnas.1221764110",
+    "vanalten19": "van Alten, D. C. D., Phielix, C., Janssen, J., & Kester, L. (2019). Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis. _Educational Research Review, 28_, 100281. https://doi.org/10.1016/j.edurev.2019.05.003",
+    "schneider18": "Schneider, S., Beege, M., Nebel, S., & Rey, G. D. (2018). A meta-analysis of how signaling affects learning with media. _Educational Research Review, 23_, 1–24. https://doi.org/10.1016/j.edurev.2017.11.001"
+  },
+  "misiones": [
+    {
+      "id": "diapositivas_ensenan",
+      "n": "Diapositivas que enseñan",
+      "e": "📙",
+      "meta": "cap_diapositivas",
+      "hitos": [
+        "powerpoint",
+        "coherencia",
+        "atencion_variable"
+      ],
+      "encargo": "Valentina Ferrero dicta Fisiología en una universidad pública de Rosario y proyecta setenta diapositivas por clase, casi todas con párrafos completos sobre un diagrama de fondo. En el parcial, el grupo confunde lo que ella dijo con lo que estaba escrito, y varias personas admiten que copian lo proyectado porque no alcanzan a escucharla. Te pide ayuda para rediseñar la presentación del sistema cardiovascular antes del lunes. Tiene PowerPoint, una cuenta de Canva de la facultad y curiosidad por Gamma, pero no sabe qué conservar, qué quitar ni cómo repartir sus noventa minutos de exposición.",
+      "objetivo": "Llega a 📙 Diapositivas que enseñan para diseñar una presentación que ordene la atención del grupo y le deje espacio para pensar.",
+      "cierre": "Valentina rehízo el tema cardiovascular en veintidós diapositivas, cada una con una imagen, pocas palabras y una flecha que marca dónde mirar. Abrió con una diapositiva que compara el corazón con una bomba y unas tuberías que el grupo ya conoce, repartió los noventa minutos en tres bloques con una pregunta entre uno y otro, y usó Gamma solo como borrador. Con el próximo parcial verá si el grupo explica el ciclo cardíaco con sus propias palabras."
+    },
+    {
+      "id": "aula_invertida_video",
+      "n": "Aula invertida con video",
+      "e": "🙃",
+      "meta": "cap_invertida_video",
+      "hitos": [
+        "edpuzzle",
+        "video_interactivo",
+        "invertida"
+      ],
+      "encargo": "En una universidad pública de Mérida, Martín Cetina enseña Estadística a ciento diez estudiantes de Economía en una sala donde la mitad llega sin haber leído y la otra mitad copia fórmulas sin parar. Quiere que la exposición de probabilidad se vea en casa y que la clase se use para resolver ejercicios. Grabó una clase completa de ochenta minutos con el teléfono y solo treinta personas la terminaron. Cuenta con YouTube, Screencastify, Edpuzzle y H5P en la plataforma de la facultad, y no sabe cómo cortar el video, cómo hacerlo preguntar ni cómo comprobar quién lo vio.",
+      "objetivo": "Llega a 🙃 Aula invertida con video para que el video prepare en casa y la clase presencial se use para practicar.",
+      "cierre": "Martín dividió la exposición en seis cápsulas de menos de ocho minutos, cada una con una pausa que pide explicar el paso con palabras propias. Con Edpuzzle ve quién respondió antes de entrar al aula, y la sesión presencial se dedica a resolver problemas por parejas mientras él recorre las mesas. Las cápsulas quedan en YouTube como material de repaso para antes del examen."
+    }
+  ]
+}

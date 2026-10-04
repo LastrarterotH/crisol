@@ -1,0 +1,479 @@
+{
+  "fichas": {
+    "moodle": {
+      "n": "Moodle",
+      "e": "🟠",
+      "f": "her",
+      "pista": "Plataforma abierta que cualquier universidad puede instalar en su propio servidor y ajustar a su gusto.",
+      "why": "Moodle es un sistema de gestión del aprendizaje (LMS) de código abierto, con tareas, foros, cuestionarios y registro de avance. Hace viable un curso de alta estructura, porque los cuestionarios previos y la práctica semanal con nota se corrigen y registran solos. La revisión de Tamim y colaboradores halló un efecto de la tecnología pequeño a moderado, que depende de cómo se enseña. Exige servidor y soporte propios, y a cambio no tiene licencia.",
+      "uni": "En Anatomía, abre un cuestionario de lectura de diez preguntas cada lunes, con dos intentos y retroalimentación automática, antes de la clase del miércoles.",
+      "refs": [
+        "tamim11",
+        "dougiamas03",
+        "moodle26"
+      ]
+    },
+    "canvas": {
+      "n": "Canvas",
+      "e": "📕",
+      "f": "her",
+      "pista": "Plataforma comercial que ordena el curso en módulos y pone el programa en una página propia.",
+      "why": "Canvas es un LMS comercial de la empresa Instructure, organizado en módulos que ordenan el curso por semanas o unidades. Incluye una página de programa y un revisor de accesibilidad en su editor de contenido. Un informe de EDUCAUSE sobre estos sistemas encontró que docentes y estudiantes usan sobre todo sus funciones básicas, como publicar materiales y notas, y menos las interactivas. La institución paga la licencia, y Moodle es una alternativa libre.",
+      "uni": "En Historia del Arte, arma un módulo por unidad con lecturas, imágenes con texto alternativo y una tarea, y deja el programa como página de inicio.",
+      "refs": [
+        "dahlstrom14",
+        "w3c23",
+        "canvas26"
+      ]
+    },
+    "classroom": {
+      "n": "Google Classroom",
+      "e": "👩‍🏫",
+      "f": "her",
+      "pista": "Plataforma sencilla de un buscador famoso, con avisos, tareas y comentarios privados ligados a los documentos del curso.",
+      "why": "Google Classroom es una plataforma ligera de gestión de cursos, integrada con Drive, Docs y Meet, que reparte tareas, publica avisos y permite comentar en privado cada entrega. Su sencillez baja la barrera de entrada, pero puede dejar la tarea igual que en papel, lo que en SAMR es sustitución. Hamilton y colaboradores recuerdan que SAMR tiene poca validación empírica y sirve como pregunta, no como meta. Pide una cuenta Google y revisar la privacidad con tu institución.",
+      "uni": "En Estadística, publica la guía del laboratorio como tarea con una hoja de cálculo por pareja y deja tus comentarios privados antes de la clase.",
+      "refs": [
+        "hamilton16",
+        "dahlstrom14",
+        "classroom26"
+      ]
+    },
+    "mensajeria": {
+      "n": "Mensajería instantánea",
+      "e": "📳",
+      "f": "tec",
+      "pista": "Frases cortas que viajan del bolsillo de uno al de otro y esperan respuesta casi enseguida.",
+      "why": "La mensajería instantánea envía textos breves entre dispositivos y se espera que se lean pronto. Con el celular conectado, cualquier mensaje llega a cualquier hora. So (2016) describe su valor para la comunicación y la colaboración en educación superior, y Bouhnik y Deshen (2014) documentan en colegios tanto la rapidez como la invasión del tiempo personal de los docentes.",
+      "uni": "Antes de abrir un grupo de mensajes con tu curso, escribe qué se pregunta ahí, a qué horas respondes y qué se deja para el correo.",
+      "refs": [
+        "so16",
+        "bouhnik14"
+      ]
+    },
+    "gmail": {
+      "n": "Gmail",
+      "e": "📧",
+      "f": "her",
+      "pista": "Buzón de un buscador famoso, con etiquetas, filtros y búsqueda, que muchos estudiantes ya usan.",
+      "why": "Gmail es el servicio de correo electrónico de Google, con etiquetas, filtros, búsqueda y envío programado. En un curso funciona como la puerta abierta fuera del horario de consulta. Smith y colaboradores muestran que muchos estudiantes sienten raras las horas de consulta, y un correo puede ser la primera entrada. Collier y Morgan (2008) muestran que estudiantes de primera generación entienden distinto lo que el docente espera, de modo que conviene escribirlo.",
+      "uni": "Programa para el domingo un correo a todo el curso con las tres tareas de la semana, para que nadie dependa de adivinar qué se espera.",
+      "refs": [
+        "smith17",
+        "collier08",
+        "gmail26"
+      ]
+    },
+    "outlook": {
+      "n": "Outlook",
+      "e": "📪",
+      "f": "her",
+      "pista": "Correo y agenda de una empresa de software de oficina, habitual en las cuentas institucionales de universidad.",
+      "why": "Outlook es el cliente de correo y calendario de Microsoft, habitual en universidades que usan Microsoft 365 como cuenta institucional. Sirve para agendar reuniones, mandar invitaciones y programar recordatorios de seguimiento. Acompañar a quien empieza a faltar exige tiempo reservado y memoria de a quién escribir, y eso es lo que ordenan el correo y el calendario juntos. Crisp y Cruz (2009) revisaron la mentoría universitaria y la asocian con mejores resultados, con evidencia de calidad desigual. Un recordatorio no reemplaza la conversación.",
+      "uni": "Pon en tu calendario un recordatorio cada viernes para escribir a quienes más faltaron, y bloquea dos tardes al mes para citas de mentoría.",
+      "refs": [
+        "crisp09",
+        "tinto93",
+        "outlook26"
+      ]
+    },
+    "whatsapp": {
+      "n": "WhatsApp",
+      "e": "📞",
+      "f": "her",
+      "pista": "Chat de bolsillo, lleno de grupos y audios, que muchos estudiantes miran antes que el correo.",
+      "why": "WhatsApp es una aplicación de mensajería para celulares, con chats grupales, notas de voz y archivos. El grupo del curso termina siendo parte del clima de aula, para dar cercanía o para presionar. Bouhnik y Deshen (2014) describen en colegios una comunicación más rápida y también la invasión del tiempo de los docentes. Pertenece a Meta y muestra el número de teléfono de cada miembro; Telegram o Signal son alternativas.",
+      "uni": "Crea un grupo donde solo tú puedes escribir, para avisos del curso, y deja las dudas de contenido para el foro de la plataforma.",
+      "refs": [
+        "bouhnik14",
+        "so16",
+        "whatsapp26"
+      ]
+    },
+    "curso_estructurado": {
+      "n": "Curso estructurado y accesible",
+      "e": "🔳",
+      "f": "sint",
+      "pista": "Cada semana repite la misma secuencia y cualquiera puede leer sus materiales, con lector de pantalla o con datos limitados.",
+      "why": "Une la estructura de Moodle con el programa y la accesibilidad de Canvas. Un curso con cuestionarios previos y práctica semanal reduce brechas de rendimiento, y un programa claro dice qué se espera. Si el material no es accesible, esa estructura deja fuera justo a quienes más la necesitan, así que ambas decisiones se toman juntas.",
+      "principios": [
+        "Da a cada semana la misma forma, con una lectura, un cuestionario corto antes de la clase y una práctica con nota, para que nadie dependa de adivinar qué hacer (Eddy y Hogan, 2014).",
+        "Abre la estructura a todo el curso, porque en Biología introductoria redujo la brecha entre estudiantes de menor y mayor preparación (Haak et al., 2011).",
+        "Escribe el programa como una carta a quien cursará la asignatura, con resultados, calendario y apoyos, y ponlo donde se vea al entrar (Palmer et al., 2014).",
+        "Revisa que cada documento tenga encabezados reales y texto alternativo en las imágenes, siguiendo las pautas WCAG (W3C, 2023).",
+        "Sube los videos con subtítulos, que ayudan a todo el curso y no solo a quien no oye (Gernsbacher, 2015)."
+      ],
+      "prueba": "Elige un curso y responde en media hora: ¿el programa se ve en la primera pantalla?, ¿cada semana tiene la misma secuencia?, ¿el último PDF se puede leer con un lector de pantalla? Corrige una cosa de cada pregunta esta semana.",
+      "refs": [
+        "eddy14",
+        "haak11",
+        "palmer14",
+        "w3c23",
+        "gernsbacher15",
+        "w3c23"
+      ]
+    },
+    "digitalizar_con_criterio": {
+      "n": "Digitalizar con criterio",
+      "e": "🔑",
+      "f": "sint",
+      "pista": "Antes de subir algo a internet, preguntas qué cambia en la tarea y no solo en el soporte.",
+      "why": "Une Google Classroom con la redefinición de Puentedura: la plataforma puede dejar la tarea tal cual o abrir una tarea distinta. SAMR pregunta qué cambia en la actividad, y TPACK pregunta si la herramienta sirve a tu contenido y a tu didáctica. Hamilton y colaboradores advierten que SAMR no está validado como escala de calidad, así que úsalo como pregunta y no como meta.",
+      "principios": [
+        "Ante cada actividad pregúntate si la herramienta cambia la tarea (aumento, modificación) o solo el soporte (sustitución), y acepta que a veces sustituir basta (Puentedura, 2006).",
+        "No tomes SAMR como escalera de calidad: subir de nivel no garantiza más aprendizaje, y el modelo tiene poca validación empírica (Hamilton et al., 2016).",
+        "Antes de digitalizar, revisa si la herramienta representa bien tu contenido y sostiene tu forma de enseñar, que es la intersección que describe TPACK (Mishra y Koehler, 2006).",
+        "Cuenta con que la tecnología aporta efectos pequeños a moderados, y que dependen de cómo se enseña con ella (Tamim et al., 2011).",
+        "Mide tu propia competencia digital con un marco como DigCompEdu antes de sumar herramientas nuevas (Redecker, 2017)."
+      ],
+      "prueba": "Toma una actividad que ya subiste a la plataforma y clasifícala en SAMR. Si es sustitución, escribe un cambio funcional o un rediseño y pruébalo en una sola semana.",
+      "refs": [
+        "puentedura06",
+        "hamilton16",
+        "mishra06",
+        "tamim11",
+        "redecker17"
+      ]
+    },
+    "cap_plataforma": {
+      "n": "Curso que se encuentra en la plataforma",
+      "e": "🏮",
+      "f": "sint",
+      "pista": "Quien entra sabe en diez segundos qué toca esta semana, dónde está y a quién pedir ayuda.",
+      "why": "Reúne el curso estructurado y accesible con la decisión de qué digitalizar. La plataforma sirve cuando el programa se ve al entrar, cada semana sigue el mismo patrón, el material llega a quien usa lector de pantalla o conexión lenta, y cada herramienta se elige porque cambia la tarea. La estructura reduce desigualdades de rendimiento y la accesibilidad amplía quién puede usar el material.",
+      "principios": [
+        "Haz que el programa sea lo primero que se ve al entrar, con resultados de aprendizaje, calendario y apoyos disponibles (O'Brien et al., 2008).",
+        "Repite la misma secuencia semanal para que la estructura se vuelva hábito y quede tiempo para pensar (Eddy y Hogan, 2014).",
+        "Publica materiales que funcionen con poca conexión y en el celular, porque la brecha digital incluye las habilidades en línea y no solo el acceso (Hargittai, 2002).",
+        "Elige la herramienta después de definir la tarea, preguntando qué cambia con ella en la actividad y en tu forma de enseñar (Puentedura, 2006; Mishra y Koehler, 2006).",
+        "Abre un espacio de diálogo dentro de la plataforma, como un foro de dudas, para acortar la distancia que la estructura sola no cierra (Moore, 1993)."
+      ],
+      "prueba": "Pídele a alguien ajeno a tu curso que entre a la plataforma y responda en dos minutos: ¿qué debo hacer esta semana?, ¿cuándo entrego?, ¿a quién le pregunto? Corrige lo que no encontró.",
+      "refs": [
+        "obrien08",
+        "eddy14",
+        "hargittai02",
+        "puentedura06",
+        "mishra06",
+        "moore93"
+      ]
+    },
+    "canales_con_limites": {
+      "n": "Canales con límites",
+      "e": "🚦",
+      "f": "sint",
+      "pista": "Cada medio tiene su propósito, su horario de respuesta y su dueño, para no contestar a medianoche.",
+      "why": "Une el correo personal con el institucional. Un canal con horario y plazo de respuesta conocidos protege al docente de estar disponible siempre y le da al estudiante la certeza de que será atendido. Las reglas implícitas perjudican más a quienes no las conocen, como muestran Collier y Morgan con estudiantes de primera generación, de modo que escribirlas también reduce desigualdades.",
+      "principios": [
+        "Usa tu cuenta institucional con estudiantes y deja la personal fuera, para que el canal pertenezca al curso y no a tu vida privada (Redecker, 2017).",
+        "Escribe en el programa cuándo respondes, por ejemplo en dos días hábiles, y cumple ese plazo, porque las expectativas implícitas pesan más sobre quienes no conocen las reglas (Collier y Morgan, 2008).",
+        "Invita de forma explícita a las horas de consulta y di para qué sirven, ya que muchos estudiantes las creen para quien va mal (Smith et al., 2017).",
+        "Enseña cómo escribirte, con asunto, saludo y una pregunta concreta, y repite ese formato en tus respuestas, porque se aprende por modelado (Bandura, 1977)."
+      ],
+      "prueba": "Escribe tres líneas con tu regla de contacto (canal, plazo de respuesta y qué va a horas de consulta), ponlas en el programa y en el primer mensaje del curso, y cuenta cuántos mensajes urgentes recibes en dos semanas.",
+      "refs": [
+        "redecker17",
+        "collier08",
+        "smith17",
+        "bandura77"
+      ]
+    },
+    "mensaje_pertenencia": {
+      "n": "Mensaje que hace sentir parte",
+      "e": "🤗",
+      "f": "sint",
+      "pista": "Un texto breve, enviado la primera semana, cuenta que a quienes llegaron antes también les costó empezar.",
+      "why": "Une el grupo de mensajes del curso con la intervención de pertenencia. Un mensaje de bienvenida con historias de estudiantes de cursos superiores es breve y se envía desde el celular. Walton y Cohen (2011) lograron mejoras académicas con una intervención breve de pertenencia, y Yeager y Walton (2011) advierten que sin un contexto que la sostenga no funciona como truco aislado.",
+      "principios": [
+        "Envía el mensaje de bienvenida la primera semana, con historias reales de estudiantes de cursos superiores que dudaron al principio y se quedaron (Walton y Cohen, 2011).",
+        "Acompáñalo con retroalimentación a tiempo y un trato coherente en clase, porque aislado pierde efecto (Yeager y Walton, 2011).",
+        "Escribe a quien se ausenta más de una vez con una frase personal y una oferta concreta, ya que la integración social y académica pesa en la permanencia (Tinto, 1993).",
+        "Cuida el tono: usa el nombre, evita el reproche y propone un paso pequeño (Reeve y Jang, 2006)."
+      ],
+      "prueba": "Escribe un mensaje de bienvenida de cuatro líneas con la historia breve de un estudiante de cursos superiores (con su permiso) y envíalo la primera semana. Al mes pregunta a cinco estudiantes cómo lo recibieron.",
+      "refs": [
+        "walton11",
+        "yeager11",
+        "tinto93",
+        "reeve06"
+      ]
+    },
+    "cap_mensajes": {
+      "n": "Mensajes que acompañan",
+      "e": "🫂",
+      "f": "sint",
+      "pista": "Te escriben cuando faltas, te responden en un plazo conocido y nadie contesta a medianoche.",
+      "why": "Reúne canales con límites y mensajes de pertenencia. Acompañar por correo o mensajería rinde cuando cada canal tiene su propósito, el plazo de respuesta está publicado y un primer mensaje invita a volver. Así el docente alerta pronto sobre quien se aleja sin quedar disponible a toda hora. La evidencia sobre qué mensaje retiene a un estudiante es limitada, y por eso conviene sumarlos a la mentoría y a las horas de consulta.",
+      "principios": [
+        "Asigna un propósito a cada canal: el correo para lo formal, la mensajería para avisos breves y las horas de consulta para conversar (Redecker, 2017).",
+        "Publica tus plazos de respuesta y respétalos tú primero (Collier y Morgan, 2008).",
+        "Detecta en las primeras semanas a quien se ausenta y escríbele por su nombre, sin reproche y con una invitación concreta (Tinto, 1993).",
+        "Ofrece mentoría con citas agendadas a quienes más la necesitan, pues se asocia con mejores resultados aunque la calidad de la evidencia es desigual (Crisp y Cruz, 2009).",
+        "Manda el mensaje de pertenencia al inicio del curso y no esperes a la crisis (Walton y Cohen, 2011)."
+      ],
+      "prueba": "Esta semana revisa quiénes faltaron a dos clases seguidas, escríbeles un mensaje de tres líneas y anota quién respondió y en cuánto tiempo. Cuenta también cuántos mensajes recibes fuera de tu horario.",
+      "refs": [
+        "redecker17",
+        "collier08",
+        "tinto93",
+        "crisp09",
+        "walton11"
+      ]
+    },
+    "correo": {
+      "n": "Correo electrónico",
+      "e": "📫",
+      "f": "tec",
+      "pista": "Cartas que viajan por la red y esperan, sin apuro, a que alguien las abra y responda.",
+      "why": "El correo electrónico es una de las primeras aplicaciones de internet y sigue siendo la vía formal entre docentes y estudiantes. En SAMR es el ejemplo clásico de sustitución: la circular en papel pasa a la pantalla y la tarea de comunicar queda igual. Deja registro y no exige respuesta inmediata, pero sin reglas de plazo se vuelve una obligación permanente. Leiner y colaboradores cuentan su lugar en la historia de internet.",
+      "uni": "Responde los correos de estudiantes en dos bloques fijos al día y avísalo en el programa, en lugar de revisar cada vez que llega uno.",
+      "refs": [
+        "leiner09",
+        "puentedura06"
+      ]
+    },
+    "asesoria_proactiva": {
+      "n": "Asesoría proactiva",
+      "e": "🤙",
+      "f": "met",
+      "pista": "No esperas a que pida ayuda: le escribes tú en cuanto empieza a faltar.",
+      "why": "Forma de acompañamiento en la que el docente o tutor busca al estudiante ante las primeras señales de riesgo, como ausencias o entregas perdidas, en vez de esperar a que pida ayuda. También se la llama asesoría intrusiva, y Earl (1988) la describió para estudiantes de primer año en dificultades académicas. Rinde más con un contacto personal y una oferta concreta que con un aviso genérico.",
+      "uni": "En la cuarta semana revisa la asistencia y escribe un mensaje breve y personal a quienes faltaron dos veces, con un horario concreto para conversar.",
+      "refs": [
+        "earl88"
+      ]
+    }
+  },
+  "recetas": [
+    {
+      "a": "syllabus",
+      "b": "accesibilidad",
+      "r": "canvas",
+      "nota": "Canvas pone el programa en una página propia y revisa la accesibilidad de lo que subes: programa claro que todos pueden leer."
+    },
+    {
+      "a": "alta_estructura",
+      "b": "tpk",
+      "r": "moodle",
+      "nota": "Moodle automatiza lo que pide un curso de alta estructura: cuestionarios previos, práctica semanal y registro de avance. Saber cómo cambia tu enseñanza evita usarlo como carpeta."
+    },
+    {
+      "a": "competencia_digital_docente",
+      "b": "tpack",
+      "r": "classroom",
+      "nota": "Classroom es sencilla, y rinde cuando el docente suma competencia digital y el criterio TPACK sobre su contenido y su didáctica."
+    },
+    {
+      "a": "canvas",
+      "b": "moodle",
+      "r": "curso_estructurado",
+      "nota": "Con Canvas o con Moodle importa menos la marca que el diseño: programa visible, semanas con la misma forma y material accesible."
+    },
+    {
+      "a": "classroom",
+      "b": "redefinicion",
+      "r": "digitalizar_con_criterio",
+      "nota": "Classroom puede dejar la tarea igual que en papel o permitir una nueva. Redefinición pregunta qué se vuelve posible que antes no lo era."
+    },
+    {
+      "a": "curso_estructurado",
+      "b": "digitalizar_con_criterio",
+      "r": "cap_plataforma",
+      "nota": "Un curso con estructura y accesibilidad, más la decisión de qué digitalizar y por qué, es el que el estudiante encuentra y entiende al entrar."
+    },
+    {
+      "a": "internet",
+      "b": "sustitucion",
+      "r": "correo",
+      "nota": "Pasar la carta o la circular de papel a internet es sustitución pura: cambia el soporte y la tarea de comunicar sigue igual."
+    },
+    {
+      "a": "internet",
+      "b": "movil",
+      "r": "mensajeria",
+      "nota": "El celular siempre conectado produce mensajes breves que llegan a cualquier hora y esperan respuesta pronta."
+    },
+    {
+      "a": "clima_aula",
+      "b": "mensajeria",
+      "r": "whatsapp",
+      "nota": "Un grupo de WhatsApp forma parte del clima del curso: da cercanía o presión, según las reglas de uso que acuerde el docente."
+    },
+    {
+      "a": "correo",
+      "b": "horas_consulta",
+      "r": "gmail",
+      "nota": "Gmail es hoy la forma más usada de correo, y extiende las horas de consulta fuera de la clase. Conviene decir cuándo se contesta."
+    },
+    {
+      "a": "abandono",
+      "b": "mentoria",
+      "r": "asesoria_proactiva",
+      "nota": "Cuando un estudiante empieza a faltar, la mentoría deja de esperar: quien enseña lo busca antes de que pida ayuda."
+    },
+    {
+      "a": "asesoria_proactiva",
+      "b": "correo",
+      "r": "outlook",
+      "nota": "Escribir a tiempo y agendar la conversación pide correo y calendario juntos, que es lo que reúne Outlook."
+    },
+    {
+      "a": "gmail",
+      "b": "outlook",
+      "r": "canales_con_limites",
+      "nota": "Separar el correo personal del institucional, con plazos de respuesta conocidos, hace que el canal sea del curso y no de la vida privada del docente."
+    },
+    {
+      "a": "intervencion_pertenencia",
+      "b": "whatsapp",
+      "r": "mensaje_pertenencia",
+      "nota": "El grupo del curso puede llevar la bienvenida y las historias de estudiantes mayores, que es lo que busca la intervención de pertenencia."
+    },
+    {
+      "a": "canales_con_limites",
+      "b": "mensaje_pertenencia",
+      "r": "cap_mensajes",
+      "nota": "Canales con reglas y un primer mensaje que invita a volver permiten acompañar a tiempo sin estar disponible a toda hora."
+    },
+    {
+      "a": "moodle",
+      "b": "datos",
+      "r": "analitica",
+      "nota": "Moodle guarda quién entró, qué abrió y qué entregó. Esos registros, bien leídos, son la materia prima de la analítica del aprendizaje."
+    },
+    {
+      "a": "moodle",
+      "b": "analitica",
+      "r": "alerta_temprana",
+      "nota": "Si la plataforma muestra quién dejó de entrar, el docente puede escribirle a tiempo. La alerta sirve cuando alguien responde."
+    },
+    {
+      "a": "moodle",
+      "b": "recuperacion",
+      "r": "formativa",
+      "nota": "Un cuestionario con intentos repetidos y retroalimentación automática hace recuperar lo estudiado y avisa a cada estudiante de lo que falta."
+    },
+    {
+      "a": "canvas",
+      "b": "coevaluacion",
+      "r": "revision_pares",
+      "nota": "Canvas permite asignar a cada estudiante el trabajo de un compañero para comentarlo, lo que organiza la revisión entre pares."
+    },
+    {
+      "a": "classroom",
+      "b": "rubrica",
+      "r": "criterial",
+      "nota": "Adjuntar una rúbrica a la tarea en Classroom muestra los criterios antes de entregar y permite calificar contra ellos, no contra el curso."
+    },
+    {
+      "a": "classroom",
+      "b": "borrador",
+      "r": "retro_borradores",
+      "nota": "Un documento compartido en Classroom deja comentar el borrador antes de la entrega final, cuando los comentarios todavía se pueden usar."
+    },
+    {
+      "a": "escritura",
+      "b": "gmail",
+      "r": "generos",
+      "nota": "El correo profesional es un género con convenciones propias: asunto, saludo, petición concreta y cierre. Se aprende como cualquier otro género disciplinar."
+    },
+    {
+      "a": "outlook",
+      "b": "procrastinacion",
+      "r": "gestion_tiempo",
+      "nota": "Un calendario con avisos convierte una entrega lejana en pasos con fecha, que es una forma práctica de enfrentar la procrastinación."
+    },
+    {
+      "a": "espaciada",
+      "b": "outlook",
+      "r": "reaprendizaje",
+      "nota": "Agendar repasos separados en el calendario, con fechas fijas, es una manera de sostener el reaprendizaje sucesivo durante el semestre."
+    },
+    {
+      "a": "comunidad_practica",
+      "b": "whatsapp",
+      "r": "pertenencia",
+      "nota": "Un grupo de mensajes donde los estudiantes comparten dudas y apuntes se parece a una comunidad de práctica, y da la sensación de ser parte."
+    },
+    {
+      "a": "tutoria_pares",
+      "b": "whatsapp",
+      "r": "comunidad_aprendizaje",
+      "nota": "Los tutores pares pueden sostener un grupo de estudio por mensajería, donde se pregunta sin vergüenza y se responde pronto."
+    },
+    {
+      "a": "curso_estructurado",
+      "b": "resultados",
+      "r": "alineamiento",
+      "nota": "Un curso con semanas ordenadas se alinea mejor cuando cada cuestionario y cada tarea responden a un resultado de aprendizaje escrito."
+    },
+    {
+      "a": "mensaje_pertenencia",
+      "b": "primera_generacion",
+      "r": "pedagogia_transicion",
+      "nota": "Contar a quienes son los primeros de su familia en la universidad que a otros también les costó empezar es parte de acompañar la transición."
+    },
+    {
+      "a": "digitalizar_con_criterio",
+      "b": "mapa",
+      "r": "tck",
+      "nota": "Decidir qué herramienta representa mejor las ideas del curso, como un mapa conceptual, es el conocimiento tecnológico del contenido."
+    },
+    {
+      "a": "canales_con_limites",
+      "b": "carga_trabajo",
+      "r": "gestion_tiempo",
+      "nota": "Fijar canales y plazos de respuesta ordena la carga de trabajo docente y también enseña al curso a organizar su tiempo."
+    },
+    {
+      "a": "mensajeria",
+      "b": "sincronico",
+      "r": "asincronico",
+      "nota": "El chat se sitúa entre ambos mundos: se escribe a ratos y se lee cuando se puede, con lo que se acerca a lo asincrónico."
+    }
+  ],
+  "refs": {
+    "dahlstrom14": "Dahlstrom, E., Brooks, D. C., & Bichsel, J. (2014). _The current ecosystem of learning management systems in higher education: Student, faculty, and IT perspectives_. EDUCAUSE Center for Analysis and Research.",
+    "dougiamas03": "Dougiamas, M., & Taylor, P. C. (2003). Moodle: Using learning communities to create an open source course management system. En _Proceedings of EDMEDIA 2003: World Conference on Educational Multimedia, Hypermedia and Telecommunications_. AACE.",
+    "bouhnik14": "Bouhnik, D., & Deshen, M. (2014). WhatsApp goes to school: Mobile instant messaging between teachers and students. _Journal of Information Technology Education: Research, 13_, 217–231.",
+    "so16": "So, S. (2016). Mobile instant messaging support for teaching and learning in higher education. _The Internet and Higher Education, 31_, 32–42.",
+    "moodle26": "Moodle Pty Ltd. (2026). _Moodle_ [Software]. https://moodle.org",
+    "canvas26": "Instructure. (2026). _Canvas LMS_ [Software]. https://www.instructure.com/canvas",
+    "classroom26": "Google. (2026). _Google Classroom_ [Software]. https://classroom.google.com",
+    "gmail26": "Google. (2026). _Gmail_ [Software]. https://mail.google.com",
+    "outlook26": "Microsoft. (2026). _Outlook_ [Software]. https://outlook.office.com",
+    "whatsapp26": "WhatsApp LLC. (2026). _WhatsApp_ [Software]. https://www.whatsapp.com",
+    "earl88": "Earl, W. R. (1988). Intrusive advising of freshmen in academic difficulty. _NACADA Journal, 8_(2), 27–33.",
+    "w3c23": "World Wide Web Consortium. (2023). _Web Content Accessibility Guidelines (WCAG) 2.2_. W3C. https://www.w3.org/TR/WCAG22/"
+  },
+  "misiones": [
+    {
+      "id": "plataforma",
+      "n": "Curso que se encuentra en la plataforma",
+      "e": "🏮",
+      "meta": "cap_plataforma",
+      "hitos": [
+        "moodle",
+        "accesibilidad",
+        "redefinicion"
+      ],
+      "encargo": "Marisol Quispe enseña Biología Celular a noventa estudiantes de primer año en una universidad de Lima. Cada semestre sube sus PDF a la plataforma, y cada semestre le escriben para preguntar qué se entrega y cuándo. Dos estudiantes usan lector de pantalla y sus escaneos no se pueden leer, y varios entran solo desde el celular con datos limitados. Su facultad le pide digitalizar más, sin decir qué. Te pide ayuda para que cada semana tenga la misma forma, el programa se vea al entrar, el material llegue a todos y cada herramienta se use porque cambia la tarea.",
+      "objetivo": "Llega a 🏮 Curso que se encuentra en la plataforma para que el curso de Marisol tenga estructura visible, material accesible y herramientas elegidas con criterio.",
+      "cierre": "Marisol ya tiene un plan. El programa será la primera página que se vea, cada semana traerá un cuestionario corto antes de la clase y una práctica con nota, y los escaneos serán reemplazados por documentos con texto real y videos con subtítulos. Antes de sumar una herramienta nueva, preguntará qué cambia en la tarea. Su facultad tendrá un ejemplo concreto de digitalizar con criterio, y sus estudiantes sabrán qué toca cada semana."
+    },
+    {
+      "id": "mensajes",
+      "n": "Mensajes que acompañan",
+      "e": "🫂",
+      "meta": "cap_mensajes",
+      "hitos": [
+        "horas_consulta",
+        "whatsapp",
+        "abandono"
+      ],
+      "encargo": "Un lunes, Diana Hernández abre su correo y encuentra cuarenta y dos mensajes, once de ellos enviados el domingo después de las diez de la noche. Enseña Introducción al Derecho a ochenta estudiantes de primer año en una universidad de Puebla, y su grupo de WhatsApp se llena de audios a cualquier hora. En la tercera semana un estudiante dejó de asistir y nadie lo notó hasta el parcial. Te pide ayuda para acompañar de verdad sin quedar disponible a toda hora: reglas de canal y de tiempos, un primer mensaje que haga sentir parte al grupo y una forma de detectar a quien se aleja.",
+      "objetivo": "Llega a 🫂 Mensajes que acompañan para que Diana responda con reglas claras, dé la bienvenida al grupo y escriba a tiempo a quien se aleja.",
+      "cierre": "Diana escribirá en su programa un canal para cada cosa, un plazo de respuesta de dos días hábiles y las horas de consulta del jueves. Enviará un mensaje de bienvenida con historias de estudiantes de cursos superiores y, cada viernes, escribirá a quienes faltaron dos veces seguidas. Con esas reglas, el domingo por la noche vuelve a ser suyo, y ningún estudiante pasará seis semanas sin que alguien note su ausencia."
+    }
+  ]
+}
