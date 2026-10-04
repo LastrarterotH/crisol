@@ -1,5 +1,5 @@
-/* Alquimia Docente: un laboratorio luminoso. Mesa marfil con grilla de puntos, fichas blancas con una moneda del color de su familia,
-   títulos en Fraunces y lectura en Figtree. Pensado para leerse bien en pantalla y en proyector. */
+/* Crisol: estructura y comportamiento de la interfaz (grillas, fichas, capas, plano, animaciones). Los colores y tipografías
+   de aquí son valores de respaldo; el aspecto final lo pone public/temas/esencial.css, que se carga encima. */
 :root {
   --fondo: #f4efe6;
   --lienzo: #fbf8f2;
@@ -21,8 +21,8 @@
   --exito: #2b8657;
   --c-prim: #9a7432; --c-cot: #c27c1e; --c-fund: #8b5e3c; --c-apr: #23935f; --c-met: #db5a2a; --c-eva: #cf3f74;
   --c-dis: #13909a; --c-tec: #6a54d1; --c-mod: #2f74c9; --c-mito: #c23a2e; --c-sint: #d99a12;
-  --f-display: "Fraunces", Georgia, "Times New Roman", serif;
-  --f-texto: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-display: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-texto: system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-emoji: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
   --sombra-1: 0 1px 2px rgba(28, 33, 48, .06), 0 2px 6px rgba(28, 33, 48, .06);
   --sombra-2: 0 2px 4px rgba(28, 33, 48, .05), 0 10px 26px rgba(28, 33, 48, .10);

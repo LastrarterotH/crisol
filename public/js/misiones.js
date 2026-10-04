@@ -254,7 +254,7 @@ function textoPlan(m) {
   const lineas = [];
   const fecha = new Date().toLocaleDateString("es-CL");
   const misiones = m ? [m] : D.misiones.filter(x => E.misiones[x.id]);
-  lineas.push("# Mi plan docente", "", "Generado en Alquimia Docente el " + fecha + ".", "");
+  lineas.push("# Mi plan docente", "", "Generado en Crisol el " + fecha + ".", "");
   for (const mi of misiones) {
     const st = E.misiones[mi.id]; if (!st) continue;
     const meta = D.fichas[mi.meta];

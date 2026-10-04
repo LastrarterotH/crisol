@@ -1,6 +1,6 @@
 # Expansión E: misiones nuevas con sus fichas
 
-Alquimia Docente es un juego de combinación para docentes de educación superior (lee REGLAS.md). Hoy tiene 200 fichas, 1083 recetas y 8 misiones. El usuario quiere más misiones y muchas más fichas, porque las misiones son lo que más le gustó. Cada docente juega en su notebook, sin conexión y sin IA, así que todo lo que se puede descubrir en una misión tiene que estar escrito de antemano.
+Crisol es un juego de combinación para docentes de educación superior (lee REGLAS.md). Hoy tiene 200 fichas, 1083 recetas y 8 misiones. El usuario quiere más misiones y muchas más fichas, porque las misiones son lo que más le gustó. Cada docente juega en su notebook, sin conexión y sin IA, así que todo lo que se puede descubrir en una misión tiene que estar escrito de antemano.
 
 Tu tarea: diseñar y escribir **dos misiones completas** con las **fichas nuevas** que necesitan (unas 45 a 55 fichas nuevas entre las dos) y sus recetas. Tu tarea particular (al final de este archivo) te dice los temas y tu archivo de salida.
 

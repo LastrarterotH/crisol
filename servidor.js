@@ -17,6 +17,6 @@ http.createServer((req, res) => {
   fs.createReadStream(archivo).pipe(res);
 }).listen(PUERTO, "127.0.0.1", () => {
   const url = "http://localhost:" + PUERTO;
-  console.log("Alquimia Docente (desarrollo) en " + url);
+  console.log("Crisol (desarrollo) en " + url);
   if (!process.env.ALQUIMIA_SIN_ABRIR && process.platform === "darwin") spawn("open", [url], { stdio: "ignore", detached: true }).unref();
 });

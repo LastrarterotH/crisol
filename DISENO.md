@@ -1,4 +1,6 @@
-# Alquimia Docente: diseño de la versión local
+# Crisol: diseño de la versión local
+
+Antes se llamaba Alquimia Docente.
 
 ## Qué tiene que lograr
 Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando y que deje algo concreto a quien enseña en la universidad. Cada docente juega en su notebook, sin conexión ni servidor. En una capacitación, el grupo juega la misma misión en paralelo y conversa sobre cómo llegar a la meta mirando el plano.
@@ -7,7 +9,7 @@ Un juego de combinación que se entienda solo, que dé ganas de seguir mezclando
 1. **Natural.** Se parte de cuatro elementos primigenios y las primeras mezclas se adivinan: Mente + Mundo = Experiencia. Cada receta debe poder leerse como una frase con sentido para un docente de cualquier disciplina.
 2. **Con rumbo.** Las misiones son encargos realistas con un plano. El plano muestra las piezas que faltan, desde los primigenios hasta la meta. Llegar a la meta de una misión exige entre 9 y 29 mezclas como mínimo, según la misión.
 3. **Cerrado y claro.** Solo hay misiones (no hay laboratorio libre). Dentro de una misión valen las mezclas que llevan a piezas de su plano, por el camino diseñado o por caminos alternativos. Si una mezcla lleva fuera del plano, o si una ficha ya no lleva a ninguna pieza pendiente, el aviso dice que en esta misión no se puede seguir avanzando por esa línea investigativa. Las fichas agotadas se ven apagadas y la caja muestra solo lo que sirve para la misión. Todo está escrito de antemano y el juego no genera fichas en vivo; más adelante se evaluará si Claude entra, y en qué momento.
-4. **Bello y legible.** Un laboratorio luminoso: mesa marfil con grilla de puntos, fichas blancas con una moneda del color de su familia, títulos en Fraunces y lectura en Figtree. Al mezclar hay una onda y destellos del color de la familia, y el sonido es sintetizado. Se eligió una paleta clara porque se proyecta bien en una sala.
+4. **Bello y legible.** Aspecto Esencial: blanco, grises y negro, sin bordes, sombras ni degradados; las zonas se separan por tono. Todo el texto va en Atkinson Hyperlegible Next, de alto contraste. Los emojis de las fichas conservan su color porque son la pista visual de cada idea. Al mezclar hay una onda y destellos, y el sonido es sintetizado. La paleta clara se proyecta bien en una sala.
 5. **Aporte docente.** Cada ficha es una ficha de estudio con fundamento y fuentes. Cada misión termina en un plan de acción con la síntesis, sus principios y una prueba para la semana siguiente.
 
 ## Elementos primigenios
@@ -38,9 +40,9 @@ Las recetas de densificación (`pre-D1.json`, `pre-D2.json`) cubren las parejas 
 Cada participante abre el archivo del juego en su notebook y elige la misma misión. Quien facilita proyecta su propio plano y abre la conversación con preguntas como "¿por dónde empezarían?" o "¿qué pieza les costó más?". Mi plan de cada docente junta las síntesis de las misiones cumplidas y lo que marcó en las fichas, y se puede descargar. No hay conexión entre equipos: la puesta en común es conversada.
 
 ## Técnica
-- Cliente: HTML, CSS y módulos JS sin framework ni librerías. El plano es SVG propio. Tipografías locales (Fraunces y Figtree).
+- Cliente: HTML, CSS y módulos JS sin framework ni librerías. El plano es SVG propio. Tipografía local: Atkinson Hyperlegible Next, pensada para baja visión.
 - Contenido: `datos/v2/` y luego `node construir.js`, que genera `public/datos.json` validado.
-- Distribución: `node empaquetar.js` (con esbuild) junta todo en `dist/Alquimia-Docente.html`, que funciona con doble clic y sin conexión. El progreso se guarda en el almacenamiento local del navegador.
+- Distribución: `node empaquetar.js` (con esbuild) junta todo en `dist/Crisol.html`, que funciona con doble clic y sin conexión. El progreso se guarda en el almacenamiento local del navegador.
 - `servidor.js` es solo para desarrollo.
 
 ## Textos

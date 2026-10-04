@@ -1,6 +1,6 @@
-# Revisión metodológica y pedagógica de Alquimia Docente
+# Revisión metodológica y pedagógica de Crisol
 
-Alquimia Docente es un juego para formar docentes de educación superior en América Latina. Se parte de cuatro primigenios (Mente, Mundo, Otros, Tiempo) y se mezclan fichas de a dos. Cada misión es un caso realista: un plano de piezas lleva hasta una meta (una síntesis), con hitos que marcan las piezas clave del caso. Cada ficha descubierta se lee como ficha de estudio:
+Crisol es un juego para formar docentes de educación superior en América Latina. Se parte de cuatro primigenios (Mente, Mundo, Otros, Tiempo) y se mezclan fichas de a dos. Cada misión es un caso realista: un plano de piezas lleva hasta una meta (una síntesis), con hitos que marcan las piezas clave del caso. Cada ficha descubierta se lee como ficha de estudio:
 - **pista:** adivinanza;
 - **why:** qué es y por qué funciona;
 - **uni:** ejemplo en una clase universitaria;

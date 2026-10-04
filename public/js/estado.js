@@ -1,5 +1,6 @@
 // Progreso de quien juega, guardado en este navegador.
 import { D } from "./datos.js";
+// La clave conserva el nombre anterior del juego (Alquimia Docente) para no perder partidas guardadas.
 const CLAVE = "alquimia-docente:v2";
 const inicial = () => ({
   descubiertos: {}, como: {}, caminos: {}, chispas: 3, mision: null, misiones: {}, mesa: [], sonido: true,

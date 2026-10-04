@@ -1,6 +1,6 @@
-# Reglas de escritura de Alquimia Docente (versión 2)
+# Reglas de escritura de Crisol (versión 2)
 
-Alquimia Docente es un juego de combinación para docentes de educación superior. Se parte de cuatro elementos primigenios (🧠 Mente, 🌍 Mundo, 🤝 Otros, ⏰ Tiempo) y, mezclando de a dos, se llega a conceptos de docencia universitaria. Cada ficha descubierta se lee como una ficha de estudio. El usuario pidió tres cosas: que sea divertido, que sea hermoso y que aporte de verdad a la formación docente. Todo debe ser verídico.
+Crisol es un juego de combinación para docentes de educación superior. Se parte de cuatro elementos primigenios (🧠 Mente, 🌍 Mundo, 🤝 Otros, ⏰ Tiempo) y, mezclando de a dos, se llega a conceptos de docencia universitaria. Cada ficha descubierta se lee como una ficha de estudio. El usuario pidió tres cosas: que sea divertido, que sea hermoso y que aporte de verdad a la formación docente. Todo debe ser verídico.
 
 ## Voz
 - Español latinoamericano neutro, con tuteo (puedes, tienes, mira). Nunca voseo ni giros argentinos.

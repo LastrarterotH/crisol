@@ -1,4 +1,4 @@
-# Revisión metodológica y pedagógica de Alquimia Docente
+# Revisión metodológica y pedagógica de Crisol (antes Alquimia Docente)
 
 Fecha: 3 de octubre de 2026. Alcance: las 16 misiones y las 180 fichas que se pueden descubrir en ellas (los cuatro primigenios aparte).
 

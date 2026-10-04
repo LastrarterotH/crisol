@@ -1,7 +1,7 @@
-/* Opción K · Esencial. Lo mínimo que se lee de un vistazo: blanco, grises y negro, sin bordes ni sombras, superficies que
-   se separan por tono, alto contraste y Atkinson Hyperlegible Next (diseñada para baja visión). Los emojis conservan su color
-   porque son la única pista visual de cada ficha. Referencia: Structured y Primary, "nítido y fácil de recorrer" y
-   "UI realmente mínima" (Apple Design Awards 2026). */
+/* Aspecto de Crisol (tema Esencial). Lo mínimo que se lee de un vistazo: blanco, grises y negro, sin bordes ni sombras,
+   superficies que se separan por tono, alto contraste y Atkinson Hyperlegible Next (diseñada para baja visión, licencia OFL).
+   Los emojis conservan su color porque son la pista visual de cada ficha. Se carga encima de estilos.css, que da la estructura.
+   Las otras opciones de tema que se probaron quedaron en el historial de git (commit 8b51f01). */
 @font-face { font-family: "Atkinson Hyperlegible Next"; font-style: normal; font-weight: 200 800; font-display: swap; src: url(../fuentes/atkinson-hyperlegible-next-latin-wght-normal.woff2) format("woff2"); }
 :root {
   --fondo: #ffffff;
@@ -53,10 +53,6 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .juego { background: #fff; }
 .cabecera { margin-bottom: 10px; }
 .logo { font-weight: 800; }
-.logo svg { filter: grayscale(1); }
-.logo svg path[fill="#d4532a"] { fill: #0d0d0d; }
-.logo svg circle { fill: #fff; }
-.logo svg path[fill="#e0a01a"] { fill: #0d0d0d; }
 .mision-cab { border-left-color: var(--borde); }
 .mision-cab .nombre { font-weight: 700; }
 .mision-cab .avance { height: 6px; background: #e6e6e6; }
@@ -100,7 +96,11 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .ficha.arrastrando { transform: scale(1.04); box-shadow: 0 18px 40px rgba(0, 0, 0, .18); }
 .ficha.objetivo { box-shadow: 0 0 0 3px #0d0d0d, 0 0 0 7px rgba(0, 0, 0, .1); transform: scale(1.05); }
 .ficha.objetivo::before { background: #0d0d0d; }
-.ficha.senalada, .chip.senalada { animation: none; box-shadow: 0 0 0 3px #0d0d0d; }
+/* señal del tutorial: un halo que respira, no un borde fijo */
+.ficha.senalada, .chip.senalada { animation: senalEsencial 1.6s ease-in-out infinite; }
+@keyframes senalEsencial { 0%, 100% { box-shadow: 0 0 0 2px rgba(13, 13, 13, .55), 0 0 0 2px rgba(13, 13, 13, 0); } 50% { box-shadow: 0 0 0 2px #0d0d0d, 0 0 0 5px rgba(13, 13, 13, .08); } }
+/* espacio para que los halos de las fichas de la caja no queden cortados por el borde de la lista */
+.caja-lista { padding: 14px 9px 14px 9px; margin: 4px -9px 0; }
 .ficha.agotada, .chip.agotada { opacity: .45; }
 .onda-mezcla { border-color: #0d0d0d !important; }
 

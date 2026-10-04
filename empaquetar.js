@@ -1,26 +1,27 @@
 // Empaqueta el juego en un único archivo HTML que funciona sin conexión y sin servidor:
 // código, estilos, tipografías y datos quedan dentro del archivo.
 // Uso: node empaquetar.js  (antes: node construir.js)
-//      node empaquetar.js --tema=cristal  agrega public/temas/cristal.css y sale en dist/opciones/.
+//      node empaquetar.js --tema=otro  usa public/temas/otro.css en vez de esencial.css y sale en dist/opciones/.
 const fs = require("fs");
 const path = require("path");
 const esbuild = require("esbuild");
 
 const P = (...r) => path.join(__dirname, "public", ...r);
-const TEMA = (process.argv.find(a => a.startsWith("--tema=")) || "").slice(7);
-const SALIDA = TEMA ? path.join(__dirname, "dist", "opciones", "Alquimia-Docente-" + TEMA + ".html") : path.join(__dirname, "dist", "Alquimia-Docente.html");
+const OTRO = (process.argv.find(a => a.startsWith("--tema=")) || "").slice(7);
+const TEMA = OTRO || "esencial";
+const SALIDA = OTRO ? path.join(__dirname, "dist", "opciones", "Crisol-" + OTRO + ".html") : path.join(__dirname, "dist", "Crisol.html");
 const incrustar = css => css.replace(/url\((?:\.\.\/)?(fuentes\/[^)]+\.woff2)\)/g, (m, f) => "url(data:font/woff2;base64," + fs.readFileSync(P(f)).toString("base64") + ")");
 
 const js = esbuild.buildSync({ entryPoints: [P("js", "app.js")], bundle: true, format: "iife", target: "es2020", minify: true, write: false, legalComments: "none" }).outputFiles[0].text;
-const fuentes = incrustar(fs.readFileSync(P("fuentes.css"), "utf8"));
-const estilos = fs.readFileSync(P("estilos.css"), "utf8") + (TEMA ? "\n" + incrustar(fs.readFileSync(P("temas", TEMA + ".css"), "utf8")) : "");
+const estilos = fs.readFileSync(P("estilos.css"), "utf8");
+const tema = incrustar(fs.readFileSync(P("temas", TEMA + ".css"), "utf8"));
 const datos = JSON.stringify(JSON.parse(fs.readFileSync(P("datos.json"), "utf8"))).replace(/</g, "\\u003c");
 const sinCierre = s => s.replace(/<\/(script|style)/gi, "<\\/$1");
 
 let html = fs.readFileSync(P("index.html"), "utf8");
 const reemplazar = (buscar, por) => { if (!html.includes(buscar)) throw new Error("No encontré en index.html: " + buscar); html = html.replace(buscar, () => por); };
-reemplazar('<link rel="stylesheet" href="fuentes.css">', "<style>" + fuentes + "</style>");
 reemplazar('<link rel="stylesheet" href="estilos.css">', "<style>" + sinCierre(estilos) + "</style>");
+reemplazar('<link rel="stylesheet" href="temas/esencial.css">', "<style>" + sinCierre(tema) + "</style>");
 reemplazar('<script type="module" src="js/app.js"></script>', "<script>window.DATOS=" + datos + ";</script>\n<script>" + sinCierre(js) + "</script>");
 
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
