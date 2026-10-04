@@ -10,15 +10,26 @@ Diseñar y escribir **dos misiones completas**. Tu tarea particular, al final de
 2. **Rescatar fichas SIN MISIÓN.** Tu archivo `ASIGNACION-Hn.json` trae la lista de fichas ya escritas que te tocan. Haz que la mayor parte quede en el camino de una de tus dos misiones: apunta a 70 % o más. Una ficha queda en el camino cuando la meta la necesita, directa o indirectamente, como ingrediente.
 3. **Sumar 16 o más piezas descubribles nuevas** en el camino de cada misión, entre fichas rescatadas y fichas nuevas tuyas.
 
-## Lee primero (carpeta datos/v2/tareas)
+## Lee solo esto (carpeta /Users/lastraroth/Code/alquimia-docente/datos/v2/tareas)
+Para ahorrar recursos, tu contexto viene recortado. Lee completos únicamente estos archivos:
 - **REGLAS.md:** voz, filtro obligatorio de patrones LLM, veracidad y largo de cada campo. Es obligatorio.
-- **HERRAMIENTAS.md:** cómo se escribe una ficha de herramienta y qué herramientas te tocan. Solo tú creas las tuyas.
-- **ASIGNACION-Hn.json:** el de tu número. Trae tus herramientas, tus fichas SIN MISIÓN y tus dos misiones con tema y ciudad.
-- **CATALOGO-ACTUAL.md:** las 390 fichas. Las que dicen SIN MISIÓN están escritas, pero nadie puede descubrirlas hoy. Reutiliza todo lo que sirva como ingrediente.
-- **RECETAS-ACTUALES.txt:** las parejas que ya tienen receta. Ninguna receta tuya puede usar una pareja de esa lista.
-- **REFS-ACTUALES.md:** referencias existentes. Reutilízalas por su clave.
-- **EMOJIS-Hn.txt:** tu reserva de emojis. Usa solo emojis de esa lista, uno distinto por ficha, que se relacione con la idea. Para herramientas, elige el emoji que mejor evoque su función.
-- **Ejemplo de textos:** en datos/v2/parte-N2.json, mira la ficha "clase_interactiva" (síntesis con principios y prueba) y la misión "activa" (encargo, objetivo y cierre).
+- **HERRAMIENTAS.md:** cómo se escribe una ficha de herramienta.
+- **paquetes/PAQUETE-Hn.md:** el de tu número. Trae:
+  - tus dos misiones con tema y ciudad;
+  - tus herramientas;
+  - tu reserva de emojis;
+  - tus fichas SIN MISIÓN en detalle, con las recetas que hoy las producen;
+  - las referencias que ya usan esas fichas;
+  - el catálogo completo en una línea por ficha.
+
+**No leas completos** CATALOGO-ACTUAL.md, RECETAS-ACTUALES.txt ni REFS-ACTUALES.md, porque son grandes. Para consultas puntuales usa grep:
+- `grep '^- ID ·' CATALOGO-ACTUAL.md` para la pista de una ficha;
+- `grep -i 'palabra' REFS-ACTUALES.md` para buscar una referencia existente;
+- `grep 'ID' RECETAS-ACTUALES.txt` para ver las recetas de una ficha.
+
+El validador ya avisa si una pareja está ocupada, así que no necesitas revisar las recetas a mano.
+
+**Ejemplo de textos:** `grep -A3 '"clase_interactiva"' /Users/lastraroth/Code/alquimia-docente/datos/v2/parte-N2.json` muestra una síntesis con principios y prueba.
 
 ## Misiones que ya existen (no las repitas)
 - Primeros pasos (tutorial)
@@ -80,13 +91,12 @@ Las ciudades ya usadas son Montevideo, Asunción, Medellín, San José, Valpara�
 - Las recetas con herramientas deben enseñar algo: para qué sirve la herramienta o qué idea pedagógica la sostiene. Nada de asociaciones arbitrarias.
 - Agrega además unas 15 a 30 **recetas de conexión**: parejas entre tus fichas nuevas y fichas existentes de nivel 2 a 5 que den una ficha tuya o una existente. Sirven para que tus fichas se mezclen con el resto del juego. No las uses para llegar por atajo a tus hitos o tus metas.
 
-## Verificación de fuentes
-- Es posible que la búsqueda web general no esté disponible. Verifica con WebFetch contra las API abiertas:
-  - Crossref: https://api.crossref.org/works?query.bibliographic=...&rows=3
-  - OpenAlex: https://api.openalex.org/works?search=...
-- Confirma también en el sitio oficial de cada herramienta que existe y sigue con ese nombre.
-- Reutiliza referencias existentes siempre que sirvan.
-- Las referencias nuevas van en APA 7, con la _cursiva_ marcada con guiones bajos y clave apellido+año (por ejemplo "wang20").
+## Fuentes (sin navegar)
+- **No uses WebFetch ni búsqueda web.** Las referencias nuevas se verifican después con un script contra Crossref y OpenAlex (verificar-refs.js), sin gastar recursos.
+- **Prefiere referencias existentes:** búscalas con grep en REFS-ACTUALES.md y úsalas por su clave.
+- **Las nuevas:** escribe solo referencias que conozcas con seguridad (autores, año, título exacto, revista o editorial, volumen y páginas), en APA 7, con la _cursiva_ marcada con guiones bajos y clave apellido+año (por ejemplo "wang20"). Agrega el DOI al final (https://doi.org/...) cuando lo sepas.
+- **Si dudas de una referencia, no la inventes.** Usa una referencia segura más general, o una existente, y anótalo en tu resumen.
+- **Herramientas:** puedes citar el software en APA 7, por ejemplo "Moodle Pty Ltd. (2026). _Moodle_ [Software]. https://moodle.org". Esa cita no reemplaza a la referencia de investigación.
 
 ## Formato de salida
 Un único JSON en tu ruta de salida, con el mismo formato que las expansiones E:
@@ -110,7 +120,7 @@ Un único JSON en tu ruta de salida, con el mismo formato que las expansiones E:
 Los ids van en minúsculas, sin tildes, con guion bajo. Los ids de misión deben ser nuevos.
 
 ## Validación (obligatoria)
-- Corre `node /Users/lastraroth/Code/alquimia-docente/datos/v2/tareas/validar-E.js RUTA_DE_TU_ARCHIVO` hasta que diga SIN ERRORES.
+- Escribe el archivo completo de una vez y después corre `node /Users/lastraroth/Code/alquimia-docente/datos/v2/tareas/validar-E.js RUTA_DE_TU_ARCHIVO`. Corrige con ediciones puntuales hasta que diga SIN ERRORES. Para ahorrar, no valides después de cada cambio pequeño: agrupa las correcciones.
 - Revisa sus avisos y su informe:
   - mezclas mínimas;
   - piezas descubribles nuevas por misión;
@@ -126,4 +136,4 @@ Al terminar, responde con un resumen breve:
 - cuántas fichas SIN MISIÓN rescataste de las asignadas;
 - cuántas fichas, herramientas y recetas escribiste;
 - cuántos patrones del filtro corregiste;
-- las dudas de veracidad que te queden. Separa lo que verificaste en la web de lo que escribiste de memoria.
+- las referencias nuevas de las que no estés del todo seguro, y cualquier otra duda de veracidad.

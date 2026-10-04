@@ -5,7 +5,7 @@
   "Gemini",
   "Copilot",
   "Perplexity",
-  "NotebookLM",
+  "Gemini Notebook",
   "Google Forms",
   "Microsoft Forms",
   "Turnitin"
@@ -32,7 +32,7 @@
  "misiones": [
   [
    "Un asistente que hace pensar",
-   "usar asistentes de IA generativa (ChatGPT, Claude, Gemini, Copilot, Perplexity, NotebookLM) como tutores que preguntan y no como atajos: ilusión de competencia, enfoque profundo, juicio reflexivo y transferencia. La misión existente 'IA con sentido' ya cubre la decisión institucional sobre IA; esta es sobre cómo estudia cada estudiante",
+   "usar asistentes de IA generativa (ChatGPT, Claude, Gemini, Copilot, Perplexity, Gemini Notebook, antes NotebookLM) como tutores que preguntan y no como atajos: ilusión de competencia, enfoque profundo, juicio reflexivo y transferencia. La misión existente 'IA con sentido' ya cubre la decisión institucional sobre IA; esta es sobre cómo estudia cada estudiante",
    "Monterrey (México)"
   ],
   [
