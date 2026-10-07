@@ -250,6 +250,7 @@ button.mini:hover { border-color: var(--c); }
 .fe-aula { background: color-mix(in srgb, var(--c-dis) 8%, var(--sup)); border: 1px solid color-mix(in srgb, var(--c-dis) 22%, var(--sup)); border-radius: 14px; padding: 12px 16px; font-size: 15.5px !important; color: #1f3d40 !important; }
 .fe-aviso { font-size: 14px !important; color: var(--tinta-2) !important; border: 1px solid color-mix(in srgb, var(--ia) 28%, var(--sup)); border-radius: 12px; padding: 10px 14px; background: color-mix(in srgb, var(--ia) 6%, var(--sup)); }
 .fe-mito { position: absolute; top: 20px; right: 66px; transform: rotate(-8deg); font: 700 18px var(--f-display); letter-spacing: .14em; color: var(--c-mito); border: 2.5px solid var(--c-mito); border-radius: 8px; padding: 0 10px; background: var(--sup); }
+.fe-caminos-nota { margin: -2px 0 10px; font-size: 14px !important; color: var(--tinta-3) !important; }
 .fe-caminos { display: grid; gap: 8px; }
 .fe-camino { display: grid; gap: 4px; padding: 10px 12px; border-radius: 12px; background: var(--sup-2); border: 1px solid var(--borde); }
 .fe-camino .fe-formula { margin-top: 0; }

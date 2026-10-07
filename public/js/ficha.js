@@ -52,7 +52,7 @@ export function abrirFicha(id, opts = {}) {
   const recs = recetasDe(id);
   if (recs.length) {
     const h = caminosHallados(id);
-    c += '<section><h3>Caminos <small>' + h + " de " + recs.length + (domina(id) ? " · ★ maestría" : "") + '</small></h3><div class="fe-caminos">';
+    c += '<section><h3>Caminos <small>' + h + " de " + recs.length + (domina(id) ? " · ★ maestría" : "") + '</small></h3><p class="fe-caminos-nota">Algunos caminos se pueden discutir. Si uno no te convence, conversa con tus colegas cómo lo unirían ustedes.</p><div class="fe-caminos">';
     for (const [a, b, , nota] of [...recs].sort((x, y) => caminoHallado(clave(y[0], y[1])) - caminoHallado(clave(x[0], x[1])))) {
       if (caminoHallado(clave(a, b))) c += '<div class="fe-camino"><div class="fe-formula">' + formula(a, b) + "</div>" + (nota ? "<p>" + rico(nota) + "</p>" : "") + "</div>";
       else c += '<div class="fe-camino oculto"><div class="fe-formula">' + miniHtml(a, !tiene(a)) + '<span class="op">+</span>' + miniHtml(b, true) + "<span>Camino por descubrir</span></div></div>";
