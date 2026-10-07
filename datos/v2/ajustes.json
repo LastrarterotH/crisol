@@ -10,13 +10,25 @@
       "uni": "En Estadística, cierra la clase con un ticket de salida de una pregunta sobre media y mediana y empieza la siguiente por el error más común."
     },
     "sustitucion": {
-      "pista": "En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica."
+      "pista": "En el primer peldaño de Puentedura cambias la herramienta y la tarea queda idéntica.",
+      "refs": [
+        "puentedura06",
+        "hamilton16"
+      ]
     },
     "aumento": {
-      "pista": "En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional."
+      "pista": "En el segundo peldaño la tarea es la misma, pero la herramienta le suma una mejora funcional.",
+      "refs": [
+        "puentedura06",
+        "hamilton16"
+      ]
     },
     "modificacion": {
-      "pista": "En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea."
+      "pista": "En el tercer peldaño la herramienta ya permite rediseñar buena parte de la tarea.",
+      "refs": [
+        "puentedura06",
+        "hamilton16"
+      ]
     },
     "redefinicion": {
       "pista": "El peldaño más alto de Puentedura, con tareas que sin la herramienta serían inconcebibles."
@@ -153,7 +165,12 @@
       "uni": "En Escritura Académica, pide que cada estudiante pegue su borrador en el chatbot que autorizó la universidad, le pida tres críticas y anote cuáles aceptó y por qué."
     },
     "autentica": {
-      "why": "Una evaluación auténtica pide resolver tareas propias del mundo profesional, con sus condiciones y estándares de calidad. Villarroel y colaboradores revisaron la literatura publicada entre 1988 y 2015 y la organizaron en tres dimensiones: realismo, desafío cognitivo y juicio evaluativo (que el estudiante aprenda a juzgar la calidad de su propio trabajo). Frente a la IA, una tarea realista también se puede delegar, así que conviene sumarle momentos en que el proceso y el juicio del estudiante queden a la vista."
+      "why": "Una evaluación auténtica pide resolver tareas propias del mundo profesional, con sus condiciones y estándares de calidad. Villarroel y colaboradores revisaron la literatura publicada entre 1988 y 2015 y la organizaron en tres dimensiones: realismo, desafío cognitivo y juicio evaluativo (que el estudiante aprenda a juzgar la calidad de su propio trabajo). Frente a la IA, una tarea realista también se puede delegar, así que conviene sumarle momentos en que el proceso y el juicio del estudiante queden a la vista.",
+      "refs": [
+        "villarroel18",
+        "wiggins90",
+        "ashfordrowe14"
+      ]
     },
     "personalizacion_responsable": {
       "why": "Integra el aprendizaje adaptativo, que ajusta ejercicios según lo que demuestra cada estudiante, con la privacidad y ética de los datos. Se necesitan porque no hay adaptación sin observar a quien estudia, y esa observación obliga a decidir quién accede a esos datos, para qué y con qué consentimiento. Los tutores que corrigen paso a paso rinden bien (VanLehn), pero los efectos se achican en pruebas estandarizadas (Kulik y Fletcher). Slade y Prinsloo piden transparencia y que el estudiante ayude a interpretar sus datos."
@@ -217,7 +234,11 @@
       "uni": "Revisa tu próxima clase presencial de Kinesiología y deja en ella lo que gana con estar juntos, como practicar una técnica con supervisión; la exposición pásala a un video."
     },
     "hyflex": {
-      "why": "Si al curso combinado le sumas una ruta asincrónica equivalente, aparece el modelo híbrido flexible de Beatty, en que el estudiante elige en cada sesión si participa en la sala, en línea en vivo o de forma asincrónica. Todas las rutas deben llevar a los mismos resultados de aprendizaje. La flexibilidad está en cómo participa cada estudiante en cada sesión, lo que es distinto de avanzar a su propio ritmo."
+      "why": "Si al curso combinado le sumas una ruta asincrónica equivalente, aparece el modelo híbrido flexible de Beatty, en que el estudiante elige en cada sesión si participa en la sala, en línea en vivo o de forma asincrónica. Todas las rutas deben llevar a los mismos resultados de aprendizaje. La flexibilidad está en cómo participa cada estudiante en cada sesión, lo que es distinto de avanzar a su propio ritmo.",
+      "refs": [
+        "beatty19",
+        "raes20"
+      ]
     },
     "cap_hibrido": {
       "why": "Combina el modelo HyFlex de Beatty, en que cada estudiante elige en cada sesión entre sala, conexión en vivo o ruta asincrónica, con la comunidad de indagación de Garrison, Anderson y Archer. HyFlex abre rutas, pero por sí solo puede dejar tres cursos paralelos que no se hablan. Las presencias cognitiva, social y docente ayudan a reunirlos si el diseño crea a propósito interacción entre rutas, como pedía Moore. La evidencia sobre aprendizaje en HyFlex todavía es limitada, así que conviene evaluar la propia experiencia.",
@@ -540,6 +561,56 @@
         "Haz público lo que encuentres, aunque sea en una jornada interna, para que otros puedan revisarlo y construir sobre él (Hutchings y Shulman, 1999).",
         "Presenta el estudio como parte de tu labor académica, ya que la enseñanza es una de las cuatro formas de trabajo académico que Boyer propuso valorar (Boyer, 1990)."
       ]
+    },
+    "piramide": {
+      "refs": [
+        "lalley07",
+        "letrud12",
+        "freeman14"
+      ]
+    },
+    "sesion_con_foco": {
+      "refs": [
+        "hodges20",
+        "hrastinski08",
+        "martin20"
+      ]
+    },
+    "sincronico": {
+      "refs": [
+        "hrastinski08",
+        "hrastinski09"
+      ]
+    },
+    "asincronico": {
+      "refs": [
+        "hrastinski08",
+        "hrastinski09"
+      ]
+    },
+    "proyectos": {
+      "refs": [
+        "thomas00",
+        "kokotsaki16"
+      ]
+    },
+    "transicion": {
+      "refs": [
+        "gale14",
+        "kift10"
+      ]
+    },
+    "guiones_colaboracion": {
+      "refs": [
+        "vogel17",
+        "fischer13"
+      ]
+    },
+    "reflexiva": {
+      "refs": [
+        "schon83",
+        "mann09"
+      ]
     }
   },
   "refs": {
@@ -578,7 +649,20 @@
     "collier08": "Collier, P. J., & Morgan, D. L. (2008). \"Is that paper really due today?\": Differences in first-generation and traditional college students' understandings of faculty expectations. _Higher Education, 55_(4), 425–446.",
     "canning15": "Canning, E. A., & Harackiewicz, J. M. (2015). Teach it, don't preach it: The differential effects of directly-communicated and self-generated utility-value information. _Motivation Science, 1_(1), 47–71.",
     "walton23": "Walton, G. M., Murphy, M. C., Logel, C., Yeager, D. S., Goyer, J. P., Brady, S. T., Emerson, K. T. U., Paunesku, D., Fotuhi, O., Blodorn, A., Boucher, K. L., Carter, E. R., Gopalan, M., Henderson, A., Kroeper, K. M., Murdock-Perriera, L. A., Reeves, S. L., Ablorh, T. T., Ansari, S., . . . Krol, N. (2023). Where and with whom does a brief social-belonging intervention promote progress in college? _Science, 380_(6644), 499–505.",
-    "perez14": "Perez, T., Cromley, J. G., & Kaplan, A. (2014). The role of identity development, values, and costs in college STEM retention. _Journal of Educational Psychology, 106_(1), 315–329."
+    "perez14": "Perez, T., Cromley, J. G., & Kaplan, A. (2014). The role of identity development, values, and costs in college STEM retention. _Journal of Educational Psychology, 106_(1), 315–329.",
+    "bravata20": "Bravata, D. M., Watts, S. A., Keefer, A. L., Madhusudhan, D. K., Taylor, K. T., Clark, D. M., Nelson, R. S., Cokley, K. O., & Hagg, H. K. (2020). Prevalence, predictors, and treatment of impostor syndrome: A systematic review. _Journal of General Internal Medicine, 35_(4), 1252–1275.",
+    "martin20": "Martin, F., Sun, T., & Westine, C. D. (2020). A systematic review of research on online teaching and learning from 2009 to 2018. _Computers & Education, 159_, Artículo 104009.",
+    "hrastinski09": "Hrastinski, S. (2009). A theory of online learning as online participation. _Computers & Education, 52_(1), 78–82.",
+    "roediger06": "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. _Psychological Science, 17_(3), 249–255.",
+    "tamim11": "Tamim, R. M., Bernard, R. M., Borokhovski, E., Abrami, P. C., & Schmid, R. F. (2011). What forty years of research says about the impact of technology on learning: A second-order meta-analysis and validation study. _Review of Educational Research, 81_(1), 4–28.",
+    "bradbury16": "Bradbury, N. A. (2016). Attention span during lectures: 8 seconds, 10 minutes, or more? _Advances in Physiology Education, 40_(4), 509–513.",
+    "dawson14": "Dawson, P., van der Meer, J., Skalicky, J., & Cowley, K. (2014). On the effectiveness of supplemental instruction: A systematic review of supplemental instruction and peer-assisted study sessions literature between 2001 and 2010. _Review of Educational Research, 84_(4), 609–639.",
+    "kornell08": "Kornell, N., & Bjork, R. A. (2008). Learning concepts and categories: Is spacing the “enemy of induction”? _Psychological Science, 19_(6), 585–592.",
+    "kokotsaki16": "Kokotsaki, D., Menzies, V., & Wiggins, A. (2016). Project-based learning: A review of the literature. _Improving Schools, 19_(3), 267–277.",
+    "fischer13": "Fischer, F., Kollar, I., Stegmann, K., & Wecker, C. (2013). Toward a script theory of guidance in computer-supported collaborative learning. _Educational Psychologist, 48_(1), 56–66.",
+    "ashfordrowe14": "Ashford-Rowe, K., Herrington, J., & Brown, C. (2014). Establishing the critical elements that determine authentic assessment. _Assessment & Evaluation in Higher Education, 39_(2), 205–222.",
+    "raes20": "Raes, A., Detienne, L., Windey, I., & Depaepe, F. (2020). A systematic literature review on synchronous hybrid learning: Gaps identified. _Learning Environments Research, 23_(3), 269–290.",
+    "mann09": "Mann, K., Gordon, J., & MacLeod, A. (2009). Reflection and reflective practice in health professions education: A systematic review. _Advances in Health Sciences Education, 14_(4), 595–621."
   },
   "recetasExtra": [],
   "quitarRecetas": [

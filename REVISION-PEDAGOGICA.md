@@ -119,3 +119,34 @@ Se sumaron 14 misiones (30 en total) y las ideas descubribles pasaron de 184 a 4
 NotebookLM figura con su nombre actual, Gemini Notebook.
 
 **Pendiente:** las 99 fichas rescatadas tuvieron revisión por muestra y no ficha por ficha, como las de la primera revisión. Conviene una pasada completa antes de usarlas en una capacitación.
+
+## Fuentes para compartir (7 de octubre de 2026)
+
+**Meta:** que cada ficha tenga al menos una fuente que un docente pueda abrir con un clic. Hoy la tienen **las 415 fichas descubribles**.
+
+**Cómo se hizo.** Casi todo el trabajo lo hicieron scripts, sin modelo de lenguaje.
+1. **Crossref y OpenAlex** (`tareas/enlazar-refs.js`): confirman cada obra por título, subtítulo, año y primer autor, traen el DOI y buscan una versión de acceso abierto. Un libro nunca se confirma con el DOI de un artículo, porque así se colaban reseñas de otros autores.
+2. **Open Library** (`tareas/libros-refs.js`): da la página pública de libros y capítulos.
+3. **Dos agentes con lotes chicos** (unos 22 KB y 63.000 tokens cada uno, sin navegar) decidieron sobre las 90 referencias que quedaban: confirmar, corregir, dejar sin enlace o proponer una fuente abierta para las fichas que no tenían ninguna.
+4. **Script final** (`tareas/aplicar-refs.js`): solo acepta lo que Crossref confirma. Las correcciones y las fuentes nuevas quedan en `ajustes.json`, y los enlaces en `refs-enlaces.json`.
+
+**Resultado:**
+- 570 de 605 referencias tienen algo para compartir:
+  - 439 con DOI (antes eran 44);
+  - 31 con versión de lectura gratuita;
+  - 83 libros con su página en Open Library;
+  - 7 con su documento oficial.
+- Se corrigieron 6 referencias con errores de datos: Roediger y Karpicke (2006), Tamim y colaboradores (2011), Bradbury (2016), Dawson y colaboradores (2014), Kornell y Bjork (2008) y Bravata y colaboradores (2020).
+- Se sumaron fuentes abiertas a las fichas que no tenían ninguna, por ejemplo:
+  - Ashford-Rowe y colaboradores (2014) en Evaluación auténtica;
+  - Raes y colaboradores (2020) en HyFlex;
+  - Mann y colaboradores (2009) en Práctica reflexiva.
+
+**En el juego:** los DOI y las URL de la sección "Fuentes" se abren en otra pestaña, y aparecen los botones "Leer gratis", "Ver el libro" y "Ver el documento".
+
+**Quedan sin enlace 35 referencias:**
+- citas de software o sitios web;
+- libros que no aparecen en Open Library;
+- cuatro DOI propuestos que Crossref no confirmó (Stephens et al., 2014; Su et al., 2011; Fives y DiDonato-Barnes, 2013; Wiggins, 1990).
+
+Ninguna ficha descubrible depende solo de ellas. El detalle está en `datos/v2/revision/refs-aplicadas.md`.

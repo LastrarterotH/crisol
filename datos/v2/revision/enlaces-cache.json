@@ -1,0 +1,4856 @@
+{
+ "mishra06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/016146810610800610",
+  "libre": null,
+  "candidato": "Mishra (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge",
+  "tipo": "journal-article"
+ },
+ "shulman86": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x015002004",
+  "libre": "https://repositorio.unal.edu.co/handle/unal/80619",
+  "candidato": "SHULMAN (1986). Those Who Understand: Knowledge Growth in Teaching",
+  "tipo": "journal-article"
+ },
+ "carroll63": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/016146816306400801",
+  "libre": null,
+  "candidato": "Carroll (1963). A Model of School Learning",
+  "tipo": "journal-article"
+ },
+ "johnson09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x09339057",
+  "libre": null,
+  "candidato": "Johnson (2009). An Educational Psychology Success Story: Social Interdependence Theory and Cooperative Learning",
+  "tipo": "journal-article"
+ },
+ "nesbit06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543076003413",
+  "libre": null,
+  "candidato": "Nesbit (2006). Learning With Concept and Knowledge Maps: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "novak84": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1017/cbo9781139173469",
+  "libre": null,
+  "candidato": "Novak (1984). Learning How to Learn",
+  "tipo": "monograph"
+ },
+ "ausubel68": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Ausubel (1968). Educational Psychology: A Cognitive View",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL3241751W",
+  "libro_nota": 1
+ },
+ "bransford00": {
+  "estado": "confirmada",
+  "similitud": 0.86,
+  "doi": null,
+  "libre": null,
+  "candidato": "Bransford (2000). How People Learn: Brain, Mind, Experience, and School. Expanded Edition.",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL18263978W",
+  "libro_nota": 1
+ },
+ "prensky01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1108/10748120110424816",
+  "libre": "https://hdl.handle.net/11323/5915",
+  "candidato": "Prensky (2001). Digital Natives, Digital Immigrants Part 1",
+  "tipo": "journal-article"
+ },
+ "bonwell91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Bonwell (1991). Active learning : creating excitement in the classroom",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL4131653W",
+  "libro_nota": 1
+ },
+ "kirschner17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.tate.2017.06.001",
+  "libre": "http://hdl.handle.net/1820/8945",
+  "candidato": "Kirschner (2017). The myths of the digital native and the multitasker",
+  "tipo": "journal-article"
+ },
+ "freeman14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1073/pnas.1319030111",
+  "libre": "https://www.ncbi.nlm.nih.gov/pmc/articles/4060654",
+  "candidato": "Freeman (2014). Active learning increases student performance in science, engineering, and mathematics",
+  "tipo": "journal-article"
+ },
+ "unesco23": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.54675/ewzm9535",
+  "libre": null,
+  "candidato": " (2023). Guidance for generative AI in education and research",
+  "tipo": "edited-book"
+ },
+ "vygotsky78": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Vygotsky (1978). Mind in Society: The Development of Higher Psychological Processes",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL8298080W",
+  "libro_nota": 1
+ },
+ "flavell79": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0003-066x.34.10.906",
+  "libre": null,
+  "candidato": "Flavell (1979). Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry.",
+  "tipo": "journal-article"
+ },
+ "wood76": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1469-7610.1976.tb00381.x",
+  "libre": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1469-7610.1976.tb00381.x",
+  "candidato": "Wood (1976). THE ROLE OF TUTORING IN PROBLEM SOLVING\n                    <sup>*</sup>",
+  "tipo": "journal-article"
+ },
+ "cepeda06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.132.3.354",
+  "libre": "https://escholarship.org/content/qt3rr6q10c/qt3rr6q10c.pdf?t=lnr1h0",
+  "candidato": "Cepeda (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis.",
+  "tipo": "journal-article"
+ },
+ "zimmerman02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15430421tip4102_2",
+  "libre": null,
+  "candidato": "Zimmerman (2002). Becoming a Self-Regulated Learner: An Overview",
+  "tipo": "journal-article"
+ },
+ "dunlosky13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/1529100612453266",
+  "libre": null,
+  "candidato": "Dunlosky (2013). Improving Students’ Learning With Effective Learning Techniques",
+  "tipo": "journal-article"
+ },
+ "johansen88": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Johansen (1988). Groupware: Computer Support for Business Teams",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL3490040W",
+  "libro_nota": 1
+ },
+ "hrastinski08": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.56,
+  "doi": null,
+  "libre": null,
+  "candidato": "Cöster (2011). Management of Asynchronous and Synchronous E-Learning",
+  "tipo": "book-chapter",
+  "web": "https://er.educause.edu/articles/2008/11/asynchronous-and-synchronous-elearning"
+ },
+ "garrison04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.iheduc.2004.02.001",
+  "libre": null,
+  "candidato": "Garrison (2004). Blended learning: Uncovering its transformative potential in higher education",
+  "tipo": "journal-article"
+ },
+ "moore89": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/08923648909526659",
+  "libre": null,
+  "candidato": "Moore (1989). Editorial: Three types of interaction",
+  "tipo": "journal-article"
+ },
+ "brown89": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x018001032",
+  "libre": "https://www.ideals.illinois.edu/items/18064/bitstreams/64664/data.pdf",
+  "candidato": "Brown (1989). Situated Cognition and the Culture of Learning",
+  "tipo": "journal-article"
+ },
+ "barrows80": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Barrows (1980). Problem-based learning : an approach to medical education",
+  "tipo": "other",
+  "libro": "https://openlibrary.org/works/OL4615420W",
+  "libro_nota": 1
+ },
+ "thomas00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Thomas (2000). A REVIEW OF RESEARCH ON PROJECT-BASED LEARNING",
+  "tipo": "review"
+ },
+ "crouch01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/1.1374249",
+  "libre": null,
+  "candidato": "Crouch (2001). Peer Instruction: Ten years of experience and results",
+  "tipo": "journal-article"
+ },
+ "collins89": {
+  "estado": "confirmada",
+  "similitud": 0.92,
+  "doi": null,
+  "libre": null,
+  "candidato": "Collins (1989). Cognitive apprenticeship : Teaching the craft of reading, writing, and mathematics",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL8447262W",
+  "libro_nota": 1
+ },
+ "hamilton16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s11528-016-0091-y",
+  "libre": null,
+  "candidato": "Hamilton (2016). The Substitution Augmentation Modification Redefinition (SAMR) Model: a Critical Review and Suggestions for its Use",
+  "tipo": "journal-article"
+ },
+ "bergmann12": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": null,
+  "libre": null,
+  "candidato": "Sams (2012). Flip Your Classroom: Reach Every Student in Every Class Every Day",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL16495595W",
+  "libro_nota": 1
+ },
+ "lage00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00220480009596759",
+  "libre": null,
+  "candidato": "Lage (2000). Inverting the Classroom: A Gateway to Creating an Inclusive Learning Environment",
+  "tipo": "journal-article"
+ },
+ "biggs96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00138871",
+  "libre": null,
+  "candidato": "Biggs (1996). Enhancing teaching through constructive alignment",
+  "tipo": "journal-article"
+ },
+ "anderson01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Anderson (2001). A taxonomy for learning, teaching, and assessing : a revision of Bloom's taxonomy of educational objectives",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL16641840W",
+  "libro_nota": 1
+ },
+ "shuell86": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543056004411",
+  "libre": null,
+  "candidato": "Shuell (1986). Cognitive Conceptions of Learning",
+  "tipo": "journal-article"
+ },
+ "hattie07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/003465430298487",
+  "libre": "http://hdl.handle.net/20.500.12209/11107",
+  "candidato": "Hattie (2007). The Power of Feedback",
+  "tipo": "journal-article"
+ },
+ "black98b": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1177/003172171009200119",
+  "libre": null,
+  "candidato": "Black (2010). Inside the Black Box: Raising Standards through Classroom Assessment",
+  "tipo": "journal-article"
+ },
+ "black98a": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/0969595980050102",
+  "libre": null,
+  "candidato": "Black (1998). Assessment and Classroom Learning",
+  "tipo": "journal-article"
+ },
+ "jonsson07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2007.05.002",
+  "libre": null,
+  "candidato": "Jonsson (2007). The use of scoring rubrics: Reliability, validity and educational consequences",
+  "tipo": "journal-article"
+ },
+ "panadero13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2013.01.002",
+  "libre": "https://figshare.com/articles/journal_contribution/The_use_of_scoring_rubrics_for_formative_assessment_purposes_revisited_A_review/20589180",
+  "candidato": "Panadero (2013). The use of scoring rubrics for formative assessment purposes revisited: A review",
+  "tipo": "journal-article"
+ },
+ "weber23": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s40979-023-00146-z",
+  "libre": "https://edintegrity.biomedcentral.com/counter/pdf/10.1007/s40979-023-00146-z",
+  "candidato": "Weber-Wulff (2023). Testing of detection tools for AI-generated text",
+  "tipo": "journal-article"
+ },
+ "lalley07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Lalley (2007). The Learning Pyramid: Does It Point Teachers in the Right Direction?.",
+  "tipo": "article"
+ },
+ "letrud12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Letrud (2012). A Rebuttal of NTL Institute's Learning Pyramid.",
+  "tipo": "article"
+ },
+ "villarroel18": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1080/02602938.2017.1412396",
+  "libre": null,
+  "candidato": "Villarroel (2017). Authentic assessment: creating a blueprint for course design",
+  "tipo": "journal-article"
+ },
+ "liang23": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.patter.2023.100779",
+  "libre": "http://www.cell.com/article/S2666389923001307/pdf",
+  "candidato": "Liang (2023). GPT detectors are biased against non-native English writers",
+  "tipo": "journal-article"
+ },
+ "kulik90": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543060002265",
+  "libre": null,
+  "candidato": "Kulik (1990). Effectiveness of Mastery Learning Programs: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "sweller88": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15516709cog1202_4",
+  "libre": null,
+  "candidato": "Sweller (1988). Cognitive Load During Problem Solving: Effects on Learning",
+  "tipo": "journal-article"
+ },
+ "bastani25": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1073/pnas.2422633122",
+  "libre": "https://doi.org/10.1073/pnas.2422633122",
+  "candidato": "Bastani (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+  "tipo": "journal-article"
+ },
+ "sweller98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1023/a:1022193728205",
+  "libre": null,
+  "candidato": "Sweller (1998). Cognitive Architecture and Instructional Design",
+  "tipo": "journal-article"
+ },
+ "sweller85": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s1532690xci0201_3",
+  "libre": null,
+  "candidato": "Sweller (1985). The Use of Worked Examples as a Substitute for Problem Solving in Learning Algebra",
+  "tipo": "journal-article"
+ },
+ "kalyuga03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep3801_4",
+  "libre": "http://handle.unsw.edu.au/1959.4/42177",
+  "candidato": "Kalyuga (2003). The Expertise Reversal Effect",
+  "tipo": "journal-article"
+ },
+ "brunmair19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/bul0000209",
+  "libre": null,
+  "candidato": "Brunmair (2019). Similarity matters: A meta-analysis of interleaved learning and its moderators.",
+  "tipo": "journal-article"
+ },
+ "atkinson00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543070002181",
+  "libre": null,
+  "candidato": "Atkinson (2000). Learning from Examples: Instructional Principles from the Worked Examples Research",
+  "tipo": "journal-article"
+ },
+ "rohrer07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s11251-007-9015-8",
+  "libre": null,
+  "candidato": "Rohrer (2007). The shuffling of mathematics problems improves learning",
+  "tipo": "journal-article"
+ },
+ "bjork11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Bjork (2011). Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning.",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL20807889W",
+  "libro_nota": 1
+ },
+ "rawson11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0023956",
+  "libre": null,
+  "candidato": "Rawson (2011). Optimizing schedules of retrieval practice for durable and efficient learning: How much is enough?",
+  "tipo": "journal-article"
+ },
+ "rawson13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10648-013-9240-4",
+  "libre": null,
+  "candidato": "Rawson (2013). The Power of Successive Relearning: Improving Performance on Course Exams and Long-Term Retention",
+  "tipo": "journal-article"
+ },
+ "ebbinghaus13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/10011-000",
+  "libre": null,
+  "candidato": "Ebbinghaus (1913). Memory: A contribution to experimental psychology.",
+  "tipo": "book"
+ },
+ "murre15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1371/journal.pone.0120644",
+  "libre": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0120644&type=printable",
+  "candidato": "Murre (2015). Replication and Analysis of Ebbinghaus’ Forgetting Curve",
+  "tipo": "journal-article"
+ },
+ "mayer03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep3801_6",
+  "libre": null,
+  "candidato": "Mayer (2003). Nine Ways to Reduce Cognitive Load in Multimedia Learning",
+  "tipo": "journal-article"
+ },
+ "marton76": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.2044-8279.1976.tb02980.x",
+  "libre": null,
+  "candidato": "MARTON (1976). ON QUALITATIVE DIFFERENCES IN LEARNING: I—OUTCOME AND PROCESS*",
+  "tipo": "journal-article"
+ },
+ "gick80": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/0010-0285(80)90013-4",
+  "libre": "https://hdl.handle.net/2027.42/23210",
+  "candidato": "Gick (1980). Analogical problem solving",
+  "tipo": "journal-article"
+ },
+ "barnett02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.128.4.612",
+  "libre": null,
+  "candidato": "Barnett (2002). When and where do we apply what we learn?: A taxonomy for far transfer.",
+  "tipo": "journal-article"
+ },
+ "posner82": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/sce.3730660207",
+  "libre": null,
+  "candidato": "Posner (1982). Accommodation of a scientific conception: Toward a theory of conceptual change",
+  "tipo": "journal-article"
+ },
+ "meyer05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10734-004-6779-5",
+  "libre": "https://durham-repository.worktribe.com/output/1601228",
+  "candidato": "Meyer (2005). Threshold concepts and troublesome knowledge (2): Epistemological considerations and a conceptual framework for teaching and learning",
+  "tipo": "journal-article"
+ },
+ "meyer06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Meyer (2006). Overcoming Barriers to Student Understanding: Threshold Concepts and Troublesome Knowledge",
+  "tipo": "article"
+ },
+ "bjork94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.7551/mitpress/4561.003.0011",
+  "libre": null,
+  "candidato": "Bjork (1994). Memory and Metamemory Considerations in the Training of Human Beings",
+  "tipo": "book-chapter"
+ },
+ "halloun85": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/1.14030",
+  "libre": null,
+  "candidato": "Halloun (1985). The initial knowledge state of college physics students",
+  "tipo": "journal-article"
+ },
+ "howardjones14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1038/nrn3817",
+  "libre": null,
+  "candidato": "Howard-Jones (2014). Neuroscience and education: myths and messages",
+  "tipo": "journal-article"
+ },
+ "ryan00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0003-066x.55.1.68",
+  "libre": null,
+  "candidato": "Ryan (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being.",
+  "tipo": "journal-article"
+ },
+ "ryan00b": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1006/ceps.1999.1020",
+  "libre": "https://doi.org/10.1006/ceps.1999.1020",
+  "candidato": "Ryan (2000). Intrinsic and Extrinsic Motivations: Classic Definitions and New Directions",
+  "tipo": "journal-article"
+ },
+ "bandura77": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-295x.84.2.191",
+  "libre": "https://doaj.org/article/ccb9da1c287e4fc889803ed90e077385",
+  "candidato": "Bandura (1977). Self-efficacy: Toward a unifying theory of behavioral change.",
+  "tipo": "journal-article"
+ },
+ "richardson12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0026838",
+  "libre": "https://figshare.com/articles/journal_contribution/Psychological_correlates_of_university_students_academic_performance_A_systematic_review_and_meta-analysis/20628825",
+  "candidato": "Richardson (2012). Psychological correlates of university students' academic performance: A systematic review and meta-analysis.",
+  "tipo": "journal-article"
+ },
+ "sisk18": {
+  "estado": "confirmada",
+  "similitud": 0.96,
+  "doi": "10.1177/0956797617739704",
+  "libre": null,
+  "candidato": "Sisk (2018). To What Extent and Under Which Circumstances Are Growth Mind-Sets Important to Academic Achievement? Two Meta-Analyses",
+  "tipo": "journal-article"
+ },
+ "pekrun06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10648-006-9029-9",
+  "libre": null,
+  "candidato": "Pekrun (2006). The Control-Value Theory of Achievement Emotions: Assumptions, Corollaries, and Implications for Educational Research and Practice",
+  "tipo": "journal-article"
+ },
+ "pekrun02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep3702_4",
+  "libre": "https://kops.uni-konstanz.de/server/api/core/bitstreams/b280b399-2642-4080-8693-6d8234b8f6c0/content",
+  "candidato": "Pekrun (2002). Academic Emotions in Students' Self-Regulated Learning and Achievement: A Program of Qualitative and Quantitative Research",
+  "tipo": "journal-article"
+ },
+ "weinstein18": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1186/s41235-017-0087-y",
+  "libre": "https://cognitiveresearchjournal.springeropen.com/track/pdf/10.1186/s41235-017-0087-y",
+  "candidato": "Weinstein (2018). Teaching the science of learning",
+  "tipo": "journal-article"
+ },
+ "facione90": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Facione (1990). Critical Thinking: A Statement of Expert Consensus for Purposes of Educational Assessment and Instruction",
+  "tipo": "article",
+  "web": "https://eric.ed.gov/?id=ED315423"
+ },
+ "kop08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.19173/irrodl.v9i3.523",
+  "libre": "https://www.irrodl.org/index.php/irrodl/article/download/9.3.4/1137",
+  "candidato": "Kop (2008). Connectivism: Learning theory of the future or vestige of the past?",
+  "tipo": "journal-article"
+ },
+ "abrami15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654314551063",
+  "libre": null,
+  "candidato": "Abrami (2015). Strategies for Teaching Students to Think Critically",
+  "tipo": "journal-article"
+ },
+ "emig77": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ccc197716382",
+  "libre": null,
+  "candidato": "Emig (1977). Writing as a Mode of Learning",
+  "tipo": "journal-article"
+ },
+ "dekker12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3389/fpsyg.2012.00429",
+  "libre": "https://www.frontiersin.org/articles/10.3389/fpsyg.2012.00429/pdf",
+  "candidato": "Dekker (2012). Neuromyths in Education: Prevalence and Predictors of Misconceptions among Teachers",
+  "tipo": "article"
+ },
+ "carlino05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Carlino (2005). Escribir, leer, y aprender en la universidad. Una introducción a la alfabetización académica",
+  "tipo": "book"
+ },
+ "lea98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/03075079812331380364",
+  "libre": null,
+  "candidato": "Lea (1998). Student writing in higher education: An academic literacies approach",
+  "tipo": "journal-article"
+ },
+ "bangert04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543074001029",
+  "libre": null,
+  "candidato": "Bangert-Drowns (2004). The Effects of School-Based Writing-to-Learn Interventions on Academic Achievement: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "elliott91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Elliott (1991). Action research for educational change",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL2655241W",
+  "libro_nota": 1
+ },
+ "edgerton91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Edgerton (1991). The Teaching Portfolio: Capturing the Scholarship in Teaching.",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL3597846W",
+  "libro_nota": 1
+ },
+ "trigwell99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1023/a:1003548313194",
+  "libre": null,
+  "candidato": "Trigwell (1999). Relations between teachers' approaches to teaching and students' approaches to learning",
+  "tipo": "journal-article"
+ },
+ "uttl17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.stueduc.2016.08.007",
+  "libre": null,
+  "candidato": "Uttl (2017). Meta-analysis of faculty's teaching effectiveness: Student evaluation of teaching ratings and student learning are not related",
+  "tipo": "journal-article"
+ },
+ "berk05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Berk (2005). Survey of 12 Strategies to Measure Teaching Effectiveness",
+  "tipo": "article"
+ },
+ "christensen91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Christensen (1991). Education for Judgment: The Artistry of Discussion Leadership",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL34953022W",
+  "libro_nota": 1
+ },
+ "hutchings99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00091389909604218",
+  "libre": null,
+  "candidato": "Hutchings (1999). The Scholarship of Teaching: New Elaborations, New Developments",
+  "tipo": "article"
+ },
+ "lewin46": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1540-4560.1946.tb02295.x",
+  "libre": null,
+  "candidato": "Lewin (1946). Action Research and Minority Problems",
+  "tipo": "article"
+ },
+ "herreid94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Herreid (1994). Case Studies in Science: A Novel Method of Science Education",
+  "tipo": "article"
+ },
+ "leijon22": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1080/14703297.2021.1892503",
+  "libre": null,
+  "candidato": "Leijon (2021). Challenge based learning in higher education– A systematic literature review",
+  "tipo": "journal-article"
+ },
+ "celio11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.5193/jee34.2.164",
+  "libre": "https://doi.org/10.5193/jee34.2.164",
+  "candidato": "Celio (2011). A Meta-analysis of the Impact of Service-Learning on Students",
+  "tipo": "journal-article"
+ },
+ "vives25": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.3102/00346543241230064",
+  "libre": null,
+  "candidato": "Vives (2024). Learning With Jigsaw: A Systematic Review Gathering All the Pieces of the Puzzle More Than 40 Years Later",
+  "tipo": "journal-article"
+ },
+ "smith09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1165919",
+  "libre": null,
+  "candidato": "Smith (2009). Why Peer Discussion Improves Student Performance on In-Class Concept Questions",
+  "tipo": "journal-article"
+ },
+ "deterding11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/2181037.2181040",
+  "libre": null,
+  "candidato": "Deterding (2011). From game design elements to gamefulness",
+  "tipo": "proceedings-article"
+ },
+ "sailer20": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1007/s10648-019-09498-w",
+  "libre": null,
+  "candidato": "Sailer (2019). The Gamification of Learning: a Meta-analysis",
+  "tipo": "journal-article"
+ },
+ "chernikova20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654320933544",
+  "libre": "https://journals.sagepub.com/doi/pdf/10.3102/0034654320933544",
+  "candidato": "Chernikova (2020). Simulation-Based Learning in Higher Education: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "alfieri11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0021017",
+  "libre": "https://doi.org/10.1037/a0021017",
+  "candidato": "Alfieri (2011). Does discovery-based instruction enhance learning?",
+  "tipo": "journal-article"
+ },
+ "wouters13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0031311",
+  "libre": null,
+  "candidato": "Wouters (2013). A meta-analysis of the cognitive and motivational effects of serious games.",
+  "tipo": "journal-article"
+ },
+ "topping96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00138870",
+  "libre": null,
+  "candidato": "Topping (1996). The effectiveness of peer tutoring in further and higher education: A typology and review of the literature",
+  "tipo": "journal-article"
+ },
+ "roscoe07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654307309920",
+  "libre": null,
+  "candidato": "Roscoe (2007). Understanding Tutor Learning: Knowledge-Building and Knowledge-Telling in Peer Tutors’ Explanations and Questions",
+  "tipo": "journal-article"
+ },
+ "schon87": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": null,
+  "libre": null,
+  "candidato": "Schön (1987). Educating the Reflective Practitioner: Toward a New Design for Teaching and Learning in the Professions",
+  "tipo": "article"
+ },
+ "bringle95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Bringle (1995). A Service-Learning Curriculum for Faculty",
+  "tipo": "article"
+ },
+ "beichner07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/revperv1.1.4",
+  "libre": "https://www.per-central.org/document/ServeFile.cfm?ID=4517&DocID=183&Attachment=1",
+  "candidato": "Beichner (2007). The Student-Centered Activities for Large Enrollment Undergraduate Programs (SCALE-UP) project",
+  "tipo": "journal-article"
+ },
+ "lazonder16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654315627366",
+  "libre": null,
+  "candidato": "Lazonder (2016). Meta-Analysis of Inquiry-Based Learning",
+  "tipo": "journal-article"
+ },
+ "burbules12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.24908/eoe-ese-rse.v13i0.4472",
+  "libre": "https://ojs.library.queensu.ca/index.php/encounters/article/download/4472/4498",
+  "candidato": "Burbules (2012). Ubiquitous Learning and the Future of Teaching",
+  "tipo": "journal-article"
+ },
+ "brooks11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1467-8535.2010.01098.x",
+  "libre": null,
+  "candidato": "Brooks (2011). Space matters: The impact of formal learning environments on student learning",
+  "tipo": "journal-article"
+ },
+ "sharples07": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.4135/9781848607859.n10",
+  "libre": null,
+  "candidato": "Sharpies (2007). A Theory of Learning for the Mobile Age",
+  "tipo": "book-chapter"
+ },
+ "sung16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2015.11.008",
+  "libre": "https://www.sciencedirect.com/science/article/pii/S0360131515300804/pdf",
+  "candidato": "Sung (2016). The effects of integrating mobile devices with teaching and learning on students' learning performance: A meta-analysis and research synthesis",
+  "tipo": "journal-article"
+ },
+ "siemens11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": "https://hdl.handle.net/11541.2/133395",
+  "candidato": "Siemens (2011). Penetrating the Fog: Analytics in Learning and Education.",
+  "tipo": "article"
+ },
+ "viberg18": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.chb.2018.07.027",
+  "libre": "https://doi.org/10.1016/j.chb.2018.07.027",
+  "candidato": "Viberg (2018). The current landscape of learning analytics in higher education",
+  "tipo": "journal-article"
+ },
+ "hodges20": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1163/9789004702813_021",
+  "libre": "http://hdl.handle.net/10919/104648",
+  "candidato": "Hodges (2024). The Difference between Emergency Remote Teaching and Online Learning",
+  "tipo": "book-chapter",
+  "web": "https://er.educause.edu/articles/2020/3/the-difference-between-emergency-remote-teaching-and-online-learning"
+ },
+ "vanlehn11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00461520.2011.611369",
+  "libre": null,
+  "candidato": "VanLEHN (2011). The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems",
+  "tipo": "journal-article"
+ },
+ "unesco19": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.51,
+  "doi": null,
+  "libre": null,
+  "candidato": "Mickens (2019). Galveston College Library: Open Educational Resources (OER): Recommendations for OER @ GC",
+  "tipo": "article",
+  "web": "https://unesdoc.unesco.org/ark:/48223/pf0000373755"
+ },
+ "moule07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3402/rlt.v15i1.10911",
+  "libre": "https://doi.org/10.3402/rlt.v15i1.10911",
+  "candidato": "Moule (2007). Challenging the five-stage model for e-learning: a new approach",
+  "tipo": "journal-article"
+ },
+ "reich19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.aav7958",
+  "libre": "https://hdl.handle.net/1721.1/136215",
+  "candidato": "Reich (2019). The MOOC pivot",
+  "tipo": "journal-article"
+ },
+ "makransky19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.learninstruc.2017.12.007",
+  "libre": null,
+  "candidato": "Makransky (2019). Adding immersive virtual reality to a science lab simulation causes more presence but less learning",
+  "tipo": "journal-article"
+ },
+ "radianti20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2019.103778",
+  "libre": "https://www.sciencedirect.com/science/article/pii/S0360131519303276/pdf",
+  "candidato": "Radianti (2020). A systematic review of immersive virtual reality applications for higher education: Design elements, lessons learned, and research agenda",
+  "tipo": "journal-article"
+ },
+ "hunsu16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2015.11.013",
+  "libre": null,
+  "candidato": "Hunsu (2016). A meta-analysis of the effects of audience response systems (clicker-based technologies) on cognition and affect",
+  "tipo": "journal-article"
+ },
+ "long20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/3313831.3376727",
+  "libre": null,
+  "candidato": "Long (2020). What is AI Literacy? Competencies and Design Considerations",
+  "tipo": "proceedings-article"
+ },
+ "hilton16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s11423-016-9434-9",
+  "libre": "https://link.springer.com/content/pdf/10.1007/s11423-016-9434-9.pdf",
+  "candidato": "Hilton (2016). Open educational resources and college textbook choices: a review of research on efficacy and perceptions",
+  "tipo": "journal-article"
+ },
+ "hargittai02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.5210/fm.v7i4.942",
+  "libre": "https://doi.org/10.5210/fm.v7i4.942",
+  "candidato": "Hargittai (2002). Second-Level Digital Divide: Differences in People's Online Skills",
+  "tipo": "journal-article"
+ },
+ "w3c23": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.44,
+  "doi": null,
+  "libre": null,
+  "candidato": " (). Information technology�� W3C Web Content Accessibility\r\nGuidelines�(WCAG)�2.2",
+  "tipo": "standard",
+  "web": "https://www.w3.org/TR/WCAG22/"
+ },
+ "gernsbacher15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/2372732215602130",
+  "libre": "https://www.ncbi.nlm.nih.gov/pmc/articles/5214590",
+  "candidato": "Gernsbacher (2015). Video Captions Benefit Everyone",
+  "tipo": "journal-article"
+ },
+ "topping98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543068003249",
+  "libre": null,
+  "candidato": "Topping (1998). Peer Assessment Between Students in Colleges and Universities",
+  "tipo": "journal-article"
+ },
+ "falchikov00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543070003287",
+  "libre": null,
+  "candidato": "Falchikov (2000). Student Peer Assessment in Higher Education: A Meta-Analysis Comparing Peer and Teacher Marks",
+  "tipo": "journal-article"
+ },
+ "panadero17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2017.08.004",
+  "libre": "https://www.sciencedirect.com/science/article/pii/S1747938X17300313",
+  "candidato": "Panadero (2017). Effects of self-assessment on self-regulated learning and self-efficacy: Four meta-analyses",
+  "tipo": "journal-article"
+ },
+ "caldwell07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.06-12-0205",
+  "libre": "https://www.ncbi.nlm.nih.gov/pmc/articles/1810212",
+  "candidato": "Caldwell (2007). Clickers in the Large Classroom: Current Research and Best-Practice Tips",
+  "tipo": "article"
+ },
+ "mccabe01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15327019eb1103_2",
+  "libre": null,
+  "candidato": "McCabe (2001). Cheating in Academic Institutions: A Decade of Research",
+  "tipo": "journal-article"
+ },
+ "bretag16": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.1007/978-981-287-098-8",
+  "libre": null,
+  "candidato": " (2016). Handbook of Academic Integrity",
+  "tipo": "reference-book"
+ },
+ "carless18": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/02602938.2018.1463354",
+  "libre": "https://www.tandfonline.com/doi/pdf/10.1080/02602938.2018.1463354?needAccess=true",
+  "candidato": "Carless (2018). The development of student feedback literacy: enabling uptake of feedback",
+  "tipo": "journal-article"
+ },
+ "paulson91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Paulson (1991). What Makes a Portfolio a Portfolio",
+  "tipo": "article"
+ },
+ "redecker17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.2760/178382",
+  "libre": null,
+  "candidato": "Redecker (2017). European Framework for the Digital Competence of Educators:DigCompEdu",
+  "tipo": "preprint"
+ },
+ "driessen07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1365-2923.2007.02944.x",
+  "libre": null,
+  "candidato": "Driessen (2007). Portfolios in medical education: why do they meet with mixed success? A systematic review",
+  "tipo": "journal-article"
+ },
+ "sadler89": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00117714",
+  "libre": null,
+  "candidato": "Sadler (1989). Formative assessment and the design of instructional systems",
+  "tipo": "journal-article"
+ },
+ "tai18": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1007/s10734-017-0220-3",
+  "libre": null,
+  "candidato": "Tai (2017). Developing evaluative judgement: enabling students to make decisions about the quality of work",
+  "tipo": "journal-article"
+ },
+ "glaser63": {
+  "estado": "confirmada",
+  "similitud": 0.92,
+  "doi": "10.1037/h0049294",
+  "libre": null,
+  "candidato": "Glaser (1963). Instructional technology and the measurement of learing outcomes: Some questions.",
+  "tipo": "journal-article"
+ },
+ "lipnevich09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0017841",
+  "libre": null,
+  "candidato": "Lipnevich (2009). Effects of differential feedback on students’ examination performance.",
+  "tipo": "journal-article"
+ },
+ "haladyna13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.4324/9780203850381",
+  "libre": null,
+  "candidato": "Haladyna (2013). Developing and Validating Test Items",
+  "tipo": "book"
+ },
+ "butler88": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.2044-8279.1988.tb00874.x",
+  "libre": null,
+  "candidato": "BUTLER (1988). ENHANCING AND UNDERMINING INTRINSIC MOTIVATION: THE EFFECTS OF TASK‐INVOLVING AND EGO‐INVOLVING EVALUATION ON INTEREST AND PERFORMANCE",
+  "tipo": "journal-article"
+ },
+ "boud00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/713695728",
+  "libre": null,
+  "candidato": "Boud (2000). Sustainable Assessment: Rethinking assessment for the learning society",
+  "tipo": "journal-article"
+ },
+ "kelley39": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/h0057123",
+  "libre": null,
+  "candidato": "Kelley (1939). The selection of upper and lower groups for the validation of test items.",
+  "tipo": "journal-article"
+ },
+ "barrie06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10734-004-6384-7",
+  "libre": null,
+  "candidato": "Barrie (2006). Understanding What We Mean by the Generic Attributes of Graduates",
+  "tipo": "journal-article"
+ },
+ "fraser06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/03075070600680521",
+  "libre": "https://figshare.com/articles/journal_contribution/The_Curriculum_That_s_just_a_unit_outline_isn_t_it_/22874165",
+  "candidato": "Fraser (2006). The curriculum? That’s just a unit outline, isn’t it?",
+  "tipo": "journal-article"
+ },
+ "jackson68": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Jackson (1968). Life in Classrooms",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL2714046W",
+  "libro_nota": 1
+ },
+ "molenda03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/pfi.4930420508",
+  "libre": null,
+  "candidato": "Molenda (2003). In search of the elusive ADDIE model",
+  "tipo": "journal-article"
+ },
+ "branch09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/978-0-387-09506-6",
+  "libre": null,
+  "candidato": "Branch (2009). Instructional Design: The ADDIE Approach",
+  "tipo": "book"
+ },
+ "merrill02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf02505024",
+  "libre": null,
+  "candidato": "Merrill (2002). First principles of instruction",
+  "tipo": "journal-article"
+ },
+ "tuning07": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": null,
+  "libre": null,
+  "candidato": "Wagenaar (2007). Reflexiones y perspectivas de la Educación Superior en América Latina: informe final, Proyecto Tuning, America Latina 2004-2007",
+  "tipo": "article",
+  "libro": "https://openlibrary.org/works/OL35133914W",
+  "libro_nota": 1
+ },
+ "bruner60": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.4159/9780674028999",
+  "libre": null,
+  "candidato": "BRUNER (1960). The Process of Education",
+  "tipo": "edited-book"
+ },
+ "palmer14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tia2.20004",
+  "libre": "https://doi.org/10.1002/tia2.20004",
+  "candidato": "Palmer (2014). Measuring the Promise: A Learning-Focused Syllabus Rubric",
+  "tipo": "journal-article"
+ },
+ "kember04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/0307507042000190778",
+  "libre": "https://figshare.com/articles/journal_contribution/Interpreting_student_workload_and_the_factors_which_shape_students_perceptions_of_their_workload/22974029",
+  "candidato": "Kember * (2004). Interpreting student workload and the factors which shape students' perceptions of their workload",
+  "tipo": "journal-article"
+ },
+ "harden99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/01421599979752",
+  "libre": null,
+  "candidato": "HARDEN (1999). What is a spiral curriculum?",
+  "tipo": "journal-article"
+ },
+ "hafferty94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/00001888-199411000-00001",
+  "libre": null,
+  "candidato": "Hafferty (1994). The hidden curriculum, ethics teaching, and the structure of medical education",
+  "tipo": "article"
+ },
+ "keller87": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf02905780",
+  "libre": null,
+  "candidato": "Keller (1987). Development and use of the ARCS model of instructional design",
+  "tipo": "journal-article"
+ },
+ "nielsen13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1371/journal.pone.0071275",
+  "libre": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0071275&type=printable",
+  "candidato": "Nielsen (2013). An Evaluation of the Left-Brain vs. Right-Brain Hypothesis with Resting State Functional Connectivity Magnetic Resonance Imaging",
+  "tipo": "journal-article"
+ },
+ "wilson07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00986280701291291",
+  "libre": null,
+  "candidato": "Wilson (2007). Attention during Lectures: Beyond Ten Minutes",
+  "tipo": "journal-article"
+ },
+ "bunce10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1021/ed100409p",
+  "libre": null,
+  "candidato": "Bunce (2010). How Long Can Students Pay Attention in Class? A Study of Student Attention Decline Using Clickers",
+  "tipo": "journal-article"
+ },
+ "sana13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2012.10.003",
+  "libre": "https://www.sciencedirect.com/science/article/pii/S0360131512002254/pdf",
+  "candidato": "Sana (2013). Laptop multitasking hinders classroom learning for both users and nearby peers",
+  "tipo": "journal-article"
+ },
+ "kirschner06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep4102_1",
+  "libre": "https://www.tandfonline.com/doi/pdf/10.1207/s15326985ep4102_1?needAccess=true&role=button",
+  "candidato": "Kirschner (2006). Why Minimal Guidance During Instruction Does Not Work: An Analysis of the Failure of Constructivist, Discovery, Problem-Based, Experiential, and Inquiry-Based Teaching",
+  "tipo": "journal-article"
+ },
+ "gardner95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": null,
+  "libre": null,
+  "candidato": "Gardner (1995). Reflections on Multiple Intelligences: Myths and Messages.",
+  "tipo": "article"
+ },
+ "waterhouse06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep4104_1",
+  "libre": null,
+  "candidato": "Waterhouse (2006). Multiple Intelligences, the Mozart Effect, and Emotional Intelligence: A Critical Review",
+  "tipo": "journal-article"
+ },
+ "clark83": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543053004445",
+  "libre": null,
+  "candidato": "Clark (1983). Reconsidering Research on Learning from Media",
+  "tipo": "journal-article"
+ },
+ "karpicke09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/09658210802647009",
+  "libre": null,
+  "candidato": "Karpicke (2009). Metacognitive strategies in student learning: Do students practise retrieval when they study on their own?",
+  "tipo": "journal-article"
+ },
+ "boring16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.14293/s2199-1006.1.sor-edu.aetbzc.v1",
+  "libre": "https://www.scienceopen.com/document_file/25ff22be-8a1b-4c97-9d88-084c8d98187a/ScienceOpen/3507_XE6680747344554310733.pdf",
+  "candidato": "Boring (2016). Student evaluations of teaching (mostly) do not measure teaching effectiveness",
+  "tipo": "journal-article"
+ },
+ "piaget52": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/11494-000",
+  "libre": null,
+  "candidato": "Piaget (1952). The origins of intelligence in children.",
+  "tipo": "book"
+ },
+ "dewey10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/10903-000",
+  "libre": null,
+  "candidato": "Dewey (1910). How we think.",
+  "tipo": "book"
+ },
+ "chi14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00461520.2014.965823",
+  "libre": null,
+  "candidato": "Chi (2014). The ICAP Framework: Linking Cognitive Engagement to Active Learning Outcomes",
+  "tipo": "journal-article"
+ },
+ "bradbury16": {
+  "estado": "confirmada",
+  "doi": "10.1152/advan.00109.2016",
+  "libre": null,
+  "similitud": 1,
+  "candidato": "Bradbury (2016). Attention span during lectures: 8 seconds, 10 minutes, or more?"
+ },
+ "ericsson93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-295x.100.3.363",
+  "libre": null,
+  "candidato": "Ericsson (1993). The role of deliberate practice in the acquisition of expert performance.",
+  "tipo": "journal-article"
+ },
+ "rosenshine96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543066002181",
+  "libre": null,
+  "candidato": "Rosenshine (1996). Teaching Students to Generate Questions: A Review of the Intervention Studies",
+  "tipo": "journal-article"
+ },
+ "metcalfe17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1146/annurev-psych-010416-044022",
+  "libre": null,
+  "candidato": "Metcalfe (2017). Learning from Errors",
+  "tipo": "journal-article"
+ },
+ "sinha21": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543211019105",
+  "libre": "https://journals.sagepub.com/doi/pdf/10.3102/00346543211019105",
+  "candidato": "Sinha (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure",
+  "tipo": "journal-article"
+ },
+ "immordino07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1751-228x.2007.00004.x",
+  "libre": null,
+  "candidato": "Immordino‐Yang (2007). We Feel, Therefore We Learn: The Relevance of Affective and Social Neuroscience to Education",
+  "tipo": "journal-article"
+ },
+ "salomon91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.2307/1177234",
+  "libre": null,
+  "candidato": "Salomon (1991). Partners in Cognition: Extending Human Intelligence with Intelligent Technologies",
+  "tipo": "journal-article"
+ },
+ "hattie96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543066004507",
+  "libre": null,
+  "candidato": "Hattie (1996). The Relationship Between Research and Teaching: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "loewenstein94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.116.1.75",
+  "libre": null,
+  "candidato": "Loewenstein (1994). The psychology of curiosity: A review and reinterpretation.",
+  "tipo": "journal-article"
+ },
+ "gruber14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.neuron.2014.08.060",
+  "libre": null,
+  "candidato": "Gruber (2014). States of Curiosity Modulate Hippocampus-Dependent Learning via the Dopaminergic Circuit",
+  "tipo": "journal-article"
+ },
+ "macnamara14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0956797614535810",
+  "libre": null,
+  "candidato": "Macnamara (2014). Deliberate Practice and Performance in Music, Games, Sports, Education, and Professions: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "mandinach16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.tate.2016.07.011",
+  "libre": null,
+  "candidato": "Mandinach (2016). What does it mean for teachers to be data literate: Laying out the skills, knowledge, and dispositions",
+  "tipo": "journal-article"
+ },
+ "campbell79": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/0149-7189(79)90048-x",
+  "libre": null,
+  "candidato": "Campbell (1979). Assessing the impact of planned social change",
+  "tipo": "journal-article"
+ },
+ "wing06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/1118178.1118215",
+  "libre": null,
+  "candidato": "Wing (2006). Computational thinking",
+  "tipo": "journal-article"
+ },
+ "turing37": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1112/plms/s2-42.1.230",
+  "libre": null,
+  "candidato": "Turing (1937). On Computable Numbers, with an Application to the Entscheidungsproblem",
+  "tipo": "journal-article"
+ },
+ "leiner09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/1629607.1629613",
+  "libre": null,
+  "candidato": "Leiner (2009). A brief history of the internet",
+  "tipo": "journal-article"
+ },
+ "samuel59": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1147/rd.33.0210",
+  "libre": null,
+  "candidato": "Samuel (1959). Some Studies in Machine Learning Using the Game of Checkers",
+  "tipo": "journal-article"
+ },
+ "baker22": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s40593-021-00285-9",
+  "libre": null,
+  "candidato": "Baker (2022). Algorithmic Bias in Education",
+  "tipo": "journal-article"
+ },
+ "smith11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.10-08-0101",
+  "libre": null,
+  "candidato": "Smith (2011). Combining Peer Discussion with Instructor Explanation Increases Student Learning from In-Class Concept Questions",
+  "tipo": "journal-article"
+ },
+ "lasry08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/1.2895678",
+  "libre": null,
+  "candidato": "Lasry (2008). Clickers or Flashcards: Is There Really a Difference?",
+  "tipo": "journal-article"
+ },
+ "deslauriers19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1073/pnas.1821936116",
+  "libre": null,
+  "candidato": "Deslauriers (2019). Measuring actual learning versus feeling of learning in response to being actively engaged in the classroom",
+  "tipo": "journal-article"
+ },
+ "kestin25": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1038/s41598-025-97652-6",
+  "libre": null,
+  "candidato": "Kestin (2025). AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting",
+  "tipo": "journal-article"
+ },
+ "dawson24": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/02602938.2024.2386662",
+  "libre": null,
+  "candidato": "Dawson (2024). Validity matters more than cheating",
+  "tipo": "journal-article"
+ },
+ "perkins24": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.53761/q3azde36",
+  "libre": null,
+  "candidato": "Perkins (2024). The Artificial Intelligence Assessment Scale (AIAS): A Framework for Ethical Integration of Generative AI in Educational Assessment",
+  "tipo": "journal-article"
+ },
+ "macdonald17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3389/fpsyg.2017.01314",
+  "libre": null,
+  "candidato": "Macdonald (2017). Dispelling the Myth: Training in Education or Neuroscience Decreases but Does Not Eliminate Beliefs in Neuromyths",
+  "tipo": "journal-article"
+ },
+ "elbow97": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.6901",
+  "libre": null,
+  "candidato": "Elbow (1997). High Stakes and Low Stakes in Assigning and Responding to Writing",
+  "tipo": "journal-article"
+ },
+ "elbow98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1093/oso/9780195120165.001.0001",
+  "libre": null,
+  "candidato": "Elbow (1998). Writing Without Teachers",
+  "tipo": "book"
+ },
+ "mccrindle95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/0959-4752(95)00010-z",
+  "libre": null,
+  "candidato": "McCrindle (1995). The impact of learning journals on metacognitive and cognitive processes and learning performance",
+  "tipo": "journal-article"
+ },
+ "bean82": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.37219821205",
+  "libre": null,
+  "candidato": "Bean (1982). Microtheme strategies for developing cognitive skills",
+  "tipo": "journal-article"
+ },
+ "flower81": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ccc198115885",
+  "libre": null,
+  "candidato": "Flower (1981). A Cognitive Process Theory of Writing",
+  "tipo": "journal-article"
+ },
+ "sommers80": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ccc198015930",
+  "libre": null,
+  "candidato": "Sommers (1980). Revision Strategies of Student Writers and Experienced Adult Writers",
+  "tipo": "journal-article"
+ },
+ "sommers82": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ccc198215854",
+  "libre": null,
+  "candidato": "Sommers (1982). Responding to Student Writing",
+  "tipo": "journal-article"
+ },
+ "cho10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.learninstruc.2009.08.006",
+  "libre": null,
+  "candidato": "Cho (2010). Student revision with peer and expert reviewing",
+  "tipo": "journal-article"
+ },
+ "cho11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0021950",
+  "libre": null,
+  "candidato": "Cho (2011). Learning by reviewing.",
+  "tipo": "journal-article"
+ },
+ "huisman19": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1080/02602938.2018.1545896",
+  "libre": null,
+  "candidato": "Huisman (2018). The impact of formative peer feedback on higher education students’ academic writing: a Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "lundstrom09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.jslw.2008.06.002",
+  "libre": null,
+  "candidato": "Lundstrom (2009). To give is better than to receive: The benefits of peer review to the reviewer's own writing",
+  "tipo": "journal-article"
+ },
+ "nicol14": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1080/02602938.2013.795518",
+  "libre": null,
+  "candidato": "Nicol (2013). Rethinking feedback practices in higher education: a peer review perspective",
+  "tipo": "journal-article"
+ },
+ "gardner13": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1093/applin/ams024",
+  "libre": null,
+  "candidato": "Gardner (2012). A Classification of Genre Families in University Student Writing",
+  "tipo": "journal-article"
+ },
+ "anderson15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/rte201527602",
+  "libre": null,
+  "candidato": "Anderson (2015). The Contributions of Writing to Learning and Development: Results from a Large-Scale Multi-institutional Study",
+  "tipo": "journal-article"
+ },
+ "north84": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ce198413354",
+  "libre": null,
+  "candidato": "North (1984). The Idea of a Writing Center",
+  "tipo": "journal-article"
+ },
+ "howard95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ce19959094",
+  "libre": null,
+  "candidato": "Howard (1995). Plagiarisms, Authorships, and the Academic Death Penalty",
+  "tipo": "journal-article"
+ },
+ "howard10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1558/wap.v2i2.177",
+  "libre": null,
+  "candidato": "Howard (2010). Writing from Sources, Writing from Sentences",
+  "tipo": "journal-article"
+ },
+ "pecorari03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.jslw.2003.08.004",
+  "libre": null,
+  "candidato": "Pecorari (2003). Good and original: Plagiarism and patchwriting in academic second-language writing",
+  "tipo": "journal-article"
+ },
+ "rose85": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ce198513275",
+  "libre": null,
+  "candidato": "Rose (1985). The Language of Exclusion: Writing Instruction at the University",
+  "tipo": "journal-article"
+ },
+ "avila20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.14507/epaa.28.4722",
+  "libre": null,
+  "candidato": "Ávila Reyes (2020). Identidad, voz y agencia: Claves para una enseñanza inclusiva de la escritura en la universidad",
+  "tipo": "journal-article"
+ },
+ "sommers04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.58680/ccc20043993",
+  "libre": null,
+  "candidato": "Sommers (2004). The Novice as Expert: Writing the Freshman Year",
+  "tipo": "journal-article"
+ },
+ "chi81": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15516709cog0502_2",
+  "libre": null,
+  "candidato": "Chi (1981). Categorization and Representation of Physics Problems by Experts and Novices*",
+  "tipo": "journal-article"
+ },
+ "nathan03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00028312040004905",
+  "libre": null,
+  "candidato": "Nathan (2003). Expert Blind Spot Among Preservice Teachers",
+  "tipo": "journal-article"
+ },
+ "middendorf04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.142",
+  "libre": null,
+  "candidato": "Middendorf (2004). Decoding the disciplines: A model for helping students learn disciplinary ways of thinking",
+  "tipo": "journal-article"
+ },
+ "middendorf15": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1177/1474022214552655",
+  "libre": null,
+  "candidato": "Middendorf (2014). What’s feeling got to do with it? Decoding emotional bottlenecks in the history classroom",
+  "tipo": "journal-article"
+ },
+ "mccune05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10734-004-6666-0",
+  "libre": null,
+  "candidato": "MCcune (2005). The development of students? ways of thinking and practising in three final-year biology courses",
+  "tipo": "journal-article"
+ },
+ "willingham08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3200/aepr.109.4.21-32",
+  "libre": null,
+  "candidato": "Willingham (2008). Critical Thinking: Why Is It So Hard to Teach?",
+  "tipo": "journal-article"
+ },
+ "toulmin03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1017/cbo9780511840005",
+  "libre": null,
+  "candidato": "Toulmin (2003). The Uses of Argument",
+  "tipo": "monograph"
+ },
+ "vangelder05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3200/ctch.53.1.41-48",
+  "libre": null,
+  "candidato": "Gelder (2005). Teaching Critical Thinking: Some Lessons From Cognitive Science",
+  "tipo": "journal-article"
+ },
+ "twardy04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.5840/teachphil200427213",
+  "libre": null,
+  "candidato": "Twardy (2004). Argument Maps Improve Critical Thinking",
+  "tipo": "journal-article"
+ },
+ "wineburg91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.83.1.73",
+  "libre": null,
+  "candidato": "Wineburg (1991). Historical problem solving: A study of the cognitive processes used in the evaluation of documentary and pictorial evidence.",
+  "tipo": "journal-article"
+ },
+ "shanahan08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.17763/haer.78.1.v62444321p602101",
+  "libre": null,
+  "candidato": "SHANAHAN (2008). Teaching Disciplinary Literacy to Adolescents: Rethinking Content- Area Literacy",
+  "tipo": "journal-article"
+ },
+ "king04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep3901_2",
+  "libre": null,
+  "candidato": "King (2004). Reflective Judgment: Theory and Research on the Development of Epistemic Assumptions Through Adulthood",
+  "tipo": "journal-article"
+ },
+ "chi89": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15516709cog1302_1",
+  "libre": null,
+  "candidato": "Chi (1989). Self‐Explanations: How Students Study and Use Examples in Learning to Solve Problems",
+  "tipo": "journal-article"
+ },
+ "chi94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15516709cog1803_3",
+  "libre": null,
+  "candidato": "Chi (1994). Eliciting Self‐Explanations Improves Understanding",
+  "tipo": "journal-article"
+ },
+ "lochhead87": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.37219873007",
+  "libre": null,
+  "candidato": "Lochhead (1987). Teaching analytical reasoning through thinking aloud pair problem solving",
+  "tipo": "journal-article"
+ },
+ "shulman05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1162/0011526054622015",
+  "libre": null,
+  "candidato": "Shulman (2005). Signature pedagogies in the professions",
+  "tipo": "journal-article"
+ },
+ "hoskins07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1534/genetics.107.071183",
+  "libre": null,
+  "candidato": "Hoskins (2007). Selective Use of the Primary Literature Transforms the Classroom Into a Virtual Laboratory",
+  "tipo": "journal-article"
+ },
+ "deutsch49": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/001872674900200204",
+  "libre": null,
+  "candidato": "Deutsch (1949). A Theory of Co-operation and Competition",
+  "tipo": "journal-article"
+ },
+ "slavin96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1006/ceps.1996.0004",
+  "libre": null,
+  "candidato": "Slavin (1996). Research on Cooperative Learning and Achievement: What We Know, What We Need to Know",
+  "tipo": "journal-article"
+ },
+ "michaelsen08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.330",
+  "libre": null,
+  "candidato": "Michaelsen (2008). The essential elements of team‐based learning",
+  "tipo": "journal-article"
+ },
+ "swanson19": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1177/1469787417731201",
+  "libre": null,
+  "candidato": "Swanson (2017). The effect of team-based learning on content knowledge: A meta-analysis",
+  "tipo": "journal-article"
+ },
+ "liu17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/stl0000075",
+  "libre": null,
+  "candidato": "Liu (2017). The effectiveness of team-based learning on academic outcomes: A meta-analysis.",
+  "tipo": "journal-article"
+ },
+ "epstein02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf03395423",
+  "libre": null,
+  "candidato": "Epstein (2002). Immediate Feedback Assessment Technique Promotes Learning and Corrects Inaccurate first Responses",
+  "tipo": "journal-article"
+ },
+ "ohland12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.5465/amle.2010.0177",
+  "libre": null,
+  "candidato": "Ohland (2012). The Comprehensive Assessment of Team Member Effectiveness: Development of a Behaviorally Anchored Rating Scale for Self- and Peer Evaluation",
+  "tipo": "journal-article"
+ },
+ "kaufman00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/j.2168-9830.2000.tb00507.x",
+  "libre": null,
+  "candidato": "Kaufman (2000). Accounting for Individual Effort in Cooperative Learning Teams",
+  "tipo": "journal-article"
+ },
+ "mathieu09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0013257",
+  "libre": null,
+  "candidato": "Mathieu (2009). Laying the foundation for successful team performance trajectories: The roles of team charters and performance strategies.",
+  "tipo": "journal-article"
+ },
+ "latane79": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.37.6.822",
+  "libre": null,
+  "candidato": "Latané (1979). Many hands make light the work: The causes and consequences of social loafing.",
+  "tipo": "journal-article"
+ },
+ "karau93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.65.4.681",
+  "libre": null,
+  "candidato": "Karau (1993). Social loafing: A meta-analytic review and theoretical integration.",
+  "tipo": "journal-article"
+ },
+ "edmondson99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.2307/2666999",
+  "libre": null,
+  "candidato": "Edmondson (1999). Psychological Safety and Learning Behavior in Work Teams",
+  "tipo": "journal-article"
+ },
+ "johnson00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00091380009602706",
+  "libre": null,
+  "candidato": "Johnson (2000). Constructive Controversy: <i>The Educative Power of Intellectual Conflict</i>",
+  "tipo": "journal-article"
+ },
+ "johnson09b": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x08330540",
+  "libre": null,
+  "candidato": "Johnson (2009). Energizing Learning: The Instructional Power of Conflict",
+  "tipo": "journal-article"
+ },
+ "dedreu03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0021-9010.88.4.741",
+  "libre": null,
+  "candidato": "De Dreu (2003). Task versus relationship conflict, team performance, and team member satisfaction: A meta-analysis.",
+  "tipo": "journal-article"
+ },
+ "dewit12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0024844",
+  "libre": null,
+  "candidato": "de Wit (2012). The paradox of intragroup conflict: A meta-analysis.",
+  "tipo": "journal-article"
+ },
+ "diehl87": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.53.3.497",
+  "libre": null,
+  "candidato": "Diehl (1987). Productivity loss in brainstorming groups: Toward the solution of a riddle.",
+  "tipo": "journal-article"
+ },
+ "mullen91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15324834basp1201_1",
+  "libre": null,
+  "candidato": "Mullen (1991). Productivity Loss in Brainstorming Groups: A Meta-Analytic Integration",
+  "tipo": "journal-article"
+ },
+ "paulus93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0146167293191009",
+  "libre": null,
+  "candidato": "Paulus (1993). Perception of Performance in Group Brainstorming: The Illusion of Group                Productivity",
+  "tipo": "journal-article"
+ },
+ "helmreich99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15327108ijap0901_2",
+  "libre": null,
+  "candidato": "Helmreich (1999). The Evolution of Crew Resource Management Training in Commercial Aviation",
+  "tipo": "journal-article"
+ },
+ "vogel17": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1007/s10648-016-9361-7",
+  "libre": null,
+  "candidato": "Vogel (2016). Socio-Cognitive Scaffolding with Computer-Supported Collaboration Scripts: a Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "wegner87": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/978-1-4612-4634-3_9",
+  "libre": null,
+  "candidato": "Wegner (1987). Transactive Memory: A Contemporary Analysis of the Group Mind",
+  "tipo": "book-chapter"
+ },
+ "liang95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0146167295214009",
+  "libre": null,
+  "candidato": "Liang (1995). Group Versus Individual Training and Group Performance: The Mediating Role of Transactive Memory",
+  "tipo": "journal-article"
+ },
+ "salas08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1518/001872008x375009",
+  "libre": null,
+  "candidato": "Salas (2008). Does Team Training Improve Team Performance? A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "hughes16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/apl0000120",
+  "libre": null,
+  "candidato": "Hughes (2016). Saving lives: A meta-analysis of team training in healthcare.",
+  "tipo": "journal-article"
+ },
+ "inacsl16": {
+  "estado": "confirmada",
+  "similitud": 0.85,
+  "doi": "10.1016/j.ecns.2016.09.005",
+  "libre": null,
+  "candidato": " (2016). INACSL Standards of Best Practice: SimulationSM Simulation Design",
+  "tipo": "journal-article"
+ },
+ "issenberg05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/01421590500046924",
+  "libre": null,
+  "candidato": "Barry Issenberg (2005). Features and uses of high-fidelity medical simulations that lead to effective learning: a BEME systematic review",
+  "tipo": "journal-article"
+ },
+ "hunt14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.resuscitation.2014.02.025",
+  "libre": null,
+  "candidato": "Hunt (2014). Pediatric resident resuscitation skills improve after “Rapid Cycle Deliberate Practice” training",
+  "tipo": "journal-article"
+ },
+ "ericsson04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/00001888-200410001-00022",
+  "libre": null,
+  "candidato": "Ericsson (2004). Deliberate Practice and the Acquisition and Maintenance of Expert Performance in Medicine and Related Domains",
+  "tipo": "journal-article"
+ },
+ "mcgaghie11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/acm.0b013e318217e119",
+  "libre": null,
+  "candidato": "McGaghie (2011). Does Simulation-Based Medical Education With Deliberate Practice Yield Better Results Than Traditional Clinical Education? A Meta-Analytic Comparative Review of the Evidence",
+  "tipo": "journal-article"
+ },
+ "mcgaghie14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/medu.12391",
+  "libre": null,
+  "candidato": "McGaghie (2014). A critical review of simulation‐based mastery learning with translational outcomes",
+  "tipo": "journal-article"
+ },
+ "barsuk09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1001/archinternmed.2009.215",
+  "libre": null,
+  "candidato": "Barsuk (2009). Use of Simulation-Based Education to Reduce Catheter-Related Bloodstream Infections",
+  "tipo": "journal-article"
+ },
+ "mcdermott21": {
+  "estado": "confirmada",
+  "similitud": 0.92,
+  "doi": "10.1016/j.ecns.2021.08.008",
+  "libre": null,
+  "candidato": "McDermott (2021). Healthcare Simulation Standards of Best PracticeTM Prebriefing: Preparation and Briefing",
+  "tipo": "journal-article"
+ },
+ "dieckmann07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/sih.0b013e3180f637f5",
+  "libre": null,
+  "candidato": "Dieckmann (2007). Deepening the Theoretical Foundations of Patient Simulation as Social Practice",
+  "tipo": "journal-article"
+ },
+ "fanning07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/sih.0b013e3180315539",
+  "libre": null,
+  "candidato": "Fanning (2007). The Role of Debriefing in Simulation-Based Learning",
+  "tipo": "journal-article"
+ },
+ "cheng14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/medu.12432",
+  "libre": null,
+  "candidato": "Cheng (2014). Debriefing for technology‐enhanced simulation: a systematic review and meta‐analysis",
+  "tipo": "journal-article"
+ },
+ "rudolph08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1553-2712.2008.00248.x",
+  "libre": null,
+  "candidato": "Rudolph (2008). Debriefing as Formative Assessment: Closing Performance Gaps in Medical Education",
+  "tipo": "journal-article"
+ },
+ "rudolph06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/01266021-200600110-00006",
+  "libre": null,
+  "candidato": "Rudolph (2006). Thereʼs No Such Thing as “Nonjudgmental” Debriefing: A Theory and Method for Debriefing with Good Judgment",
+  "tipo": "journal-article"
+ },
+ "hamstra14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/acm.0000000000000130",
+  "libre": null,
+  "candidato": "Hamstra (2014). Reconsidering Fidelity in Simulation-Based Training",
+  "tipo": "journal-article"
+ },
+ "norman12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1365-2923.2012.04243.x",
+  "libre": null,
+  "candidato": "Norman (2012). The minimal relationship between simulation fidelity and transfer of learning",
+  "tipo": "journal-article"
+ },
+ "bosse12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.pec.2011.10.007",
+  "libre": null,
+  "candidato": "Bosse (2012). The effect of using standardized patients or peer role play on ratings of undergraduate communication training: A randomized controlled trial",
+  "tipo": "journal-article"
+ },
+ "lane07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.pec.2007.02.011",
+  "libre": null,
+  "candidato": "Lane (2007). The use of simulated patients and role-play in communication skills training: A review of the literature to August 2005",
+  "tipo": "journal-article"
+ },
+ "barrows93": {
+  "estado": "confirmada",
+  "similitud": 0.94,
+  "doi": "10.1097/00001888-199306000-00002",
+  "libre": null,
+  "candidato": "Barrows (1993). An overview of the uses of standardized patients for teaching and evaluating clinical skills. AAMC",
+  "tipo": "journal-article"
+ },
+ "cook10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/acm.0b013e3181edfe13",
+  "libre": null,
+  "candidato": "Cook (2010). Computerized Virtual Patients in Health Professions Education: A Systematic Review and Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "dejong13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1230579",
+  "libre": null,
+  "candidato": "de Jong (2013). Physical and Virtual Laboratories in Science and Engineering Education",
+  "tipo": "journal-article"
+ },
+ "ilgen15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/medu.12621",
+  "libre": null,
+  "candidato": "Ilgen (2015). A systematic review of validity evidence for checklists versus global rating scales in simulation‐based assessment",
+  "tipo": "journal-article"
+ },
+ "harden75": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1136/bmj.1.5955.447",
+  "libre": null,
+  "candidato": "Harden (1975). Assessment of clinical competence using objective structured examination.",
+  "tipo": "journal-article"
+ },
+ "miller90": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/00001888-199009000-00045",
+  "libre": null,
+  "candidato": "Miller (1990). The assessment of clinical skills/competence/performance",
+  "tipo": "journal-article"
+ },
+ "vandervleuten05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1365-2929.2005.02094.x",
+  "libre": null,
+  "candidato": "Van Der Vleuten (2005). Assessing professional competence: from methods to programmes",
+  "tipo": "journal-article"
+ },
+ "patterson13": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1136/bmjqs-2012-000942",
+  "libre": null,
+  "candidato": "Patterson (2012). In situ simulation: detection of safety threats and teamwork training in a high risk emergency department",
+  "tipo": "journal-article"
+ },
+ "oregan16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1186/s41077-015-0004-8",
+  "libre": null,
+  "candidato": "O’Regan (2016). Observer roles that optimise learning in healthcare simulation education: a systematic review",
+  "tipo": "journal-article"
+ },
+ "norcini03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.7326/0003-4819-138-6-200303180-00012",
+  "libre": null,
+  "candidato": "Norcini (2003). The Mini-CEX: A Method for Assessing Clinical Skills",
+  "tipo": "journal-article"
+ },
+ "walton07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.92.1.82",
+  "libre": null,
+  "candidato": "Walton (2007). A question of belonging: Race, social fit, and achievement.",
+  "tipo": "journal-article"
+ },
+ "walton11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1198364",
+  "libre": null,
+  "candidato": "Walton (2011). A Brief Social-Belonging Intervention Improves Academic and Health Outcomes of Minority Students",
+  "tipo": "journal-article"
+ },
+ "steele95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.69.5.797",
+  "libre": null,
+  "candidato": "Steele (1995). Stereotype threat and the intellectual test performance of African Americans.",
+  "tipo": "journal-article"
+ },
+ "steele97": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0003-066x.52.6.613",
+  "libre": null,
+  "candidato": "Steele (1997). A threat in the air: How stereotypes shape intellectual identity and performance.",
+  "tipo": "journal-article"
+ },
+ "shewach19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/apl0000420",
+  "libre": null,
+  "candidato": "Shewach (2019). Stereotype threat effects in settings with features likely versus unlikely in operational test settings: A meta-analysis.",
+  "tipo": "journal-article"
+ },
+ "cohen99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0146167299258011",
+  "libre": null,
+  "candidato": "Cohen (1999). The Mentor’s Dilemma: Providing Critical Feedback Across the Racial Divide",
+  "tipo": "journal-article"
+ },
+ "yeager14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0033906",
+  "libre": null,
+  "candidato": "Yeager (2014). Breaking the cycle of mistrust: Wise interventions to provide critical feedback across the racial divide.",
+  "tipo": "journal-article"
+ },
+ "stephens12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0027143",
+  "libre": null,
+  "candidato": "Stephens (2012). Unseen disadvantage: How American universities' focus on independence undermines the academic performance of first-generation college students.",
+  "tipo": "journal-article"
+ },
+ "pascarella04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1353/jhe.2004.0016",
+  "libre": null,
+  "candidato": "Pascarella (2004). First-Generation College Students: Additional Evidence on College Experiences and Outcomes",
+  "tipo": "journal-article"
+ },
+ "miyake10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1195996",
+  "libre": null,
+  "candidato": "Miyake (2010). Reducing the Gender Achievement Gap in College Science: A Classroom Study of Values Affirmation",
+  "tipo": "journal-article"
+ },
+ "serragarcia20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0956797620923587",
+  "libre": null,
+  "candidato": "Serra-Garcia (2020). Can Short Psychological Interventions Affect Educational Performance? Revisiting the Effect of Self-Affirmation Interventions",
+  "tipo": "journal-article"
+ },
+ "hanselman17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/edu0000141",
+  "libre": null,
+  "candidato": "Hanselman (2017). New evidence on self-affirmation effects and theorized sources of heterogeneity from large-scale replications.",
+  "tipo": "journal-article"
+ },
+ "tanner13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.13-06-0115",
+  "libre": null,
+  "candidato": "Tanner (2013). Structure Matters: Twenty-One Teaching Strategies to Promote Student Engagement and Cultivate Classroom Equity",
+  "tipo": "journal-article"
+ },
+ "dallimore13": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1177/1052562912446067",
+  "libre": null,
+  "candidato": "Dallimore (2012). Impact of Cold-Calling on Student Voluntary Participation",
+  "tipo": "journal-article"
+ },
+ "haak11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1204820",
+  "libre": null,
+  "candidato": "Haak (2011). Increased Structure and Active Learning Reduce the Achievement Gap in Introductory Biology",
+  "tipo": "journal-article"
+ },
+ "moll92": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00405849209543534",
+  "libre": null,
+  "candidato": "Moll (1992). Funds of knowledge for teaching: Using a qualitative approach to connect homes and classrooms",
+  "tipo": "journal-article"
+ },
+ "eddy14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.14-03-0050",
+  "libre": null,
+  "candidato": "Eddy (2014). Getting Under the Hood: How and for Whom Does Increasing Course Structure Work?",
+  "tipo": "journal-article"
+ },
+ "onu06": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.56,
+  "doi": null,
+  "libre": null,
+  "candidato": "González Martín (2007). Convención de Naciones Unidas sobre los Derechos de las Personas con Discapacidad",
+  "tipo": "journal-article",
+  "web": "https://www.un.org/esa/socdev/enable/documents/tccconvs.pdf"
+ },
+ "ladson95": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00028312032003465",
+  "libre": null,
+  "candidato": "Ladson-Billings (1995). Toward a Theory of Culturally Relevant Pedagogy",
+  "tipo": "journal-article"
+ },
+ "oliver90": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/978-1-349-20895-1",
+  "libre": null,
+  "candidato": "Oliver (1990). The Politics of Disablement",
+  "tipo": "book"
+ },
+ "clance78": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/h0086006",
+  "libre": null,
+  "candidato": "Clance (1978). The imposter phenomenon in high achieving women: Dynamics and therapeutic intervention.",
+  "tipo": "journal-article"
+ },
+ "canning19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/sciadv.aau4734",
+  "libre": null,
+  "candidato": "Canning (2019). STEM faculty who believe ability is fixed have larger racial achievement gaps and inspire less student motivation in their classes",
+  "tipo": "journal-article"
+ },
+ "malouff16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0004944116664618",
+  "libre": null,
+  "candidato": "Malouff (2016). Bias in grading: A meta-analysis of experimental research findings",
+  "tipo": "journal-article"
+ },
+ "rowe86": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/002248718603700110",
+  "libre": null,
+  "candidato": "Rowe (1986). Wait Time: Slowing Down May Be A Way of Speeding Up!",
+  "tipo": "journal-article"
+ },
+ "gale14": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1080/03075079.2012.721351",
+  "libre": null,
+  "candidato": "Gale (2012). Navigating change: a typology of student transition in higher education",
+  "tipo": "journal-article"
+ },
+ "tinto75": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543045001089",
+  "libre": null,
+  "candidato": "Tinto (1975). Dropout from Higher Education: A Theoretical Synthesis of Recent Research",
+  "tipo": "journal-article"
+ },
+ "kift10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.5204/intjfyhe.v1i1.13",
+  "libre": null,
+  "candidato": "Kift (2010). Transition pedagogy: A third generation approach to FYE - A case study of policy and practice for the higher education sector",
+  "tipo": "journal-article"
+ },
+ "nicol09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/02602930802255139",
+  "libre": null,
+  "candidato": "Nicol (2009). Assessment for learner self‐regulation: enhancing achievement in the first year using learning technologies",
+  "tipo": "journal-article"
+ },
+ "hartwig12": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.3758/s13423-011-0181-y",
+  "libre": null,
+  "candidato": "Hartwig (2011). Study strategies of college students: Are self-testing and scheduling related to achievement?",
+  "tipo": "journal-article"
+ },
+ "kornell07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3758/bf03194055",
+  "libre": null,
+  "candidato": "Kornell (2007). The promise and perils of self-regulated study",
+  "tipo": "journal-article"
+ },
+ "koriat05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0278-7393.31.2.187",
+  "libre": null,
+  "candidato": "Koriat (2005). Illusions of Competence in Monitoring One's Knowledge During Study.",
+  "tipo": "journal-article"
+ },
+ "steel07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.133.1.65",
+  "libre": null,
+  "candidato": "Steel (2007). The nature of procrastination: A meta-analytic and theoretical review of quintessential self-regulatory failure.",
+  "tipo": "journal-article"
+ },
+ "britton91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.83.3.405",
+  "libre": null,
+  "candidato": "Britton (1991). Effects of time-management practices on college grades.",
+  "tipo": "journal-article"
+ },
+ "aeon21": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1371/journal.pone.0245066",
+  "libre": null,
+  "candidato": "Aeon (2021). Does time management work? A meta-analysis",
+  "tipo": "journal-article"
+ },
+ "zhao04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1023/b:rihe.0000015692.88534.de",
+  "libre": null,
+  "candidato": "Zhao (2004). Adding Value: Learning Communities and Student Engagement",
+  "tipo": "journal-article"
+ },
+ "permzadian16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654315584955",
+  "libre": null,
+  "candidato": "Permzadian (2016). Do First-Year Seminars Improve College Grades and Retention? A Quantitative Review of Their Overall Effectiveness and an Examination of Moderators of Effectiveness",
+  "tipo": "journal-article"
+ },
+ "crisp09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s11162-009-9130-2",
+  "libre": null,
+  "candidato": "Crisp (2009). Mentoring College Students: A Critical Review of the Literature Between 1990 and 2007",
+  "tipo": "journal-article"
+ },
+ "logue16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0162373716649056",
+  "libre": null,
+  "candidato": "Logue (2016). Should Students Assessed as Needing Remedial Mathematics Take College-Level Quantitative Courses Instead? A Randomized Controlled Trial",
+  "tipo": "journal-article"
+ },
+ "smith17": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.46504/12201701sm",
+  "libre": null,
+  "candidato": " (2017). “Office Hours are Kind of Weird”: Reclaiming a Resource to Foster Student-Faculty Interaction",
+  "tipo": "journal-article"
+ },
+ "soicher17": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1177/1475725716661872",
+  "libre": null,
+  "candidato": "Soicher (2016). Do Exam Wrappers Increase Metacognition and Performance? A Single Course Intervention",
+  "tipo": "journal-article"
+ },
+ "diekelmann10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1038/nrn2762",
+  "libre": null,
+  "candidato": "Diekelmann (2010). The memory function of sleep",
+  "tipo": "journal-article"
+ },
+ "pilcher97": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/07448489709595597",
+  "libre": null,
+  "candidato": "Pilcher (1997). How Sleep Deprivation Affects Psychological Variables Related to College Students' Cognitive Performance",
+  "tipo": "journal-article"
+ },
+ "thacher08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/15402000701796114",
+  "libre": null,
+  "candidato": "Thacher (2008). University Students and the “All Nighter”: Correlates and Patterns of Students' Engagement in a Single Night of Total Sleep Deprivation",
+  "tipo": "journal-article"
+ },
+ "okano19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1038/s41539-019-0055-z",
+  "libre": null,
+  "candidato": "Okano (2019). Sleep quality, duration, and consistency are associated with better academic performance in college students",
+  "tipo": "journal-article"
+ },
+ "deci85": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/978-1-4899-2271-7",
+  "libre": null,
+  "candidato": "Deci (1985). Intrinsic Motivation and Self-Determination in Human Behavior",
+  "tipo": "book"
+ },
+ "deci94": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1467-6494.1994.tb00797.x",
+  "libre": null,
+  "candidato": "Deci (1994). Facilitating Internalization: The Self‐Determination Theory Perspective",
+  "tipo": "journal-article"
+ },
+ "howard21": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/1745691620966789",
+  "libre": null,
+  "candidato": "Howard (2021). Student Motivation and Associated Outcomes: A Meta-Analysis From Self-Determination Theory",
+  "tipo": "journal-article"
+ },
+ "vallerand92": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1467-6494.1992.tb00922.x",
+  "libre": null,
+  "candidato": "Vallerand (1992). Intrinsic, Extrinsic, and Amotivational Styles as Predictors of Behavior: A Prospective Study",
+  "tipo": "journal-article"
+ },
+ "vansteenkiste04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.87.2.246",
+  "libre": null,
+  "candidato": "Vansteenkiste (2004). Motivating Learning, Performance, and Persistence: The Synergistic Effects of Intrinsic Goal Contents and Autonomy-Supportive Contexts.",
+  "tipo": "journal-article"
+ },
+ "reeve09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/00461520903028990",
+  "libre": null,
+  "candidato": "REEVE (2009). Why Teachers Adopt a Controlling Motivating Style Toward Students and How They Can Become More Autonomy Supportive",
+  "tipo": "journal-article"
+ },
+ "reeve06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.98.1.209",
+  "libre": null,
+  "candidato": "Reeve (2006). What teachers say and do to support students' autonomy during a learning activity.",
+  "tipo": "journal-article"
+ },
+ "jang10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0019682",
+  "libre": null,
+  "candidato": "Jang (2010). Engaging students in learning activities: It is not autonomy support or structure but autonomy support and structure.",
+  "tipo": "journal-article"
+ },
+ "reeve02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1023/a:1021711629417",
+  "libre": null,
+  "candidato": "Reeve (2002). Providing a Rationale in an Autonomy-Supportive Way as a Strategy to Motivate Others During an Uninteresting Activity",
+  "tipo": "journal-article"
+ },
+ "patall08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.134.2.270",
+  "libre": null,
+  "candidato": "Patall (2008). The effects of choice on intrinsic motivation and related outcomes: A meta-analysis of research findings.",
+  "tipo": "journal-article"
+ },
+ "wigfield00": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1006/ceps.1999.1015",
+  "libre": null,
+  "candidato": "Wigfield (2000). Expectancy–Value Theory of Achievement Motivation",
+  "tipo": "journal-article"
+ },
+ "eccles20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.cedpsych.2020.101859",
+  "libre": null,
+  "candidato": "Eccles (2020). From expectancy-value theory to situated expectancy-value theory: A developmental, social cognitive, and sociocultural perspective on motivation",
+  "tipo": "journal-article"
+ },
+ "flake15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.cedpsych.2015.03.002",
+  "libre": null,
+  "candidato": "Flake (2015). Measuring cost: The forgotten component of expectancy-value theory",
+  "tipo": "journal-article"
+ },
+ "hulleman10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0019506",
+  "libre": null,
+  "candidato": "Hulleman (2010). Enhancing interest and performance with a utility value intervention.",
+  "tipo": "journal-article"
+ },
+ "harackiewicz16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/pspp0000075",
+  "libre": null,
+  "candidato": "Harackiewicz (2016). Closing achievement gaps with a utility-value intervention: Disentangling race and social class.",
+  "tipo": "journal-article"
+ },
+ "canning18": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/edu0000244",
+  "libre": null,
+  "candidato": "Canning (2018). Improving performance and retention in introductory biology with a utility-value intervention.",
+  "tipo": "journal-article"
+ },
+ "hidi06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15326985ep4102_4",
+  "libre": null,
+  "candidato": "Hidi (2006). The Four-Phase Model of Interest Development",
+  "tipo": "journal-article"
+ },
+ "mitchell93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.85.3.424",
+  "libre": null,
+  "candidato": "Mitchell (1993). Situational interest: Its multifaceted structure in the secondary school mathematics classroom.",
+  "tipo": "journal-article"
+ },
+ "harp98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.90.3.414",
+  "libre": null,
+  "candidato": "Harp (1998). How seductive details do their damage: A theory of cognitive interest in science learning.",
+  "tipo": "journal-article"
+ },
+ "rey12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2012.05.003",
+  "libre": null,
+  "candidato": "Rey (2012). A review of research and a meta-analysis of the seductive detail effect",
+  "tipo": "journal-article"
+ },
+ "sundararajan20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s10648-020-09522-4",
+  "libre": null,
+  "candidato": "Sundararajan (2020). Keep it Coherent: A Meta-Analysis of the Seductive Details Effect",
+  "tipo": "journal-article"
+ },
+ "ames92": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-0663.84.3.261",
+  "libre": null,
+  "candidato": "Ames (1992). Classrooms: Goals, structures, and student motivation.",
+  "tipo": "journal-article"
+ },
+ "elliot01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.80.3.501",
+  "libre": null,
+  "candidato": "Elliot (2001). A 2 × 2 achievement goal framework.",
+  "tipo": "journal-article"
+ },
+ "deci99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-2909.125.6.627",
+  "libre": null,
+  "candidato": "Deci (1999). A meta-analytic review of experiments examining the effects of extrinsic rewards on intrinsic motivation.",
+  "tipo": "journal-article"
+ },
+ "lepper73": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/h0035519",
+  "libre": null,
+  "candidato": "Lepper (1973). Undermining children's intrinsic interest with extrinsic reward: A test of the \"overjustification\" hypothesis.",
+  "tipo": "journal-article"
+ },
+ "weiner85": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0033-295x.92.4.548",
+  "libre": null,
+  "candidato": "Weiner (1985). An attributional theory of achievement motivation and emotion.",
+  "tipo": "journal-article"
+ },
+ "wilson82": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.42.2.367",
+  "libre": null,
+  "candidato": "Wilson (1982). Improving the academic performance of college freshmen: Attribution therapy revisited.",
+  "tipo": "journal-article"
+ },
+ "perry93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00992156",
+  "libre": null,
+  "candidato": "Perry (1993). Enhancing achievement motivation and performance in college students: An attributional retraining perspective",
+  "tipo": "journal-article"
+ },
+ "reeve13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0032690",
+  "libre": null,
+  "candidato": "Reeve (2013). How students create motivationally supportive learning environments for themselves: The concept of agentic engagement.",
+  "tipo": "journal-article"
+ },
+ "reeve11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.cedpsych.2011.05.002",
+  "libre": null,
+  "candidato": "Reeve (2011). Agency as a fourth aspect of students’ engagement during learning activities",
+  "tipo": "journal-article"
+ },
+ "fredricks04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543074001059",
+  "libre": null,
+  "candidato": "Fredricks (2004). School Engagement: Potential of the Concept, State of the Evidence",
+  "tipo": "journal-article"
+ },
+ "crede17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/pspp0000102",
+  "libre": null,
+  "candidato": "Credé (2017). Much ado about grit: A meta-analytic synthesis of the grit literature.",
+  "tipo": "journal-article"
+ },
+ "duckworth07": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0022-3514.92.6.1087",
+  "libre": null,
+  "candidato": "Duckworth (2007). Grit: Perseverance and passion for long-term goals.",
+  "tipo": "journal-article"
+ },
+ "felten13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.20343/teachlearninqu.1.1.121",
+  "libre": null,
+  "candidato": "Felten (2013). Principles of Good Practice in SoTL",
+  "tipo": "journal-article"
+ },
+ "hendry12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.53761/1.9.1.7",
+  "libre": null,
+  "candidato": "Hendry (2012). Seeing is Believing: The Benefits of Peer Observation",
+  "tipo": "journal-article"
+ },
+ "bell01": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/13601440110033643",
+  "libre": null,
+  "candidato": "Bell (2001). Supported reflective practice: a programme of peer observation and feedback for academic teaching development",
+  "tipo": "journal-article"
+ },
+ "smith13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.13-08-0154",
+  "libre": null,
+  "candidato": "Smith (2013). The Classroom Observation Protocol for Undergraduate STEM (COPUS): A New Instrument to Characterize University STEM Classroom Practices",
+  "tipo": "journal-article"
+ },
+ "hestenes92": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/1.2343497",
+  "libre": null,
+  "candidato": "Hestenes (1992). Force concept inventory",
+  "tipo": "journal-article"
+ },
+ "hake98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1119/1.18809",
+  "libre": null,
+  "candidato": "Hake (1998). Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+  "tipo": "journal-article"
+ },
+ "kraft20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x20912798",
+  "libre": null,
+  "candidato": "Kraft (2020). Interpreting Effect Sizes of Education Interventions",
+  "tipo": "journal-article"
+ },
+ "belmont79": {
+  "estado": "probable",
+  "similitud": 0.78,
+  "doi": "10.1037/e301872003-001",
+  "libre": null,
+  "candidato": " (1979). Ethical Principles and Guidelines for the Protection of Human Subjects of Research.",
+  "tipo": "dataset",
+  "web": "https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html"
+ },
+ "greenwald97": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0003-066x.52.11.1209",
+  "libre": null,
+  "candidato": "Greenwald (1997). Grading leniency is a removable contaminant of student ratings.",
+  "tipo": "journal-article"
+ },
+ "mengel19": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1093/jeea/jvx057",
+  "libre": null,
+  "candidato": "Mengel (2018). Gender Bias in Teaching Evaluations",
+  "tipo": "journal-article"
+ },
+ "spooren13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654313496870",
+  "libre": null,
+  "candidato": "Spooren (2013). On the Validity of Student Evaluation of Teaching",
+  "tipo": "journal-article"
+ },
+ "cohen80": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00976252",
+  "libre": null,
+  "candidato": "Cohen (1980). Effectiveness of student-rating feedback for improving college instruction: A meta-analysis of findings",
+  "tipo": "journal-article"
+ },
+ "penny04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/00346543074002215",
+  "libre": null,
+  "candidato": "Penny (2004). Effectiveness of Consultation on Student Ratings Feedback: A Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "braun06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1191/1478088706qp063oa",
+  "libre": null,
+  "candidato": "Braun (2006). Using thematic analysis in psychology",
+  "tipo": "journal-article"
+ },
+ "cox04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/tl.129",
+  "libre": null,
+  "candidato": "Cox (2004). Introduction to faculty learning communities",
+  "tipo": "journal-article"
+ },
+ "brame16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1187/cbe.16-03-0125",
+  "libre": null,
+  "candidato": "Brame (2016). Effective Educational Videos: Principles and Guidelines for Maximizing Student Learning from Video Content",
+  "tipo": "journal-article"
+ },
+ "szpunar13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1073/pnas.1221764110",
+  "libre": null,
+  "candidato": "Szpunar (2013). Interpolated memory tests reduce mind wandering and improve learning of online lectures",
+  "tipo": "journal-article"
+ },
+ "vanalten19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2019.05.003",
+  "libre": null,
+  "candidato": "van Alten (2019). Effects of flipping the classroom on learning outcomes and satisfaction: A meta-analysis",
+  "tipo": "journal-article"
+ },
+ "schneider18": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.edurev.2017.11.001",
+  "libre": null,
+  "candidato": "Schneider (2018). A meta-analysis of how signaling affects learning with media",
+  "tipo": "journal-article"
+ },
+ "moodle26": {
+  "estado": "software",
+  "url": "https://moodle.org"
+ },
+ "canvas26": {
+  "estado": "software",
+  "url": "https://www.instructure.com/canvas"
+ },
+ "classroom26": {
+  "estado": "software",
+  "url": "https://classroom.google.com"
+ },
+ "gmail26": {
+  "estado": "software",
+  "url": "https://mail.google.com"
+ },
+ "outlook26": {
+  "estado": "software",
+  "url": "https://outlook.office.com"
+ },
+ "whatsapp26": {
+  "estado": "software",
+  "url": "https://www.whatsapp.com"
+ },
+ "bouhnik14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.28945/2051",
+  "libre": null,
+  "candidato": "Bouhnik (2014). WhatsApp Goes to School: Mobile Instant Messaging between Teachers and Students",
+  "tipo": "journal-article"
+ },
+ "so16": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.1016/j.iheduc.2016.06.001",
+  "libre": null,
+  "candidato": "So (2016). Mobile instant messaging support for teaching and learning in higher education",
+  "tipo": "journal-article"
+ },
+ "earl88": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.12930/0271-9517-8.2.27",
+  "libre": null,
+  "candidato": "Earl (1988). INTRUSIVE ADVISING OF FRESHMEN IN ACADEMIC DIFFICULTY",
+  "tipo": "journal-article"
+ },
+ "mentimeter26": {
+  "estado": "software",
+  "url": "https://www.mentimeter.com"
+ },
+ "kahoot26": {
+  "estado": "software",
+  "url": "https://kahoot.com"
+ },
+ "nearpod26": {
+  "estado": "software",
+  "url": "https://nearpod.com"
+ },
+ "genially26": {
+  "estado": "software",
+  "url": "https://genially.com"
+ },
+ "classroomscreen26": {
+  "estado": "software",
+  "url": "https://classroomscreen.com"
+ },
+ "duolingo26": {
+  "estado": "software",
+  "url": "https://www.duolingo.com"
+ },
+ "wang20": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2020.103818",
+  "libre": null,
+  "candidato": "Wang (2020). The effect of using Kahoot! for learning – A literature review",
+  "tipo": "journal-article"
+ },
+ "hanus15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2014.08.019",
+  "libre": null,
+  "candidato": "Hanus (2015). Assessing the effects of gamification in the classroom: A longitudinal study on intrinsic motivation, social comparison, satisfaction, effort, and academic performance",
+  "tipo": "journal-article"
+ },
+ "lowry04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0021943603259363",
+  "libre": null,
+  "candidato": "Lowry (2004). Building a Taxonomy and Nomenclature of Collaborative Writing to Improve Interdisciplinary Research and Practice",
+  "tipo": "journal-article"
+ },
+ "nemeth04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/ejsp.210",
+  "libre": null,
+  "candidato": "Nemeth (2004). The liberating role of conflict in group creativity: A study in two countries",
+  "tipo": "journal-article"
+ },
+ "dennis93": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0021-9010.78.4.531",
+  "libre": null,
+  "candidato": "Dennis (1993). Computer brainstorms: More heads are better than one.",
+  "tipo": "journal-article"
+ },
+ "cress08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/s11412-007-9035-z",
+  "libre": null,
+  "candidato": "Cress (2008). A systemic and cognitive view on collaborative knowledge building with wikis",
+  "tipo": "journal-article"
+ },
+ "wineburg19": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/016146811912101102",
+  "libre": null,
+  "candidato": "Wineburg (2019). Lateral Reading and the Nature of Expertise: Reading Less and Learning More When Evaluating Digital Information",
+  "tipo": "journal-article"
+ },
+ "oneill19": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.14742/ajet.3795",
+  "libre": null,
+  "candidato": "ONeill (2019). Stop! Grammar time: University students’ perceptions of the automated feedback program Grammarly",
+  "tipo": "journal-article"
+ },
+ "gdocs26": {
+  "estado": "software",
+  "url": "https://docs.google.com"
+ },
+ "padlet26": {
+  "estado": "software",
+  "url": "https://padlet.com"
+ },
+ "miro26": {
+  "estado": "software",
+  "url": "https://miro.com"
+ },
+ "notion26": {
+  "estado": "software",
+  "url": "https://www.notion.com"
+ },
+ "gscholar26": {
+  "estado": "software",
+  "url": "https://scholar.google.com"
+ },
+ "zotero26": {
+  "estado": "software",
+  "url": "https://www.zotero.org"
+ },
+ "giles05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1038/438900a",
+  "libre": null,
+  "candidato": "Giles (2005). Internet encyclopaedias go head to head",
+  "tipo": "journal-article"
+ },
+ "deepl26": {
+  "estado": "software",
+  "url": "https://www.deepl.com"
+ },
+ "grammarly26": {
+  "estado": "software",
+  "url": "https://www.grammarly.com"
+ },
+ "wikipedia26": {
+  "estado": "software",
+  "url": "https://www.wikipedia.org"
+ },
+ "risko16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.tics.2016.07.002",
+  "libre": null,
+  "candidato": "Risko (2016). Cognitive Offloading",
+  "tipo": "journal-article"
+ },
+ "ji23": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.1145/3571730",
+  "libre": null,
+  "candidato": "Ji (2023). Survey of Hallucination in Natural Language Generation",
+  "tipo": "journal-article"
+ },
+ "openai26": {
+  "estado": "software",
+  "url": "https://chatgpt.com"
+ },
+ "anthropic26": {
+  "estado": "software",
+  "url": "https://claude.ai"
+ },
+ "gemini26": {
+  "estado": "software",
+  "url": "https://gemini.google.com"
+ },
+ "notebook26": {
+  "estado": "software",
+  "url": "https://notebook.google"
+ },
+ "perplexity26": {
+  "estado": "software",
+  "url": "https://www.perplexity.ai"
+ },
+ "copilot26": {
+  "estado": "software",
+  "url": "https://copilot.microsoft.com"
+ },
+ "gforms26": {
+  "estado": "software",
+  "url": "https://forms.google.com"
+ },
+ "mforms26": {
+  "estado": "software",
+  "url": "https://forms.office.com"
+ },
+ "turnitin26": {
+  "estado": "software",
+  "url": "https://www.turnitin.com"
+ },
+ "kasneci23": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.lindif.2023.102274",
+  "libre": null,
+  "candidato": "Kasneci (2023). ChatGPT for good? On opportunities and challenges of large language models for education",
+  "tipo": "journal-article"
+ },
+ "butler08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3758/mc.36.3.604",
+  "libre": null,
+  "candidato": "Butler (2008). Feedback enhances the positive effects and reduces the negative effects of multiple-choice testing",
+  "tipo": "journal-article"
+ },
+ "haladyna02": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1207/s15324818ame1503_5",
+  "libre": null,
+  "candidato": "Haladyna (2002). A Review of Multiple-Choice Item-Writing Guidelines for Classroom Assessment",
+  "tipo": "journal-article"
+ },
+ "bailenson21": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/tmb0000030",
+  "libre": null,
+  "candidato": "Bailenson (2021). Nonverbal overload: A theoretical argument for the causes of Zoom fatigue.",
+  "tipo": "journal-article"
+ },
+ "castelli21": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/ece3.7123",
+  "libre": null,
+  "candidato": "Castelli (2021). Why students do not turn on their video cameras during online classes and an equitable and inclusive plan to encourage them to do so",
+  "tipo": "journal-article"
+ },
+ "kornell09": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1002/acp.1537",
+  "libre": null,
+  "candidato": "Kornell (2009). Optimising learning using flashcards: Spacing is more effective than cramming",
+  "tipo": "journal-article"
+ },
+ "gollwitzer99": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/0003-066x.54.7.493",
+  "libre": null,
+  "candidato": "Gollwitzer (1999). Implementation intentions: Strong effects of simple plans.",
+  "tipo": "journal-article"
+ },
+ "wieman08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.1161948",
+  "libre": null,
+  "candidato": "Wieman (2008). PhET: Simulations That Enhance Learning",
+  "tipo": "journal-article"
+ },
+ "finkelstein05": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1103/physrevstper.1.010103",
+  "libre": null,
+  "candidato": "Finkelstein (2005). When learning about the real world is better done virtually: A study of substituting computer simulations for laboratory equipment",
+  "tipo": "journal-article"
+ },
+ "rutten12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.compedu.2011.07.017",
+  "libre": null,
+  "candidato": "Rutten (2012). The learning effects of computer simulations in science education",
+  "tipo": "journal-article"
+ },
+ "ainsworth06": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.learninstruc.2006.03.001",
+  "libre": null,
+  "candidato": "Ainsworth (2006). DeFT: A conceptual framework for considering learning with multiple representations",
+  "tipo": "journal-article"
+ },
+ "chan14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.2190/ec.51.3.c",
+  "libre": null,
+  "candidato": "Chan (2014). Dynamic Geometry Software Improves Mathematical Achievement: Systematic Review and Meta-Analysis",
+  "tipo": "journal-article"
+ },
+ "blum91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/bf00302716",
+  "libre": null,
+  "candidato": "Blum (1991). Applied mathematical problem solving, modelling, applications, and links to other subjects ? State, trends and issues in mathematics instruction",
+  "tipo": "journal-article"
+ },
+ "phet_sw": {
+  "estado": "software",
+  "url": "https://phet.colorado.edu"
+ },
+ "geogebra_sw": {
+  "estado": "software",
+  "url": "https://www.geogebra.org"
+ },
+ "desmos_sw": {
+  "estado": "software",
+  "url": "https://www.desmos.com"
+ },
+ "colab_sw": {
+  "estado": "software",
+  "url": "https://colab.research.google.com"
+ },
+ "excel_sw": {
+  "estado": "software",
+  "url": "https://www.microsoft.com/microsoft-365/excel"
+ },
+ "sheets_sw": {
+  "estado": "software",
+  "url": "https://workspace.google.com/products/sheets/"
+ },
+ "kluyver16": {
+  "estado": "confirmada",
+  "similitud": 0.86,
+  "doi": "10.3233/978-1-61499-649-1-87",
+  "libre": null,
+  "candidato": "Kluyver Thomas (2016). Jupyter Notebooks &amp;ndash; a publishing format for reproducible computational workflows",
+  "tipo": "book-chapter"
+ },
+ "panko98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.4018/joeuc.1998040102",
+  "libre": null,
+  "candidato": "Panko (1998). What We Know About Spreadsheet Errors",
+  "tipo": "journal-article"
+ },
+ "nulty08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/02602930701293231",
+  "libre": null,
+  "candidato": "Nulty (2008). The adequacy of response rates to online and paper surveys: what can be done?",
+  "tipo": "journal-article"
+ },
+ "kingston11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1745-3992.2011.00220.x",
+  "libre": null,
+  "candidato": "Kingston (2011). Formative Assessment: A Meta-Analysis and a Call for Research",
+  "tipo": "journal-article"
+ },
+ "dunlosky12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.learninstruc.2011.08.003",
+  "libre": null,
+  "candidato": "Dunlosky (2012). Overconfidence produces underachievement: Inaccurate self evaluations undermine students’ learning and retention",
+  "tipo": "journal-article"
+ },
+ "corbin25": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1080/02602938.2025.2503964",
+  "libre": null,
+  "candidato": "Corbin (2025). Talk is cheap: why structural assessment changes are needed for a time of GenAI",
+  "tipo": "journal-article"
+ },
+ "fleckenstein24": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1016/j.caeai.2024.100209",
+  "libre": null,
+  "candidato": "Fleckenstein (2024). Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays",
+  "tipo": "journal-article"
+ },
+ "boysen24": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/14782103241255428",
+  "libre": null,
+  "candidato": "Boysen (2024). A critical analysis of the research evidence behind CAST’s universal design for learning guidelines",
+  "tipo": "journal-article"
+ },
+ "gleichgerrcht15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/mbe.12086",
+  "libre": null,
+  "candidato": "Gleichgerrcht (2015). Educational Neuromyths Among Teachers in Latin America",
+  "tipo": "journal-article"
+ },
+ "anderson96": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0013189x025004005",
+  "libre": null,
+  "candidato": "Anderson (1996). Situated Learning and Education",
+  "tipo": "journal-article"
+ },
+ "gaba04": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1136/qshc.2004.009878",
+  "libre": null,
+  "candidato": "Gaba (2004). The future vision of simulation in health care",
+  "tipo": "journal-article"
+ },
+ "cook12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/sih.0b013e3182614f95",
+  "libre": null,
+  "candidato": "Cook (2012). Comparative Effectiveness of Technology-Enhanced Simulation Versus Other Instructional Methods",
+  "tipo": "journal-article"
+ },
+ "collier08": {
+  "estado": "confirmada",
+  "similitud": 0.8,
+  "doi": "10.1007/s10734-007-9065-5",
+  "libre": null,
+  "candidato": "Collier (2007). “Is that paper really due today?”: differences in first-generation and traditional college students’ understandings of faculty expectations",
+  "tipo": "journal-article"
+ },
+ "watts21": {
+  "estado": "confirmada",
+  "similitud": 0.88,
+  "doi": "10.1016/j.ecns.2021.08.009",
+  "libre": null,
+  "candidato": "Watts (2021). Healthcare Simulation Standards of Best PracticeTM Simulation Design",
+  "tipo": "journal-article"
+ },
+ "canning15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/mot0000015",
+  "libre": null,
+  "candidato": "Canning (2015). Teach it, don’t preach it: The differential effects of directly-communicated and self-generated utility–value information.",
+  "tipo": "journal-article"
+ },
+ "walton23": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1126/science.ade4420",
+  "libre": null,
+  "candidato": "Walton (2023). Where and with whom does a brief social-belonging intervention promote progress in college?",
+  "tipo": "journal-article"
+ },
+ "perez14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1037/a0034027",
+  "libre": null,
+  "candidato": "Perez (2014). The role of identity development, values, and costs in college STEM retention.",
+  "tipo": "journal-article"
+ },
+ "martin20": {
+  "estado": "confirmada",
+  "doi": "10.1016/j.compedu.2020.104009",
+  "libre": null,
+  "similitud": 1
+ },
+ "hrastinski09": {
+  "estado": "confirmada",
+  "doi": "10.1016/j.compedu.2008.06.009",
+  "libre": null,
+  "similitud": 1
+ },
+ "kokotsaki16": {
+  "estado": "confirmada",
+  "doi": "10.1177/1365480216659733",
+  "libre": null,
+  "similitud": 1
+ },
+ "fischer13": {
+  "estado": "confirmada",
+  "doi": "10.1080/00461520.2012.748005",
+  "libre": null,
+  "similitud": 1
+ },
+ "oblinger06": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": "Michelucci (2011). Cumulative Learning",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL18942915W",
+  "libro_nota": 1
+ },
+ "schon83": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.47,
+  "doi": null,
+  "libre": null,
+  "candidato": "Walter (2015). Schön, Donald A. (1983): The Reflective Practitioner. How Professionals think in Action. New York: Basic Books",
+  "tipo": "book-chapter"
+ },
+ "houssaye88": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2014). Le triangle pédagogique Les différentes facettes de la pédagogie",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL24148365W",
+  "libro_nota": 1
+ },
+ "tyler49": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.7208/chicago/9780226820323.001.0001",
+  "libre": null,
+  "candidato": "Tyler (1969). Basic Principles of Curriculum and Instruction",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL11254072W",
+  "libro_nota": 1
+ },
+ "mayer09": {
+  "estado": "probable",
+  "similitud": 0.66,
+  "doi": "10.1017/cbo9780511816819.002",
+  "libre": null,
+  "candidato": "Mayer (2005). Introduction to Multimedia Learning",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL1837843W",
+  "libro_nota": 1
+ },
+ "puentedura06": {
+  "estado": "probable",
+  "similitud": 0.63,
+  "doi": "10.1057/palgrave.hep.8300116",
+  "libre": null,
+  "candidato": "Harpur (2006). Transformation in Higher Education: The Inevitable Union of Alchemy and Technology",
+  "tipo": "journal-article"
+ },
+ "beatty19": {
+  "estado": "confirmada",
+  "similitud": 0.77,
+  "doi": "10.59668/33",
+  "libre": null,
+  "candidato": "Beatty (2019). Hybrid-Flexible Course Design",
+  "tipo": "edited-book"
+ },
+ "garrison00": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1016/s1096-7516(00)00016-6",
+  "libre": null,
+  "candidato": "Garrison (1999). Critical Inquiry in a Text-Based Environment: Computer Conferencing in Higher Education",
+  "tipo": "journal-article"
+ },
+ "mazur97": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1063/1.881735",
+  "libre": null,
+  "candidato": "Mazur (1997). <i>Peer Instruction: A User's Manual</i>",
+  "tipo": "journal-article"
+ },
+ "cast18": {
+  "estado": "probable",
+  "similitud": 0.67,
+  "doi": "10.1037/t97067-000",
+  "libre": null,
+  "candidato": "Gäng-Pacifico (2024). Universal Design for Learning Observation Measurement Tool--Italian Version",
+  "tipo": "dataset"
+ },
+ "meyer14": {
+  "estado": "probable",
+  "similitud": 0.71,
+  "doi": "10.4135/9781446282236.n30",
+  "libre": null,
+  "candidato": "Rose (2014). Universal Design for\n\t\t\t\t\t\t\tLearning",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL26789575W",
+  "libro_nota": 1
+ },
+ "guo14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/2556325.2566239",
+  "libre": null,
+  "candidato": "Guo (2014). How video production affects student engagement an empirical study of MOOC videos",
+  "tipo": "proceedings-article"
+ },
+ "pashler08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1111/j.1539-6053.2009.01038.x",
+  "libre": null,
+  "candidato": "Pashler (2008). Learning Styles Concepts and Evidence",
+  "tipo": "journal-article"
+ },
+ "digcomp22": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.36,
+  "doi": null,
+  "libre": null,
+  "candidato": "Shmatkov (2025). Analysis of the Content of Intellectual Property Rights Presented in The Digital Competence Framework for Citizens DigComp 2.1",
+  "tipo": "posted-content"
+ },
+ "scriven67": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.57,
+  "doi": null,
+  "libre": null,
+  "candidato": "Scriven (2010). Rethinking Evaluation Methodology",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL11254073W",
+  "libro_nota": 1
+ },
+ "bloom56": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/3119730",
+  "libre": null,
+  "candidato": "Blyth (1966). Taxonomy of Educational Objectives. Handbook I: Cognitive Domain",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL8402086W",
+  "libro_nota": 1
+ },
+ "biggs11": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.37,
+  "doi": null,
+  "libre": null,
+  "candidato": "Davison (2016). Book review: <i>Teaching for quality learning at university</i> (4<sup>th</sup> edition) Biggs, J. &amp; Tang, C. (2011), Open University Press",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1980557W",
+  "libro_nota": 1
+ },
+ "wiggins05": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.25,
+  "doi": null,
+  "libre": null,
+  "candidato": "WALTERS (2008). Understanding by Design (2nd Edition). Grant Wiggins and Jay McTighe",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1908804W",
+  "libro_nota": 1
+ },
+ "wiggins90": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.4,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2018). Authentic Assessment",
+  "tipo": "reference-entry"
+ },
+ "bloom68": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.5,
+  "doi": null,
+  "libre": null,
+  "candidato": "Bloom (1973). Recent developments in mastery learning<sup>1</sup>",
+  "tipo": "journal-article"
+ },
+ "roediger06": {
+  "estado": "confirmada",
+  "doi": "10.1111/j.1467-9280.2006.01693.x",
+  "libre": null,
+  "similitud": 1,
+  "candidato": "Roediger (2006). Test-Enhanced Learning Taking Memory Tests Improves Long-Term Retention"
+ },
+ "kornell08": {
+  "estado": "confirmada",
+  "doi": "10.1111/j.1467-9280.2008.02127.x",
+  "libre": null,
+  "similitud": 1,
+  "candidato": "Kornell (2008). Learning Concepts and Categories Is Spacing the “Enemy of Induction”?"
+ },
+ "soderstrom15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/1745691615569000",
+  "libre": null,
+  "candidato": "Soderstrom (2015). Learning Versus Performance An Integrative Review",
+  "tipo": "journal-article"
+ },
+ "bandura97": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1891/0889-8391.13.2.158",
+  "libre": null,
+  "candidato": "Bandura (1999). Self-Efficacy: The Exercise of Control",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL3356970W",
+  "libro_nota": 1
+ },
+ "dweck06": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.5860/choice.44-2397",
+  "libre": null,
+  "candidato": " (2006). Mindset: the new psychology of success",
+  "tipo": "journal-article"
+ },
+ "siemens05": {
+  "estado": "probable",
+  "similitud": 0.65,
+  "doi": "10.3109/0142159x.2016.1173661",
+  "libre": null,
+  "candidato": "Goldie (2016). Connectivism: A knowledge learning theory for the digital age?",
+  "tipo": "journal-article"
+ },
+ "kolb84": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.43,
+  "doi": null,
+  "libre": null,
+  "candidato": "Kolb (2009). Experiential Learning Theory: A Dynamic, Holistic Approach to Management Learning, Education and Development",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL3519097W",
+  "libro_nota": 1
+ },
+ "lave91": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1017/cbo9780511815355",
+  "libre": null,
+  "candidato": "Lave (1991). Situated Learning Legitimate Peripheral Participation",
+  "tipo": "monograph"
+ },
+ "seldin04": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.1016/8755-7223(93)90058-k",
+  "libre": null,
+  "candidato": "Oakes (1993). The teaching portfolio—A practical guide to improved performance and promotion/tenure decisions",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2813132W",
+  "libro_nota": 1
+ },
+ "wenger98": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1017/cbo9780511803932",
+  "libre": null,
+  "candidato": "Wenger (1998). Communities of Practice Learning, Meaning, and Identity",
+  "tipo": "monograph"
+ },
+ "boyer90": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.2308/iae-9701224484",
+  "libre": null,
+  "candidato": "Boyer (1992). Scholarship Reconsidered: Priorities of the Professoriate.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2687850W",
+  "libro_nota": 1
+ },
+ "nichols08": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.2,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2008). Apple Leadership",
+  "tipo": "other"
+ },
+ "lyman81": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.42,
+  "doi": null,
+  "libre": null,
+  "candidato": "Frederick (1981). The Dreaded Discussion: Ten Ways to Start",
+  "tipo": "journal-article"
+ },
+ "prosser99": {
+  "estado": "probable",
+  "similitud": 0.79,
+  "doi": "10.1080/03057269908560135",
+  "libre": null,
+  "candidato": "Prosser (1999). Relational Perspectives on Higher Education Teaching and Learning in the Sciences",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1902105W",
+  "libro_nota": 1
+ },
+ "aronson78": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9781003106760-7",
+  "libre": null,
+  "candidato": "Aronson (2021). The Jigsaw Classroom",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL18422691W",
+  "libro_nota": 1
+ },
+ "moore93": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.4324/9780203803738.ch5",
+  "libre": null,
+  "candidato": "Moore (). The Theory of Transactional Distance",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL21327335W",
+  "libro_nota": 1
+ },
+ "gee03": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/950566.950595",
+  "libre": null,
+  "candidato": "Gee (2003). What video games have to teach us about learning and literacy",
+  "tipo": "journal-article"
+ },
+ "salmon00": {
+  "estado": "probable",
+  "similitud": 0.65,
+  "doi": "10.4324/9780203465424-12",
+  "libre": null,
+  "candidato": " (2004). E-moderating: the key to the future of online teaching and learning",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL6031053W",
+  "libro_nota": 1
+ },
+ "cook11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1001/jama.2011.1234",
+  "libre": null,
+  "candidato": "Cook (2011). Technology-Enhanced Simulation for Health Professions Education A Systematic Review and Meta-analysis",
+  "tipo": "journal-article"
+ },
+ "vandijk20": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.58,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2020). Is Digital Equality Possible? (On the Book “The Digital Divide” by J. Van Dijk)",
+  "tipo": "journal-article"
+ },
+ "slade13": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0002764213479366",
+  "libre": null,
+  "candidato": "Slade (2013). Learning Analytics Ethical Issues and Dilemmas",
+  "tipo": "journal-article"
+ },
+ "kulik16": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654315581420",
+  "libre": null,
+  "candidato": "Kulik (2016). Effectiveness of Intelligent Tutoring Systems A Meta-Analytic Review",
+  "tipo": "journal-article"
+ },
+ "angelo93": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/2943957",
+  "libre": null,
+  "candidato": "Chism (1995). Classroom Assessment Techniques: A Handbook for College Teachers.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL4305807W",
+  "libro_nota": 1
+ },
+ "boud95": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9781315041520",
+  "libre": null,
+  "candidato": "Boud (2013). Enhancing Learning Through Self-assessment",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL28303289W",
+  "libro_nota": 1
+ },
+ "fives13": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.36,
+  "doi": null,
+  "libre": null,
+  "candidato": "DiDonato-Barnes (2013). Using a Table of Specifications to improve teacher-constructed traditional tests: an experimental design",
+  "tipo": "journal-article"
+ },
+ "messick89": {
+  "estado": "sin_coincidencia",
+  "similitud": 0,
+  "doi": null,
+  "libre": null,
+  "candidato": null,
+  "tipo": null,
+  "libro": "https://openlibrary.org/works/OL19530781W",
+  "libro_nota": 1
+ },
+ "aera14": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.24,
+  "doi": null,
+  "libre": null,
+  "candidato": "Moughamian (1968). Book Reviews : Review of Educational Research: Educational and Psychological Testing by Warren G. Findley, et al. Washington, D. C.: American Educational Research Association. Volume XXXVIII, No. 1, 1968. Pp. 1-110. $3.00",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL519564W",
+  "libro_nota": 1
+ },
+ "snyder71": {
+  "estado": "probable",
+  "similitud": 0.67,
+  "doi": "10.1007/bf02287080",
+  "libre": null,
+  "candidato": "Apple (1971). The hidden curriculum and the nature of conflict",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL7198639W",
+  "libro_nota": 1
+ },
+ "tobon06": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.41,
+  "doi": null,
+  "libre": null,
+  "candidato": " (). UNA PROPUESTA DIDÁCTICA PARA LA FORMACIÓN DE INTÉRPRETES BASADA EN EL PENSAMIENTO COMPLEJO",
+  "tipo": "component"
+ },
+ "chevallard91": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.52,
+  "doi": null,
+  "libre": null,
+  "candidato": "Mora Castiblanco (2014). LIBRO:LA TRANSPOSICIÓN DIDÁCTICA DEL SABER SABIO AL SABER ENSEÑADO. AUTOR: YVES CHEVALLARD",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL17635413W",
+  "libro_nota": 1
+ },
+ "biggs82": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.1177/089202068700100412",
+  "libre": null,
+  "candidato": " (1987). Evaluating the Quality of Learning The SOLO Taxonomy (Structure of the Observed Learning Outcome)",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1980554W",
+  "libro_nota": 1
+ },
+ "obrien08": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.38,
+  "doi": null,
+  "libre": null,
+  "candidato": "Ihssen (2009). The Course Syllabus: A Learning‐Centered Approach, Second Edition – By Judith Grunert O'Brien, Barbara J. Mills, and Margaret W. Cohen",
+  "tipo": "journal-article"
+ },
+ "ects15": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.2,
+  "doi": null,
+  "libre": null,
+  "candidato": "McCormick (2015). The European Commission",
+  "tipo": "book-chapter"
+ },
+ "gagne05": {
+  "estado": "probable",
+  "similitud": 0.82,
+  "doi": "10.1002/pfi.4140440211",
+  "libre": null,
+  "candidato": "Gagne (2005). Principles of instructional design, 5th edition",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL3008676W",
+  "libro_nota": 1
+ },
+ "gardner83": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/3332707",
+  "libre": null,
+  "candidato": "Bornstein (1986). Frames of Mind: The Theory of Multiple Intelligences",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL116391W",
+  "libro_nota": 1
+ },
+ "keller10": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1007/978-1-4419-1250-3",
+  "libre": null,
+  "candidato": "Keller (2010). Motivational Design for Learning and Performance The ARCS Model Approach",
+  "tipo": "book"
+ },
+ "mayer04": {
+  "estado": "confirmada",
+  "similitud": 0.82,
+  "doi": "10.1037/0003-066x.59.1.14",
+  "libre": null,
+  "candidato": "Mayer (2004). Should There Be a Three-Strikes Rule Against Pure Discovery Learning?",
+  "tipo": "journal-article"
+ },
+ "tamim11": {
+  "estado": "confirmada",
+  "doi": "10.3102/0034654310393361",
+  "libre": null,
+  "similitud": 1,
+  "candidato": "Tamim (2011). What Forty Years of Research Says About the Impact of Technology on Learning A Second-Order Meta-Analysis and Validation Study"
+ },
+ "boud85": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.28,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2002). Working with Experience Animating Learning",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL28001455W",
+  "libro_nota": 1
+ },
+ "dewey38": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1080/00131728609335764",
+  "libre": null,
+  "candidato": "Dewey (1986). Experience and Education",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL111355W",
+  "libro_libre": true,
+  "libro_nota": 1
+ },
+ "fitts67": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.36,
+  "doi": null,
+  "libre": null,
+  "candidato": "Posner (1967). Short term memory systems in human information processing",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL6554807W",
+  "libro_nota": 1
+ },
+ "bartlett32": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1017/cbo9780511759185",
+  "libre": null,
+  "candidato": "Bartlett (1995). Remembering A Study in Experimental and Social Psychology",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL3748418W",
+  "libro_nota": 1
+ },
+ "vygotsky86": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": " (1987). Thought and Language. By L. Vygotsky. (Pp. 287; £8.95 pb.) MIT Press: London. 1986.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL9221800W",
+  "libro_nota": 1
+ },
+ "tinto93": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.7208/chicago/9780226922461.001.0001",
+  "libre": null,
+  "candidato": "Tinto (1994). Leaving College Rethinking the Causes and Cures of Student Attrition",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL3937391W",
+  "libro_nota": 1
+ },
+ "lemke90": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.58,
+  "doi": null,
+  "libre": null,
+  "candidato": " (). Talking poetry : language, values, and learning",
+  "tipo": "dissertation",
+  "libro": "https://openlibrary.org/works/OL3526975W",
+  "libro_nota": 1
+ },
+ "huizinga49": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/2087716",
+  "libre": null,
+  "candidato": "Gillin (1951). Homo Ludens: A Study of the Play-Element in Culture.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1141874W",
+  "libro_libre": true,
+  "libro_nota": 1
+ },
+ "healey09": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": "Healey (2017). The role of academic developers in embedding high-impact undergraduate research and inquiry in mainstream higher education: twenty years’ reflection",
+  "tipo": "journal-article"
+ },
+ "ong82": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.4324/9780203328064",
+  "libre": null,
+  "candidato": "ONG (1982). Orality and Literacy The Technologizing of the Word",
+  "tipo": "monograph"
+ },
+ "knuth97": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.52,
+  "doi": null,
+  "libre": null,
+  "candidato": "MacLaren (1969). The Art of Computer Programming—Volume 1: Fundamental Algorithms (Donald E. Knuth)",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL257263W",
+  "libro_nota": 1
+ },
+ "haskins23": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.55094/holistence.495",
+  "libre": null,
+  "candidato": "Haskins (2023). The rise of universities",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL10620915W",
+  "libro_nota": 1
+ },
+ "papert80": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/816450",
+  "libre": null,
+  "candidato": "Wooster (1982). Mindstorms: Children, Computers, and Powerful Ideas",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL3368926W",
+  "libro_nota": 1
+ },
+ "mitchell97": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.2,
+  "doi": null,
+  "libre": null,
+  "candidato": " (1997). Strategic Marketing Management, Jean-Jacques Lambin. McGraw-Hill, 1997 ISBN : 0-07-709227-9 ",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2640191W",
+  "libro_nota": 1
+ },
+ "bean11": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.33,
+  "doi": null,
+  "libre": null,
+  "candidato": "Hawk (2011). Learning in Adulthood: A Comprehensive GuideLearning in Adulthood: A Comprehensive Guide, by MerriamSharan B., CaffarellaRosemary S., and BaumgartnerLisa M.. San Francisco, CA: Jossey-Bass, 2007, 3rd ed. 533 pages, hard cover.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2955253W",
+  "libro_nota": 1
+ },
+ "swales90": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/329786",
+  "libre": null,
+  "candidato": "James (1992). Genre Analysis: English in Academic and Research Settings",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1851578W",
+  "libro_nota": 1
+ },
+ "rose12": {
+  "estado": "probable",
+  "similitud": 0.64,
+  "doi": "10.1093/applin/amt044",
+  "libre": null,
+  "candidato": "Lai (2013). D. Rose and J. Martin: Learning to Write, Reading to Learn: Genre, Knowledge and Pedagogy of the Sydney School.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL16724667W",
+  "libro_nota": 1
+ },
+ "lewandowsky12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/1529100612451018",
+  "libre": null,
+  "candidato": "Lewandowsky (2012). Misinformation and Its Correction Continued Influence and Successful Debiasing",
+  "tipo": "journal-article"
+ },
+ "russell91": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/40250395",
+  "libre": null,
+  "candidato": "Farris (1992). Writing in the Academic Disciplines, 1870-1990: A Curricular History",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL4481611W",
+  "libro_nota": 1
+ },
+ "carlino13": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": "Guzmán-Simón (2015). La evaluación de la alfabetización académica",
+  "tipo": "journal-article"
+ },
+ "ambrose10": {
+  "estado": "probable",
+  "similitud": 0.67,
+  "doi": "10.35362/rie5941370",
+  "libre": null,
+  "candidato": "Hernández Cardozo (2012). [Reseña] How Learning Works: Seven Research-Based Principles for Smart Teaching",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL15535951W",
+  "libro_nota": 1
+ },
+ "spivey90": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0741088390007002004",
+  "libre": null,
+  "candidato": "SPIVEY (1990). Transforming Texts Constructive Processes in Reading and Writing",
+  "tipo": "journal-article"
+ },
+ "ivanic98": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.1075/swll.5",
+  "libre": null,
+  "candidato": "Ivanič (1998). Writing and Identity The discoursal construction of identity in academic writing",
+  "tipo": "monograph"
+ },
+ "polanyi66": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1016/b978-0-7506-9718-7.50010-x",
+  "libre": null,
+  "candidato": "POLANYI (1997). The Tacit Dimension",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL117061W",
+  "libro_nota": 1
+ },
+ "perry70": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.53,
+  "doi": null,
+  "libre": null,
+  "candidato": "Lochrie (1989). Perry revisited—A fresh look at<i>Forms of Intellectual and Ethical Development in the College Years</i>",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1936527W",
+  "libro_nota": 1
+ },
+ "michaelsen04": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.4324/9781003447535",
+  "libre": null,
+  "candidato": "Fink (2023). Team-Based Learning A Transformative Use of Small Groups in College Teaching",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL18363572W",
+  "libro_nota": 1
+ },
+ "pace17": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.2307/j.ctt2005z1w",
+  "libre": null,
+  "candidato": "PACE (2017). The Decoding the Disciplines Paradigm Seven Steps to Increased Student Learning",
+  "tipo": "monograph"
+ },
+ "oakley04": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.22,
+  "doi": null,
+  "libre": null,
+  "candidato": "Indrayadi (2025). Harnessing Student-Centered Learning for  Effective Learning Recovery",
+  "tipo": "report"
+ },
+ "doise84": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.5,
+  "doi": null,
+  "libre": null,
+  "candidato": "DOISE (1984). The benefits of sharing",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL29392712W",
+  "libro_nota": 1
+ },
+ "delbecq75": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.1177/002188637601200414",
+  "libre": null,
+  "candidato": " (1976). Group Techniques for Program Planning: A Guide to Nominal Group and Delphi Processes",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL11764805W",
+  "libro_nota": 1
+ },
+ "hays89": {
+  "estado": "probable",
+  "similitud": 0.64,
+  "doi": "10.1007/978-1-4612-3564-4",
+  "libre": null,
+  "candidato": " (1989). Simulation Fidelity in Training System Design",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL4635531W",
+  "libro_nota": 1
+ },
+ "barton06": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.25,
+  "doi": null,
+  "libre": null,
+  "candidato": "Czerniawska (2002). Introduction: What Clients Want from Consultants and What Consultants Want from Clients",
+  "tipo": "book-chapter"
+ },
+ "rudolph14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/sih.0000000000000047",
+  "libre": null,
+  "candidato": "Rudolph (2014). Establishing a Safe Container for Learning in Simulation The Role of the Presimulation Briefing",
+  "tipo": "journal-article"
+ },
+ "eppich15": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1097/sih.0000000000000072",
+  "libre": null,
+  "candidato": "Eppich (2015). Promoting Excellence and Reflective Learning in Simulation (PEARLS) Development and Rationale for a Blended Approach to Health Care Simulation Debriefing",
+  "tipo": "journal-article"
+ },
+ "allen69": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.2,
+  "doi": null,
+  "libre": null,
+  "candidato": "Galston (1969). Growth and Organization in Plants. Structure, Development, Metabolism, Physiology. F. C. Steward. Addison-Wesley, Reading, Mass., 1968. xii + 564 pp., illus. $15. Addison-Wesley Series in Life Sciences",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL8737458W",
+  "libro_nota": 1
+ },
+ "hattie09": {
+  "estado": "probable",
+  "similitud": 0.66,
+  "doi": "10.4324/9781003380542",
+  "libre": null,
+  "candidato": "Hattie (2023). Visible Learning: The Sequel A Synthesis of Over 2,100 Meta-Analyses Relating to Achievement",
+  "tipo": "monograph",
+  "libro": "https://openlibrary.org/works/OL4100637W",
+  "libro_nota": 1
+ },
+ "strayhorn19": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.3,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2012). Sense of Belonging and Latino Students",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL16471508W",
+  "libro_nota": 1
+ },
+ "elstein78": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.4159/harvard.9780674189089",
+  "libre": null,
+  "candidato": "Elstein (1978). Medical Problem Solving An Analysis of Clinical Reasoning",
+  "tipo": "edited-book"
+ },
+ "bourdieu03": {
+  "estado": "probable",
+  "similitud": 0.71,
+  "doi": "10.25100/sye.v0i4.4213",
+  "libre": null,
+  "candidato": "Sánchez (2003). A propósito de Los Herederos. Los estudiantes y la cultura de P. Bourdieu y J.-C. Passeron",
+  "tipo": "journal-article"
+ },
+ "yeager11": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.3102/0034654311405999",
+  "libre": null,
+  "candidato": "Yeager (2011). Social-Psychological Interventions in Education They’re Not Magic",
+  "tipo": "journal-article"
+ },
+ "bourdieu86": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9780429494338-6",
+  "libre": null,
+  "candidato": "Bourdieu (2018). The Forms of Capital",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL19180347W",
+  "libro_nota": 1
+ },
+ "winkelmes16": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.29,
+  "doi": null,
+  "libre": null,
+  "candidato": "Poe (2016). Acknowledging Students' Collaborations through Peer Review: A Footnoting Practice",
+  "tipo": "journal-article"
+ },
+ "winkelmes19": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.4324/9781003448396",
+  "libre": null,
+  "candidato": "Tapp (2023). Transparent Design in Higher Education Teaching and Leadership A Guide to Implementing the Transparency Framework Institution-Wide to Improve Learning and Retention",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL25434453W",
+  "libro_nota": 1
+ },
+ "stephens14": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0956797613518349",
+  "libre": null,
+  "candidato": "Stephens (2014). Closing the Social-Class Achievement Gap A Difference-Education Intervention Improves First-Generation Students’ Academic Performance and All Students’ College Transition",
+  "tipo": "journal-article"
+ },
+ "garcia14": {
+  "estado": "confirmada",
+  "similitud": 0.92,
+  "doi": "10.1057/9781137385765_4",
+  "libre": null,
+  "candidato": "García (2014). Language, Bilingualism and Education",
+  "tipo": "book-chapter"
+ },
+ "kift09": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.29,
+  "doi": null,
+  "libre": null,
+  "candidato": "Kift (2023). Transition pedagogy for 21st-century student success",
+  "tipo": "book-chapter"
+ },
+ "bravata20": {
+  "estado": "confirmada",
+  "doi": "10.29245/2578-2959/2020/3.1207",
+  "libre": null,
+  "similitud": 0.88,
+  "candidato": "Bravata (2020). Commentary: Prevalence, Predictors, and Treatment of Imposter Syndrome: A Systematic Review"
+ },
+ "tinto12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.7208/chicago/9780226804545.001.0001",
+  "libre": null,
+  "candidato": "Tinto (2012). Completing College Rethinking Institutional Action",
+  "tipo": "monograph"
+ },
+ "coulon97": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.35,
+  "doi": null,
+  "libre": null,
+  "candidato": "Abadie (1999). Alain Coulon, Le métier d’étudiant. L’entrée dans la vie universitaire Presses universitaires de France, Paris, coll. « Politique d’aujourd’hui », 1997, 213 p.",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL1750470W",
+  "libro_nota": 1
+ },
+ "kuh08": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.43,
+  "doi": null,
+  "libre": null,
+  "candidato": "Jones (2025). Tariffs 101: What they are, who pays them, and why they matter now",
+  "tipo": "posted-content",
+  "libro": "https://openlibrary.org/works/OL31445255W",
+  "libro_nota": 1
+ },
+ "arnold12": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1145/2330601.2330666",
+  "libre": null,
+  "candidato": "Arnold (2012). Course signals at Purdue using learning analytics to increase student success",
+  "tipo": "proceedings-article"
+ },
+ "dawson14": {
+  "estado": "confirmada",
+  "doi": "10.3102/0034654314540007",
+  "libre": null,
+  "similitud": 1,
+  "candidato": "Dawson (2014). On the Effectiveness of Supplemental Instruction A Systematic Review of Supplemental Instruction and Peer-Assisted Study Sessions Literature Between 2001 and 2010"
+ },
+ "lovett13": {
+  "estado": "probable",
+  "similitud": 0.62,
+  "doi": "10.4324/9781003448570-2",
+  "libre": null,
+  "candidato": "Lovett (2023). Make Exams Worth More Than the Grade",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL21054030W",
+  "libro_nota": 1
+ },
+ "su11": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.1007/s10648-010-9142-7",
+  "libre": null,
+  "candidato": "Su (2010). A Meta-analysis of the Effectiveness of Intervention Programs Designed to Support Autonomy",
+  "tipo": "journal-article"
+ },
+ "csikszentmihalyi90": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/1511458",
+  "libre": null,
+  "candidato": "Buchanan (1991). Flow: The Psychology of Optimal Experience",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL278571W",
+  "libro_nota": 1
+ },
+ "seymour97": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.2307/2655673",
+  "libre": null,
+  "candidato": "Correll (1997). Talking about Leaving: Why Undergraduates Leave the Sciences",
+  "tipo": "journal-article"
+ },
+ "seymour19": {
+  "estado": "confirmada",
+  "similitud": 0.9,
+  "doi": "10.1007/978-3-030-25304-2",
+  "libre": null,
+  "candidato": " (2019). Talking about Leaving Revisited Persistence, Relocation, and Loss in Undergraduate STEM Education",
+  "tipo": "book"
+ },
+ "hutchings00": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.57,
+  "doi": null,
+  "libre": null,
+  "candidato": "Hutchings (2012). Opening the Campus Door The Scholarship of Teaching and Learning at Rockhurst University",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL20970236W",
+  "libro_nota": 1
+ },
+ "gosling02": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.2,
+  "doi": null,
+  "libre": null,
+  "candidato": " (2002). LTSN Generic Centre ",
+  "tipo": "journal-article"
+ },
+ "hutchings02": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.56,
+  "doi": null,
+  "libre": null,
+  "candidato": "Duffy (2005). Book Review: Ethics of Inquiry: Issues in the Scholarship of Teaching and Learning (510802010-017)",
+  "tipo": "dataset",
+  "libro": "https://openlibrary.org/works/OL23788484W",
+  "libro_nota": 1
+ },
+ "cerbin06": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.37,
+  "doi": null,
+  "libre": null,
+  "candidato": "Cerbin (2023). Lesson Study Using Classroom Inquiry to Improve Teaching and Learning in Higher Education",
+  "tipo": "monograph"
+ },
+ "fernandez04": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.52,
+  "doi": null,
+  "libre": null,
+  "candidato": "Takahashi (2015). LESSON STUDY: AN ESSENTIAL PROCESS FOR IMPROVING MATHEMATICS TEACHING AND LEARNING",
+  "tipo": "book-chapter",
+  "libro": "https://openlibrary.org/works/OL21223989W",
+  "libro_nota": 1
+ },
+ "brookfield17": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.47,
+  "doi": null,
+  "libre": null,
+  "candidato": "Larrivee (2000). Transforming Teaching Practice: Becoming the critically reflective teacher",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2906365W",
+  "libro_nota": 1
+ },
+ "shadish02": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.1198/jasa.2005.s22",
+  "libre": null,
+  "candidato": "Anderson-Cook (2005). Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL16277901W",
+  "libro_nota": 1
+ },
+ "suskie18": {
+  "estado": "probable",
+  "similitud": 0.6,
+  "doi": "10.1111/j.1467-9647.2007.00329.x",
+  "libre": null,
+  "candidato": "Kirkpatrick (2007). Assessing Student Learning: A Common Sense Guide – By Linda Suskie",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL20185296W",
+  "libro_nota": 1
+ },
+ "denzin78": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9781315134543",
+  "libre": null,
+  "candidato": "Denzin (2017). The Research Act A Theoretical Introduction to Sociological Methods",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL3279279W",
+  "libro_nota": 1
+ },
+ "cohen88": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9780203771587",
+  "libre": null,
+  "candidato": "Cohen (2013). Statistical Power Analysis for the Behavioral Sciences",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL4623796W",
+  "libro_nota": 1
+ },
+ "cooksather14": {
+  "estado": "probable",
+  "similitud": 0.66,
+  "doi": "10.23865/hu.v5.764",
+  "libre": null,
+  "candidato": "Barrineau (2015). Bokrecension: Engaging Students as Partners in Learning and Teaching: A Guide for Faculty",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL21544941W",
+  "libro_nota": 1
+ },
+ "dahlstrom14": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.49,
+  "doi": null,
+  "libre": null,
+  "candidato": "Yan (2024). Faculty and Student Perspectives on Online Learning in Higher Education",
+  "tipo": "journal-article"
+ },
+ "dougiamas03": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.57,
+  "doi": null,
+  "libre": null,
+  "candidato": "Guerrazzi (2003). Using a course management system to create a training course for student employees",
+  "tipo": "proceedings-article"
+ },
+ "w3c23_h2": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.54,
+  "doi": null,
+  "libre": null,
+  "candidato": " (). Information technology�� W3C Web Content Accessibility\r\nGuidelines�(WCAG)�2.2 ",
+  "tipo": "standard"
+ },
+ "shortt23": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1080/09588221.2021.1933540",
+  "libre": null,
+  "candidato": "Shortt (2021). Gamification in mobile-assisted language learning: a systematic review of Duolingo literature from public release of 2012 to early 2020",
+  "tipo": "journal-article"
+ },
+ "lee20": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1080/09588221.2018.1553186",
+  "libre": null,
+  "candidato": "Lee (2019). The impact of using machine translation on EFL students’ writing",
+  "tipo": "journal-article"
+ },
+ "white92": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.4324/9780203761342",
+  "libre": null,
+  "candidato": "White (2014). Probing Understanding",
+  "tipo": "book",
+  "libro": "https://openlibrary.org/works/OL26489746W",
+  "libro_nota": 1
+ },
+ "gusenbauer19": {
+  "estado": "probable",
+  "similitud": 0.8,
+  "doi": "10.1007/s11192-018-2958-5",
+  "libre": null,
+  "candidato": "Gusenbauer (2018). Google Scholar to overshadow them all? Comparing the sizes of 12 academic search engines and bibliographic databases",
+  "tipo": "journal-article"
+ },
+ "tufte01": {
+  "estado": "sin_coincidencia",
+  "similitud": 0.41,
+  "doi": null,
+  "libre": null,
+  "candidato": "Charman (1988). The visual display of quantitative information E. R. Tufte Graphics Press, Cheshire, Connecticut, 1983, 197 pp., US $34.00",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL2824012W",
+  "libro_nota": 1
+ },
+ "bloom71": {
+  "estado": "probable",
+  "similitud": 0.7,
+  "doi": "10.2307/1319918",
+  "libre": null,
+  "candidato": "Eisner (1972). Handbook on Formative and Summative Evaluation of Student Learning",
+  "tipo": "journal-article",
+  "libro": "https://openlibrary.org/works/OL6193515W",
+  "libro_nota": 1
+ },
+ "aggarwal08": {
+  "estado": "confirmada",
+  "similitud": 1,
+  "doi": "10.1177/0273475308322283",
+  "libre": null,
+  "candidato": "Aggarwal (2008). Social Loafing on Group Projects Structural Antecedents and Effect on Student Satisfaction",
+  "tipo": "journal-article"
+ },
+ "ashfordrowe14": {
+  "estado": "confirmada",
+  "doi": "10.1080/02602938.2013.819566",
+  "similitud": 0.8
+ },
+ "raes20": {
+  "estado": "confirmada",
+  "doi": "10.1007/s10984-019-09303-z",
+  "similitud": 0.8,
+  "nota_revision": "año impreso distinto del año en línea de Crossref"
+ },
+ "mann09": {
+  "estado": "confirmada",
+  "doi": "10.1007/s10459-007-9090-2",
+  "similitud": 0.8,
+  "nota_revision": "año impreso distinto del año en línea de Crossref"
+ }
+}

@@ -9,7 +9,7 @@ const V = (...p) => path.join(__dirname, "..", ...p);
 const archivos = process.argv.slice(2).length ? process.argv.slice(2) : fs.readdirSync(V()).filter(f => /^expansion-H\d+\.json$/.test(f)).map(f => V(f));
 const esperar = ms => new Promise(r => setTimeout(r, ms));
 const normal = s => (s || "").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/<[^>]+>/g, " ").replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w.length > 2);
-const parecido = (a, b) => { const A = new Set(normal(a)), B = new Set(normal(b)); if (!A.size || !B.size) return 0; let c = 0; for (const w of A) if (B.has(w)) c++; return c / Math.max(A.size, B.size); };
+const parecido = (a, b) => { const A = new Set(normal(a)), B = new Set(normal(b)); if (!A.size || !B.size) return 0; let c = 0; for (const w of A) if (B.has(w)) c++; return 2 * c / (A.size + B.size); };
 
 function partes(ref) {
   const doi = (ref.match(/10\.\d{4,9}\/[^\s]+[^\s.,;)]/) || [])[0];
@@ -26,7 +26,7 @@ async function json(url) {
   }
   return null;
 }
-const deCrossref = it => ({ titulo: (it.title || [""])[0], anio: String(((it.issued || {})["date-parts"] || [[""]])[0][0] || ""), autor: ((it.author || [])[0] || {}).family || "", fuente: "Crossref", doi: it.DOI });
+const deCrossref = it => ({ titulo: [(it.title || [""])[0], ...(it.subtitle || [])].join(" "), anio: String(((it.issued || {})["date-parts"] || [[""]])[0][0] || ""), autor: ((it.author || [])[0] || {}).family || "", fuente: "Crossref", doi: it.DOI });
 const deOpenAlex = it => ({ titulo: it.title || it.display_name || "", anio: String(it.publication_year || ""), autor: ((((it.authorships || [])[0] || {}).author || {}).display_name || "").split(" ").pop(), fuente: "OpenAlex", doi: (it.doi || "").replace("https://doi.org/", "") });
 
 async function verificar(ref) {

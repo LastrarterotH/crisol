@@ -84,6 +84,17 @@ for (const [x, p] of expTextos) {
 }
 // Las correcciones de referencias van al final, para que ninguna fuente las pise con una versión anterior.
 Object.assign(refs, ajustes.refs || {});
+// Enlaces para compartir (datos/v2/refs-enlaces.json, de tareas/enlazar-refs.js): el DOI confirmado se agrega al final de la
+// referencia, como pide APA 7, y la versión de acceso abierto, si la hay, va aparte para mostrarla como "Leer gratis".
+const enlaces = leer(V("refs-enlaces.json")) || {};
+const refsLibre = {}, refsLibro = {}, refsWeb = {};
+for (const [k, e] of Object.entries(enlaces)) {
+  if (!refs[k]) continue;
+  if (e.doi && !/10\.\d{4,9}\//.test(refs[k])) refs[k] = refs[k].replace(/\s*$/, "") + " https://doi.org/" + e.doi;
+  if (e.libre && !(e.doi && e.libre.toLowerCase().includes(e.doi))) refsLibre[k] = e.libre;
+  if (e.libro && !e.doi && !/https?:\/\//.test(refs[k]) && refsLibre[k] !== e.libro) refsLibro[k] = e.libro;
+  if (e.web && !/https?:\/\//.test(refs[k])) refsWeb[k] = e.web;
+}
 const informeFiltro = [];
 for (const x of ["F1", "F2", "F3"]) {
   const p = leer(V("filtro-" + x + ".json"));
@@ -226,7 +237,7 @@ for (const id of ids) { F[id].nivel = nivel[id]; delete F[id]._de; }
 const DATOS = {
   version: new Date().toISOString(),
   familias: g.cat.familias, orden: g.cat.orden, iniciales: g.cat.iniciales,
-  fichas: F, refs, recetas: g.recetas.map(r => [r[0], r[1], r[2], r[3] || ""]), misiones,
+  fichas: F, refs, refsLibre, refsLibro, refsWeb, recetas: g.recetas.map(r => [r[0], r[1], r[2], r[3] || ""]), misiones,
   pistaMito: "Combínalo con 📓 Práctica reflexiva para desarmarlo."
 };
 const json = JSON.stringify(DATOS);

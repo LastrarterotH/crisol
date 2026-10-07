@@ -65,7 +65,7 @@ export function abrirFicha(id, opts = {}) {
     const t = (v, txt) => '<button class="alterna" type="button" data-bit="' + v + '" aria-pressed="' + (m === v) + '">' + txt + "</button>";
     c += '<section><h3>¿Y en tu docencia?</h3><div class="fe-bitacora">' + t("hago", "Ya lo hago") + t("probar", "Quiero probarlo") + t("noaplica", "No aplica a mi curso") + "</div></section>";
   }
-  if (f.refs && f.refs.length) c += '<section><h3>Fuentes</h3><ol class="fe-fuentes">' + f.refs.map(k => "<li>" + refHtml(D.refs[k] || k) + "</li>").join("") + "</ol></section>";
+  if (f.refs && f.refs.length) c += '<section><h3>Fuentes</h3><ol class="fe-fuentes">' + f.refs.map(k => "<li>" + refHtml(D.refs[k] || k) + (D.refsLibre && D.refsLibre[k] ? ' <a class="ref-libre" href="' + esc(D.refsLibre[k]) + '" target="_blank" rel="noopener">Leer gratis</a>' : "") + (D.refsLibro && D.refsLibro[k] ? ' <a class="ref-libre" href="' + esc(D.refsLibro[k]) + '" target="_blank" rel="noopener">Ver el libro</a>' : "") + (D.refsWeb && D.refsWeb[k] ? ' <a class="ref-libre" href="' + esc(D.refsWeb[k]) + '" target="_blank" rel="noopener">Ver el documento</a>' : "") + "</li>").join("") + "</ol></section>";
 
   const acciones = '<button class="boton-papel principal" type="button" data-cerrar>' + (opts.nueva ? "¡A seguir mezclando!" : "Cerrar") + "</button>";
 

@@ -7,7 +7,8 @@ export const clave = (a, b) => [a, b].sort().join("+");
 export const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c]));
 export const EMOJI = /(?:\p{Extended_Pictographic}|\p{Regional_Indicator})(?:\uFE0F|\u200D\p{Extended_Pictographic}\uFE0F?|[\u{1F3FB}-\u{1F3FF}])*/gu;
 export const rico = s => esc(s).replace(EMOJI, '<span class="emo">$&</span>');
-export const refHtml = s => esc(s).replace(/_(.+?)_/g, "<em>$1</em>");
+// Referencia en APA con cursivas y enlaces que se abren aparte (el DOI o la URL quedan clicables; las cursivas no tocan las URL).
+export const refHtml = s => esc(s).split(/(https?:\/\/[^\s<]+[^\s<.,;)])/).map((t, i) => i % 2 ? '<a href="' + t + '" target="_blank" rel="noopener">' + t.replace(/^https?:\/\/(www\.)?/, "") + "</a>" : t.replace(/_(.+?)_/g, "<em>$1</em>")).join("");
 export const norm = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().trim();
 export const ficha = id => D.fichas[id];
 export const nombre = id => (D.fichas[id] ? D.fichas[id].e + " " + D.fichas[id].n : id);
