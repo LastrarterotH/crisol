@@ -27,7 +27,7 @@ function pintarDemo() {
   demo.querySelector(".d-r").addEventListener("animationiteration", () => { demoI++; pintarDemo(); }, { once: true });
 }
 function pintarPortada() {
-  $("portadaSub").textContent = "De cuatro elementos nacen " + totalAlcanzables() + " ideas sobre cómo se aprende, repartidas en " + D.misiones.length + " misiones. Suelta una ficha sobre otra y recorre la docencia universitaria desde su raíz.";
+  $("portadaSub").textContent = "Un juego de mezclas en el que cuatro elementos dan origen a " + totalAlcanzables() + " ideas sobre cómo se aprende, repartidas en " + D.misiones.length + " misiones. Suelta una ficha sobre otra y recorre la docencia universitaria desde su raíz.";
   const pts = [[7, 16], [81, 12], [9, 80], [80, 78]];
   $("portadaDeco").innerHTML = D.iniciales.map((id, i) => fichaMuestra(id, "", "left:" + pts[i][0] + "%;top:" + pts[i][1] + "%")).join("");
   pintarDemo();

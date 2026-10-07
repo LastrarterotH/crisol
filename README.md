@@ -2,9 +2,11 @@
 
 Antes se llamaba Alquimia Docente.
 
-Juego de mezclas (al estilo de Infinite Craft) para docentes de educación superior. Se parte de cuatro elementos primigenios (🧠 Mente, 🌍 Mundo, 🤝 Otros, ⏰ Tiempo) y, mezclando de a dos, se llega a ideas sobre cómo se aprende y cómo se enseña en la universidad. Cada ficha nueva abre una ficha de estudio con la explicación, un ejemplo de aula y las fuentes.
+Herramienta para la formación docente universitaria, con forma de juego de mezclas (al estilo de Infinite Craft). Se parte de cuatro elementos primigenios (🧠 Mente, 🌍 Mundo, 🤝 Otros, ⏰ Tiempo) y, mezclando de a dos, se llega a ideas sobre cómo se aprende y cómo se enseña en la universidad. Cada ficha nueva abre una ficha de estudio con la explicación, un ejemplo de aula y las fuentes.
 
 Las misiones son el centro del juego. Cada una trae un encargo (un caso realista de docencia), un plano con las piezas que hay que reunir hasta la meta, con estrellas en las piezas clave del caso. Al cumplirla se descarga un plan de acción en Markdown. Dentro de una misión solo valen las mezclas que llevan a piezas de su plano; las demás avisan que por esa línea investigativa no se avanza.
+
+Las recetas proponen una forma de relacionar dos ideas. Cada una se revisó para que se entienda sin leer su nota, pero varias admiten otra lectura, y eso sirve en un taller. Discutir por qué A + B da R, o qué otra mezcla daría lo mismo, lleva a negociar el contenido y, sobre todo, lo que cada docente entiende por esa idea. La portada lo dice para que quien juega lo sepa desde el inicio.
 
 ## Para repartirlo
 

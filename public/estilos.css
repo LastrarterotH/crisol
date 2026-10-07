@@ -85,6 +85,7 @@ button, input, textarea, select { font: inherit; color: inherit; }
 .portada-botones .fila-b { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; align-items: center; font-size: 14px; color: var(--tinta-3); }
 .enlace-btn { border: 0; background: none; padding: 2px 0; cursor: pointer; font-weight: 650; color: var(--tinta); text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--acento) 45%, transparent); text-underline-offset: 4px; text-decoration-thickness: 2px; }
 .enlace-btn:hover { color: var(--acento); }
+.portada-nota { margin: 4px 0 0; font-size: 15px; color: var(--tinta-2); max-width: 58ch; text-wrap: pretty; line-height: 1.55; animation: aparecer .8s .7s both; }
 .portada-pie { margin: 6px 0 0; font-size: 13.5px; color: var(--tinta-3); min-height: 1em; }
 
 /* demostración animada de una mezcla */
@@ -388,6 +389,7 @@ button.mini:hover { border-color: var(--c); }
   .hoja .encargo.plegado { -webkit-line-clamp: 2; }
   .portada-deco { display: none; }
   .portada-sub { font-size: 15.5px; }
+  .portada-nota { font-size: 14px; }
   .demo { height: 64px; }
   .demo .ficha { font-size: 13px; }
   .boton.grande { font-size: 16px; padding: 11px 18px; }
