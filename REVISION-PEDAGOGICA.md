@@ -150,3 +150,27 @@ NotebookLM figura con su nombre actual, Gemini Notebook.
 - cuatro DOI propuestos que Crossref no confirmó (Stephens et al., 2014; Su et al., 2011; Fives y DiDonato-Barnes, 2013; Wiggins, 1990).
 
 Ninguna ficha descubrible depende solo de ellas. El detalle está en `datos/v2/revision/refs-aplicadas.md`.
+
+## Validez de las recetas (7 de octubre de 2026)
+
+Un docente notó que ⏰ Tiempo + ⏰ Tiempo = ✏️ Práctica no explica nada. Se revisaron entonces las 1667 recetas con un criterio simple: quien ve A + B en el plano tiene que entender por qué da R, antes de leer la nota.
+
+**Primer intento descartado:** dos agentes revisaron 505 recetas y marcaron solo 6. Una muestra revisada a mano encontró cerca de un 5 % de recetas claramente malas y otro 10 % flojas, así que la revisión completa se hizo a mano sobre una lista compacta (A + B = R, agrupada por resultado).
+
+**Cambios:**
+- **11 recetas del camino de alguna misión se reemplazaron.** Por ejemplo, Práctica pasa a ser Experiencia + Tiempo, Mapa conceptual pasa a Memoria + Saber, y Teoría de la carga cognitiva pasa a Contenido + Memoria (antes iba al revés: Segmentación + Estudiante).
+- **Herramientas:** Copilot ahora es ChatGPT + Herramienta, Claude es IA generativa + Escritura y Gemini Notebook es Gemini + Contenido. Google Scholar, Desmos, Google Classroom y Tabla de posiciones también tienen ingredientes que describen lo que hacen.
+- **Se quitaron 69 alternativas que no se sostenían.** Entre ellas, Universidad + Universidad = Internet, Mente + Práctica de recuperación = Releer y subrayar (justo lo contrario) y Debriefing + Clase grabada = "Más tecnología, más aprendizaje".
+- **3 recetas nuevas y 5 rutas fijadas** mantienen en su misión conceptos que solo llegaban por una receta forzada: TPACK, Motivación autónoma y Movidas retóricas.
+- **Notas reescritas:** 4 recetas que se sostienen se quedaron, pero con una nota que explica mejor la relación.
+
+**Resultado:**
+- Quedan 1598 recetas.
+- Las 30 misiones conservan sus piezas clave y las 49 herramientas siguen en su plano.
+- Se descubren 414 ideas: sale Simulador de tareas parciales, que solo servía para fabricar Desmos.
+
+**Casos discutidos que quedaron:**
+- Mundo + Mundo = Problema real: es el "agua + agua" de estos juegos, y cambiarla desarmaba 23 misiones.
+- Moodle, Canvas y Miro: sus ingredientes son usos reales de la herramienta.
+
+El detalle está en `datos/v2/revision/recetas-revisadas.md`.

@@ -30,7 +30,8 @@ function cargarGrafo2(extra = {}) {
   for (const [id, f] of Object.entries(extra.fichas || {})) { if (fichas[id]) errores.push("la expansión repite el id " + id); else fichas[id] = { ...f }; }
   if (extra.misiones) cat.misiones = cat.misiones.concat(extra.misiones);
   const quitar = new Set(fs.readFileSync(V("quitar.txt"), "utf8").split("\n").map(s => s.trim()).filter(s => s && !s.startsWith("#")));
-  for (const k of extra.quitar || []) quitar.add(k);
+  // quitar.txt solo saca recetas de la versión 1; lo que quita ajustes.json (extra.quitar) sale venga de donde venga
+  const quitarAjustes = new Set(extra.quitar || []);
   const recetas = [], porClave = new Map();
   const agregar = (rec, origen, sobrescribir) => {
     const [a, b, r] = rec;
@@ -39,6 +40,7 @@ function cargarGrafo2(extra = {}) {
     if (fichas[r].f === "prim") { errores.push(origen + ": produce un primigenio " + r); return; }
     const k = clave(a, b);
     if (quitar.has(k) && origen === "v1") return;
+    if (quitarAjustes.has(k) && origen !== "revision") return;
     if (porClave.has(k)) {
       const prev = porClave.get(k);
       if (prev[2] !== r) {
@@ -52,6 +54,8 @@ function cargarGrafo2(extra = {}) {
   };
   for (const rec of JSON.parse(fs.readFileSync(V("recetas-v1.json"), "utf8"))) agregar(rec, "v1", false);
   for (const rec of leerRecetasTxt(V("recetas-nuevas.txt"), errores)) agregar(rec, "nuevas", true);
+  // revisión de validez (ajustes.recetasPlano): recetas del camino diseñado que reemplazan a otras
+  for (const rec of extra.base || []) agregar(rec, "revision", true);
   for (const rec of extra.recetas || []) agregar(rec, rec.origen || "extra", false);
   return { cat, fichas, recetas, porClave, errores, avisos };
 }

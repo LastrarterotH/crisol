@@ -36,7 +36,7 @@ Arma `public/datos.json` y abre un servidor de desarrollo en http://localhost:54
   - `expansion-E*.json`: misiones nuevas con sus fichas, recetas, textos y referencias.
   - `expansion-H*.json`: 14 misiones con herramientas concretas (familia "her": PowerPoint, Moodle, Gmail, ChatGPT, Kahoot!, Zoom, Excel y otras 42), que además rescatan fichas que estaban escritas pero fuera de todo plano. Se escriben con `tareas/tarea-H.md`, un paquete de contexto recortado por agente (`tareas/paquete.js`) y se revisan con `tareas/validar-E.js`, `tareas/citas.js`, `tareas/verificar-refs.js` (Crossref y OpenAlex) y `tareas/pulir.js`.
   - `pre-P*.json`, `pre-D*.json`: recetas para que casi toda pareja del inicio produzca algo. `quitar-D.txt` excluye las que abrían atajos hacia hitos y metas.
-  - `ajustes.json`: correcciones manuales que se aplican al final.
+  - `ajustes.json`: correcciones manuales que se aplican al final. Además de textos y referencias, quita recetas (`quitarRecetas`), suma recetas al camino diseñado (`recetasPlano`) o alternativas (`recetasExtra`), y fija la receta de una pieza en una misión (`misiones[id].ruta`). La revisión de validez de las recetas se escribe en `revision/recetas-decision.json` y se aplica con `tareas/aplicar-recetas.js`; `tareas/comparar-planos.js` muestra cómo cambia cada plano y `tareas/receta.js` dice si un par está libre.
   - `tareas/`: reglas, catálogos e instrucciones con que se generó el contenido, y `validar-E.js` para revisar una expansión.
 - `datos/` (raíz): contenido de la versión 1, que la versión actual reutiliza como base.
 - `DISENO.md`: el diseño.

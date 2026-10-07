@@ -87,13 +87,9 @@ A10  nota anki+sueno_memoria  Anki reparte los repasos y el sueño los fija: jun
 A10  nota quizlet+olvido  Anki lleva la idea de Quizlet más lejos: cada tarjeta vuelve cuando empieza a olvidarse, siguiendo la curva del olvido.
 A10  nota releer+recuperacion  Cambiar el releer por intentar recordar es lo que convierte los apuntes en tarjetas: la respuesta queda tapada hasta que lo intentas.
 A10  nota algoritmo+internet  Un algoritmo que lee páginas de internet y redacta una respuesta con enlaces: así funciona un motor de respuestas como Perplexity.
-A10  nota retroalimentacion_automatica+alf_retro  El mensaje automático solo ayuda si el estudiante sabe leerlo y usarlo: alfabetización en retroalimentación.
 A10  nota copilot+pedagogia  Un asistente dentro de las aplicaciones de oficina obliga a decidir cuándo ayuda a enseñar: eso es conocimiento tecnopedagógico.
 A10  nota evaluacion+internet  Una evaluación aplicada por internet, sin papel y con resultados al instante: un formulario como Microsoft Forms.
 A10  nota pregunta+internet  Preguntas que viajan por internet y vuelven como datos: así funciona un formulario en línea como Google Forms.
-A10  nota chatgpt+practica  Copilot lleva un asistente de lenguaje del mismo tipo que ChatGPT a la práctica diaria: dentro del procesador de texto, la planilla o la reunión.
-A10  nota gemini+memoria  Gemini con una memoria hecha de tus documentos: un cuaderno que responde desde ellos. Antes se llamaba NotebookLM.
-A10  nota ia+lenguaje  Una IA generativa que trabaja con texto: lee, resume y redacta, y acepta documentos que le adjuntes.
 A10  nota ia+dialogo  Una IA generativa a la que le hablas por escrito y responde en el acto: así funciona un asistente conversacional como ChatGPT.
 C  nota genially+proyectos  Si cada equipo construye un Genially con su proyecto y lo va enriqueciendo, reúne evidencias de su proceso: un portafolio de aprendizaje.
 A10  nota cambio_conceptual+sondeo_segunda_vuelta  Cuando tu compañero votó otra opción, el desacuerdo te obliga a revisar tus ideas: el sondeo con segunda vuelta genera conflicto sociocognitivo.
@@ -118,7 +114,6 @@ C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar
 A1  nota juego+mundo  Llevar puntos e insignias del juego a contextos que no son juegos, como un curso, es gamificación según la definición de Deterding y colegas.
 A10  nota previos+proposito  Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje s
 C  nota proposito+retos  Cuando el equipo elige un reto porque le importa, el empuje viene de adentro. Deci y Ryan muestran que la sensación de elegir alimenta la motivación intrínseca.
-C  nota emocion+emocion  Cuando el gusto por una tarea se suma a la emoción de avanzar en ella, el impulso para seguir viene de adentro. Esa es la motivación intrínseca.
 A10  mision sala_responde.cierre  Juliana ya tiene una sesión posible: abre con un sondeo y una segunda vuelta tras conversar en parejas, reparte la palabra con un selector de nombres anunciado 
 A10  mision jugar_serio.cierre  Tomás rediseña su concurso: quita las posiciones individuales, entrega reconocimientos con comentarios sobre el razonamiento y ofrece rutas de distinta dificult
 C  mision ensenar_a_estudiar.encargo  Karla Menjívar dicta Bioquímica a primer año de Medicina en una universidad de San Salvador. Tras el primer parcial, casi la mitad de su grupo le confesó que es

@@ -664,7 +664,23 @@
     "raes20": "Raes, A., Detienne, L., Windey, I., & Depaepe, F. (2020). A systematic literature review on synchronous hybrid learning: Gaps identified. _Learning Environments Research, 23_(3), 269–290.",
     "mann09": "Mann, K., Gordon, J., & MacLeod, A. (2009). Reflection and reflective practice in health professions education: A systematic review. _Advances in Health Sciences Education, 14_(4), 595–621."
   },
-  "recetasExtra": [],
+  "recetasExtra": [
+    [
+      "aumento",
+      "tpack",
+      "modificacion"
+    ],
+    [
+      "gamificacion",
+      "motivacion_autonoma",
+      "sobrejustificacion"
+    ],
+    [
+      "estudiante",
+      "movidas",
+      "identidad_autoral"
+    ]
+  ],
   "quitarRecetas": [
     "carga_trabajo+mente",
     "espaciada+metacognicion",
@@ -682,7 +698,88 @@
     "dominio+motivacion",
     "proposito+tiempo",
     "blended+ritmo",
-    "estudiante+motivacion"
+    "estudiante+motivacion",
+    "practica_deliberada+practica_deliberada",
+    "emocion+previos",
+    "modelado+motivacion",
+    "curriculo+error",
+    "experiencia+experiencia",
+    "mente+universidad",
+    "abp+mapa",
+    "memoria+memoria",
+    "lenguaje+otros",
+    "otros+practicas",
+    "aprendizaje+aprendizaje",
+    "abp+mente",
+    "error+error",
+    "previos+previos",
+    "abp+abp",
+    "lenguaje+lenguaje",
+    "estudiante+segmentacion",
+    "emocion+escritura",
+    "emocion+universidad",
+    "claude+escritura",
+    "deepl+translenguaje",
+    "comunidad_practica+otros",
+    "emocion+emocion",
+    "aprendizaje+saber",
+    "memoria+proposito",
+    "aprendizaje+lenguaje",
+    "juego+juego",
+    "error+mundo",
+    "casos+tiempo",
+    "metacognicion+otros",
+    "mapa+tps",
+    "error+tps",
+    "olvido+reflexiva",
+    "otros+previos",
+    "espaciada+universidad",
+    "mapa+pregunta",
+    "recuperacion+universidad",
+    "alf_retro+grammarly",
+    "alf_retro+retroalimentacion_automatica",
+    "coevaluacion+sheets",
+    "abp+universidad",
+    "comunidad+reflexion",
+    "experiencia+proposito",
+    "docente+olvido",
+    "pensamiento_critico+tiempo",
+    "proposito+proposito",
+    "mapa+mapa",
+    "algoritmo+gamificacion",
+    "aprendizaje+herramienta",
+    "error+herramienta",
+    "universidad+universidad",
+    "otros+universidad",
+    "otros+pregunta",
+    "error+grupo",
+    "herramienta+reflexiva",
+    "herramienta+otros",
+    "servicio+tecnologia",
+    "asistencia_linguistica+privacidad",
+    "peer+phet",
+    "pedagogia+pedagogia",
+    "docente+universidad",
+    "gamificacion+investigacion",
+    "reflexiva+reflexiva",
+    "alucinacion_ia+evidencia",
+    "dialogo+informe_similitud",
+    "claude+gemini",
+    "juego+pregunta",
+    "debriefing+video",
+    "curriculo_oculto+tecnologia",
+    "mente+recuperacion",
+    "tiempo+tiempo",
+    "saber+saber",
+    "escritura+experto_novato",
+    "chatgpt+practica",
+    "ia+lenguaje",
+    "gemini+memoria",
+    "movidas+wikipedia",
+    "representaciones+simulador_tareas",
+    "competencia_digital_docente+tpack",
+    "kahoot+motivacion_autonoma",
+    "experiencia+tiempo"
   ],
   "notas": {
     "estudiante+estudiante": "Dos estudiantes juntos ya forman un grupo, aunque reunirse no asegura que aprendan juntos si nadie estructura la tarea.",
@@ -697,7 +794,6 @@
     "bloom+curriculo": "Un currículo escrito con verbos de Bloom, como analizar o diseñar, declara qué podrá hacer el estudiante al terminar cada curso. Esas declaraciones son resultados de aprendizaje.",
     "evidencia+releer": "Cuando la evidencia compara técnicas de estudio, releer rinde poco y recordar sin mirar rinde mucho más (Dunlosky y colaboradores), así que conviene cambiar relectura por recuperación.",
     "olvido+proposito": "Si sabes que olvidarás buena parte de una clase en pocos días, puedes programar a propósito repasos separados. Ese plan contra el olvido es la práctica espaciada.",
-    "tiempo+tiempo": "Tiempo y más tiempo dedicados a la misma tarea dan práctica. Cuánto mejora quien practica depende de cómo la organice, y eso aparece al sumar otras fichas.",
     "espaciada+problema": "En el trabajo real los problemas no llegan rotulados por capítulo. Repasar unidades anteriores mezcladas obliga a reconocer cada tipo antes de elegir el método.",
     "dialogo+mente": "Después de mucho diálogo, la mente se queda con las palabras y empieza a usarlas para pensar a solas. El lenguaje pasa a ser también herramienta del pensamiento.",
     "alfabetizacion_ia+autentica": "Si el estudiante usa el chatbot en una tarea del oficio sabiendo dónde falla, y después defiende sus decisiones, la nota vuelve a mostrar lo que sabe.",
@@ -713,7 +809,6 @@
     "escribir+situado": "Escribir para aprender dentro de una disciplina, con los textos que ese campo lee y juzga, es entrar en su cultura escrita. Carlino lo llama alfabetización académica.",
     "grupo+proyectos": "Al cerrar un proyecto, cada equipo revisa con la rúbrica el producto de otro y le deja comentarios por criterio, una forma de evaluación entre pares.",
     "cambio_conceptual+cpc": "Saber qué ideas cuestan más es parte del conocimiento pedagógico del contenido. Las que piden un cambio conceptual hondo y transforman la mirada son conceptos umbral.",
-    "curriculo+error": "Donde el curso tropieza cada año con los mismos errores puede haber un concepto umbral, una idea difícil que, una vez entendida, cambia la mirada sobre la materia.",
     "curriculo+ritmo": "Cada estudiante avanza a su ritmo, pero el currículo fija plazos comunes. Si lo que exige supera un tiempo realista, la carga se vuelve excesiva.",
     "holgazaneria+proyectos": "En un proyecto de varias semanas es probable que alguien afloje, y un acuerdo escrito al inicio dice qué hacer si pasa.",
     "grupo+zdp": "En un grupo hay quien ya domina lo que otro todavía no; ese compañero algo más avanzado puede trabajar justo en su zona de desarrollo próximo.",
@@ -726,7 +821,25 @@
     "dominio+estudiante": "Cuando un estudiante domina por fin un tema difícil con su propio esfuerzo, vive lo que Bandura consideró la fuente más poderosa de autoeficacia.",
     "estudiante+mente": "Imaginar que la mente del estudiante trabaja a una fracción de su capacidad es una idea vieja y atractiva. De ahí sale el mito del 10 % del cerebro.",
     "activo+memoria": "Querer saber cuánto recuerda el curso según la actividad tienta a creer en una pirámide con porcentajes de retención que ningún estudio respalda.",
-    "proposito+saber": "Un propósito aplicado a un saber concreto se escribe como lo que el estudiante podrá hacer, con un verbo observable. Así se redactan los resultados de aprendizaje."
+    "proposito+saber": "Un propósito aplicado a un saber concreto se escribe como lo que el estudiante podrá hacer, con un verbo observable. Así se redactan los resultados de aprendizaje.",
+    "procesamiento_grupal+tecnologia": "Al cerrar un trabajo en equipo, cada integrante pega en una pizarra digital notas sobre qué funcionó y qué cambiar. Miro sirve para ese procesamiento grupal.",
+    "encuestas+sheets": "Antes de creer que la encuesta docente mide el aprendizaje, cuenta en una hoja cuántos respondieron sobre cuántos podían. Con una tasa de respuesta baja, el promedio dice poco.",
+    "conectivismo+microsoft_teams": "Para el conectivismo aprendes en una red de personas y recursos que sigue activa. Un canal de Teams del curso mantiene viva esa red entre una clase y otra.",
+    "claude+gemini_notebook": "Pregunta lo mismo a Claude, que responde desde su entrenamiento, y a Gemini Notebook, que responde desde tus documentos. Donde no coinciden suele asomar algo inventado con aplomo, una alucinación.",
+    "experiencia+tiempo": "Vuelve a la misma experiencia una y otra vez, con días de por medio, y estarás practicando. Lo que al principio exigía atención en cada paso se vuelve fluido.",
+    "memoria+saber": "Un saber guardado en la memoria como lista suelta se pierde con facilidad. Organizado con relaciones explícitas entre conceptos, se convierte en un mapa conceptual.",
+    "contenido+memoria": "La memoria de trabajo retiene pocos elementos nuevos a la vez. Si el contenido llega todo junto, la desborda. De ahí parte la teoría de la carga cognitiva.",
+    "alfabetizacion_academica+experto_novato": "Un historiador y un novato leen la misma fuente, y el experto pregunta quién la escribió, cuándo y para qué. La alfabetización académica enseña esa lectura propia de cada disciplina.",
+    "chatgpt+herramienta": "Lleva un asistente del mismo tipo que ChatGPT dentro de tus herramientas de oficina, como el procesador de texto, la planilla o el correo, y tienes Copilot, de Microsoft.",
+    "escritura+ia": "Una IA generativa a la que le pides redactar, resumir o revisar textos, incluso documentos largos que le adjuntas: así trabaja Claude, de Anthropic.",
+    "contenido+gemini": "Entrégale a Gemini el contenido de tu curso, lecturas y apuntes, y responderá solo desde esos materiales. Así funciona Gemini Notebook, antes llamado NotebookLM.",
+    "investigacion+wikipedia": "La Wikipedia te da una primera idea del tema y sus referencias apuntan a la investigación publicada. Para buscar directamente en esos artículos, tesis y libros está Google Scholar.",
+    "representaciones+respuesta_audiencia": "Gráfica, tabla y ecuación de una misma función, en actividades donde ves en vivo lo que responde cada estudiante: eso ofrece Desmos.",
+    "competencia_digital_docente+virtual": "Un entorno virtual sencillo, pensado para que un docente que recién gana competencia digital publique tareas, avisos y comentarios en minutos: Google Classroom.",
+    "gamificacion+kahoot": "El podio que aparece entre pregunta y pregunta en Kahoot! es un elemento de gamificación muy conocido, la tabla de posiciones, que ordena al curso por puntaje.",
+    "aumento+tpack": "Pasar de mejorar una tarea con tecnología a rediseñarla pide mirar juntos contenido, didáctica y herramienta, como propone TPACK. Ese rediseño es el nivel de modificación.",
+    "gamificacion+motivacion_autonoma": "Si premias con puntos lo que el curso ya hacía por interés propio, la motivación autónoma puede caer cuando se acaban los premios. Eso es el efecto de sobrejustificación.",
+    "estudiante+movidas": "Cuando un estudiante aprende las movidas retóricas de su disciplina, como señalar el vacío que llena su trabajo, empieza a escribir con voz de autor dentro de ella."
   },
   "misiones": {
     "evaluar": {
@@ -741,7 +854,13 @@
         "espaciada": "¿Qué contenido de tu curso, como el cálculo de dosis pediátricas en el de Rocío, necesitarán tus estudiantes un año después, y en qué semanas volverá a aparecer en tu programa después de evaluarlo?"
       },
       "encargo": "Te escribe Rocío Mora, que enseña Farmacología en tercer año de Enfermería en una universidad de San José, Costa Rica. Su curso aprueba los parciales, pero en la práctica clínica del año siguiente las docentes de práctica le cuentan que casi nadie recuerda cómo calcular una dosis pediátrica por peso ni cuáles son las interacciones más peligrosas. Quiere que lo estudiado en su curso siga disponible cuando hay un paciente esperando.",
-      "cierre": "Rocío ahora abre cada clase con preguntas sin apuntes que vuelven sobre semanas anteriores, corrige en el momento cada respuesta equivocada, y sus guías mezclan los fármacos que el curso confunde. Le costará convencer a sus estudiantes porque así se estudia más lento, pero es lo que la investigación asocia con que lo estudiado siga ahí meses después del examen."
+      "cierre": "Rocío ahora abre cada clase con preguntas sin apuntes que vuelven sobre semanas anteriores, corrige en el momento cada respuesta equivocada, y sus guías mezclan los fármacos que el curso confunde. Le costará convencer a sus estudiantes porque así se estudia más lento, pero es lo que la investigación asocia con que lo estudiado siga ahí meses después del examen.",
+      "ruta": {
+        "intercalada": [
+          "problema",
+          "espaciada"
+        ]
+      }
     },
     "curso": {
       "reflexiones": {
@@ -762,6 +881,12 @@
       "cierre": "Lorena puede llevar al comité una propuesta acotada, con un tutor que da pistas en los asientos de ajuste, reglas de datos explicadas a cada estudiante y evaluaciones en que el chatbot no reemplaza el criterio contable. Incluye un piloto de un semestre en algunas secciones, con la misma prueba final sin IA para quienes usan la plataforma y quienes no, para saber si ayudó antes de pagar la licencia completa.",
       "reflexiones": {
         "evaluacion_ia": "¿Qué parte de tu evaluación final podría resolver hoy un chatbot, incluso si le entregas los datos del caso, y qué defensa oral o tramo hecho en clase agregarías para ver lo que sabe cada estudiante?"
+      },
+      "ruta": {
+        "competencia": [
+          "nativos",
+          "reflexiva"
+        ]
       }
     },
     "hibrido": {
@@ -800,6 +925,87 @@
     },
     "investigar_docencia": {
       "cierre": "Rafael ya tiene una pregunta acotada sobre los casos en parejas, un inventario conceptual al inicio y al cierre del semestre, dos visitas de una colega con un protocolo de observación y una lectura de la encuesta que considera sus sesgos. El comité de ética de su facultad revisó el estudio, y un colega guardará los consentimientos hasta que cierren las notas. Con eso podrá mostrar a la coordinación, y a las jornadas de su facultad, qué cambió en el aprendizaje de su curso."
+    },
+    "plataforma": {
+      "ruta": {
+        "modificacion": [
+          "aumento",
+          "tpack"
+        ]
+      }
+    },
+    "jugar_serio": {
+      "ruta": {
+        "sobrejustificacion": [
+          "gamificacion",
+          "motivacion_autonoma"
+        ]
+      }
+    },
+    "leer_escribir_fuentes": {
+      "ruta": {
+        "identidad_autoral": [
+          "estudiante",
+          "movidas"
+        ]
+      }
     }
-  }
+  },
+  "recetasPlano": [
+    [
+      "experiencia",
+      "tiempo",
+      "practica"
+    ],
+    [
+      "memoria",
+      "saber",
+      "mapa"
+    ],
+    [
+      "contenido",
+      "memoria",
+      "carga_cognitiva"
+    ],
+    [
+      "experto_novato",
+      "alfabetizacion_academica",
+      "lectura_disciplinar"
+    ],
+    [
+      "chatgpt",
+      "herramienta",
+      "copilot"
+    ],
+    [
+      "ia",
+      "escritura",
+      "claude"
+    ],
+    [
+      "gemini",
+      "contenido",
+      "gemini_notebook"
+    ],
+    [
+      "wikipedia",
+      "investigacion",
+      "google_scholar"
+    ],
+    [
+      "representaciones",
+      "respuesta_audiencia",
+      "desmos"
+    ],
+    [
+      "competencia_digital_docente",
+      "virtual",
+      "classroom"
+    ],
+    [
+      "kahoot",
+      "gamificacion",
+      "tabla_posiciones"
+    ]
+  ]
 }

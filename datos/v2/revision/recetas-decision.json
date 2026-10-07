@@ -1,0 +1,212 @@
+{
+ "fecha": "2026-10-07",
+ "plano": [
+  [
+   "experiencia",
+   "tiempo",
+   "practica"
+  ],
+  [
+   "memoria",
+   "saber",
+   "mapa"
+  ],
+  [
+   "contenido",
+   "memoria",
+   "carga_cognitiva"
+  ],
+  [
+   "experto_novato",
+   "alfabetizacion_academica",
+   "lectura_disciplinar"
+  ],
+  [
+   "chatgpt",
+   "herramienta",
+   "copilot"
+  ],
+  [
+   "ia",
+   "escritura",
+   "claude"
+  ],
+  [
+   "gemini",
+   "contenido",
+   "gemini_notebook"
+  ],
+  [
+   "wikipedia",
+   "investigacion",
+   "google_scholar"
+  ],
+  [
+   "representaciones",
+   "respuesta_audiencia",
+   "desmos"
+  ],
+  [
+   "competencia_digital_docente",
+   "virtual",
+   "classroom"
+  ],
+  [
+   "kahoot",
+   "gamificacion",
+   "tabla_posiciones"
+  ]
+ ],
+ "extra": [
+  [
+   "aumento",
+   "tpack",
+   "modificacion"
+  ],
+  [
+   "gamificacion",
+   "motivacion_autonoma",
+   "sobrejustificacion"
+  ],
+  [
+   "estudiante",
+   "movidas",
+   "identidad_autoral"
+  ]
+ ],
+ "rutas": {
+  "memoria": {
+   "intercalada": [
+    "problema",
+    "espaciada"
+   ]
+  },
+  "ia": {
+   "competencia": [
+    "nativos",
+    "reflexiva"
+   ]
+  },
+  "plataforma": {
+   "modificacion": [
+    "aumento",
+    "tpack"
+   ]
+  },
+  "jugar_serio": {
+   "sobrejustificacion": [
+    "gamificacion",
+    "motivacion_autonoma"
+   ]
+  },
+  "leer_escribir_fuentes": {
+   "identidad_autoral": [
+    "estudiante",
+    "movidas"
+   ]
+  }
+ },
+ "quitar": [
+  "practica_deliberada+practica_deliberada",
+  "emocion+previos",
+  "modelado+motivacion",
+  "curriculo+error",
+  "experiencia+experiencia",
+  "mente+universidad",
+  "abp+mapa",
+  "memoria+memoria",
+  "lenguaje+otros",
+  "otros+practicas",
+  "aprendizaje+aprendizaje",
+  "abp+mente",
+  "error+error",
+  "previos+previos",
+  "abp+abp",
+  "lenguaje+lenguaje",
+  "estudiante+segmentacion",
+  "emocion+escritura",
+  "emocion+universidad",
+  "claude+escritura",
+  "deepl+translenguaje",
+  "comunidad_practica+otros",
+  "emocion+emocion",
+  "aprendizaje+saber",
+  "memoria+proposito",
+  "aprendizaje+lenguaje",
+  "juego+juego",
+  "error+mundo",
+  "casos+tiempo",
+  "metacognicion+otros",
+  "mapa+tps",
+  "error+tps",
+  "olvido+reflexiva",
+  "otros+previos",
+  "espaciada+universidad",
+  "mapa+pregunta",
+  "recuperacion+universidad",
+  "alf_retro+grammarly",
+  "alf_retro+retroalimentacion_automatica",
+  "coevaluacion+sheets",
+  "abp+universidad",
+  "comunidad+reflexion",
+  "experiencia+proposito",
+  "docente+olvido",
+  "pensamiento_critico+tiempo",
+  "proposito+proposito",
+  "mapa+mapa",
+  "algoritmo+gamificacion",
+  "aprendizaje+herramienta",
+  "error+herramienta",
+  "universidad+universidad",
+  "otros+universidad",
+  "otros+pregunta",
+  "error+grupo",
+  "herramienta+reflexiva",
+  "herramienta+otros",
+  "servicio+tecnologia",
+  "asistencia_linguistica+privacidad",
+  "peer+phet",
+  "pedagogia+pedagogia",
+  "docente+universidad",
+  "gamificacion+investigacion",
+  "reflexiva+reflexiva",
+  "alucinacion_ia+evidencia",
+  "dialogo+informe_similitud",
+  "claude+gemini",
+  "juego+pregunta",
+  "debriefing+video",
+  "curriculo_oculto+tecnologia",
+  "mente+recuperacion",
+  "tiempo+tiempo",
+  "saber+saber",
+  "escritura+experto_novato",
+  "chatgpt+practica",
+  "ia+lenguaje",
+  "gemini+memoria",
+  "movidas+wikipedia",
+  "representaciones+simulador_tareas",
+  "competencia_digital_docente+tpack",
+  "kahoot+motivacion_autonoma"
+ ],
+ "notas": {
+  "procesamiento_grupal+tecnologia": "Al cerrar un trabajo en equipo, cada integrante pega en una pizarra digital notas sobre qué funcionó y qué cambiar. Miro sirve para ese procesamiento grupal.",
+  "encuestas+sheets": "Antes de creer que la encuesta docente mide el aprendizaje, cuenta en una hoja cuántos respondieron sobre cuántos podían. Con una tasa de respuesta baja, el promedio dice poco.",
+  "conectivismo+microsoft_teams": "Para el conectivismo aprendes en una red de personas y recursos que sigue activa. Un canal de Teams del curso mantiene viva esa red entre una clase y otra.",
+  "claude+gemini_notebook": "Pregunta lo mismo a Claude, que responde desde su entrenamiento, y a Gemini Notebook, que responde desde tus documentos. Donde no coinciden suele asomar algo inventado con aplomo, una alucinación.",
+  "experiencia+tiempo": "Vuelve a la misma experiencia una y otra vez, con días de por medio, y estarás practicando. Lo que al principio exigía atención en cada paso se vuelve fluido.",
+  "memoria+saber": "Un saber guardado en la memoria como lista suelta se pierde con facilidad. Organizado con relaciones explícitas entre conceptos, se convierte en un mapa conceptual.",
+  "contenido+memoria": "La memoria de trabajo retiene pocos elementos nuevos a la vez. Si el contenido llega todo junto, la desborda. De ahí parte la teoría de la carga cognitiva.",
+  "alfabetizacion_academica+experto_novato": "Un historiador y un novato leen la misma fuente, y el experto pregunta quién la escribió, cuándo y para qué. La alfabetización académica enseña esa lectura propia de cada disciplina.",
+  "chatgpt+herramienta": "Lleva un asistente del mismo tipo que ChatGPT dentro de tus herramientas de oficina, como el procesador de texto, la planilla o el correo, y tienes Copilot, de Microsoft.",
+  "escritura+ia": "Una IA generativa a la que le pides redactar, resumir o revisar textos, incluso documentos largos que le adjuntas: así trabaja Claude, de Anthropic.",
+  "contenido+gemini": "Entrégale a Gemini el contenido de tu curso, lecturas y apuntes, y responderá solo desde esos materiales. Así funciona Gemini Notebook, antes llamado NotebookLM.",
+  "investigacion+wikipedia": "La Wikipedia te da una primera idea del tema y sus referencias apuntan a la investigación publicada. Para buscar directamente en esos artículos, tesis y libros está Google Scholar.",
+  "representaciones+respuesta_audiencia": "Gráfica, tabla y ecuación de una misma función, en actividades donde ves en vivo lo que responde cada estudiante: eso ofrece Desmos.",
+  "competencia_digital_docente+virtual": "Un entorno virtual sencillo, pensado para que un docente que recién gana competencia digital publique tareas, avisos y comentarios en minutos: Google Classroom.",
+  "gamificacion+kahoot": "El podio que aparece entre pregunta y pregunta en Kahoot! es un elemento de gamificación muy conocido, la tabla de posiciones, que ordena al curso por puntaje.",
+  "aumento+tpack": "Pasar de mejorar una tarea con tecnología a rediseñarla pide mirar juntos contenido, didáctica y herramienta, como propone TPACK. Ese rediseño es el nivel de modificación.",
+  "gamificacion+motivacion_autonoma": "Si premias con puntos lo que el curso ya hacía por interés propio, la motivación autónoma puede caer cuando se acaban los premios. Eso es el efecto de sobrejustificación.",
+  "estudiante+movidas": "Cuando un estudiante aprende las movidas retóricas de su disciplina, como señalar el vacío que llena su trabajo, empieza a escribir con voz de autor dentro de ella."
+ },
+ "fichas": {}
+}

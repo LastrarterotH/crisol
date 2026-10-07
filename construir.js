@@ -36,7 +36,7 @@ for (const x of EXPANSIONES) {
 // (o del juego base), es una conexión y no debe cambiar los planos de misiones ajenas.
 for (const [x, p] of expTextos) for (const r of p.recetas || []) { const rec = [r.a, r.b, r.r, r.nota || ""]; rec.origen = (p.fichas || {})[r.r] ? "exp" : "expx"; rec.de = x; extra.unshift(rec); }
 // el preanálisis no debe chocar con lo existente: se descartan sus colisiones en vez de fallar
-const base = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], fichas: expFichas });
+const base = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], base: ajustes.recetasPlano || [], fichas: expFichas });
 const ocupadas = new Map(base.recetas.map(r => [clave(r[0], r[1]), r[2]]));
 const extraOk = [];
 for (const rec of extra) {
@@ -45,7 +45,7 @@ for (const rec of extra) {
   if (ocupadas.has(k)) { if (ocupadas.get(k) !== rec[2]) avisos.push(rec.origen + ": choque " + k + " = " + ocupadas.get(k) + " / " + rec[2] + " (se mantiene " + ocupadas.get(k) + ")"); continue; }
   ocupadas.set(k, rec[2]); extraOk.push(rec);
 }
-const g = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], recetas: extraOk, fichas: expFichas, misiones: expMisiones });
+const g = cargarGrafo2({ quitar: ajustes.quitarRecetas || [], base: ajustes.recetasPlano || [], recetas: extraOk, fichas: expFichas, misiones: expMisiones });
 errores.push(...g.errores);
 const F = g.fichas;
 
@@ -169,7 +169,7 @@ if (sinNota.length) avisos.push(sinNota.length + " recetas sin nota (ej.: " + si
 // El plano sigue el grafo diseñado (recetas base y nuevas); los atajos del preanálisis son caminos alternativos.
 const nivelBase = {};
 for (const id of g.cat.iniciales) nivelBase[id] = 0;
-const recetasBase = g.recetas.filter(r => r.origen === "v1" || r.origen === "nuevas" || r.origen === "exp");
+const recetasBase = g.recetas.filter(r => r.origen === "v1" || r.origen === "nuevas" || r.origen === "exp" || r.origen === "revision");
 for (let cambio = true; cambio;) {
   cambio = false;
   for (const [a, b, r] of recetasBase) {
@@ -210,7 +210,8 @@ function plano(meta, hitos = [], ruta = {}) {
 }
 const misiones = g.cat.misiones.map(({ _de, ruta, ...m }) => {
   const txt = misionesTxt[m.id] || {};
-  const pl = plano(m.meta, m.hitos, ruta || {});
+  // la ruta fijada puede venir del catálogo o de ajustes.json (misiones[id].ruta), también para las misiones de expansión
+  const pl = plano(m.meta, m.hitos, Object.assign({}, ruta || {}, ((ajustes.misiones || {})[m.id] || {}).ruta || {}));
   for (const h of m.hitos) if (!pl.some(n => n.id === h)) avisos.push("misión " + m.id + ": el hito " + h + " no está en el plano");
   if (!txt.encargo) avisos.push("misión " + m.id + " sin textos");
   const aj = (ajustes.misiones || {})[m.id] || {};
