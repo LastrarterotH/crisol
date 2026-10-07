@@ -208,7 +208,7 @@ function plano(meta, hitos = [], ruta = {}) {
   const profundidad = id => { if (prof[id] !== undefined) return prof[id]; const ing = nodos.get(id); return prof[id] = ing ? 1 + Math.max(profundidad(ing[0]), profundidad(ing[1])) : 0; };
   return [...nodos.entries()].map(([id, ing]) => ({ id, ing, nivel: profundidad(id) }));
 }
-const misiones = g.cat.misiones.map(({ _de, ruta, ...m }) => {
+const misionesSueltas = g.cat.misiones.map(({ _de, ruta, ...m }) => {
   const txt = misionesTxt[m.id] || {};
   // la ruta fijada puede venir del catálogo o de ajustes.json (misiones[id].ruta), también para las misiones de expansión
   const pl = plano(m.meta, m.hitos, Object.assign({}, ruta || {}, ((ajustes.misiones || {})[m.id] || {}).ruta || {}));
@@ -217,6 +217,30 @@ const misiones = g.cat.misiones.map(({ _de, ruta, ...m }) => {
   const aj = (ajustes.misiones || {})[m.id] || {};
   return Object.assign({}, m, { encargo: aj.encargo || txt.encargo || "", objetivo: aj.objetivo || txt.objetivo || "", cierre: aj.cierre || txt.cierre || "", plano: pl });
 });
+
+// ---------- Hilo conductor (datos/v2/hilo.json): orden de las misiones, partes y qué toma cada una de las anteriores ----------
+const hilo = JSON.parse(fs.readFileSync(V("hilo.json"), "utf8"));
+const porId = Object.fromEntries(misionesSueltas.map(m => [m.id, m]));
+const numDe = Object.fromEntries(hilo.misiones.map((h, i) => [h.id, i + 1]));
+for (const h of hilo.misiones) if (!porId[h.id]) errores.push("hilo.json nombra una misión que no existe: " + h.id);
+for (const m of misionesSueltas) if (!numDe[m.id]) errores.push("la misión " + m.id + " no está en hilo.json");
+if (new Set(hilo.misiones.map(h => h.id)).size !== hilo.misiones.length) errores.push("hilo.json repite una misión");
+// {id} se escribe «Nombre» (misión N) y {#id} «misión N»; en viene y previo solo valen misiones anteriores, en llevas solo posteriores
+const hiloTexto = (txt, h, campo) => (txt || "").replace(/\{(#?)(\w+)\}/g, (_, corto, id) => {
+  if (!porId[id]) { errores.push("hilo.json, " + h.id + "." + campo + ": no existe la misión " + id); return id; }
+  const antes = numDe[id] < numDe[h.id];
+  if ((campo === "llevas") === antes) errores.push("hilo.json, " + h.id + "." + campo + ": la misión " + id + " debería ser " + (campo === "llevas" ? "posterior" : "anterior"));
+  return corto ? "misión " + numDe[id] : "«" + porId[id].n + "» (misión " + numDe[id] + ")";
+});
+const misiones = hilo.misiones.filter(h => porId[h.id]).map(h => {
+  if (!hilo.partes.some(p => p.id === h.parte)) errores.push("hilo.json, " + h.id + ": parte desconocida " + h.parte);
+  if (h.aplica && !(numDe[h.aplica] < numDe[h.id])) errores.push("hilo.json, " + h.id + ": aplica una misión que no es anterior");
+  const extra = { num: numDe[h.id], parte: h.parte, viene: hiloTexto(h.viene, h, "viene"), llevas: hiloTexto(h.llevas, h, "llevas"), previo: hiloTexto(h.previo, h, "previo") };
+  if (h.aplica) extra.aplica = h.aplica;
+  for (const c of ["viene", "llevas", "previo"]) if (!extra[c]) errores.push("hilo.json, " + h.id + ": falta " + c);
+  return Object.assign({}, porId[h.id], extra);
+});
+const partes = hilo.partes.map(({ id, n, d }) => ({ id, n, d }));
 
 // ---------- Informe de patrones sospechosos (para revisión humana) ----------
 const PATRONES = [
@@ -230,7 +254,7 @@ const sospechas = [];
 const revisar = (txt, donde) => { if (typeof txt !== "string") return; for (const [c, re] of PATRONES) if (re.test(txt)) sospechas.push(c + "  " + donde + "  " + txt.slice(0, 160)); };
 for (const id of ids) for (const c of ["pista", "why", "uni", "belief", "evidence", "prueba"]) revisar(F[id][c], id + "." + c);
 for (const r of g.recetas) revisar(r[3], "nota " + r[0] + "+" + r[1]);
-for (const m of misiones) for (const c of ["encargo", "objetivo", "cierre"]) revisar(m[c], "mision " + m.id + "." + c);
+for (const m of misiones) for (const c of ["encargo", "objetivo", "cierre", "viene", "llevas", "previo"]) revisar(m[c], "mision " + m.id + "." + c);
 fs.writeFileSync(V("informe-patrones.txt"), sospechas.join("\n") + "\n");
 
 // ---------- Salida ----------
@@ -238,7 +262,7 @@ for (const id of ids) { F[id].nivel = nivel[id]; delete F[id]._de; }
 const DATOS = {
   version: new Date().toISOString(),
   familias: g.cat.familias, orden: g.cat.orden, iniciales: g.cat.iniciales,
-  fichas: F, refs, refsLibre, refsLibro, refsWeb, recetas: g.recetas.map(r => [r[0], r[1], r[2], r[3] || ""]), misiones,
+  fichas: F, refs, refsLibre, refsLibro, refsWeb, recetas: g.recetas.map(r => [r[0], r[1], r[2], r[3] || ""]), misiones, partes,
   pistaMito: "Combínalo con 📓 Práctica reflexiva para desarmarlo."
 };
 const json = JSON.stringify(DATOS);

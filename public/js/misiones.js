@@ -28,7 +28,7 @@ export function renderCabecera() {
   const n = piezasLogradas(m), tot = construibles(m).length;
   cab.innerHTML = '<span class="nombre">' + rico(m.e + " " + m.n) + '</span><span class="avance"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><small>' + n + " de " + tot + " piezas</small>";
 }
-let encargoAbierto = false;
+let encargoAbierto = false, hiloAbierto = false;
 export function renderHoja() {
   const m = misionActiva(), hoja = $("hojaMision");
   if (!m) {
@@ -42,6 +42,7 @@ export function renderHoja() {
   let h = '<div class="hoja"><h2><span class="em">' + esc(m.e) + "</span>" + esc(m.n) + "</h2>";
   if (m.encargo) h += '<p class="encargo' + (encargoAbierto ? "" : " plegado") + '">' + rico(m.encargo) + '</p><button class="ver-mas" type="button" data-a="encargo">' + (encargoAbierto ? "ver menos" : "leer el encargo completo") + "</button>";
   if (m.objetivo) h += '<p class="objetivo"><b>Tu objetivo</b>' + rico(m.objetivo) + "</p>";
+  if (m.viene && !m.tutorial) h += '<details class="hilo"' + (hiloAbierto ? " open" : "") + '><summary>Misión ' + m.num + " de " + D.misiones.length + " · de dónde viene</summary><p><b>Viene de</b>" + rico(m.viene) + "</p><p><b>Si empiezas aquí</b>" + rico(m.previo) + "</p></details>";
   if (hecha) h += '<h3>¡Misión cumplida!</h3><p class="logrado">Llegaste a ' + esc(D.fichas[m.meta].n) + '. Puedes seguir explorando o elegir otra misión.</p><p><button class="boton-papel principal" type="button" data-a="celebrar">Ver mi síntesis</button></p>';
   else {
     h += "<h3>A tu alcance</h3>";
@@ -51,6 +52,8 @@ export function renderHoja() {
   }
   h += '<p class="pie-hoja"><button class="boton-papel" type="button" data-a="plano"><span class="em">🗺️</span>Ver el plano completo</button></p></div>';
   hoja.innerHTML = h;
+  const det = hoja.querySelector("details.hilo");
+  if (det) det.addEventListener("toggle", () => { hiloAbierto = det.open; });
   hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => ({ encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); }, plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones })[b.dataset.a]()));
   hoja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => comprarPista(m, b.dataset.comprar)));
   hoja.querySelectorAll("[data-traer]").forEach(b => b.addEventListener("click", () => llevar(b.dataset.traer)));
@@ -215,13 +218,15 @@ $("capaPlano").addEventListener("click", e => { if (e.target.id === "capaPlano")
 /* ---------- Celebración ---------- */
 export function celebrar(m) {
   const f = D.fichas[m.meta], st = estadoMision(m.id);
+  const sig = siguienteMision(m);
   sonar.meta();
   const cel = $("celebracion");
   cel.innerHTML = '<canvas id="confeti" aria-hidden="true"></canvas><div class="contenido"><div class="sello-meta">' + esc(f.e) + '</div><h1>¡Misión <em>cumplida</em>!</h1>' +
     '<p class="cierre">' + rico(m.cierre || "Llegaste a la meta.") + "</p>" +
-    '<div class="plano-mini" style="width:min(100%,1040px);height:min(340px,38vh)"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
+    (m.llevas ? '<p class="hilo-cierre"><b>Te llevas</b> ' + rico(m.llevas) + "</p>" : "") +
+    '<div class="plano-mini" style="width:min(100%,1040px);height:min(' + (m.llevas ? "290px,31vh" : "340px,38vh") + ')"><svg id="planoFinal" style="width:100%;height:100%"></svg></div>' +
     '<div class="acciones"><button class="boton principal grande" type="button" data-c="sintesis">' + (m.tutorial ? "Leer la ficha de " + esc(f.n) : "Leer la síntesis") + "</button>" +
-    '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button><button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button><button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
+    '<button class="boton grande" type="button" data-c="plan"><span class="em">📝</span>Descargar mi plan</button>' + (sig ? '<button class="boton grande" type="button" data-c="siguiente">Sigue con ' + rico(sig.e + " " + sig.n) + "</button>" : '<button class="boton grande" type="button" data-c="misiones"><span class="em">📜</span>Otra misión</button>') + '<button class="boton grande" type="button" data-c="seguir">Volver a la mesa</button></div>' +
     "</div>";
   cel.hidden = false;
   dibujarPlano($("planoFinal"), m);
@@ -231,6 +236,7 @@ export function celebrar(m) {
     if (a === "sintesis") { cel.hidden = true; abrirFicha(m.meta); }
     if (a === "plan") descargar("mi-plan-" + m.id + ".md", textoPlan(m));
     if (a === "misiones") { cel.hidden = true; abrirMisiones(); }
+    if (a === "siguiente") { cel.hidden = true; iniciarMision(sig.id); }
     if (a === "seguir") cel.hidden = true;
   }));
 }
@@ -291,18 +297,59 @@ export function abrirPlan() {
 }
 
 /* ---------- Misiones ---------- */
+const cumplida = m => !!(E.misiones[m.id] && E.misiones[m.id].completada);
+const nivelDe = m => { const tot = construibles(m).length; return m.tutorial ? "Tutorial" : "Dificultad " + (tot < 12 ? "básica" : tot < 30 ? "intermedia" : "avanzada"); };
+const partes = () => (D.partes && D.partes.length ? D.partes : [{ id: null, n: "", d: "" }]).map(pa => ({ ...pa, misiones: D.misiones.filter(m => !pa.id || m.parte === pa.id) }));
+// La siguiente misión del hilo que falta cumplir (y si no queda ninguna después, la primera pendiente).
+function siguienteMision(m) {
+  const pend = D.misiones.filter(x => x.id !== m.id && !cumplida(x));
+  return pend.find(x => x.num > m.num) || pend[0] || null;
+}
 export function abrirMisiones() {
-  let h = '<h2>📜 Misiones</h2><p class="intro">Cada misión es un encargo real de docencia universitaria. Cada una trae un plano de piezas que se arma mezclando desde los cuatro primigenios hasta la meta. Las piezas que logres sirven para las demás misiones. La etiqueta de cada tarjeta indica su dificultad, según cuántas piezas tiene su plano.</p><div class="misiones-grid">';
-  const orden = [...D.misiones].sort((a, b) => (b.tutorial ? 1 : 0) - (a.tutorial ? 1 : 0) || construibles(a).length - construibles(b).length);
-  orden.forEach(m => {
-    const n = piezasLogradas(m), st = E.misiones[m.id], tot = construibles(m).length;
-    const nivel = m.tutorial ? "Tutorial" : "Dificultad " + (tot < 12 ? "básica" : tot < 30 ? "intermedia" : "avanzada");
-    h += '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
-      (st && st.completada ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span><h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + '</p><div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad de la misión según cuántas piezas tiene su plano">' + nivel + "</span></div></button>";
-  });
-  h += "</div>";
-  const p = abrirPanel(h);
+  let h = '<h2>📜 Misiones</h2><p class="intro">Cada misión es un encargo real de docencia universitaria, con un plano de piezas que se arma desde los cuatro primigenios hasta la meta. Las misiones siguen un hilo. La parte 1 recorre las ideas de menos a más y la parte 2 lleva cada una a una herramienta concreta. Puedes empezar por cualquiera, y cada misión te cuenta de dónde viene y qué conviene saber antes.</p>' +
+    '<p class="guia-enlace"><button class="enlace-btn" type="button" data-accion="guia">🧭 Guía para facilitar un taller</button></p>';
+  for (const pa of partes()) {
+    if (pa.n) h += '<h3 class="subtitulo parte-titulo">' + esc(pa.n) + '</h3><p class="parte-desc">' + esc(pa.d) + "</p>";
+    h += '<div class="misiones-grid">' + pa.misiones.map(cartaMision).join("") + "</div>";
+  }
+  const p = abrirPanel(h, { guia: abrirGuia });
   p.querySelectorAll("[data-m]").forEach(b => b.addEventListener("click", () => { cerrarPanel(); iniciarMision(b.dataset.m); }));
+}
+function cartaMision(m) {
+  const n = piezasLogradas(m), tot = construibles(m).length;
+  const ap = m.aplica && D.misiones.find(x => x.id === m.aplica);
+  return '<button class="mision-carta' + (E.mision === m.id ? " activa" : "") + '" type="button" data-m="' + m.id + '">' +
+    (cumplida(m) ? '<span class="sello">Cumplida</span>' : "") + '<span class="em">' + esc(m.e) + "</span>" +
+    (m.num ? '<span class="num">Misión ' + m.num + "</span>" : "") + "<h3>" + esc(m.n) + "</h3><p>" + rico(m.encargo || "") + "</p>" +
+    (ap ? '<span class="aplica">Aplica ' + rico(ap.e + " " + ap.n) + " (" + ap.num + ")</span>" : "") +
+    '<div class="meta-dato"><span>' + n + " de " + tot + ' piezas</span><span class="barrita"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><span class="dificultad" title="Dificultad de la misión según cuántas piezas tiene su plano">' + nivelDe(m) + "</span></div></button>";
+}
+
+/* ---------- Guía para facilitar ---------- */
+const GUIA_INTRO = "Para armar un taller con Crisol. Las misiones siguen un orden, pero puedes empezar por cualquiera. En el juego nada se bloquea, y si el grupo parte en la última, su plano igual se arma desde los cuatro primigenios. Lo que se pierde son las conversaciones de las misiones anteriores, y por eso cada una dice de dónde viene, qué deja y qué conviene que el grupo sepa antes.";
+const GUIA_RECETAS = "Algunas recetas se pueden discutir. Vale la pena detenerse en ellas con el grupo, porque ahí se negocia el contenido y, sobre todo, lo que cada idea significa en su docencia.";
+export function abrirGuia() {
+  let h = '<h2>🧭 Guía para facilitar</h2><p class="intro">' + esc(GUIA_INTRO) + '</p><p class="intro">' + esc(GUIA_RECETAS) + "</p>";
+  for (const pa of partes()) {
+    if (pa.n) h += '<h3 class="subtitulo parte-titulo">' + esc(pa.n) + '</h3><p class="parte-desc">' + esc(pa.d) + "</p>";
+    h += '<div class="guia-lista">' + pa.misiones.map(m => '<div class="guia-mision"><h4><span class="num">' + m.num + "</span>" + rico(m.e + " " + m.n) + "<small>" + nivelDe(m) + " · " + construibles(m).length + " piezas</small></h4>" +
+      (m.objetivo ? '<p class="objetivo-guia">' + rico(m.objetivo) + "</p>" : "") +
+      "<p><b>Viene de</b> " + rico(m.viene || "") + "</p><p><b>Te llevas</b> " + rico(m.llevas || "") + "</p><p><b>Si empiezas aquí</b> " + rico(m.previo || "") + "</p></div>").join("") + "</div>";
+  }
+  h += '<div class="fila-botones"><button class="boton" type="button" data-accion="volver">Volver a las misiones</button><button class="boton principal" type="button" data-accion="bajar">Descargar la guía (.md)</button></div>';
+  abrirPanel(h, { volver: abrirMisiones, bajar: () => descargar("crisol-guia-para-facilitar.md", textoGuia()) });
+}
+function textoGuia() {
+  const l = ["# Crisol · Guía para facilitar", "", GUIA_INTRO, "", GUIA_RECETAS, ""];
+  for (const pa of partes()) {
+    if (pa.n) l.push("## " + pa.n, "", pa.d, "");
+    for (const m of pa.misiones) {
+      l.push("### " + m.num + ". " + m.e + " " + m.n, "", nivelDe(m) + " · " + construibles(m).length + " piezas", "");
+      if (m.objetivo) l.push("**Objetivo.** " + m.objetivo, "");
+      l.push("**Viene de.** " + (m.viene || ""), "", "**Te llevas.** " + (m.llevas || ""), "", "**Si empiezas aquí.** " + (m.previo || ""), "");
+    }
+  }
+  return l.join("\n");
 }
 export function iniciarMision(id) {
   const cambia = E.mision !== id;

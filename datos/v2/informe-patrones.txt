@@ -114,6 +114,7 @@ C  nota estudiante+olvido  Ante el olvido, el estudiante suele releer y subrayar
 A1  nota juego+mundo  Llevar puntos e insignias del juego a contextos que no son juegos, como un curso, es gamificación según la definición de Deterding y colegas.
 A10  nota previos+proposito  Ausubel pidió dos condiciones: ideas previas donde anclar lo nuevo y la intención de relacionarlas en vez de memorizar suelto. Con ambas ocurre el aprendizaje s
 C  nota proposito+retos  Cuando el equipo elige un reto porque le importa, el empuje viene de adentro. Deci y Ryan muestran que la sensación de elegir alimenta la motivación intrínseca.
+C  mision memoria.previo  Basta con saber jugar. Si el grupo cree que releer y subrayar alcanza para estudiar, es un muy buen comienzo.
 A10  mision sala_responde.cierre  Juliana ya tiene una sesión posible: abre con un sondeo y una segunda vuelta tras conversar en parejas, reparte la palabra con un selector de nombres anunciado 
 A10  mision jugar_serio.cierre  Tomás rediseña su concurso: quita las posiciones individuales, entrega reconocimientos con comentarios sobre el razonamiento y ofrece rutas de distinta dificult
 C  mision ensenar_a_estudiar.encargo  Karla Menjívar dicta Bioquímica a primer año de Medicina en una universidad de San Salvador. Tras el primer parcial, casi la mitad de su grupo le confesó que es
