@@ -20,17 +20,23 @@ function alcance(m) {
 }
 
 /* ---------- Cabecera y hoja ---------- */
+// La cabecera solo navega (Misiones, Cuaderno, Mi plan) y cuenta chispas e ideas; la misión vive en la hoja.
 export function renderCabecera() {
-  const m = misionActiva(), cab = $("misionCab");
   $("chispas").querySelector("b").textContent = E.chispas;
   $("contador").textContent = descubiertas().length + " ideas";
-  if (!m) { cab.innerHTML = '<span class="nombre">Elige una misión</span>'; return; }
-  const n = piezasLogradas(m), tot = construibles(m).length;
-  cab.innerHTML = '<span class="nombre">' + rico(m.e + " " + m.n) + '</span><span class="avance"><i style="width:' + (100 * n / tot).toFixed(1) + '%"></i></span><small>' + n + " de " + tot + " piezas</small>";
 }
-let encargoAbierto = false, hiloAbierto = false;
+// En pantallas angostas la hoja se muestra resumida (título, meta y avance) hasta que se pide verla entera.
+let encargoAbierto = false, hiloAbierto = false, hojaAbierta = false;
+// El avance es una fila con una marca por pieza del plano, en el orden en que se arman: punto para cada pieza, estrella para las claves y la meta.
+function filaPiezas(m) {
+  return construibles(m).slice().sort((a, b) => a.nivel - b.nivel || (a.id === m.meta) - (b.id === m.meta)).map(n => {
+    const f = D.fichas[n.id], ok = tiene(n.id), meta = n.id === m.meta, clave = meta || m.hitos.includes(n.id);
+    return '<i class="pz f-' + f.f + (ok ? " ok" : "") + (meta ? " meta" : clave ? " hito" : "") + '"' + (ok ? ' title="' + esc(f.n) + '"' : "") + ">" + (clave ? "★" : "") + "</i>";
+  }).join("");
+}
 export function renderHoja() {
   const m = misionActiva(), hoja = $("hojaMision");
+  hoja.classList.toggle("abierta", hojaAbierta);
   if (!m) {
     hoja.innerHTML = '<div class="hoja"><h2><span class="em">📜</span>Elige una misión</h2><p class="encargo libre">Cada misión es un caso real de docencia universitaria con un plano de piezas para resolverlo.</p><p class="pie-hoja"><button class="boton-papel principal" type="button" data-a="misiones">Ver misiones</button></p></div>';
     hoja.querySelector('[data-a="misiones"]').addEventListener("click", abrirMisiones);
@@ -39,22 +45,35 @@ export function renderHoja() {
   const st = estadoMision(m.id);
   const { listos, cerca } = alcance(m);
   const hecha = tiene(m.meta);
-  let h = '<div class="hoja"><h2><span class="em">' + esc(m.e) + "</span>" + esc(m.n) + "</h2>";
-  if (m.encargo) h += '<p class="encargo' + (encargoAbierto ? "" : " plegado") + '">' + rico(m.encargo) + '</p><button class="ver-mas" type="button" data-a="encargo">' + (encargoAbierto ? "ver menos" : "leer el encargo completo") + "</button>";
-  if (m.objetivo) h += '<p class="objetivo"><b>Tu objetivo</b>' + rico(m.objetivo) + "</p>";
-  if (m.viene && !m.tutorial) h += '<details class="hilo"' + (hiloAbierto ? " open" : "") + '><summary>Misión ' + m.num + " de " + D.misiones.length + " · de dónde viene</summary><p><b>Viene de</b>" + rico(m.viene) + "</p><p><b>Si empiezas aquí</b>" + rico(m.previo) + "</p></details>";
-  if (hecha) h += '<h3>¡Misión cumplida!</h3><p class="logrado">Llegaste a ' + esc(D.fichas[m.meta].n) + '. Puedes seguir explorando o elegir otra misión.</p><p><button class="boton-papel principal" type="button" data-a="celebrar">Ver mi síntesis</button></p>';
-  else {
-    h += "<h3>A tu alcance</h3>";
-    const lista = listos.length ? listos.slice(0, 4) : cerca.slice(0, 3);
-    if (!listos.length) h += '<p class="logrado">Todavía no tienes los dos ingredientes de ninguna pieza. Estas están cerca:</p>';
-    h += '<div class="alcance">' + lista.map(n => piezaHtml(m, n, st)).join("") + "</div>";
+  const n = piezasLogradas(m), tot = construibles(m).length;
+  const parte = (D.partes || []).find(p => p.id === m.parte);
+  let h = '<div class="hoja"><div class="hoja-cab"><p class="hoja-ceja">' + (m.tutorial ? "Tutorial · " : "") + "Misión " + m.num + " de " + D.misiones.length + (parte && !m.tutorial ? " · " + esc(parte.n.replace(/^Parte \d+ · /, "")) : "") + "</p>" +
+    '<h2><span class="em">' + esc(m.e) + "</span>" + esc(m.n) + '</h2><button class="hoja-abrir" type="button" data-a="abrir" aria-expanded="' + hojaAbierta + '">' + (hojaAbierta ? "Ver menos" : "Ver la misión") + "</button></div>";
+  h += '<section class="avance-hoja"><h3>Avance <small>' + n + " de " + tot + ' piezas</small></h3><button class="piezas-fila" type="button" data-a="plano" title="Ver el plano" aria-label="Avance: ' + n + " de " + tot + ' piezas. Abre el plano">' + filaPiezas(m) + "</button></section>";
+  if (m.objetivo) h += '<section class="meta-hoja"><h3>Tu meta</h3><p>' + rico(m.objetivo) + "</p></section>";
+  if (hecha) {
+    const sig = siguienteMision(m);
+    h += '<section class="cumplida"><h3>¡Misión cumplida!</h3><p class="logrado">Llegaste a ' + esc(D.fichas[m.meta].n) + '. Puedes seguir explorando o pasar a la siguiente.</p><div class="botones-hoja"><button class="boton-papel" type="button" data-a="celebrar">Ver mi síntesis</button>' +
+      (sig ? '<button class="boton-papel principal" type="button" data-a="siguiente">Sigue con ' + rico(sig.e + " " + sig.n) + "</button>" : "") + "</div></section>";
+  } else {
+    const lista = listos.length ? listos.slice(0, 3) : cerca.slice(0, 3);
+    h += '<section class="alcance-hoja"><h3>' + (listos.length ? "Puedes armar" : "Estás cerca de") + "</h3>";
+    if (!listos.length) h += '<p class="logrado">Todavía no tienes los dos ingredientes de ninguna pieza. A estas les falta uno:</p>';
+    h += '<div class="alcance">' + lista.map(x => piezaHtml(m, x, st)).join("") + "</div></section>";
   }
-  h += '<p class="pie-hoja"><button class="boton-papel" type="button" data-a="plano"><span class="em">🗺️</span>Ver el plano completo</button></p></div>';
+  if (m.encargo) h += '<section class="caso"><h3>El caso</h3><p class="encargo' + (encargoAbierto ? "" : " plegado") + '">' + rico(m.encargo) + '</p><button class="ver-mas" type="button" data-a="encargo">' + (encargoAbierto ? "ver menos" : "leer el caso completo") + "</button></section>";
+  if (m.viene && !m.tutorial) h += '<details class="hilo"' + (hiloAbierto ? " open" : "") + "><summary>De dónde viene esta misión</summary><p><b>Viene de</b>" + rico(m.viene) + "</p><p><b>Si empiezas aquí</b>" + rico(m.previo) + "</p></details>";
+  h += "</div>";
   hoja.innerHTML = h;
   const det = hoja.querySelector("details.hilo");
   if (det) det.addEventListener("toggle", () => { hiloAbierto = det.open; });
-  hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => ({ encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); }, plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones })[b.dataset.a]()));
+  const acciones = {
+    encargo: () => { encargoAbierto = !encargoAbierto; renderHoja(); },
+    abrir: () => { hojaAbierta = !hojaAbierta; renderHoja(); },
+    plano: abrirPlano, celebrar: () => celebrar(m), misiones: abrirMisiones,
+    siguiente: () => { const sig = siguienteMision(m); if (sig) iniciarMision(sig.id); }
+  };
+  hoja.querySelectorAll("[data-a]").forEach(b => b.addEventListener("click", () => acciones[b.dataset.a]()));
   hoja.querySelectorAll("[data-comprar]").forEach(b => b.addEventListener("click", () => comprarPista(m, b.dataset.comprar)));
   hoja.querySelectorAll("[data-traer]").forEach(b => b.addEventListener("click", () => llevar(b.dataset.traer)));
 }
@@ -70,7 +89,7 @@ function piezaHtml(m, n, st) {
   const coste = nivelPista === 0 ? 1 : 2;
   const iguales = n.ing && n.ing[0] === n.ing[1];
   const comprar = nivelPista < 2 && !(iguales && nivelPista >= 1) ? '<button class="comprar" type="button" data-comprar="' + n.id + '"' + (E.chispas < coste ? " disabled" : "") + "><span class=\"emo\">✨</span>" + coste + " · " + (nivelPista === 0 ? "ver un ingrediente" : "ver el otro ingrediente") + "</button>" : "";
-  return '<div class="pieza' + (hito ? " hito" : "") + '"><span class="silueta">' + (hito ? "★" : "?") + "</span><div><p>" + rico(f.pista || "Una pieza del plano.") + "</p>" + ing + comprar + "</div></div>";
+  return '<div class="pieza' + (hito ? " hito" : "") + '"><span class="silueta">' + (hito ? "★" : "?") + "</span><div>" + (hito ? '<span class="etq-clave">' + (n.id === m.meta ? "La meta" : "Pieza clave") + "</span>" : "") + "<p>" + rico(f.pista || "Una pieza del plano.") + "</p>" + ing + comprar + "</div></div>";
 }
 function comprarPista(m, id) {
   const st = estadoMision(m.id);
@@ -354,7 +373,7 @@ function textoGuia() {
 export function iniciarMision(id) {
   const cambia = E.mision !== id;
   E.mision = id; if (id) estadoMision(id); guardar();
-  encargoAbierto = false;
+  encargoAbierto = false; hojaAbierta = false;
   renderCabecera(); renderHoja();
   if (cambia) emitir("misionCambio", id);
   const m = misionActiva();

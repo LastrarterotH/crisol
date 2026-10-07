@@ -190,7 +190,9 @@ function concretar(ida, idb, rec, cx, cy) {
 // Las fichas que ya no llevan a ninguna pieza pendiente se ven apagadas, en la mesa y en la caja.
 export function marcarAgotadas() {
   for (const t of fichas) { const v = agotada(t.id); t.el.classList.toggle("agotada", v); t.el.title = v ? "Ya no lleva a ninguna pieza pendiente de esta misión" : ""; }
-  lista.querySelectorAll(".chip").forEach(ch => ch.classList.toggle("agotada", agotada(ch.dataset.id)));
+  let hay = false;
+  lista.querySelectorAll(".chip").forEach(ch => { const v = agotada(ch.dataset.id); ch.classList.toggle("agotada", v); hay = hay || v; });
+  const ley = lista.querySelector(".caja-leyenda"); if (ley) ley.hidden = !hay;
 }
 
 /* ---------- Que ninguna ficha quede encima de otra ---------- */
@@ -239,6 +241,7 @@ export function renderCaja(nueva) {
   else ids.sort((a, b) => (E.descubiertos[b] || 0) - (E.descubiertos[a] || 0));
   const otras = descubiertas().length - utiles.length;
   lista.innerHTML = (ids.length ? ids.map(id => chipHtml(id)).join("") : '<p class="caja-vacia">Ninguna ficha de esta misión coincide con la búsqueda.</p>') +
+    '<p class="caja-leyenda" hidden>Las fichas en gris claro ya no dan piezas nuevas en esta misión.</p>' +
     (otras > 0 && !q ? '<p class="caja-otras">' + otras + (otras === 1 ? " idea de otras misiones queda" : " ideas de otras misiones quedan") + " en tu Cuaderno.</p>" : "");
   lista.querySelectorAll(".chip").forEach(ch => {
     const id = ch.dataset.id;

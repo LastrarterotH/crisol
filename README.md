@@ -29,7 +29,7 @@ Arma `public/datos.json` y abre un servidor de desarrollo en http://localhost:54
 
 ## Estructura
 
-- `public/`: el juego (HTML, CSS y módulos JS sin framework). `public/datos.json` se genera, no se edita a mano. `public/estilos.css` da la estructura y `public/temas/esencial.css` el aspecto (blanco, grises y negro, sin bordes ni degradados). `public/fuentes/` trae Atkinson Hyperlegible Next (licencia SIL OFL).
+- `public/`: el juego (HTML, CSS y módulos JS sin framework). `public/datos.json` se genera, no se edita a mano. `public/estilos.css` da la estructura y `public/temas/esencial.css` el aspecto (blanco, grises y negro con un color plano por familia de ideas, sin bordes ni degradados). `public/fuentes/` trae Atkinson Hyperlegible Next (licencia SIL OFL).
 - `construir.js` + `grafo2.js`: unen el contenido, validan (colisiones, alcanzabilidad, emojis únicos, rayas largas, referencias, patrones de escritura) y escriben `public/datos.json`. El informe de patrones queda en `datos/v2/informe-patrones.txt`.
 - `empaquetar.js`: arma el archivo único de `dist/`.
 - `servidor.js`: servidor de desarrollo, solo archivos estáticos.

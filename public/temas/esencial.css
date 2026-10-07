@@ -1,4 +1,4 @@
-/* Aspecto de Crisol (tema Esencial). Lo mínimo que se lee de un vistazo: blanco, grises y negro, sin bordes ni sombras,
+/* Aspecto de Crisol (tema Esencial). Lo mínimo que se lee de un vistazo: blanco, grises y negro con un color plano por familia, sin bordes ni sombras,
    superficies que se separan por tono, alto contraste y Atkinson Hyperlegible Next (diseñada para baja visión, licencia OFL).
    Los emojis conservan su color porque son la pista visual de cada ficha. Se carga encima de estilos.css, que da la estructura.
    Las otras opciones de tema que se probaron quedaron en el historial de git (commit 8b51f01). */
@@ -20,8 +20,9 @@
   --oro-suave: #ececec;
   --ia: #4a4a4a;
   --exito: #0d0d0d;
-  --c-prim: #9a9a9a; --c-cot: #8a8a8a; --c-fund: #8f8f8f; --c-apr: #7a7a7a; --c-met: #6e6e6e; --c-eva: #858585;
-  --c-dis: #7f7f7f; --c-tec: #737373; --c-her: #6a6a6a; --c-mod: #808080; --c-mito: #0d0d0d; --c-sint: #0d0d0d;
+  /* un color plano por familia de ideas: va en el cuadro del emoji, en el avance y en el plano */
+  --c-prim: #8c8c8c; --c-cot: #e5a50a; --c-fund: #b04aa8; --c-apr: #2e9e5b; --c-met: #ee7d1f; --c-eva: #e0457b;
+  --c-dis: #12a0a8; --c-tec: #7a52d6; --c-her: #3366d6; --c-mod: #3aa0e8; --c-mito: #d93a2b; --c-sint: #0d0d0d;
   --f-display: "Atkinson Hyperlegible Next", system-ui, sans-serif;
   --f-texto: "Atkinson Hyperlegible Next", system-ui, sans-serif;
   --sombra-1: none;
@@ -53,10 +54,7 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .juego { background: #fff; }
 .cabecera { margin-bottom: 10px; }
 .logo { font-weight: 800; }
-.mision-cab { border-left-color: var(--borde); }
-.mision-cab .nombre { font-weight: 700; }
-.mision-cab .avance { height: 6px; background: #e6e6e6; }
-.mision-cab .avance i, .mision-carta .barrita i { background: #0d0d0d; }
+.mision-carta .barrita i { background: #0d0d0d; }
 .chispas, .contador { border: 0; background: #f0f0f0; color: #0d0d0d; }
 .bandeja { border: 0; background: #f0f0f0; box-shadow: none; border-radius: 14px; }
 .tiza-btn { color: #0d0d0d; font-weight: 700; border-radius: 10px; }
@@ -74,7 +72,7 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .pieza p { font-size: 14.5px; }
 .pieza .silueta { border: 1.5px dashed #9a9a9a; }
 .pieza.hito .silueta { border: 0; background: #0d0d0d; color: #fff; }
-.pieza .comprar { color: #0d0d0d; text-decoration: underline; font-weight: 700; }
+.pieza .comprar { color: #0d0d0d; font-weight: 700; background: #f0f0f0; }
 .mini { border: 0; background: #f0f0f0; font-weight: 700; }
 .mini .em { background: transparent; }
 .caja-herr input { border: 0; background-color: #fff; border-radius: 10px; }
@@ -86,7 +84,7 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .ficha, .chip { border: 0; background: #fff; box-shadow: 0 1px 2px rgba(0, 0, 0, .08); font-weight: 700; color: #0d0d0d; }
 .chip { background: #fff; box-shadow: none; }
 .ficha { border-radius: 12px; }
-.ficha .em, .chip .em { background: #f2f2f2; border-radius: 8px; }
+.ficha .em, .chip .em { background: color-mix(in srgb, var(--c, #9a9a9a) 20%, #fff); border-radius: 8px; }
 .ficha:hover { box-shadow: 0 6px 18px rgba(0, 0, 0, .12); }
 .chip:hover { transform: none; box-shadow: 0 0 0 2px #0d0d0d; }
 .ficha.f-prim { background: #fff; }
@@ -109,7 +107,9 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .fe-cab { background: var(--sup-2); border-bottom: 0; }
 .fe-ceja { letter-spacing: 0; text-transform: none; font-size: 13px; font-weight: 700; }
 .fe-ceja > span { border: 0; background: #fff; color: #0d0d0d; }
-.fe-ceja .fam, .fe-ceja .nuevo { background: #0d0d0d; color: #fff; }
+.fe-ceja .nuevo { background: #0d0d0d; color: #fff; }
+.fe-ceja .fam { background: color-mix(in srgb, var(--c) 20%, #fff); color: #0d0d0d; }
+.fe-titulo .em { background: color-mix(in srgb, var(--c) 20%, #fff); }
 .fe-pieza { color: #fff !important; background: #0d0d0d !important; border-color: #0d0d0d !important; }
 .fe-titulo, .panel-tiza h2 { font-weight: 800; letter-spacing: -.03em; }
 .fe-titulo .em { border: 0; box-shadow: none; }
@@ -138,7 +138,7 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .arista.ok { stroke: #0d0d0d; stroke-width: 2; }
 .arista.frontera { stroke: #0d0d0d; opacity: .55; }
 .nodo .disco { stroke: #9a9a9a; }
-.nodo.logrado .disco { fill: #fff; stroke: #0d0d0d; stroke-width: 2.4; }
+.nodo.logrado .disco { fill: color-mix(in srgb, var(--c) 16%, #fff); stroke: var(--c); stroke-width: 2.6; }
 .nodo.alcance .disco { fill: #fff; stroke: #0d0d0d; }
 .nodo .halo { stroke: #0d0d0d; }
 .nodo .lab { font-weight: 700; }
@@ -154,3 +154,9 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .coach small { color: #bdbdbd; }
 .coach .flecha { background: #fff; color: #0d0d0d; }
 .portada .ficha { background: #f2f2f2; box-shadow: none; }
+/* navegación arriba y la hoja de misión */
+.nav-btn:hover { background: #f0f0f0; }
+.hoja-ceja { color: #6e6e6e; }
+.meta-hoja, .piezas-fila { background: #fff; }
+.tiza-btn.principal { background: #0d0d0d; color: #fff; }
+.tiza-btn.principal:hover { background: #2b2b2b; color: #fff; }
