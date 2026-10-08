@@ -4,7 +4,7 @@ import { E, cargarEstado, guardar, reiniciar, descubiertas, tiene } from "./esta
 import { $, aviso, abrirPanel, cerrarPanel } from "./ui.js";
 import { activarSonido, sonar } from "./sonido.js";
 import { iniciarPolvo } from "./polvo.js";
-import { renderCaja, restaurarPizarra, borrarPizarra, colocarPrimigenios, vaciarMesa } from "./mesa.js";
+import { renderCaja, restaurarPizarra, borrarPizarra, colocarPrimigenios, vaciarMesa, fichasEnPizarra } from "./mesa.js";
 import { renderCabecera, renderHoja, abrirPlano, abrirMisiones, abrirCuaderno, abrirPlan, darPista, iniciarMision, misionActiva, tutorialPaso } from "./misiones.js";
 import { on, emitir } from "./bus.js";
 import { esAlcanzable, totalAlcanzables } from "./reglas.js";
@@ -63,12 +63,18 @@ function entrar() {
   if (!mesaLista) { mesaLista = true; requestAnimationFrame(() => { restaurarPizarra(); notaPizarra(); }); }
   renderCaja(); renderCabecera(); renderHoja(); tutorialPaso();
 }
+// La mesa explica qué hacer cuando le faltan fichas para mezclar, y al principio del juego, siempre.
 function notaPizarra() {
-  const n = $("pizarraNota");
-  if (descubiertas().length > D.iniciales.length + 2) { n.innerHTML = ""; return; }
-  n.innerHTML = "Suelta una ficha sobre otra<small>Arrastra desde tu caja o mueve las que ya están en la mesa</small>";
+  const n = $("pizarraNota"), k = fichasEnPizarra().length;
+  const novato = descubiertas().length <= D.iniciales.length + 2;
+  n.classList.toggle("centro", k === 0);
+  if (k >= 2 && !novato) { n.innerHTML = ""; return; }
+  n.innerHTML = k === 0 ? "Tu mesa está vacía<small>Toca una ficha de tu caja para traerla, o arrástrala hasta aquí</small>"
+    : k === 1 ? "Trae otra ficha<small>Suelta una sobre otra para mezclarlas</small>"
+    : "Suelta una ficha sobre otra<small>Arrastra desde tu caja o mueve las que ya están en la mesa</small>";
 }
 on("mezcla", () => notaPizarra());
+on("pizarra", () => notaPizarra());
 $("btnInicio").addEventListener("click", () => { renderPortada(); mostrar("portada"); });
 $("btnSonido").addEventListener("click", () => { E.sonido = !E.sonido; guardar(); $("btnSonido").textContent = E.sonido ? "🔊" : "🔇"; if (E.sonido) { activarSonido(); sonar.chispa(); } });
 $("btnPista").addEventListener("click", darPista);

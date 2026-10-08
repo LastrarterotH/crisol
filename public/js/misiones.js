@@ -307,12 +307,13 @@ export function abrirPlan() {
   const hago = Object.keys(E.bitacora).filter(id => E.bitacora[id] === "hago" && D.fichas[id]);
   let h = '<h2>📝 Mi plan</h2><p class="intro">Aquí se juntan las síntesis de las misiones que cumpliste y lo que marcaste en las fichas como “Quiero probarlo”. Descárgalo y llévalo a tu próximo curso.</p>';
   if (!cumplidas.length && !probar.length && !hago.length) h += '<p class="vacio">Todavía está en blanco. Juega una misión o marca fichas con “Quiero probarlo”.</p>';
-  if (cumplidas.length) h += '<h3 class="subtitulo">Misiones cumplidas</h3><div class="cuaderno-fam" style="margin-top:12px"><div class="fila">' + cumplidas.map(m => chipHtml(m.meta)).join("") + "</div></div>";
+  if (cumplidas.length) h += '<h3 class="subtitulo">Misiones cumplidas</h3><div class="plan-lista">' + cumplidas.map(m => '<button class="plan-hito plan-mision" type="button" data-ficha="' + esc(m.meta) + '"><b>' + rico(m.e + " " + m.n) + "</b><p>Misión " + m.num + " · su síntesis está en " + rico(D.fichas[m.meta].e + " " + D.fichas[m.meta].n) + "</p></button>").join("") + "</div>";
   if (probar.length) h += '<h3 class="subtitulo">Quiero probarlo</h3><div class="plan-lista">' + probar.map(id => '<div class="plan-hito"><b>' + esc(D.fichas[id].e + " " + D.fichas[id].n) + "</b><p>" + esc(D.fichas[id].uni || "") + "</p></div>").join("") + "</div>";
   if (hago.length) h += '<h3 class="subtitulo">Ya lo hago</h3><div class="cuaderno-fam" style="margin-top:12px"><div class="fila">' + hago.map(id => chipHtml(id)).join("") + "</div></div>";
   h += '<div class="fila-botones"><button class="boton" type="button" data-accion="reiniciar">Empezar de cero</button><button class="boton principal" type="button" data-accion="bajar">Descargar mi plan (.md)</button></div>';
   const p = abrirPanel(h, { bajar: () => descargar("mi-plan-docente.md", textoPlan(null)), reiniciar: () => emitir("pedirReinicio") });
   p.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => abrirFicha(c.dataset.id)));
+  p.querySelectorAll("[data-ficha]").forEach(c => c.addEventListener("click", () => abrirFicha(c.dataset.ficha)));
 }
 
 /* ---------- Misiones ---------- */

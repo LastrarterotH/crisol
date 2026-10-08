@@ -133,7 +133,6 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .hueco { border: 1.5px dashed #9a9a9a; background: #fff; }
 .plano-cab { background: #fff; border-bottom: 0; }
 .plano-pista { border: 0; }
-.leyenda .l-ok { background: #0d0d0d; border-color: #0d0d0d; }
 .arista { stroke: #9a9a9a; }
 .arista.ok { stroke: #0d0d0d; stroke-width: 2; }
 .arista.frontera { stroke: #0d0d0d; opacity: .55; }
@@ -160,3 +159,5 @@ h1, h2, h3 { letter-spacing: -.015em !important; }
 .meta-hoja, .piezas-fila { background: #fff; }
 .tiza-btn.principal { background: #0d0d0d; color: #fff; }
 .tiza-btn.principal:hover { background: #2b2b2b; color: #fff; }
+.plan-hito { border: 0; }
+.plan-mision:hover { background: #ececec; }

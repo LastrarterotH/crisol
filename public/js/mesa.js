@@ -116,6 +116,7 @@ export function guardarPizarra() {
   const W = pizarra.clientWidth || 1, H = pizarra.clientHeight || 1;
   E.mesa = fichas.map(t => ({ id: t.id, x: +((t.x + t.el.offsetWidth / 2) / W).toFixed(4), y: +((t.y + t.el.offsetHeight / 2) / H).toFixed(4) }));
   guardar();
+  emitir("pizarra", fichas.length);
 }
 
 /* ---------- Mezclar ---------- */
