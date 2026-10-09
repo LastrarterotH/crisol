@@ -1,0 +1,6 @@
+{
+  "name": "crisol-trailer",
+  "private": true,
+  "description": "Tráiler de Crisol para LinkedIn (1080 × 1350, 30 fps). node export.js video",
+  "dependencies": { "puppeteer-core": "^25.12.0" }
+}

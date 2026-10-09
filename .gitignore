@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 servidor-datos/
 dist/
+qa/salida/
+trailer/audio.wav
+trailer/crisol-trailer-mudo.mp4
+trailer/revision/

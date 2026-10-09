@@ -2,16 +2,18 @@
   "name": "crisol",
   "version": "2.0.0",
   "private": true,
-  "description": "Juego de combinación para docentes de educación superior: de cuatro elementos primigenios a la docencia universitaria. Funciona sin conexión.",
+  "description": "Herramienta para la formación docente universitaria con forma de juego de mezclas: de cuatro ideas a 414 sobre cómo se aprende y se enseña. Funciona sin conexión.",
   "type": "commonjs",
   "scripts": {
     "construir": "node construir.js",
     "empaquetar": "node construir.js && node empaquetar.js",
     "start": "node construir.js && node servidor.js",
-    "servidor": "node servidor.js"
+    "servidor": "node servidor.js",
+    "qa": "node qa/qa.js"
   },
   "devDependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
-    "esbuild": "^0.28.2"
+    "esbuild": "^0.28.2",
+    "puppeteer-core": "^25.12.0"
   }
 }

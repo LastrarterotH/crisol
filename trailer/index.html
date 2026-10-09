@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Crisol · tráiler</title>
+<!--
+  Tráiler de Crisol para LinkedIn: 1080 × 1350, 30 cuadros por segundo, 48,75 s, con la música de audio.js.
+  Todo se dibuja en función del tiempo con seek(t), así cada cuadro es reproducible y export.js lo graba sin saltos.
+  Abrir en Chrome para verlo en vivo (clic: pausa; ?t=12.5 para quedarse en un instante).
+  Los datos (fichas, recetas, misiones y el plano de «Memoria que dura») vienen del juego real: datos.js.
+-->
+<style>
+@font-face { font-family: "Atk"; src: url(fuentes/atkinson.woff2) format("woff2"); font-weight: 200 800; }
+:root {
+  --t: #0d0d0d; --t2: #4a4a4a; --t3: #6e6e6e; --sup2: #f4f4f4;
+  --c-prim: #8c8c8c; --c-cot: #e5a50a; --c-fund: #b04aa8; --c-apr: #2e9e5b; --c-met: #ee7d1f; --c-eva: #e0457b;
+  --c-dis: #12a0a8; --c-tec: #7a52d6; --c-her: #3366d6; --c-mod: #3aa0e8; --c-mito: #d93a2b; --c-sint: #0d0d0d;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: #1b1b1b; }
+body { display: grid; place-items: center; min-height: 100vh; }
+body.render { display: block; min-height: 0; background: #fff; }
+#stage { position: relative; width: 1080px; height: 1350px; overflow: hidden; background: #fff; font-family: "Atk", system-ui, sans-serif; color: var(--t); }
+body:not(.render) #stage { transform-origin: center; }
+.escena { position: absolute; inset: 0; display: none; }
+.grilla { background-color: #fff; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36'%3E%3Ccircle cx='18' cy='18' r='1.6' fill='%23000' fill-opacity='.09'/%3E%3C/svg%3E"); }
+.gris { background-color: var(--sup2); }
+.f-prim { --c: var(--c-prim); } .f-cot { --c: var(--c-cot); } .f-fund { --c: var(--c-fund); } .f-apr { --c: var(--c-apr); } .f-met { --c: var(--c-met); }
+.f-eva { --c: var(--c-eva); } .f-dis { --c: var(--c-dis); } .f-tec { --c: var(--c-tec); } .f-her { --c: var(--c-her); } .f-mod { --c: var(--c-mod); }
+.f-mito { --c: var(--c-mito); } .f-sint { --c: var(--c-sint); }
+
+/* fichas como en el juego, a escala de video */
+.ficha { position: absolute; left: 0; top: 0; display: inline-flex; align-items: center; gap: 20px; padding: 13px 34px 13px 13px; background: #fff; border-radius: 28px;
+  font-weight: 800; font-size: 46px; line-height: 1; white-space: nowrap; letter-spacing: -.01em; box-shadow: 0 2px 4px rgba(0,0,0,.07), 0 14px 34px rgba(0,0,0,.09); will-change: transform; }
+.ficha .em { display: grid; place-items: center; width: 82px; height: 82px; border-radius: 20px; font-size: 50px; background: color-mix(in srgb, var(--c) 20%, #fff); }
+.ficha.chica { gap: 10px; padding: 7px 18px 7px 7px; border-radius: 16px; font-size: 25px; box-shadow: 0 1px 2px rgba(0,0,0,.07); }
+.ficha.chica .em { width: 42px; height: 42px; border-radius: 11px; font-size: 25px; }
+.ficha.mito { outline: 5px dashed var(--t); outline-offset: -5px; }
+
+/* títulos que entran palabra por palabra */
+.titulo { position: absolute; left: 84px; right: 84px; font-weight: 800; font-size: 86px; line-height: 1.04; letter-spacing: -.035em; }
+.titulo.centro { text-align: center; }
+.palabra { display: inline-block; overflow: hidden; vertical-align: top; padding: 0 .02em .1em; margin-bottom: -.1em; }
+.palabra > span { display: inline-block; will-change: transform; }
+.sub { position: absolute; left: 84px; right: 84px; font-size: 38px; line-height: 1.3; color: var(--t2); font-weight: 600; }
+
+.onda { position: absolute; left: 0; top: 0; border-radius: 50%; border: 26px solid var(--c); transform: translate(-50%, -50%); will-change: width, height, opacity; }
+.chispa { position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 50%; transform: translate(-50%, -50%); }
+.telon { position: absolute; inset: 0; pointer-events: none; z-index: 50; display: none; }
+
+/* misiones */
+.mision { position: absolute; left: 0; top: 0; width: 440px; padding: 24px 26px; border-radius: 26px; background: var(--sup2); display: grid; gap: 10px; }
+.mision .em { width: 72px; height: 72px; border-radius: 18px; background: #fff; display: grid; place-items: center; font-size: 42px; }
+.mision small { font-size: 22px; font-weight: 700; color: var(--t3); }
+.mision b { font-size: 34px; line-height: 1.12; letter-spacing: -.015em; }
+.cita { position: absolute; left: 70px; right: 70px; top: 470px; padding: 50px 56px; border-radius: 36px; background: #fff; box-shadow: 0 30px 80px rgba(0,0,0,.16); }
+.cita small { display: block; font-size: 26px; font-weight: 700; color: var(--t3); margin-bottom: 18px; }
+.cita p { margin: 0; font-size: 50px; line-height: 1.22; font-weight: 700; letter-spacing: -.02em; }
+
+/* ficha de estudio */
+.estudio { position: absolute; left: 80px; right: 80px; top: 360px; border-radius: 40px; background: #fff; overflow: hidden; box-shadow: 0 40px 90px rgba(0,0,0,.18); }
+.estudio .cab { padding: 40px 46px 34px; background: color-mix(in srgb, var(--c-apr) 16%, #fff); }
+.estudio .ceja { display: flex; gap: 12px; }
+.estudio .ceja span { font-size: 24px; font-weight: 800; padding: 6px 16px; border-radius: 99px; background: #fff; }
+.estudio .ceja span.negra { background: var(--t); color: #fff; }
+.estudio h2 { margin: 26px 0 0; display: flex; align-items: center; gap: 26px; font-size: 66px; letter-spacing: -.035em; line-height: 1; }
+.estudio h2 .em { width: 112px; height: 112px; border-radius: 28px; display: grid; place-items: center; font-size: 66px; background: color-mix(in srgb, var(--c-apr) 26%, #fff); }
+.estudio .cuerpo { padding: 34px 46px 46px; }
+.estudio h3 { margin: 0 0 10px; font-size: 28px; }
+.estudio p { margin: 0 0 28px; font-size: 31px; line-height: 1.42; }
+.estudio .ref { font-size: 24px; line-height: 1.4; color: var(--t2); margin: 0 0 14px; display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; }
+.estudio .ref i { color: var(--t); }
+.pildora { display: inline-block; font-size: 23px; font-weight: 800; padding: 6px 16px; border-radius: 99px; background: var(--t); color: #fff; font-style: normal; }
+.sello { position: absolute; left: 0; top: 0; font-weight: 800; font-size: 120px; letter-spacing: .1em; color: var(--c-mito); border: 12px solid var(--c-mito); border-radius: 24px; padding: 4px 34px 0 46px; background: rgba(255,255,255,.92); }
+.creencia { position: absolute; left: 110px; right: 110px; top: 905px; text-align: center; font-size: 38px; line-height: 1.32; color: var(--t3); font-weight: 600; }
+.creencia s { text-decoration-color: var(--c-mito); text-decoration-thickness: 5px; }
+.verdad { position: absolute; left: 90px; right: 90px; top: 1080px; text-align: center; font-size: 46px; line-height: 1.2; font-weight: 800; letter-spacing: -.02em; }
+
+/* capturas del juego */
+.captura { position: absolute; left: 0; top: 0; width: 940px; height: 588px; border-radius: 26px; overflow: hidden; background: #fff; box-shadow: 0 30px 80px rgba(0,0,0,.22), 0 0 0 1px rgba(0,0,0,.06); }
+.captura img { width: 100%; height: 100%; object-fit: cover; object-position: top left; transform-origin: 30% 30%; }
+
+/* cierre */
+.logo { position: absolute; left: 540px; top: 520px; width: 210px; height: 210px; transform: translate(-50%, -50%); }
+.marca { position: absolute; left: 0; right: 0; top: 640px; text-align: center; font-weight: 800; font-size: 236px; letter-spacing: -.055em; line-height: 1; }
+.marca span { display: inline-block; }
+.firma { position: absolute; left: 0; right: 0; top: 930px; text-align: center; font-size: 42px; font-weight: 600; color: var(--t2); }
+
+#controles { position: fixed; left: 12px; bottom: 10px; color: #bbb; font: 13px system-ui; }
+body.render #controles { display: none; }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<div id="controles">clic: pausa · <span id="reloj"></span></div>
+<script src="datos.js"></script>
+<script src="linea.js"></script>
+<script>
+"use strict";
+const D = window.DATOS;
+const DUR = LINEA.DUR, W = 1080, H = 1350;
+// TT es el tiempo de salida; latido() vale 1 en cada pulso de la música y se apaga antes del siguiente
+let TT = 0;
+const latido = () => Math.exp(-((TT % LINEA.PULSO) / LINEA.PULSO) * 7);
+const P = new URLSearchParams(location.search);
+if (P.has("render")) document.body.classList.add("render");
+
+/* ---------- utilidades ---------- */
+const cl = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const k = (t, a, b) => cl((t - a) / (b - a));
+const eo = x => 1 - Math.pow(1 - x, 3);
+const ei = x => x * x * x;
+const eio = x => x < .5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const eb = x => { const c1 = 1.9, c3 = c1 + 1; return x <= 0 ? 0 : 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const lerp = (a, b, p) => a + (b - a) * p;
+function el(tag, cls, padre, html) { const e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; if (padre) padre.appendChild(e); return e; }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+const stage = document.getElementById("stage");
+function escena(cls) { return el("div", "escena " + (cls || ""), stage); }
+function ficha(f, padre, chica) { return el("div", "ficha f-" + f.f + (chica ? " chica" : "") + (f.f === "mito" ? " mito" : ""), padre, '<span class="em">' + f.e + "</span><span>" + esc(f.n) + "</span>"); }
+// posición por el centro, escala, giro y opacidad
+function pon(e, x, y, s = 1, r = 0, o = 1) { e.style.transform = "translate(" + x.toFixed(1) + "px," + y.toFixed(1) + "px) translate(-50%,-50%) scale(" + s.toFixed(4) + ") rotate(" + r.toFixed(2) + "deg)"; e.style.opacity = o.toFixed(3); }
+function titulo(padre, texto, y, cls) {
+  const t = el("div", "titulo " + (cls || ""), padre);
+  t.style.top = y + "px";
+  const palabras = texto.split(" ").map(w => { const p = el("span", "palabra", t); const s = el("span", "", p, esc(w)); t.appendChild(document.createTextNode(" ")); return s; });
+  return { t, palabras };
+}
+// las palabras suben desde abajo de a una; si se indica fin, salen hacia arriba
+function revelar(T, t, ini, fin) {
+  T.palabras.forEach((w, i) => {
+    const p = eo(k(t, ini + i * .05, ini + i * .05 + .34));
+    const q = fin == null ? 0 : ei(k(t, fin + i * .025, fin + i * .025 + .22));
+    w.style.transform = "translateY(" + ((1 - p) * 112 - q * 112).toFixed(1) + "%)";
+  });
+}
+function onda(padre, color) { const o = el("div", "onda", padre); o.style.setProperty("--c", color); return o; }
+function ondear(o, x, y, t, t0, rmax = 520, dur = .55) {
+  const p = k(t, t0, t0 + dur);
+  if (p <= 0 || p >= 1) { o.style.opacity = 0; return; }
+  const r = eo(p) * rmax;
+  o.style.width = o.style.height = (2 * r) + "px";
+  o.style.left = x + "px"; o.style.top = y + "px";
+  o.style.borderWidth = (26 * (1 - p) + 2) + "px";
+  o.style.opacity = (1 - p).toFixed(3);
+}
+const COLORES = ["#e5a50a", "#2e9e5b", "#e0457b", "#3366d6", "#ee7d1f", "#7a52d6", "#12a0a8", "#b04aa8"];
+function chispas(padre, n = 10) { return Array.from({ length: n }, (_, i) => { const c = el("div", "chispa", padre); c.style.background = COLORES[i % COLORES.length]; return c; }); }
+function estallar(cs, x, y, t, t0, dist = 300) {
+  const p = k(t, t0, t0 + .6);
+  cs.forEach((c, i) => {
+    if (p <= 0 || p >= 1) { c.style.opacity = 0; return; }
+    const a = i / cs.length * Math.PI * 2 + .3, d = eo(p) * dist * (.75 + .25 * ((i * 7) % 3));
+    c.style.left = (x + Math.cos(a) * d) + "px"; c.style.top = (y + Math.sin(a) * d) + "px";
+    c.style.opacity = (1 - ei(p)).toFixed(3); c.style.transform = "translate(-50%,-50%) scale(" + (1.2 - p * .6) + ")";
+  });
+}
+const F = (id, arr) => (arr || []).find(f => f.id === id);
+
+/* ---------- 1. El gancho: dos ideas se mezclan (0 a 3,6 s) ---------- */
+const E1 = escena("grilla");
+const t1a = titulo(E1, "Junta dos ideas.", 210, "centro");
+const t1b = titulo(E1, "Descubre una nueva.", 210, "centro");
+const [mente, mundo, exper] = D.mezclas[0];
+const fMente = ficha(mente, E1), fMundo = ficha(mundo, E1), fExp = ficha(exper, E1);
+const o1 = onda(E1, "#e5a50a"), ch1 = chispas(E1, 12);
+const mas1 = el("div", "", E1, "+"); mas1.style.cssText = "position:absolute;left:0;top:0;font-weight:800;font-size:96px;color:#0d0d0d";
+const formula1 = el("div", "sub", E1, mente.e + " " + esc(mente.n) + "  +  " + mundo.e + " " + esc(mundo.n)); formula1.style.top = "830px"; formula1.style.textAlign = "center";
+function escena1(t) {
+  revelar(t1a, t, -1, 1.62); revelar(t1b, t, 1.8, 3.25);
+  const cx = 540, cy = 640, S = 1.25;
+  const junta = eio(k(t, 1.1, 1.62)), flota = Math.sin(t * 5) * 8 * (1 - junta);
+  const xa = lerp(285, cx - 40, junta), xb = lerp(795, cx + 40, junta);
+  const desaparece = k(t, 1.6, 1.72);
+  pon(fMente, xa, cy + flota, S * (1 - desaparece * .7), lerp(-3, 0, junta), 1 - desaparece);
+  pon(fMundo, xb, cy - flota, S * (1 - desaparece * .7), lerp(3, 0, junta), 1 - desaparece);
+  pon(mas1, 540, cy - 6, 1 + Math.sin(t * 7) * .08, 0, 1 - k(t, .95, 1.2));
+  ondear(o1, cx, cy, t, 1.66, 620); estallar(ch1, cx, cy, t, 1.66, 380);
+  const nace = eb(k(t, 1.7, 2.25));
+  // al final la Experiencia se corre a la izquierda: es el primer ingrediente de la cadena
+  const sale = eio(k(t, 3.15, 3.6));
+  pon(fExp, lerp(cx, 270, sale), cy, lerp(nace * 1.55, 1.15, sale) * (1 + .035 * latido() * k(t, 2.3, 2.5) * (1 - sale)), 0, k(t, 1.7, 1.8));
+  formula1.style.opacity = (eo(k(t, 2.2, 2.5)) * (1 - k(t, 3.0, 3.2))).toFixed(3);
+  formula1.style.transform = "translateY(" + ((1 - eo(k(t, 2.2, 2.5))) * 20) + "px)";
+}
+
+/* ---------- 2. La cadena: una idea lleva a otra (3,6 a 7,6 s) ---------- */
+const E2 = escena("grilla");
+const t2 = titulo(E2, "Una idea lleva a otra.", 210, "centro");
+const mezclas2 = D.mezclas.slice(1).map((m, i) => ({ a: ficha(m[0], E2), b: ficha(m[1], E2), r: ficha(m[2], E2), d: m, o: onda(E2, getComputedStyle(document.documentElement).getPropertyValue("--c-" + m[2].f).trim()), cs: chispas(E2, 10) }));
+const T2 = [3.6, 4.45, 5.25, 6.05];
+const estante = [[250, 1010], [800, 1010], [250, 1135], [800, 1135]];
+function escena2(t) {
+  revelar(t2, t, 3.62, 7.2);
+  const cx = 540, cy = 640;
+  mezclas2.forEach((m, i) => {
+    const t0 = T2[i];
+    const primera = i === 0;
+    const ea = primera ? 1 : eo(k(t, t0 - .1, t0 + .22)), eb_ = eo(k(t, t0, t0 + .28));
+    const junta = eio(k(t, t0 + .3, t0 + .55));
+    const fuera = k(t, t0 + .53, t0 + .62);
+    const xa = lerp(lerp(-360, 270, ea), cx - 40, junta), xb = lerp(lerp(1440, 810, eb_), cx + 40, junta);
+    const vis = t >= t0 - .12;
+    pon(m.a, xa, cy, 1.15 * (1 - fuera * .7), 0, vis ? 1 - fuera : 0);
+    pon(m.b, xb, cy, 1.15 * (1 - fuera * .7), 0, vis ? 1 - fuera : 0);
+    ondear(m.o, cx, cy, t, t0 + .57, 520, .5); estallar(m.cs, cx, cy, t, t0 + .57, 300);
+    // el resultado nace al centro y se guarda en el estante de abajo
+    const nace = eb(k(t, t0 + .6, t0 + .88)), guarda = eio(k(t, t0 + .8, t0 + 1.02));
+    const [ex, ey] = estante[i];
+    const s = lerp(nace * 1.45, .86, guarda);
+    pon(m.r, lerp(cx, ex, guarda), lerp(cy, ey, guarda), s, 0, t >= t0 + .6 ? 1 : 0);
+  });
+}
+
+/* ---------- 3. El mosaico: 414 ideas (7,6 a 10,8 s) ---------- */
+const E3 = escena("gris");
+const mosaico = el("div", "", E3); mosaico.style.cssText = "position:absolute;left:-260px;top:-300px;width:1600px;height:1950px;transform-origin:800px 975px";
+let semilla = 7; const azar = () => (semilla = (semilla * 16807) % 2147483647) / 2147483647;
+const barajadas = D.mosaico.slice().sort(() => azar() - .5);
+const chipsM = [];
+const tarjeta = el("div", "", E3); tarjeta.style.cssText = "position:absolute;left:540px;top:675px;width:840px;padding:50px 40px 54px;border-radius:44px;background:#fff;box-shadow:0 40px 100px rgba(0,0,0,.22);text-align:center";
+const cifra = (padre, txt) => { const n = el("div", "", padre, "0"); n.style.cssText = "font-weight:800;font-size:210px;line-height:.9;letter-spacing:-.05em;font-variant-numeric:tabular-nums"; const l = el("div", "", padre, txt); l.style.cssText = "margin-top:14px;font-size:42px;line-height:1.2;font-weight:700;letter-spacing:-.02em"; return n; };
+const numero = cifra(tarjeta, "ideas sobre cómo se aprende y se enseña");
+const bloque2 = el("div", "", tarjeta); bloque2.style.cssText = "margin-top:40px;padding-top:40px;border-top:3px solid #ececec";
+const numero2 = cifra(bloque2, "combinaciones para descubrirlas");
+// combinaciones que un jugador puede hacer de verdad: ingredientes y resultado en algún plano (datos.js)
+const COMBINACIONES = D.combinaciones;
+const miles = n => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+function armarMosaico() {
+  // las fichas se ordenan en filas como en la caja del juego; se miden después de cargar la tipografía
+  E3.style.display = "block";
+  let x = 0, y = 0, i = 0, fila = 0;
+  while (y < 1950 && i < barajadas.length) {
+    const c = ficha(barajadas[i++], mosaico, true);
+    c.style.transform = "none"; const w = c.offsetWidth;
+    if (x + w > 1600) { fila++; y += 66; x = (fila % 2) * -60; }
+    chipsM.push({ c, x: x + w / 2, y: y + 27 });
+    x += w + 12;
+  }
+  chipsM.forEach(m => { m.d = Math.hypot(m.x - 800, m.y - 975); });
+  E3.style.display = "none";
+}
+function escena3(t) {
+  const giro = -7, deriva = lerp(40, -70, k(t, 7.6, 10.8));
+  mosaico.style.transform = "translateY(" + deriva + "px) rotate(" + giro + "deg) scale(1.06)";
+  chipsM.forEach(m => {
+    const t0 = 7.62 + m.d * .00075;
+    const p = eb(k(t, t0, t0 + .32));
+    pon(m.c, m.x, m.y, p, 0, k(t, t0, t0 + .08));
+  });
+  const ent = eb(k(t, 7.95, 8.35));
+  tarjeta.style.transform = "translate(-50%,-50%) scale(" + (ent * (1 + .014 * latido() * k(t, 8.4, 8.6))).toFixed(4) + ")";
+  tarjeta.style.opacity = k(t, 7.95, 8.05);
+  numero.textContent = Math.round((D.total + D.iniciales.length) * eo(k(t, 8.05, 8.85)));
+  const e2 = eo(k(t, 8.7, 9.0));
+  bloque2.style.opacity = e2.toFixed(3); bloque2.style.transform = "translateY(" + ((1 - e2) * 30).toFixed(1) + "px)";
+  numero2.textContent = miles(Math.round(COMBINACIONES * eo(k(t, 8.85, 9.95))));
+}
+
+/* ---------- 4. Las misiones (10,8 a 15,6 s) ---------- */
+const E4 = escena("");
+// una franja blanca tapa las tarjetas que suben, para que el título se lea limpio
+const franja = el("div", "", E4); franja.style.cssText = "position:absolute;left:0;right:0;top:0;height:330px;background:#fff;z-index:4";
+const t4 = titulo(E4, "30 misiones.", 120);
+t4.t.style.fontSize = "150px"; t4.t.style.zIndex = 5;
+const t4b = titulo(E4, "Problemas de aula que te van a sonar.", 1090);
+t4b.t.style.fontSize = "68px";
+const lista = D.misiones.filter(m => m.num > 1);
+const cartas = lista.slice(0, 18).map((m, i) => {
+  const c = el("div", "mision", E4, '<span class="em">' + m.e + "</span><small>Misión " + m.num + "</small><b>" + esc(m.n) + "</b>");
+  return { c, col: i % 2, fila: Math.floor(i / 2) };
+});
+const cita = el("div", "cita", E4, "<small>Misión 2 · Farmacología, Enfermería</small><p>«Aprueban el parcial. Al año siguiente, casi nadie recuerda cómo calcular una dosis.»</p>");
+function escena4(t) {
+  revelar(t4, t, 10.85, 13.0);
+  const sube = lerp(0, -1250, eio(k(t, 10.8, 13.4)));
+  const fuera = eio(k(t, 12.75, 13.15));
+  cartas.forEach(({ c, col, fila }, i) => {
+    const x = col ? 793 : 287, y = 540 + fila * 275 + (col ? 137 : 0) + sube + lerp(260, 0, eo(k(t, 10.8 + i * .03, 11.3 + i * .03)));
+    pon(c, x, y, 1.12 * (1 - fuera * .1), col ? 1.5 : -1.5, (1 - fuera) * k(t, 10.8 + i * .03, 10.95 + i * .03));
+  });
+  const ent = eo(k(t, 13.0, 13.45));
+  cita.style.opacity = ent.toFixed(3);
+  cita.style.transform = "translateY(" + ((1 - ent) * 120).toFixed(1) + "px) rotate(" + lerp(-3, -1, ent) + "deg)";
+  revelar(t4b, t, 13.35);
+}
+
+/* ---------- 5. El plano: arma el camino hasta la meta (15,6 a 19,4 s) ---------- */
+const E5 = escena("grilla");
+const t5 = titulo(E5, "Arma el camino hasta la meta.", 110, "centro");
+t5.t.style.fontSize = "76px";
+const NS = "http://www.w3.org/2000/svg";
+const svg = document.createElementNS(NS, "svg"); svg.setAttribute("viewBox", "0 0 1080 1350"); svg.style.cssText = "position:absolute;inset:0;width:1080px;height:1350px"; E5.appendChild(svg);
+const sv = (tag, at, padre, txt) => { const e = document.createElementNS(NS, tag); for (const a in at) e.setAttribute(a, at[a]); if (txt != null) e.textContent = txt; (padre || svg).appendChild(e); return e; };
+const nodos = D.plano.nodos, porNivel = {};
+nodos.forEach(n => (porNivel[n.nivel] = porNivel[n.nivel] || []).push(n));
+const pos = {};
+Object.keys(porNivel).map(Number).sort((a, b) => a - b).forEach(nv => {
+  const l = porNivel[nv];
+  if (nv > 0) l.sort((a, b) => prom(a) - prom(b));
+  l.forEach((n, i) => { pos[n.id] = { x: 540 + (i - (l.length - 1) / 2) * 250, y: 1200 - nv * 128 }; });
+});
+function prom(n) { return n.ing ? n.ing.reduce((s, x) => s + (pos[x] ? pos[x].x : 540), 0) / n.ing.length : 540; }
+const capaAristas = sv("g", {}), capaNodos = sv("g", {});
+const R = 52, RM = 70;
+const colorDe = f => getComputedStyle(document.documentElement).getPropertyValue("--c-" + f).trim();
+const aristas = [];
+nodos.forEach(n => { if (!n.ing) return; for (const x of new Set(n.ing)) {
+  const a = pos[x], b = pos[n.id], r2 = n.id === D.plano.meta ? RM : R, my = (a.y - R + b.y + r2) / 2;
+  const d = "M" + a.x + " " + (a.y - R) + " C" + a.x + " " + my + " " + b.x + " " + my + " " + b.x + " " + (b.y + r2);
+  sv("path", { d, fill: "none", stroke: "#c9c9c9", "stroke-width": 4, "stroke-dasharray": "10 10" }, capaAristas);
+  const p = sv("path", { d, fill: "none", stroke: "#0d0d0d", "stroke-width": 5, "stroke-linecap": "round" }, capaAristas);
+  aristas.push({ p, len: p.getTotalLength(), destino: n });
+} });
+const nivelMax = Math.max(...nodos.map(n => n.nivel));
+const tLuz = n => n.nivel === 0 ? 15.75 : 15.95 + (n.nivel - 1) * .36;
+const vistos = nodos.map(n => {
+  const p = pos[n.id], meta = n.id === D.plano.meta, clave = meta || D.plano.hitos.includes(n.id), r = meta ? RM : R, c = colorDe(n.f);
+  const g = sv("g", {}, capaNodos);
+  const pend = sv("g", {}, g);
+  sv("circle", { cx: p.x, cy: p.y, r, fill: "#fff", stroke: "#bdbdbd", "stroke-width": 4, "stroke-dasharray": "9 8" }, pend);
+  sv("text", { x: p.x, y: p.y + (meta ? 20 : 15), "text-anchor": "middle", "font-size": meta ? 58 : 42, "font-weight": 800, fill: clave ? "#0d0d0d" : "#a9a9a9", "font-family": "Atk" }, pend, clave ? "★" : "?");
+  const luz = sv("g", { style: "transform-box:fill-box;transform-origin:center" }, g);
+  if (clave) sv("circle", { cx: p.x, cy: p.y, r: r + 13, fill: "none", stroke: "#0d0d0d", "stroke-width": 4 }, luz);
+  sv("circle", { cx: p.x, cy: p.y, r, fill: "color-mix(in srgb, " + c + " 18%, #fff)", stroke: c, "stroke-width": 6 }, luz);
+  sv("text", { x: p.x, y: p.y + (meta ? 24 : 17), "text-anchor": "middle", "font-size": meta ? 66 : 48 }, luz, n.e);
+  return { n, pend, luz, meta, c };
+});
+const etMeta = sv("text", { x: pos[D.plano.meta].x, y: pos[D.plano.meta].y - RM - 34, "text-anchor": "middle", "font-size": 44, "font-weight": 800, fill: "#0d0d0d", "font-family": "Atk", "letter-spacing": "-1" }, svg, F(D.plano.meta, nodos).n);
+const o5 = onda(E5, "#e5a50a"), ch5 = chispas(E5, 14);
+function escena5(t) {
+  revelar(t5, t, 15.62);
+  aristas.forEach(a => { const t0 = tLuz(a.destino); const p = eio(k(t, t0 - .32, t0)); a.p.style.strokeDasharray = a.len; a.p.style.strokeDashoffset = (a.len * (1 - p)).toFixed(1); a.p.style.opacity = p > 0 ? 1 : 0; });
+  vistos.forEach(v => {
+    const t0 = tLuz(v.n), p = eb(k(t, t0, t0 + .3));
+    v.luz.style.opacity = k(t, t0, t0 + .06);
+    v.luz.style.transform = "scale(" + Math.max(.001, p).toFixed(4) + ")";
+    v.pend.style.opacity = 1 - k(t, t0, t0 + .1);
+  });
+  const tm = tLuz(F(D.plano.meta, nodos)), pm = pos[D.plano.meta];
+  ondear(o5, pm.x, pm.y, t, tm, 300, .6); estallar(ch5, pm.x, pm.y, t, tm, 260);
+  etMeta.style.opacity = eo(k(t, tm + .15, tm + .45));
+}
+
+/* ---------- 6. Evidencia y mitos (19,4 a 23,4 s) ---------- */
+const E6 = escena("gris");
+const t6 = titulo(E6, "Cada idea, con su evidencia.", 120, "centro");
+t6.t.style.fontSize = "76px";
+const ES = D.espaciada;
+const primera = ES.why.split(/(?<=\.)\s/)[0];
+const estudio = el("div", "estudio", E6,
+  '<div class="cab"><div class="ceja"><span>Cómo se aprende</span><span class="negra">★ Pieza clave</span></div><h2><span class="em">' + ES.e + "</span>" + esc(ES.n) + "</h2></div>" +
+  '<div class="cuerpo"><h3>Por qué funciona</h3><p>' + esc(primera) + "</p><h3>Fuentes</h3>" +
+  '<div class="ref">Cepeda y colaboradores (2006). <i>Psychological Bulletin</i> <em class="pildora" id="libre">Leer gratis</em></div>' +
+  '<div class="ref">Dunlosky y colaboradores (2013). <i>Psychological Science in the Public Interest</i></div></div>');
+const libre = estudio.querySelector("#libre");
+const t6b = titulo(E6, "Y sin mitos.", 120, "centro");
+t6b.t.style.fontSize = "96px";
+const PI = D.piramide;
+const fPir = ficha(PI, E6);
+const sello = el("div", "sello", E6, "MITO");
+const creencia = el("div", "creencia", E6, "<s>«Recordamos el 10% de lo que leemos y el 90% de lo que enseñamos.»</s>");
+const verdad = el("div", "verdad", E6, "Ninguna investigación respalda esas cifras.");
+function escena6(t) {
+  revelar(t6, t, 19.45, 20.85);
+  const ent = eo(k(t, 19.5, 19.95)), sal = eio(k(t, 20.8, 21.15));
+  estudio.style.opacity = (ent * (1 - sal)).toFixed(3);
+  estudio.style.transform = "translateY(" + ((1 - ent) * 260 - sal * 300).toFixed(1) + "px) rotate(" + lerp(4, 0, ent).toFixed(2) + "deg)";
+  const pulso = Math.sin(cl((t - 20.2) / .5) * Math.PI);
+  libre.style.display = "inline-block";
+  libre.style.transform = "scale(" + (1 + pulso * .16).toFixed(3) + ")";
+  revelar(t6b, t, 21.05);
+  const entP = eb(k(t, 21.05, 21.45));
+  pon(fPir, 540, 660, entP * 1.2, 0, k(t, 21.05, 21.12));
+  const golpe = k(t, 21.45, 21.59);
+  const sacude = t > 21.59 && t < 21.81 ? Math.sin((t - 21.59) * 90) * 9 * (1 - k(t, 21.59, 21.81)) : 0;
+  pon(sello, 800 + sacude, 520, lerp(1.9, .74, eo(golpe)), -11, golpe > 0 ? cl(golpe * 1.6) : 0);
+  if (sacude) pon(fPir, 540 + sacude * .6, 660, 1.2, 0, 1);
+  creencia.style.opacity = eo(k(t, 21.7, 22.0)).toFixed(3);
+  verdad.style.opacity = eo(k(t, 22.0, 22.3)).toFixed(3);
+  verdad.style.transform = "translateY(" + ((1 - eo(k(t, 22.0, 22.3))) * 24).toFixed(1) + "px)";
+}
+
+/* ---------- 7. El juego de verdad: meses de trabajo (23,4 a 26,6 s) ---------- */
+const E7 = escena("grilla");
+const t7b = titulo(E7, "Muy pronto, en acceso abierto para la formación docente.", 100, "centro");
+t7b.t.style.fontSize = "72px";
+const capturas = ["mesa", "celebracion", "cuaderno"].map(n => { const c = el("div", "captura", E7, '<img src="capturas/' + n + '.png" alt="">'); return { c, img: c.querySelector("img") }; });
+const TC = [23.45, 24.2, 24.95], destinos = [[540, 640, -3], [560, 720, 2.5], [530, 800, -1.5]];
+function escena7(t) {
+  revelar(t7b, t, 23.5);
+  capturas.forEach(({ c, img }, i) => {
+    const t0 = TC[i], p = eo(k(t, t0, t0 + .45)), [x, y, r] = destinos[i];
+    const desde = [[540, 1700], [1600, 720], [-500, 800]][i];
+    pon(c, lerp(desde[0], x, p), lerp(desde[1], y, p), lerp(.9, 1, p), r, k(t, t0, t0 + .1));
+    img.style.transform = "scale(" + lerp(1, 1.12, k(t, t0, 26.6)).toFixed(4) + ")";
+  });
+}
+
+/* ---------- 8. Cierre: Crisol, un proyecto de Luis Lastra ---------- */
+const E8 = escena("");
+const logo = el("div", "logo", E8, '<svg viewBox="0 0 32 32" fill="#0d0d0d" stroke="#0d0d0d" width="210" height="210"><path d="M5 8.5h22" fill="none" stroke-width="2.2" stroke-linecap="round"/><path d="M7.3 8.5l2.4 15.1a3.2 3.2 0 0 0 3.2 2.8h6.2a3.2 3.2 0 0 0 3.2-2.8l2.4-15.1" fill="none" stroke-width="2.2" stroke-linejoin="round"/><path d="M9.5 16.8h13l-1.2 7.4a2.6 2.6 0 0 1-2.6 2.2h-5.4a2.6 2.6 0 0 1-2.6-2.2z" stroke="none"/><circle cx="13.6" cy="13.4" r="1.2" stroke="none"/><circle cx="18.2" cy="11.6" r=".9" stroke="none"/><path d="M25.6 1.6l.7 1.6 1.6.7-1.6.7-.7 1.6-.7-1.6-1.6-.7 1.6-.7z" stroke="none"/></svg>');
+const marca = el("div", "marca", E8, "Crisol".split("").map(c => "<span>" + c + "</span>").join(""));
+const letras = [...marca.children];
+const firma = el("div", "firma", E8, "Un proyecto de Luis Lastra");
+const esquinas = D.iniciales.map((f, i) => ({ c: ficha(f, E8, true), x: [150, 930, 170, 910][i], y: [190, 230, 1160, 1120][i] }));
+const ch8 = chispas(E8, 14);
+function escena8(t) {
+  const pl = eb(k(t, 26.7, 27.1));
+  logo.style.transform = "translate(-50%,-50%) scale(" + (pl * (1 + .04 * latido() * k(t, 27.1, 27.3))).toFixed(4) + ") rotate(" + lerp(-14, 0, eo(k(t, 26.7, 27.1))) + "deg)";
+  logo.style.top = "450px";
+  estallar(ch8, 540, 450, t, 26.78, 330);
+  letras.forEach((l, i) => { const p = eo(k(t, 26.85 + i * .05, 27.2 + i * .05)); l.style.transform = "translateY(" + ((1 - p) * 60).toFixed(1) + "px)"; l.style.opacity = p.toFixed(3); });
+  const pf = eo(k(t, 27.55, 27.95));
+  firma.style.opacity = pf.toFixed(3); firma.style.transform = "translateY(" + ((1 - pf) * 18).toFixed(1) + "px)";
+  esquinas.forEach((e, i) => { const p = eo(k(t, 26.75 + i * .08, 27.25 + i * .08)); pon(e.c, e.x, e.y + Math.sin(t * 1.6 + i * 1.7) * 9, .5 + .5 * p, [-6, 5, 4, -5][i], p * .95); });
+}
+
+/* ---------- 9. Última pantalla: «Pronto.» sobre negro, con el golpe final ---------- */
+const E9 = escena("");
+E9.style.background = "#0d0d0d";
+const pronto = el("div", "", E9, "Pronto."); pronto.style.cssText = "position:absolute;left:0;right:0;top:675px;text-align:center;font-weight:800;font-size:190px;letter-spacing:-.05em;line-height:1;color:#fff;transform-origin:center";
+function escena9(t) {
+  const p = eo(k(t, 0, .22));
+  pronto.style.opacity = p.toFixed(3);
+  pronto.style.transform = "translateY(-50%) scale(" + (lerp(1.12, 1, p) + .02 * k(t, .22, 3.75)).toFixed(4) + ")";
+}
+
+/* ---------- Telones de color entre escenas ---------- */
+const C = LINEA.CORTES;
+const telones = [[C[1], "#2e9e5b", [540, 640]], [C[2], "#0d0d0d", [540, 675]], [C[3], "#3366d6", [540, 1300]], [C[4], "#e0457b", [540, 540]], [C[5], "#e5a50a", [540, 640]], [C[6], "#ffffff", [540, 675]]];
+const capasT = telones.map(([, c]) => { const e = el("div", "telon", stage); e.style.background = c; return e; });
+function telon(t) {
+  telones.forEach(([ts, , [x, y]], i) => {
+    const e = capasT[i], cubre = eio(k(t, ts - .24, ts)), sube = eio(k(t, ts, ts + .3));
+    if (cubre <= 0 || sube >= 1) { e.style.display = "none"; return; }
+    e.style.display = "block";
+    e.style.clipPath = "circle(" + (cubre * 1750).toFixed(0) + "px at " + x + "px " + y + "px)";
+    e.style.transform = "translateY(" + (-sube * 1400).toFixed(0) + "px)";
+  });
+}
+
+/* ---------- Línea de tiempo ---------- */
+// cada escena se escribió con sus propios tiempos internos; linea.js los lleva al pulso de la música
+const CAPAS = [E1, E2, E3, E4, E5, E6, E7, E8, E9], FUNCIONES = [escena1, escena2, escena3, escena4, escena5, escena6, escena7, escena8, escena9];
+function seek(t) {
+  TT = t;
+  LINEA.ESCENAS.forEach((e, i) => { const on = t >= e.ini && (t < e.fin || i === CAPAS.length - 1); CAPAS[i].style.display = on ? "block" : "none"; if (on) FUNCIONES[i](LINEA.interno(e.n, t)); });
+  telon(t);
+  document.getElementById("reloj").textContent = t.toFixed(2) + " s";
+}
+window.seek = seek; window.DUR = DUR;
+
+document.fonts.load('800 80px "Atk"').then(() => Promise.all([...document.images].map(i => i.complete ? 1 : new Promise(r => { i.onload = i.onerror = r; })))).then(() => {
+  armarMosaico();
+  window.LISTO = true;
+  if (P.has("render")) { seek(0); return; }
+  // vista previa: escala la escena a la ventana y la reproduce en bucle
+  const ajustar = () => { const s = Math.min(innerWidth / W, (innerHeight - 30) / H); stage.style.transform = "scale(" + s + ")"; };
+  ajustar(); addEventListener("resize", ajustar);
+  let pausa = P.has("t"), t = P.has("t") ? +P.get("t") : 0, antes = performance.now();
+  document.body.addEventListener("click", () => { pausa = !pausa; antes = performance.now(); });
+  const paso = ahora => { if (!pausa) { t += (ahora - antes) / 1000; if (t > DUR + .8) t = 0; } antes = ahora; seek(Math.min(t, DUR)); requestAnimationFrame(paso); };
+  requestAnimationFrame(paso);
+});
+</script>
+</body>
+</html>
