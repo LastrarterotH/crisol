@@ -27,3 +27,11 @@ reemplazar('<script type="module" src="js/app.js"></script>', "<script>window.DA
 fs.mkdirSync(path.dirname(SALIDA), { recursive: true });
 fs.writeFileSync(SALIDA, html);
 console.log("Listo: " + path.relative(__dirname, SALIDA) + " (" + Math.round(html.length / 1024) + " KB). Se abre con doble clic y funciona sin conexión.");
+// la versión que se juega en GitHub Pages (https://lastrarteroth.github.io/crisol/) es este mismo archivo, en docs/
+if (!OTRO) {
+  const DOCS = path.join(__dirname, "docs");
+  fs.mkdirSync(DOCS, { recursive: true });
+  fs.writeFileSync(path.join(DOCS, "index.html"), html);
+  fs.writeFileSync(path.join(DOCS, ".nojekyll"), "");
+  console.log("También en docs/index.html, que publica GitHub Pages.");
+}

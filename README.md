@@ -2,6 +2,8 @@
 
 Antes se llamaba Alquimia Docente.
 
+**Juega aquí: https://lastrarteroth.github.io/crisol/** (también se puede descargar `Crisol.html` desde las versiones publicadas del repositorio y abrirlo sin conexión).
+
 Herramienta para la formación docente universitaria, con forma de juego de mezclas (al estilo de Infinite Craft). Se parte de cuatro elementos primigenios (🧠 Mente, 🌍 Mundo, 🤝 Otros, ⏰ Tiempo) y, mezclando de a dos, se llega a ideas sobre cómo se aprende y cómo se enseña en la universidad. Cada ficha nueva abre una ficha de estudio con la explicación, un ejemplo de aula y las fuentes.
 
 Las misiones son el centro del juego. Cada una trae un encargo (un caso realista de docencia), un plano con las piezas que hay que reunir hasta la meta, con estrellas en las piezas clave del caso. Al cumplirla se descarga un plan de acción en Markdown. Dentro de una misión solo valen las mezclas que llevan a piezas de su plano; las demás avisan que por esa línea investigativa no se avanza.
@@ -17,7 +19,7 @@ npm install
 npm run empaquetar
 ```
 
-Genera `dist/Crisol.html`: un único archivo con el código, los estilos, las tipografías y los datos adentro. Se abre con doble clic en cualquier navegador moderno y funciona sin conexión ni servidor. Cada docente juega en su notebook y su avance queda guardado en su navegador.
+Genera `dist/Crisol.html`: un único archivo con el código, los estilos, las tipografías y los datos adentro. Copia el mismo archivo en `docs/index.html`, que es lo que publica GitHub Pages; después de empaquetar hay que commitear `docs/` para actualizar la versión en línea. Se abre con doble clic en cualquier navegador moderno y funciona sin conexión ni servidor. Cada docente juega en su notebook y su avance queda guardado en su navegador.
 
 ## Para trabajar en el código
 
